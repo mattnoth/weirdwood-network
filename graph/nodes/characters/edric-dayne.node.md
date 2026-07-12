@@ -75,13 +75,13 @@ After Beric's final death,(wiki:Edric_Dayne.cite_ref-Raffc42.7B.7B.7B3.7D.7D.7D.
 
 ### Quotes about Edric
 
-> Arya got goosebumps when Lord [Beric](wiki:Beric_Dondarrion) said [her father's](wiki:Eddard_Stark) name, but this Ned was only a boy, a fair-haired squire no more than ten or twelve.(wiki:Edric_Dayne.cite_ref-Rasos34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> Arya got goosebumps when Lord Beric said her father's name, but this Ned was only a boy, a fair-haired squire no more than ten or twelve.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ASOS (`sources/chapters/asos/asos-arya-06.md:181`)
 
-> The squire seemed nice enough to Arya; maybe a little shy, but good-natured. She had always heard that [Dornishmen](wiki:Dornishmen) were small and swarthy, with black hair and small black eyes, but Ned had big blue eyes, so dark that they looked almost [purple](wiki:Purple_eyes). And his hair was a pale blond, more ash than honey.(wiki:Edric_Dayne.cite_ref-Rasos43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-18)
+> The squire seemed nice enough to Arya; maybe a little shy, but good-natured. She had always heard that Dornishmen were small and swarthy, with black hair and small black eyes, but Ned had big blue eyes, so dark that they looked almost purple. And his hair was a pale blond, more ash than honey.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ASOS (`sources/chapters/asos/asos-arya-08.md:105`)
 
 > **Arya**: [Dornishmen](wiki:Dornishmen) lie, don't they?
 >

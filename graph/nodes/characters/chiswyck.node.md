@@ -50,6 +50,6 @@ At [Harrenhal](wiki:Harrenhal), Chiswyck tells a story about the gang rape of an
 
 ### Quotes about Chiswyck
 
-> She had killed Chiswyck with a whisper, and she would kill two more before she was through.(wiki:Chiswyck.cite_ref-Racok30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> She had killed Chiswyck with a whisper, and she would kill two more before she was through.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ACOK (`sources/chapters/acok/acok-arya-07.md:145`)

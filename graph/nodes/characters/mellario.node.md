@@ -51,19 +51,19 @@ When Prince [Quentyn Martell](wiki:Quentyn_Martell) is in [Meereen](wiki:Meereen
 >
 > —[George R.R. Martin](wiki:George_R.R._Martin)
 
-> The bears danced and the [bells](wiki:Norvos) rang, and the [prince](wiki:Doran_Martell) wore red and gold and orange. My lady asked me who it was who shone so bright.(wiki:Mellario.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4)
+> The bears danced and the bells rang, and the prince wore red and gold and orange. My lady asked me who it was who shone so bright.
 >
-> —[Areo Hotah](wiki:Areo_Hotah) about Mellario's first meeting with [Doran Martell](wiki:Doran_Martell)
+> —Areo Hotah about Mellario's first meeting with Doran Martell, AFFC (`sources/chapters/affc/affc-the-princess-in-the-tower-01.md:139`)
 
-> I should have gone to [Norvos](wiki:Norvos) to see my mother and the place that gave her birth, so she would know that I had not forgotten her.(wiki:Mellario.cite_ref-Radwd68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+> I should have gone to Norvos to see my mother and the place that gave her birth, so she would know that I had not forgotten her.
 >
-> —[Quentyn Martell](wiki:Quentyn_Martell)'s regrets
+> —Quentyn Martell's regrets, ADWD (`sources/chapters/adwd/adwd-the-dragontamer-01.md:79`)
 
 ### Quotes by Mellario
 
-> He is [your son](wiki:Quentyn_Martell). What sort of [father](wiki:Doran_Martell) uses his own flesh and blood to pay [his debts](wiki:House_Yronwood)?(wiki:Mellario.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
+> He is your son. What sort of father uses his own flesh and blood to pay his debts?
 >
-> —Mellario to [Doran Martell](wiki:Doran_Martell)
+> —Mellario to Doran Martell, AFFC (`sources/chapters/affc/affc-the-queenmaker-01.md:67`)
 
 ## Edges
 

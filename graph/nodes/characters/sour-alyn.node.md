@@ -44,6 +44,6 @@ Alyn and [Skinner](wiki:Skinner) toss a freerider from the Battlements Gate of [
 
 ### Quotes about Sour Alyn
 
-> [Grunt](wiki:Grunt) had no tongue and Sour Alyn had no wits, Lord [Ramsay](wiki:Ramsay_Snow) liked to say. One was brutal, the other mean, but both had spent most of their lives in service at the [Dreadfort](wiki:Dreadfort). They did as they were told.(wiki:Sour_Alyn.cite_ref-Radwd51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> Grunt had no tongue and Sour Alyn had no wits, Lord Ramsay liked to say. One was brutal, the other mean, but both had spent most of their lives in service at the Dreadfort. They did as they were told.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-theon-01.md:191`)

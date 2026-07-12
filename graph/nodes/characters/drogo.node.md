@@ -113,9 +113,9 @@ Now [Queen of Meereen](wiki:Queen_of_Meereen), Daenerys continues to wear the li
 
 ### Quotes about Drogo
 
-> Khal Drogo was a head taller than the tallest man in the room, yet somehow light on his feet, as graceful as the [panther](wiki:Panther) in [Illyrio's menagerie](wiki:Illyrio's_manse). He was younger than she'd thought, no more than thirty. His skin was the color of polished [copper](wiki:Copper), his thick mustachios bound with [gold](wiki:Gold) and [bronze](wiki:Bronze) rings.(wiki:Drogo.cite_ref-Ragot3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-13)
+> Khal Drogo was a head taller than the tallest man in the room, yet somehow light on his feet, as graceful as the panther in Illyrio's menagerie. He was younger than she'd thought, no more than thirty. His skin was the color of polished copper, his thick mustachios bound with gold and bronze rings.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, AGOT (`sources/chapters/agot/agot-daenerys-01.md:119`)
 
 > Do you see his braid, sweet sister? You see how long it is? When [Dothraki](wiki:Dothraki) are defeated in combat, they cut off their braids in disgrace, so the world will know their shame. Khal Drogo has never lost a fight. He is [Aegon the Dragonlord](wiki:Aegon_I_Targaryen) come again, and you will be [his queen](wiki:Khaleesi).(wiki:Drogo.cite_ref-Ragot3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-14)
 >

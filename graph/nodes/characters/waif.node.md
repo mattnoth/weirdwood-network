@@ -67,6 +67,6 @@ The waif attends the meeting of servants of the [Many-Faced God](wiki:Many-Faced
 
 ### Quotes about the waif
 
-> The one you call waif is a woman grown who has spent her life serving [Him of Many Faces](wiki:Many-Faced_God). She gave Him all she was, all she ever might have been, all the lives that were within her.(wiki:Waif.cite_ref-Raffc22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-10)
+> The one you call waif is a woman grown who has spent her life serving Him of Many Faces. She gave Him all she was, all she ever might have been, all the lives that were within her.
 >
-> —[Kindly man](wiki:Kindly_man) to [Arya Stark](wiki:Arya_Stark)
+> —Kindly man to Arya Stark, AFFC (`sources/chapters/affc/affc-arya-02.md:237`)

@@ -55,9 +55,9 @@ Moqorro studies the [Valyrian glyphs](wiki:High_Valyrian) on the [dragon horn](w
 
 Confirmed verbatim in chapter — ADWD Tyrion VIII, `sources/chapters/adwd/adwd-tyrion-08.md:49` [in-world R'hllor fire-vision; node-prose only — THEORY-GATED, no theory/prophecy edge asserted]
 
-> The [Lord of Light](wiki:R'hllor) has shown me your worth, [lord Captain](wiki:Victarion_Greyjoy). Every night in my fires I glimpse the glory that awaits you.(wiki:Moqorro.cite_ref-Radwd63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> The Lord of Light has shown me your worth, lord Captain. Every night in my fires I glimpse the glory that awaits you.
 >
-> —Moqorro to [Victarion Greyjoy](wiki:Victarion_Greyjoy)
+> —Moqorro to Victarion Greyjoy, ADWD (`sources/chapters/adwd/adwd-victarion-01.md:77`)
 
 > Daenerys Targaryen was not dead, Moqorro assured him; his red god R'hllor had shown him the queen's face in his sacred fires.
 

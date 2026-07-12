@@ -63,9 +63,9 @@ Davos recalls that Maester Pylos had taught him how to read.(wiki:Pylos.cite_ref
 
 ### Quotes by Pylos
 
-> Words are wind, you know, and you've blown mine away with your good sense.(wiki:Pylos.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-6)
+> Words are wind, you know, and you've blown mine away with your good sense.
 >
-> —Pylos to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Pylos to Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-05.md:191`)
 
 > **Davos**: The [King's Hand](wiki:Hand_of_the_King) should be a highborn [lord](wiki:Lord), someone wise and learned, a battle commander or a great [knight](wiki:Knight)... **Pylos**: Ser [Ryam Redwyne](wiki:Ryam_Redwyne) was the greatest knight of his day, and one of the worst Hands ever to serve a king. [Septon](wiki:Septon) [Murmison](wiki:Murmison)'s prayers worked miracles, but as Hand he soon had the [whole realm](wiki:Seven_Kingdoms) praying for his death. Lord [Butterwell](wiki:Ambrose_Butterwell) was renowned for wit, [Myles Smallwood](wiki:Myles_Smallwood) for courage, Ser [Otto Hightower](wiki:Otto_Hightower) for learning, yet they failed as Hands, every one. As for birth, the [dragonkings](wiki:House_Targaryen) oft chose Hands from amongst their own blood, with results as various as [Baelor Breakspear](wiki:Baelor_Targaryen_(son_of_Daeron_II)) and [Maegor the Cruel](wiki:Maegor_I_Targaryen). Against this, you have Septon [Barth](wiki:Barth), the blacksmith's son the [Old King](wiki:Jaehaerys_I_Targaryen) plucked from the [Red Keep](wiki:Red_Keep)'s library, who gave the realm forty years of peace and plenty. Read your history, Lord Davos, and you will see that your doubts are groundless.(wiki:Pylos.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-7)
 >
@@ -81,14 +81,14 @@ Davos recalls that Maester Pylos had taught him how to read.(wiki:Pylos.cite_ref
 
 ### Quotes about Pylos
 
-> Pylos was a polite youth, no more than five-and-twenty, yet solemn as a man of sixty. If only he had more humor, more life in him; that was what was needed [here](wiki:Dragonstone).(wiki:Pylos.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+> Pylos was a polite youth, no more than five-and-twenty, yet solemn as a man of sixty. If only he had more humor, more life in him; that was what was needed here.
 >
-> —thoughts of [Cressen](wiki:Cressen)
+> —thoughts of Cressen, ACOK (`sources/chapters/acok/acok-prologue.md:37`)
 
-> My liege, Pylos is pleasant enough, but I cannot see the chain about his neck without mourning for Maester [Cressen](wiki:Cressen).(wiki:Pylos.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+> My liege, Pylos is pleasant enough, but I cannot see the chain about his neck without mourning for Maester Cressen.
 >
-> —[Davos Seaworth](wiki:Davos_Seaworth), to [Stannis Baratheon](wiki:Stannis_Baratheon)
+> —Davos Seaworth, to Stannis Baratheon, ACOK (`sources/chapters/acok/acok-davos-01.md:207`)
 
-> Davos had been uncertain of Pylos. Perhaps he resented him for taking old [Cressen](wiki:Cressen)'s place. But now he could only admire the man's courage. This could mean his life as well.(wiki:Pylos.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-9)
+> Davos had been uncertain of Pylos. Perhaps he resented him for taking old Cressen's place. But now he could only admire the man's courage. This could mean his life as well.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-06.md:75`)

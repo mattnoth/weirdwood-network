@@ -143,37 +143,37 @@ The exiled Lord [Jon Connington](wiki:Jon_Connington) leads the [landing of the 
 
 ## Quotes
 
-> I swear to you, sitting a throne is a thousand times harder than winning one.(wiki:Iron_Throne.cite_ref-Ragot4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_53-2)
+> I swear to you, sitting a throne is a thousand times harder than winning one.
 >
-> —[Robert I Baratheon](wiki:Robert_I_Baratheon) to [Eddard Stark](wiki:Eddard_Stark)
+> —Robert I Baratheon to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-01.md:127`)
 
-> Have no fear, Stark. I was only keeping it warm for our friend [Robert](wiki:Robert_I_Baratheon). It's not a very comfortable seat, I'm afraid.(wiki:Iron_Throne.cite_ref-Ragot12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-2)
+> Have no fear, Stark. I was only keeping it warm for our friend Robert. It's not a very comfortable seat, I'm afraid.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister) to [Eddard Stark](wiki:Eddard_Stark)
+> —Jaime Lannister to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-02.md:155`)
 
-> The Iron Throne was full of traps for the unwary. The songs said it had taken a thousand blades to make it, heated white-hot in the furnace breath of [Balerion the Black Dread](wiki:Balerion). The hammering had taken fifty-nine days. The end of it was this hunched black beast made of razor edges and barbs and ribbons of sharp metal; a chair that could kill a man, and had, if the stories could be believed.(wiki:Iron_Throne.cite_ref-Ragot43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-11)
+> The Iron Throne was full of traps for the unwary. The songs said it had taken a thousand blades to make it, heated white-hot in the furnace breath of Balerion the Black Dread. The hammering had taken fifty-nine days. The end of it was this hunched black beast made of razor edges and barbs and ribbons of sharp metal; a chair that could kill a man, and had, if the stories could be believed.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-11.md:51`)
 
-> Seat [Stannis](wiki:Stannis_Baratheon) on the Iron Throne and I promise you, [the realm](wiki:Seven_Kingdoms) will bleed.(wiki:Iron_Throne.cite_ref-Ragot47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_94-0)
+> Seat Stannis on the Iron Throne and I promise you, the realm will bleed.
 >
-> —[Petyr Baelish](wiki:Petyr_Baelish) to [Eddard Stark](wiki:Eddard_Stark)
+> —Petyr Baelish to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-13.md:241`)
 
 > When [dead men](wiki:Wights) come hunting in the night, do you think it matters who sits on the Iron Throne?(wiki:Iron_Throne.cite_ref-Ragot70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_95-0)
 >
 > —[Jeor Mormont](wiki:Jeor_Mormont) to [Jon Snow](wiki:Jon_Snow)
 
-> [They](wiki:House_Lannister) can keep their [red castle](wiki:Red_Keep) and their iron chair as well.(wiki:Iron_Throne.cite_ref-Ragot71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_61-1)
+> They can keep their red castle and their iron chair as well.
 >
-> —[Rickard Karstark](wiki:Rickard_Karstark) to [Jon Umber](wiki:Jon_Umber)
+> —Rickard Karstark to Jon Umber, AGOT (`sources/chapters/agot/agot-catelyn-11.md:213`)
 
 > Tell me, what right did my brother [Robert](wiki:Robert_I_Baratheon) ever have to the Iron Throne? Oh, there was talk of the blood ties between [Baratheon](wiki:House_Baratheon) and [Targaryen](wiki:House_Targaryen), of weddings a hundred years past, of second sons and elder daughters. No one but the [maesters](wiki:Maesters) care about any of it. Robert [won the throne](wiki:Robert's_Rebellion) with [his warhammer](wiki:Robert's_warhammer).(wiki:Iron_Throne.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_91-1)
 >
 > —[Renly Baratheon](wiki:Renly_Baratheon) to [Catelyn Stark](wiki:Catelyn_Stark)
 
-> This Iron Throne you speak of sounds monstrous cold and hard. I cannot bear the thought of jagged barbs cutting your sweet skin.(wiki:Iron_Throne.cite_ref-Racok40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_65-2)
+> This Iron Throne you speak of sounds monstrous cold and hard. I cannot bear the thought of jagged barbs cutting your sweet skin.
 >
-> —[Xaro Xhoan Daxos](wiki:Xaro_Xhoan_Daxos) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Xaro Xhoan Daxos to Daenerys Targaryen, ACOK (`sources/chapters/acok/acok-daenerys-03.md:73`)
 
 > **Jorah**: When [Aegon the Dragon](wiki:Aegon_I_Targaryen) stepped ashore in [Westeros](wiki:Westeros), the kings of [Vale](wiki:Ronnel_Arryn_(king)) and [Rock](wiki:Loren_I_Lannister) and [Reach](wiki:Mern_IX_Gardener) did not rush to hand him their crowns. If you mean to sit his Iron Throne, you must win it as he did, with [steel](wiki:Steel) and [dragonfire](wiki:Dragonfire). And that will mean blood on your hands before the thing is done. **Daenerys**: The blood of my enemies I will shed gladly. The blood of innocents is another matter.(wiki:Iron_Throne.cite_ref-Rasos23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_96-0)
 >
@@ -183,13 +183,13 @@ The exiled Lord [Jon Connington](wiki:Jon_Connington) leads the [landing of the 
 >
 > —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Davos Seaworth](wiki:Davos_Seaworth)
 
-> By the end the [Mad King](wiki:Aerys_II_Targaryen) had become so fearful that he would allow no blade in his presence, save for the swords his [Kingsguard](wiki:Kingsguard) wore. His beard was matted and unwashed, his hair a silver-gold tangle that reached his waist, his fingernails cracked yellow claws nine inches long. Yet still the blades tormented him, the ones he could never escape, the blades of the Iron Throne. His arms and legs were always covered with scabs and half-healed cuts.(wiki:Iron_Throne.cite_ref-Raffc16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_97-0)
+> By the end the Mad King had become so fearful that he would allow no blade in his presence, save for the swords his Kingsguard wore. His beard was matted and unwashed, his hair a silver-gold tangle that reached his waist, his fingernails cracked yellow claws nine inches long. Yet still the blades tormented him, the ones he could never escape, the blades of the Iron Throne. His arms and legs were always covered with scabs and half-healed cuts.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-02.md:137`)
 
-> I will claim the Iron Throne by myself, with your swords and your allegiance.(wiki:Iron_Throne.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_98-0)
+> I will claim the Iron Throne by myself, with your swords and your allegiance.
 >
-> —[Aegon Targaryen](wiki:Aegon_Targaryen_(Young_Griff)) to the [Golden Company](wiki:Golden_Company)
+> —Aegon Targaryen) to the Golden Company, ADWD (`sources/chapters/adwd/adwd-the-lost-lord-01.md:217`)
 
 > Have you ever seen the Iron Throne? The barbs along the back, the ribbons of twisted steel, the jagged ends of swords and knives all tangled up and melted? It is not a comfortable seat, ser. Aerys cut himself so often men took to calling him King Scab, and Maegor the Cruel was murdered in that chair. (asos-davos-04:149)
 >

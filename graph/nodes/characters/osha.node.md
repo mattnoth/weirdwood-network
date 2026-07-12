@@ -104,21 +104,21 @@ At [White Harbor](wiki:White_Harbor), [Davos Seaworth](wiki:Davos_Seaworth) lear
 
 ### Quotes about Osha
 
-> Even in irons, the [wildling](wiki:Wildling) moved quiet as a [cat](wiki:Cat).(wiki:Osha.cite_ref-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
+> Even in irons, the wildling moved quiet as a cat.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, AGOT (`sources/chapters/agot/agot-bran-06.md:107`)
 
-> Her hair was growing out, brown and shaggy. It made her look more womanly, that and the simple dress of brown roughspun they'd given her when they took her mail and leather.(wiki:Osha.cite_ref-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13)
+> Her hair was growing out, brown and shaggy. It made her look more womanly, that and the simple dress of brown roughspun they'd given her when they took her mail and leather.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, AGOT (`sources/chapters/agot/agot-bran-06.md:111`)
 
 > The [wildling](wiki:Wildling) woman could give [Old Nan](wiki:Old_Nan) lessons in telling tales, I think.(wiki:Osha.cite_ref-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-14)
 >
 > —[Luwin](wiki:Luwin) to [Bran Stark](wiki:Bran_Stark)
 
-> I should have known better than to trust that one. She's as unnatural as [Asha](wiki:Asha_Greyjoy). Even their names sound alike.(wiki:Osha.cite_ref-Racok50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-3)
+> I should have known better than to trust that one. She's as unnatural as Asha. Even their names sound alike.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-04.md:93`)
 
 ## Edges
 

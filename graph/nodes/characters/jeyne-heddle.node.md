@@ -46,9 +46,9 @@ The [wench](wiki:Wench)(wiki:Jeyne_Heddle.cite_ref-Raffcappendix.7B.7B.7B3.7D.7D
 
 ### Quotes about Jeyne
 
-> Brown hair, brown eyes, plain. [Willow](wiki:Willow_Heddle), six years older.(wiki:Jeyne_Heddle.cite_ref-Raffc42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+> Brown hair, brown eyes, plain. Willow, six years older.
 >
-> —thoughts of [Brienne Tarth](wiki:Brienne_Tarth)
+> —thoughts of Brienne Tarth, AFFC (`sources/chapters/affc/affc-brienne-08.md:59`)
 
 > She is too young to be so hard.(wiki:Jeyne_Heddle.cite_ref-Raffc42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
 >

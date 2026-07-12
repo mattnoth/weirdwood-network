@@ -31,19 +31,18 @@ Following the death of Renly at [Storm's End](wiki:Siege_of_Storm's_End_(299)) i
 
 ## Quotes
 
-> It was just the sort of notion that would appeal to [Renly Baratheon](wiki:Renly_Baratheon); a splendid new order of [knighthood](wiki:Knight), with gorgeous new raiment to proclaim it.(wiki:Rainbow_Guard.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> It was just the sort of notion that would appeal to Renly Baratheon; a splendid new order of knighthood, with gorgeous new raiment to proclaim it.
 >
-> —thoughts of [Cressen](wiki:Cressen)
+> —thoughts of Cressen, ACOK (`sources/chapters/acok/acok-prologue.md:145`)
 
 > **Brienne**: I ask the honor of a place among your Rainbow Guard. I would be one of your seven, and pledge my life to yours, to go where you go, ride at your side, and keep you safe from all hurt and harm. **Renly**: Done.(wiki:Rainbow_Guard.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 >
 > —[Brienne of Tarth](wiki:Brienne_of_Tarth) and [Renly Baratheon](wiki:Renly_Baratheon)
 
-> I was one of King [Renly's](wiki:Renly_Baratheon) chosen seven. With his own hands, he cloaked me with the striped silk of the Rainbow Guard.(wiki:Rainbow_Guard.cite_ref-Rasos1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
+> I was one of King Renly's chosen seven. With his own hands, he cloaked me with the striped silk of the Rainbow Guard.
 >
-> —[Brienne of Tarth](wiki:Brienne_of_Tarth), to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Brienne of Tarth, to Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-01.md:175`)
 
 > The green light shone strangely against the purple plums of Ser Parmen’s surcoat, and gave a sickly hue to the sunflowers that covered every inch of Ser Emmon’s enameled yellow plate. Long silken plumes flew from their helms, and rainbow cloaks draped their shoulders.
 >
 > — sources/chapters/acok/acok-catelyn-04.md:45 · Direct visual description of two Rainbow Guard members (Parmen Crane, Emmon Cuy) in their individual livery  _(capture: chapter-quote sweep, physical)_
-

@@ -31,6 +31,6 @@ Lord Hewett's Town is captured by the [ironborn](wiki:Ironborn) during their [ta
 
 ## Quotes
 
-> The streets were strewn with corpses, each with a small flock of [carrion crows](wiki:Crow) in attendance.(wiki:Lord_Hewett's_Town.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> The streets were strewn with corpses, each with a small flock of carrion crows in attendance.
 >
-> —thoughts of [Victarion Greyjoy](wiki:Victarion_Greyjoy)
+> —thoughts of Victarion Greyjoy, AFFC (`sources/chapters/affc/affc-the-reaver-01.md:111`)

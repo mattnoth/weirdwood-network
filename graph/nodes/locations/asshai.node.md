@@ -127,9 +127,9 @@ At the [Wall](wiki:Wall), Melisandre notes that she is stronger there than even 
 >
 > —[Mirri Maz Duur](wiki:Mirri_Maz_Duur) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> You need not join the [dosh khaleen](wiki:Dosh_khaleen). Come east with me. [Yi Ti](wiki:Yi_Ti), [Qarth](wiki:Qarth), the [Jade Sea](wiki:Jade_Sea), Asshai by the Shadow. We will see all the wonders yet unseen, and drink what [wines](wiki:Wine) the gods see fit to serve us.(wiki:Asshai.cite_ref-Ragot72.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+> You need not join the dosh khaleen. Come east with me. Yi Ti, Qarth, the Jade Sea, Asshai by the Shadow. We will see all the wonders yet unseen, and drink what wines the gods see fit to serve us.
 >
-> —[Jorah Mormont](wiki:Jorah_Mormont) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Jorah Mormont to Daenerys Targaryen, AGOT (`sources/chapters/agot/agot-daenerys-10.md:27`)
 
 > To go north, you must journey south, to reach the west you must go east. To go forward you must go back, and to touch the light you must pass beneath the shadow.(wiki:Asshai.cite_ref-Racok40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4)
 >
@@ -139,9 +139,9 @@ At the [Wall](wiki:Wall), Melisandre notes that she is stronger there than even 
 >
 > —[Daenerys Targaryen](wiki:Daenerys_Targaryen) and [Quaithe](wiki:Quaithe)
 
-> Godless? Why, Aeron, I am the godliest man ever to raise sail! You serve [one god](wiki:Drowned_God), Damphair, but I have served ten thousand. From [Ib](wiki:Ib) to Asshai, when men see [my sails](wiki:Silence), they pray.(wiki:Asshai.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_43-0)
+> Godless? Why, Aeron, I am the godliest man ever to raise sail! You serve one god, Damphair, but I have served ten thousand. From Ib to Asshai, when men see my sails, they pray.
 >
-> —[Euron Greyjoy](wiki:Euron_Greyjoy) to [Aeron Greyjoy](wiki:Aeron_Greyjoy)
+> —Euron Greyjoy to Aeron Greyjoy, AFFC (`sources/chapters/affc/affc-the-iron-captain-01.md:145`)
 
 > **Euron**: Only one living [kraken](wiki:House_Greyjoy) has never known defeat. Only one has never bent his knee. Only one has sailed to Asshai by the Shadow, and seen wonders and terrors beyond imagining ... **Qarl**: If you liked the Shadow so well, go back there.(wiki:Asshai.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-1)
 >

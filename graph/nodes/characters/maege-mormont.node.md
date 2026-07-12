@@ -62,6 +62,6 @@ Lady Maege is among the northern lords who accompanies King Robb Stark north fro
 
 ### Quotes about Maege
 
-> You are not the only one touched by this war. Like as not, my sister is marching in [your brother](wiki:Robb_Stark)’s host, her and those daughters of hers, dressed in men’s mail. Maege is a hoary old snark, stubborn, short-tempered, and willful. Truth be told, I can hardly stand to be around the wretched woman, but that does not mean my love for her is any less than the love you bear your half sisters.(wiki:Maege_Mormont.cite_ref-Ragot70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+> You are not the only one touched by this war. Like as not, my sister is marching in your brother’s host, her and those daughters of hers, dressed in men’s mail. Maege is a hoary old snark, stubborn, short-tempered, and willful. Truth be told, I can hardly stand to be around the wretched woman, but that does not mean my love for her is any less than the love you bear your half sisters.
 >
-> —[Jeor Mormont](wiki:Jeor_Mormont) to [Jon Snow](wiki:Jon_Snow)
+> —Jeor Mormont to Jon Snow, AGOT (`sources/chapters/agot/agot-jon-09.md:227`)

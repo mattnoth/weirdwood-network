@@ -68,21 +68,21 @@ Lady Sybelle sends trackers and hunters to guide Stannis's army for their [march
 >
 > —[Theon Greyjoy](wiki:Theon_Greyjoy) to [Asha Greyjoy](wiki:Asha_Greyjoy)
 
-> Deepwood is a motte-and-bailey castle in the midst of [thick forest](wiki:Wolfswood), easy to creep up on unawares. A wooden castle, defended by an earthen dike and a palisade of logs.(wiki:Deepwood_Motte.cite_ref-Radwd17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
+> Deepwood is a motte-and-bailey castle in the midst of thick forest, easy to creep up on unawares. A wooden castle, defended by an earthen dike and a palisade of logs.
 >
-> —[Jon Snow](wiki:Jon_Snow) to [Stannis Baratheon](wiki:Stannis_Baratheon)
+> —Jon Snow to Stannis Baratheon, ADWD (`sources/chapters/adwd/adwd-jon-04.md:323`)
 
-> It was an old castle, but not a strong one.(wiki:Deepwood_Motte.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-10)
+> It was an old castle, but not a strong one.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-wayward-bride-01.md:95`)
 
-> Deepwood be [Galbart Glover](wiki:Galbart_Glover)'s seat. No home for [squids](wiki:House_Greyjoy).(wiki:Deepwood_Motte.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-11)
+> Deepwood be Galbart Glover's seat. No home for squids.
 >
-> —unnamed [Flint](wiki:House_Flint) to [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —unnamed Flint to Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-wayward-bride-01.md:219`)
 
-> Tall [soldier pines](wiki:Soldier_pine) and gnarled old [oaks](wiki:Oak) closed in around [them](wiki:Ironborn). Deepwood was aptly named. [The trees](wiki:Wolfswood) were huge and dark, somehow threatening. Their limbs wove through one another and creaked with every breath of wind, and their higher branches scratched at the face of the [moon](wiki:Moon). The sooner we are shut of here, the better I will like it, Asha thought. The trees hate us all, deep in their wooden hearts.(wiki:Deepwood_Motte.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-12)
+> Tall soldier pines and gnarled old oaks closed in around them. Deepwood was aptly named. The trees were huge and dark, somehow threatening. Their limbs wove through one another and creaked with every breath of wind, and their higher branches scratched at the face of the moon. The sooner we are shut of here, the better I will like it, Asha thought. The trees hate us all, deep in their wooden hearts.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-wayward-bride-01.md:287`)
 
 > **Robett**: Robett Glover, if it please, my lord.
 >

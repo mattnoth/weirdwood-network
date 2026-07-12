@@ -106,13 +106,13 @@ To stop Cersei's scheme from coming to fruition, Doran has Myrcella meet Balon a
 >
 > —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> His [two white shadows](wiki:Kingsguard) were always with him; Balon Swann and [Mandon Moore](wiki:Mandon_Moore), beautiful in their pale plate. Surrounded by a circle of [Velaryon](wiki:House_Velaryon) [spearmen](wiki:Spear), they fought back to back; they made battle as graceful as a dance.(wiki:Balon_Swann.cite_ref-Racok61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
+> His two white shadows were always with him; Balon Swann and Mandon Moore, beautiful in their pale plate. Surrounded by a circle of Velaryon spearmen, they fought back to back; they made battle as graceful as a dance.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-14.md:55`)
 
-> This one is not so easily seduced as was his [Sworn Brother](wiki:Sworn_Brother), Hotah thought. Ser [Arys](wiki:Arys_Oakheart) was a boy, despite his years. This one is a man, and wary.(wiki:Balon_Swann.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-11)
+> This one is not so easily seduced as was his Sworn Brother, Hotah thought. Ser Arys was a boy, despite his years. This one is a man, and wary.
 >
-> —thoughts of [Areo Hotah](wiki:Areo_Hotah)
+> —thoughts of Areo Hotah, ADWD (`sources/chapters/adwd/adwd-the-watcher-01.md:67`)
 
 > **Nymeria**: This is monstrous. I would not have believed it, not of a [Kingsguard](wiki:Kingsguard) [knight](wiki:Knight). **Doran**: They are sworn to obey, just as [my captain](wiki:Areo_Hotah) is.(wiki:Balon_Swann.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-12)
 >

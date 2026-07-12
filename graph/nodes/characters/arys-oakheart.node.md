@@ -78,9 +78,9 @@ The Dornish court informs Ser Balon Swann that Arys was killed by Ser [Gerold Da
 >
 > —Arys to [Arianne Martell](wiki:Arianne_Martell)
 
-> You will not take [her](wiki:Myrcella_Baratheon) whilst I still draw breath.(wiki:Arys_Oakheart.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+> You will not take her whilst I still draw breath.
 >
-> —Arys to [Areo Hotah](wiki:Areo_Hotah)
+> —Arys to Areo Hotah, AFFC (`sources/chapters/affc/affc-the-queenmaker-01.md:271`)
 
 ### Quotes about Arys
 

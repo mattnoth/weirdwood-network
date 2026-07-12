@@ -81,6 +81,6 @@ In the [Great Pyramid's audience chamber](wiki:Audience_chamber_(Great_Pyramid))
 >
 > —[Barristan Selmy](wiki:Barristan_Selmy) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> Jaehaerys. [This old man](wiki:Barristan_Selmy) knew my grandfather.(wiki:Jaehaerys_II_Targaryen.cite_ref-Rasos71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-2)
+> Jaehaerys. This old man knew my grandfather.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-06.md:175`)

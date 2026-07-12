@@ -153,9 +153,9 @@ Walder sends at least 1,400 Frey soldiers under the command of two sons, Ser [Ae
 >
 > —[Catelyn Stark](wiki:Catelyn_Stark) and Walder
 
-> Do you think I can't tell Lord [Stannis](wiki:Stannis_Baratheon) from Lord [Tywin](wiki:Tywin_Lannister)? They're both bungholes who think they're too noble to shit, but never mind about that, I know the difference.(wiki:Walder_Frey.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-17)
+> Do you think I can't tell Lord Stannis from Lord Tywin? They're both bungholes who think they're too noble to shit, but never mind about that, I know the difference.
 >
-> —Walder to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Walder to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-09.md:207`)
 
 > **Walder**: You will forgive me if I do not kneel, I know. My legs no longer work as they did, though that which hangs between 'em serves well enough, heh. Some would say it's a poor king who crowns himself with bronze, Your Grace.
 >
@@ -169,29 +169,29 @@ Walder sends at least 1,400 Frey soldiers under the command of two sons, Ser [Ae
 
 ### Quotes about Walder
 
-> Lord Walder Frey might be sworn to [Riverrun](wiki:Riverrun), but he was a cautious man who had lived a long time by making certain he was always on the winning side.(wiki:Walder_Frey.cite_ref-Ragot31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-2)
+> Lord Walder Frey might be sworn to Riverrun, but he was a cautious man who had lived a long time by making certain he was always on the winning side.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-04.md:57`)
 
-> That bore Walder Frey's seal beyond a doubt, Catelyn thought bitterly; hold back, wait, watch, take no risk unless forced to it.(wiki:Walder_Frey.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-18)
+> That bore Walder Frey's seal beyond a doubt, Catelyn thought bitterly; hold back, wait, watch, take no risk unless forced to it.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-09.md:47`)
 
 > **Robett**: Do you think he means to betray us to the Lannisters, my lady? **Catelyn**: He has an old man's caution and a young man's ambition, and has never lacked for cunning.(wiki:Walder_Frey.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-19)
 >
 > —[Robett Glover](wiki:Robett_Glover) and [Catelyn Stark](wiki:Catelyn_Stark)
 
-> [Her father](wiki:Hoster_Tully) had once said of Walder Frey that he was the only lord in the [Seven Kingdoms](wiki:Seven_Kingdoms) who could field an army out of his breeches.(wiki:Walder_Frey.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-20)
+> Her father had once said of Walder Frey that he was the only lord in the Seven Kingdoms who could field an army out of his breeches.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-09.md:137`)
 
-> There was something of the vulture about Lord Walder, and rather more of the weasel.(wiki:Walder_Frey.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+> There was something of the vulture about Lord Walder, and rather more of the weasel.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-06.md:85`)
 
-> A few barbed words and some unseemly gloating. From him that's courtesy. I expected the old weasel to piss in our wine and make us praise the vintage.(wiki:Walder_Frey.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7)
+> A few barbed words and some unseemly gloating. From him that's courtesy. I expected the old weasel to piss in our wine and make us praise the vintage.
 >
-> —[Edmure Tully](wiki:Edmure_Tully) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Edmure Tully to Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-06.md:201`)
 
 > **Tyrion**: So much for [guest right](wiki:Guest_right).
 >

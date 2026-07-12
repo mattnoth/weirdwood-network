@@ -33,6 +33,6 @@ Willam serves as [captain of the guard](wiki:House_Tyrell_guards) for Queen [Mar
 
 ## Quotes
 
-> [Squirrels](wiki:House_Wythers) run from [lions](wiki:House_Lannister). He does not have it in him to defy the [Iron Throne](wiki:Iron_Throne).(wiki:Willam_Wythers.cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> Squirrels run from lions. He does not have it in him to defy the Iron Throne.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister) to [Taena Merryweather](wiki:Taena_Merryweather)
+> —Cersei Lannister to Taena Merryweather, AFFC (`sources/chapters/affc/affc-cersei-07.md:151`)

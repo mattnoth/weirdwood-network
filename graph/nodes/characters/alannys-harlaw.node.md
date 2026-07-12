@@ -73,21 +73,21 @@ Having fled Old Wyk after the kingsmoot, Asha briefly stops at Ten Towers to bid
 
 ### Quotes about Alannys
 
-> Your mother dwells on [Harlaw](wiki:Harlaw), with [her own sister](wiki:Gwynesse_Harlaw). It is less raw there, and her cough troubles her.(wiki:Alannys_Harlaw.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+> Your mother dwells on Harlaw, with her own sister. It is less raw there, and her cough troubles her.
 >
-> —[Aeron Greyjoy](wiki:Aeron_Greyjoy) to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Aeron Greyjoy to Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-01.md:177`)
 
 > **Esgred**: The cold winds have worn her away, I hear. Will you not go see her? [Harlaw](wiki:Harlaw) is only a day's sail, and surely Lady Greyjoy yearns for a last sight of her son. **Theon**: Would that I could. I am kept too busy here. [My father](wiki:Balon_Greyjoy) relies on me, now that I am returned. Come peace, perhaps ...(wiki:Alannys_Harlaw.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
 >
 > —"Esgred" ([Asha Greyjoy](wiki:Asha_Greyjoy)) and [Theon Greyjoy](wiki:Theon_Greyjoy)
 
-> Alannys Harlaw never had the sort of beauty the singers cherished, but her daughter had loved her fierce strong face and the laughter in her eyes. On that last visit, though, she had found Lady Alannys in a window seat huddled beneath a pile of furs, staring out across the sea. Is this my mother, or her [ghost](wiki:Ghosts)? she remembered thinking as she'd kissed her cheek.(wiki:Alannys_Harlaw.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-15)
+> Alannys Harlaw never had the sort of beauty the singers cherished, but her daughter had loved her fierce strong face and the laughter in her eyes. On that last visit, though, she had found Lady Alannys in a window seat huddled beneath a pile of furs, staring out across the sea. Is this my mother, or her ghost? she remembered thinking as she'd kissed her cheek.
 >
-> —[Asha Greyjoy](wiki:Asha_Greyjoy)'s thoughts
+> —Asha Greyjoy's thoughts, AFFC (`sources/chapters/affc/affc-the-krakens-daughter-01.md:35`)
 
-> And now I must tell her that [Theon](wiki:Theon_Greyjoy) is dead, and drive yet another dagger through her heart. There were two knives buried there already. On the blades were writ the words [Rodrik](wiki:Rodrik_Greyjoy) and [Maron](wiki:Maron_Greyjoy), and many a time they twisted cruelly in the night. I will see her on the morrow, Asha vowed to herself. Her journey had been long and wearisome, she could not face her mother now.(wiki:Alannys_Harlaw.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-16)
+> And now I must tell her that Theon is dead, and drive yet another dagger through her heart. There were two knives buried there already. On the blades were writ the words Rodrik and Maron, and many a time they twisted cruelly in the night. I will see her on the morrow, Asha vowed to herself. Her journey had been long and wearisome, she could not face her mother now.
 >
-> —[Asha Greyjoy](wiki:Asha_Greyjoy)'s thoughts
+> —Asha Greyjoy's thoughts, AFFC (`sources/chapters/affc/affc-the-krakens-daughter-01.md:39`)
 
 > **Rodrik**: You have not asked about your lady mother.
 >

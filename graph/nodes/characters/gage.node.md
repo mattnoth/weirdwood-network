@@ -36,9 +36,9 @@ Theon Greyjoy and [Jeyne Poole](wiki:Jeyne_Poole) escape Winterfell, and are dis
 
 ## Quotes
 
-> Well, your [dreams](wiki:Dream) are your business. Mine's in the kitchens, and I'd best be getting back before Gage starts to shouting and waving that big wooden spoon of his.(wiki:Gage.cite_ref-Racok16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+> Well, your dreams are your business. Mine's in the kitchens, and I'd best be getting back before Gage starts to shouting and waving that big wooden spoon of his.
 >
-> —[Osha](wiki:Osha) to [Bran Stark](wiki:Bran_Stark)
+> —Osha to Bran Stark, ACOK (`sources/chapters/acok/acok-bran-02.md:213`)
 
 > **Mors**: When last I was inside those walls, your cook served us a steak and kidney pie. Made with [ale](wiki:Ale), I think, best I ever tasted. What was his name, that cook? **Jeyne**: Gage. He was a good cook. He would make [lemoncakes](wiki:Lemon_cake) for [Sansa](wiki:Sansa_Stark) whenever we had lemons.(wiki:Gage.cite_ref-TWOW_4-3)
 >

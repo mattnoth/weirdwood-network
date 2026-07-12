@@ -106,26 +106,26 @@ Since the Tyrells are occupied with the ironborn and politics in King's Landing,
 >
 > —[Robert I Baratheon](wiki:Robert_I_Baratheon) to [Eddard Stark](wiki:Eddard_Stark)
 
-> [Renly Baratheon](wiki:Renly_Baratheon) is nothing to me, nor [Stannis](wiki:Stannis_Baratheon) neither. Why should they rule over me and mine, from some flowery seat in Highgarden or [Dorne](wiki:Dorne)?(wiki:Highgarden.cite_ref-Ragot71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_51-0)
+> Renly Baratheon is nothing to me, nor Stannis neither. Why should they rule over me and mine, from some flowery seat in Highgarden or Dorne?
 >
-> —[Jon Umber](wiki:Jon_Umber) to [northmen](wiki:Northmen)
+> —Jon Umber to northmen, AGOT (`sources/chapters/agot/agot-catelyn-11.md:209`)
 
-> [The war](wiki:War_of_the_Five_Kings) had not touched the fabled bounty of Highgarden.(wiki:Highgarden.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-2)
+> The war had not touched the fabled bounty of Highgarden.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-02.md:205`)
 
 > [The roses](wiki:House_Tyrell) support [the lion](wiki:House_Lannister), as the might of Highgarden supports [the realm](wiki:Seven_Kingdoms).(wiki:Highgarden.cite_ref-Racok65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_41-3)
 >
 > —[Joffrey I Baratheon](wiki:Joffrey_Baratheon) to [Mace Tyrell](wiki:Mace_Tyrell)
 
-> At Highgarden we have many [spiders](wiki:Spider) amongst the flowers. So long as they keep to themselves we let them [spin their little webs](wiki:Espionage), but if they get underfoot we step on them.(wiki:Highgarden.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> At Highgarden we have many spiders amongst the flowers. So long as they keep to themselves we let them spin their little webs, but if they get underfoot we step on them.
 >
-> —[Olenna Tyrell](wiki:Olenna_Tyrell) to [Sansa Stark](wiki:Sansa_Stark)
+> —Olenna Tyrell to Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-01.md:221`)
 
 > You will love Highgarden as I do, I know it. Once you see it, you'll never want to leave.(wiki:Highgarden.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
 >
 > —[Margaery Tyrell](wiki:Margaery_Tyrell) to [Sansa Stark](wiki:Sansa_Stark)
 
-> Centuries of blood and war lay between [Sunspear](wiki:Sunspear) and Highgarden.(wiki:Highgarden.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_52-0)
+> Centuries of blood and war lay between Sunspear and Highgarden.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-05.md:165`)

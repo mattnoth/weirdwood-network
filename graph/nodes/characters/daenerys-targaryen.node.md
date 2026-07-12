@@ -189,9 +189,9 @@ Daenerys still lives, however. Drogon has flown her to a hill in the Dothraki se
 
 ### Quotes by Daenerys
 
-> I am [blood of the dragon](wiki:House_Targaryen), she told herself. I am Daenerys Stormborn, [Princess of Dragonstone](wiki:Princess_of_Dragonstone), of the blood and seed of [Aegon the Conqueror](wiki:Aegon_I_Targaryen).(wiki:Daenerys_Targaryen.cite_ref-Ragot11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> I am blood of the dragon, she told herself. I am Daenerys Stormborn, Princess of Dragonstone, of the blood and seed of Aegon the Conqueror.
 >
-> —thoughts of Daenerys
+> —thoughts of Daenerys, AGOT (`sources/chapters/agot/agot-daenerys-02.md:49`)
 
 > **Jorah**: You are your brother's sister, in truth.
 >
@@ -215,25 +215,25 @@ Daenerys still lives, however. Drogon has flown her to a hill in the Dothraki se
 >
 > —Daenerys to [Jorah Mormont](wiki:Jorah_Mormont)
 
-> It seems to me that a queen who trusts no one is as foolish as a queen who trusts everyone.(wiki:Daenerys_Targaryen.cite_ref-Rasos8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-9)
+> It seems to me that a queen who trusts no one is as foolish as a queen who trusts everyone.
 >
-> —Daenerys to [Jorah Mormont](wiki:Jorah_Mormont)
+> —Daenerys to Jorah Mormont, ASOS (`sources/chapters/asos/asos-daenerys-01.md:213`)
 
 > Do you know what it is like to be sold, squire? I do. [My brother](wiki:Viserys_Targaryen) sold me to [Khal](wiki:Khal) [Drogo](wiki:Drogo) for the promise of a golden crown. Well, Drogo crowned him in gold, though not as he had wished, and I... my sun-and-stars made a queen of me, but if he had been a different man, it might have been much otherwise. Do you think I have forgotten how it felt to be afraid?(wiki:Daenerys_Targaryen.cite_ref-Rasos23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-6)
 >
 > —Daenerys to [Arstan Whitebeard](wiki:Barristan_Selmy)
 
-> Why do the gods make kings and queens, if not to protect the ones who can't protect themselves?(wiki:Daenerys_Targaryen.cite_ref-Rasos27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-5)
+> Why do the gods make kings and queens, if not to protect the ones who can't protect themselves?
 >
-> —Daenerys to [Jorah Mormont](wiki:Jorah_Mormont)
+> —Daenerys to Jorah Mormont, ASOS (`sources/chapters/asos/asos-daenerys-03.md:177`)
 
 > A [dragon](wiki:Dragon) is no [slave](wiki:Slave).(wiki:Daenerys_Targaryen.cite_ref-Rasos27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-6)
 >
 > —Daenerys to [Kraznys mo Nakloz](wiki:Kraznys_mo_Nakloz)
 
-> Mother of [dragons](wiki:Dragon), Daenerys thought. Mother of monsters. What have I unleashed upon the world? A queen I am, but my throne is made of burned bones, and it rests on quicksand. Without dragons, how could she hope to hold [Meereen](wiki:Meereen), much less win back [Westeros](wiki:Westeros)? I am the blood of the dragon, she thought. If they are monsters, so am I.(wiki:Daenerys_Targaryen.cite_ref-Radwd11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-7)
+> Mother of dragons, Daenerys thought. Mother of monsters. What have I unleashed upon the world? A queen I am, but my throne is made of burned bones, and it rests on quicksand. Without dragons, how could she hope to hold Meereen, much less win back Westeros? I am the blood of the dragon, she thought. If they are monsters, so am I.
 >
-> —thoughts of Daenerys
+> —thoughts of Daenerys, ADWD (`sources/chapters/adwd/adwd-daenerys-02.md:285`)
 
 > **Jorah**: You are a queen. In [Westeros](wiki:Westeros).
 >
@@ -265,13 +265,13 @@ Daenerys still lives, however. Drogon has flown her to a hill in the Dothraki se
 >
 > —[Armen](wiki:Armen) and [Mollander](wiki:Mollander)
 
-> Daenerys is our hope. Tell them that, at the [Citadel](wiki:Citadel). Make them listen. They must send her a [maester](wiki:Maester). Daenerys must be counseled, taught, protected.(wiki:Daenerys_Targaryen.cite_ref-Raffc35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-2)
+> Daenerys is our hope. Tell them that, at the Citadel. Make them listen. They must send her a maester. Daenerys must be counseled, taught, protected.
 >
-> —[Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) to [Samwell Tarly](wiki:Samwell_Tarly)
+> —Aemon) to Samwell Tarly, AFFC (`sources/chapters/affc/affc-samwell-04.md:33`)
 
-> The frightened child who sheltered in [my manse](wiki:Illyrio's_manse) died on the [Dothraki sea](wiki:Dothraki_sea), and was reborn in blood and fire. This dragon queen who wears her name is a true [Targaryen](wiki:House_Targaryen). When I sent ships to bring her home, she turned toward [Slaver's Bay](wiki:Slaver's_Bay). In a short span of days she conquered [Astapor](wiki:Fall_of_Astapor), made [Yunkai](wiki:Battle_near_Yunkai) bend the knee, and sacked [Meereen](wiki:Siege_of_Meereen).(wiki:Daenerys_Targaryen.cite_ref-Radwd5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-1)
+> The frightened child who sheltered in my manse died on the Dothraki sea, and was reborn in blood and fire. This dragon queen who wears her name is a true Targaryen. When I sent ships to bring her home, she turned toward Slaver's Bay. In a short span of days she conquered Astapor, made Yunkai bend the knee, and sacked Meereen.
 >
-> —[Illyrio Mopatis](wiki:Illyrio_Mopatis) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Illyrio Mopatis to Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-02.md:55`)
 
 > **Tyrion**: If Daenerys is no more than a sweet young girl, the [Iron Throne](wiki:Iron_Throne) will cut her into sweet young pieces. **Illyrio**: Fear not, my little friend. The blood of [Aegon the Dragon](wiki:Aegon_I_Targaryen) flows in her veins.(wiki:Daenerys_Targaryen.cite_ref-Radwd5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-2)
 >

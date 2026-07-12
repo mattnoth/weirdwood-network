@@ -89,9 +89,9 @@ When Jaime states that he requires one of Tytos's children as a hostage, Lord Bl
 
 ### Quotes by Tytos
 
-> [My hall](wiki:Raventree_Hall) might lack for food, but never for courtesy.(wiki:Tytos_Blackwood.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-9)
+> My hall might lack for food, but never for courtesy.
 >
-> —Tytos to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Tytos to Jaime Lannister, ADWD (`sources/chapters/adwd/adwd-jaime-01.md:157`)
 
 > **Tytos**: For honor's sake I must ask about my liege lord.
 >
@@ -113,14 +113,14 @@ When Jaime states that he requires one of Tytos's children as a hostage, Lord Bl
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) and [Daven Lannister](wiki:Daven_Lannister)
 
-> So long as it is [Jonos](wiki:Jonos_Bracken) at his gates Tytos will never yield, but I know he will [bend his knee](wiki:Kneeler) for you.(wiki:Tytos_Blackwood.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> So long as it is Jonos at his gates Tytos will never yield, but I know he will bend his knee for you.
 >
-> —[Karyl Vance](wiki:Karyl_Vance) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Karyl Vance to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-07.md:193`)
 
 > Every [Blackwood](wiki:House_Blackwood) is a [turncloak](wiki:Turncloak).(wiki:Tytos_Blackwood.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-12)
 >
 > —[Jonos Bracken](wiki:Jonos_Bracken) to [Jaime Lannister](wiki:Jaime_Lannister)
 
-> Though some might say that Lord Blackwood has been more honorable.(wiki:Tytos_Blackwood.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-13)
+> Though some might say that Lord Blackwood has been more honorable.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister), comparing Tytos to [Jonos Bracken](wiki:Jonos_Bracken)
+> —thoughts of Jaime Lannister, comparing Tytos to Jonos Bracken, ADWD (`sources/chapters/adwd/adwd-jaime-01.md:129`)

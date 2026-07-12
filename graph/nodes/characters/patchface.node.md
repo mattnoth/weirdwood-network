@@ -109,9 +109,9 @@ When Jon announces a ranging to rescue [free folk](wiki:Free_folk) at [Hardhome]
 >
 > —[Steffon Baratheon](wiki:Steffon_Baratheon) writing to [Cressen](wiki:Cressen)
 
-> [The girl](wiki:Shireen_Baratheon) was the only one who laughed at him now, the only one who cared if he lived or died.(wiki:Patchface.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-16)
+> The girl was the only one who laughed at him now, the only one who cared if he lived or died.
 >
-> —thoughts of [Cressen](wiki:Cressen)
+> —thoughts of Cressen, ACOK (`sources/chapters/acok/acok-prologue.md:41`)
 
 > The wretch is mad, and in pain, and no use to anyone, least of all himself. The kindest thing you could do for that one is fill his cup with the [milk of the poppy](wiki:Milk_of_the_poppy). A [painless sleep](wiki:Gift_of_mercy), and there's an end to it. He'd bless you if he had the wit for it.(wiki:Patchface.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-17)
 >
@@ -123,17 +123,17 @@ When Jon announces a ranging to rescue [free folk](wiki:Free_folk) at [Hardhome]
 >
 > —[Petyr Baelish](wiki:Petyr_Baelish) and [Pycelle](wiki:Pycelle), as Petyr devises a rumor to slander [Stannis Baratheon](wiki:Stannis_Baratheon)
 
-> As to [your daughter](wiki:Shireen_Baratheon), I understand. If my wife looked like [yours](wiki:Selyse_Florent), I'd send my fool to service her as well.(wiki:Patchface.cite_ref-Racok31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)
+> As to your daughter, I understand. If my wife looked like yours, I'd send my fool to service her as well.
 >
-> —[Renly Baratheon](wiki:Renly_Baratheon), to [Stannis Baratheon](wiki:Stannis_Baratheon)
+> —Renly Baratheon, to Stannis Baratheon, ACOK (`sources/chapters/acok/acok-catelyn-03.md:177`)
 
-> Davos was reminded of Patchface, Princess [Shireen's](wiki:Shireen_Baratheon) [lackwit](wiki:Lackwit) fool. He had gone into the sea as well, and when he came out he was mad. Am I mad as well?(wiki:Patchface.cite_ref-Rasos10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
+> Davos was reminded of Patchface, Princess Shireen's lackwit fool. He had gone into the sea as well, and when he came out he was mad. Am I mad as well?
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-02.md:47`)
 
-> That creature is dangerous. Many a time I have glimpsed him [in my flames](wiki:Visions). Sometimes there are skulls about him, and his lips are red with blood.(wiki:Patchface.cite_ref-Radwd49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-2)
+> That creature is dangerous. Many a time I have glimpsed him in my flames. Sometimes there are skulls about him, and his lips are red with blood.
 >
-> —[Melisandre](wiki:Melisandre) to [Jon Snow](wiki:Jon_Snow)
+> —Melisandre to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-10.md:119`)
 
 ## Edges
 

@@ -32,6 +32,6 @@ Because Tothmure sends ravens to [King's Landing](wiki:King's_Landing) and [Cast
 
 ## Quotes
 
-> Do the [ravens](wiki:Raven) remember Maester Tothmure? Arya wondered. Are they sad for him? When they quork at him, do they wonder why he doesn't answer? Perhaps the dead could speak to them in some secret tongue the living could not hear.(wiki:Tothmure.cite_ref-Racok64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> Do the ravens remember Maester Tothmure? Arya wondered. Are they sad for him? When they quork at him, do they wonder why he doesn't answer? Perhaps the dead could speak to them in some secret tongue the living could not hear.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ACOK (`sources/chapters/acok/acok-arya-10.md:15`)

@@ -78,13 +78,13 @@ Belwas survives the [poison](wiki:Poison) due to his huge bulk,(wiki:Belwas.cite
 
 ### Quotes about Belwas
 
-> Strong Belwas could not scheme his way to breakfast.(wiki:Belwas.cite_ref-Rasos8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7)
+> Strong Belwas could not scheme his way to breakfast.
 >
-> —[Daenerys Targaryen](wiki:Daenerys_Targaryen) to [Jorah Mormont](wiki:Jorah_Mormont)
+> —Daenerys Targaryen to Jorah Mormont, ASOS (`sources/chapters/asos/asos-daenerys-01.md:217`)
 
-> He had once crossed [the world](wiki:Known_world) with Strong Belwas, and he knew he could rely on him, should all this come to swords.(wiki:Belwas.cite_ref-Radwd70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
+> He had once crossed the world with Strong Belwas, and he knew he could rely on him, should all this come to swords.
 >
-> —thoughts of [Barristan Selmy](wiki:Barristan_Selmy)
+> —thoughts of Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-queens-hand-01.md:85`)
 
 ## Edges
 

@@ -46,9 +46,9 @@ When [Tyrion Lannister](wiki:Tyrion_Lannister) questions [Grand Maester](wiki:Gr
 
 ## Quotes
 
-> This was needless. War should not be a game.(wiki:Hugh_of_the_Vale.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+> This was needless. War should not be a game.
 >
-> —[Eddard Stark](wiki:Eddard_Stark) to [Barristan Selmy](wiki:Barristan_Selmy)
+> —Eddard Stark to Barristan Selmy, AGOT (`sources/chapters/agot/agot-eddard-07.md:21`)
 
 > Lord Arryn was a kindly, trusting man. There was one boy. All he was, he owed [Jon Arryn](wiki:Jon_Arryn), but when [the widow](wiki:Lysa_Arryn) fled to the [Eyrie](wiki:Eyrie) with her household, he stayed in [King's Landing](wiki:King's_Landing) and prospered. It always gladdens my heart to see the young rise in the world. He must have cut a gallant figure in [the tourney](wiki:Hand's_tourney), him in his bright new armor, with those crescent moons on his cloak. A pity he died so untimely, before you could talk to him …(wiki:Hugh_of_the_Vale.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
 >

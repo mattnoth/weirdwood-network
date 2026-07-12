@@ -39,10 +39,10 @@ When Jon suffers a nightmare, Dick is among the men cut down by the new [Lord Co
 
 ## Quotes
 
-> Dick Follard was deaf as a stone, but his nose worked well enough.(wiki:Dick_Follard.cite_ref-Rasos55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> Dick Follard was deaf as a stone, but his nose worked well enough.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ASOS (`sources/chapters/asos/asos-jon-07.md:77`)
 
-> Dick could read your lips if there was enough light and he gave a damn what you were saying, but he knew it all already.(wiki:Dick_Follard.cite_ref-Rasos55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> Dick could read your lips if there was enough light and he gave a damn what you were saying, but he knew it all already.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ASOS (`sources/chapters/asos/asos-jon-07.md:113`)

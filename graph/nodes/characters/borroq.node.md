@@ -52,6 +52,6 @@ Borroq and his boar are amongst [Tormund](wiki:Tormund)'s group which crosses th
 
 ### Quotes about Borroq
 
-> The company of men long dead seemed to suit him better than that of the living, and his boar seemed happy rooting amongst the graves, well away from other animals.(wiki:Borroq.cite_ref-Radwd69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> The company of men long dead seemed to suit him better than that of the living, and his boar seemed happy rooting amongst the graves, well away from other animals.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-13.md:85`)

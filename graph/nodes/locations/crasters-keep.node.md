@@ -49,10 +49,10 @@ During [Bran Stark](wiki:Bran_Stark)'s journey north through the haunted forest 
 >
 > —[Samwell Tarly](wiki:Samwell_Tarly) and [Jon Snow](wiki:Jon_Snow)
 
-> [Your uncle](wiki:Benjen_Stark) could tell you of the times Craster's Keep made the difference between life and death for our [rangers](wiki:Rangers).(wiki:Craster's_Keep.cite_ref-Racok23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> Your uncle could tell you of the times Craster's Keep made the difference between life and death for our rangers.
 >
-> —[Jeor Mormont](wiki:Jeor_Mormont) to [Jon Snow](wiki:Jon_Snow)
+> —Jeor Mormont to Jon Snow, ACOK (`sources/chapters/acok/acok-jon-03.md:393`)
 
-> [Crows](wiki:Night's_Watch). When did a black bird ever bring good to a man's hall, I ask you? Never. Never.(wiki:Craster's_Keep.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> Crows. When did a black bird ever bring good to a man's hall, I ask you? Never. Never.
 >
-> —[Craster](wiki:Craster) to [Bedwyck](wiki:Bedwyck)
+> —Craster to Bedwyck, ASOS (`sources/chapters/asos/asos-samwell-02.md:23`)

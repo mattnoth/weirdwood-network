@@ -91,9 +91,9 @@ Cersei falsely(wiki:Osmund_Kettleblack.cite_ref-Rawoiafosmund_kettleblack.7B.7B.
 
 ### Quotes by Osmund
 
-> Do as you're told, sweetling, it won't be so bad. [Wolves](wiki:House_Stark) are supposed to be brave, aren't they?(wiki:Osmund_Kettleblack.cite_ref-Rasos28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-1)
+> Do as you're told, sweetling, it won't be so bad. Wolves are supposed to be brave, aren't they?
 >
-> —Osmund to [Sansa Stark](wiki:Sansa_Stark)
+> —Osmund to Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-03.md:43`)
 
 > **Osmund**: It was the day they gave me the [white](wiki:Kingsguard) cloak, my lords. [That brave boy](wiki:Joffrey_Baratheon) said to me, 'Good Ser Osmund, guard me well, for [my uncle](wiki:Tyrion_Lannister) loves me not. He means to be king in my place.' **Tyrion**: Liar!(wiki:Osmund_Kettleblack.cite_ref-Rasos66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
 >
@@ -105,17 +105,17 @@ Cersei falsely(wiki:Osmund_Kettleblack.cite_ref-Rawoiafosmund_kettleblack.7B.7B.
 
 ### Quotes about Osmund
 
-> Amiable rogues all three, [the brothers](wiki:House_Kettleblack) were in truth much more skilled at deceit than they'd ever been at bloodletting. [Cersei](wiki:Cersei_Lannister) had managed to buy herself three hollow [drums](wiki:Drum); they would make all the fierce booming sounds she required, but there was nothing inside.(wiki:Osmund_Kettleblack.cite_ref-Racok41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> Amiable rogues all three, the brothers were in truth much more skilled at deceit than they'd ever been at bloodletting. Cersei had managed to buy herself three hollow drums; they would make all the fierce booming sounds she required, but there was nothing inside.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-09.md:39`)
 
-> [His sister](wiki:Cersei_Lannister) had insisted that [Joffrey](wiki:Joffrey_Baratheon) strip [Blount](wiki:Boros_Blount) of his [white cloak](wiki:Kingsguard) on the grounds of [treason](wiki:Treason) and cowardice. And now she replaces him with another man just as hollow.(wiki:Osmund_Kettleblack.cite_ref-Racok49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> His sister had insisted that Joffrey strip Blount of his white cloak on the grounds of treason and cowardice. And now she replaces him with another man just as hollow.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-11.md:85`)
 
-> Of late Ser Osmund had taken [Sandor Clegane](wiki:Sandor_Clegane)'s place by [Joffrey](wiki:Joffrey_Baratheon)'s side, and Sansa had heard the women at the washing well saying he was as strong as the [Hound](wiki:Hound), only younger and faster. If that was so, she wondered why she had never once heard of these [Kettleblacks](wiki:House_Kettleblack) before Ser Osmund was named to the [Kingsguard](wiki:Kingsguard).(wiki:Osmund_Kettleblack.cite_ref-Racok60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-3)
+> Of late Ser Osmund had taken Sandor Clegane's place by Joffrey's side, and Sansa had heard the women at the washing well saying he was as strong as the Hound, only younger and faster. If that was so, she wondered why she had never once heard of these Kettleblacks before Ser Osmund was named to the Kingsguard.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, ACOK (`sources/chapters/acok/acok-sansa-06.md:45`)
 
 > **Varys**: And the eldest, Ser Osmund of the [Kingsguard](wiki:Kingsguard), dreams of certain other... favors... as well. You can match the queen [coin for coin](wiki:Currency), I have no doubt, but she has a second purse that is quite inexhaustible.
 >
@@ -123,22 +123,22 @@ Cersei falsely(wiki:Osmund_Kettleblack.cite_ref-Rawoiafosmund_kettleblack.7B.7B.
 >
 > —[Varys](wiki:Varys) and [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> What was [Cersei](wiki:Cersei_Lannister) thinking when she gave this one a [white cloak](wiki:Kingsguard)?(wiki:Osmund_Kettleblack.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-3)
+> What was Cersei thinking when she gave this one a white cloak?
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-08.md:131`)
 
 > When [the Imp](wiki:Tyrion_Lannister) sent off her guards, [the queen](wiki:Cersei_Lannister) had Ser [Lancel](wiki:Lancel_Lannister) hire [sellswords](wiki:Sellsword) for her. Lancel found her the [Kettleblacks](wiki:House_Kettleblack), which delighted your little lord husband, since the lads were in his pay through his man [Bronn](wiki:Bronn). But it was me who told [Oswell](wiki:Oswell_Kettleblack) to get his sons to [King's Landing](wiki:King's_Landing) when I learned that Bronn was looking for swords. Three hidden daggers, Alayne, now perfectly placed.(wiki:Osmund_Kettleblack.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2)
 >
 > —[Petyr Baelish](wiki:Petyr_Baelish), to [Sansa Stark](wiki:Sansa_Stark)
 
-> Osmund has become especially unreliable since he joined the [Kingsguard](wiki:Kingsguard). That white cloak does things to a man, I find. Even a man like him.(wiki:Osmund_Kettleblack.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-3)
+> Osmund has become especially unreliable since he joined the Kingsguard. That white cloak does things to a man, I find. Even a man like him.
 >
-> —[Petyr Baelish](wiki:Petyr_Baelish) to [Sansa Stark](wiki:Sansa_Stark)
+> —Petyr Baelish to Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-06.md:175`)
 
 > [Cersei](wiki:Cersei_Lannister) is a lying [whore](wiki:Whore), she's been fucking [Lancel](wiki:Lancel_Lannister) and Osmund Kettleblack and probably [Moon Boy](wiki:Moon_Boy) for all I know.(wiki:Osmund_Kettleblack.cite_ref-Rasos77.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-1)
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister), to [Jaime Lannister](wiki:Jaime_Lannister)
 
-> As fond as she was of Osmund, at times he seemed as slow as [Robert](wiki:Robert_I_Baratheon). I hope his [sword](wiki:Sword) is quicker than his wits. The day may come that [Tommen](wiki:Tommen_Baratheon) has some need of it.(wiki:Osmund_Kettleblack.cite_ref-Raffc25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-1)
+> As fond as she was of Osmund, at times he seemed as slow as Robert. I hope his sword is quicker than his wits. The day may come that Tommen has some need of it.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-05.md:107`)

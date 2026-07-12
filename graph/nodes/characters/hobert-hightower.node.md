@@ -40,9 +40,9 @@ Hobert was as stout as he was slow. He did not distinguish himself until late in
 >
 > —Hobert, asking the other [Caltrops](wiki:Caltrops) what they should do about [Vermithor](wiki:Vermithor) and [Silverwing](wiki:Silverwing)
 
-> History has little good to say about Ser Hobert Hightower, but no man can question the manner of his death. Rather than [betray](wiki:Poison) his fellow [Caltrops](wiki:Caltrops), he let the squire [fill his cup](wiki:Wine), drank deep, and asked for more.(wiki:Hobert_Hightower.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> History has little good to say about Ser Hobert Hightower, but no man can question the manner of his death. Rather than betray his fellow Caltrops, he let the squire fill his cup, drank deep, and asked for more.
 >
-> —writings of [Gyldayn](wiki:Gyldayn)
+> —writings of Gyldayn, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:145`)
 
 > No man ever feared Ser Hobert's sword, but his [wine](wiki:Wine) cup was deadlier than [Valyrian steel](wiki:Valyrian_steel).(wiki:Hobert_Hightower.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
 >

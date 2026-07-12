@@ -62,13 +62,13 @@ In Joffrey's first court session, Tywin is appointed Hand of the King.(wiki:Arre
 
 ## Quotes
 
-> I did warn you not to trust me, you know.(wiki:Arrest_of_Eddard_Stark.cite_ref-Ragot49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-3)
+> I did warn you not to trust me, you know.
 >
-> —[Petyr Baelish](wiki:Petyr_Baelish) to [Eddard Stark](wiki:Eddard_Stark)
+> —Petyr Baelish to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-14.md:125`)
 
-> Even within the stout walls of [Maegor's Holdfast](wiki:Maegor's_Holdfast), with her door closed and barred, it was hard not to be terrified when the killing began. She had grown up to the sound of steel in the yard, and scarcely a day of her life had passed without hearing the clash of sword on sword, yet somehow knowing that the fighting was real made all the difference in the world. She heard it as she had never heard it before, and there were other sounds as well, grunts of pain, angry curses, shouts for help, and the moans of wounded and dying men. In the songs, the knights never screamed nor begged for mercy.(wiki:Arrest_of_Eddard_Stark.cite_ref-Ragot51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3)
+> Even within the stout walls of Maegor's Holdfast, with her door closed and barred, it was hard not to be terrified when the killing began. She had grown up to the sound of steel in the yard, and scarcely a day of her life had passed without hearing the clash of sword on sword, yet somehow knowing that the fighting was real made all the difference in the world. She heard it as she had never heard it before, and there were other sounds as well, grunts of pain, angry curses, shouts for help, and the moans of wounded and dying men. In the songs, the knights never screamed nor begged for mercy.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, AGOT (`sources/chapters/agot/agot-sansa-04.md:17`)
 
 > They're killing everyone.(wiki:Arrest_of_Eddard_Stark.cite_ref-Ragot51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-4)
 >

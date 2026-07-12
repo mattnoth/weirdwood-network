@@ -32,9 +32,9 @@ Grimtongue is later freed and ransomed along with the other ironborn by [Tycho N
 
 ## Quotes
 
-> [Rolfe the Dwarf](wiki:Rolfe_the_Dwarf)'s not so tall as he once was.(wiki:Grimtongue.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> Rolfe the Dwarf's not so tall as he once was.
 >
-> —Grimtongue to [Asha Greyjoy](wiki:Asha_Greyjoy)'s ironborn
+> —Grimtongue to Asha Greyjoy's ironborn, ADWD (`sources/chapters/adwd/adwd-the-wayward-bride-01.md:309`)
 
 > Nine, and damn you all.(wiki:Grimtongue.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 >

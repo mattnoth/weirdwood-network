@@ -108,17 +108,17 @@ After [Gregor Clegane](wiki:Gregor_Clegane)'s [skull](wiki:Mountain's_skull) has
 
 — Arianne Martell's memory of Oberyn's teaching at Shandystone ruins, AFFC The Queenmaker I (`sources/chapters/affc/affc-the-queenmaker-01.md:17`) [L871]
 
-> The man's infamous, and not just for [poisoning](wiki:Poison) his sword. He has more [bastards](wiki:Bastard) than [Robert](wiki:Robert_I_Baratheon), and beds with boys as well.(wiki:Oberyn_Martell.cite_ref-Rasos62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-1)
+> The man's infamous, and not just for poisoning his sword. He has more bastards than Robert, and beds with boys as well.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister) to [Tywin Lannister](wiki:Tywin_Lannister)
+> —Jaime Lannister to Tywin Lannister, ASOS (`sources/chapters/asos/asos-jaime-07.md:315`)
 
 > He knew the man only by reputation ... but the reputation was fearsome.(wiki:Oberyn_Martell.cite_ref-Rasos38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-20)
 >
 > —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> Oberyn was ever the viper. Deadly, dangerous, unpredictable. No man dared tread on him.(wiki:Oberyn_Martell.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-2)
+> Oberyn was ever the viper. Deadly, dangerous, unpredictable. No man dared tread on him.
 >
-> —[Doran Martell](wiki:Doran_Martell) to the [Sand Snakes](wiki:Sand_Snakes)
+> —Doran Martell to the Sand Snakes, ADWD (`sources/chapters/adwd/adwd-the-watcher-01.md:189`)
 
 ## Edges
 

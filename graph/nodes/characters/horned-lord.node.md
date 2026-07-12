@@ -24,6 +24,6 @@ One or two thousand years after [Gendel](wiki:Gendel) and [Gorne](wiki:Gorne),(w
 
 ## Quotes
 
-> The Horned Lord once said that [sorcery](wiki:Magic) is a sword without a hilt. There is no safe way to grasp it.(wiki:Horned_Lord.cite_ref-Rasos73.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+> The Horned Lord once said that sorcery is a sword without a hilt. There is no safe way to grasp it.
 >
-> —[Dalla](wiki:Dalla) to [Jon Snow](wiki:Jon_Snow)
+> —Dalla to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-10.md:169`)

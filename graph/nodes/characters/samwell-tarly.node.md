@@ -119,17 +119,17 @@ Samwell continues to the Citadel, where he goes to the [Seneschal's Court](wiki:
 >
 > —[Stannis Baratheon](wiki:Stannis_Baratheon), [Melisandre](wiki:Melisandre), and Samwell
 
-> Sam thought of all the trials that he and [Gilly](wiki:Gilly) suffered, [Craster's Keep](wiki:Mutiny_at_Craster's_Keep) and the death of the [Old Bear](wiki:Jeor_Mormont), snow and ice and freezing winds, days and days and days of walking, the [wights](wiki:Wight) at [Whitetree](wiki:Whitetree), [Coldhands](wiki:Coldhands) and [the tree](wiki:Weirwood) of [ravens](wiki:Raven), the [Wall](wiki:Wall), the Wall, the Wall, the [Black Gate](wiki:Black_Gate) beneath the earth. What had it all been for? No happy choices and no happy endings.(wiki:Samwell_Tarly.cite_ref-Raffc15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-3)
+> Sam thought of all the trials that he and Gilly suffered, Craster's Keep and the death of the Old Bear, snow and ice and freezing winds, days and days and days of walking, the wights at Whitetree, Coldhands and the tree of ravens, the Wall, the Wall, the Wall, the Black Gate beneath the earth. What had it all been for? No happy choices and no happy endings.
 >
-> —Samwell's thoughts aboard the *[Blackbird](wiki:Blackbird)*
+> —Samwell's thoughts aboard the *Blackbird*, AFFC (`sources/chapters/affc/affc-samwell-02.md:151`)
 
-> The worst isn't done. The worst is just beginning, and there are no happy endings.(wiki:Samwell_Tarly.cite_ref-Raffc15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-4)
+> The worst isn't done. The worst is just beginning, and there are no happy endings.
 >
-> —Samwell to [Dareon](wiki:Dareon)
+> —Samwell to Dareon, AFFC (`sources/chapters/affc/affc-samwell-02.md:159`)
 
-> No matter where he went in [this wide world](wiki:Known_world), his fears went with him.(wiki:Samwell_Tarly.cite_ref-Raffc26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-1)
+> No matter where he went in this wide world, his fears went with him.
 >
-> —Samwell's thoughts
+> —Samwell's thoughts, AFFC (`sources/chapters/affc/affc-samwell-03.md:27`)
 
 > **Samwell**: I am Sam, from [Horn Hill](wiki:Horn_Hill). Lord [Randyll Tarly](wiki:Randyll_Tarly)'s son. **Leo**: Truly? I suppose you are. Your father told us all that you were dead. Or was it only that he wished you were? Are you still a craven? **Samwell**: No. I went [beyond the Wall](wiki:Beyond_the_Wall) and fought in battles. They call me Sam the Slayer.(wiki:Samwell_Tarly.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
 >
@@ -141,9 +141,9 @@ Samwell continues to the Citadel, where he goes to the [Seneschal's Court](wiki:
 >
 > —[Grenn](wiki:Grenn) to [Pypar](wiki:Pypar)
 
-> The world was full of cravens who pretended to be heroes; it took a queer sort of courage to admit to cowardice as Samwell Tarly had.(wiki:Samwell_Tarly.cite_ref-Ragot26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-23)
+> The world was full of cravens who pretended to be heroes; it took a queer sort of courage to admit to cowardice as Samwell Tarly had.
 >
-> —[Jon Snow](wiki:Jon_Snow)'s thoughts
+> —Jon Snow's thoughts, AGOT (`sources/chapters/agot/agot-jon-04.md:113`)
 
 > It was [Ghost](wiki:Ghost) who knew what to do. Silent as shadow, the pale [direwolf](wiki:Direwolf) moved closer and began to lick the warm tears off Samwell Tarly's face. The fat boy cried out, startled .. and somehow, in a heartbeat, his sobs turned to laughter.(wiki:Samwell_Tarly.cite_ref-Ragot26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-24)
 >
@@ -153,17 +153,17 @@ Samwell continues to the Citadel, where he goes to the [Seneschal's Court](wiki:
 >
 > —[Jeor Mormont](wiki:Jeor_Mormont) to Samwell
 
-> Tarly, when I was a lad half your age, my lady mother told me that if I stood about with my mouth open, a [weasel](wiki:Weasel) was like to mistake it for his lair and run down my throat. If you have something to say, say it. Otherwise, beware of weasels.(wiki:Samwell_Tarly.cite_ref-Racok6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-6)
+> Tarly, when I was a lad half your age, my lady mother told me that if I stood about with my mouth open, a weasel was like to mistake it for his lair and run down my throat. If you have something to say, say it. Otherwise, beware of weasels.
 >
-> —[Jeor Mormont](wiki:Jeor_Mormont) to Samwell
+> —Jeor Mormont to Samwell, ACOK (`sources/chapters/acok/acok-jon-01.md:165`)
 
-> I don't care if you're so scared you foul your breeches, and I don't care if a thousand [wildlings](wiki:Wildlings) are coming over the walls howling for your blood, you get [those birds](wiki:Raven) off, or I swear I'll hunt you through all [seven hells](wiki:Seven_hells) and make you damn sorry that you didn't.(wiki:Samwell_Tarly.cite_ref-Rasos18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-3)
+> I don't care if you're so scared you foul your breeches, and I don't care if a thousand wildlings are coming over the walls howling for your blood, you get those birds off, or I swear I'll hunt you through all seven hells and make you damn sorry that you didn't.
 >
-> —[Jeor Mormont](wiki:Jeor_Mormont) to Samwell
+> —Jeor Mormont to Samwell, ASOS (`sources/chapters/asos/asos-samwell-01.md:47`)
 
-> You have no father. Only brothers. Only us. Your life belongs to the [Night's Watch](wiki:Night's_Watch), so go and stuff your smallclothes into a sack, along with anything else you care to take to [Oldtown](wiki:Oldtown). You leave an hour before sunrise. And here's another order. From this day forth, you will not call yourself a craven. You've faced more things this past year than most men face in a lifetime. You can face the [Citadel](wiki:Citadel), but you'll face it as a Sworn Brother of the Night's Watch. I can't command you to be brave, but I can command you to hide your fears.(wiki:Samwell_Tarly.cite_ref-Raffc5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-7)
+> You have no father. Only brothers. Only us. Your life belongs to the Night's Watch, so go and stuff your smallclothes into a sack, along with anything else you care to take to Oldtown. You leave an hour before sunrise. And here's another order. From this day forth, you will not call yourself a craven. You've faced more things this past year than most men face in a lifetime. You can face the Citadel, but you'll face it as a Sworn Brother of the Night's Watch. I can't command you to be brave, but I can command you to hide your fears.
 >
-> —[Jon Snow](wiki:Jon_Snow) to Samwell
+> —Jon Snow to Samwell, ADWD (`sources/chapters/adwd/adwd-jon-02.md:201`)
 
 > You're a man who appreciates cooking, Slayer. We need more o' your sort.(wiki:Samwell_Tarly.cite_ref-Raffc5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-8)
 >

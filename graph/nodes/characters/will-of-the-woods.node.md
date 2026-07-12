@@ -27,6 +27,6 @@ Will takes part in the [Siege of Astapor](wiki:Siege_of_Astapor). He is later se
 
 ## Quotes
 
-> Will of the Woods, well, you’re just filth.(wiki:Will_of_the_Woods.cite_ref-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> Will of the Woods, well, you’re just filth.
 >
-> —the [Tattered Prince](wiki:Tattered_Prince), on Will of the Woods
+> —the Tattered Prince, on Will of the Woods, ADWD (`sources/chapters/adwd/adwd-the-windblown-01.md:187`)

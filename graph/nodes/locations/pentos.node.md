@@ -127,9 +127,9 @@ Ser [Kevan Lannister](wiki:Kevan_Lannister) tasks Ser [Harys Swyft](wiki:Harys_S
 >
 > —writings of [Yandel](wiki:Yandel)
 
-> There was no [slavery](wiki:Slavery) in the free city of Pentos. Nonetheless, they were slaves.(wiki:Pentos.cite_ref-Ragot3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-12)
+> There was no slavery in the free city of Pentos. Nonetheless, they were slaves.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, AGOT (`sources/chapters/agot/agot-daenerys-01.md:51`)
 
 > **Arstan**: There are [sellswords](wiki:Sellswords) in Pentos and [Myr](wiki:Myr) and [Tyrosh](wiki:Tyrosh) you can hire. A man who kills for coin has no honor, but at least they are [no slaves](wiki:Unsullied). Find your army there, I beg you. **Daenerys**: [My brother](wiki:Viserys_Targaryen) visited Pentos, Myr, [Braavos](wiki:Braavos), near all the [Free Cities](wiki:Free_Cities). The [magisters](wiki:Magister) and [archons](wiki:Archon) fed him [wine](wiki:Wine) and promises, but his soul was starved to death. A man cannot sup from the beggar's bowl all his life and stay a man. I had my taste in [Qarth](wiki:Qarth), that was enough. I will not come to Pentos bowl in hand.(wiki:Pentos.cite_ref-Rasos23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 >
@@ -141,6 +141,6 @@ Ser [Kevan Lannister](wiki:Kevan_Lannister) tasks Ser [Harys Swyft](wiki:Harys_S
 >
 > —[Barristan Selmy](wiki:Barristan_Selmy) and [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> In Pentos, we have a saying. Never ask the baker what went into the pie. Just eat.(wiki:Pentos.cite_ref-Radwd68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_53-0)
+> In Pentos, we have a saying. Never ask the baker what went into the pie. Just eat.
 >
-> —the [Tattered Prince](wiki:Tattered_Prince) to [Quentyn Martell](wiki:Quentyn_Martell)
+> —the Tattered Prince to Quentyn Martell, ADWD (`sources/chapters/adwd/adwd-the-dragontamer-01.md:111`)

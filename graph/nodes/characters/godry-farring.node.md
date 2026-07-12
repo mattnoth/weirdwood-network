@@ -62,9 +62,9 @@ Godry has been urging Stannis to sacrifice [Theon Greyjoy](wiki:Theon_Greyjoy) t
 >
 > —Godry and [Jon Snow](wiki:Jon_Snow)
 
-> I have slain a [giant](wiki:Giants), boy. Why should I fear some [flea-ridden northman](wiki:Mors_Umber) who paints one on his shield?(wiki:Godry_Farring.cite_ref-Radwd17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-3)
+> I have slain a giant, boy. Why should I fear some flea-ridden northman who paints one on his shield?
 >
-> —Godry to [Jon Snow](wiki:Jon_Snow)
+> —Godry to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-04.md:153`)
 
 > Lord of Light, preserve us from this evil. Show us your bright sun again, still these winds, and melt these snows, that we may reach your foes and smite them. The night is dark and cold and full of terrors, but yours is the power and glory and the light. [R'hllor](wiki:R'hllor), fill us with your fire.(wiki:Godry_Farring.cite_ref-Radwd42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
 >
@@ -72,6 +72,6 @@ Godry has been urging Stannis to sacrifice [Theon Greyjoy](wiki:Theon_Greyjoy) t
 
 ### Quotes about Godry
 
-> Godry the Giantslayer. A big name for a small man. Farring was broad-chested and well muscled under his plate and mail. He was also arrogant and vain, it seemed to Asha, hungry for glory, deaf to caution, a glutton for praise, and contemptuous of [smallfolk](wiki:Smallfolk), [wolves](wiki:Northmen), and women.(wiki:Godry_Farring.cite_ref-Radwd42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-7)
+> Godry the Giantslayer. A big name for a small man. Farring was broad-chested and well muscled under his plate and mail. He was also arrogant and vain, it seemed to Asha, hungry for glory, deaf to caution, a glutton for praise, and contemptuous of smallfolk, wolves, and women.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-kings-prize-01.md:87`)

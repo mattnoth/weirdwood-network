@@ -63,9 +63,9 @@ Aboard the *[Selaesori Qhoran](wiki:Selaesori_Qhoran)*, [Tyrion Lannister](wiki:
 
 ## Quotes
 
-> Bran, that is only a story, like the tales of Florian the Fool. A fable from the [Age of Heroes](wiki:Age_of_Heroes).(wiki:Florian_the_Fool.cite_ref-Ragot66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)
+> Bran, that is only a story, like the tales of Florian the Fool. A fable from the Age of Heroes.
 >
-> —[Luwin](wiki:Luwin) to [Bran Stark](wiki:Bran_Stark)
+> —Luwin to Bran Stark, AGOT (`sources/chapters/agot/agot-bran-07.md:27`)
 
 > **Jonquil**: You are no [knight](wiki:Knight), I know you. You are Florian the Fool.
 >

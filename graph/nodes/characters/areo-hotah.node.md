@@ -86,9 +86,9 @@ Areo joins Obara and Balon on their mission to hunt and kill the rogue knight Da
 >
 > —[Doran Martell](wiki:Doran_Martell) and Areo
 
-> Serve. Protect. Obey. Simple vows for simple men. That was all he knew.(wiki:Areo_Hotah.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
+> Serve. Protect. Obey. Simple vows for simple men. That was all he knew.
 >
-> —thoughts of Areo
+> —thoughts of Areo, ADWD (`sources/chapters/adwd/adwd-the-watcher-01.md:271`)
 
 ## Edges
 

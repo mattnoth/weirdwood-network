@@ -147,21 +147,21 @@ An exile in [Essos](wiki:Essos), Tyrion considers hiring the [Golden Company](wi
 >
 > —writings of [Pycelle](wiki:Pycelle)
 
-> They say there is naught but stone at the heart of Casterly Rock.(wiki:Casterly_Rock.cite_ref-Ragot55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_54-2)
+> They say there is naught but stone at the heart of Casterly Rock.
 >
-> —[Catelyn Stark](wiki:Catelyn_Stark) to [Robb Stark](wiki:Robb_Stark)
+> —Catelyn Stark to Robb Stark, AGOT (`sources/chapters/agot/agot-catelyn-08.md:117`)
 
-> Stone, I must be stone, I must be Casterly Rock, hard and unmovable.(wiki:Casterly_Rock.cite_ref-Racok54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_70-0)
+> Stone, I must be stone, I must be Casterly Rock, hard and unmovable.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-12.md:165`)
 
 > **Tyrion**: What do I want, you ask? I'll tell you what I want. I want what is mine by rights. I want Casterly Rock ... I want you to stand up before the realm and proclaim that I am your son and your lawful heir. **Tywin**: Casterly Rock. Never ... neither gods nor men shall ever compel me to let you turn Casterly Rock into your whorehouse.(wiki:Casterly_Rock.cite_ref-Rasos3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_71-0)
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) and [Tywin Lannister](wiki:Tywin_Lannister)
 
-> Extravagance has its uses. We must demonstrate the power and wealth of Casterly Rock for all the realm to see.(wiki:Casterly_Rock.cite_ref-Rasos32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_72-0)
+> Extravagance has its uses. We must demonstrate the power and wealth of Casterly Rock for all the realm to see.
 >
-> —[Tywin Lannister](wiki:Tywin_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Tywin Lannister to Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-04.md:207`)
 
 > **Tyrion**: It would please me to show you the Golden Gallery and the Lion's Mouth, and the Hall of Heroes where [Jaime](wiki:Jaime_Lannister) and I played as boys. You can hear thunder from below where [the sea](wiki:Sunset_Sea) comes in ...
 >
@@ -169,6 +169,6 @@ An exile in [Essos](wiki:Essos), Tyrion considers hiring the [Golden Company](wi
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) and [Sansa Stark](wiki:Sansa_Stark)
 
-> [My father's](wiki:Tywin_Lannister) seat is mine by rights. Swear me your sword, and once I win it back I'll drown you in [gold](wiki:Gold).(wiki:Casterly_Rock.cite_ref-Radwd27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_69-1)
+> My father's seat is mine by rights. Swear me your sword, and once I win it back I'll drown you in gold.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Jorah Mormont](wiki:Jorah_Mormont)
+> —Tyrion Lannister to Jorah Mormont, ADWD (`sources/chapters/adwd/adwd-tyrion-07.md:257`)

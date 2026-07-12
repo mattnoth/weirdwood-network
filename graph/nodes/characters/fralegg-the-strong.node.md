@@ -28,6 +28,6 @@ At the feast celebrating the [taking of the Shields](wiki:Taking_of_the_Shields)
 
 ## Quotes
 
-> [Highgarden](wiki:Highgarden)'s close. I say, look for dragons there. The [golden kind](wiki:Currency)!(wiki:Fralegg_the_Strong.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+> Highgarden's close. I say, look for dragons there. The golden kind!
 >
-> —Fralegg to [Euron Greyjoy](wiki:Euron_Greyjoy)
+> —Fralegg to Euron Greyjoy, AFFC (`sources/chapters/affc/affc-the-reaver-01.md:213`)

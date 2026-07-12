@@ -44,21 +44,21 @@ Theon Greyjoy and [Jeyne Poole](wiki:Jeyne_Poole) escape Winterfell, and are dis
 
 ## Quotes
 
-> The sea, is it? Happens I always wanted to see the sea. Never got where I could go to it, though. So now it's coming to me, is it? The [gods](wiki:Gods) are good, to take such trouble for a poor smith.(wiki:Mikken.cite_ref-Racok35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+> The sea, is it? Happens I always wanted to see the sea. Never got where I could go to it, though. So now it's coming to me, is it? The gods are good, to take such trouble for a poor smith.
 >
-> —Mikken, to [Bran Stark](wiki:Bran_Stark)
+> —Mikken, to Bran Stark, ACOK (`sources/chapters/acok/acok-bran-05.md:127`)
 
 > **Theon**: You all know me— **Mikken**: Aye, we know you for a sack of steaming dung!(wiki:Mikken.cite_ref-Racok46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
 >
 > —[Theon Greyjoy](wiki:Theon_Greyjoy) and Mikken
 
-> It's blood he drowned on, Bran thought numbly. His own blood.(wiki:Mikken.cite_ref-Racok46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
+> It's blood he drowned on, Bran thought numbly. His own blood.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, ACOK (`sources/chapters/acok/acok-bran-06.md:151`)
 
-> They were all dead now. [Jory](wiki:Jory), old Ser [Rodrik](wiki:Rodrik_Cassel), Lord [Eddard](wiki:Eddard_Stark), [Harwin](wiki:Harwin) and [Hullen](wiki:Hullen), [Cayn](wiki:Cayn) and [Desmond](wiki:Desmond) and [Fat Tom](wiki:Fat_Tom), [Alyn](wiki:Alyn) with his dreams of knighthood, Mikken who had given him his first real [sword](wiki:Sword). Even [Old Nan](wiki:Old_Nan), like as not.(wiki:Mikken.cite_ref-Radwd51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
+> They were all dead now. Jory, old Ser Rodrik, Lord Eddard, Harwin and Hullen, Cayn and Desmond and Fat Tom, Alyn with his dreams of knighthood, Mikken who had given him his first real sword. Even Old Nan, like as not.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-theon-01.md:185`)
 
 > Mikken. His name was Mikken. The castle blacksmith had never made any [lemoncakes](wiki:Lemon_cake) for [Sansa](wiki:Sansa_Stark), which made him far less important than [the castle cook](wiki:Gage) in the sweet little world she had shared with her friend [Jeyne Poole](wiki:Jeyne_Poole). Remember, damn you. [Your father](wiki:Vayon_Poole) was the steward, he had charge of the whole household. The smith's name was Mikken, Mikken, Mikken. I had him put to death before me!(wiki:Mikken.cite_ref-TWOW_11-1)
 >

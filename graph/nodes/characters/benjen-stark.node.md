@@ -113,9 +113,9 @@ Benjen is presumed dead.(wiki:Benjen_Stark.cite_ref-Raffcappendix.7B.7B.7B3.7D.7
 >
 > —Benjen and [Jon Snow](wiki:Jon_Snow)
 
-> The [Night's Watch](wiki:Night's_Watch) is a sworn brotherhood. We have no families. None of us will ever father sons. Our wife is duty. Our mistress is honor.(wiki:Benjen_Stark.cite_ref-Ragot5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+> The Night's Watch is a sworn brotherhood. We have no families. None of us will ever father sons. Our wife is duty. Our mistress is honor.
 >
-> —Benjen to [Jon Snow](wiki:Jon_Snow)
+> —Benjen to Jon Snow, AGOT (`sources/chapters/agot/agot-jon-01.md:91`)
 
 > **Benjen**: I warn you, Lannister, you'll find no inns at the [Wall](wiki:Wall). **Tyrion**: No doubt you'll find some place to put me. As you might have noticed, [I'm small](wiki:Dwarf).(wiki:Benjen_Stark.cite_ref-Ragot13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
 >
@@ -123,21 +123,21 @@ Benjen is presumed dead.(wiki:Benjen_Stark.cite_ref-Raffcappendix.7B.7B.7B3.7D.7
 
 ### Quotes about Benjen
 
-> His uncle was sharp-featured and gaunt as a mountain crag, but there was always a hint of laughter in his blue-grey eyes.(wiki:Benjen_Stark.cite_ref-Ragot5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
+> His uncle was sharp-featured and gaunt as a mountain crag, but there was always a hint of laughter in his blue-grey eyes.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, AGOT (`sources/chapters/agot/agot-jon-01.md:57`)
 
-> Benjen Stark was a [Sworn Brother](wiki:Night's_Watch). [Jon](wiki:Jon_Snow) would be a son to him, the child he would never have.(wiki:Benjen_Stark.cite_ref-Ragot6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-1)
+> Benjen Stark was a Sworn Brother. Jon would be a son to him, the child he would never have.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-02.md:203`)
 
 > **Yoren**: Most like he's dead. **Robb**: My uncle is not dead. Do you hear me? *My uncle is not dead!* **Yoren**: Whatever you say, m'lord. **Black brother**: There's not a man on the [Wall](wiki:Wall) knows the [haunted forest](wiki:Haunted_forest) better than Benjen Stark. He'll find his way back. **Yoren**: Well, maybe he will and maybe he won't. Good men have gone into those woods before, and never come out.(wiki:Benjen_Stark.cite_ref-Ragot24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-1)
 >
 > —[Yoren](wiki:Yoren), [Robb Stark](wiki:Robb_Stark), and an unnamed [black brother](wiki:Night's_Watch)
 
-> His blood ran black. Made him my brother as much as yours.(wiki:Benjen_Stark.cite_ref-Ragot32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_46-0)
+> His blood ran black. Made him my brother as much as yours.
 >
-> —[Yoren](wiki:Yoren) to [Eddard Stark](wiki:Eddard_Stark)
+> —Yoren to Eddard Stark, AGOT (`sources/chapters/agot/agot-arya-03.md:175`)
 
 > **Jeor**: If Ben Stark had come under [wildling](wiki:Free_folk) attack a half day's ride from [Castle Black](wiki:Castle_Black), he would have returned for more men, chased the killers through all [seven hells](wiki:Seven_hells) and brought me back their heads. **Jaremy**: Unless he was slain as well.(wiki:Benjen_Stark.cite_ref-Ragot52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-3)
 >

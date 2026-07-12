@@ -60,9 +60,9 @@ While traveling to the [stormlands](wiki:Stormlands), Arianne and Ser [Daemon Sa
 >
 > —Gerold to [Garin](wiki:Garin_(orphan))
 
-> I was weaned on venom, Dalt. Any [viper](wiki:Viper) takes a bite of me will rue it.(wiki:Gerold_Dayne.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-6)
+> I was weaned on venom, Dalt. Any viper takes a bite of me will rue it.
 >
-> —Gerold to [Andrey Dalt](wiki:Andrey_Dalt)
+> —Gerold to Andrey Dalt, AFFC (`sources/chapters/affc/affc-the-queenmaker-01.md:49`)
 
 > **Myrcella**: Are you the [Sword of the Morning](wiki:Sword_of_the_Morning) now? **Gerold**: Men call me Darkstar, and I am of the night.(wiki:Gerold_Dayne.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-7)
 >
@@ -70,17 +70,17 @@ While traveling to the [stormlands](wiki:Stormlands), Arianne and Ser [Daemon Sa
 
 ### Quotes about Gerold
 
-> He is [highborn](wiki:Highborn) enough to make a worthy consort, she thought. [Father](wiki:Doran_Martell) would question my good sense, but our children would be as beautiful as [dragonlords](wiki:Dragonlords). If there was a handsomer man in [Dorne](wiki:Dorne), she did not know him.(wiki:Gerold_Dayne.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-8)
+> He is highborn enough to make a worthy consort, she thought. Father would question my good sense, but our children would be as beautiful as dragonlords. If there was a handsomer man in Dorne, she did not know him.
 >
-> —thoughts of [Arianne Martell](wiki:Arianne_Martell)
+> —thoughts of Arianne Martell, AFFC (`sources/chapters/affc/affc-the-queenmaker-01.md:31`)
 
 > By tradition the [Kingsguard](wiki:Kingsguard) were the finest [knights](wiki:Knight) in all the [Seven Kingdoms](wiki:Seven_Kingdoms) ... but Darkstar was Darkstar.(wiki:Gerold_Dayne.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-9)
 >
 > —thoughts of [Arianne Martell](wiki:Arianne_Martell)
 
-> You were a fool to make him part of this. Darkstar is the most dangerous man in [Dorne](wiki:Dorne). You and he have done us all great harm.(wiki:Gerold_Dayne.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+> You were a fool to make him part of this. Darkstar is the most dangerous man in Dorne. You and he have done us all great harm.
 >
-> —[Doran Martell](wiki:Doran_Martell) to [Arianne Martell](wiki:Arianne_Martell)
+> —Doran Martell to Arianne Martell, AFFC (`sources/chapters/affc/affc-the-princess-in-the-tower-01.md:165`)
 
 > Ser Gerold is more a [viper](wiki:Viper) than your uncle ever was. Prince [Oberyn](wiki:Oberyn_Martell) could see that he was [poison](wiki:Poison), he said so more than once. It's just a pity that he never got around to killing him.(wiki:Gerold_Dayne.cite_ref-arianne1_10-1)
 >

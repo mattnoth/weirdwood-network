@@ -64,6 +64,6 @@ In [Meereen](wiki:Meereen), Ser [Barristan Selmy](wiki:Barristan_Selmy) recalls 
 >
 > —thoughts of [Merrett Frey](wiki:Merrett_Frey), recalling the lyrics of [Jenny's song](wiki:Jenny's_song)
 
-> The [Prince of Dragonflies](wiki:Duncan_Targaryen) loved Jenny of [Oldstones](wiki:Oldstones) so much he cast aside a crown, and [Westeros](wiki:Westeros) paid the bride price in corpses.(wiki:Jenny_of_Oldstones.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)
+> The Prince of Dragonflies loved Jenny of Oldstones so much he cast aside a crown, and Westeros paid the bride price in corpses.
 >
-> —thoughts of [Barristan Selmy](wiki:Barristan_Selmy)
+> —thoughts of Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-kingbreaker-01.md:85`)

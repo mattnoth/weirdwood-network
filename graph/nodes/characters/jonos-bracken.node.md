@@ -78,17 +78,17 @@ During his surrender to Jaime, Tytos agrees to surrender a smaller portion of Bl
 
 ### Quotes by Jonos
 
-> [Gregor Clegane](wiki:Gregor_Clegane) laid waste to my fields, slaughtered my [smallfolk](wiki:Smallfolk), and left [Stone Hedge](wiki:Burning_of_Stone_Hedge) a smoking ruin. Am I now to [bend the knee](wiki:Kneeler) to the ones who sent him? What have we fought for, if we are to put all back as it was before?(wiki:Jonos_Bracken.cite_ref-Ragot71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> Gregor Clegane laid waste to my fields, slaughtered my smallfolk, and left Stone Hedge a smoking ruin. Am I now to bend the knee to the ones who sent him? What have we fought for, if we are to put all back as it was before?
 >
-> —Jonos at [Robb Stark](wiki:Robb_Stark)'s war council
+> —Jonos at Robb Stark's war council, AGOT (`sources/chapters/agot/agot-catelyn-11.md:197`)
 
 > **Jonos**: You took me unawares, my lord. I was not told of your coming. **Jaime**: And I seem to have [prevented yours](wiki:Hildy).(wiki:Jonos_Bracken.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-12)
 >
 > —Jonos and [Jaime Lannister](wiki:Jaime_Lannister)
 
-> Aye, I kept faith with [the Young Wolf](wiki:Robb_Stark). As I'll keep faith with you, so long as you treat me fair. I [bent the knee](wiki:Kneeler) because I saw no sense in dying for the dead nor shedding [Bracken](wiki:House_Bracken) blood in a lost cause.(wiki:Jonos_Bracken.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-13)
+> Aye, I kept faith with the Young Wolf. As I'll keep faith with you, so long as you treat me fair. I bent the knee because I saw no sense in dying for the dead nor shedding Bracken blood in a lost cause.
 >
-> —Jonos to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Jonos to Jaime Lannister, ADWD (`sources/chapters/adwd/adwd-jaime-01.md:127`)
 
 ### Quotes about Jonos
 

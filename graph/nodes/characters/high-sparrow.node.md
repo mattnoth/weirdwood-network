@@ -77,9 +77,9 @@ Kevan, Randyll, and [Mace Tyrell](wiki:Mace_Tyrell), the new [Hand of the King](
 
 ### Quotes by the High Sparrow
 
-> These are the [bones](wiki:Bone) of holy men, murdered for their faith. They served the Seven even unto death. Some starved, some were [tortured](wiki:Torture). [Septs](wiki:Sept) have been despoiled, maidens and mothers raped by godless men and [demon](wiki:Demon) worshipers. Even [silent sisters](wiki:Silent_sisters) have been molested. Our [Mother Above](wiki:Mother_Above) cries out in her anguish. It is time for all anointed [knights](wiki:Knight) to forsake their worldly masters and defend our [Holy Faith](wiki:Faith_of_the_Seven). Come with us to [the city](wiki:King's_Landing), if you love the Seven.(wiki:High_Sparrow.cite_ref-Raffc4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7)
+> These are the bones of holy men, murdered for their faith. They served the Seven even unto death. Some starved, some were tortured. Septs have been despoiled, maidens and mothers raped by godless men and demon worshipers. Even silent sisters have been molested. Our Mother Above cries out in her anguish. It is time for all anointed knights to forsake their worldly masters and defend our Holy Faith. Come with us to the city, if you love the Seven.
 >
-> —thin septon to [Creighton Longbough](wiki:Creighton_Longbough), [Illifer the Penniless](wiki:Illifer_the_Penniless), and [Brienne of Tarth](wiki:Brienne_Tarth)
+> —thin septon to Creighton Longbough, Illifer the Penniless, and Brienne of Tarth, AFFC (`sources/chapters/affc/affc-brienne-01.md:141`)
 
 > **Cersei**: Septon [Raynard](wiki:Raynard)? What are you doing on your knees? **High Sparrow**: He is cleaning the floor. Work is a form of prayer, most pleasing to [the Smith](wiki:Smith_(the_Seven)).(wiki:High_Sparrow.cite_ref-Raffc28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-14)
 >
@@ -95,9 +95,9 @@ Kevan, Randyll, and [Mace Tyrell](wiki:Mace_Tyrell), the new [Hand of the King](
 >
 > —The High Sparrow and [Cersei Lannister](wiki:Cersei_Lannister)
 
-> There can be no penance without pain. No man should spare himself the scourge, as I told Ser [Osney](wiki:Osney_Kettleblack). I seldom feel so close to [god](wiki:Faith_of_the_Seven) as when I am being whipped for mine own wickedness, though my darkest sins are no wise near as black as his.(wiki:High_Sparrow.cite_ref-Raffc43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4)
+> There can be no penance without pain. No man should spare himself the scourge, as I told Ser Osney. I seldom feel so close to god as when I am being whipped for mine own wickedness, though my darkest sins are no wise near as black as his.
 >
-> —The High Sparrow to [Cersei Lannister](wiki:Cersei_Lannister)
+> —The High Sparrow to Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-10.md:227`)
 
 > **Cersei**: [Tommen](wiki:Tommen_Baratheon) loves his [little queen](wiki:Margaery_Tyrell) so much, Your Holiness, I fear it might be hard for him or his lords to judge her justly. Perhaps the Faith should conduct the trial? **High Sparrow**: I have had the selfsame thought, Your Grace. Just as [Maegor the Cruel](wiki:Maegor_the_Cruel) once took the [swords](wiki:Faith_Militant) from the Faith, so [Jaehaerys the Conciliator](wiki:Jaehaerys_the_Conciliator) deprived us of the scales of judgment. Yet who is truly fit to judge a queen, save the Seven Above and the godsworn below? A sacred court of seven judges shall sit upon this case. Three shall be of your female sex. A maiden, a mother, and a crone. Who could be more suited to judge the wickedness of women?(wiki:High_Sparrow.cite_ref-Raffc43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-5)
 >
@@ -125,10 +125,10 @@ Kevan, Randyll, and [Mace Tyrell](wiki:Mace_Tyrell), the new [Hand of the King](
 >
 > —[Doran Martell](wiki:Doran_Martell) to [Tyene Sand](wiki:Tyene_Sand)
 
-> This man is implacable, she realized once again.(wiki:High_Sparrow.cite_ref-Radwd54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-14)
+> This man is implacable, she realized once again.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, ADWD (`sources/chapters/adwd/adwd-cersei-01.md:93`)
 
-> What have we become, when [kings](wiki:King) and high [lords](wiki:Lord) must dance to the twittering of [sparrows](wiki:Sparrows)?(wiki:High_Sparrow.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-3)
+> What have we become, when kings and high lords must dance to the twittering of sparrows?
 >
-> —[Randyll Tarly](wiki:Randyll_Tarly) to [Kevan Lannister](wiki:Kevan_Lannister)
+> —Randyll Tarly to Kevan Lannister, ADWD (`sources/chapters/adwd/adwd-epilogue.md:51`)

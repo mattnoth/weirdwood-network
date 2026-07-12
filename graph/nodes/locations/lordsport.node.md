@@ -59,13 +59,13 @@ It is reported that Euron had Sawane killed because he recognized Balon's heir t
 >
 > —writings of [Yandel](wiki:Yandel)
 
-> Beneath the dubious protection of the fish-ridden little castle lay the village of Lordsport, its harbor aswarm with ships. When last he'd seen Lordsport, it had been a smoking wasteland, the skeletons of burnt longships and smashed galleys littering the stony shore like the bones of dead [leviathans](wiki:Leviathan), the houses no more than broken walls and cold ashes. After ten years, few traces of [the war](wiki:Greyjoy's_Rebellion) remained. The [smallfolk](wiki:Smallfolk) had built new hovels with the stones of the old, and cut fresh sod for their roofs. [A new inn](wiki:Otter_Gimpknee's_inn) had risen beside the landing, twice the size of the old one, with a lower story of cut stone and two upper stories of timber. The [sept](wiki:Sept) beyond had never been rebuilt, though; only a seven-sided foundation remained where it had stood. [Robert Baratheon's](wiki:Robert_I_Baratheon) fury had soured the [ironmen's](wiki:Ironborn) taste for the [new gods](wiki:New_gods), it would seem.(wiki:Lordsport.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
+> Beneath the dubious protection of the fish-ridden little castle lay the village of Lordsport, its harbor aswarm with ships. When last he'd seen Lordsport, it had been a smoking wasteland, the skeletons of burnt longships and smashed galleys littering the stony shore like the bones of dead leviathans, the houses no more than broken walls and cold ashes. After ten years, few traces of the war remained. The smallfolk had built new hovels with the stones of the old, and cut fresh sod for their roofs. A new inn had risen beside the landing, twice the size of the old one, with a lower story of cut stone and two upper stories of timber. The sept beyond had never been rebuilt, though; only a seven-sided foundation remained where it had stood. Robert Baratheon's fury had soured the ironmen's taste for the new gods, it would seem.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-01.md:103`)
 
-> Among the masts of countless fishing boats, he spied a [Tyroshi](wiki:Tyrosh) trading galley off-loading beside a lumbering [Ibbenese](wiki:Ibbenese) cog with her black-tarred hull. A great number of longships, fifty or sixty at the least, stood out to sea or lay beached on the pebbled shore to the north.(wiki:Lordsport.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
+> Among the masts of countless fishing boats, he spied a Tyroshi trading galley off-loading beside a lumbering Ibbenese cog with her black-tarred hull. A great number of longships, fifty or sixty at the least, stood out to sea or lay beached on the pebbled shore to the north.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-01.md:105`)
 
 > Lordsport has no lack of strong arms.(wiki:Lordsport.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4)
 >

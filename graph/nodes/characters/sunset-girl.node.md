@@ -37,6 +37,6 @@ Later, as Tyrion attempts to leave the brothel, he tells the proprietor that the
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) to the sunset girl
 
-> This girl is as good as dead. I have just fucked a corpse.(wiki:Sunset_girl.cite_ref-Radwd22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> This girl is as good as dead. I have just fucked a corpse.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-06.md:327`)

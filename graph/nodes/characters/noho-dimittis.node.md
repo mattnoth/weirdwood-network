@@ -33,6 +33,6 @@ When he is finally allowed to meet with Queen Regent [Cersei Lannister](wiki:Cer
 
 ## Quotes
 
-> Ser [Meryn](wiki:Meryn_Trant), show the noble Noho Dimittis to the door.(wiki:Noho_Dimittis.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> Ser Meryn, show the noble Noho Dimittis to the door.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister)
+> —Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-05.md:77`)

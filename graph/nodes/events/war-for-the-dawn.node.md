@@ -41,18 +41,18 @@ After the [battle beneath the Wall](wiki:Battle_beneath_the_Wall) Melisandre sta
 >
 > —[Melisandre](wiki:Melisandre), to [Davos Seaworth](wiki:Davos_Seaworth)
 
-> It is death we choose, or life. Darkness, or light.(wiki:War_for_the_dawn.cite_ref-Rasos25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+> It is death we choose, or life. Darkness, or light.
 >
-> —[Melisandre](wiki:Melisandre)
+> —Melisandre, ASOS (`sources/chapters/asos/asos-davos-03.md:69`)
 
 > The battle has begun ... The sand is running in the glass more quickly now, and man's hour on earth is almost done. We must act boldly, or all hope is lost. Westeros must unite beneath her one true king, [the prince that was promised](wiki:The_prince_that_was_promised), Lord of [Dragonstone](wiki:Dragonstone) and chosen of [R'hllor](wiki:R'hllor).(wiki:War_for_the_dawn.cite_ref-Rasos36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
 >
 > —[Melisandre](wiki:Melisandre), to [Davos Seaworth](wiki:Davos_Seaworth)
 
-> Ours is a war for life itself, and should we fail the world dies with us.(wiki:War_for_the_dawn.cite_ref-Rasos78.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> Ours is a war for life itself, and should we fail the world dies with us.
 >
-> —[Melisandre](wiki:Melisandre)
+> —Melisandre, ASOS (`sources/chapters/asos/asos-samwell-05.md:81`)
 
-> It is the war for the dawn you speak of, [my lady](wiki:Melisandre). But where is [the prince that was promised](wiki:The_prince_that_was_promised)?(wiki:War_for_the_dawn.cite_ref-Rasos78.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> It is the war for the dawn you speak of, my lady. But where is the prince that was promised?
 >
-> —Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I))
+> —Maester Aemon), ASOS (`sources/chapters/asos/asos-samwell-05.md:83`)

@@ -52,6 +52,6 @@ Cersei continues to obsess over Rugen and his connection to the Tyrells.(wiki:Ru
 
 ## Quotes
 
-> Varys had transformed himself into a grizzled turnkey, reeking of sweat and sour wine.(wiki:Rugen.cite_ref-Ragot58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+> Varys had transformed himself into a grizzled turnkey, reeking of sweat and sour wine.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-15.md:61`)

@@ -199,30 +199,30 @@ Harys and Braavosi [keyholders](wiki:Keyholders) attend a performance of *[The B
 >
 > —[George R. R. Martin](wiki:George_R._R._Martin)
 
-> [Westerosi](wiki:Westeros) may be warriors, but we Braavosi are traders.(wiki:Braavos.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> Westerosi may be warriors, but we Braavosi are traders.
 >
-> —[Sealord](wiki:Sealord_of_Braavos) to [Barth](wiki:Barth)
+> —Sealord to Barth, F&B (`sources/chapters/fab/fab-jaehaerys-and-alysanne-triumphs-12-p02.md:89`)
 
-> Then as now, the Braavosi were a pragmatic people, for theirs is a city of escaped [slaves](wiki:Slavery) where a thousand false [gods](wiki:Religion) are honored, but only [gold](wiki:Gold) is truly worshipped. Profit means more than pride amongst the hundred isles.(wiki:Braavos.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_51-3)
+> Then as now, the Braavosi were a pragmatic people, for theirs is a city of escaped slaves where a thousand false gods are honored, but only gold is truly worshipped. Profit means more than pride amongst the hundred isles.
 >
-> —writings of [Gyldayn](wiki:Gyldayn)
+> —writings of Gyldayn, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p01.md:205`)
 
 > In [Westeros](wiki:Westeros) my wit is wasted capering for [a king who never smiles](wiki:Aegon_III_Targaryen), but in Braavos they would love me ... too well, I fear. Every [courtesan](wiki:Courtesan) would want me, and soon or late some [bravo](wiki:Bravo) would take umbrage at the size of my member and prick me with his little pointy [dwarf](wiki:Dwarf)-skewer.(wiki:Braavos.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_51-4)
 >
 > —writings of [Mushroom](wiki:Mushroom)
 
-> Braavos is all stone, a grey city in a [green sea](wiki:Shivering_Sea).(wiki:Braavos.cite_ref-Raffc6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-17)
+> Braavos is all stone, a grey city in a green sea.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, AFFC (`sources/chapters/affc/affc-arya-01.md:93`)
 
-> Braavos was a city made for secrets, a city of fogs and masks and whispers.(wiki:Braavos.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-22)
+> Braavos was a city made for secrets, a city of fogs and masks and whispers.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, AFFC (`sources/chapters/affc/affc-cat-of-the-canals-01.md:37`)
 
 > **Kindly man**: The [Nine Free Cities](wiki:Free_Cities) are the daughters of [Valyria](wiki:Valyria) that was, but Braavos is the [bastard](wiki:Bastard) child who ran away from home. We are a mongrel folk, the sons of [slaves](wiki:Slaves) and [whores](wiki:Whores) and thieves. Our forebears come from half a hundred lands to this place of refuge, to escape the [dragonlords](wiki:Dragonlords) who had enslaved them. Half a hundred gods came with them, but there is one god all of them shared in common. **Arya**: [Him of Many Faces](wiki:Many-Faced_God).(wiki:Braavos.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-23)
 >
 > —[Kindly man](wiki:Kindly_man) and [Arya Stark](wiki:Arya_Stark)
 
-> We Braavosi are descended from those who fled [Valyria](wiki:Valyria) and the wroth of its [dragonlords](wiki:Dragonlords). We do not jape of [dragons](wiki:Dragon).(wiki:Braavos.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-4)
+> We Braavosi are descended from those who fled Valyria and the wroth of its dragonlords. We do not jape of dragons.
 >
-> —[Tycho Nestoris](wiki:Tycho_Nestoris) to [Jon Snow](wiki:Jon_Snow)
+> —Tycho Nestoris to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-09.md:189`)

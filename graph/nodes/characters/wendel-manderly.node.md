@@ -70,9 +70,9 @@ Wendel's bones are returned to his father by a trio of [Freys](wiki:House_Frey)�
 >
 > —Wendel and [Catelyn Stark](wiki:Catelyn_Stark)
 
-> Nothing's more like to bring a [Lannister](wiki:House_Lannister) running than a threat to his gold.(wiki:Wendel_Manderly.cite_ref-Racok39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-2)
+> Nothing's more like to bring a Lannister running than a threat to his gold.
 >
-> —Wendel to [Martyn Rivers](wiki:Martyn_Rivers)
+> —Wendel to Martyn Rivers, ACOK (`sources/chapters/acok/acok-catelyn-05.md:49`)
 
 > "Lannisters on the Trident," said Ser Wendel unhappily. "My brother is taken again."
 >
@@ -84,14 +84,14 @@ Wendel's bones are returned to his father by a trio of [Freys](wiki:House_Frey)�
 >
 > —[Wyman Manderly](wiki:Wyman_Manderly) to [Rodrik Cassel](wiki:Rodrik_Cassel) and [Luwin](wiki:Luwin)
 
-> He was one of the fattest men Catelyn had ever known, but howevermuch he loved his food, he loved his honor more.(wiki:Wendel_Manderly.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)
+> He was one of the fattest men Catelyn had ever known, but howevermuch he loved his food, he loved his honor more.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-02.md:25`)
 
-> Wendel was always a brave boy. I was not surprised to learn he died a hero.(wiki:Wendel_Manderly.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-1)
+> Wendel was always a brave boy. I was not surprised to learn he died a hero.
 >
-> —[Wyman Manderly](wiki:Wyman_Manderly) to [Jared Frey](wiki:Jared_Frey)
+> —Wyman Manderly to Jared Frey, ADWD (`sources/chapters/adwd/adwd-davos-03.md:59`)
 
-> My son Wendel came to the [Twins](wiki:Twins) a guest. He ate Lord [Walder's](wiki:Walder_Frey) [bread and salt](wiki:Guest_right), and hung his sword upon the wall to feast with friends. And [they murdered him](wiki:Red_Wedding). Murdered, I say, and may the [Freys](wiki:House_Frey) choke upon their fables.(wiki:Wendel_Manderly.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-1)
+> My son Wendel came to the Twins a guest. He ate Lord Walder's bread and salt, and hung his sword upon the wall to feast with friends. And they murdered him. Murdered, I say, and may the Freys choke upon their fables.
 >
-> —[Wyman Manderly](wiki:Wyman_Manderly) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Wyman Manderly to Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-04.md:125`)

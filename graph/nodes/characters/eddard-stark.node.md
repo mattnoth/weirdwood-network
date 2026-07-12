@@ -162,13 +162,13 @@ During the [walk of atonement](wiki:Walk_of_atonement) by [Cersei Lannister](wik
 >
 > —[Bran Stark](wiki:Bran_Stark) and Eddard
 
-> The blood of the [First Men](wiki:First_Men) still flows in the veins of the [Starks](wiki:House_Stark), and we hold to the belief that the man who passes the sentence should swing the sword. If you would take a man's life, you owe it to him to look into his eyes and hear his final words. And if you cannot bear to do that, then perhaps the man does not deserve to die.(wiki:Eddard_Stark.cite_ref-Ragot1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-7)
+> The blood of the First Men still flows in the veins of the Starks, and we hold to the belief that the man who passes the sentence should swing the sword. If you would take a man's life, you owe it to him to look into his eyes and hear his final words. And if you cannot bear to do that, then perhaps the man does not deserve to die.
 >
-> —Eddard to [Bran Stark](wiki:Bran_Stark)
+> —Eddard to Bran Stark, AGOT (`sources/chapters/agot/agot-bran-01.md:63`)
 
-> A ruler who hides behind paid executioners soon forgets what death is.(wiki:Eddard_Stark.cite_ref-Ragot1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-8)
+> A ruler who hides behind paid executioners soon forgets what death is.
 >
-> —Eddard to [Bran Stark](wiki:Bran_Stark)
+> —Eddard to Bran Stark, AGOT (`sources/chapters/agot/agot-bran-01.md:65`)
 
 > **Eddard**: We are not the boys we were. **Robert**: You were never the boy you were.(wiki:Eddard_Stark.cite_ref-Ragot12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-10)
 >
@@ -182,13 +182,13 @@ During the [walk of atonement](wiki:Walk_of_atonement) by [Cersei Lannister](wik
 >
 > —Eddard to [Robb Stark](wiki:Robb_Stark)
 
-> Some secrets are safer kept hidden. Some secrets are too dangerous to share, even with those you love and trust.(wiki:Eddard_Stark.cite_ref-Ragot33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-3)
+> Some secrets are safer kept hidden. Some secrets are too dangerous to share, even with those you love and trust.
 >
-> —Eddard's thoughts
+> —Eddard's thoughts, AGOT (`sources/chapters/agot/agot-eddard-08.md:123`)
 
-> Black and white and grey, all the shades of truth.(wiki:Eddard_Stark.cite_ref-Ragot43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-2)
+> Black and white and grey, all the shades of truth.
 >
-> —Eddard's thoughts
+> —Eddard's thoughts, AGOT (`sources/chapters/agot/agot-eddard-11.md:35`)
 
 > "If it came to that, the life of some child I did not know, against [Robb](wiki:Robb_Stark) and [Sansa](wiki:Sansa_Stark) and [Arya](wiki:Arya_Stark) and [Bran](wiki:Bran_Stark) and [Rickon](wiki:Rickon_Stark), what would I do? Even more so, what would [Catelyn](wiki:Catelyn_Stark) do, if it were [Jon](wiki:Jon_Snow)'s life, against the children of her body?" He did not know. He prayed he never would.(wiki:Eddard_Stark.cite_ref-Ragot45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_61-2)
 >
@@ -198,31 +198,31 @@ During the [walk of atonement](wiki:Walk_of_atonement) by [Cersei Lannister](wik
 >
 > —[Cersei Lannister](wiki:Cersei_Lannister) and Eddard
 
-> In this world only winter is certain. We may lose our heads, it's true ... but what if we prevail?(wiki:Eddard_Stark.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-3)
+> In this world only winter is certain. We may lose our heads, it's true ... but what if we prevail?
 >
-> —Eddard to the [Borrells](wiki:House_Borrell)
+> —Eddard to the Borrells, ADWD (`sources/chapters/adwd/adwd-davos-01.md:157`)
 
 ### Quotes about Eddard
 
-> You are too hard on yourself, Ned. You always were. Damn it, no woman wants [Baelor the Blessed](wiki:Baelor_I_Targaryen) in her bed.(wiki:Eddard_Stark.cite_ref-Ragot12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-11)
+> You are too hard on yourself, Ned. You always were. Damn it, no woman wants Baelor the Blessed in her bed.
 >
-> —[Robert I Baratheon](wiki:Robert_I_Baratheon) to Eddard
+> —Robert I Baratheon to Eddard, AGOT (`sources/chapters/agot/agot-eddard-02.md:45`)
 
-> Damn you, Ned Stark. You and [Jon Arryn](wiki:Jon_Arryn), I loved you both. What have you done to me? You were the one should have been king, you or Jon.(wiki:Eddard_Stark.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_58-1)
+> Damn you, Ned Stark. You and Jon Arryn, I loved you both. What have you done to me? You were the one should have been king, you or Jon.
 >
-> —[Robert I Baratheon](wiki:Robert_I_Baratheon) to Eddard
+> —Robert I Baratheon to Eddard, AGOT (`sources/chapters/agot/agot-eddard-07.md:93`)
 
-> You never could lie for love nor honor, Ned Stark.(wiki:Eddard_Stark.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_58-2)
+> You never could lie for love nor honor, Ned Stark.
 >
-> —[Robert I Baratheon](wiki:Robert_I_Baratheon) to Eddard
+> —Robert I Baratheon to Eddard, AGOT (`sources/chapters/agot/agot-eddard-07.md:113`)
 
-> No, my lord, when the swords come out in earnest, you will be the only true friend [Robert Baratheon](wiki:Robert_I_Baratheon) will have.(wiki:Eddard_Stark.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_58-3)
+> No, my lord, when the swords come out in earnest, you will be the only true friend Robert Baratheon will have.
 >
-> —[Varys](wiki:Varys) to Eddard
+> —Varys to Eddard, AGOT (`sources/chapters/agot/agot-eddard-07.md:295`)
 
-> You wear your honor like a suit of armor, Stark. You think it keeps you safe, but all it does is weigh you down and make it hard for you to move.(wiki:Eddard_Stark.cite_ref-Ragot47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-5)
+> You wear your honor like a suit of armor, Stark. You think it keeps you safe, but all it does is weigh you down and make it hard for you to move.
 >
-> —[Petyr Baelish](wiki:Petyr_Baelish) to Eddard
+> —Petyr Baelish to Eddard, AGOT (`sources/chapters/agot/agot-eddard-13.md:267`)
 
 > You are an honest and honorable man, Lord Eddard. Ofttimes I forget that. I have met so few of them in my life ... When I see what honesty and honor have won you, I understand why.(wiki:Eddard_Stark.cite_ref-Ragot58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-5)
 >
@@ -236,17 +236,17 @@ During the [walk of atonement](wiki:Walk_of_atonement) by [Cersei Lannister](wik
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) to [Catelyn Stark](wiki:Catelyn_Stark)
 
-> I knew Ned Stark as well. Your father was no friend of mine, but only a fool would doubt his honor or his honesty.(wiki:Eddard_Stark.cite_ref-Rasos76.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_87-0)
+> I knew Ned Stark as well. Your father was no friend of mine, but only a fool would doubt his honor or his honesty.
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Jon Snow](wiki:Jon_Snow)
+> —Stannis Baratheon to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-11.md:53`)
 
 > A long time ago, she remembered her father saying that when the cold wind blows the lone [wolf](wiki:Wolf) dies but the pack survives. He had it all backwards. Arya, the lone wolf, still lived, but the wolves of the pack had been taken and slain and skinned.(wiki:Eddard_Stark.cite_ref-Raffc6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_88-0)
 >
 > —thoughts of [Arya Stark](wiki:Arya_Stark)
 
-> Your father was a stubborn man as well. Honor, he called it. Well, honor has its costs, as Lord Eddard learned to his sorrow.(wiki:Eddard_Stark.cite_ref-Radwd17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-1)
+> Your father was a stubborn man as well. Honor, he called it. Well, honor has its costs, as Lord Eddard learned to his sorrow.
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Jon Snow](wiki:Jon_Snow)
+> —Stannis Baratheon to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-04.md:227`)
 
 > The lies we tell for love, he thought. May the gods forgive me.
 

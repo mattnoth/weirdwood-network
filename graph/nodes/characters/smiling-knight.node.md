@@ -56,17 +56,17 @@ Jaime tells [Amerei Frey](wiki:Amerei_Frey), whose father [Merrett](wiki:Merrett
 
 ### Quotes about the Smiling Knight
 
-> The Smiling Knight was a madman, cruelty and chivalry all jumbled up together, but he did not know the meaning of fear.(wiki:Smiling_Knight.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-10)
+> The Smiling Knight was a madman, cruelty and chivalry all jumbled up together, but he did not know the meaning of fear.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-08.md:41`)
 
 > The world was simpler in those days, Jaime thought, and men as well as swords were made of finer steel. Or was it only that he had been fifteen? They were all in their graves now, the [Sword of the Morning](wiki:Sword_of_the_Morning) and the Smiling Knight, the [White Bull](wiki:Gerold_Hightower) and Prince [Lewyn](wiki:Lewyn_Martell), Ser [Oswell Whent](wiki:Oswell_Whent) with his black humor, earnest [Jon Darry](wiki:Jon_Darry), [Simon Toyne](wiki:Simon_Toyne) and his [Kingswood Brotherhood](wiki:Kingswood_Brotherhood), bluff old [Sumner Crakehall](wiki:Sumner_Crakehall). And me, that boy I was ... when did he die, I wonder? When I donned the [white cloak](wiki:Kingsguard)? When I opened [Aerys's](wiki:Aerys_II_Targaryen) throat? That boy had wanted to be Ser [Arthur Dayne](wiki:Arthur_Dayne), but someplace along the way he had become the Smiling Knight instead.(wiki:Smiling_Knight.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-11)
 >
 > —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
 
-> [The Mountain](wiki:Gregor_Clegane) of my boyhood. Half as big but twice as mad.(wiki:Smiling_Knight.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> The Mountain of my boyhood. Half as big but twice as mad.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-04.md:117`)
 
 > **Amerei**: You could kill Lord [Beric](wiki:Beric_Dondarrion), Ser Jaime. You slew the Smiley Knight. Please, my lord, I beg you, stay and help us with Lord Beric and the [Hound](wiki:Hound). **Jaime**: The [Sword of the Morning](wiki:Sword_of_the_Morning) slew the Smiling Knight, my lady. Ser [Arthur Dayne](wiki:Arthur_Dayne), a better knight than me.(wiki:Smiling_Knight.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
 >

@@ -40,6 +40,6 @@ Prince [Doran Martell](wiki:Doran_Martell) reminisces to his daughter [Arianne](
 >
 > —[Arianne](wiki:Arianne_Martell) and [Doran Martell](wiki:Doran_Martell)
 
-> Is that where [Quentyn's](wiki:Quentyn_Martell) gone? To [Tyrosh](wiki:Tyrosh), to court the [Archon](wiki:Archon)'s [green-haired](wiki:Hair_dye) daughter?(wiki:Archon's_green-haired_daughter.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> Is that where Quentyn's gone? To Tyrosh, to court the Archon's green-haired daughter?
 >
-> —[Arianne](wiki:Arianne_Martell) to [Doran Martell](wiki:Doran_Martell)
+> —Arianne to Doran Martell, AFFC (`sources/chapters/affc/affc-the-princess-in-the-tower-01.md:319`)

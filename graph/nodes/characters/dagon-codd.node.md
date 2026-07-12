@@ -40,6 +40,6 @@ When [Ramsay Bolton](wiki:Ramsay_Snow) sends [Theon Greyjoy](wiki:Theon_Greyjoy)
 
 ### Quotes about Dagon
 
-> A big man, but pop-eyed and wide of mouth, with dead white flesh. He looked as if his father had sired him on a fish, but he still wore a longsword.(wiki:Dagon_Codd.cite_ref-Radwd20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> A big man, but pop-eyed and wide of mouth, with dead white flesh. He looked as if his father had sired him on a fish, but he still wore a longsword.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-02.md:135`)

@@ -64,13 +64,13 @@ When Jaime, the [Lord Commander of the Kingsguard](wiki:Lord_Commander_of_the_Ki
 >
 > —Daven to [Jaime Lannister](wiki:Jaime_Lannister)
 
-> I told [your father](wiki:Tywin_Lannister) I would forage for him, but he refused me. Some tasks are fit for [lions](wiki:House_Lannister), he said, but foraging is best left for [goats](wiki:Vargo_Hoat) and [dogs](wiki:Gregor_Clegane).(wiki:Daven_Lannister.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-12)
+> I told your father I would forage for him, but he refused me. Some tasks are fit for lions, he said, but foraging is best left for goats and dogs.
 >
-> —Daven to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Daven to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-05.md:31`)
 
-> You know the best thing about heroes, Jaime? They all die young and leave more women for the rest of us.(wiki:Daven_Lannister.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-13)
+> You know the best thing about heroes, Jaime? They all die young and leave more women for the rest of us.
 >
-> —Daven to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Daven to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-05.md:61`)
 
 > **Jaime**: I hope you do not intend to take vows as well, coz. The [Freys](wiki:House_Frey) are prickly where [marriage](wiki:Marriage) contracts are concerned. I would hate to disappoint them again. **Daven**: I'll wed and bed my [stoat](wiki:Stoat), never fear. I know [what happened](wiki:Red_Wedding) to [Robb Stark](wiki:Robb_Stark).(wiki:Daven_Lannister.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-14)
 >
@@ -84,9 +84,9 @@ When Jaime, the [Lord Commander of the Kingsguard](wiki:Lord_Commander_of_the_Ki
 >
 > —[Brynden Tully](wiki:Brynden_Tully) and [Catelyn Stark](wiki:Catelyn_Stark)
 
-> For a man who looked so [leonine](wiki:Lion), Daven Lannister sounded oddly sheepish.(wiki:Daven_Lannister.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-15)
+> For a man who looked so leonine, Daven Lannister sounded oddly sheepish.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-05.md:19`)
 
 > Ser Daven’s bristling beard and bushy mustache grew into sidewhiskers as thick as a hedgerow, and those into the tangled yellow thicket atop his head, matted down by the helm he was removing. Somewhere in the midst of all that hair lurked a pug nose and a pair of lively hazel eyes.
 >

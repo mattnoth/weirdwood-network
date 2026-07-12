@@ -67,14 +67,14 @@ After Edmure arranges for the surrender of Riverrun, Walder informs Jaime that E
 
 ### Quotes about Walder
 
-> [Lothar's](wiki:Lothar_Frey) bastard brother Walder Rivers was another matter; a harsh sour man with old Lord [Walder's](wiki:Walder_Frey) suspicious face, he spoke but seldom and devoted most of his attention to the meat and mead that was set before him.(wiki:Walder_Rivers.cite_ref-Rasos35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-8)
+> Lothar's bastard brother Walder Rivers was another matter; a harsh sour man with old Lord Walder's suspicious face, he spoke but seldom and devoted most of his attention to the meat and mead that was set before him.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-04.md:157`)
 
 > **Jaime**: You were speaking of the [Freys](wiki:House_Frey) you wanted dead. [Ryman](wiki:Ryman_Frey), [Edwyn](wiki:Edwyn_Frey), [Emmon](wiki:Emmon_Frey) ... **Daven**: And Walder Rivers, that whoreson. Hates that he is a [bastard](wiki:Bastard), and hates everyone who's not.(wiki:Walder_Rivers.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) and [Daven Lannister](wiki:Daven_Lannister)
 
-> That one is more dangerous than any of his trueborn brothers.(wiki:Walder_Rivers.cite_ref-Raffc38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+> That one is more dangerous than any of his trueborn brothers.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister)'s thoughts
+> —Jaime Lannister's thoughts, AFFC (`sources/chapters/affc/affc-jaime-06.md:215`)

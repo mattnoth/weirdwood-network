@@ -86,9 +86,9 @@ Ser [Barristan Selmy](wiki:Barristan_Selmy) tells [Daenerys Targaryen](wiki:Daen
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) and [Tywin Lannister](wiki:Tywin_Lannister)
 
-> Lord [Tywin](wiki:Tywin_Lannister) seldom spoke of his wife, but Tyrion had heard his uncles talk of the love between them. In those days, his father had been [Aerys's](wiki:Aerys_II_Targaryen) [Hand](wiki:Hand_of_the_King), and many people said that Lord Tywin Lannister ruled the [Seven Kingdoms](wiki:Seven_Kingdoms), but Lady Joanna ruled Lord Tywin.(wiki:Joanna_Lannister.cite_ref-Rasos38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+> Lord Tywin seldom spoke of his wife, but Tyrion had heard his uncles talk of the love between them. In those days, his father had been Aerys's Hand, and many people said that Lord Tywin Lannister ruled the Seven Kingdoms, but Lady Joanna ruled Lord Tywin.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-05.md:131`)
 
 > [He](wiki:Tywin_Lannister) was not the same man after she died, Imp. The best part of him died with her.(wiki:Joanna_Lannister.cite_ref-Rasos38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
 >

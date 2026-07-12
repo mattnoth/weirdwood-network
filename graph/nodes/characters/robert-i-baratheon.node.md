@@ -226,17 +226,17 @@ Petyr gifts Robert's tapestries to [Nestor Royce](wiki:Nestor_Royce), Lord of th
 >
 > —[Balon Greyjoy](wiki:Balon_Greyjoy) and Robert
 
-> The [gods](wiki:Gods) be damned. It was a hollow victory they gave me. [A crown](wiki:Iron_Throne) ... it was [the girl](wiki:Lyanna_Stark) I prayed them for. Your sister, safe ... and mine again, as she was meant to be. I ask you, Ned, what good is it to wear a [crown](wiki:Crown)? The gods mock the prayers of kings and cowherds alike.(wiki:Robert_I_Baratheon.cite_ref-Ragot12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-12)
+> The gods be damned. It was a hollow victory they gave me. A crown ... it was the girl I prayed them for. Your sister, safe ... and mine again, as she was meant to be. I ask you, Ned, what good is it to wear a crown? The gods mock the prayers of kings and cowherds alike.
 >
-> —Robert, to [Eddard Stark](wiki:Eddard_Stark)
+> —Robert, to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-02.md:149`)
 
 > **Eddard:** You're too fat for your [armor](wiki:Armor), Robert. **Robert:** Fat? Fat, is it? Is that how you speak to your king? Ah, damn you, Ned, why are you always right?(wiki:Robert_I_Baratheon.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-16)
 >
 > —Robert, to [Eddard Stark](wiki:Eddard_Stark)
 
-> I swear to you, I was never so alive as when I was winning [this throne](wiki:Iron_Throne), or so dead as now that I've won it.(wiki:Robert_I_Baratheon.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-17)
+> I swear to you, I was never so alive as when I was winning this throne, or so dead as now that I've won it.
 >
-> —Robert, to [Eddard Stark](wiki:Eddard_Stark)
+> —Robert, to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-07.md:101`)
 
 > STOP THIS MADNESS, IN THE NAME OF YOUR KING!(wiki:Robert_I_Baratheon.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-18)
 >
@@ -248,29 +248,29 @@ Petyr gifts Robert's tapestries to [Nestor Royce](wiki:Nestor_Royce), Lord of th
 
 ### Quotes about Robert
 
-> The king was a great disappointment to Jon. [His father](wiki:Eddard_Stark) had talked of him often: the peerless Robert Baratheon, [demon](wiki:Demons) [of the Trident](wiki:Battle_of_the_Trident), the fiercest warrior of the realm, a giant among princes. Jon saw only a fat man, red-faced under his beard, sweating through his [silks](wiki:Silk). He walked like a man half in his cups.(wiki:Robert_I_Baratheon.cite_ref-Ragot5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-5)
+> The king was a great disappointment to Jon. His father had talked of him often: the peerless Robert Baratheon, demon of the Trident, the fiercest warrior of the realm, a giant among princes. Jon saw only a fat man, red-faced under his beard, sweating through his silks. He walked like a man half in his cups.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, AGOT (`sources/chapters/agot/agot-jon-01.md:23`)
 
-> [The eunuch](wiki:Varys) had hit upon a truth; tell Robert Baratheon he could not, should not, or must not do a thing, and it was as good as done.(wiki:Robert_I_Baratheon.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-19)
+> The eunuch had hit upon a truth; tell Robert Baratheon he could not, should not, or must not do a thing, and it was as good as done.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-07.md:265`)
 
-> Robert was never the same after he put on that [crown](wiki:Crown). Some men are like [swords](wiki:Sword), made for fighting. Hang them up and they go to rust.(wiki:Robert_I_Baratheon.cite_ref-Racok6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_85-1)
+> Robert was never the same after he put on that crown. Some men are like swords, made for fighting. Hang them up and they go to rust.
 >
-> —[Donal Noye](wiki:Donal_Noye), to [Jon Snow](wiki:Jon_Snow)
+> —Donal Noye, to Jon Snow, ACOK (`sources/chapters/acok/acok-jon-01.md:113`)
 
-> They said Robert Baratheon was strong as a bull and fearless in battle, a man who loved nothing better than war.(wiki:Robert_I_Baratheon.cite_ref-Racok27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-2)
+> They said Robert Baratheon was strong as a bull and fearless in battle, a man who loved nothing better than war.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ACOK (`sources/chapters/acok/acok-daenerys-02.md:87`)
 
-> Robert wanted smiles and cheers, always, so he went where he found them, to his friends and his [whores](wiki:Whore). Robert wanted to be loved. My brother [Tyrion](wiki:Tyrion_Lannister) has the same disease.(wiki:Robert_I_Baratheon.cite_ref-Racok52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_80-2)
+> Robert wanted smiles and cheers, always, so he went where he found them, to his friends and his whores. Robert wanted to be loved. My brother Tyrion has the same disease.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister), to [Sansa Stark](wiki:Sansa_Stark)
+> —Cersei Lannister, to Sansa Stark, ACOK (`sources/chapters/acok/acok-sansa-04.md:183`)
 
-> Robert was as generous with his [coin](wiki:Currency) as he was with his cock.(wiki:Robert_I_Baratheon.cite_ref-Rasos32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_44-2)
+> Robert was as generous with his coin as he was with his cock.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister), to [Tywin Lannister](wiki:Tywin_Lannister)
+> —Tyrion Lannister, to Tywin Lannister, ASOS (`sources/chapters/asos/asos-tyrion-04.md:213`)
 
 > **Sandor**: Robert is the king of the worms now. Is that why you're [down in the earth](wiki:Hollow_hill), to keep his court for him? **Beric**: The king is dead, but we are still king's men, though the royal banner we bore was lost at the [Mummer's Ford](wiki:Battle_at_the_Mummer's_Ford) when [your brother's butchers](wiki:Mountain's_men) fell upon us. Robert is slain, but [his realm remains](wiki:Seven_Kingdoms). And [we](wiki:Brotherhood_without_banners) defend her.(wiki:Robert_I_Baratheon.cite_ref-Rasos34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_123-0)
 >
@@ -284,9 +284,9 @@ Petyr gifts Robert's tapestries to [Nestor Royce](wiki:Nestor_Royce), Lord of th
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister), to [Brienne of Tarth](wiki:Brienne_of_Tarth)
 
-> Yes, I hoped [the boy](wiki:Bran_Stark) would die. So did you. Even Robert thought that would have been for the best. 'We kill our [horses](wiki:Horse) when they break a leg, and our [dogs](wiki:Dog) when they go blind, but we are too weak to [give the same mercy](wiki:Gift_of_mercy) to crippled children,' he told me. He was blind himself at the time, from drink.(wiki:Robert_I_Baratheon.cite_ref-Rasos72.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_115-2)
+> Yes, I hoped the boy would die. So did you. Even Robert thought that would have been for the best. 'We kill our horses when they break a leg, and our dogs when they go blind, but we are too weak to give the same mercy to crippled children,' he told me. He was blind himself at the time, from drink.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister), to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Cersei Lannister, to Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-09.md:125`)
 
 > **Arys:** Robert was no monster. **Arianne:** He climbed onto [his throne](wiki:Iron_Throne) [over the corpses of children](wiki:Sack_of_King's_Landing), though I will grant you he was no [Joffrey](wiki:Joffrey_Baratheon).(wiki:Robert_I_Baratheon.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_124-0)
 >
@@ -298,9 +298,9 @@ Petyr gifts Robert's tapestries to [Nestor Royce](wiki:Nestor_Royce), Lord of th
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) and [Lancel Lannister](wiki:Lancel_Lannister)
 
-> He was a good [knight](wiki:Knight) but a bad king, for he had no right to [the throne](wiki:Iron_Throne) he sat.(wiki:Robert_I_Baratheon.cite_ref-Radwd11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_119-1)
+> He was a good knight but a bad king, for he had no right to the throne he sat.
 >
-> —[Barristan Selmy](wiki:Barristan_Selmy), to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Barristan Selmy, to Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-02.md:217`)
 
 > We all know what my brother would do. Robert would gallop up to the gates of [Winterfell](wiki:Winterfell) alone, break them with [his warhammer](wiki:Robert's_warhammer), and ride through the rubble to slay [Roose Bolton](wiki:Roose_Bolton) with his left hand and [the Bastard](wiki:Ramsay_Snow) with his right. I am not Robert. But [we will march](wiki:March_on_Winterfell), and we will free Winterfell ... or die in the attempt.(wiki:Robert_I_Baratheon.cite_ref-Radwd42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_125-0)
 >

@@ -48,9 +48,9 @@ After the [taking of the Shields](wiki:Taking_of_the_Shields), [Euron Greyjoy](w
 >
 > —[Euron Greyjoy](wiki:Euron_Greyjoy) to [Victarion Greyjoy](wiki:Victarion_Greyjoy)
 
-> I beat her to death with mine own hands, he thought, but the [Crow's Eye](wiki:Euron_Greyjoy) killed her when he shoved himself inside her. I had no choice.(wiki:Victarion_Greyjoy's_third_wife.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+> I beat her to death with mine own hands, he thought, but the Crow's Eye killed her when he shoved himself inside her. I had no choice.
 >
-> —[Victarion Greyjoy](wiki:Victarion_Greyjoy)'s thoughts
+> —Victarion Greyjoy's thoughts, AFFC (`sources/chapters/affc/affc-the-reaver-01.md:225`)
 
 ## Edges
 

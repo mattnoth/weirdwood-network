@@ -69,9 +69,9 @@ When Jon advises Othell to have wildlings help his [builders](wiki:Builders), Ot
 >
 > —Othell and [Jon Snow](wiki:Jon_Snow)
 
-> Bad and worse and worst makes a beggar's choice. My lord had as well present us with a pack of wolves and ask which we'd like to tear our throats out.(wiki:Othell_Yarwyck.cite_ref-Radwd69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)
+> Bad and worse and worst makes a beggar's choice. My lord had as well present us with a pack of wolves and ask which we'd like to tear our throats out.
 >
-> —Othell to [Jon Snow](wiki:Jon_Snow)
+> —Othell to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-13.md:155`)
 
 ### Quotes about Othell
 
@@ -79,6 +79,6 @@ When Jon advises Othell to have wildlings help his [builders](wiki:Builders), Ot
 >
 > —[Jon Snow](wiki:Jon_Snow) to [Stannis Baratheon](wiki:Stannis_Baratheon)
 
-> Othell Yarwyck was not a man of strong convictions, except when it came to wood and stone and mortar.(wiki:Othell_Yarwyck.cite_ref-Rasos79.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+> Othell Yarwyck was not a man of strong convictions, except when it came to wood and stone and mortar.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ASOS (`sources/chapters/asos/asos-jon-12.md:53`)

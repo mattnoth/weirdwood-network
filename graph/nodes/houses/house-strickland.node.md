@@ -30,6 +30,6 @@ The head of House Strickland rose in rebellion with [Daemon I Blackfyre](wiki:Da
 
 ## Quotes
 
-> "Gold for four generations," [Harry](wiki:Harry_Strickland) would boast, as if four generations of exile and defeat were something to take pride in.(wiki:House_Strickland.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> "Gold for four generations," Harry would boast, as if four generations of exile and defeat were something to take pride in.
 >
-> —thoughts of [Jon Connington](wiki:Jon_Connington)
+> —thoughts of Jon Connington, ADWD (`sources/chapters/adwd/adwd-the-lost-lord-01.md:115`)

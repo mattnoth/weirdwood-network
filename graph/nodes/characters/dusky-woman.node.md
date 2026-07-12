@@ -60,9 +60,9 @@ Aboard *[Iron Victory](wiki:Iron_Victory)* in Victarion's cabin, when [Moqorro](
 >
 > —[Victarion Greyjoy](wiki:Victarion_Greyjoy) to the dusky woman
 
-> [Euron's](wiki:Euron_Greyjoy) gifts are poisoned, the captain had reminded himself the day the dusky woman came aboard. I want none of his leavings. He had decided then that he would slit her throat and toss her in the sea, a blood sacrifice to the [Drowned God](wiki:Drowned_God). Somehow, though, he had never quite gotten around to it.(wiki:Dusky_woman.cite_ref-Radwd56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
+> Euron's gifts are poisoned, the captain had reminded himself the day the dusky woman came aboard. I want none of his leavings. He had decided then that he would slit her throat and toss her in the sea, a blood sacrifice to the Drowned God. Somehow, though, he had never quite gotten around to it.
 >
-> —thoughts of [Victarion Greyjoy](wiki:Victarion_Greyjoy)
+> —thoughts of Victarion Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-iron-suitor-01.md:71`)
 
 ## Edges
 

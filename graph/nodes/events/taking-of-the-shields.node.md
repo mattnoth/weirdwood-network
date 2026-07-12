@@ -54,9 +54,9 @@ Later, after capturing his brother [Aeron Damphair](wiki:Aeron_Greyjoy), Euron a
 
 ## Quotes
 
-> The [Drowned God](wiki:Drowned_God) had not shaped Victarion Greyjoy to fight with words at [kingsmoots](wiki:Kingsmoot_on_Old_Wyk), nor struggle against furtive [sneaking foes](wiki:Crannogmen) in [endless bogs](wiki:Siege_of_Moat_Cailin). This was why he had been put on earth; to stand steel-clad with an axe red and dripping in his hand, dealing death with every blow.(wiki:Taking_of_the_Shields.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-18)
+> The Drowned God had not shaped Victarion Greyjoy to fight with words at kingsmoots, nor struggle against furtive sneaking foes in endless bogs. This was why he had been put on earth; to stand steel-clad with an axe red and dripping in his hand, dealing death with every blow.
 >
-> —[Victarion Greyjoy](wiki:Victarion_Greyjoy)'s thoughts
+> —Victarion Greyjoy's thoughts, AFFC (`sources/chapters/affc/affc-the-reaver-01.md:39`)
 
 > It is a great victory.(wiki:Taking_of_the_Shields.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-19)
 >
@@ -70,9 +70,9 @@ Later, after capturing his brother [Aeron Damphair](wiki:Aeron_Greyjoy), Euron a
 
 — Euron's victory feast at Oakenshield Castle, [Victarion Greyjoy](victarion-greyjoy) POV, AFFC The Reaver I (`sources/chapters/affc/affc-the-reaver-01.md:167`)
 
-> This was my victory, not his. Where was he? Back on [Oakenshield](wiki:Oakenshield), lazing in [a castle](wiki:Oakenshield_Castle). He stole [my wife](wiki:Victarion_Greyjoy's_third_wife) and he stole [my throne](wiki:Seastone_Chair), and now he steals my glory.(wiki:Taking_of_the_Shields.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-21)
+> This was my victory, not his. Where was he? Back on Oakenshield, lazing in a castle. He stole my wife and he stole my throne, and now he steals my glory.
 >
-> —[Victarion Greyjoy](wiki:Victarion_Greyjoy)'s thoughts, regarding [Euron Greyjoy](wiki:Euron_Greyjoy)
+> —Victarion Greyjoy's thoughts, regarding Euron Greyjoy, AFFC (`sources/chapters/affc/affc-the-reaver-01.md:57`)
 
 > "Good ladies," he called out to his highborn serving women, "Falia is concerned for your fine gowns. She would not have them stained with grease and wine and dirty groping fingers, since I have promised that she may choose her own clothes from your wardrobes after the feast. So you had best disrobe."
 

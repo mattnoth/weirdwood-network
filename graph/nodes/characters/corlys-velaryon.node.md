@@ -132,9 +132,9 @@ During his elder years, Corlys liked to say that he was clinging to life "like a
 >
 > —complaint of [Daella Targaryen](wiki:Daella_Targaryen_(daughter_of_Jaehaerys_I))
 
-> His captains said they had never seen such a natural sailor.(wiki:Corlys_Velaryon.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-17)
+> His captains said they had never seen such a natural sailor.
 >
-> —writings of [Gyldayn](wiki:Gyldayn)
+> —writings of Gyldayn, F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p01.md:115`)
 
 > Seventy-nine years of age, he had served four kings and [a queen](wiki:Rhaenyra_Targaryen), sailed to the ends of [the earth](wiki:Known_world), raised [House Velaryon](wiki:House_Velaryon) to unprecedented levels of wealth and power, married [a princess](wiki:Rhaenys_Targaryen_(daughter_of_Aemon)) who might have been a queen, fathered [dragonriders](wiki:Dragonrider), built towns and fleets, proved his valor in times of [war](wiki:Dance_of_the_Dragons) and his wisdom in times of peace. The [Seven Kingdoms](wiki:Seven_Kingdoms) would never see his like again.(wiki:Corlys_Velaryon.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-7)
 >

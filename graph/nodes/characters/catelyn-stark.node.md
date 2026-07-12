@@ -176,9 +176,9 @@ After [Theon Greyjoy](wiki:Theon_Greyjoy) returns to [Winterfell](wiki:Winterfel
 >
 > —Catelyn to [Robb Stark](wiki:Robb_Stark)
 
-> If I must trade our four [Lannisters](wiki:House_Lannister) for their two [Starks](wiki:House_Stark), I will call that a bargain and thank the [gods](wiki:Gods). I want you safe, Robb, ruling at [Winterfell](wiki:Winterfell) from [your father](wiki:Eddard_Stark)'s seat. I want you to live your life, to kiss a girl and wed a woman and father a son. I want to write an end to this. I want to go home, my lords, and weep for my husband.(wiki:Catelyn_Stark.cite_ref-Ragot71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-6)
+> If I must trade our four Lannisters for their two Starks, I will call that a bargain and thank the gods. I want you safe, Robb, ruling at Winterfell from your father's seat. I want you to live your life, to kiss a girl and wed a woman and father a son. I want to write an end to this. I want to go home, my lords, and weep for my husband.
 >
-> —Catelyn to [Robb Stark](wiki:Robb_Stark) and his council
+> —Catelyn to Robb Stark and his council, AGOT (`sources/chapters/agot/agot-catelyn-11.md:189`)
 
 > I want to weep, she thought. I want to be comforted. I'm so tired of being strong. I want to be foolish and frightened for once. Just for a small while, that's all ... a day ... an hour.(wiki:Catelyn_Stark.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-2)
 >
@@ -188,9 +188,9 @@ After [Theon Greyjoy](wiki:Theon_Greyjoy) returns to [Winterfell](wiki:Winterfel
 >
 > —Catelyn to herself
 
-> Wars need not be fought until the last drop of blood.(wiki:Catelyn_Stark.cite_ref-Rasos35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_56-2)
+> Wars need not be fought until the last drop of blood.
 >
-> —Catelyn to [Robb Stark](wiki:Robb_Stark)
+> —Catelyn to Robb Stark, ASOS (`sources/chapters/asos/asos-catelyn-04.md:131`)
 
 > **Catelyn**: On my honor as a [Tully](wiki:House_Tully), on my honor as a [Stark](wiki:House_Stark), I will trade your boy's life for [Robb](wiki:Robb_Stark)'s. A son for a son. **Walder**: A son for a son, heh. But that's [a grandson](wiki:Aegon_Frey_(son_of_Stevron)) ... and he never was much use.(wiki:Catelyn_Stark.cite_ref-Rasos51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-4)
 >
@@ -202,9 +202,9 @@ After [Theon Greyjoy](wiki:Theon_Greyjoy) returns to [Winterfell](wiki:Winterfel
 >
 > —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> Catelyn Stark might take a man prisoner, but she'd never stoop to rob him. That wouldn't be honorable.(wiki:Catelyn_Stark.cite_ref-Ragot38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-1)
+> Catelyn Stark might take a man prisoner, but she'd never stoop to rob him. That wouldn't be honorable.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Mord](wiki:Mord)
+> —Tyrion Lannister to Mord, AGOT (`sources/chapters/agot/agot-tyrion-05.md:129`)
 
 > You have courage. Not battle courage perhaps but ... I don't know ... a kind of woman's courage.(wiki:Catelyn_Stark.cite_ref-Racok33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-4)
 >
@@ -222,9 +222,9 @@ After [Theon Greyjoy](wiki:Theon_Greyjoy) returns to [Winterfell](wiki:Winterfel
 >
 > —[Lem](wiki:Lem) to [Merrett Frey](wiki:Merrett_Frey)
 
-> Her cloak and collar hid the gash [his brother](wiki:Raymund_Frey)'s blade had made, but her face was even worse than he remembered. The flesh had gone pudding soft in the water and turned the color of curdled milk. Half her hair was gone and the rest had turned as white and brittle as a crone’s. Beneath her ravaged scalp, her face was shredded skin and black blood where she had raked herself with her nails. But her eyes were the most terrible thing. Her eyes saw him, and they hated.(wiki:Catelyn_Stark.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_59-5)
+> Her cloak and collar hid the gash his brother's blade had made, but her face was even worse than he remembered. The flesh had gone pudding soft in the water and turned the color of curdled milk. Half her hair was gone and the rest had turned as white and brittle as a crone’s. Beneath her ravaged scalp, her face was shredded skin and black blood where she had raked herself with her nails. But her eyes were the most terrible thing. Her eyes saw him, and they hated.
 >
-> —[Merrett Frey](wiki:Merrett_Frey)'s thoughts
+> —Merrett Frey's thoughts, ASOS (`sources/chapters/asos/asos-epilogue.md:171`)
 
 > Lady Stoneheart lowered her hood and unwound the grey wool scarf from her face. Her hair was dry and brittle, white as bone. Her brow was mottled green and grey, spotted with the brown blooms of decay. The flesh of her face clung in ragged strips from her eyes down to her jaw. Some of the rips were crusted with dried blood, but others gaped open to reveal the skull beneath.
 >

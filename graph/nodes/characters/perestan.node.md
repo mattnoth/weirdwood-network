@@ -42,13 +42,13 @@ Perestan teaches history at the [Citadel](wiki:Citadel).(wiki:Perestan.cite_ref-
 
 ### Quotes about Perestan
 
-> Perestan says the world is forty thousand years old.(wiki:Perestan.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> Perestan says the world is forty thousand years old.
 >
-> —[Leo Tyrell](wiki:Leo_Tyrell)
+> —Leo Tyrell, AFFC (`sources/chapters/affc/affc-prologue.md:119`)
 
-> [Marwyn](wiki:Marwyn) is unsound. [Archmaester](wiki:Archmaester) Perestan would be the first to tell you that.(wiki:Perestan.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> Marwyn is unsound. Archmaester Perestan would be the first to tell you that.
 >
-> —[Armen](wiki:Armen)
+> —Armen, AFFC (`sources/chapters/affc/affc-prologue.md:151`)
 
 > [[Aemon Targaryen](wiki:Aemon_Targaryen_(son_of_Maekar_I))] was the oldest man in [Westeros](wiki:Westeros), and lived through more history than [Archmaester](wiki:Archmaester) Perestan has ever learned.(wiki:Perestan.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
 >

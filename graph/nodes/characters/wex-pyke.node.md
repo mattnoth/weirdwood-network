@@ -56,6 +56,6 @@ After [Davos Seaworth](wiki:Davos_Seaworth) is captured and his execution is fak
 >
 > —[Theon Greyjoy](wiki:Theon_Greyjoy) while striking Wex
 
-> We may never know all that happened at [Winterfell](wiki:Winterfell), when Ser [Rodrik Cassel](wiki:Rodrik_Cassel) tried to take the castle back from [Theon Greyjoy](wiki:Theon_Greyjoy)'s [ironmen](wiki:Ironmen). The [Bastard of Bolton](wiki:Ramsay_Snow) claims that Greyjoy murdered Ser Rodrik [during a parley](wiki:Battle_at_Winterfell). Wex says no. Until he learns more letters we will never know half the truth ... but he came to us knowing yes and no, and those can go a long way once you find the right questions.(wiki:Wex_Pyke.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> We may never know all that happened at Winterfell, when Ser Rodrik Cassel tried to take the castle back from Theon Greyjoy's ironmen. The Bastard of Bolton claims that Greyjoy murdered Ser Rodrik during a parley. Wex says no. Until he learns more letters we will never know half the truth ... but he came to us knowing yes and no, and those can go a long way once you find the right questions.
 >
-> —[Robett Glover](wiki:Robett_Glover) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Robett Glover to Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-04.md:181`)

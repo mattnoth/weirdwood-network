@@ -44,6 +44,6 @@ The townspeople of Lordsport used the stones of their destroyed structures to re
 
 ## Quotes
 
-> When last he'd seen [Lordsport](wiki:Lordsport), it had been a smoking wasteland, the skeletons of burnt longships and smashed galleys littering the stony shore like the bones of dead [leviathans](wiki:Leviathan), the houses no more than broken walls and cold ashes. After ten years, few traces of [the war](wiki:Greyjoy's_Rebellion) remained.(wiki:Battle_at_Lordsport.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+> When last he'd seen Lordsport, it had been a smoking wasteland, the skeletons of burnt longships and smashed galleys littering the stony shore like the bones of dead leviathans, the houses no more than broken walls and cold ashes. After ten years, few traces of the war remained.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-01.md:103`)

@@ -44,6 +44,6 @@ After the death of Dalbridge, Ebben is sent on with the remaining horses to ride
 
 ### Quotes about Ebben
 
-> Ebben can make any man give up his secrets.(wiki:Ebben.cite_ref-Racok53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)
+> Ebben can make any man give up his secrets.
 >
-> —[Qhorin](wiki:Qhorin) to [Jon Snow](wiki:Jon_Snow)
+> —Qhorin to Jon Snow, ACOK (`sources/chapters/acok/acok-jon-07.md:67`)

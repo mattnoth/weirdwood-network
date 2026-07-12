@@ -58,13 +58,13 @@ Having Jaime as a hostage, and recognizing his value as a prisoner, the Starks g
 
 ## Quotes
 
-> My lady, [the realm](wiki:Seven_Kingdoms) has not seen such a victory since the [Field of Fire](wiki:Field_of_Fire). I vow, the [Lannisters](wiki:House_Lannister) lost ten men for every one of ours that fell.(wiki:Battle_in_the_Whispering_Wood.cite_ref-Ragot63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-31)
+> My lady, the realm has not seen such a victory since the Field of Fire. I vow, the Lannisters lost ten men for every one of ours that fell.
 >
-> —[Theon Greyjoy](wiki:Theon_Greyjoy) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Theon Greyjoy to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-10.md:137`)
 
-> [Your brother](wiki:Robb_Stark) defeated my uncle [Jaime](wiki:Jaime_Lannister). [My mother](wiki:Cersei_Lannister) says it was treachery and deceit. She wept when she heard.(wiki:Battle_in_the_Whispering_Wood.cite_ref-Ragot67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-0)
+> Your brother defeated my uncle Jaime. My mother says it was treachery and deceit. She wept when she heard.
 >
-> —[Joffrey Baratheon](wiki:Joffrey_Baratheon) to [Sansa Stark](wiki:Sansa_Stark)
+> —Joffrey Baratheon to Sansa Stark, AGOT (`sources/chapters/agot/agot-sansa-06.md:153`)
 
 > How could it happen? Ser [Jaime](wiki:Jaime_Lannister) taken, [the siege broken](wiki:Battle_of_the_Camps) ... this is a catastrophe!(wiki:Battle_in_the_Whispering_Wood.cite_ref-Ragot69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-3)
 >

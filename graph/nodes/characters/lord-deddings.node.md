@@ -33,6 +33,6 @@ According to the [brotherhood without banners](wiki:Brotherhood_without_banners)
 
 ## Quotes
 
-> Lord and [Lady Deddings](wiki:Lady_Deddings), that was so rich.(wiki:Lord_Deddings.cite_ref-Rasos34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> Lord and Lady Deddings, that was so rich.
 >
-> —a member of the [brotherhood without banners](wiki:Brotherhood_without_banners)
+> —a member of the brotherhood without banners, ASOS (`sources/chapters/asos/asos-arya-06.md:119`)

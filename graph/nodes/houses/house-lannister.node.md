@@ -233,9 +233,9 @@ Kevan and the [small council](wiki:Small_council) try to deal with the resurgent
 >
 > —[Jon Snow](wiki:Jon_Snow) to [Arya Stark](wiki:Arya_Stark)
 
-> The Lannisters never declined, graciously or otherwise. The Lannisters took what was offered.(wiki:House_Lannister.cite_ref-Ragot13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-2)
+> The Lannisters never declined, graciously or otherwise. The Lannisters took what was offered.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-02.md:41`)
 
 > There is no limit to Lannister pride or Lannister ambition.(wiki:House_Lannister.cite_ref-Ragot14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_67-1)
 >
@@ -251,21 +251,21 @@ Kevan and the [small council](wiki:Small_council) try to deal with the resurgent
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Bronn](wiki:Bronn)
 
-> No man sheds Lannister blood with impunity.(wiki:House_Lannister.cite_ref-Ragot56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> No man sheds Lannister blood with impunity.
 >
-> —[Tywin Lannister](wiki:Tywin_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Tywin Lannister to Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-07.md:85`)
 
-> The Lannisters of [Casterly Rock](wiki:Casterly_Rock) were a damnably large and fertile house.(wiki:House_Lannister.cite_ref-Racok7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-2)
+> The Lannisters of Casterly Rock were a damnably large and fertile house.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-01.md:241`)
 
-> By what right does [the wolf](wiki:House_Stark) judge the lion? By what right?(wiki:House_Lannister.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_52-2)
+> By what right does the wolf judge the lion? By what right?
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister) to [Brienne Tarth](wiki:Brienne_Tarth)
+> —Jaime Lannister to Brienne Tarth, ASOS (`sources/chapters/asos/asos-jaime-05.md:71`)
 
-> My lady, has no one told you? Lannisters lie.(wiki:House_Lannister.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_52-3)
+> My lady, has no one told you? Lannisters lie.
 >
-> —[Roose Bolton](wiki:Roose_Bolton) to [Brienne Tarth](wiki:Brienne_Tarth)
+> —Roose Bolton to Brienne Tarth, ASOS (`sources/chapters/asos/asos-jaime-05.md:163`)
 
 > Not every Lannister is fool for glory.(wiki:House_Lannister.cite_ref-Radwd16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_154-0)
 >
@@ -279,6 +279,6 @@ Kevan and the [small council](wiki:Small_council) try to deal with the resurgent
 >
 > —[Haldon](wiki:Haldon) to [Jon Connington](wiki:Jon_Connington)
 
-> In [Westeros](wiki:Westeros), the word of a Lannister is considered good as [gold](wiki:Gold).(wiki:House_Lannister.cite_ref-Radwd66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_138-1)
+> In Westeros, the word of a Lannister is considered good as gold.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Tybero Istarion](wiki:Tybero_Istarion)
+> —Tyrion Lannister to Tybero Istarion, ADWD (`sources/chapters/adwd/adwd-tyrion-12.md:39`)

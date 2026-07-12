@@ -58,6 +58,6 @@ After [Euron Greyjoy](wiki:Euron_Greyjoy) is raised as [King of the Iron Islands
 
 ### Quotes about Baelor
 
-> Lord Blacktyde says this [kingsmoot](wiki:Kingsmoot) is a dangerous folly. He thinks [your uncle](wiki:Euron_Greyjoy) will descend on them and kill them all, as [Urron](wiki:Urron_Greyiron) did.(wiki:Baelor_Blacktyde.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+> Lord Blacktyde says this kingsmoot is a dangerous folly. He thinks your uncle will descend on them and kill them all, as Urron did.
 >
-> —[Rodrik Harlaw](wiki:Rodrik_Harlaw) to [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —Rodrik Harlaw to Asha Greyjoy, AFFC (`sources/chapters/affc/affc-the-krakens-daughter-01.md:249`)

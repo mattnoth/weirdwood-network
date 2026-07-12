@@ -68,9 +68,9 @@ Jaime continues to be bothered by Tyrion's remark about Cersei and Moon Boy.(wik
 
 ## Quotes
 
-> [The king's](wiki:Robert_I_Baratheon) own [fool](wiki:Fool), the pie-faced simpleton called Moon Boy, danced about on stilts, all in motley, making mock of everyone with such deft cruelty that Sansa wondered if he was simple after all.(wiki:Moon_Boy.cite_ref-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> The king's own fool, the pie-faced simpleton called Moon Boy, danced about on stilts, all in motley, making mock of everyone with such deft cruelty that Sansa wondered if he was simple after all.
 >
-> —[Sansa Stark](wiki:Sansa_Stark)'s thoughts
+> —Sansa Stark's thoughts, AGOT (`sources/chapters/agot/agot-sansa-02.md:65`)
 
 > [The Spider](wiki:Varys) pays in gold for any little trifle. I think Moon Boy had been his for years.(wiki:Moon_Boy.cite_ref-Racok52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2)
 >
@@ -84,6 +84,6 @@ Jaime continues to be bothered by Tyrion's remark about Cersei and Moon Boy.(wik
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Jaime Lannister](wiki:Jaime_Lannister)
 
-> A [fool](wiki:Fool) he may be, but he wears his folly honestly.(wiki:Moon_Boy.cite_ref-Raffc43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> A fool he may be, but he wears his folly honestly.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister)'s thoughts
+> —Cersei Lannister's thoughts, AFFC (`sources/chapters/affc/affc-cersei-10.md:49`)

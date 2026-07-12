@@ -137,9 +137,9 @@ When Jon plans to send men to [Hardhome](wiki:Hardhome) on a rescue mission, Mel
 >
 > —Melisandre before the execution of "[Mance Rayder](wiki:Rattleshirt)"
 
-> I pray for a glimpse of [Azor Ahai](wiki:Azor_Ahai), and [R'hllor](wiki:R'hllor) shows me only [Snow](wiki:Jon_Snow).(wiki:Melisandre.cite_ref-Radwd31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-13)
+> I pray for a glimpse of Azor Ahai, and R'hllor shows me only Snow.
 >
-> —Melisandre's thoughts
+> —Melisandre's thoughts, ADWD (`sources/chapters/adwd/adwd-melisandre-01.md:37`)
 
 > this Storm’s End is an old place. There are spells woven into the stones. Dark walls that no shadow can pass—ancient, forgotten, yet still in place.
 
@@ -153,9 +153,9 @@ When Jon plans to send men to [Hardhome](wiki:Hardhome) on a rescue mission, Mel
 
 — Melisandre to [Davos Seaworth](davos-seaworth) at Dragonstone, ASOS Davos III (`sources/chapters/asos/asos-davos-03.md:53`) [L840]
 
-> With [Stannis](wiki:Stannis_Baratheon) gone, her bed saw little use. She had no time for sleep, with the weight of the world upon her shoulders. And she feared to dream. Sleep is a little death, dreams the whisperings of [the Other](wiki:Great_Other), who would drag us all into his eternal night. She would sooner sit bathed in the ruddy glow of [her red lord's](wiki:R'hllor) blessed flames, her cheeks flushed by the wash of heat as if by a lover's kisses.(wiki:Melisandre.cite_ref-Radwd31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-14)
+> With Stannis gone, her bed saw little use. She had no time for sleep, with the weight of the world upon her shoulders. And she feared to dream. Sleep is a little death, dreams the whisperings of the Other, who would drag us all into his eternal night. She would sooner sit bathed in the ruddy glow of her red lord's blessed flames, her cheeks flushed by the wash of heat as if by a lover's kisses.
 >
-> —Melisandre's thoughts
+> —Melisandre's thoughts, ADWD (`sources/chapters/adwd/adwd-melisandre-01.md:57`)
 
 ### Quotes about Melisandre
 
@@ -167,21 +167,21 @@ When Jon plans to send men to [Hardhome](wiki:Hardhome) on a rescue mission, Mel
 
 — Cressen's thoughts on Melisandre's full identity and office, ACOK Prologue (`sources/chapters/acok/acok-prologue.md:265`) [L830]
 
-> Half my [knights](wiki:Knight) are afraid even to say her name, did you know? If she can do nothing else, a sorceress who can inspire such dread in grown men is not to be despised. A frightened man is a beaten man. And perhaps she can do more. I mean to find out.(wiki:Melisandre.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
+> Half my knights are afraid even to say her name, did you know? If she can do nothing else, a sorceress who can inspire such dread in grown men is not to be despised. A frightened man is a beaten man. And perhaps she can do more. I mean to find out.
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Stannis Baratheon to Davos Seaworth, ACOK (`sources/chapters/acok/acok-davos-01.md:261`)
 
 > She spoke to me. We called the fire, she said. We called the shadows too. I rowed Melisandre into the bowels of [Storm's End](wiki:Storm's_End) and watched her [birth a horror](wiki:Shadow_child). She killed [Cressen](wiki:Cressen) and Lord [Renly](wiki:Renly_Baratheon) and a brave man named [Cortnay Penrose](wiki:Cortnay_Penrose), and she [killed my sons](wiki:Battle_of_the_Blackwater) as well. Now it is time someone killed her.(wiki:Melisandre.cite_ref-Rasos10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-5)
 >
 > —[Davos Seaworth](wiki:Davos_Seaworth) to [Salladhor Saan](wiki:Salladhor_Saan)
 
-> She even smells red. The scent reminded him of [Mikken](wiki:Mikken)'s forge, of the way iron smelled when red-hot; the scent was smoke and blood. [Kissed by fire](wiki:Kissed_by_fire), he thought, remembering [Ygritte](wiki:Ygritte).(wiki:Melisandre.cite_ref-Rasos76.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-5)
+> She even smells red. The scent reminded him of Mikken's forge, of the way iron smelled when red-hot; the scent was smoke and blood. Kissed by fire, he thought, remembering Ygritte.
 >
-> —[Jon Snow](wiki:Jon_Snow)'s thoughts
+> —Jon Snow's thoughts, ASOS (`sources/chapters/asos/asos-jon-11.md:33`)
 
-> Lady Melisandre wore no crown, but every man there knew that she was [Stannis Baratheon](wiki:Stannis_Baratheon)'s real queen, not [the homely woman](wiki:Selyse_Florent) he had left to shiver at [Eastwatch-by-the-Sea](wiki:Eastwatch-by-the-Sea).(wiki:Melisandre.cite_ref-Radwd10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-6)
+> Lady Melisandre wore no crown, but every man there knew that she was Stannis Baratheon's real queen, not the homely woman he had left to shiver at Eastwatch-by-the-Sea.
 >
-> —[Jon Snow](wiki:Jon_Snow)'s thoughts
+> —Jon Snow's thoughts, ADWD (`sources/chapters/adwd/adwd-jon-03.md:37`)
 
 > “The bones help,” said Melisandre. “The bones remember. The strongest glamors are built of such things. A dead man’s boots, a hank of hair, a bag of fingerbones. With whispered words and prayer, a man’s shadow can be drawn forth from such and draped about another like a cloak. The wearer’s essence does not change, only his seeming.”
 

@@ -66,9 +66,9 @@ In [Oldtown](wiki:Oldtown), the elderly [Archmaester](wiki:Archmaester) [Walgrav
 
 ### Quotes by Cressen
 
-> Talking [gargoyles](wiki:Gargoyle) and [prophecies in the sky](wiki:Red_comet). I am an old done man, grown giddy as a child again. Had a lifetime's hard-won wisdom fled him along with his health and strength? He was a [maester](wiki:Maester), trained and chained in the great [Citadel](wiki:Citadel) of [Oldtown](wiki:Oldtown). What had he come to, when superstition filled his head as if he were an ignorant fieldhand?(wiki:Cressen.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-11)
+> Talking gargoyles and prophecies in the sky. I am an old done man, grown giddy as a child again. Had a lifetime's hard-won wisdom fled him along with his health and strength? He was a maester, trained and chained in the great Citadel of Oldtown. What had he come to, when superstition filled his head as if he were an ignorant fieldhand?
 >
-> —thoughts of Cressen
+> —thoughts of Cressen, ACOK (`sources/chapters/acok/acok-prologue.md:17`)
 
 > When a [maester](wiki:Maester) donned his collar, he put aside the hope of children, yet Cressen had oft felt a father nonetheless. [Robert](wiki:Robert_I_Baratheon), [Stannis](wiki:Stannis_Baratheon), [Renly](wiki:Renly_Baratheon)... three sons he had raised after [the angry sea](wiki:Shipbreaker_Bay) claimed Lord [Steffon](wiki:Steffon_Baratheon). Had he done so ill that now he must watch one [kill the other](wiki:Kinslaying)? He could not allow it, would not allow it.(wiki:Cressen.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-12)
 >

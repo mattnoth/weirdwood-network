@@ -94,10 +94,10 @@ Lord Tarly reports that he hanged a killer and gelded a raper, both criminals fr
 
 ## Quotes
 
-> The town of Maidenpool was far famed for [the sweetwater](wiki:Jonquil's_Pool) pool where legend had it that [Florian the Fool](wiki:Florian_the_Fool) had first glimpsed [Jonquil](wiki:Jonquil) bathing during the [Age of Heroes](wiki:Age_of_Heroes).(wiki:Maidenpool.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> The town of Maidenpool was far famed for the sweetwater pool where legend had it that Florian the Fool had first glimpsed Jonquil bathing during the Age of Heroes.
 >
-> —writings of [Gyldayn](wiki:Gyldayn)
+> —writings of Gyldayn, F&B (`sources/chapters/fab/fab-birth-death-and-betrayal-10.md:33`)
 
-> When last she had seen Maidenpool, the town had been a desolation, a grim place of empty streets and burned homes. Now the streets were full of pigs and children, and most of the burned buildings had been pulled down. Vegetables had been planted in the lots where some once stood; merchant's tents and knight's pavilions took the place of others. Brienne saw new houses going up, a stone inn rising where a wooden inn had burned, a new slate roof on the town [sept](wiki:Sept). The cool autumn air rang to the sounds of saw and hammer. Men carried timber through the streets, and quarrymen drove their wagons down muddy lanes.(wiki:Maidenpool.cite_ref-Raffc14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+> When last she had seen Maidenpool, the town had been a desolation, a grim place of empty streets and burned homes. Now the streets were full of pigs and children, and most of the burned buildings had been pulled down. Vegetables had been planted in the lots where some once stood; merchant's tents and knight's pavilions took the place of others. Brienne saw new houses going up, a stone inn rising where a wooden inn had burned, a new slate roof on the town sept. The cool autumn air rang to the sounds of saw and hammer. Men carried timber through the streets, and quarrymen drove their wagons down muddy lanes.
 >
-> —thoughts of [Brienne Tarth](wiki:Brienne_Tarth)
+> —thoughts of Brienne Tarth, AFFC (`sources/chapters/affc/affc-brienne-03.md:133`)

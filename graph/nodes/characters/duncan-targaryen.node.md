@@ -44,9 +44,9 @@ In [259 AC](wiki:259_AC), Prince Duncan died in the [tragedy at Summerhall](wik
 >
 > —[Barristan Selmy](wiki:Barristan_Selmy)
 
-> Afterward Prince Duncan helped him to his feet and removed his helm. "A boy," he had proclaimed to the crowd. "A bold boy."(wiki:Duncan_Targaryen.cite_ref-Radwd59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
+> Afterward Prince Duncan helped him to his feet and removed his helm. "A boy," he had proclaimed to the crowd. "A bold boy."
 >
-> —[Barristan Selmy](wiki:Barristan_Selmy) remembering the [tourney](wiki:Tourney) at [Blackhaven](wiki:Blackhaven), where Duncan proclaimed him *Barristan the Bold*
+> —Barristan Selmy remembering the tourney at Blackhaven, where Duncan proclaimed him *Barristan the Bold*, ADWD (`sources/chapters/adwd/adwd-the-discarded-knight-01.md:175`)
 
 ## Edges
 

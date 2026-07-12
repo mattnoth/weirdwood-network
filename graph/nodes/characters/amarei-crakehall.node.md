@@ -49,6 +49,6 @@ Lord Walder selects [Roslin Frey](wiki:Roslin_Frey) to wed Lord [Edmure Tully](w
 
 ### Quotes about Amarei
 
-> My third wife was a Crakehall, all of the Crakehall women are sluts. Well, never mind about that, she died before you were born, what do you care?(wiki:Amarei_Crakehall.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> My third wife was a Crakehall, all of the Crakehall women are sluts. Well, never mind about that, she died before you were born, what do you care?
 >
-> —[Walder Frey](wiki:Walder_Frey) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Walder Frey to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-09.md:201`)

@@ -43,9 +43,9 @@ As the [second siege of Meereen](wiki:Second_siege_of_Meereen) resumes, Kasporio
 
 ### Quotes by Kasporio
 
-> If you would like to start the bleeding now, I will happ'ly oblige you.(wiki:Kasporio.cite_ref-Radwd57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> If you would like to start the bleeding now, I will happ'ly oblige you.
 >
-> —Kasporio to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Kasporio to Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-12.md:17`)
 
 > **Tyrion**: Now how do I go about securing arms and armor?
 >
@@ -55,6 +55,6 @@ As the [second siege of Meereen](wiki:Second_siege_of_Meereen) resumes, Kasporio
 
 ### Quotes about Kasporio
 
-> The peacock calls himself Kasporio the Cunning, though Kasporio the Cunt would be more apt. A nasty piece of work.(wiki:Kasporio.cite_ref-Radwd57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+> The peacock calls himself Kasporio the Cunning, though Kasporio the Cunt would be more apt. A nasty piece of work.
 >
-> —[Jorah Mormont](wiki:Jorah_Mormont) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Jorah Mormont to Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-11.md:329`)

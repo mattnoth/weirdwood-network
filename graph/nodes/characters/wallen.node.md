@@ -40,12 +40,12 @@ Wallen and [Stiv](wiki:Stiv) travel south of the [Wall](wiki:Wall) with [Osha](w
 >
 > —[Bran Stark](wiki:Bran_Stark) and Wallen
 
-> Only a [Stark](wiki:House_Stark) would be fool enough to threaten where smarter men would beg.(wiki:Wallen.cite_ref-Ragot37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> Only a Stark would be fool enough to threaten where smarter men would beg.
 >
-> —Wallen to [Bran Stark](wiki:Bran_Stark)
+> —Wallen to Bran Stark, AGOT (`sources/chapters/agot/agot-bran-05.md:151`)
 
 ### Quotes about Wallen
 
-> [Stiv](wiki:Stiv) and Wallen flew down off the [Wall](wiki:Wall), not me.(wiki:Wallen.cite_ref-Ragot37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> Stiv and Wallen flew down off the Wall, not me.
 >
-> —[Osha](wiki:Osha) to [Robb Stark](wiki:Robb_Stark)
+> —Osha to Robb Stark, AGOT (`sources/chapters/agot/agot-bran-05.md:267`)

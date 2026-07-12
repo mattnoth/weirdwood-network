@@ -40,9 +40,9 @@ As the *Cinnamon Wind* travels through the [Redwyne Straits](wiki:Redwyne_Strait
 
 ## Quotes
 
-> All you [Westerosi](wiki:Westerosi) make a shame of loving. There is no shame in loving. If your [septons](wiki:Septon) say there is, your [seven gods](wiki:Faith_of_the_Seven) must be [demons](wiki:Demons). In the [isles](wiki:Summer_Isles) we know better. Our [gods](wiki:Gods) gave us legs to run with, noses to smell with, hands to touch and feel. What mad cruel god would give a man eyes and tell him he must forever keep them shut, and never look at all the beauty in the world? Only a monster god, a demon of the darkness.(wiki:Kojja_Mo.cite_ref-Raffc35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+> All you Westerosi make a shame of loving. There is no shame in loving. If your septons say there is, your seven gods must be demons. In the isles we know better. Our gods gave us legs to run with, noses to smell with, hands to touch and feel. What mad cruel god would give a man eyes and tell him he must forever keep them shut, and never look at all the beauty in the world? Only a monster god, a demon of the darkness.
 >
-> —Kojja Mo, to [Samwell Tarly](wiki:Samwell_Tarly)
+> —Kojja Mo, to Samwell Tarly, AFFC (`sources/chapters/affc/affc-samwell-04.md:105`)
 
 > [She](wiki:Gilly) knows [the words](wiki:Night's_Watch) you said. She is a child in some ways, but she is not blind. She knows why you wear the black, why you go to [Oldtown](wiki:Oldtown). She knows she cannot keep you. She wants you for a little while, is all. She lost [her father and her husband](wiki:Craster), [her mother and her sisters](wiki:Craster's_wives), [her home](wiki:Craster's_Keep), her *world*. All she has is you, and [the babe](wiki:Aemon_Steelsong). So you go to her, or swim.(wiki:Kojja_Mo.cite_ref-Raffc35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
 >

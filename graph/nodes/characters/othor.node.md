@@ -36,6 +36,6 @@ The fire catches in the dead man's clothing and consumes him entirely. Othor sta
 
 ## Quotes
 
-> And might be I'm a fool, but I don’t know that Othor never had [no blue eyes](wiki:Wights) afore.(wiki:Othor.cite_ref-Ragot52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> And might be I'm a fool, but I don’t know that Othor never had no blue eyes afore.
 >
-> —[Dywen](wiki:Dywen) to [Samwell Tarly](wiki:Samwell_Tarly)
+> —Dywen to Samwell Tarly, AGOT (`sources/chapters/agot/agot-jon-07.md:107`)

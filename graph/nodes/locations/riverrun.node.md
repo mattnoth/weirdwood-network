@@ -115,13 +115,13 @@ After resolving the [siege of Raventree](wiki:Siege_of_Raventree), Jaime is said
 
 ## Quotes
 
-> She had been born a [Tully](wiki:House_Tully), at Riverrun far to the south, on the [Red Fork](wiki:Red_Fork) of the [Trident](wiki:Trident). [The godswood](wiki:Godswood_of_Riverrun) there was a garden, bright and airy, where tall redwoods spread dappled shadows across tinkling streams, birds sang from hidden nests, and the air was spicy with the scent of flowers.(wiki:Riverrun.cite_ref-Ragot2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> She had been born a Tully, at Riverrun far to the south, on the Red Fork of the Trident. The godswood there was a garden, bright and airy, where tall redwoods spread dappled shadows across tinkling streams, birds sang from hidden nests, and the air was spicy with the scent of flowers.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-01.md:13`)
 
-> The southern rain was soft and warm. Catelyn liked the feel of it on her face, gentle as a mother's kisses. It took her back to her childhood, to long grey days at Riverrun. She remembered [the godswood](wiki:Godswood_of_Riverrun), drooping branches heavy with moisture, and the sound of [her brother's](wiki:Edmure_Tully) laughter as he chased her through piles of damp leaves. She remembered making mud pies with [Lysa](wiki:Lysa_Arryn), the weight of them, the mud slick and brown between her fingers. They had served them to [Littlefinger](wiki:Petyr_Baelish), giggling, and he'd eaten so much mud he was sick for a week. How young they all had been.(wiki:Riverrun.cite_ref-Ragot28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+> The southern rain was soft and warm. Catelyn liked the feel of it on her face, gentle as a mother's kisses. It took her back to her childhood, to long grey days at Riverrun. She remembered the godswood, drooping branches heavy with moisture, and the sound of her brother's laughter as he chased her through piles of damp leaves. She remembered making mud pies with Lysa, the weight of them, the mud slick and brown between her fingers. They had served them to Littlefinger, giggling, and he'd eaten so much mud he was sick for a week. How young they all had been.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-05.md:13`)
 
 > She found Robb beneath the green canopy of leaves, surrounded by tall redwoods and great old elms, kneeling before the heart tree, a slender weirwood with a face more sad than fierce. His longsword was before him, the point thrust in the earth, his gloved hands clasped around the hilt. Around him others knelt: Greatjon Umber, Rickard Karstark, Maege Mormont, Galbart Glover, and more. Even Tytos Blackwood was among them, the great raven cloak fanned out behind him. These are the ones who keep the old gods, she realized.
 > — Catelyn Stark, the godswood on the eve of Robb's proclamation as King in the North, AGOT Catelyn XI (`sources/chapters/agot/agot-catelyn-11.md:125`)
@@ -130,13 +130,13 @@ After resolving the [siege of Raventree](wiki:Siege_of_Raventree), Jaime is said
 >
 > —[Harys Swyft](wiki:Harys_Swyft) and [Kevan Lannister](wiki:Kevan_Lannister)
 
-> It was late afternoon when they sighted Riverrun, rising from the narrow point where the [Tumblestone](wiki:Tumblestone) joined the [Red Fork](wiki:Red_Fork). The [Tully](wiki:House_Tully) castle looked like a great stone ship with its prow pointed downriver. Its sandstone walls were drenched in red-gold light, and seemed higher and thicker than Jaime had remembered.(wiki:Riverrun.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-4)
+> It was late afternoon when they sighted Riverrun, rising from the narrow point where the Tumblestone joined the Red Fork. The Tully castle looked like a great stone ship with its prow pointed downriver. Its sandstone walls were drenched in red-gold light, and seemed higher and thicker than Jaime had remembered.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-05.md:157`)
 
-> Riverrun is mine, and no man shall ever take it from me.(wiki:Riverrun.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-4)
+> Riverrun is mine, and no man shall ever take it from me.
 >
-> —[Emmon Frey](wiki:Emmon_Frey) to [Genna Lannister](wiki:Genna_Lannister)
+> —Emmon Frey to Genna Lannister, AFFC (`sources/chapters/affc/affc-jaime-07.md:53`)
 
 > This was [my father's](wiki:Hoster_Tully) solar. He ruled the [riverlands](wiki:Riverlands) from here, wisely and well. He liked to sit beside that window. The light was good there, and whenever he looked up from his work he could see [the river](wiki:Red_Fork). When his eyes were tired he would have [Cat](wiki:Catelyn_Stark) read to him. [Littlefinger](wiki:Petyr_Baelish) and I built a castle out of wooden blocks once, there beside the door. You will never know how sick it makes me to see you in this room, Kingslayer. You will never know how much I despise you.(wiki:Riverrun.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-5)
 >
@@ -165,4 +165,3 @@ After resolving the [siege of Raventree](wiki:Siege_of_Raventree), Jaime is said
 > The yard below was covered by a thin white blanket, growing thicker even as he watched. The merlons on the battlements wore white cowls. The flakes fell silently, a few drifting in the window to melt upon his face. Jaime could see his own breath.
 >
 > — AFFC Jaime VII, `sources/chapters/affc/affc-jaime-07.md:279` · First snow at Riverrun; winter's arrival in the riverlands announced through Jaime's window-view of the yards and battlements.
-

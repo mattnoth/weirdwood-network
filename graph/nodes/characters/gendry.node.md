@@ -105,25 +105,25 @@ Gendry remains ignorant of his heritage.(wiki:Gendry.cite_ref-Radwdappendix.7B.7
 >
 > —[Eddard Stark](wiki:Eddard_Stark) and [Tobho Mott](wiki:Tobho_Mott)
 
-> If the day ever comes when Gendry would rather wield a sword than forge one, send him to me. He has the look of a warrior.(wiki:Gendry.cite_ref-Ragot27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-9)
+> If the day ever comes when Gendry would rather wield a sword than forge one, send him to me. He has the look of a warrior.
 >
-> —[Eddard Stark](wiki:Eddard_Stark) to [Tobho Mott](wiki:Tobho_Mott)
+> —Eddard Stark to Tobho Mott, AGOT (`sources/chapters/agot/agot-eddard-06.md:189`)
 
-> The [Baratheon](wiki:House_Baratheon) look was stamped on his face, in his jaw, his eyes, that black hair.(wiki:Gendry.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-0)
+> The Baratheon look was stamped on his face, in his jaw, his eyes, that black hair.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-07.md:225`)
 
-> When he worked, nothing existed for him but metal, bellows, fire. The hammer was like part of his arm.(wiki:Gendry.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-2)
+> When he worked, nothing existed for him but metal, bellows, fire. The hammer was like part of his arm.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ACOK (`sources/chapters/acok/acok-arya-09.md:71`)
 
-> Gendry had his own secret, though even he didn't seem to know what it was.(wiki:Gendry.cite_ref-Rasos3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3)
+> Gendry had his own secret, though even he didn't seem to know what it was.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ASOS (`sources/chapters/asos/asos-arya-01.md:63`)
 
-> In his chainmail shirt with a sword in his hand, Gendry looked almost a man grown, and dangerous.(wiki:Gendry.cite_ref-Rasos13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+> In his chainmail shirt with a sword in his hand, Gendry looked almost a man grown, and dangerous.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ASOS (`sources/chapters/asos/asos-arya-02.md:89`)
 
 > **Bella**: Don't he like girls? **Arya**: He's just stupid. He likes to polish helmets and beat on swords with hammers.(wiki:Gendry.cite_ref-Rasos29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-3)
 >

@@ -88,10 +88,10 @@ After the encounter with the outlaws at the inn, Hyle, Brienne, and Podrick are 
 >
 > —[Brienne Tarth](wiki:Brienne_Tarth) and [Podrick Payne](wiki:Podrick_Payne)
 
-> Hyle Hunt was no [true knight](wiki:True_knight). His honest face was just a [mummer](wiki:Mummer)'s mask. I do not need his help, I do not need his protection, and I do not need him, she told herself.(wiki:Hyle_Hunt.cite_ref-Raffc25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-6)
+> Hyle Hunt was no true knight. His honest face was just a mummer's mask. I do not need his help, I do not need his protection, and I do not need him, she told herself.
 >
-> —thoughts of [Brienne Tarth](wiki:Brienne_Tarth)
+> —thoughts of Brienne Tarth, AFFC (`sources/chapters/affc/affc-brienne-05.md:121`)
 
-> Ser Hyle Hunt is a gallant from the [Reach](wiki:Reach).(wiki:Hyle_Hunt.cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> Ser Hyle Hunt is a gallant from the Reach.
 >
-> —[Meribald](wiki:Meribald) to [Narbert](wiki:Narbert)
+> —Meribald to Narbert, AFFC (`sources/chapters/affc/affc-brienne-06.md:41`)

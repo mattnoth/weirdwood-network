@@ -99,9 +99,9 @@ By the time of the [Dance of the Dragons](wiki:Dance_of_the_Dragons), Vhagar was
 >
 > —[Visenya Targaryen](wiki:Visenya_Targaryen) to [Aenys I Targaryen](wiki:Aenys_I_Targaryen)
 
-> The peril posed by Queen [Visenya's](wiki:Visenya_Targaryen) mount could not be gainsaid.(wiki:Vhagar.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-8)
+> The peril posed by Queen Visenya's mount could not be gainsaid.
 >
-> —[Gyldayn](wiki:Gyldayn)
+> —Gyldayn, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p01.md:211`)
 
 > That hoary old bitch.(wiki:Vhagar.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-9)
 >
@@ -111,9 +111,13 @@ By the time of the [Dance of the Dragons](wiki:Dance_of_the_Dragons), Vhagar was
 
 > On the fourteenth day of [the prince's](wiki:Daemon_Targaryen) vigil, a shadow swept over [the castle](wiki:Harrenhal), blacker than any passing cloud. All the birds of the godswood took to the air in fright, and a hot wind whipped the fallen leaves across the yard. Vhagar had come at last, and on her back rode the one-eyed prince [Aemond Targaryen](wiki:Aemond_Targaryen), clad in night-black armor chased with gold.(wiki:Vhagar.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-11)
 
-> Vhagar's carcass plunged to [the lake](wiki:Gods_Eye) floor, the hot blood from the gaping wound in her neck bringing the water to a boil over her last resting place.(wiki:Vhagar.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-12)
+> Vhagar's carcass plunged to the lake floor, the hot blood from the gaping wound in her neck bringing the water to a boil over her last resting place.
+>
+> — F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p04.md:255`)
 
-> Vhagar, the greatest of the Targaryen dragons since the passing of [Balerion](wiki:Balerion) the Black Dread, had counted one hundred eighty-one years upon the earth. Thus passed the last living creature from the days of [Aegon's Conquest](wiki:Aegon's_Conquest), as dusk and darkness swallowed [Black Harren](wiki:Harren_Hoare)'s [accursed seat](wiki:Harrenhal).(wiki:Vhagar.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-13)
+> Vhagar, the greatest of the Targaryen dragons since the passing of Balerion the Black Dread, had counted one hundred eighty-one years upon the earth. Thus passed the last living creature from the days of Aegon's Conquest, as dusk and darkness swallowed Black Harren's accursed seat.
+>
+> — F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p04.md:263`)
 
 > That night she mounted Vhagar and returned to Dragonstone, and it is written that when her dragon passed before the moon, that orb turned as red as blood.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p02.md:49`)

@@ -50,22 +50,22 @@ Yezzan is one of the few Yunkish lords who wishes to honor the peace between [Yu
 
 ## Quotes
 
-> Covered all in yellow [silk](wiki:Silk) fringed with [gold](wiki:Gold), he looked as large as four [Illyrios](wiki:Illyrio_Mopatis). Tyrion pitied the [slaves](wiki:Slave) who had to carry him. At least we will be spared that duty. What joy to be a [dwarf](wiki:Dwarf).(wiki:Yezzan_zo_Qaggaz.cite_ref-Radwd47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
+> Covered all in yellow silk fringed with gold, he looked as large as four Illyrios. Tyrion pitied the slaves who had to carry him. At least we will be spared that duty. What joy to be a dwarf.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-10.md:25`)
 
-> Tyrion was quite certain that he did not want to become the property of the immense Lord Yellowbelly. Just the sight of him sagging across his litter, a mountain of sallow flesh with piggy yellow eyes and breasts big as [Pretty Pig](wiki:Pretty_Pig) pushing at the [silk](wiki:Silk) of his [tokar](wiki:Tokar) was enough to make the [dwarf](wiki:Dwarf)'s skin crawl. And the smell wafting off him was palpable even on [the block](wiki:Slavery).(wiki:Yezzan_zo_Qaggaz.cite_ref-Radwd47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
+> Tyrion was quite certain that he did not want to become the property of the immense Lord Yellowbelly. Just the sight of him sagging across his litter, a mountain of sallow flesh with piggy yellow eyes and breasts big as Pretty Pig pushing at the silk of his tokar was enough to make the dwarf's skin crawl. And the smell wafting off him was palpable even on the block.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-10.md:91`)
 
-> Count yourselves fortunate, for Yezzan is a kindly and benevolent master.(wiki:Yezzan_zo_Qaggaz.cite_ref-Radwd47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
+> Count yourselves fortunate, for Yezzan is a kindly and benevolent master.
 >
-> —[Nurse](wiki:Nurse), to [Tyrion Lannister](wiki:Tyrion_Lannister) and [Penny](wiki:Penny)
+> —Nurse, to Tyrion Lannister and Penny, ADWD (`sources/chapters/adwd/adwd-tyrion-10.md:129`)
 
 > His eyes are yellow, and he stinks.(wiki:Yezzan_zo_Qaggaz.cite_ref-Radwd47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-10)
 >
 > —[Sweets](wiki:Sweets), to [Tyrion Lannister](wiki:Tyrion_Lannister) and [Penny](wiki:Penny)
 
-> Make him forget that he is dying, even for a little while, and he can be most generous. Deny him nothing.(wiki:Yezzan_zo_Qaggaz.cite_ref-Radwd47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-11)
+> Make him forget that he is dying, even for a little while, and he can be most generous. Deny him nothing.
 >
-> —[Sweets](wiki:Sweets), to [Tyrion Lannister](wiki:Tyrion_Lannister) and [Penny](wiki:Penny)
+> —Sweets, to Tyrion Lannister and Penny, ADWD (`sources/chapters/adwd/adwd-tyrion-10.md:233`)

@@ -112,25 +112,25 @@ The new Hand of the King, Lord [Mace Tyrell](wiki:Mace_Tyrell), adds a hundred [
 >
 > —[Luthor Largent](wiki:Luthor_Largent) to [Gwayne Hightower](wiki:Gwayne_Hightower)
 
-> For the sake of the love I bear for [Catelyn](wiki:Catelyn_Stark), I will go to [Janos Slynt](wiki:Janos_Slynt) this very hour and make certain that the City Watch is yours. Six thousand [gold](wiki:Gold) pieces should do it. A third for the [Commander](wiki:Commander_of_the_City_Watch), a third for the officers, a third for the men. We might be able to buy them for half that much, but I prefer not to take chances.(wiki:City_Watch_of_King's_Landing.cite_ref-Ragot47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+> For the sake of the love I bear for Catelyn, I will go to Janos Slynt this very hour and make certain that the City Watch is yours. Six thousand gold pieces should do it. A third for the Commander, a third for the officers, a third for the men. We might be able to buy them for half that much, but I prefer not to take chances.
 >
-> —[Petyr Baelish](wiki:Petyr_Baelish) to [Eddard Stark](wiki:Eddard_Stark)
+> —Petyr Baelish to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-13.md:271`)
 
 > **Janos**: We have sore need of you, [my lord](wiki:Tyrion_Lannister). Rebellion everywhere, this grim omen in the sky, rioting in the city streets ... **Cesei**: And whose fault is that, Lord Janos? Your gold cloaks are charged with keeping order.(wiki:City_Watch_of_King's_Landing.cite_ref-Racok3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
 >
 > —[Janos Slynt](wiki:Janos_Slynt) and [Cersei Lannister](wiki:Cersei_Lannister)
 
-> Watchmen were much in evidence, moving in pairs through the alleys in their gold cloaks and shirts of black ringmail, [iron](wiki:Iron) cudgels never far from their hands.(wiki:City_Watch_of_King's_Landing.cite_ref-Racok3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+> Watchmen were much in evidence, moving in pairs through the alleys in their gold cloaks and shirts of black ringmail, iron cudgels never far from their hands.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-01.md:241`)
 
-> It takes more than a gold cloak to make a watchman.(wiki:City_Watch_of_King's_Landing.cite_ref-Racok41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-3)
+> It takes more than a gold cloak to make a watchman.
 >
-> —[Jacelyn Bywater](wiki:Jacelyn_Bywater) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Jacelyn Bywater to Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-09.md:209`)
 
-> [A man](wiki:Janos_Slynt) does not rise to command of the gold cloaks without ability.(wiki:City_Watch_of_King's_Landing.cite_ref-Radwd7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-3)
+> A man does not rise to command of the gold cloaks without ability.
 >
-> —[Jon Snow](wiki:Jon_Snow) to [Bedwyck](wiki:Bedwyck)
+> —Jon Snow to Bedwyck, ADWD (`sources/chapters/adwd/adwd-jon-02.md:305`)
 
 > A [true knight](wiki:True_knight) is worth ten guardsmen.(wiki:City_Watch_of_King's_Landing.cite_ref-Radwd11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-2)
 >

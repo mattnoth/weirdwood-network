@@ -53,9 +53,9 @@ A rat-faced son of Varamyr is made a hostage of the Night's Watch.(wiki:Varamyr.
 >
 > —Varamyr, to [Jon Snow](wiki:Jon_Snow)(wiki:Varamyr.cite_ref-Rasos73.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
 
-> [Mance](wiki:Mance_Rayder) should have let me take the [direwolf](wiki:Ghost). There would be a second life worthy of a king.
+> Mance should have let me take the direwolf. There would be a second life worthy of a king.
 >
-> —Varamyr's thoughts(wiki:Varamyr.cite_ref-Radwdprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-15)
+> —Varamyr's thoughts, ADWD (`sources/chapters/adwd/adwd-prologue.md:129`)
 
 ### Quotes about Varamyr
 

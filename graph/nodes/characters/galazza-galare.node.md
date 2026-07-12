@@ -51,24 +51,24 @@ Galaza returns to inform Barristan that the Yunkai'i have refused his offer, and
 >
 > —Galazza to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> I shall return to the [Temple of the Graces](wiki:Temple_of_the_Graces) and pray for the gods to show my queen the course of wisdom.(wiki:Galazza_Galare.cite_ref-Radwd23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+> I shall return to the Temple of the Graces and pray for the gods to show my queen the course of wisdom.
 >
-> —Galazza to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Galazza to Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-04.md:75`)
 
-> The peace that we worked so hard to forge flutters like a leaf in an autumn wind. These are dire days.(wiki:Galazza_Galare.cite_ref-Radwd70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2)
+> The peace that we worked so hard to forge flutters like a leaf in an autumn wind. These are dire days.
 >
-> —Galazza to [Barristan Selmy](wiki:Barristan_Selmy)
+> —Galazza to Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-queens-hand-01.md:289`)
 
 ### Quotes about Galazza
 
-> [Grazdan](wiki:Grazdan_zo_Galare), she had been forewarned, was a cousin of the [Green Grace](wiki:Green_Grace), whose support she had found invaluable. The priestess was a voice for peace, acceptance, and obedience to lawful authority.(wiki:Galazza_Galare.cite_ref-Radwd2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+> Grazdan, she had been forewarned, was a cousin of the Green Grace, whose support she had found invaluable. The priestess was a voice for peace, acceptance, and obedience to lawful authority.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-01.md:193`)
 
-> The [Green Grace](wiki:Green_Grace) will accomplish nothing. She may be conspiring with the [Yunkai](wiki:Yunkai)'i even as we sit here.(wiki:Galazza_Galare.cite_ref-Radwd70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-3)
+> The Green Grace will accomplish nothing. She may be conspiring with the Yunkai'i even as we sit here.
 >
-> —[Skahaz mo Kandaq](wiki:Skahaz_mo_Kandaq) to [Barristan Selmy](wiki:Barristan_Selmy)
+> —Skahaz mo Kandaq to Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-queens-hand-01.md:121`)
 
-> Galazza Galare was attended by four [Pink Graces](wiki:Pink_Graces). An aura of wisdom and dignity seemed to surround her that Ser Barristan could not help but admire. This is a strong woman, and she has been a faithful friend to [Daenerys](wiki:Daenerys_Targaryen).(wiki:Galazza_Galare.cite_ref-Radwd70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-4)
+> Galazza Galare was attended by four Pink Graces. An aura of wisdom and dignity seemed to surround her that Ser Barristan could not help but admire. This is a strong woman, and she has been a faithful friend to Daenerys.
 >
-> —thoughts of [Barristan Selmy](wiki:Barristan_Selmy)
+> —thoughts of Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-queens-hand-01.md:265`)

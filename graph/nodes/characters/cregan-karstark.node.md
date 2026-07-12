@@ -58,10 +58,10 @@ Cregan remains in the ice cells, taking to howling in the night. He additionally
 
 ### Quotes about Cregan
 
-> Once Cregan gets a child by me they won't need me anymore. He's buried two wives already.(wiki:Cregan_Karstark.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+> Once Cregan gets a child by me they won't need me anymore. He's buried two wives already.
 >
-> —[Alys Karstark](wiki:Alys_Karstark) to [Jon Snow](wiki:Jon_Snow)
+> —Alys Karstark to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-09.md:325`)
 
-> I should make his head [a wedding gift](wiki:Wedding_of_Sigorn_and_Alys_Karstark) for Lady [Alys](wiki:Alys_Karstark) and [her Magnar](wiki:Sigorn), Jon thought, but dare not take the risk.(wiki:Cregan_Karstark.cite_ref-Radwd49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-6)
+> I should make his head a wedding gift for Lady Alys and her Magnar, Jon thought, but dare not take the risk.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-10.md:187`)

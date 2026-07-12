@@ -57,17 +57,17 @@ The surviving Westerosi rebels who had fought on the side of [Daemon I Blackfyre
 
 ## Quotes
 
-> In the Free Cities of the west, towers and [manses](wiki:Manse) and hovels and bridges and shops and halls all crowded in on one another, but [Vaes Dothrak](wiki:Vaes_Dothrak) sprawled languorously, baking in the warm sun, ancient, arrogant, and empty.(wiki:Free_Cities.cite_ref-Ragot36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_44-0)
+> In the Free Cities of the west, towers and manses and hovels and bridges and shops and halls all crowded in on one another, but Vaes Dothrak sprawled languorously, baking in the warm sun, ancient, arrogant, and empty.
 >
-> —[Daenerys Targaryen](wiki:Daenerys_Targaryen)'s thoughts
+> —Daenerys Targaryen's thoughts, AGOT (`sources/chapters/agot/agot-daenerys-04.md:75`)
 
 > The Nine Free Cities are the daughters of [Valyria](wiki:Valyria) that was, but [Braavos](wiki:Braavos) is the bastard child who ran away from home.(wiki:Free_Cities.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_45-0)
 >
 > —the [kindly man](wiki:Kindly_man) to [Arya Stark](wiki:Arya_Stark)
 
-> It was all profit with the merchant princes of the Free Cities. "[Spice](wiki:Spice) soldiers and [cheese](wiki:Cheese) lords," [his lord father](wiki:Tywin_Lannister) called them, with contempt.(wiki:Free_Cities.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-2)
+> It was all profit with the merchant princes of the Free Cities. "Spice soldiers and cheese lords," his lord father called them, with contempt.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
+> —Tyrion Lannister's thoughts, ADWD (`sources/chapters/adwd/adwd-tyrion-01.md:95`)
 
 > Some in the Free Cities think that [we're](wiki:Seven_Kingdoms) all savages on our side of the [narrow sea](wiki:Narrow_sea). The ones who don't think that we're children, crying out for [a father's strong hand](wiki:Iron_Throne).(wiki:Free_Cities.cite_ref-Radwd27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
 >

@@ -54,6 +54,6 @@ Mariya's younger sister, [Jeyne](wiki:Jeyne_Darry), is furious that her sons wit
 >
 > —[Amerei Frey](wiki:Amerei_Frey) and Mariya
 
-> [Saltpans](wiki:Saltpans) was the work of some fell beast in human skin.(wiki:Mariya_Darry.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> Saltpans was the work of some fell beast in human skin.
 >
-> —Mariya to [Arwood Frey](wiki:Arwood_Frey)
+> —Mariya to Arwood Frey, AFFC (`sources/chapters/affc/affc-jaime-04.md:197`)

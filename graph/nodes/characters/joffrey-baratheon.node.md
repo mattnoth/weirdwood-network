@@ -135,9 +135,9 @@ Having fled to [Essos](wiki:Essos), Tyrion lies to [Griff](wiki:Jon_Connington) 
 >
 > —Joffrey to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> What is it, sweet lady? Why are you afraid? No one will hurt you.(wiki:Joffrey_Baratheon.cite_ref-Ragot15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-7)
+> What is it, sweet lady? Why are you afraid? No one will hurt you.
 >
-> —Joffrey to [Sansa Stark](wiki:Sansa_Stark)
+> —Joffrey to Sansa Stark, AGOT (`sources/chapters/agot/agot-sansa-01.md:115`)
 
 > [My mother](wiki:Cersei_Lannister) bids me let Lord [Eddard](wiki:Eddard_Stark) [take the black](wiki:Take_the_black), and Lady [Sansa](wiki:Sansa_Stark) has begged mercy for her father. But they have the soft hearts of women. So long as I am your king, treason shall never go unpunished. Ser [Ilyn](wiki:Ilyn_Payne), bring me his head!(wiki:Joffrey_Baratheon.cite_ref-Ragot65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-2)
 >
@@ -177,17 +177,17 @@ Having fled to [Essos](wiki:Essos), Tyrion lies to [Griff](wiki:Jon_Connington) 
 >
 > —[Jon Snow](wiki:Jon_Snow) to [Arya Stark](wiki:Arya_Stark)
 
-> Sansa did not really know Joffrey yet, but she was already in love with him. He was all she ever dreamt her prince should be, tall and handsome and strong, with hair like gold. She treasured every chance to spend time with him, few as they were.(wiki:Joffrey_Baratheon.cite_ref-Ragot15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-8)
+> Sansa did not really know Joffrey yet, but she was already in love with him. He was all she ever dreamt her prince should be, tall and handsome and strong, with hair like gold. She treasured every chance to spend time with him, few as they were.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, AGOT (`sources/chapters/agot/agot-sansa-01.md:25`)
 
 > I am sorry for [your girl](wiki:Arya_Stark), Ned. Truly. About [the wolf](wiki:Lady_(direwolf)), I mean. My son was lying, I'd stake my soul on it. My son ...(wiki:Joffrey_Baratheon.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_44-1)
 >
 > —[Robert Baratheon](wiki:Robert_Baratheon) to [Eddard Stark](wiki:Eddard_Stark)
 
-> I have dreamed of giving up the crown. Take ship for the [Free Cities](wiki:Free_Cities) with my horse and my hammer, spend my time warring and whoring, that's what I was made for. The sellsword king, how the singers would love me. You know what stops me? The thought of Joffrey on [the throne](wiki:Iron_Throne), with [Cersei](wiki:Cersei_Lannister) standing behind him whispering in his ear. My son. How could I have made a son like that, Ned?(wiki:Joffrey_Baratheon.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_44-2)
+> I have dreamed of giving up the crown. Take ship for the Free Cities with my horse and my hammer, spend my time warring and whoring, that's what I was made for. The sellsword king, how the singers would love me. You know what stops me? The thought of Joffrey on the throne, with Cersei standing behind him whispering in his ear. My son. How could I have made a son like that, Ned?
 >
-> —[Robert Baratheon](wiki:Robert_Baratheon) to [Eddard Stark](wiki:Eddard_Stark)
+> —Robert Baratheon to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-07.md:105`)
 
 > **Cersei**: [She](wiki:Sansa_Stark) would have done anything for Joffrey, until he cut off [her father's](wiki:Eddard_Stark) head and called it mercy. That put an end to that. **Tyrion**: His Grace has a unique way of winning the hearts of his subjects.(wiki:Joffrey_Baratheon.cite_ref-Racok3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-1)
 >
@@ -203,9 +203,9 @@ Having fled to [Essos](wiki:Essos), Tyrion lies to [Griff](wiki:Jon_Connington) 
 >
 > —[Olenna Tyrell](wiki:Olenna_Tyrell) and [Sansa Stark](wiki:Sansa_Stark)
 
-> You can lead a king to water, but with Joff one had to splash it about before he realized he could drink it.(wiki:Joffrey_Baratheon.cite_ref-Rasos61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_66-2)
+> You can lead a king to water, but with Joff one had to splash it about before he realized he could drink it.
 >
-> —[Petyr Baelish](wiki:Petyr_Baelish) to [Sansa Stark](wiki:Sansa_Stark)
+> —Petyr Baelish to Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-05.md:155`)
 
 > **Cersei**: Joffrey had no love for [Robb Stark](wiki:Robb_Stark), but [the younger boy](wiki:Bran_Stark) was nothing to him. He was only a child himself. **Jaime**: A child hungry for a pat on the head from [that sot](wiki:Robert_I_Baratheon) you let him believe was his father.(wiki:Joffrey_Baratheon.cite_ref-Rasos72.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-4)
 >

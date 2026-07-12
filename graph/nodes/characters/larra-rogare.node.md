@@ -70,9 +70,9 @@ According to [Mushroom](wiki:Mushroom), Larra liked to hear the music played by 
 
 ## Quotes
 
-> Let [Aegon](wiki:Aegon_III_Targaryen) have [his child-bride](wiki:Daenaera_Velaryon); Larra of [Lys](wiki:Lys) was like to give [Viserys](wiki:Viserys_II_Targaryen) children sooner rather than later, thereby securing [the dynasty](wiki:House_Targaryen).(wiki:Larra_Rogare.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+> Let Aegon have his child-bride; Larra of Lys was like to give Viserys children sooner rather than later, thereby securing the dynasty.
 >
-> —words of [Gyldayn](wiki:Gyldayn)
+> —words of Gyldayn, F&B (`sources/chapters/fab/fab-voyage-of-alyn-oakenfist-23.md:203`)
 
 > I could sometimes make the lady laugh, though she did not understand more than a few words of [our tongue](wiki:Common_Tongue), but [the Shadow's](wiki:Sandoq_the_Shadow) playing always made her weep, and strange to say she liked that better.(wiki:Larra_Rogare.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-13)
 >

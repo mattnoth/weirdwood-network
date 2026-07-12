@@ -35,6 +35,6 @@ To everyone's surprise, Symond attends [the wedding](wiki:Wedding_of_Lyonel_Corb
 
 ## Quotes
 
-> A beak of a nose and icy blue eyes made the [Knight of Ninestars](wiki:Knight_of_Ninestars) look like some elegant bird of prey. His doublet displayed nine black stars within a golden saltire.(wiki:Symond_Templeton.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> A beak of a nose and icy blue eyes made the Knight of Ninestars look like some elegant bird of prey. His doublet displayed nine black stars within a golden saltire.
 >
-> —thoughts of [Alayne Stone](wiki:Sansa_Stark)
+> —thoughts of Alayne Stone, AFFC (`sources/chapters/affc/affc-alayne-01.md:165`)

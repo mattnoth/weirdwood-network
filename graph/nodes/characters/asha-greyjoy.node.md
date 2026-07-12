@@ -93,9 +93,9 @@ Asha is distressed when she sees what [Ramsay Bolton](wiki:Ramsay_Snow) did to h
 >
 > —[Rodrik Harlaw](wiki:Rodrik_Harlaw) and Asha
 
-> If there are rocks to starboard and a storm to port, a wise captain steers a third course.(wiki:Asha_Greyjoy.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-16)
+> If there are rocks to starboard and a storm to port, a wise captain steers a third course.
 >
-> —Asha to [Rodrik Harlaw](wiki:Rodrik_Harlaw)
+> —Asha to Rodrik Harlaw, AFFC (`sources/chapters/affc/affc-the-krakens-daughter-01.md:153`)
 
 > **Tristifer**: You and I were meant to be, Asha. I have always known you would be my wife, and the mother of my sons. **Asha**: Take your hand away or you won't live long enough to breed a son ... I am your queen, not your wife. Remember that.(wiki:Asha_Greyjoy.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-17)
 >
@@ -109,9 +109,9 @@ Asha is distressed when she sees what [Ramsay Bolton](wiki:Ramsay_Snow) did to h
 >
 > —Asha, [Rodrik Harlaw](wiki:Rodrik_Harlaw), and [Baelor Blacktyde](wiki:Baelor_Blacktyde) at the [kingsmoot](wiki:Kingsmoot_on_Old_Wyk)
 
-> Asha Greyjoy did not intend to be [taken alive](wiki:Fight_by_Deepwood_Motte). She would die as she had lived, with an axe in her hand and a laugh upon her lips.(wiki:Asha_Greyjoy.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-15)
+> Asha Greyjoy did not intend to be taken alive. She would die as she had lived, with an axe in her hand and a laugh upon her lips.
 >
-> —thoughts of Asha
+> —thoughts of Asha, ADWD (`sources/chapters/adwd/adwd-the-wayward-bride-01.md:95`)
 
 > **Asha**: Your Grace's [royal brother](wiki:Robert_Baratheon) was renowned for turning fallen foes into friends. Make me your man. **Stannis**: The gods did not make you a man. How can I?(wiki:Asha_Greyjoy.cite_ref-Radwd42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-5)
 >
@@ -123,17 +123,17 @@ Asha is distressed when she sees what [Ramsay Bolton](wiki:Ramsay_Snow) did to h
 
 ### Quotes about Asha
 
-> Well, they say Asha's favorite gown is a chainmail hauberk that hangs down past her knees, with boiled leather smallclothes beneath.(wiki:Asha_Greyjoy.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-16)
+> Well, they say Asha's favorite gown is a chainmail hauberk that hangs down past her knees, with boiled leather smallclothes beneath.
 >
-> —[Theon Greyjoy](wiki:Theon_Greyjoy) to "Esgred" (Asha)
+> —Theon Greyjoy to "Esgred" (Asha), ACOK (`sources/chapters/acok/acok-theon-02.md:245`)
 
-> Let Asha keep the [bloody islands](wiki:Iron_Islands), they're as dreary as she is.(wiki:Asha_Greyjoy.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-1)
+> Let Asha keep the bloody islands, they're as dreary as she is.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-06.md:193`)
 
-> [Balon](wiki:Balon_Greyjoy) favored Asha, the child of his body, but a woman cannot rule the [ironborn](wiki:Ironborn).(wiki:Asha_Greyjoy.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4)
+> Balon favored Asha, the child of his body, but a woman cannot rule the ironborn.
 >
-> —thoughts of [Aeron Greyjoy](wiki:Aeron_Greyjoy)
+> —thoughts of Aeron Greyjoy, AFFC (`sources/chapters/affc/affc-the-prophet-01.md:179`)
 
 > **Alysane**: Lady Asha is not for burning. **Clayton**: She will be. We have harbored this [demon worshiper](wiki:Drowned_God) amongst us too long.(wiki:Asha_Greyjoy.cite_ref-Radwd62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-6)
 >

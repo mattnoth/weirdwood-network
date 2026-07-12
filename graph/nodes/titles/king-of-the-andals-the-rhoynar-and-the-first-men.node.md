@@ -51,10 +51,10 @@ In [Volon Therys](wiki:Volon_Therys), [Jon Connington](wiki:Jon_Connington) intr
 
 ## Quotes
 
-> In the name of [Robert](wiki:Robert_I_Baratheon) of the [House Baratheon](wiki:House_Baratheon_of_King's_Landing), the First of his Name, King of the [Andals](wiki:Andals) and the [Rhoynar](wiki:Rhoynar) and the [First Men](wiki:First_Men), [Lord of the Seven Kingdoms](wiki:Lord_of_the_Seven_Kingdoms) and [Protector of the Realm](wiki:Protector_of_the_Realm), by the word of Eddard of the [House Stark](wiki:House_Stark), [Lord of Winterfell](wiki:Lord_of_Winterfell) and [Warden of the North](wiki:Warden_of_the_North), I do sentence you to die.(wiki:King_of_the_Andals,_the_Rhoynar,_and_the_First_Men.cite_ref-Ragot1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+> In the name of Robert of the House Baratheon, the First of his Name, King of the Andals and the Rhoynar and the First Men, Lord of the Seven Kingdoms and Protector of the Realm, by the word of Eddard of the House Stark, Lord of Winterfell and Warden of the North, I do sentence you to die.
 >
-> —[Eddard Stark](wiki:Eddard_Stark) to [Gared](wiki:Gared)
+> —Eddard Stark to Gared, AGOT (`sources/chapters/agot/agot-bran-01.md:23`)
 
-> This is the will and word of Robert of [House Baratheon](wiki:House_Baratheon_of_King's_Landing), the First of his Name, King of the [Andals](wiki:Andals) and all the rest—put in the damn titles, you know how it goes.(wiki:King_of_the_Andals,_the_Rhoynar,_and_the_First_Men.cite_ref-Ragot47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0)
+> This is the will and word of Robert of House Baratheon, the First of his Name, King of the Andals and all the rest—put in the damn titles, you know how it goes.
 >
-> —[Robert I Baratheon](wiki:Robert_I_Baratheon) to [Eddard Stark](wiki:Eddard_Stark)
+> —Robert I Baratheon to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-13.md:69`)

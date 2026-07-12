@@ -51,6 +51,6 @@ Lord Ryswell, along with his sons and surviving daughter Barbrey, attends [the w
 
 ## Quotes
 
-> And my lord father was always pleased to play host to the heir to [Winterfell](wiki:Winterfell). My father had great ambitions for [House Ryswell](wiki:House_Ryswell). He would have served up my [maidenhead](wiki:Maiden) to any [Stark](wiki:House_Stark) who happened by, but there was no need. [Brandon](wiki:Brandon_Stark) was never shy about taking what he wanted.(wiki:Rodrik_Ryswell.cite_ref-Radwd41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+> And my lord father was always pleased to play host to the heir to Winterfell. My father had great ambitions for House Ryswell. He would have served up my maidenhead to any Stark who happened by, but there was no need. Brandon was never shy about taking what he wanted.
 >
-> —[Barbrey Dustin](wiki:Barbrey_Dustin) to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Barbrey Dustin to Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-turncloak-01.md:219`)

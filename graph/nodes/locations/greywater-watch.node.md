@@ -44,6 +44,6 @@ Jojen and his older sister, [Meera Reed](wiki:Meera_Reed), attend the [harvest f
 >
 > —[Meera Reed](wiki:Meera_Reed) and [Bran Stark](wiki:Bran_Stark)
 
-> [Andals](wiki:Andals) and [ironmen](wiki:Ironmen), [Freys](wiki:House_Frey) and other fools, all those proud warriors who set out to conquer Greywater. Not one of them could find it. They ride into the [Neck](wiki:Neck), but not back out. And sooner or later they blunder into the bogs and sink beneath the weight of all that steel and drown there in their armor.(wiki:Greywater_Watch.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+> Andals and ironmen, Freys and other fools, all those proud warriors who set out to conquer Greywater. Not one of them could find it. They ride into the Neck, but not back out. And sooner or later they blunder into the bogs and sink beneath the weight of all that steel and drown there in their armor.
 >
-> —[Jojen Reed](wiki:Jojen_Reed) to [Bran Stark](wiki:Bran_Stark)
+> —Jojen Reed to Bran Stark, ASOS (`sources/chapters/asos/asos-bran-02.md:121`)

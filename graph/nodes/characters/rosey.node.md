@@ -34,6 +34,6 @@ Early in [300 AC](wiki:300_AC), Rosey is fifteen years old and freshly [flowere
 
 ## Quotes
 
-> Rosey was all that he wanted in the world.(wiki:Rosey.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> Rosey was all that he wanted in the world.
 >
-> —[Pate](wiki:Pate_(novice))'s thoughts
+> —Pate)'s thoughts, AFFC (`sources/chapters/affc/affc-prologue.md:39`)

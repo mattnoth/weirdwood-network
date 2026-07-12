@@ -124,9 +124,9 @@ Tommen has dinner with the newly-released Cersei and Kevan. He entertains his gr
 >
 > —[Margaery Tyrell](wiki:Margaery_Tyrell) and Tommen
 
-> When I'm king in my own right, I'm going to outlaw beets.(wiki:Tommen_Baratheon.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_39-3)
+> When I'm king in my own right, I'm going to outlaw beets.
 >
-> —Tommen to [Cersei Lannister](wiki:Cersei_Lannister)
+> —Tommen to Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-05.md:265`)
 
 > **Cersei**: Tommen, when you say your prayers before bed, tell [the Mother](wiki:Mother_(the_Seven)) and [the Father](wiki:Father_(the_Seven)) that you are thankful you are still a child. Being king is hard work. I promise you, you will not like it. They peck at you like a murder of crows. Every one wants a piece of your flesh.
 >
@@ -160,9 +160,9 @@ Tommen has dinner with the newly-released Cersei and Kevan. He entertains his gr
 >
 > —[Cersei Lannister](wiki:Cersei_Lannister) and [Jaime Lannister](wiki:Jaime_Lannister)
 
-> Tommen is no son of mine, no more than [Joffrey](wiki:Joffrey_Baratheon) was.(wiki:Tommen_Baratheon.cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-2)
+> Tommen is no son of mine, no more than Joffrey was.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister) to [Cersei Lannister](wiki:Cersei_Lannister)
+> —Jaime Lannister to Cersei Lannister, AFFC (`sources/chapters/affc/affc-jaime-01.md:189`)
 
 > The world is full of horrors, Tommen. You can fight them, or laugh at them, or look without seeing ... go away inside.(wiki:Tommen_Baratheon.cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-3)
 >
@@ -176,9 +176,9 @@ Tommen has dinner with the newly-released Cersei and Kevan. He entertains his gr
 >
 > —[Margaery Tyrell](wiki:Margaery_Tyrell) to [Cersei Lannister](wiki:Cersei_Lannister)
 
-> The [two](wiki:Cersei_Lannister) [queens](wiki:Margaery_Tyrell) are squabbling over Tommen like bitches with a juicy bone.(wiki:Tommen_Baratheon.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_45-1)
+> The two queens are squabbling over Tommen like bitches with a juicy bone.
 >
-> —[Obara Sand](wiki:Obara_Sand) to [Nymeria Sand](wiki:Nymeria_Sand)
+> —Obara Sand to Nymeria Sand, ADWD (`sources/chapters/adwd/adwd-the-watcher-01.md:147`)
 
 > Tommen has been taught that kingship is his right. [Aegon](wiki:Aegon_Targaryen_(son_of_Rhaegar)) knows that kingship is his duty, that a king must put his people first, and live and rule for them.(wiki:Tommen_Baratheon.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-1)
 >

@@ -45,8 +45,8 @@ Night's King is said to have been a fearless warrior. He used [sorcery](wiki:Sor
 >
 > —[Bran Stark](wiki:Bran_Stark) recalls [Old Nan](wiki:Old_Nan)'s stories
 
-> Night's King was only a man by light of day, [Old Nan](wiki:Old_Nan) would always say, but the night was his to rule.(wiki:Night's_King.cite_ref-Rasos56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+> Night's King was only a man by light of day, Old Nan would always say, but the night was his to rule.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, ASOS (`sources/chapters/asos/asos-bran-04.md:105`)
 
 > ... in the books he is a legendary figure, akin to [Lann the Clever](wiki:Lann_the_Clever) and [Brandon the Builder](wiki:Brandon_the_Builder), and no more likely to have survived to the present day than they have.(wiki:Night's_King.cite_ref-Rssm12392.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)

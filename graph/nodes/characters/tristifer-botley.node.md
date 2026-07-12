@@ -73,9 +73,9 @@ Tristifer and [Qarl the Maid](wiki:Qarl_the_Maid) accompany Asha to her meeting 
 
 ### Quotes about Tristifer
 
-> Tristifer Botley had filled out since last she'd seen him, but he had the same unruly hair that she remembered, and eyes as large and trusting as a [seal](wiki:Seal)'s. Sweet eyes, truly. That was the trouble with poor Tristifer; he was too sweet for the [Iron Islands](wiki:Iron_Islands).(wiki:Tristifer_Botley.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+> Tristifer Botley had filled out since last she'd seen him, but he had the same unruly hair that she remembered, and eyes as large and trusting as a seal's. Sweet eyes, truly. That was the trouble with poor Tristifer; he was too sweet for the Iron Islands.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, AFFC (`sources/chapters/affc/affc-the-krakens-daughter-01.md:219`)
 
 > I don't want to have a dozen sons. I want to have adventures.(wiki:Tristifer_Botley.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
 >

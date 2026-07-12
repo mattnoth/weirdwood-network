@@ -79,6 +79,10 @@ function bestName(slug) {
 function prettyCite(ref) {
   const s = String(ref || "").replace(/`/g, "").trim();
   if (!s) return "";
+  // A residual wiki cite_ref token (quotes not yet book-cite-upgraded) renders
+  // as a short "AWOIAF <Page>" label — never the raw MediaWiki anchor (S213).
+  const w = s.match(/^wiki:([^.]+)/);
+  if (w) return `AWOIAF ${w[1].replace(/_/g, " ")}`;
   const file = s.split("/").pop();
   // `-pNN` is the multi-part suffix on long F&B chapter files
   // (fab-the-blacks-and-the-greens-16-p02.md) — fold parts into one label.

@@ -44,16 +44,16 @@ Lady Leona is present along with her daughters, [Wynafryd](wiki:Wynafryd_Manderl
 >
 > —Leona to [Davos Seaworth](wiki:Davos_Seaworth)
 
-> Young girls should be an ornament to the eye, not an ache in the ear.(wiki:Leona_Woolfield.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+> Young girls should be an ornament to the eye, not an ache in the ear.
 >
-> —Leona to [Wylla Manderly](wiki:Wylla_Manderly)
+> —Leona to Wylla Manderly, ADWD (`sources/chapters/adwd/adwd-davos-03.md:209`)
 
 ### Quotes about Leona
 
-> She speaks from fear. If [White Harbor](wiki:White_Harbor) should declare for [Stannis](wiki:Stannis_Baratheon), [her husband](wiki:Wylis_Manderly) would answer with his life.(wiki:Leona_Woolfield.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+> She speaks from fear. If White Harbor should declare for Stannis, her husband would answer with his life.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-03.md:111`)
 
-> Forgive her if you can, my lord. She is a foolish, frightened woman, and [Wylis](wiki:Wylis_Manderly) is her life.(wiki:Leona_Woolfield.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+> Forgive her if you can, my lord. She is a foolish, frightened woman, and Wylis is her life.
 >
-> —[Wyman Manderly](wiki:Wyman_Manderly) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Wyman Manderly to Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-04.md:109`)

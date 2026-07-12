@@ -56,9 +56,9 @@ The Blue Bard is still held by the Faith. According to Ser [Kevan Lannister](wik
 > The singer’s boots were supple blue calfskin, his breeches fine blue wool. The tunic he wore was pale blue silk slashed with shiny blue satin. He had even gone so far as to dye his hair blue, in the Tyroshi fashion. Long and curly, it fell to his shoulders and smelled as if it had been washed in rosewater. From blue roses, no doubt. At least his teeth are white. They were good teeth, not the least bit crooked.
 > —thoughts of [Cersei Lannister](wiki:Cersei_Lannister) — AFFC Cersei IX (`sources/chapters/affc/affc-cersei-09.md:145`) [q523]
 
-> The Blue Bard's eyes were the same color as [Robert's](wiki:Robert_I_Baratheon). For that alone, she hated him.(wiki:Blue_Bard.cite_ref-Raffc39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+> The Blue Bard's eyes were the same color as Robert's. For that alone, she hated him.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-09.md:151`)
 
 ## Edges
 

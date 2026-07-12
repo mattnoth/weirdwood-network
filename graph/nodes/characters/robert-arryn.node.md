@@ -101,13 +101,13 @@ Robert immediately approves of [Alayne Stone's](wiki:Sansa_Stark) suggestion he 
 >
 > —[Brynden Tully](wiki:Brynden_Tully) to [Catelyn Stark](wiki:Catelyn_Stark)
 
-> Isn't he beautiful? And strong too, don't you believe the things you hear. Jon knew. The seed is strong, he told me. His last words. He kept saying Robert's name, and he grabbed my arm so hard he left marks. Tell them, the seed is strong. His seed. He wanted everyone to know what a good strong boy my baby was going to be.(wiki:Robert_Arryn.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+> Isn't he beautiful? And strong too, don't you believe the things you hear. Jon knew. The seed is strong, he told me. His last words. He kept saying Robert's name, and he grabbed my arm so hard he left marks. Tell them, the seed is strong. His seed. He wanted everyone to know what a good strong boy my baby was going to be.
 >
-> —[Lysa Arryn](wiki:Lysa_Arryn) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Lysa Arryn to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-06.md:247`)
 
-> The boy is utterly without discipline. He will never be strong enough to rule unless he is taken away from [his mother](wiki:Lysa_Arryn) for a time.(wiki:Robert_Arryn.cite_ref-Ragot40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-4)
+> The boy is utterly without discipline. He will never be strong enough to rule unless he is taken away from his mother for a time.
 >
-> —[Catelyn Stark](wiki:Catelyn_Stark) to [Rodrik Cassel](wiki:Rodrik_Cassel)
+> —Catelyn Stark to Rodrik Cassel, AGOT (`sources/chapters/agot/agot-catelyn-07.md:91`)
 
 > The boy is weak and sickly.(wiki:Robert_Arryn.cite_ref-Racok0.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-1)
 >
@@ -117,9 +117,9 @@ Robert immediately approves of [Alayne Stone's](wiki:Sansa_Stark) suggestion he 
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) to [Genna Lannister](wiki:Genna_Lannister)
 
-> No matter what you offered him, Robert always wanted more.(wiki:Robert_Arryn.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-15)
+> No matter what you offered him, Robert always wanted more.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, AFFC (`sources/chapters/affc/affc-alayne-02.md:43`)
 
 > **Petyr**: So tell me, sweetling—why is [Harry](wiki:Harrold_Hardyng) the Heir?
 >

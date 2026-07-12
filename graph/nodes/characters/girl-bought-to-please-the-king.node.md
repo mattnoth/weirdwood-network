@@ -51,14 +51,14 @@ After drinking at [Illyrio's manse](wiki:Illyrio's_manse), [Tyrion Lannister](wi
 
 ### Quotes about the girl
 
-> She despises me, he realized, but no more than I despise myself.(wiki:Girl_bought_to_please_the_king.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> She despises me, he realized, but no more than I despise myself.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-01.md:151`)
 
-> It might please m'lord to strangle you. That's how I served [my last whore](wiki:Shae). Do you think [your master](wiki:Illyrio_Mopatis) would object? Surely not. He has a hundred more like you, but no one else like me.(wiki:Girl_bought_to_please_the_king.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+> It might please m'lord to strangle you. That's how I served my last whore. Do you think your master would object? Surely not. He has a hundred more like you, but no one else like me.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to the girl
+> —Tyrion Lannister to the girl, ADWD (`sources/chapters/adwd/adwd-tyrion-01.md:157`)
 
-> She was trained in [Lys](wiki:Lys), where they make an art of love. [The king](wiki:Viserys_Targaryen) enjoyed her greatly.(wiki:Girl_bought_to_please_the_king.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+> She was trained in Lys, where they make an art of love. The king enjoyed her greatly.
 >
-> —[Illyrio Mopatis](wiki:Illyrio_Mopatis) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Illyrio Mopatis to Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-01.md:173`)

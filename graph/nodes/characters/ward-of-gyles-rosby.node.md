@@ -32,9 +32,9 @@ The Rosby inheritance is brought up during the [small council](wiki:Small_counci
 
 ## Quotes
 
-> Mark my word, when [Gyles](wiki:Gyles_Rosby) dies that ill-born wretch will make off with his [gold](wiki:Gold). He may even try and claim the lands and [lordship](wiki:Lord), though by rights [Rosby](wiki:Rosby) should come to us when Gyles passes.(wiki:Ward_of_Gyles_Rosby.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> Mark my word, when Gyles dies that ill-born wretch will make off with his gold. He may even try and claim the lands and lordship, though by rights Rosby should come to us when Gyles passes.
 >
-> —[Falyse Stokeworth](wiki:Falyse_Stokeworth) to [Cersei Lannister](wiki:Cersei_Lannister)
+> —Falyse Stokeworth to Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-05.md:311`)
 
 > **Cersei**: As to Lord [Gyles](wiki:Gyles_Rosby), no doubt our [Father Above](wiki:Father_(the_Seven)) will judge him justly. He left no children? **Pycelle**: No children of his body, but there is a [ward](wiki:Ward)... **Cersei**: ...not of his blood.(wiki:Ward_of_Gyles_Rosby.cite_ref-Raffc39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 >

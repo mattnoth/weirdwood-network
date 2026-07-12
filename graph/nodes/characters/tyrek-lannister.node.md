@@ -53,9 +53,9 @@ Ser [Jaime Lannister](wiki:Jaime_Lannister) suspects that Lord [Varys](wiki:Vary
 >
 > —[Bronn](wiki:Bronn) and [Addam Marbrand](wiki:Addam_Marbrand)
 
-> Tyrek had served King [Robert](wiki:Robert_I_Baratheon) as a squire, side by side with [Lancel](wiki:Lancel_Lannister). Knowledge could be more valuable than [gold](wiki:Gold), more deadly than a dagger.(wiki:Tyrek_Lannister.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+> Tyrek had served King Robert as a squire, side by side with Lancel. Knowledge could be more valuable than gold, more deadly than a dagger.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-03.md:139`)
 
 ## Edges
 

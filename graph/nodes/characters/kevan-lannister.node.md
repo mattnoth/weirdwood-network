@@ -114,9 +114,9 @@ After dinner, Kevan is told by a servant that [Pycelle](wiki:Pycelle) is seeking
 
 ### Quotes by Kevan
 
-> A man who fights for [coin](wiki:Coin) is loyal only to his purse.(wiki:Kevan_Lannister.cite_ref-Ragot69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-2)
+> A man who fights for coin is loyal only to his purse.
 >
-> —Kevan regarding a [Tyroshi sellsword](wiki:Tyroshi_sellsword)
+> —Kevan regarding a Tyroshi sellsword, AGOT (`sources/chapters/agot/agot-tyrion-09.md:55`)
 
 > **Tywin**: Unleash Ser [Gregor](wiki:Gregor_Clegane) and send him before us with [his reavers](wiki:Mountain's_men). Send forth [Vargo Hoat](wiki:Vargo_Hoat) and [his freeriders](wiki:Brave_Companions) as well, and Ser [Amory Lorch](wiki:Amory_Lorch). Each is to have three hundred horse. Tell them I want to see the [riverlands](wiki:Riverlands) afire from the [Gods Eye](wiki:Gods_Eye) to the [Red Fork](wiki:Red_Fork). **Kevan**: They will burn, my lord. I shall give the commands.(wiki:Kevan_Lannister.cite_ref-Ragot69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-3)
 >
@@ -138,23 +138,23 @@ After dinner, Kevan is told by a servant that [Pycelle](wiki:Pycelle) is seeking
 >
 > —Kevan and [Cersei Lannister](wiki:Cersei_Lannister)
 
-> But it did no good to brood on lost battles and roads not taken. That was a vice of old done men.(wiki:Kevan_Lannister.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-7)
+> But it did no good to brood on lost battles and roads not taken. That was a vice of old done men.
 >
-> —Kevan's thoughts
+> —Kevan's thoughts, ADWD (`sources/chapters/adwd/adwd-epilogue.md:165`)
 
 ### Quotes about Kevan
 
-> Ser Kevan seldom "had a thought" that Lord [Tywin](wiki:Tywin_Lannister) had not had first.(wiki:Kevan_Lannister.cite_ref-Ragot62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-1)
+> Ser Kevan seldom "had a thought" that Lord Tywin had not had first.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
+> —Tyrion Lannister's thoughts, AGOT (`sources/chapters/agot/agot-tyrion-08.md:43`)
 
-> The next [Hand](wiki:Hand_of_the_King) will know his place, she promised herself. It would have to be Ser Kevan. Her uncle was tireless, prudent, unfailingly obedient. She could rely on him, as [her father](wiki:Tywin_Lannister) had. The hand does not argue with the head.(wiki:Kevan_Lannister.cite_ref-Raffc3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
+> The next Hand will know his place, she promised herself. It would have to be Ser Kevan. Her uncle was tireless, prudent, unfailingly obedient. She could rely on him, as her father had. The hand does not argue with the head.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister)'s thoughts
+> —Cersei Lannister's thoughts, AFFC (`sources/chapters/affc/affc-cersei-01.md:149`)
 
-> Kevan should be [Tommen's](wiki:Tommen_Baratheon) [Hand](wiki:Hand_of_the_King). [Harys Swyft](wiki:Harys_Swyft) is a toad, and [my sister](wiki:Cersei_Lannister) is a fool if she thinks elsewise.(wiki:Kevan_Lannister.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_50-4)
+> Kevan should be Tommen's Hand. Harys Swyft is a toad, and my sister is a fool if she thinks elsewise.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister)'s thoughts
+> —Jaime Lannister's thoughts, AFFC (`sources/chapters/affc/affc-jaime-04.md:15`)
 
 > **Genna**: Kevan always did what was asked of him. It is not like him to turn away from any duty. Something is awry here, I can smell it.
 >
@@ -162,9 +162,9 @@ After dinner, Kevan is told by a servant that [Pycelle](wiki:Pycelle) is seeking
 >
 > —[Genna Lannister](wiki:Genna_Lannister) and [Jaime Lannister](wiki:Jaime_Lannister)
 
-> My uncle Kevan would make a passably good [regent](wiki:Regent) if someone pressed the duty on him, but he will never reach for it. The gods shaped him to be a follower, not a leader.(wiki:Kevan_Lannister.cite_ref-Radwd22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_56-0)
+> My uncle Kevan would make a passably good regent if someone pressed the duty on him, but he will never reach for it. The gods shaped him to be a follower, not a leader.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Aegon Targaryen](wiki:Aegon_Targaryen_(son_of_Rhaegar))
+> —Tyrion Lannister to Aegon Targaryen), ADWD (`sources/chapters/adwd/adwd-tyrion-06.md:135`)
 
 > This pains me, my lord. You do not deserve to die alone on such a cold dark night. There are many like you, good men in service to bad causes ... but you were threatening to undo all [the queen's](wiki:Cersei_Lannister) good work, to reconcile [Highgarden](wiki:Highgarden) and [Casterly Rock](wiki:Casterly_Rock), to bind [the Faith](wiki:Faith_of_the_Seven) to your little king, unite the [Seven Kingdoms](wiki:Seven_Kingdoms) under [Tommen's](wiki:Tommen_Baratheon) rule.(wiki:Kevan_Lannister.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-8)
 >

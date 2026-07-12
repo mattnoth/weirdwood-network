@@ -142,9 +142,9 @@ Melisandre thinks she is stronger than she has ever been while at the Wall.(wiki
 
 ## Quotes
 
-> You could see it from miles off, a pale blue line across the northern horizon, stretching away to the east and west and vanishing in the far distance, immense and unbroken. This is the end of the world, it seemed to say.(wiki:Wall.cite_ref-Ragot19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-6)
+> You could see it from miles off, a pale blue line across the northern horizon, stretching away to the east and west and vanishing in the far distance, immense and unbroken. This is the end of the world, it seemed to say.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, AGOT (`sources/chapters/agot/agot-jon-03.md:149`)
 
 > Almost seven hundred feet high it stood, three times the height of the [tallest tower](wiki:Lance_(tower)) in [the stronghold](wiki:Castle_Black) it sheltered. [His uncle](wiki:Benjen_Stark) said the top was wide enough for a dozen armored [knights](wiki:Knight) to ride abreast. The gaunt outlines of huge catapults and monstrous wooden cranes stood sentry up there, like the skeletons of great birds, and among them walked [men in black](wiki:Night's_Watch) as small as ants.(wiki:Wall.cite_ref-Ragot19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-7)
 >
@@ -154,21 +154,21 @@ Melisandre thinks she is stronger than she has ever been while at the Wall.(wiki
 >
 > —[Jon Snow](wiki:Jon_Snow) and [Donal Noye](wiki:Donal_Noye)
 
-> He looked off to the east and west, at the Wall stretching before him, a vast white road with no beginning and no end and a dark abyss on either side.(wiki:Wall.cite_ref-Ragot21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
+> He looked off to the east and west, at the Wall stretching before him, a vast white road with no beginning and no end and a dark abyss on either side.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-03.md:141`)
 
-> Sometimes it seemed to Jon almost a living thing, with moods of its own. The color of the ice was wont to change with every shift of the light. Now it was the deep blue of frozen rivers, now the dirty white of old snow, and when a cloud passed before the sun it darkened to the pale grey of pitted stone. The Wall stretched east and west as far as the eye could see, so huge that it shrunk the timbered keeps and stone towers of [the castle](wiki:Castle_Black) to insignificance. It was the end of the world.(wiki:Wall.cite_ref-Racok6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_61-0)
+> Sometimes it seemed to Jon almost a living thing, with moods of its own. The color of the ice was wont to change with every shift of the light. Now it was the deep blue of frozen rivers, now the dirty white of old snow, and when a cloud passed before the sun it darkened to the pale grey of pitted stone. The Wall stretched east and west as far as the eye could see, so huge that it shrunk the timbered keeps and stone towers of the castle to insignificance. It was the end of the world.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ACOK (`sources/chapters/acok/acok-jon-01.md:81`)
 
 > If the Wall should ever fall, all the fires will go out.(wiki:Wall.cite_ref-Racok68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_62-0)
 >
 > —[Qhorin Halfhand](wiki:Qhorin_Halfhand) to [Jon Snow](wiki:Jon_Snow)
 
-> The Wall can stop an army, but not a man alone.(wiki:Wall.cite_ref-Rasos7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_39-1)
+> The Wall can stop an army, but not a man alone.
 >
-> —[Mance Rayder](wiki:Mance_Rayder) to [Jon Snow](wiki:Jon_Snow)
+> —Mance Rayder to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-01.md:247`)
 
 > And they've built a great wall through my valleys, and fished all the fish from my rills.(wiki:Wall.cite_ref-Rasos15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_63-0)
 >
@@ -186,13 +186,13 @@ Melisandre thinks she is stronger than she has ever been while at the Wall.(wiki
 >
 > —[Mance Rayder](wiki:Mance_Rayder) and [Dalla](wiki:Dalla) to [Jon Snow](wiki:Jon_Snow)
 
-> I have dreamed of your Wall, Jon Snow. Great was the lore that raised it, and great the [spells](wiki:Magic) locked beneath its ice. We walk beneath one of the hinges of the world.(wiki:Wall.cite_ref-Radwd3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_53-2)
+> I have dreamed of your Wall, Jon Snow. Great was the lore that raised it, and great the spells locked beneath its ice. We walk beneath one of the hinges of the world.
 >
-> —[Melisandre](wiki:Melisandre) to [Jon Snow](wiki:Jon_Snow)
+> —Melisandre to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-01.md:317`)
 
-> Jon Snow glanced up at the Wall, towering over them like a cliff of ice. A hundred leagues from end to end, and seven hundred feet high. The strength of the Wall was its height; the length of the Wall was its weakness. Jon remembered something [his father](wiki:Eddard_Stark) had said once. A wall is only as strong as the men who stand behind it. The men of the [Night's Watch](wiki:Night's_Watch) were brave enough, but they were far too few for the task that confronted them.(wiki:Wall.cite_ref-Radwd7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_52-3)
+> Jon Snow glanced up at the Wall, towering over them like a cliff of ice. A hundred leagues from end to end, and seven hundred feet high. The strength of the Wall was its height; the length of the Wall was its weakness. Jon remembered something his father had said once. A wall is only as strong as the men who stand behind it. The men of the Night's Watch were brave enough, but they were far too few for the task that confronted them.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-02.md:275`)
 
 > Winter is coming, and with it the [white walkers](wiki:Others). The Wall is where we stop them. The Wall was made to stop them ... but the Wall must be manned.(wiki:Wall.cite_ref-Radwd53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-1)
 >

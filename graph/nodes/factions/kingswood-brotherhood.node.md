@@ -50,14 +50,14 @@ Ser [Jaime Lannister](wiki:Jaime_Lannister), [Lord Commander of the Kingsguard](
 
 ## Quotes
 
-> [Ulmer](wiki:Ulmer), stooped and grey-bearded and loose of skin and limb, stepped to the mark and pulled an arrow from the quiver at his waist. In his youth he had been an outlaw, a member of the infamous Kingswood Brotherhood. He claimed he'd once put an arrow through the hand of the [White Bull](wiki:Gerold_Hightower) of the [Kingsguard](wiki:Kingsguard) to steal a kiss from the lips of a [Dornish](wiki:Dorne) princess. He had stolen her jewels too, and a chest of [golden dragons](wiki:Currency), but it was the kiss he liked to boast of in his cups.(wiki:Kingswood_Brotherhood.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-4)
+> Ulmer, stooped and grey-bearded and loose of skin and limb, stepped to the mark and pulled an arrow from the quiver at his waist. In his youth he had been an outlaw, a member of the infamous Kingswood Brotherhood. He claimed he'd once put an arrow through the hand of the White Bull of the Kingsguard to steal a kiss from the lips of a Dornish princess. He had stolen her jewels too, and a chest of golden dragons, but it was the kiss he liked to boast of in his cups.
 >
-> —thoughts of [Samwell Tarly](wiki:Samwell_Tarly)
+> —thoughts of Samwell Tarly, ASOS (`sources/chapters/asos/asos-samwell-02.md:69`)
 
-> [Bloody outlaws](wiki:Brotherhood_without_banners), always hiding in the bushes. It had been the same in the [kingswood](wiki:Kingswood). you'd think you'd caught five of them, and ten more would spring from nowhere.(wiki:Kingswood_Brotherhood.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
+> Bloody outlaws, always hiding in the bushes. It had been the same in the kingswood. you'd think you'd caught five of them, and ten more would spring from nowhere.
 >
-> —thoughts of [Merrett Frey](wiki:Merrett_Frey)
+> —thoughts of Merrett Frey, ASOS (`sources/chapters/asos/asos-epilogue.md:71`)
 
-> If you want their help, you need to make them love you. That was how [Arthur Dayne](wiki:Arthur_Dayne) did it, when we rode against the Kingswood Brotherhood. He paid the [smallfolk](wiki:Smallfolk) for the food we ate, brought their grievances to King [Aerys](wiki:Aerys_II_Targaryen), expanded the grazing lands around their villages, even won them the right to fell a certain number of trees each year and take a few of the king's deer during the autumn. The forest folk had looked to [Toyne](wiki:Simon_Toyne) to defend them, but Ser Arthur did more for them than the Brotherhood could ever hope to do, and won them to our side. After that, the rest was easy.(wiki:Kingswood_Brotherhood.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
+> If you want their help, you need to make them love you. That was how Arthur Dayne did it, when we rode against the Kingswood Brotherhood. He paid the smallfolk for the food we ate, brought their grievances to King Aerys, expanded the grazing lands around their villages, even won them the right to fell a certain number of trees each year and take a few of the king's deer during the autumn. The forest folk had looked to Toyne to defend them, but Ser Arthur did more for them than the Brotherhood could ever hope to do, and won them to our side. After that, the rest was easy.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister) to [Lyle Crakehall](wiki:Lyle_Crakehall)
+> —Jaime Lannister to Lyle Crakehall, AFFC (`sources/chapters/affc/affc-jaime-04.md:173`)

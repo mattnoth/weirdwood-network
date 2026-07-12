@@ -59,9 +59,9 @@ The loss of Harrenhal traps Lord [Tywin Lannister](wiki:Tywin_Lannister) between
 >
 > —[Robett Glover](wiki:Robett_Glover) to [Arya Stark](wiki:Arya_Stark)
 
-> Them [Bloody Mummers](wiki:Bloody_Mummers) killed some of Ser [Amory's](wiki:Amory_Lorch) lot in their beds, and the rest at table after they were good and drunk. [The new lord](wiki:Roose_Bolton) will be here before the day's out, with his whole host. He's from the wild [north](wiki:North) up where that [Wall](wiki:Wall) is, and they say he's a hard one. This [lord](wiki:Lord) or that lord, there's still work to be done.(wiki:Fall_of_Harrenhal.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
+> Them Bloody Mummers killed some of Ser Amory's lot in their beds, and the rest at table after they were good and drunk. The new lord will be here before the day's out, with his whole host. He's from the wild north up where that Wall is, and they say he's a hard one. This lord or that lord, there's still work to be done.
 >
-> —[Pinkeye](wiki:Pinkeye) to his subordinates
+> —Pinkeye to his subordinates, ACOK (`sources/chapters/acok/acok-arya-09.md:349`)
 
 > - What did you die of? - Hot weasel soup.(wiki:Fall_of_Harrenhal.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-10)
 >

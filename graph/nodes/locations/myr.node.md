@@ -123,18 +123,18 @@ Victarion captures a Myrish cog named *[Dove](wiki:Dove)* on her way to [Yunkai]
 >
 > —writings of [Gyldayn](wiki:Gyldayn)
 
-> The lenscrafters of Myr are without equal.(wiki:Myr.cite_ref-Ragot6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-2)
+> The lenscrafters of Myr are without equal.
 >
-> —[Luwin](wiki:Luwin) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Luwin to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-02.md:75`)
 
 > **Sansa**: A new gown? **Seamstress**: More lovely than any you have worn, my lady. All [silk](wiki:Silk) and Myrish lace, with satin linings. You will be very beautiful.(wiki:Myr.cite_ref-Rasos16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1)
 >
 > —[Sansa Stark](wiki:Sansa_Stark) and a seamstress
 
-> The best glass came from Myr, but a good clear pane was worth its weight in [spice](wiki:Spice), and green and yellow glass would not work as well. What we need is [gold](wiki:Gold). With enough [coin](wiki:Coin), we could buy 'prentice glassblowers and glaziers in Myr, bring them [north](wiki:Castle_Black), offer them their freedom for teaching their art to some of [our recruits](wiki:Night's_Watch).(wiki:Myr.cite_ref-Radwd35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-2)
+> The best glass came from Myr, but a good clear pane was worth its weight in spice, and green and yellow glass would not work as well. What we need is gold. With enough coin, we could buy 'prentice glassblowers and glaziers in Myr, bring them north, offer them their freedom for teaching their art to some of our recruits.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-07.md:29`)
 
-> The cog he renamed [Shrike](wiki:Dove). Her crew would be kept for ransom, the captain decreed. They were neither [slaves](wiki:Slaves) nor slavers, but free Myrmen and seasoned sailors. Such men were worth good [coin](wiki:Coin).(wiki:Myr.cite_ref-Radwd63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_78-1)
+> The cog he renamed Shrike. Her crew would be kept for ransom, the captain decreed. They were neither slaves nor slavers, but free Myrmen and seasoned sailors. Such men were worth good coin.
 >
-> —thoughts of [Victarion Greyjoy](wiki:Victarion_Greyjoy)
+> —thoughts of Victarion Greyjoy, ADWD (`sources/chapters/adwd/adwd-victarion-01.md:41`)

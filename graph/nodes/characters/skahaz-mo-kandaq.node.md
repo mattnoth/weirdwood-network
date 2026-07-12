@@ -72,17 +72,17 @@ As the [second siege of Meereen](wiki:Second_siege_of_Meereen) resumes, Skahaz a
 
 ### Quotes about Skahaz
 
-> Skahaz was the Shavepate ... and the vilest of traitors to the [Sons of the Harpy](wiki:Sons_of_the_Harpy) and their ilk.(wiki:Skahaz_mo_Kandaq.cite_ref-Radwd2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
+> Skahaz was the Shavepate ... and the vilest of traitors to the Sons of the Harpy and their ilk.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-01.md:111`)
 
-> It was a blunt, brutal, angry face. She could only pray it was an honest one as well.(wiki:Skahaz_mo_Kandaq.cite_ref-Radwd2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13)
+> It was a blunt, brutal, angry face. She could only pray it was an honest one as well.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-01.md:115`)
 
-> She trusted Skahaz more than she trusted [Hizdahr](wiki:Hizdahr_zo_Loraq), but the Shavepate would be a disaster as a king. He was too quick to anger, too slow to forgive.(wiki:Skahaz_mo_Kandaq.cite_ref-Radwd23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3)
+> She trusted Skahaz more than she trusted Hizdahr, but the Shavepate would be a disaster as a king. He was too quick to anger, too slow to forgive.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-04.md:69`)
 
 > **Daenerys**: The Shavepate has ways of finding the truth. **Hizdahr**: I do not doubt that Skahaz would soon have me confessing. A day with him, and I will be one of the [Harpy's Sons](wiki:Sons_of_the_Harpy). Two days, and I will be the [Harpy](wiki:Harpy). Three, and it will turn out I slew [your father](wiki:Aerys_II_Targaryen) too, back in the [Sunset Kingdoms](wiki:Seven_Kingdoms) when I was yet a boy. Then he will impale me on a stake and you can watch me die ... but afterward the killings will go on.(wiki:Skahaz_mo_Kandaq.cite_ref-Radwd23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-4)
 >

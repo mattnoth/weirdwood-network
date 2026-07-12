@@ -78,13 +78,13 @@ Resting on a [weirwood](wiki:Weirwood) stump, Ser [Jaime Lannister](wiki:Jaime_L
 
 ### Quotes about Arthur
 
-> They whispered of Ser Arthur Dayne, the [Sword of the Morning](wiki:Sword_of_the_Morning), deadliest of the seven knights of [Aerys](wiki:Aerys_II_Targaryen)'s [Kingsguard](wiki:Kingsguard), and of how [their young lord](wiki:Eddard_Stark) had slain him in single combat.(wiki:Arthur_Dayne.cite_ref-Ragot6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+> They whispered of Ser Arthur Dayne, the Sword of the Morning, deadliest of the seven knights of Aerys's Kingsguard, and of how their young lord had slain him in single combat.
 >
-> —[Catelyn Stark](wiki:Catelyn_Stark) thinking of [Winterfell](wiki:Winterfell)'s maids
+> —Catelyn Stark thinking of Winterfell's maids, AGOT (`sources/chapters/agot/agot-catelyn-02.md:183`)
 
-> The finest knight I ever saw was Ser Arthur Dayne, who fought with a blade called [Dawn](wiki:Dawn), forged from the heart of a fallen star. They called him the [Sword of the Morning](wiki:Sword_of_the_Morning), and he would have killed me but for [Howland Reed](wiki:Howland_Reed).(wiki:Arthur_Dayne.cite_ref-Racok21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-2)
+> The finest knight I ever saw was Ser Arthur Dayne, who fought with a blade called Dawn, forged from the heart of a fallen star. They called him the Sword of the Morning, and he would have killed me but for Howland Reed.
 >
-> —[Eddard Stark](wiki:Eddard_Stark) to [Bran Stark](wiki:Bran_Stark)
+> —Eddard Stark to Bran Stark, ACOK (`sources/chapters/acok/acok-bran-03.md:127`)
 
 > **Arstan:** [Myles Mooton](wiki:Myles_Mooton) was Prince [Rhaegar's](wiki:Rhaegar_Targaryen) squire, and [Richard Lonmouth](wiki:Richard_Lonmouth) after him. When they won their spurs, he knighted them himself, and they remained his close companions. Young Lord [Connington](wiki:Jon_Connington) was dear to the prince as well, but his oldest friend was Arthur Dayne.
 >

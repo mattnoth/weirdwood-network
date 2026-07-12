@@ -83,9 +83,9 @@ With Harrion in captivity, Rickard's uncle [Arnolf](wiki:Arnolf_Karstark), caste
 >
 > —Rickard and [Catelyn Stark](wiki:Catelyn_Stark)
 
-> Any man who steps between a father and his vengeance asks for death.(wiki:Rickard_Karstark.cite_ref-Rasos20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-7)
+> Any man who steps between a father and his vengeance asks for death.
 >
-> —Rickard to [Edmure Tully](wiki:Edmure_Tully)
+> —Rickard to Edmure Tully, ASOS (`sources/chapters/asos/asos-catelyn-03.md:37`)
 
 > How can it be treason to kill [Lannisters](wiki:House_Lannister), when it is not treason to free them? Has Your Grace forgotten that we are at war with [Casterly Rock](wiki:Casterly_Rock)? In war you kill your enemies. Didn't [your father](wiki:Eddard_Stark) teach you that, boy?(wiki:Rickard_Karstark.cite_ref-Rasos20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-8)
 >
@@ -101,18 +101,18 @@ With Harrion in captivity, Rickard's uncle [Arnolf](wiki:Arnolf_Karstark), caste
 
 ### Quotes about Rickard
 
-> You cannot afford to seem indecisive in front of men like [Roose Bolton](wiki:Roose_Bolton) and Rickard Karstark. Make no mistake, Robb—these are your [bannermen](wiki:Bannermen), not your friends.(wiki:Rickard_Karstark.cite_ref-Ragot55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1)
+> You cannot afford to seem indecisive in front of men like Roose Bolton and Rickard Karstark. Make no mistake, Robb—these are your bannermen, not your friends.
 >
-> —[Catelyn Stark](wiki:Catelyn_Stark) to [Robb Stark](wiki:Robb_Stark)
+> —Catelyn Stark to Robb Stark, AGOT (`sources/chapters/agot/agot-catelyn-08.md:141`)
 
-> Lord Rickard Karstark, gaunt and hollow-eyed in his grief, took his seat like a man in a nightmare, his long beard uncombed and unwashed.(wiki:Rickard_Karstark.cite_ref-Ragot71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> Lord Rickard Karstark, gaunt and hollow-eyed in his grief, took his seat like a man in a nightmare, his long beard uncombed and unwashed.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-11.md:145`)
 
-> Rickard Karstark killed more than [a Frey](wiki:Tion_Frey) and [a Lannister](wiki:Willem_Lannister). He killed my honor.(wiki:Rickard_Karstark.cite_ref-Rasos20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-11)
+> Rickard Karstark killed more than a Frey and a Lannister. He killed my honor.
 >
-> —[Robb Stark](wiki:Robb_Stark) to [Edmure Tully](wiki:Edmure_Tully)
+> —Robb Stark to Edmure Tully, ASOS (`sources/chapters/asos/asos-catelyn-03.md:155`)
 
-> My father never bellowed like the [Greatjon](wiki:Jon_Umber), but he was no less dangerous in his wroth.(wiki:Rickard_Karstark.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
+> My father never bellowed like the Greatjon, but he was no less dangerous in his wroth.
 >
-> —[Alys Karstark](wiki:Alys_Karstark) to [Jon Snow](wiki:Jon_Snow)
+> —Alys Karstark to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-09.md:317`)

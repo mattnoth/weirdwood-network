@@ -32,6 +32,6 @@ At [Castle Black](wiki:Castle_Black), [Dareon](wiki:Dareon) insists his relation
 
 ## Quotes
 
-> The girl was waiting for me, naked as the day she was born. She pulled me through the window, and you talk to me of fair?(wiki:Mathis_Rowan's_daughter.cite_ref-Ragot48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+> The girl was waiting for me, naked as the day she was born. She pulled me through the window, and you talk to me of fair?
 >
-> —[Dareon](wiki:Dareon) to [Jon Snow](wiki:Jon_Snow)
+> —Dareon to Jon Snow, AGOT (`sources/chapters/agot/agot-jon-06.md:101`)

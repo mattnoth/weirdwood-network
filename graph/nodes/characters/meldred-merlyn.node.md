@@ -35,9 +35,9 @@ Lord Merlyn attends the [kingsmoot on Old Wyk](wiki:Kingsmoot_on_Old_Wyk), where
 
 ## Quotes
 
-> One [raven](wiki:Raven) summons me to [Pyke](wiki:Pyke), another to [Ten Towers](wiki:Ten_Towers). [You krakens](wiki:House_Greyjoy) have too many arms, you pull a man to pieces. What say you, [priest](wiki:Priest_of_the_Drowned_God)? Where should I send my longships?(wiki:Meldred_Merlyn.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> One raven summons me to Pyke, another to Ten Towers. You krakens have too many arms, you pull a man to pieces. What say you, priest? Where should I send my longships?
 >
-> —Meldred to [Aeron Greyjoy](wiki:Aeron_Greyjoy)
+> —Meldred to Aeron Greyjoy, AFFC (`sources/chapters/affc/affc-the-prophet-01.md:187`)
 
 > **Aeron**: Who shall rule the [ironborn](wiki:Ironborn)? Who shall be [king](wiki:King_of_the_Isles_and_the_North) over us?
 >

@@ -131,17 +131,17 @@ Barristan Selmy remembers the tourney at Harrenhal and regrets his loss to Rhaeg
 
 ### Quotes about Rhaella
 
-> When [Viserys](wiki:Viserys_Targaryen) sold their mother's [crown](wiki:Crown), the last joy had gone from him, leaving only rage.(wiki:Rhaella_Targaryen.cite_ref-Rasos27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-1)
+> When Viserys sold their mother's crown, the last joy had gone from him, leaving only rage.
 >
-> —[Daenerys Targaryen](wiki:Daenerys_Targaryen)'s thoughts
+> —Daenerys Targaryen's thoughts, ASOS (`sources/chapters/asos/asos-daenerys-03.md:57`)
 
-> Whenever [Aerys](wiki:Aerys_II_Targaryen) gave a man to the flames, Queen Rhaella would have a visitor in the night.(wiki:Rhaella_Targaryen.cite_ref-Raffc16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-6)
+> Whenever Aerys gave a man to the flames, Queen Rhaella would have a visitor in the night.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister)'s thoughts
+> —Jaime Lannister's thoughts, AFFC (`sources/chapters/affc/affc-jaime-02.md:133`)
 
-> The queen your mother was always mindful of her duty.(wiki:Rhaella_Targaryen.cite_ref-Radwd43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-5)
+> The queen your mother was always mindful of her duty.
 >
-> —[Barristan Selmy](wiki:Barristan_Selmy) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Barristan Selmy to Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-07.md:327`)
 
 > They said the queen looked as if some beast had savaged her, clawing at her thighs and chewing on her breasts. A crowned beast, Jaime knew.
 >

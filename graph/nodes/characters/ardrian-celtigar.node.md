@@ -55,14 +55,14 @@ Ardrian is present at [the wedding](wiki:Purple_Wedding) of King Joffrey I to La
 >
 > —[Axell Florent](wiki:Axell_Florent) to [Stannis Baratheon](wiki:Stannis_Baratheon)
 
-> [Claw Isle](wiki:Claw_Isle) was but lightly garrisoned, its castle reputedly stuffed with [Myrish](wiki:Myr) carpets, [Volantene](wiki:Volantis) glass, [gold](wiki:Gold) and [silver](wiki:Silver) plate, jeweled cups, magnificent [hawks](wiki:Hawk), an axe of [Valyrian steel](wiki:Valyrian_steel), [a horn](wiki:House_Celtigar_horn) that could summon monsters from the deep, chests of [rubies](wiki:Ruby), and more [wines](wiki:Wine) than a man could drink in a hundred years. Though Celtigar had shown the world a niggardly face, he had never stinted on his own comforts.(wiki:Ardrian_Celtigar.cite_ref-Rasos36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-5)
+> Claw Isle was but lightly garrisoned, its castle reputedly stuffed with Myrish carpets, Volantene glass, gold and silver plate, jeweled cups, magnificent hawks, an axe of Valyrian steel, a horn that could summon monsters from the deep, chests of rubies, and more wines than a man could drink in a hundred years. Though Celtigar had shown the world a niggardly face, he had never stinted on his own comforts.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-04.md:107`)
 
 > I don't doubt Lord Celtigar bent the knee to the boy [Joffrey](wiki:Joffrey_Baratheon). He is an old done man, who wants no more than to end his days in his castle, drinking his fine [wine](wiki:Wine) out of his jeweled cups. Yet he came when you called, sire. Came, with his ships and swords. He stood by you at [Storm's End](wiki:Siege_of_Storm's_End_(299)) when Lord [Renly](wiki:Renly_Baratheon) came down on us, and his ships sailed up the [Blackwater](wiki:Blackwater_Rush). His men fought for you, killed for you, [burned for you](wiki:Battle_of_the_Blackwater).(wiki:Ardrian_Celtigar.cite_ref-Rasos36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-6)
 >
 > —[Davos Seaworth](wiki:Davos_Seaworth) to [Stannis Baratheon](wiki:Stannis_Baratheon)
 
-> When I die impoverished, my wives and concubines will curse you, Onion Lord. Lord Celtigar had many fine [wines](wiki:Wine) that now I am not tasting, a sea [eagle](wiki:Eagle) he had trained to fly from the wrist, and [a magic horn](wiki:House_Celtigar_horn) to summon [krakens](wiki:Kraken) from the deep. Very useful such a horn would be, to pull down [Tyroshi](wiki:Tyrosh) and other vexing creatures.(wiki:Ardrian_Celtigar.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
+> When I die impoverished, my wives and concubines will curse you, Onion Lord. Lord Celtigar had many fine wines that now I am not tasting, a sea eagle he had trained to fly from the wrist, and a magic horn to summon krakens from the deep. Very useful such a horn would be, to pull down Tyroshi and other vexing creatures.
 >
-> —[Salladhor Saan](wiki:Salladhor_Saan) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Salladhor Saan to Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-05.md:169`)

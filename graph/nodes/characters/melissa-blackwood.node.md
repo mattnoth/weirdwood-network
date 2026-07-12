@@ -51,9 +51,9 @@ In a [cave beyond the Wall](wiki:Cave_of_the_three-eyed_crow), the [three-eyed c
 
 ## Quotes
 
-> I wore many names when I was quick, but even I once had a mother, and the name she gave me at her breast was [Brynden](wiki:Brynden_Rivers).(wiki:Melissa_Blackwood.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+> I wore many names when I was quick, but even I once had a mother, and the name she gave me at her breast was Brynden.
 >
-> —[Three-eyed crow](wiki:Three-eyed_crow) to [Bran Stark](wiki:Bran_Stark)
+> —Three-eyed crow to Bran Stark, ADWD (`sources/chapters/adwd/adwd-bran-03.md:19`)
 
 > **Hoster**: Lady Melissa. Missy, they called her. There's a statue of her in [our godswood](wiki:Godswood_of_Raventree_Hall). She was much more beautiful than [Barba Bracken](wiki:Barba_Bracken), but slender, and Barba was heard to say that Missy was flat as a boy. When King [Aegon](wiki:Aegon_IV_Targaryen) heard, he ... **Jaime**: ... gave her [Barba's teats](wiki:Teats).(wiki:Melissa_Blackwood.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
 >

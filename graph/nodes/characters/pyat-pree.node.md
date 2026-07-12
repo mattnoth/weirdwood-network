@@ -56,6 +56,6 @@ Xaro informs Daenerys, now [Queen of Meereen](wiki:King_of_Meereen), that she ha
 
 ### Quotes about Pyat
 
-> Not all your enemies are in the [Yellow City](wiki:Yunkai). Beware men with cold hearts and blue lips.(wiki:Pyat_Pree.cite_ref-Radwd16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
+> Not all your enemies are in the Yellow City. Beware men with cold hearts and blue lips.
 >
-> —[Xaro Xhoan Daxos](wiki:Xaro_Xhoan_Daxos) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Xaro Xhoan Daxos to Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-03.md:191`)

@@ -33,6 +33,6 @@ Together with [Errok](wiki:Errok), Del goes ahead to scout the ruins of [Queensc
 
 ## Quotes
 
-> She's lucky, like your [Ygritte](wiki:Ygritte). She's [kissed by fire](wiki:Kissed_by_fire).(wiki:Del.cite_ref-Rasos41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> She's lucky, like your Ygritte. She's kissed by fire.
 >
-> —Del to [Jon Snow](wiki:Jon_Snow)
+> —Del to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-05.md:103`)

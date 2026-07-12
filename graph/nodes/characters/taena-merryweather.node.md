@@ -79,13 +79,13 @@ Still a prisoner of the Faith, Cersei recalls Lady Merryweather as having been h
 
 ### Quotes about Taena
 
-> Lady Merryweather was all but a stranger. Tyrion wondered if she was blind or bought.(wiki:Taena_Merryweather.cite_ref-Rasos66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1)
+> Lady Merryweather was all but a stranger. Tyrion wondered if she was blind or bought.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-09.md:263`)
 
-> The [Myrish](wiki:Myr) woman was too beautiful by half; long-legged and full-breasted, with smooth olive skin, ripe lips, huge dark eyes, and thick black hair that always looked as if she'd just come from bed. She even smells of sin, like some exotic lotus.(wiki:Taena_Merryweather.cite_ref-Raffc12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-4)
+> The Myrish woman was too beautiful by half; long-legged and full-breasted, with smooth olive skin, ripe lips, huge dark eyes, and thick black hair that always looked as if she'd just come from bed. She even smells of sin, like some exotic lotus.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-02.md:97`)
 
 > Jaime could not help but notice the way the [Myrish](wiki:Myr) woman moved her hips as she walked. Every step is a seduction.(wiki:Taena_Merryweather.cite_ref-Raffc16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-5)
 >
@@ -95,6 +95,6 @@ Still a prisoner of the Faith, Cersei recalls Lady Merryweather as having been h
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) and [Cersei Lannister](wiki:Cersei_Lannister)
 
-> It was a pity Taena could not serve as [Hand](wiki:Hand_of_the_King). She was thrice the man [her husband](wiki:Orton_Merryweather) was, and far more amusing.(wiki:Taena_Merryweather.cite_ref-Raffc39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-5)
+> It was a pity Taena could not serve as Hand. She was thrice the man her husband was, and far more amusing.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-09.md:135`)

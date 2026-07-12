@@ -96,9 +96,9 @@ Mormont's raven remains by Jon's side.(wiki:Jeor_Mormont.cite_ref-Radwd3.7B.7B.7
 >
 > — Jeor Mormont to Tyrion Lannister at Castle Black, AGOT Tyrion III, `sources/chapters/agot/agot-tyrion-03.md:107`
 
-> The cold winds are rising. Summer is at an end, and a winter is coming such as [this world](wiki:Known_world) has never seen.(wiki:Jeor_Mormont.cite_ref-Ragot60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-5)
+> The cold winds are rising. Summer is at an end, and a winter is coming such as this world has never seen.
 >
-> —Jeor to [Jon Snow](wiki:Jon_Snow)
+> —Jeor to Jon Snow, AGOT (`sources/chapters/agot/agot-jon-08.md:29`)
 
 > **Jeor**: Doubtless you loved [your father](wiki:Eddard_Stark). The things we love destroy us every time, lad. Remember when I told you that?
 >
@@ -112,13 +112,13 @@ Mormont's raven remains by Jon's side.(wiki:Jeor_Mormont.cite_ref-Radwd3.7B.7B.7
 >
 > —Jeor to [Jon Snow](wiki:Jon_Snow)
 
-> When [dead men](wiki:Wights) come hunting in the night, do you think it matters who sits the [Iron Throne](wiki:Iron_Throne)?(wiki:Jeor_Mormont.cite_ref-Ragot70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-5)
+> When dead men come hunting in the night, do you think it matters who sits the Iron Throne?
 >
-> —Jeor to [Jon Snow](wiki:Jon_Snow)
+> —Jeor to Jon Snow, AGOT (`sources/chapters/agot/agot-jon-09.md:241`)
 
-> Tarly, when I was a lad half your age, my lady mother told me that if I stood about with my mouth open, a weasel was like to mistake it for his lair and run down my throat. If you have something to say, say it. Otherwise, beware of weasels.(wiki:Jeor_Mormont.cite_ref-Racok6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-5)
+> Tarly, when I was a lad half your age, my lady mother told me that if I stood about with my mouth open, a weasel was like to mistake it for his lair and run down my throat. If you have something to say, say it. Otherwise, beware of weasels.
 >
-> —Jeor to [Samwell Tarly](wiki:Samwell_Tarly)
+> —Jeor to Samwell Tarly, ACOK (`sources/chapters/acok/acok-jon-01.md:165`)
 
 > We never knew! But we must have known once. The Night’s Watch has forgotten its true purpose, Tarly. You don’t build a wall seven hundred feet high to keep savages in skins from stealing women. The Wall was made to guard the realms of men . . . and not against other men, which is all the wildlings are when you come right down to it. Too many years, Tarly, too many hundreds and thousands of years. We lost sight of the true enemy. And now he’s here, but we don’t know how to fight him.
 > —Jeor to [Samwell Tarly](wiki:Samwell_Tarly), ASOS Samwell II (`sources/chapters/asos/asos-samwell-02.md:153`)
@@ -129,21 +129,21 @@ Mormont's raven remains by Jon's side.(wiki:Jeor_Mormont.cite_ref-Radwd3.7B.7B.7
 
 ### Quotes about Jeor
 
-> Old as he was, the [Lord Commander](wiki:Lord_Commander_of_the_Night's_Watch) still had the strength of a [bear](wiki:Bear).(wiki:Jeor_Mormont.cite_ref-Ragot21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-4)
+> Old as he was, the Lord Commander still had the strength of a bear.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-03.md:15`)
 
-> He was in deadly earnest, Tyrion realized. He felt faintly embarrassed for the old man. Lord Mormont had spent a good part of his life on the [Wall](wiki:Wall), and he needed to believe if those years were to have any meaning.(wiki:Jeor_Mormont.cite_ref-Ragot21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-5)
+> He was in deadly earnest, Tyrion realized. He felt faintly embarrassed for the old man. Lord Mormont had spent a good part of his life on the Wall, and he needed to believe if those years were to have any meaning.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-03.md:89`)
 
 > **Jon**: Do you think I want to spend the rest of my life washing an old man's smallclothes? **Samwell**: The old man is [Lord Commander of the Night's Watch](wiki:Lord_Commander_of_the_Night's_Watch). You'll be with him day and night. Yes, you'll pour his [wine](wiki:Wine) and see that his bed linen is fresh, but you'll also take his letters, attend him at meetings, [squire](wiki:Squire) for him in battle. You'll be as close to him as his shadow. You'll know everything, be a part of everything ... and the [Lord Steward](wiki:Bowen_Marsh) said Mormont asked for you himself!(wiki:Jeor_Mormont.cite_ref-Ragot48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-5)
 >
 > —[Jon Snow](wiki:Jon_Snow) and [Samwell Tarly](wiki:Samwell_Tarly)
 
-> Tyrion had rather liked old Jeor Mormont, with his gruff manner and [talking bird](wiki:Mormont's_raven).(wiki:Jeor_Mormont.cite_ref-Rasos34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-0)
+> Tyrion had rather liked old Jeor Mormont, with his gruff manner and talking bird.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-04.md:269`)
 
 > **Stannis**: [Noye](wiki:Donal_Noye) made my first sword for me, and [Robert's](wiki:Robert_I_Baratheon) warhammer as well. Had the god seen fit to spare him, he would have made a better [Lord Commander](wiki:Lord_Commander_of_the_Night's_Watch) for [your order](wiki:Night's_Watch) than any of these fools who are squabbling over it now.
 >

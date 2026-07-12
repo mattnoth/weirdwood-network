@@ -63,6 +63,6 @@ After Arya receives a new face from the [Faceless Men](wiki:Faceless_Men), she d
 >
 > —[Polliver](wiki:Polliver) and [Sandor Clegane](wiki:Sandor_Clegane)
 
-> I wouldn't have killed him if he hadn't grabbed me.(wiki:Pimply_squire.cite_ref-Raffc6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+> I wouldn't have killed him if he hadn't grabbed me.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, AFFC (`sources/chapters/affc/affc-arya-01.md:47`)

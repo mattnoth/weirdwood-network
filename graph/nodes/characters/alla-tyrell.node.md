@@ -46,17 +46,17 @@ Almost all of the men named as Margaery's lovers have denied the accusation or r
 
 ## Quotes
 
-> Alla had a lovely voice, and when coaxed would play the [woodharp](wiki:Harp) and sing songs of chivalry and lost loves.(wiki:Alla_Tyrell.cite_ref-Rasos16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
+> Alla had a lovely voice, and when coaxed would play the woodharp and sing songs of chivalry and lost loves.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-02.md:47`)
 
 > **Cersei**: The shy one? **Taena**: So she seems, but there is more of sly than shy in her. Leave her to me, my sweet.(wiki:Alla_Tyrell.cite_ref-Raffc39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)
 >
 > —[Cersei Lannister](wiki:Cersei_Lannister) and [Taena of Myr](wiki:Taena_of_Myr)
 
-> Alla is gentle and shy, how can [they](wiki:Faith_of_the_Seven) do this to her?(wiki:Alla_Tyrell.cite_ref-Raffc43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1)
+> Alla is gentle and shy, how can they do this to her?
 >
-> —[Margaery Tyrell](wiki:Margaery_Tyrell) to [Cersei Lannister](wiki:Cersei_Lannister)
+> —Margaery Tyrell to Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-10.md:145`)
 
 ## Edges
 

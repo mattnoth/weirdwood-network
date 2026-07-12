@@ -132,9 +132,9 @@ At the crofters' village, a fearful [Theon Greyjoy](wiki:Theon_Greyjoy) tells Ki
 >
 > —Ramsay to [Theon Greyjoy](wiki:Theon_Greyjoy)
 
-> You're not a man, Reek. You're just my creature.(wiki:Ramsay_Snow.cite_ref-Radwd20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-5)
+> You're not a man, Reek. You're just my creature.
 >
-> —Ramsay to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Ramsay to Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-02.md:199`)
 
 > **Roose**: By [the king's](wiki:Tommen_Baratheon) decree you are now a [Bolton](wiki:House_Bolton). Try and act like one. Tales are told of you, Ramsay. I hear them everywhere. People fear you.
 >
@@ -144,9 +144,9 @@ At the crofters' village, a fearful [Theon Greyjoy](wiki:Theon_Greyjoy) tells Ki
 
 ### Quotes about Ramsay
 
-> Tainted blood is ever treacherous, and Ramsay's nature was sly, greedy, and cruel. I count myself well rid of him. The trueborn sons [my young wife](wiki:Walda_Frey) has promised me would never have been safe while he lived.(wiki:Ramsay_Snow.cite_ref-Racok55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-0)
+> Tainted blood is ever treacherous, and Ramsay's nature was sly, greedy, and cruel. I count myself well rid of him. The trueborn sons my young wife has promised me would never have been safe while he lived.
 >
-> —[Roose Bolton](wiki:Roose_Bolton) writing to [Edmure Tully](wiki:Edmure_Tully)
+> —Roose Bolton writing to Edmure Tully, ACOK (`sources/chapters/acok/acok-catelyn-06.md:99`)
 
 > **Wylla**: He won't ever be my lord! He made [Lady Hornwood](wiki:Donella_Hornwood) marry him, then shut her in a dungeon and made her eat her fingers. **Locke**: The maid tells it true. [Roose Bolton](wiki:Roose_Bolton)'s cold and cunning, aye, but a man can deal with Roose. We've all known worse. But this bastard son of his ... they say he's mad and cruel, a monster.(wiki:Ramsay_Snow.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_38-0)
 >
@@ -160,13 +160,13 @@ At the crofters' village, a fearful [Theon Greyjoy](wiki:Theon_Greyjoy) tells Ki
 >
 > —[Roose Bolton](wiki:Roose_Bolton) to Ramsay
 
-> His blood is bad. He needs to be leeched. The leeches suck away the bad blood, all the rage and pain. No man can think so full of anger. Ramsay, though ... his tainted blood would poison even leeches, I fear.(wiki:Ramsay_Snow.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-16)
+> His blood is bad. He needs to be leeched. The leeches suck away the bad blood, all the rage and pain. No man can think so full of anger. Ramsay, though ... his tainted blood would poison even leeches, I fear.
 >
-> —[Roose Bolton](wiki:Roose_Bolton) to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Roose Bolton to Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-03.md:243`)
 
-> Underneath the [Dreadfort](wiki:Dreadfort), he had learned there were far worse things than death. Ramsay had taught him that lesson, finger by finger and toe by toe, and it was not one that he was ever like to forget.(wiki:Ramsay_Snow.cite_ref-Radwd37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-3)
+> Underneath the Dreadfort, he had learned there were far worse things than death. Ramsay had taught him that lesson, finger by finger and toe by toe, and it was not one that he was ever like to forget.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:133`)
 
 > **Stannis**: Ramsay Snow, you mean. The Bastard.
 >

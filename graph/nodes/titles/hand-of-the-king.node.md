@@ -99,17 +99,17 @@ Lord Connington is styled "Hand of the True King".(wiki:Hand_of_the_King.cite_re
 >
 > —thoughts of [Eddard Stark](wiki:Eddard_Stark)
 
-> They say the Hand dreams the king's dreams, speaks with the king's voice, and rules with the king's sword.(wiki:Hand_of_the_King.cite_ref-Ragot35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_91-0)
+> They say the Hand dreams the king's dreams, speaks with the king's voice, and rules with the king's sword.
 >
-> —[Petyr Baelish](wiki:Petyr_Baelish) to [Eddard Stark](wiki:Eddard_Stark)
+> —Petyr Baelish to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-09.md:17`)
 
-> A weak ruler needs a strong Hand, as [Aerys](wiki:Aerys_II_Targaryen) needed [Father](wiki:Tywin_Lannister). A strong ruler requires only a diligent servant to carry out his orders.(wiki:Hand_of_the_King.cite_ref-Raffc16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_78-1)
+> A weak ruler needs a strong Hand, as Aerys needed Father. A strong ruler requires only a diligent servant to carry out his orders.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Cersei Lannister to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-02.md:199`)
 
-> The Hand should speak with the king's voice.(wiki:Hand_of_the_King.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_92-0)
+> The Hand should speak with the king's voice.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-03.md:131`)
 
 > **Davos**: The King's Hand should be a highborn [lord](wiki:Lord), someone wise and learned, a battle commander or a great [knight](wiki:Knight)... **Pylos**: Ser [Ryam Redwyne](wiki:Ryam_Redwyne) was the greatest knight of his day, and one of the worst Hands ever to serve a king. Septon [Murmison](wiki:Murmison)'s prayers worked miracles, but as Hand he soon had [the whole realm](wiki:Seven_Kingdoms) praying for his death. Lord [Butterwell](wiki:Ambrose_Butterwell) was renowned for wit, [Myles Smallwood](wiki:Myles_Smallwood) for courage, Ser [Otto Hightower](wiki:Otto_Hightower) for learning, yet they failed as Hands, every one. As for birth, the [dragonkings](wiki:Dragon) oft chose Hands from amongst [their own blood](wiki:House_Targaryen), with results as various as [Baelor Breakspear](wiki:Baelor_Breakspear) and [Maegor the Cruel](wiki:Maegor_the_Cruel). Against this, you have Septon [Barth](wiki:Barth), the blacksmith's son the [Old King](wiki:Jaehaerys_I_Targaryen) plucked from the [Red Keep](wiki:Red_Keep)'s library, who gave the realm forty years of peace and plenty. Read your history, Lord Davos, and you will see that your doubts are groundless.(wiki:Hand_of_the_King.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 >

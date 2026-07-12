@@ -206,13 +206,13 @@ Cersei, imprisoned by the [Faith](wiki:Faith_of_the_Seven) within the [Great Sep
 >
 > —Jaime and [Catelyn Stark](wiki:Catelyn_Stark)
 
-> I think it passing odd that I am loved [by one](wiki:Tyrion_Lannister) for [a kindness I never did](wiki:Tysha), and reviled by so many for [my finest act](wiki:Wildfire_plot).(wiki:Jaime_Lannister.cite_ref-Racok55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-7)
+> I think it passing odd that I am loved by one for a kindness I never did, and reviled by so many for my finest act.
 >
-> —Jaime to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Jaime to Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-07.md:323`)
 
-> It was that [white cloak](wiki:Kingsguard) that soiled me, not the other way around.(wiki:Jaime_Lannister.cite_ref-Rasos11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-9)
+> It was that white cloak that soiled me, not the other way around.
 >
-> —Jaime to [Brienne of Tarth](wiki:Brienne_of_Tarth)
+> —Jaime to Brienne of Tarth, ASOS (`sources/chapters/asos/asos-jaime-02.md:285`)
 
 > Jaime had decided that he would return [Sansa](wiki:Sansa_Stark), and the [younger girl](wiki:Arya_Stark) as well if she could be found. It was not like to win him back his honor, but the notion of [keeping faith](wiki:A_Storm_of_Swords-Chapter_1) when they all expected betrayal amused him more than he could say.(wiki:Jaime_Lannister.cite_ref-Rasos21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-6)
 >
@@ -234,17 +234,17 @@ Cersei, imprisoned by the [Faith](wiki:Faith_of_the_Seven) within the [Great Sep
 >
 > —thoughts of Jaime
 
-> I have [made](wiki:Joffrey_Baratheon) [kings](wiki:Tommen_Baratheon) and [unmade them](wiki:Aerys_II_Targaryen). [Sansa Stark](wiki:Sansa_Stark) is my last chance for honor.(wiki:Jaime_Lannister.cite_ref-Rasos72.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_51-3)
+> I have made kings and unmade them. Sansa Stark is my last chance for honor.
 >
-> —Jaime to [Brienne of Tarth](wiki:Brienne_of_Tarth)
+> —Jaime to Brienne of Tarth, ASOS (`sources/chapters/asos/asos-jaime-09.md:299`)
 
 > **Cersei:** You must take [Father's](wiki:Tywin_Lannister) place as [Hand](wiki:Hand_of_the_King). You see that now, surely. [Tommen](wiki:Tommen_Baratheon) will need you ... **Jaime:** A Hand without a hand? A bad jape, sister. Don't ask me to rule.(wiki:Jaime_Lannister.cite_ref-Raffc3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-2)
 >
 > —[Cersei Lannister](wiki:Cersei_Lannister) and Jaime
 
-> This was justice. Make a habit of it, [Lannister](wiki:House_Lannister), and one day men might call you Goldenhand after all. Goldenhand the Just.(wiki:Jaime_Lannister.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-7)
+> This was justice. Make a habit of it, Lannister, and one day men might call you Goldenhand after all. Goldenhand the Just.
 >
-> —thoughts of Jaime after hanging outlaws
+> —thoughts of Jaime after hanging outlaws, AFFC (`sources/chapters/affc/affc-jaime-03.md:171`)
 
 > **Jaime:** Are there any terms you will accept? **Brynden:** From you? No. **Jaime:** Why did you even come to treat with me? **Brynden:** [A siege](wiki:Siege_of_Riverrun) is deadly dull. I wanted to see this stump of yours and hear whatever excuses you cared to offer up for your latest enormities. They were feebler than I'd hoped. You always disappoint, Kingslayer.(wiki:Jaime_Lannister.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-8)
 >
@@ -288,17 +288,17 @@ Cersei, imprisoned by the [Faith](wiki:Faith_of_the_Seven) within the [Great Sep
 >
 > —[Rodrik Cassel](wiki:Rodrik_Cassel) and [Theon Greyjoy](wiki:Theon_Greyjoy)
 
-> My brother is worth a hundred of [your friend](wiki:Robert_I_Baratheon).(wiki:Jaime_Lannister.cite_ref-Ragot45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_38-4)
+> My brother is worth a hundred of your friend.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister) to [Eddard Stark](wiki:Eddard_Stark)
+> —Cersei Lannister to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-12.md:113`)
 
 > **Robert:** Why should I mistrust him? He has done everything I have ever asked of him. His sword helped win [the throne](wiki:Iron_Throne) I sit on. **Eddard:** He swore a vow to protect his king's life with his own. Then he opened that king's throat with a sword. **Robert:** Seven hells, someone had to kill [Aerys](wiki:Aerys_II_Targaryen)! If Jaime hadn't done it, it would have been left for you or me. **Eddard:** We were not Sworn Brothers of the [Kingsguard](wiki:Kingsguard).(wiki:Jaime_Lannister.cite_ref-Ragot12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-3)
 >
 > —[Robert I Baratheon](wiki:Robert_I_Baratheon) and [Eddard Stark](wiki:Eddard_Stark)
 
-> His brother never untied a knot when he could slash it in two with his sword.(wiki:Jaime_Lannister.cite_ref-Ragot38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-1)
+> His brother never untied a knot when he could slash it in two with his sword.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-05.md:103`)
 
 > Jaime and I are more than brother and sister. We are one person in two bodies. We shared a womb together. He came into this world holding my foot, our old [maester](wiki:Maester) said. When he is in me, I feel... whole.(wiki:Jaime_Lannister.cite_ref-Ragot45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_38-5)
 >
@@ -312,13 +312,13 @@ Cersei, imprisoned by the [Faith](wiki:Faith_of_the_Seven) within the [Great Sep
 >
 > —thoughts of [Brienne of Tarth](wiki:Brienne_of_Tarth)
 
-> My brother, Jaime, thirsts for battle, not for power. He's run from every chance he's had to rule.(wiki:Jaime_Lannister.cite_ref-Radwd22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_94-0)
+> My brother, Jaime, thirsts for battle, not for power. He's run from every chance he's had to rule.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Aegon Targaryen](wiki:Aegon_Targaryen_(son_of_Rhaegar))
+> —Tyrion Lannister to Aegon Targaryen), ADWD (`sources/chapters/adwd/adwd-tyrion-06.md:135`)
 
-> [Selmy](wiki:Barristan_Selmy) had never approved of Jaime's presence in his precious [Kingsguard](wiki:Kingsguard). Before [the rebellion](wiki:Robert's_Rebellion), the old [knight](wiki:Knight) thought him too young and untried; afterward, he had been known to say that the Kingslayer should exchange that white cloak for [a black one](wiki:Night's_Watch).(wiki:Jaime_Lannister.cite_ref-Radwd57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_95-0)
+> Selmy had never approved of Jaime's presence in his precious Kingsguard. Before the rebellion, the old knight thought him too young and untried; afterward, he had been known to say that the Kingslayer should exchange that white cloak for a black one.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-11.md:177`)
 
 > Even at a distance, Ser Jaime Lannister was unmistakable. The moonlight had silvered his armor and the gold of his hair, and turned his crimson cloak to black. He was not wearing a helm.
 >

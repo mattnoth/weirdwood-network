@@ -43,9 +43,9 @@ Catelyn spots Martyn among the Freys who angrily leave [Riverrun](wiki:Riverrun)
 
 ### Quotes by Martyn
 
-> Well met, my lady. [Your brother](wiki:Edmure_Tully) charged us to keep an eye out for your party, and escort you back to [Riverrun](wiki:Riverrun) in all haste should we come upon you.(wiki:Martyn_Rivers.cite_ref-Racok39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> Well met, my lady. Your brother charged us to keep an eye out for your party, and escort you back to Riverrun in all haste should we come upon you.
 >
-> —Martyn to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Martyn to Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-05.md:37`)
 
 ### Quotes about Martyn
 

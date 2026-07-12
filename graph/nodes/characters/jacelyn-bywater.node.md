@@ -60,9 +60,9 @@ Having lost his sword hand, Ser [Jaime Lannister](wiki:Jaime_Lannister) consider
 
 ### Quotes by Jacelyn
 
-> No man likes to look craven in the sight of his fellows, so they'll fight brave enough at the start, when it's all warhorns and blowing banners. But if [the battle](wiki:Battle_of_the_Blackwater) looks to be going sour they'll break, and they'll break bad. The first man to throw down his spear and run will have a thousand more trodding on his heels.(wiki:Jacelyn_Bywater.cite_ref-Racok49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+> No man likes to look craven in the sight of his fellows, so they'll fight brave enough at the start, when it's all warhorns and blowing banners. But if the battle looks to be going sour they'll break, and they'll break bad. The first man to throw down his spear and run will have a thousand more trodding on his heels.
 >
-> —Jacelyn to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Jacelyn to Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-11.md:33`)
 
 ### Quotes about Jacelyn
 

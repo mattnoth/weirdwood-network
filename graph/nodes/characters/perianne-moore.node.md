@@ -43,9 +43,9 @@ Queen [Alysanne Targaryen](wiki:Alysanne_Targaryen) considered Lady Perianne to 
 
 ## Quotes
 
-> The boys train at fighting every morning, why shouldn't we train at kissing? That's what girls are meant to do, isn't it?(wiki:Perianne_Moore.cite_ref-Rfab11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
+> The boys train at fighting every morning, why shouldn't we train at kissing? That's what girls are meant to do, isn't it?
 >
-> —Perianne, to Queen [Alysanne Targaryen](wiki:Alysanne_Targaryen)
+> —Perianne, to Queen Alysanne Targaryen, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p03.md:157`)
 
 > [Saera](wiki:Saera_Targaryen) is smarter than the [septas](wiki:Septa).(wiki:Perianne_Moore.cite_ref-Rfab11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
 >

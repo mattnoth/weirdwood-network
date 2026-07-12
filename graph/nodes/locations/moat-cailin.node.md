@@ -89,18 +89,18 @@ With the fall of Moat Cailin, [Tristifer Botley](wiki:Tristifer_Botley) advises 
 >
 > —[Brynden Tully](wiki:Brynden_Tully) and [Catelyn Stark](wiki:Catelyn_Stark)
 
-> It's said that the old [Kings in the North](wiki:Kings_in_the_North) could stand at Moat Cailin and throw back hosts ten times the size of their own.(wiki:Moat_Cailin.cite_ref-Ragot55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-13)
+> It's said that the old Kings in the North could stand at Moat Cailin and throw back hosts ten times the size of their own.
 >
-> —[Catelyn Stark](wiki:Catelyn_Stark) to [Robb Stark](wiki:Robb_Stark)
+> —Catelyn Stark to Robb Stark, AGOT (`sources/chapters/agot/agot-catelyn-08.md:131`)
 
-> The battle for the [north](wiki:North) will be fought amidst the ruins of Moat Cailin.(wiki:Moat_Cailin.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+> The battle for the north will be fought amidst the ruins of Moat Cailin.
 >
-> —[Luwin](wiki:Luwin) to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Luwin to Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-06.md:31`)
 
 > [Robb](wiki:Robb_Stark) will never look on [Winterfell](wiki:Winterfell) again. He will break himself on Moat Cailin, as every [southron](wiki:Southron) army has done for ten thousand years.(wiki:Moat_Cailin.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
 >
 > —[Theon Greyjoy](wiki:Theon_Greyjoy) to [Rodrik Cassel](wiki:Rodrik_Cassel)
 
-> The [ironmen](wiki:Ironmen) control the [sunset sea](wiki:Sunset_sea). The [Greyjoys](wiki:House_Greyjoy) hold Moat Cailin as well. No army has ever taken Moat Cailin from the south. Even to march against it is madness. We could be trapped on the [causeway](wiki:Causeway), with the ironborn before us and angry [Freys](wiki:House_Frey) at our backs.(wiki:Moat_Cailin.cite_ref-Rasos14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-0)
+> The ironmen control the sunset sea. The Greyjoys hold Moat Cailin as well. No army has ever taken Moat Cailin from the south. Even to march against it is madness. We could be trapped on the causeway, with the ironborn before us and angry Freys at our backs.
 >
-> —[Edmure Tully](wiki:Edmure_Tully) to [Robb Stark](wiki:Robb_Stark)
+> —Edmure Tully to Robb Stark, ASOS (`sources/chapters/asos/asos-catelyn-02.md:257`)

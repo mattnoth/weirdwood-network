@@ -67,38 +67,38 @@ Seeking vengeance for their father's death, the elder [Sand Snakes](wiki:Sand_Sn
 
 ## Quotes
 
-> The Dornishmen burn to avenge [Elia](wiki:Elia_Martell) and her children.(wiki:Dornishmen.cite_ref-Ragot3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_35-0)
+> The Dornishmen burn to avenge Elia and her children.
 >
-> —[Viserys Targaryen](wiki:Viserys_Targaryen) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Viserys Targaryen to Daenerys Targaryen, AGOT (`sources/chapters/agot/agot-daenerys-01.md:79`)
 
-> Dornishmen and [Highgardeners](wiki:Highgarden) had never had great love for one another; over the centuries, they had fought border wars beyond count, and raided back and forth across [mountains](wiki:Red_Mountains) and [marches](wiki:Dornish_Marches) even when at peace.(wiki:Dornishmen.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-1)
+> Dornishmen and Highgardeners had never had great love for one another; over the centuries, they had fought border wars beyond count, and raided back and forth across mountains and marches even when at peace.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-03.md:135`)
 
-> Of late [the king](wiki:Joffrey_Baratheon) had been repeating little jests about the Dornish that he'd picked up from [Mace Tyrell](wiki:Mace_Tyrell)'s men-at-arms. How many Dornishmen does it take to shoe a horse? Nine. One to do the shoeing, and eight to lift the horse up. Somehow Tyrion did not think [Doran Martell](wiki:Doran_Martell) would find that amusing.(wiki:Dornishmen.cite_ref-Rasos38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-16)
+> Of late the king had been repeating little jests about the Dornish that he'd picked up from Mace Tyrell's men-at-arms. How many Dornishmen does it take to shoe a horse? Nine. One to do the shoeing, and eight to lift the horse up. Somehow Tyrion did not think Doran Martell would find that amusing.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-05.md:13`)
 
-> How many Dornishmen does it take to start a war? he asked himself. [Only one](wiki:Oberyn_Martell).(wiki:Dornishmen.cite_ref-Rasos38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-17)
+> How many Dornishmen does it take to start a war? he asked himself. Only one.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-05.md:93`)
 
 > **Arya**: Dornishmen lie, don't they? **Anguy**: They're famous for it. Of course, they say the same of us [marchers](wiki:Dornish_Marches), so there you are.(wiki:Dornishmen.cite_ref-Rasos43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
 >
 > —[Arya Stark](wiki:Arya_Stark) and [Anguy](wiki:Anguy)
 
-> Dornishmen fight best at home, so I say let us hone our spears and wait. When the [Lannisters](wiki:House_Lannister) and the [Tyrells](wiki:House_Tyrell) come down on us, we shall bleed them in the passes and bury them beneath the blowing sands, as we have a hundred times before.(wiki:Dornishmen.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-6)
+> Dornishmen fight best at home, so I say let us hone our spears and wait. When the Lannisters and the Tyrells come down on us, we shall bleed them in the passes and bury them beneath the blowing sands, as we have a hundred times before.
 >
-> —[Tyene Sand](wiki:Tyene_Sand) to [Doran Martell](wiki:Doran_Martell)
+> —Tyene Sand to Doran Martell, AFFC (`sources/chapters/affc/affc-the-captain-of-guards-01.md:275`)
 
-> Remember, she is Dornish. In the [Reach](wiki:Reach) men said it was the food that made Dornishmen so hot-tempered and their women so wild and wanton. Fiery peppers and strange [spices](wiki:Spices) heat the blood, she cannot help herself.(wiki:Dornishmen.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> Remember, she is Dornish. In the Reach men said it was the food that made Dornishmen so hot-tempered and their women so wild and wanton. Fiery peppers and strange spices heat the blood, she cannot help herself.
 >
-> —thoughts of [Arys Oakheart](wiki:Arys_Oakheart)
+> —thoughts of Arys Oakheart, AFFC (`sources/chapters/affc/affc-the-soiled-knight-01.md:93`)
 
-> Dornishmen are notoriously stubborn, Your Grace. Prince [Quentyn's](wiki:Quentyn_Martell) forebears fought [your own](wiki:House_Targaryen) for the better part of two hundred years.(wiki:Dornishmen.cite_ref-Radwd50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-1)
+> Dornishmen are notoriously stubborn, Your Grace. Prince Quentyn's forebears fought your own for the better part of two hundred years.
 >
-> —[Barristan Selmy](wiki:Barristan_Selmy) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Barristan Selmy to Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-08.md:145`)
 
-> All Dornishmen were snakes, and the [Martells](wiki:House_Martell) were the worst of them.(wiki:Dornishmen.cite_ref-Radwd54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-0)
+> All Dornishmen were snakes, and the Martells were the worst of them.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, ADWD (`sources/chapters/adwd/adwd-cersei-01.md:251`)

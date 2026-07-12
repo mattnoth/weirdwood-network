@@ -75,9 +75,9 @@ According to [Valena Toland](wiki:Valena_Toland), a new pirate king has set up o
 
 ### Quotes about Aurane
 
-> The first time she had seen him, for half a heartbeat she had almost thought [Rhaegar Targaryen](wiki:Rhaegar_Targaryen) had returned from the ashes. It is his hair, she told herself. He is not half as comely as Rhaegar was. His face is too narrow, and he has that cleft in his chin. The [Velaryons](wiki:House_Velaryon) came from old [Valyrian](wiki:Valyria) stock, however, and some had the same silvery hair as the [dragonkings of old](wiki:House_Targaryen).(wiki:Aurane_Waters.cite_ref-Raffc12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> The first time she had seen him, for half a heartbeat she had almost thought Rhaegar Targaryen had returned from the ashes. It is his hair, she told herself. He is not half as comely as Rhaegar was. His face is too narrow, and he has that cleft in his chin. The Velaryons came from old Valyrian stock, however, and some had the same silvery hair as the dragonkings of old.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-03.md:207`)
 
 > **Jaime**: There is talk that you mean to make Aurane Waters the [master of ships](wiki:Master_of_ships).
 >
@@ -85,13 +85,13 @@ According to [Valena Toland](wiki:Valena_Toland), a new pirate king has set up o
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) and [Cersei Lannister](wiki:Cersei_Lannister)
 
-> This is a sly boy, no more. Useful in his way, though.(wiki:Aurane_Waters.cite_ref-Raffc36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2)
+> This is a sly boy, no more. Useful in his way, though.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-08.md:43`)
 
-> Aurane had been hinting at his need for a seat; his [lordship](wiki:Lord) was only an empty honor without one. He had his eye on [Dragonstone](wiki:Dragonstone), Cersei knew, but there he aimed too high. [Rosby](wiki:Rosby) would be more suitable to his birth and station.(wiki:Aurane_Waters.cite_ref-Raffc39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> Aurane had been hinting at his need for a seat; his lordship was only an empty honor without one. He had his eye on Dragonstone, Cersei knew, but there he aimed too high. Rosby would be more suitable to his birth and station.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-09.md:87`)
 
 > **Cersei**: What of Lord Waters? [His ships](wiki:Cersei's_dromonds) ... if he brings his crews ashore, he should have enough men to ... **Qyburn**: As soon as word of Your Grace's present troubles reached [the river](wiki:Blackwater_Rush), Lord Waters raised sail, unshipped his oars, and took his fleet to sea. Ser [Harys](wiki:Harys_Swyft) fears he means to join Lord [Stannis](wiki:Stannis_Baratheon). [Pycelle](wiki:Pycelle) believes that he is sailing to the [Stepstones](wiki:Stepstones), to set himself up as a [pirate](wiki:Pirate).(wiki:Aurane_Waters.cite_ref-Raffc43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-2)
 >

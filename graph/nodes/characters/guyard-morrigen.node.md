@@ -56,6 +56,6 @@ Loras reveals that "Renly's ghost" was actually his brother, Ser [Garlan Tyrell]
 
 ### Quotes about Guyard
 
-> Guyard the Green, yes? Of the [Rainbow Guard](wiki:Rainbow_Guard)? Sworn to give his own life for [his king's](wiki:Renly_Baratheon)? If I had such a cloak, I would be ashamed to wear it.(wiki:Guyard_Morrigen.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
+> Guyard the Green, yes? Of the Rainbow Guard? Sworn to give his own life for his king's? If I had such a cloak, I would be ashamed to wear it.
 >
-> —[Cortnay Penrose](wiki:Cortnay_Penrose) to Guyard
+> —Cortnay Penrose to Guyard, ACOK (`sources/chapters/acok/acok-davos-02.md:73`)

@@ -82,6 +82,6 @@ Jason and Patrek remain imprisoned at Seagard.(wiki:Jason_Mallister.cite_ref-Rad
 
 ### Quotes about Jason
 
-> His brown hair was salted with white now, his face chiseled gaunt by time, yet the years had not touched his pride. He rode like a man who feared nothing.(wiki:Jason_Mallister.cite_ref-Ragot28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
+> His brown hair was salted with white now, his face chiseled gaunt by time, yet the years had not touched his pride. He rode like a man who feared nothing.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-05.md:27`)

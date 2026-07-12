@@ -76,10 +76,10 @@ As the Night's Watch retreats to [Craster's Keep](wiki:Craster's_Keep), [Ronnel 
 >
 > —thoughts of [Jon Snow](wiki:Jon_Snow)
 
-> Only fools like Thoren Smallwood despise the [wildlings](wiki:Free_folk). They are as brave as we are, Jon.(wiki:Thoren_Smallwood.cite_ref-Racok53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+> Only fools like Thoren Smallwood despise the wildlings. They are as brave as we are, Jon.
 >
-> —[Qhorin Halfhand](wiki:Qhorin_Halfhand) to [Jon Snow](wiki:Jon_Snow)
+> —Qhorin Halfhand to Jon Snow, ACOK (`sources/chapters/acok/acok-jon-07.md:43`)
 
-> Thoren Smallwood charged, his longsword shining all orange and red from the light of the fire. His swing near took the [bear](wiki:Bear)'s head off. And then the bear took his.(wiki:Thoren_Smallwood.cite_ref-Rasos18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> Thoren Smallwood charged, his longsword shining all orange and red from the light of the fire. His swing near took the bear's head off. And then the bear took his.
 >
-> —thoughts of [Samwell Tarly](wiki:Samwell_Tarly)
+> —thoughts of Samwell Tarly, ASOS (`sources/chapters/asos/asos-samwell-01.md:165`)

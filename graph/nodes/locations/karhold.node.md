@@ -61,9 +61,9 @@ After receiving a message from Jon Snow that Arnolf plans to betray the king, [S
 
 ## Quotes
 
-> Karhold was a strong castle, [Father](wiki:Eddard_Stark) always said.(wiki:Karhold.cite_ref-Rasos9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+> Karhold was a strong castle, Father always said.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, ASOS (`sources/chapters/asos/asos-bran-01.md:209`)
 
 > **Jon**: When your stores begin to dwindle, my lady, remember [us](wiki:Night's_Watch). Send your old men to the [Wall](wiki:Wall), let them say our words. Here at least they will not die alone in the snow, with only memories to warm them. Send us boys as well, if you have boys to spare. **Alys**: As you say. Karhold remembers.(wiki:Karhold.cite_ref-Radwd49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4)
 >

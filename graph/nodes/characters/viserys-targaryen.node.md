@@ -136,13 +136,13 @@ While sailing the [Sea of Dorne](wiki:Sea_of_Dorne) to [Cape Wrath](wiki:Cape_Wr
 
 ### Quotes about Viserys
 
-> Viserys is less than the shadow of a [snake](wiki:Snake).(wiki:Viserys_Targaryen.cite_ref-Ragot23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-4)
+> Viserys is less than the shadow of a snake.
 >
-> —[Jorah Mormont](wiki:Jorah_Mormont) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Jorah Mormont to Daenerys Targaryen, AGOT (`sources/chapters/agot/agot-daenerys-03.md:103`)
 
-> [My mother](wiki:Rhaella_Targaryen) died giving me birth, and [my father](wiki:Aerys_II_Targaryen) and my brother [Rhaegar](wiki:Rhaegar_Targaryen) even before that. I would never have known so much as their names if Viserys had not been there to tell me. He was the only one left. The only one. He is all I have.(wiki:Viserys_Targaryen.cite_ref-Ragot46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-9)
+> My mother died giving me birth, and my father and my brother Rhaegar even before that. I would never have known so much as their names if Viserys had not been there to tell me. He was the only one left. The only one. He is all I have.
 >
-> —[Daenerys Targaryen](wiki:Daenerys_Targaryen) to [Jorah Mormont](wiki:Jorah_Mormont)
+> —Daenerys Targaryen to Jorah Mormont, AGOT (`sources/chapters/agot/agot-daenerys-05.md:107`)
 
 > He was no [dragon](wiki:Dragon). Fire cannot kill a dragon.(wiki:Viserys_Targaryen.cite_ref-Ragot46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-10)
 >
@@ -152,9 +152,9 @@ While sailing the [Sea of Dorne](wiki:Sea_of_Dorne) to [Cape Wrath](wiki:Cape_Wr
 >
 > —[Joffrey I Baratheon](wiki:Joffrey_Baratheon) to [Sansa Stark](wiki:Sansa_Stark)
 
-> The cream-and-gold I call [Viserion](wiki:Viserion). Viserys was cruel and weak and frightened, yet he was my brother still. His [dragon](wiki:Dragon) will do what he could not.(wiki:Viserys_Targaryen.cite_ref-Racok12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-2)
+> The cream-and-gold I call Viserion. Viserys was cruel and weak and frightened, yet he was my brother still. His dragon will do what he could not.
 >
-> —[Daenerys Targaryen](wiki:Daenerys_Targaryen) to her [Queensguard](wiki:Queensguard)
+> —Daenerys Targaryen to her Queensguard, ACOK (`sources/chapters/acok/acok-daenerys-01.md:57`)
 
 > Even as a child, your brother Viserys oft seemed to be [his father](wiki:Aerys_II_Targaryen)'s son, [in ways](wiki:Targaryen_madness) [Rhaegar](wiki:Rhaegar_Targaryen) never did.(wiki:Viserys_Targaryen.cite_ref-Rasos71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-2)
 >

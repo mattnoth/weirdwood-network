@@ -65,10 +65,10 @@ Stannis's knights surround the five Karstarks; two of Arnolf's grandsons attempt
 
 ### Quotes about Arnolf
 
-> Homage is the duty every leal subject owes his king. Yet [your father](wiki:Eddard_Stark)'s bannermen all turn their back on me, save the [Karstarks](wiki:House_Karstark). Is Arnolf Karstark the only man of honor in the [north](wiki:North)?(wiki:Arnolf_Karstark.cite_ref-Radwd3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
+> Homage is the duty every leal subject owes his king. Yet your father's bannermen all turn their back on me, save the Karstarks. Is Arnolf Karstark the only man of honor in the north?
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Jon Snow](wiki:Jon_Snow)
+> —Stannis Baratheon to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-01.md:139`)
 
-> Arnolf is rushing to [Winterfell](wiki:Winterfell), 'tis true, but only so he might put his dagger in your king's back. He cast his lot with [Roose Bolton](wiki:Roose_Bolton) long ago ... for gold, the promise of a pardon, and poor [Harry's](wiki:Harrion_Karstark) head. Lord [Stannis](wiki:Stannis_Baratheon) is marching to a slaughter.(wiki:Arnolf_Karstark.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
+> Arnolf is rushing to Winterfell, 'tis true, but only so he might put his dagger in your king's back. He cast his lot with Roose Bolton long ago ... for gold, the promise of a pardon, and poor Harry's head. Lord Stannis is marching to a slaughter.
 >
-> —[Alys Karstark](wiki:Alys_Karstark) to [Jon Snow](wiki:Jon_Snow)
+> —Alys Karstark to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-09.md:333`)

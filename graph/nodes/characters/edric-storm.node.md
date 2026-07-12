@@ -78,9 +78,9 @@ Edric is in hiding in [Lys](wiki:Lys) with his guardian and protectors.(wiki:Edr
 
 ### Quotes about Edric
 
-> Edric Storm, they call him. He is said to be the very image of [my brother](wiki:Robert_I_Baratheon). If men were to see him, and then look again at [Joffrey](wiki:Joffrey_Baratheon) and [Tommen](wiki:Tommen_Baratheon), they could not help but wonder, I would think.(wiki:Edric_Storm.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> Edric Storm, they call him. He is said to be the very image of my brother. If men were to see him, and then look again at Joffrey and Tommen, they could not help but wonder, I would think.
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Stannis Baratheon to Davos Seaworth, ACOK (`sources/chapters/acok/acok-davos-01.md:221`)
 
 > Did the boy charm you? He has that gift. He got it from [his father](wiki:Robert_I_Baratheon), with the blood. He knows he is a king’s son, but chooses to forget that he is [bastard](wiki:Bastard)-born.(wiki:Edric_Storm.cite_ref-Rasos36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
 >
@@ -90,9 +90,9 @@ Edric is in hiding in [Lys](wiki:Lys) with his guardian and protectors.(wiki:Edr
 >
 > —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Davos Seaworth](wiki:Davos_Seaworth)
 
-> The [Lord of Light](wiki:R'hllor) cherishes the innocent. There is no sacrifice more precious. From his king's blood and his untainted fire, a [dragon](wiki:Dragon) shall be born.(wiki:Edric_Storm.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)
+> The Lord of Light cherishes the innocent. There is no sacrifice more precious. From his king's blood and his untainted fire, a dragon shall be born.
 >
-> —[Melisandre](wiki:Melisandre) to [Stannis Baratheon](wiki:Stannis_Baratheon)
+> —Melisandre to Stannis Baratheon, ASOS (`sources/chapters/asos/asos-davos-05.md:69`)
 
 > **Davos:** His name is Edric Storm, sire.
 >
@@ -100,9 +100,9 @@ Edric is in hiding in [Lys](wiki:Lys) with his guardian and protectors.(wiki:Edr
 >
 > —[Davos Seaworth](wiki:Davos_Seaworth) and [Stannis Baratheon](wiki:Stannis_Baratheon)
 
-> If [Stannis](wiki:Stannis_Baratheon) is [Azor Ahai](wiki:Azor_Ahai) come again, does that mean Edric Storm must play the part of [Nissa Nissa](wiki:Nissa_Nissa)?(wiki:Edric_Storm.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-7)
+> If Stannis is Azor Ahai come again, does that mean Edric Storm must play the part of Nissa Nissa?
 >
-> —[Davos Seaworth](wiki:Davos_Seaworth)'s thoughts
+> —Davos Seaworth's thoughts, ASOS (`sources/chapters/asos/asos-davos-05.md:291`)
 
 > **Davos**: I am speaking of a boy, [your daughter's](wiki:Shireen_Baratheon) friend, [your brother's](wiki:Robert_I_Baratheon) son. **Melisandre**: A king's son, with the power of kingsblood in his veins. Do you think you've saved this boy, Onion Knight? When the [long night](wiki:Long_night) falls, Edric Storm shall die with the rest, wherever he is hidden. [Your own sons](wiki:House_Seaworth) as well. Darkness and cold will cover the earth. You meddle in matters you do not understand.(wiki:Edric_Storm.cite_ref-Rasos63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-6)
 >

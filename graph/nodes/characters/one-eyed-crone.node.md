@@ -31,6 +31,6 @@ At [Vaes Dothrak](wiki:Vaes_Dothrak), right after [Daenerys Targaryen](wiki:Daen
 
 ## Quotes
 
-> The old woman trembled and looked at Dany almost as if she were afraid.(wiki:One-eyed_crone.cite_ref-Ragot46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> The old woman trembled and looked at Dany almost as if she were afraid.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, AGOT (`sources/chapters/agot/agot-daenerys-05.md:41`)

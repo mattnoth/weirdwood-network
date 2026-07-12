@@ -44,9 +44,9 @@ Lord [Davos Seaworth](wiki:Davos_Seaworth), now [Hand of the King](wiki:Hand_of_
 
 ### Quotes about Murmison
 
-> Septon Murmison's prayers worked miracles, but as [Hand](wiki:Hand_of_the_King) he soon had the whole [realm](wiki:Seven_Kingdoms) praying for his death.(wiki:Murmison.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> Septon Murmison's prayers worked miracles, but as Hand he soon had the whole realm praying for his death.
 >
-> —[Pylos](wiki:Pylos) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Pylos to Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-05.md:195`)
 
 ## Edges
 

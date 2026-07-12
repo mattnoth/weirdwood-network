@@ -78,17 +78,17 @@ Jon asks Tormund to march with him to rescue [Cotter Pyke](wiki:Cotter_Pyke) and
 >
 > —Tormund and [Mance Rayder](wiki:Mance_Rayder)
 
-> See, lad, that's why he's king and I'm not. I can outdrink, outfight, and outsing him, and my member's thrice the size o' his, but Mance has cunning.(wiki:Tormund.cite_ref-Rasos7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-8)
+> See, lad, that's why he's king and I'm not. I can outdrink, outfight, and outsing him, and my member's thrice the size o' his, but Mance has cunning.
 >
-> —Tormund to [Jon Snow](wiki:Jon_Snow)
+> —Tormund to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-01.md:199`)
 
-> Tormund Giantsbane has a better ring to it than Tormund Giantsbabe, and that's the honest truth o' it.(wiki:Tormund.cite_ref-Rasos15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> Tormund Giantsbane has a better ring to it than Tormund Giantsbabe, and that's the honest truth o' it.
 >
-> —Tormund to [Jon Snow](wiki:Jon_Snow)
+> —Tormund to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-02.md:41`)
 
-> If a man does not use his member it grows smaller and smaller, until one day he wants to piss and cannot find it.(wiki:Tormund.cite_ref-Rasos15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> If a man does not use his member it grows smaller and smaller, until one day he wants to piss and cannot find it.
 >
-> —Tormund to [Jon Snow](wiki:Jon_Snow)
+> —Tormund to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-02.md:119`)
 
 > **Tormund**: Har! Jon Snow the [crow](wiki:Night's_Watch). I feared we'd seen the last o' you.
 >
@@ -96,23 +96,23 @@ Jon asks Tormund to march with him to rescue [Cotter Pyke](wiki:Cotter_Pyke) and
 >
 > —Tormund and [Jon Snow](wiki:Jon_Snow)
 
-> I have killed more o' you [black buggers](wiki:Night's_Watch) than I can count.(wiki:Tormund.cite_ref-Radwd53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-11)
+> I have killed more o' you black buggers than I can count.
 >
-> —Tormund to [Jon Snow](wiki:Jon_Snow)
+> —Tormund to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-11.md:23`)
 
 > **Jon**: You're a good man, Tormund Giantsbabe. For a [wildling](wiki:Wildling). **Tormund**: Better than most, might be. Not so good as some.(wiki:Tormund.cite_ref-Radwd58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 >
 > —[Jon Snow](wiki:Jon_Snow) and Tormund
 
-> Well spoken, [crow](wiki:Night's_Watch). Now bring out the mead! Make them yours and get them drunk, that's how it's done. We'll make a [wildling](wiki:Wildling) o' you yet, boy. Har!(wiki:Tormund.cite_ref-Radwd69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
+> Well spoken, crow. Now bring out the mead! Make them yours and get them drunk, that's how it's done. We'll make a wildling o' you yet, boy. Har!
 >
-> —Tormund to [Jon Snow](wiki:Jon_Snow)
+> —Tormund to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-13.md:299`)
 
 ### Quotes about Tormund
 
-> Small wonder that the [Seven Kingdoms](wiki:Seven_Kingdoms) thought the [free folk](wiki:Free_folk) scarcely human. They have no laws, no honor, not even simple decency. They steal endlessly from each other, breed like beasts, prefer rape to marriage, and fill the world with baseborn children. Yet he was growing fond of Tormund Giantsbane, great bag of wind and lies though he was.(wiki:Tormund.cite_ref-Rasos15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> Small wonder that the Seven Kingdoms thought the free folk scarcely human. They have no laws, no honor, not even simple decency. They steal endlessly from each other, breed like beasts, prefer rape to marriage, and fill the world with baseborn children. Yet he was growing fond of Tormund Giantsbane, great bag of wind and lies though he was.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ASOS (`sources/chapters/asos/asos-jon-02.md:121`)
 
 > **Stannis**: And this other man, this Tormund of the many names who eluded us after [the battle](wiki:Battle_beneath_the_Wall)? Answer me truly. **Jon**: Tormund Giantsbane seemed to me the sort of man who would make a good friend and a bad enemy, Your Grace.(wiki:Tormund.cite_ref-Rasos76.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
 >

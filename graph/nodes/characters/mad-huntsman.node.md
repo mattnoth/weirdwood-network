@@ -65,9 +65,9 @@ The Huntsman is included among the followers of the late [Beric Dondarrion](wiki
 
 ### Quotes about the Mad Huntsman
 
-> One of our lads keeps the meanest [dogs](wiki:Dog) you'd ever want to see.(wiki:Mad_Huntsman.cite_ref-Rasos17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+> One of our lads keeps the meanest dogs you'd ever want to see.
 >
-> —[Harwin](wiki:Harwin) to [Arya Stark](wiki:Arya_Stark)
+> —Harwin to Arya Stark, ASOS (`sources/chapters/asos/asos-arya-03.md:55`)
 
 > **Captain**: He took his [dogs](wiki:Dog) out for a sniff round. If Ser [Jaime's](wiki:Jaime_Lannister) hereabouts, they'll find him. I've seen them dogs rip [bears](wiki:Bear) apart. Think they'll like the taste of [lion blood](wiki:House_Lannister)? **Lem**: A chewed-up corpse's no good to no one. The Huntsman bloody well knows that, too.(wiki:Mad_Huntsman.cite_ref-Rasos29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
 >

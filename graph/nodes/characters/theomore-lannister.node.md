@@ -37,6 +37,6 @@ Theomore is present in the [Merman's Court](wiki:Merman's_Court) when Ser [Davos
 
 ### Quotes about Theomore
 
-> If Stannis wonders that my letters say so little, it is because I dare not even trust my maester. Theomore is all head and no heart. You heard him in my hall. Maesters are supposed to put aside old loyalties when they don their chains, but I cannot forget that Theomore was born a Lannister of Lannisport and claims some distant kinship to the Lannisters of Casterly Rock.(wiki:Theomore_Lannister.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> If Stannis wonders that my letters say so little, it is because I dare not even trust my maester. Theomore is all head and no heart. You heard him in my hall. Maesters are supposed to put aside old loyalties when they don their chains, but I cannot forget that Theomore was born a Lannister of Lannisport and claims some distant kinship to the Lannisters of Casterly Rock.
 >
-> —[Wyman Manderly](wiki:Wyman_Manderly) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Wyman Manderly to Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-04.md:125`)

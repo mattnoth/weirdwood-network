@@ -47,10 +47,10 @@ When Ser [Jaime Lannister](wiki:Jaime_Lannister) tells Queen [Cersei Lannister](
 >
 > —[Aegon "Egg" Targaryen](wiki:Aegon_V_Targaryen) and [Maynard Plumm](wiki:Maynard_Plumm)
 
-> [Ossifer Plumm](wiki:Ossifer_Plumm) was much too dead, but that did not stop him fathering a child, did it?(wiki:Viserys_Plumm.cite_ref-Raffc7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+> Ossifer Plumm was much too dead, but that did not stop him fathering a child, did it?
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister)
+> —Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-03.md:51`)
 
-> [House Plumm](wiki:House_Plumm) is sworn to [Casterly Rock](wiki:Casterly_Rock), and as it happens I know a bit of its history. Your branch sprouted from a stone spit across the [narrow sea](wiki:Narrow_sea), no doubt. A younger son of Viserys Plumm, I'd wager. [The queen's](wiki:Daenerys_Targaryen) [dragons](wiki:Dragon) were fond of you, were they not?(wiki:Viserys_Plumm.cite_ref-Radwd57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+> House Plumm is sworn to Casterly Rock, and as it happens I know a bit of its history. Your branch sprouted from a stone spit across the narrow sea, no doubt. A younger son of Viserys Plumm, I'd wager. The queen's dragons were fond of you, were they not?
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Ben Plumm](wiki:Ben_Plumm)
+> —Tyrion Lannister to Ben Plumm, ADWD (`sources/chapters/adwd/adwd-tyrion-11.md:307`)

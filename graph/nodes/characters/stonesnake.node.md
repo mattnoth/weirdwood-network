@@ -49,6 +49,6 @@ Stonesnake is remembered by Jon when he watches [Jarl](wiki:Jarl) and his raider
 
 ### Quotes about Stonesnake
 
-> If any man in the Night's Watch can make it through the [Frostfangs](wiki:Frostfangs) alone and afoot, it is you, brother.(wiki:Stonesnake.cite_ref-Racok68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+> If any man in the Night's Watch can make it through the Frostfangs alone and afoot, it is you, brother.
 >
-> —[Qhorin Halfhand](wiki:Qhorin_Halfhand) to Stonesnake
+> —Qhorin Halfhand to Stonesnake, ACOK (`sources/chapters/acok/acok-jon-08.md:39`)

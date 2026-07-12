@@ -58,6 +58,6 @@ Eventually they [besieged Longtable](wiki:Siege_of_Longtable), then [sacked Bitt
 
 ## Quotes
 
-> My Lord is kind to say so, but the victory belongs to [Tessarion](wiki:Tessarion).(wiki:Battle_of_the_Honeywine.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
+> My Lord is kind to say so, but the victory belongs to Tessarion.
 >
-> —[Daeron Targaryen](wiki:Daeron_Targaryen_(son_of_Viserys_I)) responding to [Ormund Hightower](wiki:Ormund_Hightower)'s praises after the battle
+> —Daeron Targaryen) responding to Ormund Hightower's praises after the battle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p02.md:61`)

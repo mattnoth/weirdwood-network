@@ -85,13 +85,13 @@ Ronnet arrives in King's Landing with twenty men-at-arms, most of them Mountain'
 
 ### Quotes about Ronnet
 
-> A roar went up from [the crowd](wiki:Melee_at_Bitterbridge) as a helmetless red-bearded man with a [griffin](wiki:Griffin) on his shield went down before [a big knight in blue armor](wiki:Brienne_Tarth).(wiki:Ronnet_Connington.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> A roar went up from the crowd as a helmetless red-bearded man with a griffin on his shield went down before a big knight in blue armor.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-02.md:91`)
 
-> She remembered a day at [Evenfall](wiki:Evenfall_Hall), and a young [knight](wiki:Knight) with a [rose](wiki:Rose) in his hand. He brought the rose to give to me. Or so her [septa](wiki:Septa) told her. All she had to do was welcome him to [her father's](wiki:Selwyn_Tarth) castle. He was eighteen, with long red hair that tumbled to his shoulders. She was twelve, tightly laced into a stiff new gown, its bodice bright with [garnets](wiki:Garnet). The two of them were of a height, but she could not look him in the eye, nor say the simple words her septa had taught her. Ser Ronnet. I welcome you to my lord father's hall. It is good to look upon your face at last.(wiki:Ronnet_Connington.cite_ref-Raffc9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
+> She remembered a day at Evenfall, and a young knight with a rose in his hand. He brought the rose to give to me. Or so her septa told her. All she had to do was welcome him to her father's castle. He was eighteen, with long red hair that tumbled to his shoulders. She was twelve, tightly laced into a stiff new gown, its bodice bright with garnets. The two of them were of a height, but she could not look him in the eye, nor say the simple words her septa had taught her. Ser Ronnet. I welcome you to my lord father's hall. It is good to look upon your face at last.
 >
-> —thoughts of [Brienne Tarth](wiki:Brienne_Tarth)
+> —thoughts of Brienne Tarth, AFFC (`sources/chapters/affc/affc-brienne-02.md:217`)
 
 > **Brienne**: One day I'll thank you in a mêlée, ser. **Hyle**: The way you thanked Red Ronnet?(wiki:Ronnet_Connington.cite_ref-Raffc14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
 >
@@ -101,6 +101,6 @@ Ronnet arrives in King's Landing with twenty men-at-arms, most of them Mountain'
 >
 > —thoughts of [Brienne Tarth](wiki:Brienne_Tarth)
 
-> Ser Ronnet was a [landed knight](wiki:Landed_knight), no more. For any such, the [Maid of Tarth](wiki:Brienne_of_Tarth) would have been a sweet plum indeed.(wiki:Ronnet_Connington.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-10)
+> Ser Ronnet was a landed knight, no more. For any such, the Maid of Tarth would have been a sweet plum indeed.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-03.md:339`)

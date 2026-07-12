@@ -94,9 +94,9 @@ During her imprisonment by the [Faith](wiki:Faith_of_the_Seven), Cersei Lanniste
 
 ### Quotes about Myrcella
 
-> She had all of [her mother](wiki:Cersei_Lannister)'s beauty, and none of her nature.(wiki:Myrcella_Baratheon.cite_ref-Ragot9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+> She had all of her mother's beauty, and none of her nature.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-01.md:99`)
 
 > All eyes were on your white knight so no one seems quite certain just what happened, but it would appear that her horse shied away from his at the last instant, else he would have taken off the top of the girl's skull. As it is, the slash opened her cheek down to the bone and sliced off her right ear. Maester Caleotte was able to save her life, but no poultice nor potion will ever restore her face.
 
@@ -106,9 +106,9 @@ During her imprisonment by the [Faith](wiki:Faith_of_the_Seven), Cersei Lanniste
 >
 > —[Sansa Stark](wiki:Sansa_Stark) and [Arya Stark](wiki:Arya_Stark)
 
-> She is so pretty, don't you think? I wish that I had curls like hers. She was made to be a queen, just like [her mother](wiki:Cersei_Lannister).(wiki:Myrcella_Baratheon.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+> She is so pretty, don't you think? I wish that I had curls like hers. She was made to be a queen, just like her mother.
 >
-> —[Tyene Sand](wiki:Tyene_Sand) to [Doran Martell](wiki:Doran_Martell)
+> —Tyene Sand to Doran Martell, AFFC (`sources/chapters/affc/affc-the-captain-of-guards-01.md:279`)
 
 > I love Myrcella as a daughter.(wiki:Myrcella_Baratheon.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-5)
 >

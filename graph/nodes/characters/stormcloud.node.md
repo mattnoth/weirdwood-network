@@ -39,6 +39,6 @@ Stormcloud's coloring is not stated in the books. However, according to Rudolf H
 >
 > —[Archmaester](wiki:Archmaester) [Gyldayn](wiki:Gyldayn) in *[Fire & Blood, Being a History of the Targaryen Kings of Westeros](wiki:Fire_&_Blood,_Being_a_History_of_the_Targaryen_Kings_of_Westeros)*
 
-> And though his brother [Aegon the Younger](wiki:Aegon_III_Targaryen) had fled and lived, all the joy had gone out of the boy; he would never forgive himself for leaping onto Stormcloud and abandoning his [little brother](wiki:Viserys_II_Targaryen) to the enemy.(wiki:Stormcloud.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> And though his brother Aegon the Younger had fled and lived, all the joy had gone out of the boy; he would never forgive himself for leaping onto Stormcloud and abandoning his little brother to the enemy.
 >
-> —[Archmaester](wiki:Archmaester) [Gyldayn](wiki:Gyldayn) in *[Fire & Blood, Being a History of the Targaryen Kings of Westeros](wiki:Fire_&_Blood,_Being_a_History_of_the_Targaryen_Kings_of_Westeros)*
+> —Archmaester Gyldayn in *Fire & Blood, Being a History of the Targaryen Kings of Westeros*, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p02.md:49`)

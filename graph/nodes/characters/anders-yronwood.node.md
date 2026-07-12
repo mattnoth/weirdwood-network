@@ -63,6 +63,6 @@ Lord Anders commands his host in the Boneway, which includes men from [House Tol
 >
 > —[Arianne Martell](wiki:Arianne_Martell) to [Arys Oakheart](wiki:Arys_Oakheart)
 
-> The most powerful of the [Dornish](wiki:Dornishmen) lords was Anders Yronwood, the [Bloodroyal](wiki:Bloodroyal), [Lord of Yronwood](wiki:Lord_of_Yronwood) and [Warden of the Stone Way](wiki:Warden_of_the_Stone_Way), but Arianne knew better than to look for help from the man who had [fostered](wiki:Foster) her brother [Quentyn](wiki:Quentyn_Martell).(wiki:Anders_Yronwood.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-8)
+> The most powerful of the Dornish lords was Anders Yronwood, the Bloodroyal, Lord of Yronwood and Warden of the Stone Way, but Arianne knew better than to look for help from the man who had fostered her brother Quentyn.
 >
-> —thoughts of [Arianne Martell](wiki:Arianne_Martell)
+> —thoughts of Arianne Martell, AFFC (`sources/chapters/affc/affc-the-princess-in-the-tower-01.md:93`)

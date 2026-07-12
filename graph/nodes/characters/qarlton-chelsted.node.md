@@ -58,10 +58,10 @@ Ser [Kevan Lannister](wiki:Kevan_Lannister) remembers he had expected Aerys to r
 
 ## Quotes
 
-> I'd thought the man craven, but the day he confronted [Aerys](wiki:Aerys_II_Targaryen) he found some courage somewhere. He did all he could to dissuade him. He reasoned, he jested, he threatened, and finally he begged. When that failed he took off his [chain of office](wiki:Hand_of_the_King) and flung it down on the floor. Aerys burnt him alive for that, and hung his chain about the neck of [Rossart](wiki:Rossart), his favorite [pyromancer](wiki:Pyromancer).(wiki:Qarlton_Chelsted.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> I'd thought the man craven, but the day he confronted Aerys he found some courage somewhere. He did all he could to dissuade him. He reasoned, he jested, he threatened, and finally he begged. When that failed he took off his chain of office and flung it down on the floor. Aerys burnt him alive for that, and hung his chain about the neck of Rossart, his favorite pyromancer.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister) to [Brienne of Tarth](wiki:Brienne_of_Tarth)
+> —Jaime Lannister to Brienne of Tarth, ASOS (`sources/chapters/asos/asos-jaime-05.md:55`)
 
-> Cersei thought of all the [King's Hands](wiki:Hand_of_the_King) that she had known through the years: [Owen Merryweather](wiki:Owen_Merryweather), [Jon Connington](wiki:Jon_Connington), Qarlton Chelsted, [Jon Arryn](wiki:Jon_Arryn), [Eddard Stark](wiki:Eddard_Stark), her brother [Tyrion](wiki:Tyrion_Lannister). And her father, Lord [Tywin Lannister](wiki:Tywin_Lannister), her father most of all. All of them are burning now, she told herself, savoring the thought. They are dead and burning, every one, with all their plots and schemes and betrayals.(wiki:Qarlton_Chelsted.cite_ref-Raffc12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+> Cersei thought of all the King's Hands that she had known through the years: Owen Merryweather, Jon Connington, Qarlton Chelsted, Jon Arryn, Eddard Stark, her brother Tyrion. And her father, Lord Tywin Lannister, her father most of all. All of them are burning now, she told herself, savoring the thought. They are dead and burning, every one, with all their plots and schemes and betrayals.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-03.md:229`)

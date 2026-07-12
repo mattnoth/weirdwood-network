@@ -39,6 +39,6 @@ Ryman is hanged by [outlaws](wiki:Outlaws) while returning to the [Twins](wiki:T
 >
 > —the prostitute and [Jaime Lannister](wiki:Jaime_Lannister)
 
-> See that you are not [in camp](wiki:Siege_of_Riverrun) when the sun comes up. You may take your queen of whores, but not that crown of hers.(wiki:Queen_o'_whores.cite_ref-Raffc38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> See that you are not in camp when the sun comes up. You may take your queen of whores, but not that crown of hers.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister) to [Ryman Frey](wiki:Ryman_Frey)
+> —Jaime Lannister to Ryman Frey, AFFC (`sources/chapters/affc/affc-jaime-06.md:279`)

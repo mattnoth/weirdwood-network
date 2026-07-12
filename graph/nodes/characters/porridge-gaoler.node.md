@@ -33,6 +33,6 @@ While Ser [Davos Seaworth](wiki:Davos_Seaworth) is imprisoned in the dungeon ben
 
 ## Quotes
 
-> Porridge at least seemed to know he was alive, and there was a queer sort of kindness to the man.(wiki:Porridge.cite_ref-Rasos25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> Porridge at least seemed to know he was alive, and there was a queer sort of kindness to the man.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-03.md:27`)

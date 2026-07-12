@@ -36,6 +36,6 @@ While plotting to tame one of the [dragons](wiki:Dragon) of [Daenerys Targaryen]
 
 ## Quotes
 
-> I want to go back to [Yronwood](wiki:Yronwood) and kiss both of your sisters, marry [Gwyneth Yronwood](wiki:Gwyneth_Yronwood), watch her flower into beauty, have a child by her.(wiki:Drinkwater_twins.cite_ref-Radwd68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+> I want to go back to Yronwood and kiss both of your sisters, marry Gwyneth Yronwood, watch her flower into beauty, have a child by her.
 >
-> —[Quentyn Martell](wiki:Quentyn_Martell), thinking of [Gerris Drinkwater](wiki:Gerris_Drinkwater)'s sisters
+> —Quentyn Martell, thinking of Gerris Drinkwater's sisters, ADWD (`sources/chapters/adwd/adwd-the-dragontamer-01.md:43`)

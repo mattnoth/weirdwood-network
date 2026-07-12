@@ -85,26 +85,26 @@ The High Sparrow uses the audience chamber as his sanctum.(wiki:Great_Sept_of_Ba
 
 ## Quotes
 
-> [Visenya's hill](wiki:Visenya's_hill) was crowned by the Great Sept of Baelor with its seven crystal towers.(wiki:Great_Sept_of_Baelor.cite_ref-Ragot18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)
+> Visenya's hill was crowned by the Great Sept of Baelor with its seven crystal towers.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-04.md:57`)
 
-> You shall wed [the king](wiki:Joffrey_Baratheon) in the Great Sept of Baelor, before the eyes of gods and men.(wiki:Great_Sept_of_Baelor.cite_ref-Ragot51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-0)
+> You shall wed the king in the Great Sept of Baelor, before the eyes of gods and men.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister) to [Sansa Stark](wiki:Sansa_Stark)
+> —Cersei Lannister to Sansa Stark, AGOT (`sources/chapters/agot/agot-sansa-04.md:155`)
 
 > **Tyrion**: I want [the gods](wiki:Faith_of_the_Seven) on our side. Tell them that [Stannis](wiki:Stannis_Baratheon) has vowed to burn the Great Sept of Baelor. **High Septon**: Is it true, my lord? **Tyrion**: It may be. Stannis burned the [godswood](wiki:Godswood) at [Storm's End](wiki:Storm's_End) as an offering to the [Lord of Light](wiki:Lord_of_Light). If he'd offend the [old gods](wiki:Old_gods), why should he spare the new?(wiki:Great_Sept_of_Baelor.cite_ref-Racok49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-1)
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) and the [High Septon](wiki:High_Septon_(Tyrion's))
 
-> When Sansa had first beheld the Great Sept with its marble walls and seven crystal towers, she'd thought it was the most beautiful building in [the world](wiki:Known_world), but that had been before [Joffrey](wiki:Joffrey_Baratheon) beheaded [her father](wiki:Eddard_Stark) on its steps.(wiki:Great_Sept_of_Baelor.cite_ref-Racok52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-1)
+> When Sansa had first beheld the Great Sept with its marble walls and seven crystal towers, she'd thought it was the most beautiful building in the world, but that had been before Joffrey beheaded her father on its steps.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, ACOK (`sources/chapters/acok/acok-sansa-04.md:21`)
 
-> At dusk, the interior of the Great Sept of Baelor turned dim and eerie. The last light of day slanted down through the high windows, washing the towering likenesses of the [Seven](wiki:Faith_of_the_Seven) in a red gloom. Around their altars, scented candles flickered whilst deep shadows gathered in the transepts and crept silently across the [marble](wiki:Marble) floors.(wiki:Great_Sept_of_Baelor.cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-7)
+> At dusk, the interior of the Great Sept of Baelor turned dim and eerie. The last light of day slanted down through the high windows, washing the towering likenesses of the Seven in a red gloom. Around their altars, scented candles flickered whilst deep shadows gathered in the transepts and crept silently across the marble floors.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-01.md:13`)
 
-> None of the devout paid Jaime any mind. They made a circuit of the sept, worshiping at each of the seven altars to honor the [seven aspects of the deity](wiki:Faith_of_the_Seven). To each god they made sacrifice, to each they sang a hymn. Sweet and solemn rose their voices.(wiki:Great_Sept_of_Baelor.cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-8)
+> None of the devout paid Jaime any mind. They made a circuit of the sept, worshiping at each of the seven altars to honor the seven aspects of the deity. To each god they made sacrifice, to each they sang a hymn. Sweet and solemn rose their voices.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-01.md:155`)

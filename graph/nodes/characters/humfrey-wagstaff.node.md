@@ -32,6 +32,6 @@ Humfrey had a spotted head and [hawk](wiki:Hawk) nose. He was a proud man.(wiki:
 
 ## Quotes
 
-> Her hand went to her sword hilt, and she found herself wondering if Ser [Shadrich](wiki:Shadrich) would think her easy prey just because she was a woman. Lord [Grandison's](wiki:House_Grandison) [castellan](wiki:Castellan) had once made that error. Humfrey Wagstaff was his name; a proud old man of five-and-sixty, with a nose like a [hawk](wiki:Hawk) and a spotted head.(wiki:Humfrey_Wagstaff.cite_ref-Raffc9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> Her hand went to her sword hilt, and she found herself wondering if Ser Shadrich would think her easy prey just because she was a woman. Lord Grandison's castellan had once made that error. Humfrey Wagstaff was his name; a proud old man of five-and-sixty, with a nose like a hawk and a spotted head.
 >
-> —thoughts of [Brienne Tarth](wiki:Brienne_Tarth)
+> —thoughts of Brienne Tarth, AFFC (`sources/chapters/affc/affc-brienne-02.md:195`)

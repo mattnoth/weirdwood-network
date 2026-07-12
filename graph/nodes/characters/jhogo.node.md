@@ -90,17 +90,17 @@ At the council called by Barristan, the elderly *[jaqqa rhan](wiki:Jaqqa_rhan)* 
 
 ### Quotes about Jhogo
 
-> He was a youth of sixteen years, whip-thin, fearless, quick to laugh, with the faint shadow of his first mustachio on his upper lip.(wiki:Jhogo.cite_ref-Ragot64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> He was a youth of sixteen years, whip-thin, fearless, quick to laugh, with the faint shadow of his first mustachio on his upper lip.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, AGOT (`sources/chapters/agot/agot-daenerys-08.md:203`)
 
-> [Aggo](wiki:Aggo) and Jhogo fell in to either side of them, walking with the bowlegged swagger all the [horselords](wiki:Horselords) affected when forced to dismount and stride the earth like common mortals.(wiki:Jhogo.cite_ref-Rasos23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-2)
+> Aggo and Jhogo fell in to either side of them, walking with the bowlegged swagger all the horselords affected when forced to dismount and stride the earth like common mortals.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-02.md:209`)
 
-> [Aggo](wiki:Aggo), Jhogo, and [Rakharo](wiki:Rakharo) were brave warriors, but they were young, and too valuable to risk. They kept her [khalasar](wiki:Khalasar) together, and were her best scouts too.(wiki:Jhogo.cite_ref-Rasos57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
+> Aggo, Jhogo, and Rakharo were brave warriors, but they were young, and too valuable to risk. They kept her khalasar together, and were her best scouts too.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-05.md:17`)
 
 > **Grey Worm**: If it pleases the [Queen's Hand](wiki:Barristan_Selmy) to recall, the [Wise Masters](wiki:Wise_Masters) hold our [Hero](wiki:Hero) too. Also the [horselord](wiki:Horselord) Jhogo, [the queen's](wiki:Daenerys_Targaryen) own [blood rider](wiki:Blood_rider). **Rommo**: Blood of her blood. He must be freed. The honor of the [khalasar](wiki:Khalasar) demands it.(wiki:Jhogo.cite_ref-Radwd70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-1)
 >

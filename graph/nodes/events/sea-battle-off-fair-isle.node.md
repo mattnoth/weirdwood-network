@@ -52,6 +52,6 @@ With the threat of the [Iron Fleet](wiki:Iron_Fleet) diminished, King [Robert I 
 >
 > —[Victarion Greyjoy](wiki:Victarion_Greyjoy) and [Asha Greyjoy](wiki:Asha_Greyjoy)
 
-> The memory of [Fair Isle](wiki:Fair_Isle) still rankled in the iron captain's memory.(wiki:Sea_battle_off_Fair_Isle.cite_ref-Radwd63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+> The memory of Fair Isle still rankled in the iron captain's memory.
 >
-> —thoughts of [Victarion Greyjoy](wiki:Victarion_Greyjoy)
+> —thoughts of Victarion Greyjoy, ADWD (`sources/chapters/adwd/adwd-victarion-01.md:61`)

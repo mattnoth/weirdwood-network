@@ -92,14 +92,14 @@ After the Blackfish's escape from Riverrun, Addam commands the search to the sou
 
 ### Quotes about Addam
 
-> [Weese](wiki:Weese) said he was a great horseman and sword fighter, Lord [Tywin](wiki:Tywin_Lannister)'s most daring commander.(wiki:Addam_Marbrand.cite_ref-Racok38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-6)
+> Weese said he was a great horseman and sword fighter, Lord Tywin's most daring commander.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ACOK (`sources/chapters/acok/acok-arya-08.md:15`)
 
-> Ser Addam Marbrand was a shrewd choice. Like [Jaime](wiki:Jaime_Lannister), he was the sort of man other men liked to follow.(wiki:Addam_Marbrand.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-3)
+> Ser Addam Marbrand was a shrewd choice. Like Jaime, he was the sort of man other men liked to follow.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-01.md:59`)
 
-> Another good man who thinks me a [kinslayer](wiki:Kinslayer).(wiki:Addam_Marbrand.cite_ref-Rasos70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-1)
+> Another good man who thinks me a kinslayer.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-10.md:25`)

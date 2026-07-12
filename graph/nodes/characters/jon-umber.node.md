@@ -87,9 +87,9 @@ Lord Umber continues to be a prisoner at the Twins.(wiki:Jon_Umber.cite_ref-Radw
 >
 > —Greatjon to [Robb Stark](wiki:Robb_Stark) after [Grey Wind](wiki:Grey_Wind) bites off two fingers
 
-> We'll shove our swords up [Tywin Lannister](wiki:Tywin_Lannister)'s bunghole soon enough, begging your pardons, and then it's on to the [Red Keep](wiki:Red_Keep) to free [Ned](wiki:Eddard_Stark).(wiki:Jon_Umber.cite_ref-Ragot55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-3)
+> We'll shove our swords up Tywin Lannister's bunghole soon enough, begging your pardons, and then it's on to the Red Keep to free Ned.
 >
-> —Jon to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Jon to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-08.md:55`)
 
 > MY LORDS! Here is what I say to these two kings! [Renly Baratheon](wiki:Renly_Baratheon) is nothing to me, nor [Stannis](wiki:Stannis_Baratheon) neither. Why should they rule over me and mine, from some flowery seat in [Highgarden](wiki:Highgarden) or [Dorne](wiki:Dorne)? What do they know of the [Wall](wiki:Wall) or the [wolfswood](wiki:Wolfswood) or the [barrows](wiki:Barrowlands) of the [First Men](wiki:First_Men)? Even [their gods](wiki:Faith_of_the_Seven) are wrong. The [Others](wiki:Others) take the [Lannisters](wiki:House_Lannister) too, I've had a bellyful of them. Why shouldn't we rule ourselves again? It was the [dragons](wiki:House_Targaryen) we married, and the dragons are all dead! There sits the only king I mean to bow my knee to, m'lords. The [King in the North](wiki:King_in_the_North)!(wiki:Jon_Umber.cite_ref-Ragot71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
 >
@@ -99,9 +99,9 @@ Lord Umber continues to be a prisoner at the Twins.(wiki:Jon_Umber.cite_ref-Radw
 >
 > —Jon to [Rickard Karstark](wiki:Rickard_Karstark)
 
-> Your [creepers](wiki:Crannogmen) best come fast, or my men will swarm those walls and win the [Moat](wiki:Moat_Cailin) before you show your face. I'll make a gift of it to you when you come dawdling up.(wiki:Jon_Umber.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
+> Your creepers best come fast, or my men will swarm those walls and win the Moat before you show your face. I'll make a gift of it to you when you come dawdling up.
 >
-> —Jon to [Robb Stark](wiki:Robb_Stark)
+> —Jon to Robb Stark, ASOS (`sources/chapters/asos/asos-catelyn-05.md:227`)
 
 ### Quotes about Jon
 
@@ -113,18 +113,18 @@ Lord Umber continues to be a prisoner at the Twins.(wiki:Jon_Umber.cite_ref-Radw
 >
 > —[Catelyn Stark](wiki:Catelyn_Stark) and [Robb Stark](wiki:Robb_Stark)
 
-> The Greatjon's the [Young Wolf's](wiki:Robb_Stark) strong right hand, all know that to be true.(wiki:Jon_Umber.cite_ref-Racok16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-1)
+> The Greatjon's the Young Wolf's strong right hand, all know that to be true.
 >
-> —[Mors Umber](wiki:Mors_Umber) to [Luwin](wiki:Luwin)
+> —Mors Umber to Luwin, ACOK (`sources/chapters/acok/acok-bran-02.md:221`)
 
-> Amongst the living, Greatjon Umber was stronger, [Strongboar](wiki:Lyle_Crakehall) of [Crakehall](wiki:Crakehall) most likely, both [Cleganes](wiki:House_Clegane) for a certainty. [The Mountain's](wiki:Gregor_Clegane) strength was like nothing human. It did not matter. With speed and skill, Jaime could beat them all.(wiki:Jon_Umber.cite_ref-Rasos21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+> Amongst the living, Greatjon Umber was stronger, Strongboar of Crakehall most likely, both Cleganes for a certainty. The Mountain's strength was like nothing human. It did not matter. With speed and skill, Jaime could beat them all.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-03.md:117`)
 
-> Catelyn would sooner Lord Umber had seen fit to stay sober, but telling the Greatjon not to drink was like telling him not to breathe for a few hours.(wiki:Jon_Umber.cite_ref-Rasos51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-4)
+> Catelyn would sooner Lord Umber had seen fit to stay sober, but telling the Greatjon not to drink was like telling him not to breathe for a few hours.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-07.md:25`)
 
-> You shall have one task and one task only, Merrett, but I believe you are well suited to it. I want you to see to it that Greatjon Umber is so bloody drunk that he can hardly stand, let alone fight.(wiki:Jon_Umber.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-2)
+> You shall have one task and one task only, Merrett, but I believe you are well suited to it. I want you to see to it that Greatjon Umber is so bloody drunk that he can hardly stand, let alone fight.
 >
-> —[Lothar Frey](wiki:Lothar_Frey) to [Merrett Frey](wiki:Merrett_Frey)
+> —Lothar Frey to Merrett Frey, ASOS (`sources/chapters/asos/asos-epilogue.md:45`)

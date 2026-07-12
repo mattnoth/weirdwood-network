@@ -55,9 +55,9 @@ When Robb goes to the Twins to make amends with Lord Walder Frey over breaking h
 
 — Catelyn's POV (narrative), ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:75`)
 
-> Lothar was a very amusing fellow to get drunk with, but Merrett would never be so foolish as to turn his back on him.(wiki:Lothar_Frey.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+> Lothar was a very amusing fellow to get drunk with, but Merrett would never be so foolish as to turn his back on him.
 >
-> —thoughts of [Merrett Frey](wiki:Merrett_Frey)
+> —thoughts of Merrett Frey, ASOS (`sources/chapters/asos/asos-epilogue.md:31`)
 
 > We must each play our part, according to our gifts.(wiki:Lothar_Frey.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
 >

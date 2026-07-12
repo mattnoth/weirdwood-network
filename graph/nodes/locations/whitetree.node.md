@@ -51,9 +51,9 @@ When thinking of the wight attack, Sam remembers it as having taken place at Whi
 
 ## Quotes
 
-> Look at that face. Small wonder men feared them, when they first came to Westeros. I'd like to take an axe to the bloody thing myself.(wiki:Whitetree.cite_ref-Racok13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
+> Look at that face. Small wonder men feared them, when they first came to Westeros. I'd like to take an axe to the bloody thing myself.
 >
-> —[Thoren Smallwood](wiki:Thoren_Smallwood) to [Jon Snow](wiki:Jon_Snow)
+> —Thoren Smallwood to Jon Snow, ACOK (`sources/chapters/acok/acok-jon-02.md:21`)
 
 > The [wildlings](wiki:Wildlings) burn their dead. We've always known that. Now I wished I'd asked them why, when there were still a few around to ask. Would that bones could talk. This fellow could tell us much. How he died. Who burned him, and why. Where the wildlings have gone.(wiki:Whitetree.cite_ref-Racok13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
 >

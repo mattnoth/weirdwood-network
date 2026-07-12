@@ -86,6 +86,6 @@ Toad is one of the friends present in the new common hall who try to invite Lord
 >
 > —[Jon Snow](wiki:Jon_Snow) to [Samwell Tarly](wiki:Samwell_Tarly)
 
-> You're certain to be a [ranger](wiki:Ranger), Toad. They'll want you as far from [the castle](wiki:Castle_Black) as they can. If [Mance Rayder](wiki:Mance_Rayder) attacks, lift your visor and show your face, and he'll run off screaming.(wiki:Todder.cite_ref-Ragot41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+> You're certain to be a ranger, Toad. They'll want you as far from the castle as they can. If Mance Rayder attacks, lift your visor and show your face, and he'll run off screaming.
 >
-> —[Pypar](wiki:Pypar) to Todder
+> —Pypar to Todder, AGOT (`sources/chapters/agot/agot-jon-05.md:33`)

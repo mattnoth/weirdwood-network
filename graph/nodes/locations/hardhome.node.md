@@ -43,10 +43,10 @@ While [Selyse Florent](wiki:Selyse_Florent) and [Bowen Marsh](wiki:Bowen_Marsh) 
 
 ## Quotes
 
-> Snowflakes swirled from a dark sky and ashes rose to meet them, the grey and the white whirling around each other as flaming arrows arced above a wooden wall and [dead things](wiki:Wights) shambled silent through the cold, beneath a great grey cliff where fires burned inside a hundred caves. Then the wind rose and the white mist came sweeping in, [impossibly cold](wiki:Others), and one by one the fires went out. Afterward only the skulls remained.(wiki:Hardhome.cite_ref-Radwd31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+> Snowflakes swirled from a dark sky and ashes rose to meet them, the grey and the white whirling around each other as flaming arrows arced above a wooden wall and dead things shambled silent through the cold, beneath a great grey cliff where fires burned inside a hundred caves. Then the wind rose and the white mist came sweeping in, impossibly cold, and one by one the fires went out. Afterward only the skulls remained.
 >
-> —thoughts of [Melisandre](wiki:Melisandre)
+> —thoughts of Melisandre, ADWD (`sources/chapters/adwd/adwd-melisandre-01.md:25`)
 
-> Hardhome is an unholy place, it's said. Cursed.(wiki:Hardhome.cite_ref-Radwd39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
+> Hardhome is an unholy place, it's said. Cursed.
 >
-> —[Othell Yarwyck](wiki:Othell_Yarwyck) to [Jon Snow](wiki:Jon_Snow)
+> —Othell Yarwyck to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-08.md:207`)

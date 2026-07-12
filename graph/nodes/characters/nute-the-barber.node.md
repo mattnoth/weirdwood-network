@@ -67,13 +67,13 @@ Sailing toward [Meereen](wiki:Meereen), Victarion misses Nute on *Iron Victory*,
 
 ### Quotes about Nute
 
-> Nute the Barber can shave a man with a thrown axe from twenty yards away.(wiki:Nute_the_Barber.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+> Nute the Barber can shave a man with a thrown axe from twenty yards away.
 >
-> —thoughts of [Victarion Greyjoy](wiki:Victarion_Greyjoy)
+> —thoughts of Victarion Greyjoy, AFFC (`sources/chapters/affc/affc-the-reaver-01.md:73`)
 
-> By raising him to [Lord of Oakenshield](wiki:Lord_of_Oakenshield), [his brother](wiki:Euron_Greyjoy) made Victarion's best man his own.(wiki:Nute_the_Barber.cite_ref-Radwd56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> By raising him to Lord of Oakenshield, his brother made Victarion's best man his own.
 >
-> —thoughts of [Victarion Greyjoy](wiki:Victarion_Greyjoy)
+> —thoughts of Victarion Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-iron-suitor-01.md:45`)
 
 ## Edges
 

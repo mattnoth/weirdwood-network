@@ -56,10 +56,12 @@ Later, Ser [Barristan Selmy](wiki:Barristan_Selmy) sends the two remaining [Dorn
 
 > My ragged raiment? A poor thing … yet those tatters fill my foes with fear, and on the battlefield the sight of my rags blowing in the wind emboldens my men more than any banner. And if I want to move unseen, I need only slip it off to become plain and unremarkable.(wiki:Tattered_Prince.cite_ref-Radwd60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
 
-> In this world, a man must learn to seize whatever gifts the gods chose to send him. That was a lesson I learned at some cost.(wiki:Tattered_Prince.cite_ref-Radwd60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+> In this world, a man must learn to seize whatever gifts the gods chose to send him. That was a lesson I learned at some cost.
+>
+> — ADWD (`sources/chapters/adwd/adwd-the-spurned-suitor-01.md:111`)
 
 ### Quotes about the Tattered Prince
 
-> You'll ride to battle with the Tattered Prince and come home richer than a lord.(wiki:Tattered_Prince.cite_ref-Radwd6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+> You'll ride to battle with the Tattered Prince and come home richer than a lord.
 >
-> —unnamed [sellsword](wiki:Mercenary)
+> —unnamed sellsword, ADWD (`sources/chapters/adwd/adwd-the-merchants-man-01.md:195`)

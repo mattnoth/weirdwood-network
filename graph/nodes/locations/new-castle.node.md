@@ -48,6 +48,6 @@ A feast is held in the Merman's Court to celebrate the safe return of Wyman's he
 
 ## Quotes
 
-> Behind [the city's](wiki:White_Harbor) thick white walls, the New Castle rose proud and pale upon its hill.(wiki:New_Castle.cite_ref-Radwd15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> Behind the city's thick white walls, the New Castle rose proud and pale upon its hill.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-02.md:31`)

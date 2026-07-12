@@ -54,9 +54,9 @@ Asha is eventually taken prisoner by King [Stannis Baratheon](wiki:Stannis_Barat
 
 ## Quotes
 
-> With thirty men, I [captured Winterfell](wiki:Capture_of_Winterfell) in a night. You needed a thousand and a moon's turn to take Deepwood Motte.(wiki:Taking_of_Deepwood_Motte.cite_ref-Racok56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> With thirty men, I captured Winterfell in a night. You needed a thousand and a moon's turn to take Deepwood Motte.
 >
-> —[Theon Greyjoy](wiki:Theon_Greyjoy) to [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —Theon Greyjoy to Asha Greyjoy, ACOK (`sources/chapters/acok/acok-theon-05.md:55`)
 
 > **Robb**: [Duskendale](wiki:Battle_at_Duskendale). [Robett Glover](wiki:Robett_Glover) will answer for that when I see him, I promise you. **Roose**: A folly, but Glover was heedless after he learned that Deepwood Motte had fallen. Grief and fear will do that to a man.(wiki:Taking_of_Deepwood_Motte.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
 >

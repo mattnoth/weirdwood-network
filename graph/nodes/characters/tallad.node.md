@@ -58,6 +58,6 @@ Ser Tallad is held with the rest of Margaery's falsely accused lovers in a dunge
 >
 > —[Bronn](wiki:Bronn) and [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> Ser Tallad's the worst, [Osney](wiki:Osney_Kettleblack) says. That big oaf don't seem to know if it's [Elinor](wiki:Elinor_Tyrell) or [Alla](wiki:Alla_Tyrell) he wants, but he knows he wants her awful bad.(wiki:Tallad.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4)
+> Ser Tallad's the worst, Osney says. That big oaf don't seem to know if it's Elinor or Alla he wants, but he knows he wants her awful bad.
 >
-> —[Osmund Kettleblack](wiki:Osmund_Kettleblack) to [Cersei Lannister](wiki:Cersei_Lannister)
+> —Osmund Kettleblack to Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-05.md:97`)

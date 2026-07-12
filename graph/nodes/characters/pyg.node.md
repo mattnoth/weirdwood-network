@@ -38,6 +38,6 @@ Brienne later has nightmares involving Pyg, Shagwell, and Timeon.(wiki:Pyg.cite_
 
 ## Quotes
 
-> She knew that nose. She knew those eyes. Pyg, his friends had called him.(wiki:Pyg.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+> She knew that nose. She knew those eyes. Pyg, his friends had called him.
 >
-> —thoughts of [Brienne of Tarth](wiki:Brienne_of_Tarth)
+> —thoughts of Brienne of Tarth, AFFC (`sources/chapters/affc/affc-brienne-04.md:249`)

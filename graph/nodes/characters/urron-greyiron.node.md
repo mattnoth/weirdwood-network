@@ -40,6 +40,6 @@ Lord [Baelor Blacktyde](wiki:Baelor_Blacktyde) believes that [Euron Greyjoy](wik
 >
 > —Urron to his followers
 
-> I am the [Greyjoy](wiki:House_Greyjoy), [Lord Reaper of Pyke](wiki:Lord_Reaper_of_Pyke), [King of Salt and Rock](wiki:King_of_Salt_and_Rock), [Son of the Sea Wind](wiki:Son_of_the_Sea_Wind), and no man gives me a crown. I pay the [iron price](wiki:Iron_price). I will take my crown, as Urron Redhand did five thousand years ago.(wiki:Urron_Greyiron.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> I am the Greyjoy, Lord Reaper of Pyke, King of Salt and Rock, Son of the Sea Wind, and no man gives me a crown. I pay the iron price. I will take my crown, as Urron Redhand did five thousand years ago.
 >
-> —[Balon Greyjoy](wiki:Balon_Greyjoy) to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Balon Greyjoy to Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-01.md:361`)

@@ -62,23 +62,23 @@ While in the company of the [brotherhood without banners](wiki:Brotherhood_witho
 >
 > —Dick and [Brienne of Tarth](wiki:Brienne_of_Tarth)
 
-> The world's full o' liars, ready to cheat an honest man.(wiki:Dick_Crabb.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-11)
+> The world's full o' liars, ready to cheat an honest man.
 >
-> —Dick to [Brienne of Tarth](wiki:Brienne_of_Tarth)
+> —Dick to Brienne of Tarth, AFFC (`sources/chapters/affc/affc-brienne-04.md:37`)
 
-> It's the sword that makes the lord, some say.(wiki:Dick_Crabb.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-12)
+> It's the sword that makes the lord, some say.
 >
-> —Dick to [Brienne of Tarth](wiki:Brienne_of_Tarth)
+> —Dick to Brienne of Tarth, AFFC (`sources/chapters/affc/affc-brienne-04.md:231`)
 
 ### Quotes about Dick
 
-> Nimble Dick will have a grave. He was a [Crabb](wiki:House_Crabb). [This](wiki:Whispers) is his place.(wiki:Dick_Crabb.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-13)
+> Nimble Dick will have a grave. He was a Crabb. This is his place.
 >
-> —[Brienne of Tarth](wiki:Brienne_of_Tarth) to [Shagwell](wiki:Shagwell)
+> —Brienne of Tarth to Shagwell, AFFC (`sources/chapters/affc/affc-brienne-04.md:345`)
 
-> I'm sorry that I never trusted you. I don't know how to do that anymore.(wiki:Dick_Crabb.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-14)
+> I'm sorry that I never trusted you. I don't know how to do that anymore.
 >
-> —[Brienne of Tarth](wiki:Brienne_of_Tarth) to Dick's body
+> —Brienne of Tarth to Dick's body, AFFC (`sources/chapters/affc/affc-brienne-04.md:347`)
 
 > **Proprietor**: You're the big one went off with Nimble Dick. I remember. He cheat you?
 >

@@ -78,14 +78,14 @@ Lord [Hallyne](wiki:Hallyne) and his Guild of Alchemists are employed by Cersei 
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
 
-> King [Aerys](wiki:Aerys_II_Targaryen) took a great interest in our work.(wiki:Alchemists'_Guild.cite_ref-Racok20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-12)
+> King Aerys took a great interest in our work.
 >
-> —[Hallyne](wiki:Hallyne) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Hallyne to Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-05.md:75`)
 
-> [Wildfire](wiki:Wildfire) is but one of the dread secrets of our ancient order. Many and wondrous are the things we might show you.(wiki:Alchemists'_Guild.cite_ref-Racok20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-13)
+> Wildfire is but one of the dread secrets of our ancient order. Many and wondrous are the things we might show you.
 >
-> —[Hallyne](wiki:Hallyne) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Hallyne to Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-05.md:83`)
 
-> His brother [Jaime](wiki:Jaime_Lannister) had told him a few stories of the [Mad King](wiki:Aerys_II_Targaryen) and his pet [pyromancers](wiki:Pyromancer).(wiki:Alchemists'_Guild.cite_ref-Racok20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-14)
+> His brother Jaime had told him a few stories of the Mad King and his pet pyromancers.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
+> —Tyrion Lannister's thoughts, ACOK (`sources/chapters/acok/acok-tyrion-05.md:77`)

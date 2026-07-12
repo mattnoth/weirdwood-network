@@ -47,9 +47,9 @@ Ser [Jaime Lannister](wiki:Jaime_Lannister) realizes that Joffrey sent the assas
 
 ### Quotes about the catspaw
 
-> He was a small, dirty man in filthy brown clothing, and he stank of [horses](wiki:Horse). Catelyn knew all the men who worked in their stables, and he was none of them. He was gaunt, with limp blond hair and pale eyes deep-sunk in a bony face, and there was [a dagger](wiki:Littlefinger's_blade) in his hand.(wiki:Catspaw.cite_ref-Ragot14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-6)
+> He was a small, dirty man in filthy brown clothing, and he stank of horses. Catelyn knew all the men who worked in their stables, and he was none of them. He was gaunt, with limp blond hair and pale eyes deep-sunk in a bony face, and there was a dagger in his hand.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-03.md:89`)
 
 > **Rodrik**: Lady Stark, did you chance to notice [the dagger](wiki:Littlefinger's_blade) the killer used?
 >
@@ -57,6 +57,6 @@ Ser [Jaime Lannister](wiki:Jaime_Lannister) realizes that Joffrey sent the assas
 >
 > —[Rodrik Cassel](wiki:Rodrik_Cassel) and [Catelyn Stark](wiki:Catelyn_Stark)
 
-> Some poxy lackwit willing to risk his life for [a prince's](wiki:Joffrey_Baratheon) favor and a little [coin](wiki:Coin).(wiki:Catspaw.cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+> Some poxy lackwit willing to risk his life for a prince's favor and a little coin.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-08.md:21`)

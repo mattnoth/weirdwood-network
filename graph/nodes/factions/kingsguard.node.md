@@ -97,9 +97,9 @@ Ser [Robert Strong](wiki:Robert_Strong) is named to the Kingsguard of King Tomme
 >
 > —[Oswell Whent](wiki:Oswell_Whent) and [Gerold Hightower](wiki:Gerold_Hightower) in [Eddard Stark](wiki:Eddard_Stark)'s dream
 
-> Something his father had told him once when he was little came back to him suddenly. He had asked Lord [Eddard](wiki:Eddard_Stark) if the Kingsguard were truly the finest knights in the [Seven Kingdoms](wiki:Seven_Kingdoms). "No longer," he answered, "but once they were a marvel, a shining lesson to the world."(wiki:Kingsguard.cite_ref-Racok21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_108-0)
+> Something his father had told him once when he was little came back to him suddenly. He had asked Lord Eddard if the Kingsguard were truly the finest knights in the Seven Kingdoms. "No longer," he answered, "but once they were a marvel, a shining lesson to the world."
 >
-> —[Bran Stark](wiki:Bran_Stark)'s thoughts
+> —Bran Stark's thoughts, ACOK (`sources/chapters/acok/acok-bran-03.md:123`)
 
 > It is a rare and precious gift to be a knight, and even more so a knight of the Kingsguard. It is a gift given to few, a gift you scorned and sullied.(wiki:Kingsguard.cite_ref-Rasos11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_92-1)
 >

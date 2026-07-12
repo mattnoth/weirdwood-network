@@ -57,9 +57,9 @@ After the [fight by Deepwood Motte](wiki:Fight_by_Deepwood_Motte), [Stannis Bara
 >
 > —[Kromm](wiki:Kromm) and [Theon Greyjoy](wiki:Theon_Greyjoy)
 
-> He saw no battle lines, only a swirling chaos of banners and blades.(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-19)
+> He saw no battle lines, only a swirling chaos of banners and blades.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-06.md:209`)
 
 > **Theon:** Ser [Rodrik](wiki:Rodrik_Cassel) had you five to one. **Ramsay:** Aye, but he thought us friends. A common mistake. When the old fool gave me his hand, I took half his arm instead. Then I let him see my face.(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-20)
 >

@@ -47,10 +47,10 @@ After the burning, [Lady Bracken](wiki:Lady_Bracken) spends most of her time pra
 
 ## Quotes
 
-> [Gregor Clegane](wiki:Gregor_Clegane) laid waste to my fields, slaughtered my [smallfolk](wiki:Smallfolk), and left Stone Hedge a smoking ruin. Am I now to bend the knee to [the ones](wiki:House_Lannister) who sent him?(wiki:Burning_of_Stone_Hedge.cite_ref-Ragot71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+> Gregor Clegane laid waste to my fields, slaughtered my smallfolk, and left Stone Hedge a smoking ruin. Am I now to bend the knee to the ones who sent him?
 >
-> —[Jonos Bracken](wiki:Jonos_Bracken) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Jonos Bracken to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-11.md:197`)
 
-> [Your Mountain](wiki:Gregor_Clegane) stole my harvest and burned everything he could not carry off. He put my castle to the torch and raped one of my daughters. I will have recompense.(wiki:Burning_of_Stone_Hedge.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> Your Mountain stole my harvest and burned everything he could not carry off. He put my castle to the torch and raped one of my daughters. I will have recompense.
 >
-> —[Jonos Bracken](wiki:Jonos_Bracken) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Jonos Bracken to Jaime Lannister, ADWD (`sources/chapters/adwd/adwd-jaime-01.md:123`)

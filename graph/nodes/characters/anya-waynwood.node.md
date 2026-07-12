@@ -68,6 +68,6 @@ Lady Anya, her son Ser [Wallace](wiki:Wallace_Waynwood) and grandson Ser [Roland
 
 ### Quotes about Anya
 
-> Anya Waynwood's hair was greying and she had crow's-feet around her eyes and loose skin beneath her chin, but there was no mistaking the air of nobility about her.(wiki:Anya_Waynwood.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-9)
+> Anya Waynwood's hair was greying and she had crow's-feet around her eyes and loose skin beneath her chin, but there was no mistaking the air of nobility about her.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, AFFC (`sources/chapters/affc/affc-alayne-01.md:185`)

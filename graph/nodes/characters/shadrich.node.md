@@ -56,9 +56,9 @@ When Alayne is greeting guests the day before the [tourney](wiki:Tourney) for th
 >
 > —Shadrich and [Brienne Tarth](wiki:Brienne_Tarth)
 
-> You are not the only hunter in the woods. I seek for [Sansa Stark](wiki:Sansa_Stark) as well.(wiki:Shadrich.cite_ref-Raffc4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
+> You are not the only hunter in the woods. I seek for Sansa Stark as well.
 >
-> —Shadrich to [Brienne Tarth](wiki:Brienne_Tarth)
+> —Shadrich to Brienne Tarth, AFFC (`sources/chapters/affc/affc-brienne-01.md:207`)
 
 > We [mice](wiki:Mouse) are quiet creatures.(wiki:Shadrich.cite_ref-twow_5-2)
 >

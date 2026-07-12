@@ -65,9 +65,9 @@ Doran sends Ellaria to her father [Harmen Uller](wiki:Harmen_Uller)'s seat at [H
 
 ### Quotes about Ellaria
 
-> [Shae](wiki:Shae) had told her that this Ellaria worshiped some [Lysene](wiki:Lys) love goddess. "She was almost a [whore](wiki:Whore) when he found her, m'lady," her maid confided, "and now she's near a princess." Sansa had never been this close to the [Dornishwoman](wiki:Dornishmen) before. She is not truly beautiful, she thought, but something about her draws the eye.(wiki:Ellaria_Sand.cite_ref-Rasos59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> Shae had told her that this Ellaria worshiped some Lysene love goddess. "She was almost a whore when he found her, m'lady," her maid confided, "and now she's near a princess." Sansa had never been this close to the Dornishwoman before. She is not truly beautiful, she thought, but something about her draws the eye.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-04.md:123`)
 
 > Even weeping, she has a strength in her.(wiki:Ellaria_Sand.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
 >

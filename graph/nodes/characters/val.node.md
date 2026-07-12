@@ -61,40 +61,40 @@ Val kneels when she is presented to Selyse and her daughter, Princess [Shireen B
 
 ### Quotes by Val
 
-> I am no [southron](wiki:Southron) lady but a woman of the [free folk](wiki:Free_folk). I know [the forest](wiki:Haunted_forest) better than all your black-cloaked [rangers](wiki:Rangers). It holds no [ghosts](wiki:Ghosts) for me.(wiki:Val.cite_ref-Radwd39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)
+> I am no southron lady but a woman of the free folk. I know the forest better than all your black-cloaked rangers. It holds no ghosts for me.
 >
-> —Val to [Jon Snow](wiki:Jon_Snow)
+> —Val to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-08.md:21`)
 
-> You have my thanks, Lord Snow. For the half-blind [horse](wiki:Horse), the salt [cod](wiki:Cod), the free air. For hope.(wiki:Val.cite_ref-Radwd39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4)
+> You have my thanks, Lord Snow. For the half-blind horse, the salt cod, the free air. For hope.
 >
-> —Val to [Jon Snow](wiki:Jon_Snow)
+> —Val to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-08.md:43`)
 
-> [Lord Crow](wiki:Jon_Snow) is welcome to steal into my bed any night he dares. Once he's been [gelded](wiki:Eunuch), keeping [those vows](wiki:Night's_Watch) will come much easier for him.(wiki:Val.cite_ref-Radwd53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
+> Lord Crow is welcome to steal into my bed any night he dares. Once he's been gelded, keeping those vows will come much easier for him.
 >
-> —Val to [Jon Snow](wiki:Jon_Snow)
+> —Val to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-11.md:73`)
 
 ### Quotes about Val
 
-> King [Stannis](wiki:Stannis_Baratheon) had plans for Val, he knew; she was the mortar with which he meant to seal the peace between the [northmen](wiki:Northmen) and the [free folk](wiki:Free_folk).(wiki:Val.cite_ref-Raffc5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
+> King Stannis had plans for Val, he knew; she was the mortar with which he meant to seal the peace between the northmen and the free folk.
 >
-> —thoughts of [Samwell Tarly](wiki:Samwell_Tarly)
+> —thoughts of Samwell Tarly, AFFC (`sources/chapters/affc/affc-samwell-01.md:69`)
 
-> Val did not need to smile; she would have turned men's heads in any court in the [wide world](wiki:Known_world).(wiki:Val.cite_ref-Radwd10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-5)
+> Val did not need to smile; she would have turned men's heads in any court in the wide world.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-03.md:193`)
 
-> Lonely and lovely and lethal, Jon Snow reflected, and I might have had her. Her, and [Winterfell](wiki:Winterfell), and [my lord father's name](wiki:Eddard_Stark). Instead he had chosen a [black cloak](wiki:Night's_Watch) and a [wall of ice](wiki:Wall). Instead he had chosen honor. A [bastard](wiki:Bastard)'s sort of honor.(wiki:Val.cite_ref-Radwd10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
+> Lonely and lovely and lethal, Jon Snow reflected, and I might have had her. Her, and Winterfell, and my lord father's name. Instead he had chosen a black cloak and a wall of ice. Instead he had chosen honor. A bastard's sort of honor.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-03.md:197`)
 
-> A nubile girl, I hear, and not hard to look upon. Good hips, good breasts, well made for whelping children.(wiki:Val.cite_ref-Radwd49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0)
+> A nubile girl, I hear, and not hard to look upon. Good hips, good breasts, well made for whelping children.
 >
-> —[Axell Florent](wiki:Axell_Florent) to [Jon Snow](wiki:Jon_Snow)
+> —Axell Florent to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-10.md:273`)
 
-> A warrior princess, he decided, not some willowy creature who sits up in a tower, brushing her hair and waiting for some [knight](wiki:Knight) to rescue her.(wiki:Val.cite_ref-Radwd53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
+> A warrior princess, he decided, not some willowy creature who sits up in a tower, brushing her hair and waiting for some knight to rescue her.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-11.md:109`)
 
-> You are insolent. I suppose that is only to be expected of a [wildling](wiki:Wildling). We must find you a husband who can teach you courtesy.(wiki:Val.cite_ref-Radwd53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-10)
+> You are insolent. I suppose that is only to be expected of a wildling. We must find you a husband who can teach you courtesy.
 >
-> —[Selyse Florent](wiki:Selyse_Florent) to Val
+> —Selyse Florent to Val, ADWD (`sources/chapters/adwd/adwd-jon-11.md:205`)

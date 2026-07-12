@@ -113,10 +113,10 @@ After killing Tywin, Tyrion flees to [Essos](wiki:Essos).(wiki:Westerlands.cite_
 >
 > —writings of [Yandel](wiki:Yandel)
 
-> With the [Rock](wiki:Casterly_Rock), he could hold [Lannisport](wiki:Lannisport) and the golden lands of the west.(wiki:Westerlands.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_46-2)
+> With the Rock, he could hold Lannisport and the golden lands of the west.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-01.md:351`)
 
-> Thirty-five hundred they were, thirty-five hundred who had been blooded in the [Whispering Wood](wiki:Battle_in_the_Whispering_Wood), who had reddened their swords at the [Battle of the Camps](wiki:Battle_of_the_Camps), at [Oxcross](wiki:Battle_of_Oxcross), [Ashemark](wiki:Taking_of_Ashemark), and the [Crag](wiki:Storming_of_the_Crag), and all through the gold-rich hills of the [Lannister](wiki:House_Lannister) west.(wiki:Westerlands.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_62-0)
+> Thirty-five hundred they were, thirty-five hundred who had been blooded in the Whispering Wood, who had reddened their swords at the Battle of the Camps, at Oxcross, Ashemark, and the Crag, and all through the gold-rich hills of the Lannister west.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-05.md:39`)

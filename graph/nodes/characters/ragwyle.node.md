@@ -36,6 +36,6 @@ Ragwyle is among Rattleshirt's war band as they take Jon Snow to [Mance Rayder](
 
 ## Quotes
 
-> If [the crow](wiki:Jon_Snow) would join the [free folk](wiki:Free_folk), let him show us his prowess and prove the truth of him.(wiki:Ragwyle.cite_ref-Racok68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> If the crow would join the free folk, let him show us his prowess and prove the truth of him.
 >
-> —Ragwyle to the [Lord of Bones](wiki:Lord_of_Bones)
+> —Ragwyle to the Lord of Bones, ACOK (`sources/chapters/acok/acok-jon-08.md:199`)

@@ -61,13 +61,13 @@ In a village in the foothills of the [Mountains of the Moon](wiki:Mountains_of_t
 >
 > —Ravella and [Arya Stark](wiki:Arya_Stark)
 
-> The [gods](wiki:Gods) give each of us our little gifts and talents, and it is meant for us to use them, my aunt always says. Any act can be a prayer, if done as well as we are able. Isn't that a lovely thought?(wiki:Ravella_Smallwood.cite_ref-Rasos22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+> The gods give each of us our little gifts and talents, and it is meant for us to use them, my aunt always says. Any act can be a prayer, if done as well as we are able. Isn't that a lovely thought?
 >
-> —Ravella, to [Arya Stark](wiki:Arya_Stark)
+> —Ravella, to Arya Stark, ASOS (`sources/chapters/asos/asos-arya-04.md:123`)
 
-> In times like these, we all must make do as best we can.(wiki:Ravella_Smallwood.cite_ref-Rasos22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+> In times like these, we all must make do as best we can.
 >
-> —Ravella, to [Arya Stark](wiki:Arya_Stark)
+> —Ravella, to Arya Stark, ASOS (`sources/chapters/asos/asos-arya-04.md:127`)
 
 > **Tom:** Someone could make a rare fine song of that.
 >

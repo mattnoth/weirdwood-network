@@ -44,4 +44,6 @@ The memory of Hazzea and the guilt over what happened to her plagues Daenerys fo
 >
 > —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> "[Drogon](wiki:Drogon) killed a little girl. Her name was … her name …" Dany could not recall the child's name. That made her so sad that she would have cried if all her tears had not been burned away.(wiki:Hazzea.cite_ref-Radwd71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+> "Drogon killed a little girl. Her name was … her name …" Dany could not recall the child's name. That made her so sad that she would have cried if all her tears had not been burned away.
+>
+> — ADWD (`sources/chapters/adwd/adwd-daenerys-10.md:155`)

@@ -39,9 +39,9 @@ Another skinchanger, [Varamyr Sixskins](wiki:Varamyr_Sixskins), takes control of
 >
 > —[Ygritte](wiki:Ygritte) to [Jon Snow](wiki:Jon_Snow)
 
-> Can a bird hate? Jon had slain the wilding Orell, but some part of the man remained within the eagle. The golden eyes looked out on him with cold malevolence.(wiki:Orell.cite_ref-Rasos15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> Can a bird hate? Jon had slain the wilding Orell, but some part of the man remained within the eagle. The golden eyes looked out on him with cold malevolence.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ASOS (`sources/chapters/asos/asos-jon-02.md:223`)
 
 > Bag o' Bones, call off your hellcrow!(wiki:Orell.cite_ref-Rasos15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 >

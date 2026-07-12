@@ -137,13 +137,13 @@ Other members of the Kingsguard claim that their new brother does not eat, sleep
 >
 > —[Pycelle](wiki:Pycelle) and [Marq Piper](wiki:Marq_Piper)
 
-> That beast's head would make a noble gift for all the people of [the realm](wiki:Seven_Kingdoms), I vow.(wiki:Gregor_Clegane.cite_ref-Racok7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-2)
+> That beast's head would make a noble gift for all the people of the realm, I vow.
 >
-> —[Brynden Tully](wiki:Brynden_Tully) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Brynden Tully to Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-01.md:215`)
 
-> Ser Gregor has served us well. No other [knight](wiki:Knight) in [the realm](wiki:Seven_Kingdoms) inspires such terror in our enemies.(wiki:Gregor_Clegane.cite_ref-Rasos53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-3)
+> Ser Gregor has served us well. No other knight in the realm inspires such terror in our enemies.
 >
-> —[Tywin Lannister](wiki:Tywin_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Tywin Lannister to Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-06.md:163`)
 
 > **Ellaria**: You are going to fight that? **Oberyn**: I am going to kill that.(wiki:Gregor_Clegane.cite_ref-Rasos70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-9)
 >
@@ -157,6 +157,6 @@ Other members of the Kingsguard claim that their new brother does not eat, sleep
 >
 > —[Qyburn](wiki:Qyburn) and [Cersei Lannister](wiki:Cersei_Lannister)
 
-> If ever a man deserved to die screaming, it was Gregor Clegane.(wiki:Gregor_Clegane.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_50-1)
+> If ever a man deserved to die screaming, it was Gregor Clegane.
 >
-> —[Doran Martell](wiki:Doran_Martell) to [Balon Swann](wiki:Balon_Swann)
+> —Doran Martell to Balon Swann, ADWD (`sources/chapters/adwd/adwd-the-watcher-01.md:39`)

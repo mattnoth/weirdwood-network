@@ -131,9 +131,9 @@ Outside [Meereen](wiki:Meereen), [Inkpots](wiki:Inkpots) shows [Tyrion Lannister
 >
 > —[Jon Snow](wiki:Jon_Snow) and [Jeor Mormont](wiki:Jeor_Mormont)
 
-> I have taught my [Margaery](wiki:Margaery_Tyrell) what comely is worth, I hope. Somewhat less than a [mummer](wiki:Mummer)'s fart. Aerion Brightfire was comely enough, but a monster all the same. The question is, what is [Joffrey](wiki:Joffrey)?(wiki:Aerion_Targaryen.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> I have taught my Margaery what comely is worth, I hope. Somewhat less than a mummer's fart. Aerion Brightfire was comely enough, but a monster all the same. The question is, what is Joffrey?
 >
-> —[Olenna Tyrell](wiki:Olenna_Tyrell) to [Sansa Stark](wiki:Sansa_Stark)
+> —Olenna Tyrell to Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-01.md:181`)
 
 ## Edges
 

@@ -224,18 +224,18 @@ Rickon, [Osha](wiki:Osha), and [Shaggydog](wiki:Shaggydog) are said to be on [Sk
 >
 > —[Robb Stark](wiki:Robb_Stark) to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> As the Starks are wont to remind us, winter is coming.(wiki:House_Stark.cite_ref-Racok64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-2)
+> As the Starks are wont to remind us, winter is coming.
 >
-> —[Roose Bolton](wiki:Roose_Bolton) to one of his men
+> —Roose Bolton to one of his men, ACOK (`sources/chapters/acok/acok-arya-10.md:161`)
 
 > **Liddle**: When there was a Stark in [Winterfell](wiki:Winterfell), a maiden girl could walk down the [kingsroad](wiki:Kingsroad) in her name-day gown and still go unmolested, and travelers could find fire, bread, and salt at many an inn and holdfast. But the nights are colder now, and doors are closed ... It was different when there was a Stark in Winterfell. But [the old wolf's](wiki:Eddard_Stark) dead and [young one's](wiki:Robb_Stark) gone south to play the [game of thrones](wiki:War_of_the_Five_Kings), and all that's left us is [the ghosts](wiki:Capture_of_Winterfell). **Jojen**: The wolves will come again.(wiki:House_Stark.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_39-2)
 >
 > —a [Liddle](wiki:The_Liddle) and [Jojen Reed](wiki:Jojen_Reed)
 
-> [Bear Island](wiki:Bear_Island) knows no king but the [King in the North](wiki:King_in_the_North), whose name is STARK.(wiki:House_Stark.cite_ref-Radwd3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_182-0)
+> Bear Island knows no king but the King in the North, whose name is STARK.
 >
-> —[Lyanna Mormont](wiki:Lyanna_Mormont) to [Stannis Baratheon](wiki:Stannis_Baratheon)
+> —Lyanna Mormont to Stannis Baratheon, ADWD (`sources/chapters/adwd/adwd-jon-01.md:135`)
 
-> Maester [Theomore](wiki:Theomore), tell them! A thousand years before [the Conquest](wiki:Aegon's_Conquest), a promise was made, and oaths were sworn in the [Wolf's Den](wiki:Wolf's_Den) before the [old gods](wiki:Old_gods) and the [new](wiki:Faith_of_the_Seven). When we were sore beset and friendless, hounded from our homes and in peril of our lives, the wolves took us in and nourished us and protected us against our enemies. [The city](wiki:White_Harbor) is built upon the land they gave us. In return we swore that we should always be their men. Stark men!(wiki:House_Stark.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_56-1)
+> Maester Theomore, tell them! A thousand years before the Conquest, a promise was made, and oaths were sworn in the Wolf's Den before the old gods and the new. When we were sore beset and friendless, hounded from our homes and in peril of our lives, the wolves took us in and nourished us and protected us against our enemies. The city is built upon the land they gave us. In return we swore that we should always be their men. Stark men!
 >
-> —[Wylla Manderly](wiki:Wylla_Manderly) to the [Merman's Court](wiki:Merman's_Court)
+> —Wylla Manderly to the Merman's Court, ADWD (`sources/chapters/adwd/adwd-davos-03.md:179`)

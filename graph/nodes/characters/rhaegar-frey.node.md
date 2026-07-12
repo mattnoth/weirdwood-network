@@ -55,13 +55,13 @@ At [Winterfell](wiki:Winterfell) after Ramsay's wedding, Wyman presents [three h
 
 ### Quotes by Rhaegar
 
-> The [Young Wolf](wiki:Robb_Stark)? He was a vile dog and died like one.(wiki:Rhaegar_Frey.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
+> The Young Wolf? He was a vile dog and died like one.
 >
-> —Rhaegar to the [Merman's Court](wiki:Merman's_Court)
+> —Rhaegar to the Merman's Court, ADWD (`sources/chapters/adwd/adwd-davos-03.md:199`)
 
-> [Robb Stark](wiki:Robb_Stark) betrayed us all. He abandoned the [north](wiki:North) to the cruel mercies of the [ironmen](wiki:Ironborn) to carve out a fairer kingdom for himself along the [Trident](wiki:Trident). Then he abandoned the [riverlords](wiki:Riverlords) who had risked much and more for him, breaking his marriage pact with [my grandfather](wiki:Walder_Frey) to wed the first [western wench](wiki:Jeyne_Westerling) who caught his eye.(wiki:Rhaegar_Frey.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)
+> Robb Stark betrayed us all. He abandoned the north to the cruel mercies of the ironmen to carve out a fairer kingdom for himself along the Trident. Then he abandoned the riverlords who had risked much and more for him, breaking his marriage pact with my grandfather to wed the first western wench who caught his eye.
 >
-> —Rhaegar to the [Merman's Court](wiki:Merman's_Court)
+> —Rhaegar to the Merman's Court, ADWD (`sources/chapters/adwd/adwd-davos-03.md:199`)
 
 > **Wynafryd**: [Wylla](wiki:Wylla_Manderly) has always been a willful child. I fear that she will make a willful wife. **Rhaegar**: Marriage will soften her, I have no doubt. A firm hand and a quiet word.(wiki:Rhaegar_Frey.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-6)
 >
@@ -69,6 +69,6 @@ At [Winterfell](wiki:Winterfell) after Ramsay's wedding, Wyman presents [three h
 
 ### Quotes about Rhaegar
 
-> That smirking worm who wears [a dragon's name](wiki:Rhaegar_Targaryen).(wiki:Rhaegar_Frey.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> That smirking worm who wears a dragon's name.
 >
-> —[Wyman Manderly](wiki:Wyman_Manderly) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Wyman Manderly to Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-04.md:125`)

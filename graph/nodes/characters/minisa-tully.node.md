@@ -48,6 +48,6 @@ Lord [Hoster Tully](wiki:Hoster_Tully) still misses his late wife. Ailing and fe
 >
 > —[Brynden Tully](wiki:Brynden_Tully) and [Catelyn Stark](wiki:Catelyn_Stark)
 
-> Lady Minisa Tully had died in childbed, trying to give Lord [Hoster](wiki:Hoster_Tully) a second son. The baby had perished with her, and afterward some of the life had gone out of Father. She was always so calm, Catelyn thought, remembering her mother's soft hands, her warm smile. If she had lived, how different our lives might have been.(wiki:Minisa_Tully.cite_ref-Racok33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> Lady Minisa Tully had died in childbed, trying to give Lord Hoster a second son. The baby had perished with her, and afterward some of the life had gone out of Father. She was always so calm, Catelyn thought, remembering her mother's soft hands, her warm smile. If she had lived, how different our lives might have been.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-04.md:25`)

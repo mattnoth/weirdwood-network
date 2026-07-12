@@ -75,9 +75,9 @@ In [Braavos](wiki:Braavos), Arya Stark, blinded by the [Faceless Men](wiki:Facel
 >
 > —[Rodrik Cassel](wiki:Rodrik_Cassel) and [Theon Greyjoy](wiki:Theon_Greyjoy)
 
-> The [small heads](wiki:Miller's_sons) watched him come from their spikes, their tarred and [flayed](wiki:Flaying) faces looming larger with every yard; between them stood little Beth Cassel, noosed and crying.(wiki:Beth_Cassel.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-3)
+> The small heads watched him come from their spikes, their tarred and flayed faces looming larger with every yard; between them stood little Beth Cassel, noosed and crying.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-06.md:155`)
 
 > She had known a Beth once, back at [Winterfell](wiki:Winterfell) when she was [Arya Stark](wiki:Arya_Stark). Maybe that was why she'd picked the name. Or maybe it was just because it went so well with *blind*.(wiki:Beth_Cassel.cite_ref-Radwd45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1)
 >

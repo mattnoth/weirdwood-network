@@ -36,9 +36,9 @@ Prince Maron had won a few concessions in his accord with King Daeron II to unit
 >
 > —writings of [Yandel](wiki:Yandel)
 
-> The [Water Gardens](wiki:Water_Gardens) are my favorite place in this world, ser. One of my ancestors had them built to please his [Targaryen](wiki:House_Targaryen) bride and free her from the dust and heat of [Sunspear](wiki:Sunspear). Daenerys was her name. She was sister to King [Daeron the Good](wiki:Daeron_I_Targaryen), and it was her marriage that made [Dorne](wiki:Dorne) part of the [Seven Kingdoms](wiki:Seven_Kingdoms).(wiki:Maron_Martell.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+> The Water Gardens are my favorite place in this world, ser. One of my ancestors had them built to please his Targaryen bride and free her from the dust and heat of Sunspear. Daenerys was her name. She was sister to King Daeron the Good, and it was her marriage that made Dorne part of the Seven Kingdoms.
 >
-> —[Doran Martell](wiki:Doran_Martell), to [Balon Swann](wiki:Balon_Swann)
+> —Doran Martell, to Balon Swann, ADWD (`sources/chapters/adwd/adwd-the-watcher-01.md:93`)
 
 ## Edges
 

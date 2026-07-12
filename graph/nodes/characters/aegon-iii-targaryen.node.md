@@ -194,9 +194,9 @@ Daenerys Targaryen remembers the stories her brother [Viserys](wiki:Viserys_Targ
 >
 > —Aegon, to his mother [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen), on their arrival at [the fallen](wiki:Fall_of_Dragonstone) [Dragonstone](wiki:Dragonstone)
 
-> Get [that wretched creature](wiki:Morning) out of my sight.(wiki:Aegon_III_Targaryen.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-15)
+> Get that wretched creature out of my sight.
 >
-> —Aegon, to his [northmen](wiki:Northmen) guards, upon seeing [Rhaena Targaryen](wiki:Rhaena_Targaryen_(daughter_of_Aegon_III))'s hatchling [dragon](wiki:Dragon)
+> —Aegon, to his northmen guards, upon seeing Rhaena Targaryen)'s hatchling dragon, F&B (`sources/chapters/fab/fab-hour-of-the-wolf-20.md:287`)
 
 > **Aegon:** The vows of the [Kingsguard](wiki:Kingsguard) include obedience, I thought.
 >

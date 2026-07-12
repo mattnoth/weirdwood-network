@@ -56,9 +56,9 @@ Almost all of the men named as Margaery's lovers have denied the accusation or r
 
 ### Quotes about Megga
 
-> Megga couldn't sing, but she was mad to be kissed. She and [Alla](wiki:Alla_Tyrell) played a kissing game sometimes, she confessed, but it wasn't the same as kissing a man, much less [a king](wiki:Joffrey_Baratheon).(wiki:Megga_Tyrell.cite_ref-Rasos16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+> Megga couldn't sing, but she was mad to be kissed. She and Alla played a kissing game sometimes, she confessed, but it wasn't the same as kissing a man, much less a king.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-02.md:47`)
 
 > **Taena**: [Elinor](wiki:Elinor_Tyrell) is promised to the [Ambrose boy](wiki:Alyn_Ambrose), but loves to flirt, and Megga has a new suitor every fortnight. Once she kissed a potboy in the kitchen. I have heard talk of her marrying [Lady Bulwer's brother](wiki:Lady_Bulwer's_brother), but if Megga were to choose for herself, she would sooner have [Mark Mullendore](wiki:Mark_Mullendore), I am certain.
 >

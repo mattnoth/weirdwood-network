@@ -96,25 +96,25 @@ A [Waxley](wiki:House_Waxley) knight states that Lysa had given Jon's favorite [
 
 ## Quotes
 
-> I need good men about me. Men like Jon Arryn.(wiki:Jon_Arryn.cite_ref-Ragot4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-1)
+> I need good men about me. Men like Jon Arryn.
 >
-> —[Robert I Baratheon](wiki:Robert_I_Baratheon) to [Eddard Stark](wiki:Eddard_Stark)
+> —Robert I Baratheon to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-01.md:111`)
 
-> Jon Arryn was a wise man and a good [Hand](wiki:Hand_of_the_King).(wiki:Jon_Arryn.cite_ref-Ragot12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-3)
+> Jon Arryn was a wise man and a good Hand.
 >
-> —[Eddard Stark](wiki:Eddard_Stark) to [Robert I Baratheon](wiki:Robert_I_Baratheon)
+> —Eddard Stark to Robert I Baratheon, AGOT (`sources/chapters/agot/agot-eddard-02.md:85`)
 
-> I loved that old man, I swear it, but now I think he was a bigger [fool](wiki:Fool) than [Moon Boy](wiki:Moon_Boy).(wiki:Jon_Arryn.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-6)
+> I loved that old man, I swear it, but now I think he was a bigger fool than Moon Boy.
 >
-> —[Robert I Baratheon](wiki:Robert_I_Baratheon) to [Eddard Stark](wiki:Eddard_Stark)
+> —Robert I Baratheon to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-07.md:101`)
 
-> Lord Arryn was a dutiful husband, but [their marriage](wiki:Lysa_Arryn) was made from politics, not passion.(wiki:Jon_Arryn.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> Lord Arryn was a dutiful husband, but their marriage was made from politics, not passion.
 >
-> —[Brynden Tully](wiki:Brynden_Tully) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Brynden Tully to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-06.md:103`)
 
-> The seed is strong, Jon Arryn had cried on his deathbed, and so it was.(wiki:Jon_Arryn.cite_ref-Ragot45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-4)
+> The seed is strong, Jon Arryn had cried on his deathbed, and so it was.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-12.md:133`)
 
 > **Stannis**: I believed [Robert](wiki:Robert_I_Baratheon) would be more disposed to listen if the charges came from Lord Arryn, whom he loved. **Renly**: Ah. So we have the word of a dead man.(wiki:Jon_Arryn.cite_ref-Racok31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_47-1)
 >

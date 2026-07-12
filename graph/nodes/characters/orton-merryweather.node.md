@@ -65,9 +65,9 @@ Lord Merryweather worries what the [smallfolk](wiki:Smallfolk) will think after 
 >
 > —[Pycelle](wiki:Pycelle) and Orton
 
-> [Stannis](wiki:Stannis_Baratheon) is more cunning than we knew. Your Grace is clever to have seen through his ploy.(wiki:Orton_Merryweather.cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> Stannis is more cunning than we knew. Your Grace is clever to have seen through his ploy.
 >
-> —Orton to [Cersei Lannister](wiki:Cersei_Lannister)
+> —Orton to Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-07.md:45`)
 
 > **Cersei**: I have no doubt that you are more able than Ser [Harys Swyft](wiki:Harys_Swyft). Will you consent to serve?
 >
@@ -81,6 +81,6 @@ Lord Merryweather worries what the [smallfolk](wiki:Smallfolk) will think after 
 >
 > —[Cersei Lannister](wiki:Cersei_Lannister) to [Taena Merryweather](wiki:Taena_Merryweather)
 
-> [Petyr](wiki:Petyr_Baelish) had once remarked that the horn of plenty that adorned [House Merryweather](wiki:House_Merryweather)'s arms suited Lord Orton admirably, since he had carrot-colored hair, a nose as bulbous as a beetroot, and pease porridge for wits.(wiki:Orton_Merryweather.cite_ref-Raffc17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+> Petyr had once remarked that the horn of plenty that adorned House Merryweather's arms suited Lord Orton admirably, since he had carrot-colored hair, a nose as bulbous as a beetroot, and pease porridge for wits.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-04.md:319`)

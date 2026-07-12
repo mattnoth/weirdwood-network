@@ -40,6 +40,6 @@ While negotiating and end to the [siege of Raventree](wiki:Siege_of_Raventree), 
 
 ## Quotes
 
-> Lucas was murdered at the [Red Wedding](wiki:Red_Wedding). [Walder Frey](wiki:Walder_Frey)'s fourth wife was [a Blackwood](wiki:Alyssa_Blackwood), but kinship counts for no more than [guest right](wiki:Guest_right) at the [Twins](wiki:Twins).(wiki:Lucas_Blackwood.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> Lucas was murdered at the Red Wedding. Walder Frey's fourth wife was a Blackwood, but kinship counts for no more than guest right at the Twins.
 >
-> —[Tytos Blackwood](wiki:Tytos_Blackwood) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Tytos Blackwood to Jaime Lannister, ADWD (`sources/chapters/adwd/adwd-jaime-01.md:221`)

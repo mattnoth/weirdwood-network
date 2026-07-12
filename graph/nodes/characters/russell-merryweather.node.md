@@ -49,6 +49,6 @@ After her release from imprisonment in the [Great Sept of Baelor](wiki:Great_Sep
 >
 > —[Cersei Lannister](wiki:Cersei_Lannister) and [Taena Merryweather](wiki:Taena_Merryweather)
 
-> He could [foster](wiki:Foster) the Merryweather boy himself, whilst Lady [Taena](wiki:Taena_of_Myr) accompanied [Cersei](wiki:Cersei_Lannister) back to [Casterly Rock](wiki:Casterly_Rock).(wiki:Russell_Merryweather.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+> He could foster the Merryweather boy himself, whilst Lady Taena accompanied Cersei back to Casterly Rock.
 >
-> —thoughts of [Kevan Lannister](wiki:Kevan_Lannister)
+> —thoughts of Kevan Lannister, ADWD (`sources/chapters/adwd/adwd-epilogue.md:195`)

@@ -57,6 +57,6 @@ Though [Doran Martell](wiki:Doran_Martell), the [Prince of Dorne](wiki:Prince_of
 >
 > —thoughts of [Arianne Martell](wiki:Arianne_Martell)
 
-> Lady Sylva received no punishment from me, but she was of an age to marry. [Her father](wiki:Symon_Santagar) has shipped her to [Greenstone](wiki:Greenstone) to wed [Lord Estermont](wiki:Elden_Estermont).(wiki:Sylva_Santagar.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+> Lady Sylva received no punishment from me, but she was of an age to marry. Her father has shipped her to Greenstone to wed Lord Estermont.
 >
-> —[Doran Martell](wiki:Doran_Martell) to [Arianne Martell](wiki:Arianne_Martell)
+> —Doran Martell to Arianne Martell, AFFC (`sources/chapters/affc/affc-the-princess-in-the-tower-01.md:217`)

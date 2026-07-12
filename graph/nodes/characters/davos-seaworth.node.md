@@ -126,9 +126,9 @@ During the feast held to celebrate Wylis's return to White Harbor, Lord Wyman ha
 
 ### Quotes by Davos
 
-> King [Stannis](wiki:Stannis_Baratheon) is my god. He made me and blessed me with his trust.(wiki:Davos_Seaworth.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-11)
+> King Stannis is my god. He made me and blessed me with his trust.
 >
-> —Davos to [Salladhor Saan](wiki:Salladhor_Saan)
+> —Davos to Salladhor Saan, ACOK (`sources/chapters/acok/acok-davos-01.md:145`)
 
 > **Melisandre**: Are you a good man, Davos Seaworth?
 >
@@ -136,9 +136,9 @@ During the feast held to celebrate Wylis's return to White Harbor, Lord Wyman ha
 >
 > —[Melisandre](wiki:Melisandre) and Davos
 
-> [Seaworth](wiki:House_Seaworth) had a [lordly](wiki:Lord) ring to it, but down deep he was still Davos of [Flea Bottom](wiki:Flea_Bottom), coming home to [his city](wiki:King's_Landing) on its three high hills. He knew as much of ships and sails and shores as any man in the [Seven Kingdoms](wiki:Seven_Kingdoms), and had fought his share of desperate fights sword to sword on a wet deck. But to [this sort of battle](wiki:Battle_of_the_Blackwater) he came a maiden, nervous and afraid. Smugglers do not sound warhorns and raise banners. When they smell danger, they raise sail and run before the wind.(wiki:Davos_Seaworth.cite_ref-Racok58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-2)
+> Seaworth had a lordly ring to it, but down deep he was still Davos of Flea Bottom, coming home to his city on its three high hills. He knew as much of ships and sails and shores as any man in the Seven Kingdoms, and had fought his share of desperate fights sword to sword on a wet deck. But to this sort of battle he came a maiden, nervous and afraid. Smugglers do not sound warhorns and raise banners. When they smell danger, they raise sail and run before the wind.
 >
-> —thoughts of Davos
+> —thoughts of Davos, ACOK (`sources/chapters/acok/acok-davos-03.md:27`)
 
 > **Stannis:** I know the cost! Last night, gazing into that hearth, I saw things in the flames as well. I saw a king, a crown of fire on his brows, burning ... burning, Davos. His own crown consumed his flesh and turned him into ash. Do you think I need [Melisandre](wiki:Melisandre) to tell me what that means? Or you? If [Joffrey](wiki:Joffrey) should die ... what is the life of one [bastard boy](wiki:Edric_Storm) against a kingdom? **Davos:** Everything.(wiki:Davos_Seaworth.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-4)
 >
@@ -154,9 +154,9 @@ During the feast held to celebrate Wylis's return to White Harbor, Lord Wyman ha
 >
 > —[Jared Frey](wiki:Jared_Frey) and Davos
 
-> I was a better smuggler than a [knight](wiki:Knight), he had written to his wife, a better knight than a [King's Hand](wiki:Hand_of_the_King), a better King's Hand than a husband. I am so sorry. Marya, I have loved you. Please forgive the wrongs I did you.(wiki:Davos_Seaworth.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-4)
+> I was a better smuggler than a knight, he had written to his wife, a better knight than a King's Hand, a better King's Hand than a husband. I am so sorry. Marya, I have loved you. Please forgive the wrongs I did you.
 >
-> —Davos writing to [Marya Seaworth](wiki:Marya_Seaworth)
+> —Davos writing to Marya Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-04.md:49`)
 
 > The last time it was life I brought to Storm's End, shaped to look like onions. This time it is death, in the shape of Melisandre of Asshai.
 
@@ -164,9 +164,9 @@ During the feast held to celebrate Wylis's return to White Harbor, Lord Wyman ha
 
 ### Quotes about Davos
 
-> A good act does not wash out the bad, nor a bad act the good. Each should have its own reward. You were [a hero](wiki:Siege_of_Storm's_End) and a smuggler.(wiki:Davos_Seaworth.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-6)
+> A good act does not wash out the bad, nor a bad act the good. Each should have its own reward. You were a hero and a smuggler.
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) to Davos
+> —Stannis Baratheon to Davos, ACOK (`sources/chapters/acok/acok-davos-02.md:165`)
 
 > You have a passing clever father, Devan. He makes me wish I had more smugglers in my service. And fewer [lords](wiki:Lord).(wiki:Davos_Seaworth.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-7)
 >

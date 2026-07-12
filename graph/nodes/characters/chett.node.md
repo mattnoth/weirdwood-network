@@ -69,9 +69,9 @@ When [wights](wiki:Wights) attack the Night's Watch, beginning the [fight at the
 >
 > —[Jon Snow](wiki:Jon_Snow) and Chett
 
-> He had liked the look of [Craster's Keep](wiki:Craster's_Keep), himself. [Craster](wiki:Craster) lived high as a [lord](wiki:Lord) there, so why shouldn't he do the same? That would be a laugh. Chett the [leechman](wiki:Leech)'s son, a lord with a keep. His banner could be a dozen leeches on a field of pink. But why stop at lord? Maybe he should be a king. [Mance Rayder](wiki:Mance_Rayder) started out a [crow](wiki:Night's_Watch). I could be a king same as him, and have me some wives.(wiki:Chett.cite_ref-Rasosprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+> He had liked the look of Craster's Keep, himself. Craster lived high as a lord there, so why shouldn't he do the same? That would be a laugh. Chett the leechman's son, a lord with a keep. His banner could be a dozen leeches on a field of pink. But why stop at lord? Maybe he should be a king. Mance Rayder started out a crow. I could be a king same as him, and have me some wives.
 >
-> —thoughts of Chett
+> —thoughts of Chett, ASOS (`sources/chapters/asos/asos-prologue.md:79`)
 
 > He could see [Bessa](wiki:Bessa_(Hag's_Mire))'s face floating before him. It wasn't the knife I wanted to put in you, he wanted to tell her. I picked you flowers, wild [roses](wiki:Rose) and [tansy](wiki:Tansy_(plant)) and [goldencups](wiki:Goldencup), it took me all morning.(wiki:Chett.cite_ref-Rasosprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
 >
@@ -79,6 +79,6 @@ When [wights](wiki:Wights) attack the Night's Watch, beginning the [fight at the
 
 ### Quotes about Chett
 
-> Chett had a wen on his neck the size of a pigeon's egg, and a face red with boils and pimples. Perhaps that was why he always seemed so angry.(wiki:Chett.cite_ref-Ragot41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+> Chett had a wen on his neck the size of a pigeon's egg, and a face red with boils and pimples. Perhaps that was why he always seemed so angry.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, AGOT (`sources/chapters/agot/agot-jon-05.md:77`)

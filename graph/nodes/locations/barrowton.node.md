@@ -75,6 +75,6 @@ Within the [crypt of Winterfell](wiki:Crypt_of_Winterfell), Barbrey confides to 
 >
 > —[Roose Bolton](wiki:Roose_Bolton) and [Ramsay Bolton](wiki:Ramsay_Snow)
 
-> Fear is what keeps a man alive in [this world](wiki:Known_world) of treachery and deceit. Even here in Barrowton the [crows](wiki:Crow) are circling, waiting to feast upon our flesh.(wiki:Barrowton.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
+> Fear is what keeps a man alive in this world of treachery and deceit. Even here in Barrowton the crows are circling, waiting to feast upon our flesh.
 >
-> —[Roose Bolton](wiki:Roose_Bolton) to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Roose Bolton to Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-03.md:239`)

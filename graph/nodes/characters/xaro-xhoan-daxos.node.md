@@ -77,9 +77,9 @@ During Xaro's visit Daenerys again dons a Qartheen gown, leaving one breast bare
 >
 > —Xaro and [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> Sweetness cloys. Tart fruit and tart women give life its savor.(wiki:Xaro_Xhoan_Daxos.cite_ref-Radwd16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-8)
+> Sweetness cloys. Tart fruit and tart women give life its savor.
 >
-> —Xaro to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Xaro to Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-03.md:33`)
 
 > **Xaro**: It is a cruel queen who dices with men's hearts. Humble merchants like myself are no more than stones beneath your jeweled sandals.
 >
@@ -93,14 +93,14 @@ During Xaro's visit Daenerys again dons a Qartheen gown, leaving one breast bare
 
 ### Quotes about Xaro
 
-> She would have been lost without Xaro. The [gold](wiki:Gold) that she had squandered to open the doors of the [Hall of a Thousand Thrones](wiki:Hall_of_a_Thousand_Thrones) was largely a product of the merchant's generosity and quick wits. As the rumor of living [dragons](wiki:Dragon) had spread through [the east](wiki:Essos), ever more seekers had come to learn if the tale was true—and Xaro Xhoan Daxos saw to it that the great and the humble alike offered some token to the [Mother of Dragons](wiki:Mother_of_Dragons).(wiki:Xaro_Xhoan_Daxos.cite_ref-Racok40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-9)
+> She would have been lost without Xaro. The gold that she had squandered to open the doors of the Hall of a Thousand Thrones was largely a product of the merchant's generosity and quick wits. As the rumor of living dragons had spread through the east, ever more seekers had come to learn if the tale was true—and Xaro Xhoan Daxos saw to it that the great and the humble alike offered some token to the Mother of Dragons.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ACOK (`sources/chapters/acok/acok-daenerys-03.md:47`)
 
-> Xaro's flowery protestations of passion amused her, but his manner was at odds with his words.(wiki:Xaro_Xhoan_Daxos.cite_ref-Racok40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-10)
+> Xaro's flowery protestations of passion amused her, but his manner was at odds with his words.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ACOK (`sources/chapters/acok/acok-daenerys-03.md:71`)
 
-> I warned you that Xaro and [Pyat Pree](wiki:Pyat_Pree) were not to be trusted.(wiki:Xaro_Xhoan_Daxos.cite_ref-Rasos71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+> I warned you that Xaro and Pyat Pree were not to be trusted.
 >
-> —[Jorah Mormont](wiki:Jorah_Mormont) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Jorah Mormont to Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-06.md:191`)

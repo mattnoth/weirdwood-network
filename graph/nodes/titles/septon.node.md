@@ -93,21 +93,21 @@ During the [taking of the Shields](wiki:Taking_of_the_Shields), Lord [Guthor Gri
 >
 > —[Lucas Inchfield](wiki:Lucas_Inchfield) to [Duncan the Tall](wiki:Duncan_the_Tall)
 
-> The septons preach about the [seven hells](wiki:Seven_hells). What do they know? Only a man who's been burned knows what hell is truly like.(wiki:Septon.cite_ref-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_55-0)
+> The septons preach about the seven hells. What do they know? Only a man who's been burned knows what hell is truly like.
 >
-> —[Sandor Clegane](wiki:Sandor_Clegane) to [Sansa Stark](wiki:Sansa_Stark)
+> —Sandor Clegane to Sansa Stark, AGOT (`sources/chapters/agot/agot-sansa-02.md:121`)
 
-> Catelyn had more faith in a [maester](wiki:Maester)'s learning than a septon's prayers.(wiki:Septon.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-1)
+> Catelyn had more faith in a maester's learning than a septon's prayers.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-06.md:23`)
 
 > **Alester**: There is but [one true king](wiki:Stannis_Baratheon), and [one true god](wiki:R'hllor). **Cortnay**: Are we here to dispute [theology](wiki:Religion), my lord? Had I known, I would have brought a septon.(wiki:Septon.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_56-0)
 >
 > —[Alester Florent](wiki:Alester_Florent) and [Cortnay Penrose](wiki:Cortnay_Penrose)
 
-> Even septons born of noble blood go only by their given names once they have taken their vows. When one of them is elevated to [High Septon](wiki:High_Septon), he puts aside that name as well.(wiki:Septon.cite_ref-Raffc28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
+> Even septons born of noble blood go only by their given names once they have taken their vows. When one of them is elevated to High Septon, he puts aside that name as well.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister) to [Taena Merryweather](wiki:Taena_Merryweather)
+> —Cersei Lannister to Taena Merryweather, AFFC (`sources/chapters/affc/affc-cersei-06.md:55`)
 
 > Give me priests who are fat and corrupt and cynical, the sort who like to sit on soft satin cushions, nibble sweetmeats, and diddle little boys. It's the ones who believe in gods who make the trouble.(wiki:Septon.cite_ref-Radwd27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_57-0)
 >

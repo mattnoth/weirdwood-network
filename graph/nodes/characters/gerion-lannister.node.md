@@ -49,9 +49,9 @@ Gerion was the youngest and most reckless brother of Lord [Tywin Lannister](wiki
 >
 > —Gerion
 
-> That shadow [Tywin](wiki:Tywin_Lannister) cast was long and black, and each of them had to struggle to find a little sun. [Tygett](wiki:Tygett_Lannister) tried to be his own man, but he could never match your father, and that just made him angrier as the years went by. Gerion made japes. Better to mock the game than to play and lose. But [Kevan](wiki:Kevan_Lannister) saw how things stood early on, so he made himself a place by your father's side.(wiki:Gerion_Lannister.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
+> That shadow Tywin cast was long and black, and each of them had to struggle to find a little sun. Tygett tried to be his own man, but he could never match your father, and that just made him angrier as the years went by. Gerion made japes. Better to mock the game than to play and lose. But Kevan saw how things stood early on, so he made himself a place by your father's side.
 >
-> —[Genna Lannister](wiki:Genna_Lannister) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Genna Lannister to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-05.md:309`)
 
 ## Edges
 

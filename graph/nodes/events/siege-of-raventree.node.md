@@ -48,14 +48,14 @@ The surrender of Raventree represents the last remnant of [Robb Stark](wiki:Robb
 
 ## Quotes
 
-> I mean to deal with Lord [Tytos](wiki:Tytos_Blackwood) myself. It won't require a siege tower.(wiki:Siege_of_Raventree.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+> I mean to deal with Lord Tytos myself. It won't require a siege tower.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister) to [Daven Lannister](wiki:Daven_Lannister)
+> —Jaime Lannister to Daven Lannister, AFFC (`sources/chapters/affc/affc-jaime-07.md:167`)
 
-> Lord Jaime, you must go to [Raventree](wiki:Raventree_Hall). So long as it is [Jonos](wiki:Jonos_Bracken) at his gates [Tytos](wiki:Tytos_Blackwood) will never yield, but I know he will bend his knee for you.(wiki:Siege_of_Raventree.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> Lord Jaime, you must go to Raventree. So long as it is Jonos at his gates Tytos will never yield, but I know he will bend his knee for you.
 >
-> —[Karyl Vance](wiki:Karyl_Vance) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Karyl Vance to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-07.md:193`)
 
-> No doubt there had been sorties and skirmishes at the start of the siege, and arrows flying back and forth; half a year into it, everyone was too tired for such nonsense. Boredom and routine had taken over, the enemies of discipline.(wiki:Siege_of_Raventree.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+> No doubt there had been sorties and skirmishes at the start of the siege, and arrows flying back and forth; half a year into it, everyone was too tired for such nonsense. Boredom and routine had taken over, the enemies of discipline.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, ADWD (`sources/chapters/adwd/adwd-jaime-01.md:19`)

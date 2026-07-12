@@ -90,9 +90,9 @@ Jaime advises Loras to learn about their predecessors in the Kingsguard, such as
 >
 > —[Varys](wiki:Varys) to [Eddard Stark](wiki:Eddard_Stark)
 
-> Ser Ryam Redwyne was the greatest knight of his day, and one of the worst [Hands](wiki:Hand_of_the_King) ever to serve a king.(wiki:Ryam_Redwyne.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
+> Ser Ryam Redwyne was the greatest knight of his day, and one of the worst Hands ever to serve a king.
 >
-> —[Pylos](wiki:Pylos) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Pylos to Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-05.md:195`)
 
 > White wool hangings covered the walls, and there was a white shield and two crossed longswords mounted above the hearth. The chair behind the table was old black [oak](wiki:Oak), with cushions of blanched cowhide, the leather worn thin. Worn by the bony arse of [Barristan the Bold](wiki:Barristan_Selmy) and Ser [Gerold Hightower](wiki:Gerold_Hightower) before him, by Prince [Aemon the Dragonknight](wiki:Aemon_Targaryen_(son_of_Viserys_II)), Ser Ryam Redwyne, and the [Demon of Darry](wiki:Demon_of_Darry), by Ser [Duncan the Tall](wiki:Duncan_the_Tall) and the Pale Griffin [Alyn Connington](wiki:Alyn_Connington). How could the Kingslayer belong in such exalted company?(wiki:Ryam_Redwyne.cite_ref-Rasos62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-1)
 >

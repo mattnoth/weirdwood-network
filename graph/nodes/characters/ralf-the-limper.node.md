@@ -36,6 +36,6 @@ Only fourteen ships of Ralf the Limper's squadron join up with the rest of the I
 
 ## Quotes
 
-> This voyage was cursed from the first. The [Crow’s Eye](wiki:Euron_Greyjoy) fears you, my lord, why else send you so far away? He does not mean for us to return.(wiki:Ralf_the_Limper.cite_ref-Radwd56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+> This voyage was cursed from the first. The Crow’s Eye fears you, my lord, why else send you so far away? He does not mean for us to return.
 >
-> —Ralf to [Victarion Greyjoy](wiki:Victarion_Greyjoy)
+> —Ralf to Victarion Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-iron-suitor-01.md:23`)

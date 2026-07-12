@@ -117,9 +117,9 @@ While showing Ser [Loras Tyrell](wiki:Loras_Tyrell) the [White Book](wiki:White_
 >
 > —[Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen)
 
-> Ser Criston protects [the princess](wiki:Rhaenyra_Targaryen) from her enemies, but who protects the princess from Ser Criston?(wiki:Criston_Cole.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-14)
+> Ser Criston protects the princess from her enemies, but who protects the princess from Ser Criston?
 >
-> —[Alicent Hightower](wiki:Alicent_Hightower) to the court of [Viserys I Targaryen](wiki:Viserys_I_Targaryen)
+> —Alicent Hightower to the court of Viserys I Targaryen, F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p02.md:87`)
 
 > When he looks at you, he sees the little girl you were, not the woman you've become, but I can teach you how to make him see you as a woman.(wiki:Criston_Cole.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-15)
 >
@@ -133,9 +133,9 @@ While showing Ser [Loras Tyrell](wiki:Loras_Tyrell) the [White Book](wiki:White_
 >
 > —[Pate of Longleaf](wiki:Pate_of_Longleaf) to Criston
 
-> Criston the Kingmaker had set brother against sister and divided the [Kingsguard](wiki:Kingsguard) against itself, bringing on the terrible war the singers named the [Dance of the Dragons](wiki:Dance_of_the_Dragons).(wiki:Criston_Cole.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
+> Criston the Kingmaker had set brother against sister and divided the Kingsguard against itself, bringing on the terrible war the singers named the Dance of the Dragons.
 >
-> —thoughts of [Arys Oakheart](wiki:Arys_Oakheart)
+> —thoughts of Arys Oakheart, AFFC (`sources/chapters/affc/affc-the-soiled-knight-01.md:187`)
 
 > **Loras**: The heroes will always be remembered. The best.
 >
@@ -152,7 +152,6 @@ While showing Ser [Loras Tyrell](wiki:Loras_Tyrell) the [White Book](wiki:White_
 
 > With his pale green eyes, coal black hair, and easy charm, Cole soon became a favorite of all the ladies at court...not the least amongst them Rhaenyra Targaryen herself.
 > — Gyldayn's chronicle, on Criston Cole's appearance, F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p02.md:23`)
-
 
 ## Fire & Blood
 

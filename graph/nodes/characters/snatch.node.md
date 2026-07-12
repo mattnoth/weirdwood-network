@@ -56,6 +56,6 @@ When Brown Ben Plumm returns from visiting [Malazza](wiki:Malazza), the Girl Gen
 
 ### Quotes about Snatch
 
-> [Bronn](wiki:Bronn)'s meaner bastard shadow, or I'm [Baelor the Beloved](wiki:Baelor_I_Targaryen).(wiki:Snatch.cite_ref-Radwd57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+> Bronn's meaner bastard shadow, or I'm Baelor the Beloved.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s first impression of Snatch
+> —Tyrion Lannister's first impression of Snatch, ADWD (`sources/chapters/adwd/adwd-tyrion-11.md:269`)

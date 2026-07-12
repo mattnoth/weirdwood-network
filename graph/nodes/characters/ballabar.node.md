@@ -45,9 +45,9 @@ At the [wedding of King Tommen Baratheon and Margaery Tyrell](wiki:Wedding_of_To
 
 ## Quotes
 
-> Do you thirst, my lord? I have [your milk](wiki:Milk_of_the_poppy), your good milk. You must not fight, no, don't try to move, you need your rest.(wiki:Ballabar.cite_ref-Racok67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+> Do you thirst, my lord? I have your milk, your good milk. You must not fight, no, don't try to move, you need your rest.
 >
-> —Ballabar, to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Ballabar, to Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-15.md:61`)
 
 > The [maester](wiki:Maester) bade him be very still as he slid the tip of the knife in under his chin, beneath the mask. A slip of the hand here, and [Cersei](wiki:Cersei_Lannister) will be free of me, he thought. He could feel the blade sawing through the stiffened linen, only inches above his throat. Fortunately this soft pink man was not one of his sister's braver creatures.(wiki:Ballabar.cite_ref-Racok67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
 >

@@ -29,6 +29,6 @@ Old Crackbones is remembered for bringing peace to [Crackclaw Point](wiki:Crackc
 
 ## Quotes
 
-> Crackbones fought a [dragon](wiki:Dragon) too, but he didn't need [no magic sword](wiki:Just_Maid). He just tied its neck in a knot, so every time it [breathed fire](wiki:Dragonflame) it roasted its own arse.(wiki:Crackbones.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> Crackbones fought a dragon too, but he didn't need no magic sword. He just tied its neck in a knot, so every time it breathed fire it roasted its own arse.
 >
-> —[Dick Crabb](wiki:Dick_Crabb) to [Brienne of Tarth](wiki:Brienne_of_Tarth)
+> —Dick Crabb to Brienne of Tarth, AFFC (`sources/chapters/affc/affc-brienne-04.md:61`)

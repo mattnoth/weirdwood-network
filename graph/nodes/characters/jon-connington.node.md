@@ -137,9 +137,9 @@ Ser [Addam Whitehead](wiki:Addam_Whitehead) is among a group of men from the [We
 > Death, he knew, but slow. I still have time. A year. Two years. Five. Some stone men live for ten. Time enough to cross the sea, to see Griffin’s Roost again. To end the Usurper’s line for good and all, and put Rhaegar’s son upon the Iron Throne. Then Lord Jon Connington could die content.
 > —Jon's thoughts. `sources/chapters/adwd/adwd-the-lost-lord-01.md:239` (the death-clock moment; greyscale progression noted at :237)
 
-> I rose too high, loved too hard, dared too much. I tried to grasp a star, overreached, and fell.(wiki:Jon_Connington.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-15)
+> I rose too high, loved too hard, dared too much. I tried to grasp a star, overreached, and fell.
 >
-> —Jon's thoughts
+> —Jon's thoughts, ADWD (`sources/chapters/adwd/adwd-the-griffin-reborn-01.md:55`)
 
 > I failed [the father](wiki:Rhaegar_Targaryen), but I will not fail [the son](wiki:Aegon_Targaryen_(son_of_Rhaegar)).(wiki:Jon_Connington.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-16)
 >
@@ -151,9 +151,9 @@ Ser [Addam Whitehead](wiki:Addam_Whitehead) is among a group of men from the [We
 >
 > —[Tywin Lannister](wiki:Tywin_Lannister), on Jon being named [Hand of the King](wiki:Hand_of_the_King)
 
-> He has supped on hate himself, this one. It has warmed him in the night for years.(wiki:Jon_Connington.cite_ref-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-9)
+> He has supped on hate himself, this one. It has warmed him in the night for years.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
+> —Tyrion Lannister's thoughts, ADWD (`sources/chapters/adwd/adwd-tyrion-03.md:221`)
 
 > We want no songs about the gallant exile. Those who die heroic deaths are long remembered, thieves and drunks and cravens soon forgotten.(wiki:Jon_Connington.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-18)
 >
@@ -163,13 +163,13 @@ Ser [Addam Whitehead](wiki:Addam_Whitehead) is among a group of men from the [We
 >
 > —[Ronnet Connington](wiki:Ronnet_Connington), to the small council
 
-> What victories has he ever won that we should fear him? He could have ended [Robert's Rebellion](wiki:Robert's_Rebellion) at [Stoney Sept](wiki:Battle_of_the_Bells). He failed. Just as the [Golden Company](wiki:Golden_Company) has always failed. Some may rush to join them, aye. The realm is well rid of such fools.(wiki:Jon_Connington.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-9)
+> What victories has he ever won that we should fear him? He could have ended Robert's Rebellion at Stoney Sept. He failed. Just as the Golden Company has always failed. Some may rush to join them, aye. The realm is well rid of such fools.
 >
-> —[Mace Tyrell](wiki:Mace_Tyrell), to the small council
+> —Mace Tyrell, to the small council, ADWD (`sources/chapters/adwd/adwd-epilogue.md:59`)
 
-> If this is indeed Jon Connington, he will be a different man. Older, harder, more seasoned ... more dangerous.(wiki:Jon_Connington.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-10)
+> If this is indeed Jon Connington, he will be a different man. Older, harder, more seasoned ... more dangerous.
 >
-> —[Kevan Lannister](wiki:Kevan_Lannister)'s thoughts
+> —Kevan Lannister's thoughts, ADWD (`sources/chapters/adwd/adwd-epilogue.md:63`)
 
 > **Arianne**: What sort of man was he? Honest and honorable, venal and grasping, proud? **Daemon**: Proud, for a certainty. Even arrogant. A faithful friend to [Rhaegar](wiki:Rhaegar_Targaryen), but prickly with others. [Robert](wiki:Robert_I_Baratheon) was his liege, but I've heard it said that Connington chafed at serving such a lord.(wiki:Jon_Connington.cite_ref-Winds1_9-4)
 >

@@ -66,9 +66,9 @@ While Summer sleeps within the cave, he continues to hunt outside it, along with
 
 ### Quotes by Summer / Bran
 
-> Prince of the green, prince of the [wolfswood](wiki:Wolfswood). He was strong and swift and fierce, and all that lived in the good green world went in fear of him.(wiki:Summer.cite_ref-Rasos9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> Prince of the green, prince of the wolfswood. He was strong and swift and fierce, and all that lived in the good green world went in fear of him.
 >
-> —thoughts of Summer through [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Summer through Bran Stark, ASOS (`sources/chapters/asos/asos-bran-01.md:17`)
 
 > Black. [Night's Watch](wiki:Night's_Watch). They were Night's Watch. The direwolf did not care. They were meat. He was hungry.(wiki:Summer.cite_ref-Radwd4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-1)
 >
@@ -76,9 +76,9 @@ While Summer sleeps within the cave, he continues to hunt outside it, along with
 
 ### Quotes about Summer
 
-> He was silver and smoke, with eyes of yellow gold that saw all there was to see. Smaller than [Grey Wind](wiki:Grey_Wind), and more wary. Bran thought he was the smartest of the litter.(wiki:Summer.cite_ref-Ragot24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> He was silver and smoke, with eyes of yellow gold that saw all there was to see. Smaller than Grey Wind, and more wary. Bran thought he was the smartest of the litter.
 >
-> —[Bran Stark](wiki:Bran_Stark)'s thoughts
+> —Bran Stark's thoughts, AGOT (`sources/chapters/agot/agot-bran-04.md:13`)
 
 > Summer's howls were long and sad, full of grief and longing. [Shaggydog](wiki:Shaggydog)'s were more savage. Their voices echoed through the yards and halls until the castle rang and it seemed as though some very pack of [direwolves](wiki:Direwolves) haunted [Winterfell](wiki:Winterfell), instead of only two… two where they had once been six. Do they miss their brothers and sisters too? Bran wondered. Are they calling to [Grey Wind](wiki:Grey_Wind) and [Ghost](wiki:Ghost), to [Nymeria](wiki:Nymeria_(direwolf)) and [Lady](wiki:Lady_(direwolf))'s [Shade](wiki:Shades)? Do they want them to come home and be a pack together?(wiki:Summer.cite_ref-Racok4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1)
 >

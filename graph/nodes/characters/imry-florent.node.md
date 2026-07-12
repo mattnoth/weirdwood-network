@@ -53,10 +53,10 @@ The imprisoned Lord [Alester Florent](wiki:Alester_Florent) tells Davos that his
 
 ### Quotes about Imry
 
-> It had been Ser Imry Florent who led them blindly up the [Blackwater Rush](wiki:Blackwater_Rush) with all oars pulling, paying no heed to the small stone towers at the mouth of the river. Davos was [not like to forget him](wiki:Battle_of_the_Blackwater).(wiki:Imry_Florent.cite_ref-Rasos25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+> It had been Ser Imry Florent who led them blindly up the Blackwater Rush with all oars pulling, paying no heed to the small stone towers at the mouth of the river. Davos was not like to forget him.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-03.md:129`)
 
-> Curse [the Imp](wiki:Tyrion_Lannister), curse the [pyromancers](wiki:Alchemists'_Guild), curse that fool of Florent who sailed [my fleet](wiki:Royal_fleet) into the [jaws of a trap](wiki:Battle_of_the_Blackwater). Or curse me for my stubborn pride, for sending her away when I needed her most. But not [Melisandre](wiki:Melisandre). She remains my faithful servant.(wiki:Imry_Florent.cite_ref-Rasos36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> Curse the Imp, curse the pyromancers, curse that fool of Florent who sailed my fleet into the jaws of a trap. Or curse me for my stubborn pride, for sending her away when I needed her most. But not Melisandre. She remains my faithful servant.
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Stannis Baratheon to Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-04.md:157`)

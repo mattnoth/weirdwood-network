@@ -40,6 +40,6 @@ Tormund mentions to Jon that Munda and Ryk are now married, and she is well trea
 >
 > —[Tormund](wiki:Tormund) and [Jon Snow](wiki:Jon_Snow)
 
-> Took that [Longspear Ryk](wiki:Ryk) to husband, if you believe it. Boy's got more cock than sense, you ask me, but he treats her well enough. I told him if he ever hurt her, I'd yank his member off and beat him bloody with it.(wiki:Munda.cite_ref-Radwd53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+> Took that Longspear Ryk to husband, if you believe it. Boy's got more cock than sense, you ask me, but he treats her well enough. I told him if he ever hurt her, I'd yank his member off and beat him bloody with it.
 >
-> —[Tormund](wiki:Tormund) to [Jon Snow](wiki:Jon_Snow)
+> —Tormund to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-11.md:43`)

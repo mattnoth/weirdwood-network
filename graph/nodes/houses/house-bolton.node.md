@@ -138,9 +138,9 @@ Theon tells Stannis he expects that Ramsay will be marching on the [crofters' vi
 >
 > —the [Lazy Eel](wiki:Lazy_Eel)'s proprietor to his customers
 
-> And that seal ... the Boltons of the [Dreadfort](wiki:Dreadfort) went into battle beneath pink banners spattered with little drops of blood. It only stood to reason that they would use pink sealing wax as well.(wiki:House_Bolton.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-3)
+> And that seal ... the Boltons of the Dreadfort went into battle beneath pink banners spattered with little drops of blood. It only stood to reason that they would use pink sealing wax as well.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-wayward-bride-01.md:15`)
 
 > **Cromm**: They are only [wolves](wiki:Northmen). **Asha**: [The wolves](wiki:House_Stark) are all slain. These are the [skinners](wiki:Flaying) who slew them.(wiki:House_Bolton.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-4)
 >
@@ -150,6 +150,6 @@ Theon tells Stannis he expects that Ramsay will be marching on the [crofters' vi
 >
 > —[Robett Glover](wiki:Robett_Glover) to [Wyman Manderly](wiki:Wyman_Manderly) and [Davos Seaworth](wiki:Davos_Seaworth)
 
-> Let me bathe in Bolton blood before I die. I want to feel it spatter across my face when my axe bites deep into a Bolton skull. I want to lick it off my lips and die with the taste of it on my tongue.(wiki:House_Bolton.cite_ref-Radwd42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_57-0)
+> Let me bathe in Bolton blood before I die. I want to feel it spatter across my face when my axe bites deep into a Bolton skull. I want to lick it off my lips and die with the taste of it on my tongue.
 >
-> —[Hugo Wull](wiki:Hugo_Wull) to [Corliss Penny](wiki:Corliss_Penny)
+> —Hugo Wull to Corliss Penny, ADWD (`sources/chapters/adwd/adwd-the-kings-prize-01.md:245`)

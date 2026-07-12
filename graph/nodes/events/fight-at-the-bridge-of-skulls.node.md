@@ -60,6 +60,6 @@ The [Weeper](wiki:Weeper) survives the Bridge of Skulls and remains [beyond the 
 >
 > —[Eddison Tollett](wiki:Eddison_Tollett) and [Grenn](wiki:Grenn)
 
-> We bled to stop the wildlings at the [Gorge](wiki:Gorge). Good men were slain there, friends and brothers.(wiki:Fight_at_the_Bridge_of_Skulls.cite_ref-Radwd10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+> We bled to stop the wildlings at the Gorge. Good men were slain there, friends and brothers.
 >
-> —[Bowen Marsh](wiki:Bowen_Marsh) to [Jon Snow](wiki:Jon_Snow)
+> —Bowen Marsh to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-03.md:101`)

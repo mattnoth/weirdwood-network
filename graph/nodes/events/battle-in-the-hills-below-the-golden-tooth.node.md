@@ -56,6 +56,6 @@ The rout of the rivermen beneath the Golden Tooth allows Jaime to then fight the
 >
 > —[Tywin Lannister](wiki:Tywin_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> On the morning after the battle, the [crows](wiki:Crow) had feasted on victors and vanquished alike, as once they had feasted on [Rhaegar Targaryen](wiki:Rhaegar_Targaryen) after [the Trident](wiki:Battle_of_the_Trident).(wiki:Battle_in_the_hills_below_the_Golden_Tooth.cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)
+> On the morning after the battle, the crows had feasted on victors and vanquished alike, as once they had feasted on Rhaegar Targaryen after the Trident.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-01.md:141`)

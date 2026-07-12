@@ -66,9 +66,9 @@ The Battle of the Bells forced King [Aerys II Targaryen](wiki:Aerys_II_Targaryen
 
 ## Quotes
 
-> [Connington](wiki:Jon_Connington) wounded [your grandfather Tully](wiki:Hoster_Tully) sore, though, and killed Ser [Denys Arryn](wiki:Denys_Arryn), the darling of the [Vale](wiki:Vale_of_Arryn). But when he saw the day was lost, he flew off as fast as the [griffins](wiki:Griffin) on his shield. The Battle of the Bells, they called it after. [Robert](wiki:Robert_I_Baratheon) always said [your father](wiki:Eddard_Stark) won it, not him.(wiki:Battle_of_the_Bells.cite_ref-Rasos29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-16)
+> Connington wounded your grandfather Tully sore, though, and killed Ser Denys Arryn, the darling of the Vale. But when he saw the day was lost, he flew off as fast as the griffins on his shield. The Battle of the Bells, they called it after. Robert always said your father won it, not him.
 >
-> —[Harwin](wiki:Harwin) to [Arya Stark](wiki:Arya_Stark)
+> —Harwin to Arya Stark, ASOS (`sources/chapters/asos/asos-arya-05.md:13`)
 
 > I'm named Bella. For the battle. I bet I could ring your bell, too.(wiki:Battle_of_the_Bells.cite_ref-Rasos29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-17)
 >
@@ -82,9 +82,9 @@ The Battle of the Bells forced King [Aerys II Targaryen](wiki:Aerys_II_Targaryen
 >
 > —thoughts of [Jon Connington](wiki:Jon_Connington)
 
-> I wanted the glory of slaying [Robert](wiki:Robert_I_Baratheon) in single combat, and I did not want the name of butcher. So Robert escaped me and cut down [Rhaegar](wiki:Rhaegar_Targaryen) on the [Trident](wiki:Battle_of_the_Trident).(wiki:Battle_of_the_Bells.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-7)
+> I wanted the glory of slaying Robert in single combat, and I did not want the name of butcher. So Robert escaped me and cut down Rhaegar on the Trident.
 >
-> —thoughts of [Jon Connington](wiki:Jon_Connington)
+> —thoughts of Jon Connington, ADWD (`sources/chapters/adwd/adwd-the-griffin-reborn-01.md:71`)
 
 ## Book Citations
 

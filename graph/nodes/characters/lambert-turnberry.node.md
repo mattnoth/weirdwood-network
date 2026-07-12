@@ -33,6 +33,6 @@ Lambert is held with the rest of Margaery's falsely accused lovers in a dungeon 
 
 ## Quotes
 
-> Ser Lambert, the fool who hides a good eye behind a patch.(wiki:Lambert_Turnberry.cite_ref-Raffc28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+> Ser Lambert, the fool who hides a good eye behind a patch.
 >
-> —[Taena Merryweather](wiki:Taena_Merryweather)
+> —Taena Merryweather, AFFC (`sources/chapters/affc/affc-cersei-06.md:33`)

@@ -34,6 +34,6 @@ Later, in the [hollow hill](wiki:Hollow_hill), Tom accuses [Sandor Clegane](wiki
 
 ## Quotes
 
-> Are you Old Pate's daughter, then? A sister? A wife? Tell me no lies, Squab. I buried Old Pate myself, right there under that willow where you were hiding, and you don't have his look.(wiki:Old_Pate.cite_ref-Rasos13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> Are you Old Pate's daughter, then? A sister? A wife? Tell me no lies, Squab. I buried Old Pate myself, right there under that willow where you were hiding, and you don't have his look.
 >
-> —[Tom of Sevenstreams](wiki:Tom_of_Sevenstreams) to [Arya Stark](wiki:Arya_Stark)
+> —Tom of Sevenstreams to Arya Stark, ASOS (`sources/chapters/asos/asos-arya-02.md:167`)

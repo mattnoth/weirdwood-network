@@ -43,6 +43,6 @@ Edmure has Tyrion's recruits and the red cloaks that aided Jaime hanged from the
 >
 > —[Hallis Mollen](wiki:Hallis_Mollen), [Wendel Manderly](wiki:Wendel_Manderly), and [Perwyn Frey](wiki:Perwyn_Frey)
 
-> This was the Imp's work, Catelyn suspected; it stank of the same sort of cunning he had displayed at the [Eyrie](wiki:Eyrie). Once, she would have named [Tyrion](wiki:Tyrion_Lannister) the least dangerous of the [Lannisters](wiki:House_Lannister). Now she was not so certain.(wiki:Plot_to_free_Jaime_Lannister.cite_ref-Racok39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+> This was the Imp's work, Catelyn suspected; it stank of the same sort of cunning he had displayed at the Eyrie. Once, she would have named Tyrion the least dangerous of the Lannisters. Now she was not so certain.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-05.md:185`)

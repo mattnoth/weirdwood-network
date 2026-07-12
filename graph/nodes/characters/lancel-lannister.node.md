@@ -131,9 +131,9 @@ Kevan Lannister, the Lord Regent for King Tommen, considers naming his son Lance
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
 
-> Though only seventeen, he might have passed for seventy; grey-faced, gaunt, with hollow cheeks, sunken eyes, and hair as white and brittle as chalk. How can Lancel be among the living when [Tywin Lannister](wiki:Tywin_Lannister) is dead? Have [the gods](wiki:Faith_of_the_Seven) taken leave of their wits?(wiki:Lancel_Lannister.cite_ref-Raffc7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-2)
+> Though only seventeen, he might have passed for seventy; grey-faced, gaunt, with hollow cheeks, sunken eyes, and hair as white and brittle as chalk. How can Lancel be among the living when Tywin Lannister is dead? Have the gods taken leave of their wits?
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister)'s thoughts
+> —Cersei Lannister's thoughts, AFFC (`sources/chapters/affc/affc-cersei-02.md:59`)
 
 > And Lancel ... I suppose we should have seen this coming from afar. A life protecting the [High Septon](wiki:High_Sparrow) is not so different from a life protecting [the king](wiki:Tommen_Baratheon), after all.(wiki:Lancel_Lannister.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-1)
 >

@@ -105,9 +105,9 @@ In [157 AC](wiki:Years_after_Aegon's_Conquest), King [Daeron I Targaryen](wiki:
 
 ## Quotes
 
-> [Dornish](wiki:Dornishmen) spearmen appeared from nowhere, like desert flowers after a rain.(wiki:First_Dornish_War.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-26)
+> Dornish spearmen appeared from nowhere, like desert flowers after a rain.
 >
-> —writings of [Gyldayn](wiki:Gyldayn)
+> —writings of Gyldayn, F&B (`sources/chapters/fab/fab-reign-of-the-dragon-04.md:85`)
 
 > Yet despite a reign covered in glory, the First Dornish War stood out as [Aegon's](wiki:Aegon_I_Targaryen) one great defeat.(wiki:First_Dornish_War.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 >

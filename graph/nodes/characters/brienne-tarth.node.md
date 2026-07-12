@@ -100,9 +100,9 @@ Having been spared by the brotherhood, Brienne appears briefly at [Pennytree](wi
 
 ### Quotes by Brienne
 
-> Winter will never come for the likes of us. Should we die in battle, they will surely sing of us, and it's always summer in the songs. In the songs all [knights](wiki:Knight) are gallant, all maids are beautiful, and the sun is always shining.(wiki:Brienne_Tarth.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13)
+> Winter will never come for the likes of us. Should we die in battle, they will surely sing of us, and it's always summer in the songs. In the songs all knights are gallant, all maids are beautiful, and the sun is always shining.
 >
-> —Brienne to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Brienne to Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-02.md:227`)
 
 > **Brienne**: Fighting is better than this waiting. You don't feel so helpless when you fight. You have a sword and a horse, sometimes an axe. When you're armored it's hard for anyone to hurt you. **Catelyn**: [Knights](wiki:Knight) die in battle. **Brienne**: As ladies die in childbed. No one sings songs about them.(wiki:Brienne_Tarth.cite_ref-Racok45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-6)
 >
@@ -124,9 +124,9 @@ Having been spared by the brotherhood, Brienne appears briefly at [Pennytree](wi
 >
 > —Brienne to the [Elder Brother](wiki:Elder_Brother_(Quiet_Isle))
 
-> [Seven](wiki:Brave_Companions), Brienne thought again, despairing. She had no chance against seven, she knew. No chance, and no choice.(wiki:Brienne_Tarth.cite_ref-Raffc37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-1)
+> Seven, Brienne thought again, despairing. She had no chance against seven, she knew. No chance, and no choice.
 >
-> —thoughts of Brienne
+> —thoughts of Brienne, AFFC (`sources/chapters/affc/affc-brienne-07.md:273`)
 
 ### Quotes about Brienne
 
@@ -142,25 +142,25 @@ Having been spared by the brotherhood, Brienne appears briefly at [Pennytree](wi
 >
 > —[Guyard Morrigen](wiki:Guyard_Morrigen) and [Cortnay Penrose](wiki:Cortnay_Penrose)
 
-> There is a sweet innocence about you, child.(wiki:Brienne_Tarth.cite_ref-Racok55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-1)
+> There is a sweet innocence about you, child.
 >
-> —[Catelyn Stark](wiki:Catelyn_Stark) to Brienne
+> —Catelyn Stark to Brienne, ACOK (`sources/chapters/acok/acok-catelyn-07.md:53`)
 
 > She is stronger than I am. The realization chilled him.(wiki:Brienne_Tarth.cite_ref-Rasos21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-3)
 >
 > —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
 
-> The light was so dim that Jaime could scarcely see her, though they stood a scant few feet apart. In this light she could almost be a beauty, he thought. In this light she could almost be a [knight](wiki:Knight).(wiki:Brienne_Tarth.cite_ref-Rasos44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> The light was so dim that Jaime could scarcely see her, though they stood a scant few feet apart. In this light she could almost be a beauty, he thought. In this light she could almost be a knight.
 >
-> —dream of [Jaime Lannister](wiki:Jaime_Lannister)
+> —dream of Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-06.md:123`)
 
 > **Loras**: Draw your sword, woman! **Jaime**: Best hope she doesn't. Or it's like to be your corpse we carry out. The wench is as strong as [Gregor Clegane](wiki:Gregor_Clegane), though not so pretty.(wiki:Brienne_Tarth.cite_ref-Rasos62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-3)
 >
 > —[Loras Tyrell](wiki:Loras_Tyrell) and [Jaime Lannister](wiki:Jaime_Lannister)
 
-> Brienne's ugly, and pighead stubborn. But she lacks the wits to be a liar, and she is loyal past the point of sense.(wiki:Brienne_Tarth.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-1)
+> Brienne's ugly, and pighead stubborn. But she lacks the wits to be a liar, and she is loyal past the point of sense.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister) to [Loras Tyrell](wiki:Loras_Tyrell)
+> —Jaime Lannister to Loras Tyrell, ASOS (`sources/chapters/asos/asos-jaime-08.md:239`)
 
 > **Loras**: [Renly](wiki:Renly_Baratheon) thought she was absurd. A woman dressed in man's mail, pretending to be a [knight](wiki:Knight). **Jaime**: If he'd ever seen her in pink satin and [Myrish](wiki:Myr) lace, he would not have complained. **Loras**: I asked him why he kept her close, if he thought her so grotesque. He said that all his other knights wanted things of him, castles or honors or riches, but all that Brienne wanted was to die for him.(wiki:Brienne_Tarth.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-2)
 >
@@ -174,13 +174,13 @@ Having been spared by the brotherhood, Brienne appears briefly at [Pennytree](wi
 >
 > —[Goodwin](wiki:Goodwin) to Brienne
 
-> It is said that [your father](wiki:Selwyn_Tarth) is a good man. If so, I pity him. Some men are blessed with sons, some with daughters. No man deserves to be cursed with such as you.(wiki:Brienne_Tarth.cite_ref-Raffc25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_39-0)
+> It is said that your father is a good man. If so, I pity him. Some men are blessed with sons, some with daughters. No man deserves to be cursed with such as you.
 >
-> —[Randyll Tarly](wiki:Randyll_Tarly) to Brienne
+> —Randyll Tarly to Brienne, AFFC (`sources/chapters/affc/affc-brienne-05.md:67`)
 
-> The queen remembered the Maid of Tarth, a huge, ugly, shambling thing who dressed in man's mail. [Jaime](wiki:Jaime_Lannister) would never abandon me for such a creature.(wiki:Brienne_Tarth.cite_ref-Radwd54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_38-1)
+> The queen remembered the Maid of Tarth, a huge, ugly, shambling thing who dressed in man's mail. Jaime would never abandon me for such a creature.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, ADWD (`sources/chapters/adwd/adwd-cersei-01.md:207`)
 
 > Beauty, they called her . . . mocking. The hair beneath the visor was a squirrel’s nest of dirty straw, and her face . . . Brienne’s eyes were large and very blue, a young girl’s eyes, trusting and guileless, but the rest . . . her features were broad and coarse, her teeth prominent and crooked, her mouth too wide, her lips so plump they seemed swollen. A thousand freckles speckled her cheeks and brow, and her nose had been broken more than once.
 >
@@ -193,4 +193,3 @@ Having been spared by the brotherhood, Brienne appears briefly at [Pennytree](wi
 > ”
 >
 > — sources/chapters/acok/acok-catelyn-02.md:139 · Verbatim oath/request that marks Brienne's recruitment to the Rainbow Guard — best book source for the event  _(capture: chapter-quote sweep, other)_
-

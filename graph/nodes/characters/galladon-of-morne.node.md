@@ -36,6 +36,6 @@ Galladon might have been a warrior from the [Age of Heroes](wiki:Age_of_Heroes) 
 
 ## Quotes
 
-> The Perfect Knight? The Perfect Fool, he sounds like. What's the point o' having [some magic sword](wiki:Just_Maid) if you don't bloody well use it?(wiki:Galladon_of_Morne.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> The Perfect Knight? The Perfect Fool, he sounds like. What's the point o' having some magic sword if you don't bloody well use it?
 >
-> —[Dick Crabb](wiki:Dick_Crabb) to [Brienne of Tarth](wiki:Brienne_of_Tarth)
+> —Dick Crabb to Brienne of Tarth, AFFC (`sources/chapters/affc/affc-brienne-04.md:53`)

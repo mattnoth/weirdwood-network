@@ -31,9 +31,9 @@ When the group is discovered by the wildlings, Dalbridge stays behind to hold th
 
 ## Quotes
 
-> It's always pretty women in my dreams. Would that I dreamed more often.(wiki:Dalbridge.cite_ref-Racok53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+> It's always pretty women in my dreams. Would that I dreamed more often.
 >
-> —Dalbridge to [Jon Snow](wiki:Jon_Snow)
+> —Dalbridge to Jon Snow, ACOK (`sources/chapters/acok/acok-jon-07.md:109`)
 
 ## Edges
 

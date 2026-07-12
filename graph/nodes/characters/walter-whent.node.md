@@ -46,6 +46,6 @@ Ser [Barristan Selmy](wiki:Barristan_Selmy) remembers Walter as "Old Lord Whent"
 >
 > —writings of [Yandel](wiki:Yandel)
 
-> Lord Whent was as open handed as he was rich. The lavish purses he proclaimed drew hundreds of challengers.(wiki:Walter_Whent.cite_ref-Rasos42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+> Lord Whent was as open handed as he was rich. The lavish purses he proclaimed drew hundreds of challengers.
 >
-> —[Arstan Whitebeard](wiki:Barristan_Selmy) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Arstan Whitebeard to Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-04.md:329`)

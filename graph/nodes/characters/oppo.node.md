@@ -38,6 +38,6 @@ At the start of the [Battle of Slaver's Bay](wiki:Second_Siege_of_Meereen), as t
 
 ## Quotes
 
-> His blood is on [my sister’s](wiki:Cersei_Lannister) hands, and the hands of the brutes who killed him.(wiki:Oppo.cite_ref-Radwd33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+> His blood is on my sister’s hands, and the hands of the brutes who killed him.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Jorah Mormont](wiki:Jorah_Mormont)
+> —Tyrion Lannister to Jorah Mormont, ADWD (`sources/chapters/adwd/adwd-tyrion-08.md:161`)

@@ -32,6 +32,6 @@ Gevin is listed among the crew of *[Sea Bitch](wiki:Sea_Bitch)*.(wiki:Gevin_Harl
 
 ## Quotes
 
-> Paying the [iron price](wiki:Iron_price). [My lord father](wiki:Balon_Greyjoy) would approve.(wiki:Gevin_Harlaw.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+> Paying the iron price. My lord father would approve.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-03.md:45`)

@@ -57,9 +57,9 @@ It becomes evident that Godric harbors doubts about Queen Regent [Cersei Lannist
 
 ### Quotes by Godric
 
-> These kings never bother with the [Sisters](wiki:Three_Sisters). Why should they? We are small and poor. And yet you're here. Delivered to me by the storms.(wiki:Godric_Borrell.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-16)
+> These kings never bother with the Sisters. Why should they? We are small and poor. And yet you're here. Delivered to me by the storms.
 >
-> —Godric to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Godric to Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-01.md:59`)
 
 > The sea's a treacherous cruel thing.(wiki:Godric_Borrell.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-17)
 >
@@ -67,6 +67,6 @@ It becomes evident that Godric harbors doubts about Queen Regent [Cersei Lannist
 
 ### Quotes about Godric
 
-> The lords of the [Three Sisters](wiki:Three_Sisters) had a black repute, and none more so than Godric Borrell, [Lord of Sweetsister](wiki:Lord_of_Sweetsister), [Shield of Sisterton](wiki:Shield_of_Sisterton), [Master of Breakwater Castle](wiki:Master_of_Breakwater_Castle), and [Keeper of the Night Lamp](wiki:Keeper_of_the_Night_Lamp) … but even robber lords and wreckers were bound by the [ancient laws of hospitality](wiki:Guest_right).(wiki:Godric_Borrell.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-18)
+> The lords of the Three Sisters had a black repute, and none more so than Godric Borrell, Lord of Sweetsister, Shield of Sisterton, Master of Breakwater Castle, and Keeper of the Night Lamp … but even robber lords and wreckers were bound by the ancient laws of hospitality.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-01.md:119`)

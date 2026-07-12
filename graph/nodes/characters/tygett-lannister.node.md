@@ -53,9 +53,9 @@ During the [siege of Riverrun](wiki:Siege_of_Riverrun), [Genna Lannister](wiki:G
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Jacelyn Bywater](wiki:Jacelyn_Bywater)
 
-> It was hard for all my brothers. That shadow [Tywin](wiki:Tywin_Lannister) cast was long and black, and each of them had to struggle to find a little sun. Tygett tried to be his own man, but he could never match your father, and that just made him angrier as the years went by.(wiki:Tygett_Lannister.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> It was hard for all my brothers. That shadow Tywin cast was long and black, and each of them had to struggle to find a little sun. Tygett tried to be his own man, but he could never match your father, and that just made him angrier as the years went by.
 >
-> —[Genna Lannister](wiki:Genna_Lannister) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Genna Lannister to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-05.md:309`)
 
 ## Edges
 

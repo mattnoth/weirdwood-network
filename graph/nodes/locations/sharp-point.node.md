@@ -36,6 +36,6 @@ The watchtower at Sharp Point reminds Ser [Davos Seaworth](wiki:Davos_Seaworth) 
 
 ## Quotes
 
-> The great fire that burned atop the Sharp Point watchtower at the end of [Massey's Hook](wiki:Massey's_Hook) reminded him of [the ruby](wiki:Melisandre's_ruby) she wore at her throat, and when the world turned red at dawn and sunset the drifting clouds turned the same color as the silks and satins of her rustling gowns.(wiki:Sharp_Point.cite_ref-Rasos10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+> The great fire that burned atop the Sharp Point watchtower at the end of Massey's Hook reminded him of the ruby she wore at her throat, and when the world turned red at dawn and sunset the drifting clouds turned the same color as the silks and satins of her rustling gowns.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-02.md:13`)

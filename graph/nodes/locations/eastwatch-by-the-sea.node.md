@@ -71,22 +71,22 @@ In order to save thousands of wildlings trapped at [Hardhome](wiki:Hardhome), Co
 >
 > — Jeor Mormont to Tyrion Lannister, AGOT Tyrion III, `sources/chapters/agot/agot-tyrion-03.md:107`
 
-> Davos had traded at Eastwatch in his smuggling days. The [black brothers](wiki:Night's_Watch) made hard enemies but good customers, for a ship with the right cargo.(wiki:Eastwatch-by-the-Sea.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-1)
+> Davos had traded at Eastwatch in his smuggling days. The black brothers made hard enemies but good customers, for a ship with the right cargo.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-05.md:279`)
 
-> Those look like Eastwatch men. Sailors on horses.(wiki:Eastwatch-by-the-Sea.cite_ref-Rasos73.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-2)
+> Those look like Eastwatch men. Sailors on horses.
 >
-> —[Mance Rayder](wiki:Mance_Rayder) to [Jon Snow](wiki:Jon_Snow)
+> —Mance Rayder to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-10.md:241`)
 
-> Eastwatch was a better place to trade than [Castle Black](wiki:Castle_Black); that was where the ships came, laden with goods from the [fabled lands beyond the sea](wiki:Essos).(wiki:Eastwatch-by-the-Sea.cite_ref-Radwdprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+> Eastwatch was a better place to trade than Castle Black; that was where the ships came, laden with goods from the fabled lands beyond the sea.
 >
-> —thoughts of [Varamyr](wiki:Varamyr)
+> —thoughts of Varamyr, ADWD (`sources/chapters/adwd/adwd-prologue.md:121`)
 
-> At Eastwatch I was patient ... and cold, so very cold.(wiki:Eastwatch-by-the-Sea.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-0)
+> At Eastwatch I was patient ... and cold, so very cold.
 >
-> —[Salladhor Saan](wiki:Salladhor_Saan) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Salladhor Saan to Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-01.md:55`)
 
-> We are done with Eastwatch. We did not like it there. A queen should be mistress beneath her own roof. We found your [Cotter Pyke](wiki:Cotter_Pyke) to be an uncouth and unpleasant man, quarrelsome and niggardly.(wiki:Eastwatch-by-the-Sea.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-1)
+> We are done with Eastwatch. We did not like it there. A queen should be mistress beneath her own roof. We found your Cotter Pyke to be an uncouth and unpleasant man, quarrelsome and niggardly.
 >
-> —[Selyse Florent](wiki:Selyse_Florent) to [Jon Snow](wiki:Jon_Snow)
+> —Selyse Florent to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-09.md:53`)

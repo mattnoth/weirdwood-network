@@ -36,9 +36,9 @@ Daenerys has Grey Worm order her [Unsullied](wiki:Unsullied) to travel in pairs 
 
 ## Quotes
 
-> It is a lucky name. The name this one was born to was accursed. That was the name he had when he was taken for a slave. But Grey Worm is the name this one drew the day Daenerys Stormborn set him free.(wiki:Grey_Worm.cite_ref-Rasos42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+> It is a lucky name. The name this one was born to was accursed. That was the name he had when he was taken for a slave. But Grey Worm is the name this one drew the day Daenerys Stormborn set him free.
 >
-> —Grey Worm to Daenerys Targaryen
+> —Grey Worm to Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-04.md:45`)
 
 ### Quotes about Grey Worm
 

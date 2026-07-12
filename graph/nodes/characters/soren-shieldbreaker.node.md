@@ -35,6 +35,6 @@ Soren is given the abandoned castle [Stonedoor](wiki:Stonedoor) by [Jon Snow](wi
 
 ## Quotes
 
-> Soren's axe is yours, Jon Snow, if ever you have need of such.(wiki:Soren_Shieldbreaker.cite_ref-Radwd58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> Soren's axe is yours, Jon Snow, if ever you have need of such.
 >
-> —Soren to [Jon Snow](wiki:Jon_Snow)
+> —Soren to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-12.md:151`)

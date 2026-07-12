@@ -28,9 +28,9 @@ Senelle is present when the news of Lord [Tywin Lannister](wiki:Tywin_Lannister)
 
 ## Quotes
 
-> Do not presume to smile at me, you treacherous little bitch. You will be begging me for mercy before I’m done with you.(wiki:Senelle.cite_ref-Raffc12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+> Do not presume to smile at me, you treacherous little bitch. You will be begging me for mercy before I’m done with you.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister)'s thoughts
+> —Cersei Lannister's thoughts, AFFC (`sources/chapters/affc/affc-cersei-03.md:209`)
 
 ## Edges
 

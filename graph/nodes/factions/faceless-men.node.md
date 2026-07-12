@@ -68,25 +68,25 @@ Arya observes a meeting of eleven Faceless Men in the House of Black and White, 
 >
 > —[Petyr Baelish](wiki:Petyr_Baelish) to [Pycelle](wiki:Pycelle)
 
-> The Faceless Men are expensive. If truth be told, I did the [Targaryen girl](wiki:Daenerys_Targaryen) more good than you with all your talk of honor. Let some [sellsword](wiki:Sellsword) drunk on visions of [lordship](wiki:Lord) try to kill her. Likely he'll make a botch of it, and afterward the [Dothraki](wiki:Dothraki) will be on their guard. If we'd sent a Faceless Man after her, she'd be as good as buried.(wiki:Faceless_Men.cite_ref-Ragot33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-2)
+> The Faceless Men are expensive. If truth be told, I did the Targaryen girl more good than you with all your talk of honor. Let some sellsword drunk on visions of lordship try to kill her. Likely he'll make a botch of it, and afterward the Dothraki will be on their guard. If we'd sent a Faceless Man after her, she'd be as good as buried.
 >
-> —[Petyr Baelish](wiki:Petyr_Baelish) to [Eddard Stark](wiki:Eddard_Stark)
+> —Petyr Baelish to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-08.md:147`)
 
-> [Jaqen](wiki:Jaqen_H'ghar) passed a hand down his face from forehead to chin, and where it went he changed. His cheeks grew fuller, his eyes closer; his nose hooked, a scar appeared on his right cheek where no scar had been before. And when he shook his head, his long straight hair, half red and half white, dissolved away to reveal a cap of tight black curls.(wiki:Faceless_Men.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)
+> Jaqen passed a hand down his face from forehead to chin, and where it went he changed. His cheeks grew fuller, his eyes closer; his nose hooked, a scar appeared on his right cheek where no scar had been before. And when he shook his head, his long straight hair, half red and half white, dissolved away to reveal a cap of tight black curls.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ACOK (`sources/chapters/acok/acok-arya-09.md:311`)
 
-> Sometimes she wished she had gone off across the [narrow sea](wiki:Narrow_sea) with [Jaqen H'ghar](wiki:Jaqen_H'ghar). She still had the stupid coin he'd given her, a piece of [iron](wiki:Iron) no larger than a penny and rusted along the rim. One side had writing on it, queer words she could not read. The other showed a man's head, but so worn that all his features had rubbed off. He said it was of great value, but that was probably a lie too, like his name and even his face.(wiki:Faceless_Men.cite_ref-Racok64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-1)
+> Sometimes she wished she had gone off across the narrow sea with Jaqen H'ghar. She still had the stupid coin he'd given her, a piece of iron no larger than a penny and rusted along the rim. One side had writing on it, queer words she could not read. The other showed a man's head, but so worn that all his features had rubbed off. He said it was of great value, but that was probably a lie too, like his name and even his face.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ACOK (`sources/chapters/acok/acok-arya-10.md:53`)
 
 > Are you a god, to decide who should live and who should die? We give [the gift](wiki:Gift_of_mercy) to those marked by [Him of Many Faces](wiki:Many-Faced_God), after prayers and sacrifice. So has it always been, from the beginning. [...] All men must die. We are but death's instruments, not death himself. When you slew [the singer](wiki:Dareon), you took god's powers on yourself. We kill men, but we do not presume to judge them.(wiki:Faceless_Men.cite_ref-Radwd45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4)
 >
 > —[Kindly man](wiki:Kindly_man) to [Arya Stark](wiki:Arya_Stark)
 
-> Death holds no sweetness in [this house](wiki:House_of_Black_and_White). We are not warriors, nor soldiers, nor swaggering [bravos](wiki:Bravo) puffed up with pride. We do not kill to serve some [lord](wiki:Lord), to fatten our purses, to stroke our vanity. We never give [the gift](wiki:Gift_of_mercy) to please ourselves. Nor do we choose the ones we kill. We are but servants of the [God of Many Faces](wiki:Many-Faced_God).(wiki:Faceless_Men.cite_ref-Radwd64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-11)
+> Death holds no sweetness in this house. We are not warriors, nor soldiers, nor swaggering bravos puffed up with pride. We do not kill to serve some lord, to fatten our purses, to stroke our vanity. We never give the gift to please ourselves. Nor do we choose the ones we kill. We are but servants of the God of Many Faces.
 >
-> —[Plague face](wiki:Plague_face) to [Arya Stark](wiki:Arya_Stark)
+> —Plague face to Arya Stark, ADWD (`sources/chapters/adwd/adwd-the-ugly-little-girl-01.md:51`)
 
 > **Plague face**: Can you pay the price?
 >

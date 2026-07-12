@@ -59,9 +59,9 @@ Theon has a nightmare of eating with the dead, including Stiv, after his [captur
 
 ### Quotes about Stiv
 
-> The man's clothes were filthy, fallen almost to pieces, patched here with brown and here with blue and there with a dark green, and faded everywhere to grey, but once that cloak might have been black.(wiki:Stiv.cite_ref-Ragot37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+> The man's clothes were filthy, fallen almost to pieces, patched here with brown and here with blue and there with a dark green, and faded everywhere to grey, but once that cloak might have been black.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, AGOT (`sources/chapters/agot/agot-bran-05.md:133`)
 
 > A dead enemy is a thing of beauty.(wiki:Stiv.cite_ref-Ragot37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
 >
@@ -71,6 +71,6 @@ Theon has a nightmare of eating with the dead, including Stiv, after his [captur
 >
 > —[Robb Stark](wiki:Robb_Stark) and [Luwin](wiki:Luwin)
 
-> I might have [taken something](wiki:Iron_price) off that [wildling](wiki:Wildling) I killed to save [Bran Stark](wiki:Bran_Stark), but he had nothing worth the taking. That's my cursed luck, I kill the poor.(wiki:Stiv.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> I might have taken something off that wildling I killed to save Bran Stark, but he had nothing worth the taking. That's my cursed luck, I kill the poor.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-02.md:327`)

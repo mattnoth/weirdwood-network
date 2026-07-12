@@ -43,6 +43,6 @@ Arya learns from the [waif](wiki:Waif) while training at the [House of Black and
 >
 > —Weese to [Arya Stark](wiki:Arya_Stark) and other servants
 
-> [Realm's](wiki:Seven_Kingdoms) got more kings than a castle's got rats.(wiki:Weese.cite_ref-Racok30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+> Realm's got more kings than a castle's got rats.
 >
-> —Weese regarding the [War of the Five Kings](wiki:War_of_the_Five_Kings)
+> —Weese regarding the War of the Five Kings, ACOK (`sources/chapters/acok/acok-arya-07.md:35`)

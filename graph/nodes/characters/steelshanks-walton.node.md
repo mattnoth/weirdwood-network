@@ -61,10 +61,10 @@ Walton travels with Lord Bolton to Winterfell for the wedding of Ramsay to "Arya
 
 ### Quotes about Walton
 
-> Steelshanks, he is called. A soldier of iron loyalty.(wiki:Steelshanks_Walton.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+> Steelshanks, he is called. A soldier of iron loyalty.
 >
-> —[Roose Bolton](wiki:Roose_Bolton) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Roose Bolton to Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-05.md:235`)
 
-> Steelshanks Walton commanded Jaime's escort; blunt, brusque, brutal, at heart a simple soldier. Jaime had served with his sort all his life. Men like Walton would kill at their [lord](wiki:Lord)'s command, rape when their blood was up after battle, and plunder wherever they could, but once the war was done they would go back to their homes, trade their spears for hoes, wed their neighbors' daughters, and raise a pack of squalling children. Such men obeyed without question, but the deep malignant cruelty of the [Brave Companions](wiki:Brave_Companions) was not a part of their nature.(wiki:Steelshanks_Walton.cite_ref-Rasos44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
+> Steelshanks Walton commanded Jaime's escort; blunt, brusque, brutal, at heart a simple soldier. Jaime had served with his sort all his life. Men like Walton would kill at their lord's command, rape when their blood was up after battle, and plunder wherever they could, but once the war was done they would go back to their homes, trade their spears for hoes, wed their neighbors' daughters, and raise a pack of squalling children. Such men obeyed without question, but the deep malignant cruelty of the Brave Companions was not a part of their nature.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-06.md:17`)

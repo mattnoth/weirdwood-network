@@ -129,21 +129,21 @@ Arianne departs [Sunspear](wiki:Sunspear) on a mission from her father to discov
 >
 > —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> When good King [Daeron](wiki:Daeron_II_Targaryen) wed Princess [Myriah](wiki:Myriah_Martell) and brought us into [his kingdom](wiki:Seven_Kingdoms), it was agreed that Dornish law would always rule in Dorne.(wiki:Dorne.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-4)
+> When good King Daeron wed Princess Myriah and brought us into his kingdom, it was agreed that Dornish law would always rule in Dorne.
 >
-> —[Arianne Martell](wiki:Arianne_Martell) to [Arys Oakheart](wiki:Arys_Oakheart)
+> —Arianne Martell to Arys Oakheart, AFFC (`sources/chapters/affc/affc-the-captain-of-guards-01.md:287`)
 
-> Like Dornish food and Dornish law, Dornish speech was spiced with the flavors of the [Rhoyne](wiki:Rhoyne), but a man could comprehend it.(wiki:Dorne.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-1)
+> Like Dornish food and Dornish law, Dornish speech was spiced with the flavors of the Rhoyne, but a man could comprehend it.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-01.md:25`)
 
-> Dorne had seemed a queer place to him as well when first he came here with [his own princess](wiki:Mellario), many years ago. The [bearded priests](wiki:Bearded_priests) had drilled him on the [Common Speech](wiki:Common_Tongue) of [Westeros](wiki:Westeros) before they sent him forth, but the [Dornishmen](wiki:Dornishmen) all spoke too quickly for him to understand. Dornish women were lewd, Dornish [wine](wiki:Wine) was sour, and Dornish food was full of queer hot spices. And the Dornish sun was hotter than the pale, wan sun of [Norvos](wiki:Norvos), glaring down from a blue sky day after day.(wiki:Dorne.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-3)
+> Dorne had seemed a queer place to him as well when first he came here with his own princess, many years ago. The bearded priests had drilled him on the Common Speech of Westeros before they sent him forth, but the Dornishmen all spoke too quickly for him to understand. Dornish women were lewd, Dornish wine was sour, and Dornish food was full of queer hot spices. And the Dornish sun was hotter than the pale, wan sun of Norvos, glaring down from a blue sky day after day.
 >
-> —thoughts of [Areo Hotah](wiki:Areo_Hotah)
+> —thoughts of Areo Hotah, ADWD (`sources/chapters/adwd/adwd-the-watcher-01.md:67`)
 
-> Dorne is sand and [scorpions](wiki:Scorpion), and bleak [red mountains](wiki:Red_mountains) baking in the sun.(wiki:Dorne.cite_ref-Radwd43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-2)
+> Dorne is sand and scorpions, and bleak red mountains baking in the sun.
 >
-> —[Reznak mo Reznak](wiki:Reznak_mo_Reznak) to [Skahaz mo Kandaq](wiki:Skahaz_mo_Kandaq)
+> —Reznak mo Reznak to Skahaz mo Kandaq, ADWD (`sources/chapters/adwd/adwd-daenerys-07.md:229`)
 
 > [He](wiki:Aegon_I_Targaryen) did not conquer here. Elsewhere he burned his foes, him and his sisters, but here we melted away before them, leaving only stone and sand for them to burn. And round and round the dragons went, snapping at their tails for want of any other food, till they were tied in knots.(wiki:Dorne.cite_ref-Rtwow.5B.5Barianne_i_.28the_winds_of_winter.29.7Carianne_i.5D.5D.7B.7B.7B4.7D.7D.7D_75-1)
 >

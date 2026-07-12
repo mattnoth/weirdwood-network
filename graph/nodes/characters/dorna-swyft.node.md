@@ -58,13 +58,13 @@ After being mortally wounded by [Varys](wiki:Varys), Ser Kevan thinks of Dorna a
 
 ### Quotes about Dorna
 
-> Kevan loved his chinless lady, flat-chested and chicken-legged as she was.(wiki:Dorna_Swyft.cite_ref-Raffc17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> Kevan loved his chinless lady, flat-chested and chicken-legged as she was.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-04.md:87`)
 
-> In [King's Landing](wiki:King's_Landing) she would be as happy as one of [Tommen](wiki:Tommen_Baratheon)'s [kittens](wiki:Kitten) in a pit of [vipers](wiki:Viper).(wiki:Dorna_Swyft.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> In King's Landing she would be as happy as one of Tommen's kittens in a pit of vipers.
 >
-> —thoughts of [Kevan Lannister](wiki:Kevan_Lannister)
+> —thoughts of Kevan Lannister, ADWD (`sources/chapters/adwd/adwd-epilogue.md:221`)
 
 > It is a wise woman who knows her place.(wiki:Dorna_Swyft.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
 >

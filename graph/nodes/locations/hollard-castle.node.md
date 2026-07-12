@@ -33,6 +33,6 @@ After departing [Duskendale](wiki:Duskendale) during her search for [Sansa Stark
 
 ## Quotes
 
-> Three crowns, she realized, as she gazed at them through the rain. Three golden crowns. This had been a [Hollard](wiki:House_Hollard) castle. Ser [Dontos](wiki:Dontos_Hollard) had been born here, like as not.(wiki:Hollard_castle.cite_ref-Raffc9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> Three crowns, she realized, as she gazed at them through the rain. Three golden crowns. This had been a Hollard castle. Ser Dontos had been born here, like as not.
 >
-> —thoughts of [Brienne Tarth](wiki:Brienne_Tarth)
+> —thoughts of Brienne Tarth, AFFC (`sources/chapters/affc/affc-brienne-02.md:191`)

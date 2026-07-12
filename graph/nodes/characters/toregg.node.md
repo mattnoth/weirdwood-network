@@ -37,6 +37,6 @@ Tormund settles his people at [Oakenshield](wiki:Oakenshield), and Toregg report
 
 ## Quotes
 
-> He has taken a liking to [Val](wiki:Val). [Her sister](wiki:Dalla) was a queen, why not her? [Tormund](wiki:Tormund) had once thought to make himself the [King-Beyond-the-Wall](wiki:King-Beyond-the-Wall), before [Mance](wiki:Mance_Rayder) had bested him. Toregg the Tall might well be dreaming the same dream. Better him than [Gerrick Kingsblood](wiki:Gerrick_Kingsblood).(wiki:Toregg.cite_ref-Radwd69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> He has taken a liking to Val. Her sister was a queen, why not her? Tormund had once thought to make himself the King-Beyond-the-Wall, before Mance had bested him. Toregg the Tall might well be dreaming the same dream. Better him than Gerrick Kingsblood.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-13.md:117`)

@@ -75,22 +75,22 @@ Ramsay marches with a host to resolve the [siege of Moat Cailin](wiki:Siege_of_M
 
 ## Quotes
 
-> Lord [Roose](wiki:Roose_Bolton) never says a word, he only looks at me, and all I can think of is that room they have in the Dreadfort, where the [Boltons](wiki:House_Bolton) hang the skins of their enemies.(wiki:Dreadfort.cite_ref-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
+> Lord Roose never says a word, he only looks at me, and all I can think of is that room they have in the Dreadfort, where the Boltons hang the skins of their enemies.
 >
-> —[Robb Stark](wiki:Robb_Stark) to [Bran Stark](wiki:Bran_Stark)
+> —Robb Stark to Bran Stark, AGOT (`sources/chapters/agot/agot-bran-06.md:89`)
 
-> There were other cells, other prisoners. Sometimes he heard them [screaming](wiki:Torture), even through the thick stone walls. The women always scream the loudest.(wiki:Dreadfort.cite_ref-Radwd12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-7)
+> There were other cells, other prisoners. Sometimes he heard them screaming, even through the thick stone walls. The women always scream the loudest.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-01.md:21`)
 
-> I know the Dreadfort. It is a strong castle, all of stone, with thick walls and massive towers. With winter coming you will find it well provisioned. Centuries ago, [House Bolton](wiki:House_Bolton) rose up against the [King in the North](wiki:King_in_the_North), and [Harlon Stark](wiki:Harlon_Stark) laid siege to the Dreadfort. It took him two years to starve them out.(wiki:Dreadfort.cite_ref-Radwd17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4)
+> I know the Dreadfort. It is a strong castle, all of stone, with thick walls and massive towers. With winter coming you will find it well provisioned. Centuries ago, House Bolton rose up against the King in the North, and Harlon Stark laid siege to the Dreadfort. It took him two years to starve them out.
 >
-> —[Jon Snow](wiki:Jon_Snow) to [Richard Horpe](wiki:Richard_Horpe)
+> —Jon Snow to Richard Horpe, ADWD (`sources/chapters/adwd/adwd-jon-04.md:193`)
 
-> The boy he'd been before had been [ironborn](wiki:Ironborn), true enough, but Reek had come into this world in the dungeons of the Dreadfort.(wiki:Dreadfort.cite_ref-Radwd20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-1)
+> The boy he'd been before had been ironborn, true enough, but Reek had come into this world in the dungeons of the Dreadfort.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-02.md:65`)
 
-> Theon was not afraid to die. Underneath the Dreadfort, he had learned there were far worse things than death. Ramsay had taught him [that lesson](wiki:Flaying), finger by finger and toe by toe, and it was not one that he was ever like to forget.(wiki:Dreadfort.cite_ref-Radwd37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-0)
+> Theon was not afraid to die. Underneath the Dreadfort, he had learned there were far worse things than death. Ramsay had taught him that lesson, finger by finger and toe by toe, and it was not one that he was ever like to forget.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:133`)

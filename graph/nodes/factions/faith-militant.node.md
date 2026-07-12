@@ -43,6 +43,6 @@ The [Faith of the Seven](wiki:Faith_of_the_Seven) and its followers are incensed
 >
 > —[High Sparrow](wiki:High_Sparrow) to [Cersei Lannister](wiki:Cersei_Lannister)
 
-> The [Swords](wiki:Warrior's_Sons) and [Stars](wiki:Poor_Fellows) troubled even the [Targaryens](wiki:House_Targaryen).(wiki:Faith_Militant.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> The Swords and Stars troubled even the Targaryens.
 >
-> —[Genna Lannister](wiki:Genna_Lannister) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Genna Lannister to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-05.md:265`)

@@ -43,18 +43,18 @@ Daenerys rules as Queen of [Meereen](wiki:Meereen).(wiki:Queensguard.cite_ref-Ra
 
 ## Quotes
 
-> Only Ser [Loreth Lansdale](wiki:Loreth_Lansdale) moved quickly enough to strike a blow in [the queen's](wiki:Rhaenyra_Targaryen) defense, cutting down the first two men who came at him before being slain himself. With him died the last of the Queensguard.(wiki:Queensguard.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
+> Only Ser Loreth Lansdale moved quickly enough to strike a blow in the queen's defense, cutting down the first two men who came at him before being slain himself. With him died the last of the Queensguard.
 >
-> —writings of [Gyldayn](wiki:Gyldayn)
+> —writings of Gyldayn, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:201`)
 
 > You are the first of my Queensguard.(wiki:Queensguard.cite_ref-Ragot72.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
 >
 > —[Daenerys Targaryen](wiki:Daenerys_Targaryen) to [Jorah Mormont](wiki:Jorah_Mormont)
 
-> If the queen had commanded me to protect [Hizdahr](wiki:Hizdahr_zo_Loraq), I would have had no choice but to obey. But [Daenerys Targaryen](wiki:Daenerys_Targaryen) had never established a proper Queensguard even for herself nor issued any commands in respect to her consort.(wiki:Queensguard.cite_ref-Radwd55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1)
+> If the queen had commanded me to protect Hizdahr, I would have had no choice but to obey. But Daenerys Targaryen had never established a proper Queensguard even for herself nor issued any commands in respect to her consort.
 >
-> —thoughts of [Barristan Selmy](wiki:Barristan_Selmy)
+> —thoughts of Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-queensguard-01.md:127`)
 
-> She still clung to the hope that someone would come after her. Ser [Barristan](wiki:Barristan_Selmy) might come seeking her; he was the first of her Queensguard, sworn to defend her life with his own.(wiki:Queensguard.cite_ref-Radwd71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
+> She still clung to the hope that someone would come after her. Ser Barristan might come seeking her; he was the first of her Queensguard, sworn to defend her life with his own.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-10.md:63`)

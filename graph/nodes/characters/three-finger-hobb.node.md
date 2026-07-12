@@ -65,9 +65,9 @@ Three-Finger Hobb prepares [elk](wiki:Elk) and roast vegetables for [the feast](
 >
 > —Hobb to [Samwell Tarly](wiki:Samwell_Tarly)
 
-> Besides, I never done no [wedding feast](wiki:Wedding_of_Sigorn_and_Alys_Karstark), m'lord. [Black brothers](wiki:Night's_Watch) don't never take no wifes. It's in the bloody vows, I swear 'tis.(wiki:Three-Finger_Hobb.cite_ref-Radwd49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+> Besides, I never done no wedding feast, m'lord. Black brothers don't never take no wifes. It's in the bloody vows, I swear 'tis.
 >
-> —Hobb to [Jon Snow](wiki:Jon_Snow)
+> —Hobb to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-10.md:247`)
 
 ### Quotes about Hobb
 
@@ -83,6 +83,6 @@ Three-Finger Hobb prepares [elk](wiki:Elk) and roast vegetables for [the feast](
 >
 > —[Eddison Tollett](wiki:Eddison_Tollett) to [Jon Snow](wiki:Jon_Snow)
 
-> Hobb's sausages were made of grease and salt and things that did not bear thinking about.(wiki:Three-Finger_Hobb.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0)
+> Hobb's sausages were made of grease and salt and things that did not bear thinking about.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-09.md:281`)

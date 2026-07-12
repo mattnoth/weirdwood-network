@@ -100,6 +100,6 @@ Dareon is recognized as a deserter of the Night's Watch by [Arya Stark](wiki:Ary
 >
 > —The [Sailor's Wife](wiki:Sailor's_Wife) to [Cat of the Canals](wiki:Arya_Stark)
 
-> Dareon had been a deserter from the [Night's Watch](wiki:Night's_Watch); he had deserved to die.(wiki:Dareon.cite_ref-Radwd45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)
+> Dareon had been a deserter from the Night's Watch; he had deserved to die.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ADWD (`sources/chapters/adwd/adwd-the-blind-girl-01.md:141`)

@@ -43,9 +43,9 @@ Benfrey dies of a wound he receives at the wedding.(wiki:Benfrey_Frey.cite_ref-R
 
 ## Quotes
 
-> Benfrey, see your [sister](wiki:Roslin_Frey) back to her chambers, she has a [wedding](wiki:Red_Wedding) to prepare for.(wiki:Benfrey_Frey.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)
+> Benfrey, see your sister back to her chambers, she has a wedding to prepare for.
 >
-> —[Walder Frey](wiki:Walder_Frey)
+> —Walder Frey, ASOS (`sources/chapters/asos/asos-catelyn-06.md:155`)
 
 > **Brenett**: Lady [Bethany](wiki:Bethany_Rosby) gave Lord [Walder](wiki:Walder_Frey) a child every year.
 >

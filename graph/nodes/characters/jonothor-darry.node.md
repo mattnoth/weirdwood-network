@@ -41,9 +41,9 @@ Ser [Jaime Lannister](wiki:Jaime_Lannister) remembers Jonothor as an earnest man
 
 ### Quotes by Jonothor
 
-> When you donned [that cloak](wiki:Kingsguard), you promised to obey.(wiki:Jonothor_Darry.cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+> When you donned that cloak, you promised to obey.
 >
-> —Jonothor to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Jonothor to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-01.md:61`)
 
 > **Jaime**: We are sworn to protect [her](wiki:Rhaella_Targaryen) as well. **Jonothor**: We are, but not from [him](wiki:Aerys_II_Targaryen).(wiki:Jonothor_Darry.cite_ref-Raffc16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
 >

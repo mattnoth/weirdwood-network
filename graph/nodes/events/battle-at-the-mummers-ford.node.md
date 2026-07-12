@@ -48,13 +48,13 @@ The survivors of Beric's company form the core of the [brotherhood without banne
 
 ## Quotes
 
-> In the name of [Robert](wiki:Robert_I_Baratheon) of the [House Baratheon](wiki:House_Baratheon_of_King's_Landing), the First of his Name, [King of the Andals and the Rhoynar and the First Men](wiki:King_of_the_Andals_and_the_Rhoynar_and_the_First_Men), [Lord of the Seven Kingdoms](wiki:Lord_of_the_Seven_Kingdoms) and [Protector of the Realm](wiki:Protector_of_the_Realm), by the word of Eddard of the [House Stark](wiki:House_Stark), his [Hand](wiki:Hand_of_the_King), I charge you to ride to the [westlands](wiki:Westlands) with all haste, to cross the [Red Fork](wiki:Red_Fork) of the [Trident](wiki:Trident) under the king's flag, and there bring the king's justice to the false knight [Gregor Clegane](wiki:Gregor_Clegane), and to all those who shared in his crimes. I denounce him, and attaint him, and strip him of all rank and titles, of all lands and incomes and holdings, and do sentence him to death. May the gods take pity on his soul.(wiki:Battle_at_the_Mummer's_Ford.cite_ref-Ragot43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> In the name of Robert of the House Baratheon, the First of his Name, King of the Andals and the Rhoynar and the First Men, Lord of the Seven Kingdoms and Protector of the Realm, by the word of Eddard of the House Stark, his Hand, I charge you to ride to the westlands with all haste, to cross the Red Fork of the Trident under the king's flag, and there bring the king's justice to the false knight Gregor Clegane, and to all those who shared in his crimes. I denounce him, and attaint him, and strip him of all rank and titles, of all lands and incomes and holdings, and do sentence him to death. May the gods take pity on his soul.
 >
-> —[Eddard Stark](wiki:Eddard_Stark) to [Beric Dondarrion](wiki:Beric_Dondarrion)
+> —Eddard Stark to Beric Dondarrion, AGOT (`sources/chapters/agot/agot-eddard-11.md:145`)
 
-> We had [lions](wiki:House_Lannister) on every side, and I thought I was doomed with the rest, but [Alyn](wiki:Alyn) shouted commands and restored order to our ranks, and those still ahorse rallied around [Thoros](wiki:Thoros) and cut our way free. Six score we’d been that morning. By dark no more than two score were left, and [Lord Beric](wiki:Beric_Dondarrion) was gravely wounded. Thoros drew a foot of lance from his chest that night, and poured boiling [wine](wiki:Wine) into the hole it left.(wiki:Battle_at_the_Mummer's_Ford.cite_ref-Rasos17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> We had lions on every side, and I thought I was doomed with the rest, but Alyn shouted commands and restored order to our ranks, and those still ahorse rallied around Thoros and cut our way free. Six score we’d been that morning. By dark no more than two score were left, and Lord Beric was gravely wounded. Thoros drew a foot of lance from his chest that night, and poured boiling wine into the hole it left.
 >
-> —[Harwin](wiki:Harwin) to [Arya Stark](wiki:Arya_Stark)
+> —Harwin to Arya Stark, ASOS (`sources/chapters/asos/asos-arya-03.md:45`)
 
 > The king is dead, but we are still king's men, though the royal banner we bore was lost at the [Mummer's Ford](wiki:Mummer's_Ford) when [your brother's butchers](wiki:Mountain's_men) fell upon us. [Robert](wiki:Robert_I_Baratheon) is slain, but [his realm](wiki:Seven_Kingdoms) remains. And [we defend her](wiki:Brotherhood_without_banners).(wiki:Battle_at_the_Mummer's_Ford.cite_ref-Rasos34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
 >

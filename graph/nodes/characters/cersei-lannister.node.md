@@ -193,13 +193,13 @@ In the [Vale](wiki:Vale), Petyr Baelish reports to Sansa Stark that Cersei has c
 > “When you play the game of thrones, you win or you die. There is no middle ground.”
 > —Cersei to [Eddard Stark](wiki:Eddard_Stark) in the godswood, AGOT Eddard XII (`sources/chapters/agot/agot-eddard-12.md:169`) — the line the series title is drawn from
 
-> [Jaime](wiki:Jaime_Lannister) and I are more than brother and sister. We are one person in two bodies. We shared a womb together. He came into this world holding my foot, our old maester said. When he is in me, I feel ... whole.(wiki:Cersei_Lannister.cite_ref-Ragot45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-9)
+> Jaime and I are more than brother and sister. We are one person in two bodies. We shared a womb together. He came into this world holding my foot, our old maester said. When he is in me, I feel ... whole.
 >
-> —Cersei to [Eddard Stark](wiki:Eddard_Stark)
+> —Cersei to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-12.md:117`)
 
-> A true man does what he will, not what he must.(wiki:Cersei_Lannister.cite_ref-Ragot45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-10)
+> A true man does what he will, not what he must.
 >
-> —Cersei to [Eddard Stark](wiki:Eddard_Stark)
+> —Cersei to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-12.md:149`)
 
 > "The night of our wedding feast, the first time we shared a bed, he called me by your sister's name. He was on top of me, in me, stinking of wine, and he whispered Lyanna."
 
@@ -217,25 +217,25 @@ In the [Vale](wiki:Vale), Petyr Baelish reports to Sansa Stark that Cersei has c
 >
 > —Cersei to [Sansa Stark](wiki:Sansa_Stark)
 
-> Love is [poison](wiki:Poison). A sweet poison, yes, but it will kill you all the same.(wiki:Cersei_Lannister.cite_ref-Racok52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_100-1)
+> Love is poison. A sweet poison, yes, but it will kill you all the same.
 >
-> —Cersei to [Sansa Stark](wiki:Sansa_Stark)
+> —Cersei to Sansa Stark, ACOK (`sources/chapters/acok/acok-sansa-04.md:187`)
 
-> The only way to keep your people loyal is to make certain they fear you more than they do the enemy.(wiki:Cersei_Lannister.cite_ref-Racok60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-8)
+> The only way to keep your people loyal is to make certain they fear you more than they do the enemy.
 >
-> —Cersei to [Sansa Stark](wiki:Sansa_Stark)
+> —Cersei to Sansa Stark, ACOK (`sources/chapters/acok/acok-sansa-06.md:57`)
 
 > I waited, and so can [he](wiki:Tommen_Baratheon). I waited half my life. She had played the dutiful daughter, the blushing bride, the pliant wife. She had suffered [Robert's](wiki:Robert_I_Baratheon) drunken groping, [Jaime's](wiki:Jaime_Lannister) jealousy, [Renly's](wiki:Renly_Baratheon) mockery, [Varys](wiki:Varys) with his titters, [Stannis](wiki:Stannis_Baratheon) endlessly grinding his teeth. She had contended with [Jon Arryn](wiki:Jon_Arryn), [Ned Stark](wiki:Eddard_Stark), and her vile, treacherous, murderous [dwarf brother](wiki:Tyrion_Lannister), all the while promising herself that one day it would be her turn. If [Margaery Tyrell](wiki:Margaery_Tyrell) thinks to cheat me of my hour in the sun, she had bloody well think again.(wiki:Cersei_Lannister.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-8)
 >
 > —Cersei's thoughts on ruling as [Queen Regent](wiki:Regent) until [Tommen Baratheon](wiki:Tommen_Baratheon) comes of age
 
-> Come at once. Help me. Save me. I need you now as I have never needed you before. I love you. I love you. I love you. Come at once.(wiki:Cersei_Lannister.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_101-0)
+> Come at once. Help me. Save me. I need you now as I have never needed you before. I love you. I love you. I love you. Come at once.
 >
-> —Cersei writing to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Cersei writing to Jaime Lannister, AFFC (`sources/chapters/affc/affc-cersei-10.md:317`)
 
-> I am a [lioness](wiki:House_Lannister). I will not cringe for them.(wiki:Cersei_Lannister.cite_ref-Radwd65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_96-1)
+> I am a lioness. I will not cringe for them.
 >
-> —Cersei's thoughts before her [walk of atonement](wiki:Walk_of_atonement)
+> —Cersei's thoughts before her walk of atonement, ADWD (`sources/chapters/adwd/adwd-cersei-02.md:99`)
 
 > No golden shrouds, no valonqar, I am free of your croaking malice at last.
 
@@ -251,21 +251,21 @@ In the [Vale](wiki:Vale), Petyr Baelish reports to Sansa Stark that Cersei has c
 
 ### Quotes about Cersei
 
-> She was as beautiful as men said. A jeweled tiara gleamed amidst her long golden hair, its [emeralds](wiki:Emerald) a perfect match for the green of her eyes.(wiki:Cersei_Lannister.cite_ref-Ragot5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-3)
+> She was as beautiful as men said. A jeweled tiara gleamed amidst her long golden hair, its emeralds a perfect match for the green of her eyes.
 >
-> —[Jon Snow](wiki:Jon_Snow)'s thoughts
+> —Jon Snow's thoughts, AGOT (`sources/chapters/agot/agot-jon-01.md:21`)
 
 > And Cersei ... I have [Jon Arryn](wiki:Jon_Arryn) to thank for her. I had no wish to marry after [Lyanna](wiki:Lyanna_Stark) was taken from me, but Jon said the realm needed an heir. Cersei Lannister would be a good match, he told me, she would bind Lord [Tywin](wiki:Tywin_Lannister) to me should [Viserys Targaryen](wiki:Viserys_Targaryen) ever try to win back [his father's](wiki:Aerys_II_Targaryen) [throne](wiki:Iron_Throne). I loved that old man, I swear it, but now I think he was a bigger [fool](wiki:Fool) than [Moon Boy](wiki:Moon_Boy). Oh, Cersei is lovely to look at, truly, but cold ... the way she guards her cunt, you’d think she had all the [gold](wiki:Gold) of [Casterly Rock](wiki:Casterly_Rock) between her legs.(wiki:Cersei_Lannister.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_66-1)
 >
 > —[Robert I Baratheon](wiki:Robert_I_Baratheon) to [Eddard Stark](wiki:Eddard_Stark)
 
-> The longer Cersei waits, the angrier she'll become, and anger makes her stupid. I much prefer angry and stupid to composed and cunning.(wiki:Cersei_Lannister.cite_ref-Racok20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-6)
+> The longer Cersei waits, the angrier she'll become, and anger makes her stupid. I much prefer angry and stupid to composed and cunning.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Bronn](wiki:Bronn)
+> —Tyrion Lannister to Bronn, ACOK (`sources/chapters/acok/acok-tyrion-05.md:103`)
 
-> I have never liked you, Cersei, but you were my own sister, so I never did you harm. You've ended that. I will hurt you [for this](wiki:Alayaya). I don't know how yet, but give me time. A day will come when you think yourself safe and happy, and suddenly your joy will turn to ashes in your mouth, and you'll know the debt is paid.(wiki:Cersei_Lannister.cite_ref-Racok54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-4)
+> I have never liked you, Cersei, but you were my own sister, so I never did you harm. You've ended that. I will hurt you for this. I don't know how yet, but give me time. A day will come when you think yourself safe and happy, and suddenly your joy will turn to ashes in your mouth, and you'll know the debt is paid.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to Cersei
+> —Tyrion Lannister to Cersei, ACOK (`sources/chapters/acok/acok-tyrion-12.md:197`)
 
 > They are [knights](wiki:Knight) now, [all three](wiki:House_Kettleblack), and your sister has promised them further advancement. And the eldest, Ser [Osmund](wiki:Osmund_Kettleblack) of the [Kingsguard](wiki:Kingsguard), dreams of certain other ... favors ... as well. You can match the queen [coin](wiki:Currency) for coin, I have no doubt, but she has a second purse that is quite inexhaustible.(wiki:Cersei_Lannister.cite_ref-Rasos12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_86-1)
 >
@@ -279,13 +279,13 @@ In the [Vale](wiki:Vale), Petyr Baelish reports to Sansa Stark that Cersei has c
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Jaime Lannister](wiki:Jaime_Lannister)
 
-> His sister liked to think of herself as Lord [Tywin](wiki:Tywin_Lannister) with teats, but she was wrong. Their father had been as relentless and implacable as a glacier, where Cersei was all [wildfire](wiki:Wildfire), especially when thwarted. She had been giddy as a maiden when she learned that [Stannis](wiki:Stannis_Baratheon) had abandoned [Dragonstone](wiki:Dragonstone), certain that he had finally given up the fight and sailed away to exile. When word came down from the [north](wiki:North) that he had turned up again at the [Wall](wiki:Wall), her fury had been fearful to behold. She does not lack for wits, but she has no judgment, and no patience.(wiki:Cersei_Lannister.cite_ref-Raffc16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-2)
+> His sister liked to think of herself as Lord Tywin with teats, but she was wrong. Their father had been as relentless and implacable as a glacier, where Cersei was all wildfire, especially when thwarted. She had been giddy as a maiden when she learned that Stannis had abandoned Dragonstone, certain that he had finally given up the fight and sailed away to exile. When word came down from the north that he had turned up again at the Wall, her fury had been fearful to behold. She does not lack for wits, but she has no judgment, and no patience.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister)'s thoughts
+> —Jaime Lannister's thoughts, AFFC (`sources/chapters/affc/affc-jaime-02.md:197`)
 
-> Cersei is as gentle as King [Maegor](wiki:Maegor_I_Targaryen), as selfless as [Aegon the Unworthy](wiki:Aegon_IV_Targaryen), as wise as [Mad Aerys](wiki:Aerys_II_Targaryen). She never forgets a slight, real or imagined. She takes caution for cowardice and dissent for defiance. And she is greedy. Greedy for power, for honor, for love.(wiki:Cersei_Lannister.cite_ref-Radwd22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-3)
+> Cersei is as gentle as King Maegor, as selfless as Aegon the Unworthy, as wise as Mad Aerys. She never forgets a slight, real or imagined. She takes caution for cowardice and dissent for defiance. And she is greedy. Greedy for power, for honor, for love.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Young Griff](wiki:Aegon_Targaryen_(son_of_Rhaegar))
+> —Tyrion Lannister to Young Griff), ADWD (`sources/chapters/adwd/adwd-tyrion-06.md:137`)
 
 > This head of mine is worth a [lordship](wiki:Lord)... back in [Westeros](wiki:Westeros), half a world away. By the time you get it there, only [bone](wiki:Bone) and maggots will remain. My sweet sister will deny the head is mine and cheat you of the promised reward. You know how it is with queens. Fickle cunts, the lot of them, and Cersei is the worst.(wiki:Cersei_Lannister.cite_ref-Radwd57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_102-0)
 >

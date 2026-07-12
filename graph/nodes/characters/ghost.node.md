@@ -76,37 +76,37 @@ While being stabbed by [Bowen Marsh](wiki:Bowen_Marsh) and his cronies in the [m
 >
 > —[Benjen Stark](wiki:Benjen_Stark) and [Jon Snow](wiki:Jon_Snow)
 
-> Jon's wolf, the white one, was Ghost. Bran wished he had thought of that first, even though his wolf wasn't white.(wiki:Ghost.cite_ref-Ragot9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-0)
+> Jon's wolf, the white one, was Ghost. Bran wished he had thought of that first, even though his wolf wasn't white.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, AGOT (`sources/chapters/agot/agot-bran-02.md:25`)
 
-> The [direwolf](wiki:Direwolf)'s red eyes were darker than garnets and wiser than men.(wiki:Ghost.cite_ref-Ragot60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1)
+> The direwolf's red eyes were darker than garnets and wiser than men.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, AGOT (`sources/chapters/agot/agot-jon-08.md:155`)
 
-> He always slept better with the great white wolf beside him; there was comfort in the smell of him, and welcome warmth in that shaggy pale fur.(wiki:Ghost.cite_ref-Racok53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-2)
+> He always slept better with the great white wolf beside him; there was comfort in the smell of him, and welcome warmth in that shaggy pale fur.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ACOK (`sources/chapters/acok/acok-jon-07.md:73`)
 
-> The smells are stronger in my [wolf dreams](wiki:Wolf_dream), he reflected, and food tastes richer too. Ghost is more alive than I am.(wiki:Ghost.cite_ref-Radwd7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-0)
+> The smells are stronger in my wolf dreams, he reflected, and food tastes richer too. Ghost is more alive than I am.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-02.md:239`)
 
-> A white wolf in [a white wood](wiki:Haunted_forest), silent as a shadow.(wiki:Ghost.cite_ref-Radwd35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-1)
+> A white wolf in a white wood, silent as a shadow.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-07.md:65`)
 
-> Ghost was the only protection Jon needed; the direwolf could sniff out foes, even those who hid their enmity behind smiles.(wiki:Ghost.cite_ref-Radwd53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-1)
+> Ghost was the only protection Jon needed; the direwolf could sniff out foes, even those who hid their enmity behind smiles.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-11.md:51`)
 
-> Four and one more, the white who has no voice.(wiki:Ghost.cite_ref-Rasos9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+> Four and one more, the white who has no voice.
 >
-> —thoughts of [Summer](wiki:Summer), about the then-living direwolves
+> —thoughts of Summer, about the then-living direwolves, ASOS (`sources/chapters/asos/asos-bran-01.md:25`)
 
-> Ghost was closer than a friend. Ghost was part of him.(wiki:Ghost.cite_ref-Radwd10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-0)
+> Ghost was closer than a friend. Ghost was part of him.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-03.md:227`)
 
 > Even in [Winterfell](wiki:Winterfell), as a kid before the wolves, [Jon](wiki:Jon_Snow) was the [bastard](wiki:Bastard). He was the odd one out. [The rest of them](wiki:House_Stark) are all brothers and sisters. He's only a half-brother, so he's not as closely tied to them ... So he's of them, he's part of the family, he's part of the siblings, but he's a little bit apart too. Ghost is very similar to that. He's the albino, he's the one who makes no noise, so he's related to the other direwolves but one apart as well.(wiki:Ghost.cite_ref-interview_24-1)
 >

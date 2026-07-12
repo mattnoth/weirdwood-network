@@ -33,6 +33,6 @@ A stout but small castle overlooks the town; during the Dance it had a garrison 
 
 ## Quotes
 
-> Seldom has any town or city in the history of the [Seven Kingdoms](wiki:Seven_Kingdoms) been subject to as long or as cruel or as savage a sack as Tumbleton after the [Treasons](wiki:First_Battle_of_Tumbleton).(wiki:Tumbleton.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+> Seldom has any town or city in the history of the Seven Kingdoms been subject to as long or as cruel or as savage a sack as Tumbleton after the Treasons.
 >
-> —writings of [Gyldayn](wiki:Gyldayn)
+> —writings of Gyldayn, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p04.md:145`)

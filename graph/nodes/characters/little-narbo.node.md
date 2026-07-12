@@ -31,6 +31,6 @@ As he can no longer be a [cutpurse](wiki:Cutpurse), Little Narbo plans to become
 
 ### Quotes about Narbo
 
-> Narbo was good at picking pockets, not so good at picking whores.(wiki:Little_Narbo.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> Narbo was good at picking pockets, not so good at picking whores.
 >
-> —[Tagganaro](wiki:Tagganaro)
+> —Tagganaro, AFFC (`sources/chapters/affc/affc-cat-of-the-canals-01.md:123`)

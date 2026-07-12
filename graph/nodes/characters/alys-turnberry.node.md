@@ -42,9 +42,9 @@ Queen [Alysanne Targaryen](wiki:Alysanne_Targaryen) considered Alys to be a pret
 
 ## Quotes
 
-> We never meant to be wicked, we were only playing.(wiki:Alys_Turnberry.cite_ref-Rfab11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
+> We never meant to be wicked, we were only playing.
 >
-> —Alys, to Queen [Alysanne Targaryen](wiki:Alysanne_Targaryen)
+> —Alys, to Queen Alysanne Targaryen, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p03.md:157`)
 
 > **Alysanne:** All you can do tonight is go to bed. On the morrow we shall send a [septa](wiki:Septa) to you, and you can make confession of your sins. [The Mother](wiki:Mother_(the_Seven)) will forgive you. **Alys:** *My* mother won't.(wiki:Alys_Turnberry.cite_ref-Rfab11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
 >

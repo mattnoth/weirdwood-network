@@ -52,9 +52,9 @@ In the [godswood of Winterfell](wiki:Godswood_of_Winterfell), Theon sees Bran's 
 >
 > —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
 
-> The two we killed were just some [miller's sons](wiki:Miller's_sons). Theon did not want to think about their mother. He had known the miller's wife for years, had even bedded her. Big heavy breasts with wide dark nipples, a sweet mouth, a merry laugh. Joys that I will never taste again.(wiki:Miller's_wife_from_Acorn_Water.cite_ref-Radwd51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> The two we killed were just some miller's sons. Theon did not want to think about their mother. He had known the miller's wife for years, had even bedded her. Big heavy breasts with wide dark nipples, a sweet mouth, a merry laugh. Joys that I will never taste again.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-theon-01.md:129`)
 
 ## Edges
 

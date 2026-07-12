@@ -93,9 +93,9 @@ Six claims have been put forth for the Rosby inheritance.(wiki:Gyles_Rosby.cite_
 
 ### Quotes about Gyles
 
-> [The gods](wiki:Faith_of_the_Seven) must have been mad to waste manhood on the likes of him, and I must have been mad to demand his release.(wiki:Gyles_Rosby.cite_ref-Racok60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+> The gods must have been mad to waste manhood on the likes of him, and I must have been mad to demand his release.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister) to [Sansa Stark](wiki:Sansa_Stark)
+> —Cersei Lannister to Sansa Stark, ACOK (`sources/chapters/acok/acok-sansa-06.md:61`)
 
 > **Cersei**: I have asked Lord Gyles Rosby to serve as our new [master of coin](wiki:Master_of_coin), and he has done me the honor of accepting. **Mace**: Rosby? That ... cougher?(wiki:Gyles_Rosby.cite_ref-Raffc7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-6)
 >

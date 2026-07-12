@@ -65,14 +65,14 @@ Jaime returns to Harrenhal while pacifying the riverlands. When the Mountain's m
 >
 > —[Duncan the Tall](wiki:Duncan_the_Tall)'s thoughts
 
-> The [riverlands](wiki:Riverlands) are awash in blood and flame all around the Gods Eye.(wiki:Gods_Eye.cite_ref-Racok7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-0)
+> The riverlands are awash in blood and flame all around the Gods Eye.
 >
-> —[Brynden Tully](wiki:Brynden_Tully) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Brynden Tully to Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-01.md:207`)
 
-> The setting sun made the tranquil surface of the water shimmer like a sheet of beaten copper. It was the biggest lake she had ever seen, with no hint of a far shore.(wiki:Gods_Eye.cite_ref-Racok14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> The setting sun made the tranquil surface of the water shimmer like a sheet of beaten copper. It was the biggest lake she had ever seen, with no hint of a far shore.
 >
-> —[Arya Stark](wiki:Arya_Stark)'s thoughts
+> —Arya Stark's thoughts, ACOK (`sources/chapters/acok/acok-arya-04.md:39`)
 
-> Gods Eye was a sheet of sun-hammered blue that filled half the world.(wiki:Gods_Eye.cite_ref-Racok19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)
+> Gods Eye was a sheet of sun-hammered blue that filled half the world.
 >
-> —[Arya Stark](wiki:Arya_Stark)'s thoughts
+> —Arya Stark's thoughts, ACOK (`sources/chapters/acok/acok-arya-05.md:35`)

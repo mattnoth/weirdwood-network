@@ -56,13 +56,13 @@ Ser [Barristan Selmy](wiki:Barristan_Selmy) recalls the [tourney at Harrenhal](w
 
 ## Quotes
 
-> How dare you play the noble lord with me! What do you take me for? You've a [bastard of your own](wiki:Jon_Snow), I've seen him. Who was the mother, I wonder? Some [Dornish](wiki:Dorne) peasant you raped while her holdfast burned? A [whore](wiki:Prostitution)? Or was it the grieving sister, the Lady Ashara? She threw herself into the sea, I'm told. Why was that? For [the brother](wiki:Arthur_Dayne) you slew, or the child you stole?(wiki:Ashara_Dayne.cite_ref-Ragot45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
+> How dare you play the noble lord with me! What do you take me for? You've a bastard of your own, I've seen him. Who was the mother, I wonder? Some Dornish peasant you raped while her holdfast burned? A whore? Or was it the grieving sister, the Lady Ashara? She threw herself into the sea, I'm told. Why was that? For the brother you slew, or the child you stole?
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister) to [Eddard Stark](wiki:Eddard_Stark)
+> —Cersei Lannister to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-12.md:157`)
 
-> If [Jon](wiki:Jon_Snow) had been born of Ashara Dayne of [Starfall](wiki:Starfall), as some whispered, the lady was long dead; if not, Catelyn had no clue who or where his mother might be.(wiki:Ashara_Dayne.cite_ref-Racok45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)
+> If Jon had been born of Ashara Dayne of Starfall, as some whispered, the lady was long dead; if not, Catelyn had no clue who or where his mother might be.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-06.md:97`)
 
 > [The crannogman](wiki:Howland_Reed) saw a maid with laughing purple eyes dance with [a white sword](wiki:Barristan_Selmy), [a red snake](wiki:Oberyn_Martell), and [the lord of griffins](wiki:Jon_Connington), and lastly with [the quiet wolf](wiki:Eddard_Stark)... but only after [the wild wolf](wiki:Brandon_Stark) spoke to her on behalf of a brother too shy to leave his bench.(wiki:Ashara_Dayne.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 >
@@ -72,13 +72,13 @@ Ser [Barristan Selmy](wiki:Barristan_Selmy) recalls the [tourney at Harrenhal](w
 >
 > —[Harwin](wiki:Harwin) to [Arya Stark](wiki:Arya_Stark)
 
-> His choice would have been a young maiden not long at court, one of [Elia's](wiki:Elia_Martell) companions ... though compared to Ashara Dayne, the [Dornish](wiki:Dorne) princess was a kitchen drab.(wiki:Ashara_Dayne.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-10)
+> His choice would have been a young maiden not long at court, one of Elia's companions ... though compared to Ashara Dayne, the Dornish princess was a kitchen drab.
 >
-> —thoughts of [Barristan Selmy](wiki:Barristan_Selmy)
+> —thoughts of Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-kingbreaker-01.md:151`)
 
-> She died never knowing that Ser Barristan had loved her. How could she? He was a knight of the [Kingsguard](wiki:Kingsguard), sworn to celibacy. No good could have come from telling her his feelings. No good came from silence either. If I had unhorsed [Rhaegar](wiki:Rhaegar_Targaryen) and crowned Ashara [queen of love and beauty](wiki:Queen_of_love_and_beauty), might she have looked to me instead of [Stark](wiki:House_Stark)?(wiki:Ashara_Dayne.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-11)
+> She died never knowing that Ser Barristan had loved her. How could she? He was a knight of the Kingsguard, sworn to celibacy. No good could have come from telling her his feelings. No good came from silence either. If I had unhorsed Rhaegar and crowned Ashara queen of love and beauty, might she have looked to me instead of Stark?
 >
-> —thoughts of [Barristan Selmy](wiki:Barristan_Selmy)
+> —thoughts of Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-kingbreaker-01.md:155`)
 
 > But Ashara's daughter had been stillborn, and his fair lady had thrown herself from a tower soon after, mad with grief for the child she had lost, and perhaps for the man who had dishonored her at Harrenhal as well.
 >

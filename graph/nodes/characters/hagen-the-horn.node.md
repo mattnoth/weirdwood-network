@@ -40,10 +40,10 @@ While standing watch over the castle with [Cromm](wiki:Cromm), Hagen blows his h
 
 ### Quotes about Hagen
 
-> AH​oo​oo​oo​oo​oo​oo​oo​oo​oo​oo​ooo, the warhorn cried, long and low, a sound to curdle blood. Asha had begun to hate the sound of horns. On [Old Wyk](wiki:Kingsmoot_on_Old_Wyk) her [uncle's hellhorn](wiki:Dragonbinder) had blown a death knell for her dreams, and now Hagen was sounding what might well be her last hour on earth.(wiki:Hagen_the_Horn.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> AH​oo​oo​oo​oo​oo​oo​oo​oo​oo​oo​ooo, the warhorn cried, long and low, a sound to curdle blood. Asha had begun to hate the sound of horns. On Old Wyk her uncle's hellhorn had blown a death knell for her dreams, and now Hagen was sounding what might well be her last hour on earth.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-wayward-bride-01.md:247`)
 
-> Hagen, blow your horn and make [the forest](wiki:Wolfswood) shake.(wiki:Hagen_the_Horn.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> Hagen, blow your horn and make the forest shake.
 >
-> —[Asha Greyjoy](wiki:Asha_Greyjoy) to Hagen
+> —Asha Greyjoy to Hagen, ADWD (`sources/chapters/adwd/adwd-the-wayward-bride-01.md:267`)

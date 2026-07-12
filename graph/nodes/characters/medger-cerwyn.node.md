@@ -51,10 +51,10 @@ Lord [Tywin Lannister](wiki:Tywin_Lannister) holds captives from the Green Fork 
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Cleos Frey](wiki:Cleos_Frey)
 
-> She did remember Lord Cerwyn, though. His lands had been close to [Winterfell](wiki:Winterfell), so he and his son [Cley](wiki:Cley) had often visited. Yet as fate would have it, he was the only captive who was never seen; he was abed in a tower cell, recovering from a wound. For days and days Arya tried to work out how she might steal past the door guards to see him. If he knew her, he would be honor bound to help her.(wiki:Medger_Cerwyn.cite_ref-Racok30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
+> She did remember Lord Cerwyn, though. His lands had been close to Winterfell, so he and his son Cley had often visited. Yet as fate would have it, he was the only captive who was never seen; he was abed in a tower cell, recovering from a wound. For days and days Arya tried to work out how she might steal past the door guards to see him. If he knew her, he would be honor bound to help her.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ACOK (`sources/chapters/acok/acok-arya-07.md:67`)
 
-> When Arya asked who it was, one of the guards told her that Lord Cerwyn had died. The words felt like a kick in the belly. He could never have helped you anyway, she thought as [the sisters](wiki:Silent_sisters) drove the wagon through the gate. He couldn't even help himself, you stupid mouse.(wiki:Medger_Cerwyn.cite_ref-Racok30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)
+> When Arya asked who it was, one of the guards told her that Lord Cerwyn had died. The words felt like a kick in the belly. He could never have helped you anyway, she thought as the sisters drove the wagon through the gate. He couldn't even help himself, you stupid mouse.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ACOK (`sources/chapters/acok/acok-arya-07.md:69`)

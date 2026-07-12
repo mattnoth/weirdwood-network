@@ -112,25 +112,25 @@ Having escaped from [Winterfell](wiki:Winterfell) and been brought to the [croft
 >
 > —Wyman, to [Bran Stark](wiki:Bran_Stark)
 
-> King [Robb](wiki:Robb_Stark) has no more loyal servant than Wyman Manderly.(wiki:Wyman_Manderly.cite_ref-Racok16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+> King Robb has no more loyal servant than Wyman Manderly.
 >
-> —Wyman, to [Rodrik Cassel](wiki:Rodrik_Cassel)
+> —Wyman, to Rodrik Cassel, ACOK (`sources/chapters/acok/acok-bran-02.md:123`)
 
-> When treating with liars, even an honest man must lie.(wiki:Wyman_Manderly.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-7)
+> When treating with liars, even an honest man must lie.
 >
-> —Wyman, to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Wyman, to Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-04.md:111`)
 
-> I am fat, and many think that makes me weak and foolish.(wiki:Wyman_Manderly.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-8)
+> I am fat, and many think that makes me weak and foolish.
 >
-> —Wyman, to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Wyman, to Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-04.md:113`)
 
 > My son [Wendel](wiki:Wendel_Manderly) came to the [Twins](wiki:Twins) a guest. He ate Lord [Walder](wiki:Walder_Frey)'s bread and salt, and hung his sword upon the wall to feast with friends. And they murdered him. **[Murdered](wiki:Red_Wedding)**, I say, and may [the Freys](wiki:House_Frey) choke upon their fables. I drink with [Jared](wiki:Jared_Frey), jape with [Symond](wiki:Symond_Frey), promise [Rhaegar](wiki:Rhaegar_Frey) the hand of [my own beloved granddaughter](wiki:Wynafryd_Manderly) ... but never think that means I have forgotten. The [north](wiki:North) remembers, Lord Davos. The north remembers, and the mummer's farce is almost done. [My son](wiki:Wylis_Manderly) is home.(wiki:Wyman_Manderly.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-9)
 >
 > —Wyman, to [Davos Seaworth](wiki:Davos_Seaworth)
 
-> [The wolf](wiki:Shaggydog) will prove [the boy](wiki:Rickon_Stark) is who we say he is, should the [Dreadfort](wiki:Dreadfort) attempt to deny him. That is my price, Lord Davos. Smuggle me back my liege lord, and I will take [Stannis Baratheon](wiki:Stannis_Baratheon) as my king.(wiki:Wyman_Manderly.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-10)
+> The wolf will prove the boy is who we say he is, should the Dreadfort attempt to deny him. That is my price, Lord Davos. Smuggle me back my liege lord, and I will take Stannis Baratheon as my king.
 >
-> —Wyman, to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Wyman, to Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-04.md:211`)
 
 > The best pie you have ever tasted, my lords. Wash it down with [Arbor gold](wiki:Wine) and savor every bite. [I know I shall](wiki:Frey_Pies/Theories).(wiki:Wyman_Manderly.cite_ref-Radwd37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-4)
 >
@@ -154,17 +154,17 @@ Having escaped from [Winterfell](wiki:Winterfell) and been brought to the [croft
 >
 > —[Ramsay Snow](wiki:Ramsay_Snow) after displaying the bodies of [Rodrik Cassel](wiki:Rodrik_Cassel), [Leobald Tallhart](wiki:Leobald_Tallhart), and [Cley Cerwyn](wiki:Cley_Cerwyn)
 
-> If [one head](wiki:Mountain's_skull) was enough to appease a [prince of Dorne](wiki:Doran_Martell), a bag of them should be more than adequate for a fat [northman](wiki:North) wrapped in sealskins.(wiki:Wyman_Manderly.cite_ref-Raffc17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-1)
+> If one head was enough to appease a prince of Dorne, a bag of them should be more than adequate for a fat northman wrapped in sealskins.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister)'s thoughts
+> —Cersei Lannister's thoughts, AFFC (`sources/chapters/affc/affc-cersei-04.md:247`)
 
-> Gods be good, thought Davos, when he saw Lord Wyman's face, this man looks half a corpse.(wiki:Wyman_Manderly.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-5)
+> Gods be good, thought Davos, when he saw Lord Wyman's face, this man looks half a corpse.
 >
-> —[Davos Seaworth](wiki:Davos_Seaworth)'s thoughts
+> —Davos Seaworth's thoughts, ADWD (`sources/chapters/adwd/adwd-davos-03.md:31`)
 
-> The fat man would like to kill us all, I do not doubt, but he does not have the belly for it, for all his girth. Under that sweaty flesh beats a heart as craven and cringing as ... well ... yours.(wiki:Wyman_Manderly.cite_ref-Radwd37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-5)
+> The fat man would like to kill us all, I do not doubt, but he does not have the belly for it, for all his girth. Under that sweaty flesh beats a heart as craven and cringing as ... well ... yours.
 >
-> —[Barbrey Dustin](wiki:Barbrey_Dustin), to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Barbrey Dustin, to Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:149`)
 
 > **Aenys**: We must look at Manderly. Lord Wyman loves us not. **Roger**: He loves his steaks and chops and meat pies, though. Prowling [the castle](wiki:Winterfell) by dark would require him to leave the table. The only time he does that is when he seeks the privy for one of his hourlong squats.(wiki:Wyman_Manderly.cite_ref-Radwd46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-2)
 >

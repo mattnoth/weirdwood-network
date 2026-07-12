@@ -70,21 +70,21 @@ Having renounced Darry, Lancel joins the [Warrior's Sons](wiki:Warrior's_Sons).(
 
 ## Quotes
 
-> With [king's](wiki:House_Baratheon_of_King's_Landing) men, [Darry](wiki:House_Darry) men, [Lannister](wiki:House_Lannister) men, and [Stark](wiki:House_Stark) men all crammed into a castle far too small for them, tensions burned hot and heavy.(wiki:Darry.cite_ref-Ragot16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> With king's men, Darry men, Lannister men, and Stark men all crammed into a castle far too small for them, tensions burned hot and heavy.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-03.md:25`)
 
 > Arya was glad to hear that the castle of the [Darrys](wiki:House_Darry) would be burned. That was where they'd brought her when she'd been caught after her fight with [Joffrey](wiki:Joffrey_Baratheon), and where [the queen](wiki:Cersei_Lannister) had made [her father](wiki:Eddard_Stark) kill [Sansa's](wiki:Sansa_Stark) [wolf](wiki:Nymeria_(direwolf)). It deserves to burn.(wiki:Darry.cite_ref-Racok64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-1)
 >
 > —thoughts of [Arya Stark](wiki:Arya_Stark)
 
-> Darry had changed hands several times during [the fighting](wiki:War_of_the_Five_Kings), and its castle had been burned once and sacked at least twice, but [Lancel](wiki:Lancel_Lannister) had seemingly wasted little time setting things to rights. The castle gates were newly hung, raw [oaken](wiki:Oak) planks reinforced with [iron](wiki:Iron) studs. A new stable was going up where an older one had been put to the torch. The steps to [the keep](wiki:Plowman's_Keep) had been replaced, and the shutters on many of the windows. Blackened stones showed where the flames had licked, but time and rain would fade those.(wiki:Darry.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-14)
+> Darry had changed hands several times during the fighting, and its castle had been burned once and sacked at least twice, but Lancel had seemingly wasted little time setting things to rights. The castle gates were newly hung, raw oaken planks reinforced with iron studs. A new stable was going up where an older one had been put to the torch. The steps to the keep had been replaced, and the shutters on many of the windows. Blackened stones showed where the flames had licked, but time and rain would fade those.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-04.md:29`)
 
-> Darry's great hall was great only by courtesy.(wiki:Darry.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-15)
+> Darry's great hall was great only by courtesy.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-04.md:105`)
 
 > **Jaime**: You should be sleeping with [your wife](wiki:Amerei_Frey), not with [the Maid](wiki:Maiden_(the_Seven)). You need a son with [Darry](wiki:House_Darry) blood if you want to keep this castle. **Lancel**: A pile of cold stones. I never asked for it. I never wanted it.(wiki:Darry.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-16)
 >

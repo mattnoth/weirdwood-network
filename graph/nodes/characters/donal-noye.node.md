@@ -76,13 +76,13 @@ Jon has a nightmare in which he cuts down Donal and other former companions.(wik
 >
 > —Donal to recruits
 
-> [Robert](wiki:Robert_I_Baratheon) was the true [steel](wiki:Steel). [Stannis](wiki:Stannis_Baratheon) is pure [iron](wiki:Iron), black and hard and strong, yes, but brittle, the way iron gets. He'll break before he bends. And [Renly](wiki:Renly_Baratheon), that one, he's [copper](wiki:Copper), bright and shiny, pretty to look at but not worth all that much at the end of the day.(wiki:Donal_Noye.cite_ref-Racok6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-6)
+> Robert was the true steel. Stannis is pure iron, black and hard and strong, yes, but brittle, the way iron gets. He'll break before he bends. And Renly, that one, he's copper, bright and shiny, pretty to look at but not worth all that much at the end of the day.
 >
-> —Donal to [Jon Snow](wiki:Jon_Snow)
+> —Donal to Jon Snow, ACOK (`sources/chapters/acok/acok-jon-01.md:117`)
 
-> [The Watch](wiki:Night's_Watch) is not what it was. Too few honest men to keep the rogues in line.(wiki:Donal_Noye.cite_ref-Rasos48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
+> The Watch is not what it was. Too few honest men to keep the rogues in line.
 >
-> —Donal to [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I))
+> —Donal to Aemon), ASOS (`sources/chapters/asos/asos-jon-06.md:95`)
 
 > **Donal**: Jon, you have the [Wall](wiki:Wall) till I return.
 >
@@ -92,9 +92,9 @@ Jon has a nightmare in which he cuts down Donal and other former companions.(wik
 
 ### Quotes about Donal
 
-> The armorer could talk about life. He'd had one. He'd only [taken the black](wiki:Night's_Watch) after he'd lost an arm at the [siege of Storm's End](wiki:Siege_of_Storm's_End). Before that he'd [smithed](wiki:Smith) for [Stannis Baratheon](wiki:Stannis_Baratheon), the king's brother. He'd seen the [Seven Kingdoms](wiki:Seven_Kingdoms) from one end to the other; he'd feasted and wenched and fought in a hundred battles. They said it was Donal Noye who'd forged King [Robert's warhammer](wiki:Robert's_warhammer), the one that crushed the life from [Rhaegar Targaryen](wiki:Rhaegar_Targaryen) on the [Trident](wiki:Battle_of_the_Trident). He'd done all the things that Jon would never do, and then when he was old, well past thirty, he'd taken a glancing blow from an axe and the wound had festered until the whole arm had to come off. Only then, crippled, had Donal Noye come to the [Wall](wiki:Wall), when his life was all but over.(wiki:Donal_Noye.cite_ref-Ragot19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-8)
+> The armorer could talk about life. He'd had one. He'd only taken the black after he'd lost an arm at the siege of Storm's End. Before that he'd smithed for Stannis Baratheon, the king's brother. He'd seen the Seven Kingdoms from one end to the other; he'd feasted and wenched and fought in a hundred battles. They said it was Donal Noye who'd forged King Robert's warhammer, the one that crushed the life from Rhaegar Targaryen on the Trident. He'd done all the things that Jon would never do, and then when he was old, well past thirty, he'd taken a glancing blow from an axe and the wound had festered until the whole arm had to come off. Only then, crippled, had Donal Noye come to the Wall, when his life was all but over.
 >
-> —[Jon Snow](wiki:Jon_Snow)'s thoughts
+> —Jon Snow's thoughts, AGOT (`sources/chapters/agot/agot-jon-03.md:123`)
 
 > **Tormund**: Some great [lord](wiki:Lord) was he, this Donal Noye? One of your shiny [knights](wiki:Knight) in their steel smallclothes?
 >
@@ -102,17 +102,17 @@ Jon has a nightmare in which he cuts down Donal and other former companions.(wik
 >
 > —[Tormund](wiki:Tormund) and [Jon Snow](wiki:Jon_Snow)
 
-> His treasures were his tools, and the swords and knives he made. His life was at the forge.(wiki:Donal_Noye.cite_ref-Radwd3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
+> His treasures were his tools, and the swords and knives he made. His life was at the forge.
 >
-> —[Jon Snow](wiki:Jon_Snow)'s thoughts
+> —Jon Snow's thoughts, ADWD (`sources/chapters/adwd/adwd-jon-01.md:57`)
 
-> Noye made my first sword for me, and [Robert's warhammer](wiki:Robert's_warhammer) as well. Had [the god](wiki:R'hllor) seen fit to spare him, he would have made a better [Lord Commander](wiki:Lord_Commander_of_the_Night's_Watch) for your order than any of these fools who are squabbling over it now.(wiki:Donal_Noye.cite_ref-Rasos76.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3)
+> Noye made my first sword for me, and Robert's warhammer as well. Had the god seen fit to spare him, he would have made a better Lord Commander for your order than any of these fools who are squabbling over it now.
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Jon Snow](wiki:Jon_Snow)
+> —Stannis Baratheon to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-11.md:61`)
 
-> Even [Sam](wiki:Samwell_Tarly) could appear almost formidable, clad head to heel in Donal Noye's [steel](wiki:Steel).(wiki:Donal_Noye.cite_ref-Radwd28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
+> Even Sam could appear almost formidable, clad head to heel in Donal Noye's steel.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-06.md:81`)
 
 ## Edges
 

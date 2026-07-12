@@ -80,9 +80,9 @@ Edmure eventually surrenders Riverrun, but he allows his uncle Brynden to escape
 >
 > —[Emmon Frey](wiki:Emmon_Frey) and Genna
 
-> I may be an old fat woman, but I do not have cheese between my ears, Jaime.(wiki:Genna_Lannister.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-18)
+> I may be an old fat woman, but I do not have cheese between my ears, Jaime.
 >
-> —Genna to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Genna to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-05.md:289`)
 
 > I was [my father's](wiki:Tytos_Lannister) precious princess ... and [Tywin's](wiki:Tywin_Lannister) too, until I disappointed him. My brother never learned to like the taste of disappointment.(wiki:Genna_Lannister.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-19)
 >
@@ -90,9 +90,9 @@ Edmure eventually surrenders Riverrun, but he allows his uncle Brynden to escape
 
 ### Quotes about Genna
 
-> Though she had been a [Frey](wiki:House_Frey) for fifty years, Lady Genna remained very much a [Lannister](wiki:House_Lannister). Quite a lot of Lannister.(wiki:Genna_Lannister.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-20)
+> Though she had been a Frey for fifty years, Lady Genna remained very much a Lannister. Quite a lot of Lannister.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-05.md:217`)
 
 > Lady Genna claimed her stool with a look that dared any man there to question her presence. None did.(wiki:Genna_Lannister.cite_ref-Raffc38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3) (affc-jaime-06:131)
 >

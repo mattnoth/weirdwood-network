@@ -27,6 +27,6 @@ Haggon was known as a friend of the [Night's Watch](wiki:Night's_Watch), trading
 
 ## Quotes
 
-> The [free folk](wiki:Free_folk) fear skinchangers, but they honor us as well. [South of the Wall](wiki:South_of_the_Wall), the [kneelers](wiki:Kneelers) hunt us down and butcher us like pigs.(wiki:Haggon.cite_ref-Radwdprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> The free folk fear skinchangers, but they honor us as well. South of the Wall, the kneelers hunt us down and butcher us like pigs.
 >
-> —Haggon
+> —Haggon, ADWD (`sources/chapters/adwd/adwd-prologue.md:119`)

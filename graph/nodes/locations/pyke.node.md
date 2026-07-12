@@ -85,18 +85,18 @@ Euron Crow's Eye has Maester [Wendamyr](wiki:Wendamyr) summon the [ironborn](wik
 
 ## Quotes
 
-> The point of land on which the [Greyjoys](wiki:House_Greyjoy) had raised their fortress had once thrust like a sword into the bowels of [the ocean](wiki:Sunset_Sea), but the waves had hammered at it day and night until the land broke and shattered, thousands of years past. All that remained were three bare and barren islands and a dozen towering stacks of rock that rose from the water like the pillars of some sea god's temple, while the angry waves foamed and crashed among them.(wiki:Pyke.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-22)
+> The point of land on which the Greyjoys had raised their fortress had once thrust like a sword into the bowels of the ocean, but the waves had hammered at it day and night until the land broke and shattered, thousands of years past. All that remained were three bare and barren islands and a dozen towering stacks of rock that rose from the water like the pillars of some sea god's temple, while the angry waves foamed and crashed among them.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-01.md:15`)
 
 > **daughter**: It must be windy there. **Theon**: Windy and cold and damp. A miserable hard place, in truth ... but [my lord father](wiki:Balon_Greyjoy) once told me that hard places breed [hard men](wiki:Ironborn), and hard men rule [the world](wiki:Known_world).(wiki:Pyke.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-23)
 >
 > —[captain's daughter](wiki:Daughter_of_the_captain_of_the_Myraham) and [Theon Greyjoy](wiki:Theon_Greyjoy)
 
-> It is as if I were a stranger here, Theon thought. Nothing has changed, and yet everything has changed.(wiki:Pyke.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-24)
+> It is as if I were a stranger here, Theon thought. Nothing has changed, and yet everything has changed.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-01.md:275`)
 
-> The [Greyjoy](wiki:House_Greyjoy) stronghold stood upon a broken headland, its keeps and towers built atop massive stone stacks that thrust up from [the sea](wiki:Sunset_Sea). Bridges knotted Pyke together; arched bridges of carved stone and swaying spans of hempen rope and wooden planks.(wiki:Pyke.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-2)
+> The Greyjoy stronghold stood upon a broken headland, its keeps and towers built atop massive stone stacks that thrust up from the sea. Bridges knotted Pyke together; arched bridges of carved stone and swaying spans of hempen rope and wooden planks.
 >
-> —thoughts of [Aeron Greyjoy](wiki:Aeron_Greyjoy)
+> —thoughts of Aeron Greyjoy, AFFC (`sources/chapters/affc/affc-the-prophet-01.md:71`)

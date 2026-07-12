@@ -49,19 +49,19 @@ Tycho is brought before Stannis, and the two sign an agreement, with Stannis rel
 >
 > —Tycho and [Jon Snow](wiki:Jon_Snow)
 
-> We who serve the [Iron Bank](wiki:Iron_Bank) face death full as often as you who serve the [Iron Throne](wiki:Iron_Throne).(wiki:Tycho_Nestoris.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> We who serve the Iron Bank face death full as often as you who serve the Iron Throne.
 >
-> —Tycho to [Jon Snow](wiki:Jon_Snow)
+> —Tycho to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-09.md:143`)
 
-> I have the honor to be Tycho Nestoris, a humble servant of the [Iron Bank of Braavos](wiki:Iron_Bank_of_Braavos).(wiki:Tycho_Nestoris.cite_ref-Radwd62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> I have the honor to be Tycho Nestoris, a humble servant of the Iron Bank of Braavos.
 >
-> —Tycho to [Clayton Suggs](wiki:Clayton_Suggs)
+> —Tycho to Clayton Suggs, ADWD (`sources/chapters/adwd/adwd-the-sacrifice-01.md:265`)
 
 ### Quotes about Tycho
 
-> A scarf concealed the tall man's features, but atop his head was perched the queerest hat Asha had seen since the last time she had sailed to [Tyrosh](wiki:Tyrosh), a brimless tower of some soft fabric, like three cylinders stacked one atop the other.(wiki:Tycho_Nestoris.cite_ref-Radwd62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
+> A scarf concealed the tall man's features, but atop his head was perched the queerest hat Asha had seen since the last time she had sailed to Tyrosh, a brimless tower of some soft fabric, like three cylinders stacked one atop the other.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-sacrifice-01.md:261`)
 
 > You are a worse [pirate](wiki:Pirate) than [Salladhor Saan](wiki:Salladhor_Saan).(wiki:Tycho_Nestoris.cite_ref-twowtheon_4-1)
 >

@@ -114,22 +114,22 @@ Ser [Jaime Lannister](wiki:Jaime_Lannister) resolves the [siege of Raventree](wi
 >
 > —[Jeyne Poole](wiki:Jeyne_Poole) and [Sansa Stark](wiki:Sansa_Stark)
 
-> Lords and knights moved aside as he stepped through, tall and fleshless, a skeleton in iron mail, the [King's Justice](wiki:King's_Justice).(wiki:Ilyn_Payne.cite_ref-Ragot65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> Lords and knights moved aside as he stepped through, tall and fleshless, a skeleton in iron mail, the King's Justice.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, AGOT (`sources/chapters/agot/agot-arya-05.md:163`)
 
 > **Sansa**: Why is Ser Ilyn here? **Cersei**: To deal with treason, and to defend us if need be. He was a [knight](wiki:Knight) before he was a headsman. When the axes smash down those doors, you may be glad of him.(wiki:Ilyn_Payne.cite_ref-Racok57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-1)
 >
 > —[Sansa Stark](wiki:Sansa_Stark) and [Cersei Lannister](wiki:Cersei_Lannister)
 
-> He had been too young to have known Ser Ilyn before he'd lost his tongue. He would have been a different man in those days, but now the silence is as much a part of him as those hollow eyes, that rusty chainmail shirt, and the greatsword on his back.(wiki:Ilyn_Payne.cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4)
+> He had been too young to have known Ser Ilyn before he'd lost his tongue. He would have been a different man in those days, but now the silence is as much a part of him as those hollow eyes, that rusty chainmail shirt, and the greatsword on his back.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-08.md:269`)
 
 > You were a [knight](wiki:Knight) once, ser. So was I. Let us see what we are now.(wiki:Ilyn_Payne.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-14)
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) to Ilyn
 
-> Ser Ilyn made the perfect drinking companion. He never interrupted, never disagreed, never complained or asked for favors or told long pointless stories. All he did was drink and listen.(wiki:Ilyn_Payne.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3)
+> Ser Ilyn made the perfect drinking companion. He never interrupted, never disagreed, never complained or asked for favors or told long pointless stories. All he did was drink and listen.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-07.md:175`)

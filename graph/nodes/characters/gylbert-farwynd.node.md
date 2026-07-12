@@ -37,12 +37,12 @@ During the [kingsmoot on Old Wyk](wiki:Kingsmoot_on_Old_Wyk) to succeed [Balon G
 
 ### Quotes by Gylbert
 
-> We will build ten thousand ships as [Nymeria once did](wiki:Ten_thousand_ships) and take sail with all [our people](wiki:Ironborn) to the land beyond [the sunset](wiki:Sunset_Sea). There every man shall be a king and every wife a queen.(wiki:Gylbert_Farwynd.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> We will build ten thousand ships as Nymeria once did and take sail with all our people to the land beyond the sunset. There every man shall be a king and every wife a queen.
 >
-> —Gylbert at the [kingsmoot on Old Wyk](wiki:Kingsmoot_on_Old_Wyk)
+> —Gylbert at the kingsmoot on Old Wyk, AFFC (`sources/chapters/affc/affc-the-drowned-man-01.md:61`)
 
 ### Quotes about Gylbert
 
-> His eyes, Aeron saw, were now grey, now blue, as changeable as the seas. Mad eyes, he thought, [fool](wiki:Fool)'s eyes. The vision he spoke of was doubtless a snare set by the [Storm God](wiki:Storm_God) to lure the [ironborn](wiki:Ironborn) to destruction.(wiki:Gylbert_Farwynd.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> His eyes, Aeron saw, were now grey, now blue, as changeable as the seas. Mad eyes, he thought, fool's eyes. The vision he spoke of was doubtless a snare set by the Storm God to lure the ironborn to destruction.
 >
-> —thoughts of [Aeron Greyjoy](wiki:Aeron_Greyjoy)
+> —thoughts of Aeron Greyjoy, AFFC (`sources/chapters/affc/affc-the-drowned-man-01.md:63`)

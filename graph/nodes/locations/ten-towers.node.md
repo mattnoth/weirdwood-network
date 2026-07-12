@@ -57,10 +57,10 @@ When Euron Crow's Eye is chosen, Asha flees from Old Wyk back to Ten Towers on H
 
 ## Quotes
 
-> Lady [Gwynesse](wiki:Gwynesse_Harlaw) had come home to mourn after her husband had died off [Fair Isle](wiki:Sea_battle_off_Fair_Isle) during [Balon Greyjoy](wiki:Balon_Greyjoy)'s [first rebellion](wiki:Greyjoy's_Rebellion). "I will only stay until my grief has passed," she had told her brother, famously, "though by rights Ten Towers should be mine, for I am seven years your elder." Long years had passed since then, but still the widow lingered, grieving, and muttering from time to time that the castle should be hers. And now Lord [Rodrik](wiki:Rodrik_Harlaw) has a [second half-mad widowed sister](wiki:Alannys_Harlaw) beneath his roof, Asha reflected. Small wonder if he seeks solace in his books.(wiki:Ten_Towers.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-18)
+> Lady Gwynesse had come home to mourn after her husband had died off Fair Isle during Balon Greyjoy's first rebellion. "I will only stay until my grief has passed," she had told her brother, famously, "though by rights Ten Towers should be mine, for I am seven years your elder." Long years had passed since then, but still the widow lingered, grieving, and muttering from time to time that the castle should be hers. And now Lord Rodrik has a second half-mad widowed sister beneath his roof, Asha reflected. Small wonder if he seeks solace in his books.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, AFFC (`sources/chapters/affc/affc-the-krakens-daughter-01.md:31`)
 
-> It was good to walk these halls again. Ten Towers had always felt like home to Asha, more so than [Pyke](wiki:Pyke). Not one castle, ten castles squashed together, she had thought, the first time she had seen it.(wiki:Ten_Towers.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-19)
+> It was good to walk these halls again. Ten Towers had always felt like home to Asha, more so than Pyke. Not one castle, ten castles squashed together, she had thought, the first time she had seen it.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, AFFC (`sources/chapters/affc/affc-the-krakens-daughter-01.md:51`)

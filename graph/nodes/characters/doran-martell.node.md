@@ -158,13 +158,13 @@ Doran has received a letter from Jon Connington stating that his sister Elia's s
 >
 > —thoughts of [Areo Hotah](wiki:Areo_Hotah)
 
-> My father is very good at doing nothing. He calls it thinking.(wiki:Doran_Martell.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-7)
+> My father is very good at doing nothing. He calls it thinking.
 >
-> —[Arianne Martell](wiki:Arianne_Martell) to [Arys Oakheart](wiki:Arys_Oakheart)
+> —Arianne Martell to Arys Oakheart, AFFC (`sources/chapters/affc/affc-the-soiled-knight-01.md:121`)
 
-> Your father keeps his secrets well, Prince Quentyn. Too well, I fear.(wiki:Doran_Martell.cite_ref-Radwd59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_44-0)
+> Your father keeps his secrets well, Prince Quentyn. Too well, I fear.
 >
-> —[Barristan Selmy](wiki:Barristan_Selmy) to [Quentyn Martell](wiki:Quentyn_Martell)
+> —Barristan Selmy to Quentyn Martell, ADWD (`sources/chapters/adwd/adwd-the-discarded-knight-01.md:151`)
 
 > **Jon**: Above all else, we must have Doran Martell.
 >
@@ -172,9 +172,9 @@ Doran has received a letter from Jon Connington stating that his sister Elia's s
 >
 > —[Jon Connington](wiki:Jon_Connington) and [Harry Strickland](wiki:Harry_Strickland)
 
-> Your father married for love, it's said. How much joy has he had of that?(wiki:Doran_Martell.cite_ref-Radwd68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_45-0)
+> Your father married for love, it's said. How much joy has he had of that?
 >
-> —[Gerris Drinkwater](wiki:Gerris_Drinkwater) to [Quentyn Martell](wiki:Quentyn_Martell)
+> —Gerris Drinkwater to Quentyn Martell, ADWD (`sources/chapters/adwd/adwd-the-dragontamer-01.md:53`)
 
 ## Edges
 

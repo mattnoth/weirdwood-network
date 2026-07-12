@@ -68,9 +68,9 @@ While at [Harrenhal](wiki:Harrenhal), Flement engages in a training fight with S
 
 ### Quotes about Flement
 
-> A party of mounted horsemen rode forward to challenge them as they approached the stakes. The knight who led them wore [silver](wiki:Silver) armor inlaid with [amethysts](wiki:Amethyst) and a striped purple-and-silver cloak. His shield bore a [unicorn](wiki:Unicorn) sigil, and a spiral horn two feet long jutted up from the brow of his [horsehead](wiki:Horse) helm.(wiki:Flement_Brax.cite_ref-Ragot56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> A party of mounted horsemen rode forward to challenge them as they approached the stakes. The knight who led them wore silver armor inlaid with amethysts and a striped purple-and-silver cloak. His shield bore a unicorn sigil, and a spiral horn two feet long jutted up from the brow of his horsehead helm.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-07.md:41`)
 
 > If you admire the bloody thing so much, lop off your own sword hand and you can have it.(wiki:Flement_Brax.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
 >

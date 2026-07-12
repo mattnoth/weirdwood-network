@@ -69,13 +69,13 @@ Coldhands leads Bran and his companions to the [cave of the three-eyed crow](wik
 >
 > —[Jojen Reed](wiki:Jojen_Reed) and [Gilly](wiki:Gilly)
 
-> [The direwolf](wiki:Summer) did not like the way that Coldhands smelled. Dead meat, dry blood, a faint whiff of rot. And cold. Cold over all.(wiki:Coldhands.cite_ref-Radwd4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-11)
+> The direwolf did not like the way that Coldhands smelled. Dead meat, dry blood, a faint whiff of rot. And cold. Cold over all.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, ADWD (`sources/chapters/adwd/adwd-bran-01.md:31`)
 
-> I don't like him. And I don't trust him. Those hands of his are bad enough. He hides his face, and will not speak a name. Who is he? What is he? Anyone can put on a [black cloak](wiki:Night's_Watch). Anyone, or any thing. He does not eat, he never drinks, he does not seem to feel the cold.(wiki:Coldhands.cite_ref-Radwd4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-12)
+> I don't like him. And I don't trust him. Those hands of his are bad enough. He hides his face, and will not speak a name. Who is he? What is he? Anyone can put on a black cloak. Anyone, or any thing. He does not eat, he never drinks, he does not seem to feel the cold.
 >
-> —[Meera Reed](wiki:Meera_Reed) to [Bran Stark](wiki:Bran_Stark)
+> —Meera Reed to Bran Stark, ADWD (`sources/chapters/adwd/adwd-bran-01.md:59`)
 
 > **Bran**: The [ranger](wiki:Ranger) ...
 >

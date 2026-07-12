@@ -60,12 +60,12 @@ During the trial of Tyrion for [the death](wiki:Purple_Wedding) of King [Joffrey
 
 ### Quotes by Timett
 
-> The Burned Men fear nothing. Timett son of Timett will ride with the [lions](wiki:House_Lannister).(wiki:Timett.cite_ref-Ragot56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> The Burned Men fear nothing. Timett son of Timett will ride with the lions.
 >
-> —Timett to [Tywin Lannister](wiki:Tywin_Lannister)
+> —Timett to Tywin Lannister, AGOT (`sources/chapters/agot/agot-tyrion-07.md:185`)
 
 ### Quotes about Timett
 
-> If a man was mad enough to put out his own eye, he was unlikely to be gentle to his enemies.(wiki:Timett.cite_ref-Ragot56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
+> If a man was mad enough to put out his own eye, he was unlikely to be gentle to his enemies.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-07.md:33`)

@@ -115,10 +115,10 @@ The crew of the *[Shy Maid](wiki:Shy_Maid)* is told that Tyrion is Hugor Hill, a
 
 ## Quotes
 
-> With [the Rock](wiki:Casterly_Rock), he could hold Lannisport and the golden lands of [the west](wiki:Westerlands). It would mean wealth and power such as [House Greyjoy](wiki:House_Greyjoy) had never known.(wiki:Lannisport.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_53-1)
+> With the Rock, he could hold Lannisport and the golden lands of the west. It would mean wealth and power such as House Greyjoy had never known.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-01.md:351`)
 
-> [Roro Uhoris](wiki:Roro_Uhoris), the [Cobblecat](wiki:Cobblecat)'s cranky old master, used to claim that he could tell one port from another just by the way they smelled. Cities were like women, he insisted; each one had its own unique scent. [Oldtown](wiki:Oldtown) was as flowery as a perfumed dowager. Lannisport was a milkmaid, fresh and earthy, with woodsmoke in her hair. [King's Landing](wiki:King's_Landing) reeked like some unwashed whore. But [White Harbor](wiki:White_Harbor)'s scent was sharp and salty, and a little fishy too.(wiki:Lannisport.cite_ref-Radwd15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_61-0)
+> Roro Uhoris, the Cobblecat's cranky old master, used to claim that he could tell one port from another just by the way they smelled. Cities were like women, he insisted; each one had its own unique scent. Oldtown was as flowery as a perfumed dowager. Lannisport was a milkmaid, fresh and earthy, with woodsmoke in her hair. King's Landing reeked like some unwashed whore. But White Harbor's scent was sharp and salty, and a little fishy too.
 >
-> —recollection of [Davos Seaworth](wiki:Davos_Seaworth)
+> —recollection of Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-02.md:21`)

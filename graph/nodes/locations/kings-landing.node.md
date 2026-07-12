@@ -183,21 +183,21 @@ As atonement for her confessed sins, Cersei [walks](wiki:Walk_of_atonement) from
 >
 > —[Steelshanks Walton](wiki:Steelshanks_Walton) and [Jaime Lannister](wiki:Jaime_Lannister)
 
-> In King's Landing, there are two sorts of people. The players and the pieces.(wiki:King's_Landing.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_85-0)
+> In King's Landing, there are two sorts of people. The players and the pieces.
 >
-> —[Petyr Baelish](wiki:Petyr_Baelish) to [Sansa Stark](wiki:Sansa_Stark)
+> —Petyr Baelish to Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-06.md:137`)
 
-> [Roro Uhoris](wiki:Roro_Uhoris), the [Cobblecat](wiki:Cobblecat)'s cranky old master, used to claim that he could tell one port from another just by the way they smelled. Cities were like women, he insisted; each one had its own unique scent. [Oldtown](wiki:Oldtown) was as flowery as a perfumed dowager. [Lannisport](wiki:Lannisport) was a milkmaid, fresh and earthy, with woodsmoke in her hair. King's Landing reeked like some unwashed [whore](wiki:Whore). But [White Harbor](wiki:White_Harbor)'s scent was sharp and salty, and a little fishy too.(wiki:King's_Landing.cite_ref-Radwd15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_86-0)
+> Roro Uhoris, the Cobblecat's cranky old master, used to claim that he could tell one port from another just by the way they smelled. Cities were like women, he insisted; each one had its own unique scent. Oldtown was as flowery as a perfumed dowager. Lannisport was a milkmaid, fresh and earthy, with woodsmoke in her hair. King's Landing reeked like some unwashed whore. But White Harbor's scent was sharp and salty, and a little fishy too.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-02.md:21`)
 
 > King's Landing is a pit of [snakes](wiki:Snake).(wiki:King's_Landing.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_87-0)
 >
 > —[Doran Martell](wiki:Doran_Martell) to [Nymeria Sand](wiki:Nymeria_Sand)
 
-> The morning air was thick with the old familiar stinks of King's Landing. She breathed in the scents of sour wine, bread baking, rotting fish and [nightsoil](wiki:Night_soil), smoke and sweat and horse piss. No flower had ever smelled so sweet.(wiki:King's_Landing.cite_ref-Radwd65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_84-1)
+> The morning air was thick with the old familiar stinks of King's Landing. She breathed in the scents of sour wine, bread baking, rotting fish and nightsoil, smoke and sweat and horse piss. No flower had ever smelled so sweet.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, ADWD (`sources/chapters/adwd/adwd-cersei-02.md:73`)
 
 > King’s Landing grew up around Aegon and his court, on and about the three great hills that stood near the mouth of the Blackwater Rush. The highest of those hills had become known as Aegon’s High Hill, and soon enough the lesser hills were being called Visenya's Hill and the Hill of Rhaenys, their former names forgotten.
 > — Gyldayn's chronicle, on the naming of the three hills, F&B (`sources/chapters/fab/fab-reign-of-the-dragon-04.md:213`)

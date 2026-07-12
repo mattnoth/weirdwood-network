@@ -53,6 +53,6 @@ After the submission of the stormlands, Rhaenys flew from Storm's End to support
 
 ## Quotes
 
-> So [Argilac the Arrogant](wiki:Argilac_Durrandon) rode forth from [Storm's End](wiki:Storm's_End) one last time, to meet [his foes](wiki:House_Targaryen) in the open field.(wiki:Last_Storm.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+> So Argilac the Arrogant rode forth from Storm's End one last time, to meet his foes in the open field.
 >
-> —writings of [Gyldayn](wiki:Gyldayn)
+> —writings of Gyldayn, F&B (`sources/chapters/fab/fab-aegons-conquest-03.md:183`)

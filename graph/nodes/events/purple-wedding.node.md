@@ -62,9 +62,9 @@ With the exception of his mother, [Cersei Lannister](wiki:Cersei_Lannister), Jof
 
 ## Quotes
 
-> [Joffrey](wiki:Joffrey_Baratheon) and [Margaery](wiki:Margaery_Tyrell) shall marry on the first day of the [new year](wiki:300_AC), which as it happens is also the first day of the new century. The ceremony will herald the dawn of a new era.(wiki:Purple_Wedding.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+> Joffrey and Margaery shall marry on the first day of the new year, which as it happens is also the first day of the new century. The ceremony will herald the dawn of a new era.
 >
-> —[Tywin Lannister](wiki:Tywin_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Tywin Lannister to Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-01.md:189`)
 
 > **Tyrion**: The treasury is empty, I've told you that. We're not done paying the [alchemists](wiki:Alchemists_Guild) for all that [wildfire](wiki:Wildfire), or the smiths for my chain, and [Cersei's](wiki:Cersei_Lannister) pledged the crown to pay half the costs of [Joff's](wiki:Joffrey_Baratheon) wedding—seventy-seven bloody courses, a thousand guests, a pie full of [doves](wiki:Pigeon), singers, jugglers ... **Tywin**: Extravagance has its uses. We must demonstrate the power and wealth of [Casterly](wiki:Casterly) Rock for all [the realm](wiki:Seven_Kingdoms) to see.(wiki:Purple_Wedding.cite_ref-Rasos32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-0)
 >
@@ -80,13 +80,13 @@ With the exception of his mother, [Cersei Lannister](wiki:Cersei_Lannister), Jof
 >
 > —[Alerie Hightower](wiki:Alerie_Hightower) and [Cersei Lannister](wiki:Cersei_Lannister)
 
-> [My sister](wiki:Cersei_Lannister) outdid herself, I'm told. Seventy-seven courses and a [regicide](wiki:Regicide), never a wedding like it.(wiki:Purple_Wedding.cite_ref-Rasos62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-1)
+> My sister outdid herself, I'm told. Seventy-seven courses and a regicide, never a wedding like it.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister) to [Tywin Lannister](wiki:Tywin_Lannister)
+> —Jaime Lannister to Tywin Lannister, ASOS (`sources/chapters/asos/asos-jaime-07.md:259`)
 
-> Weddings have become more perilous than battles, it would seem.(wiki:Purple_Wedding.cite_ref-Rasos63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-0)
+> Weddings have become more perilous than battles, it would seem.
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Melisandre](wiki:Melisandre)
+> —Stannis Baratheon to Melisandre, ASOS (`sources/chapters/asos/asos-davos-06.md:149`)
 
 > a thousand guests and seventy-seven courses, with singers and jugglers and mummers
 
@@ -96,10 +96,10 @@ With the exception of his mother, [Cersei Lannister](wiki:Cersei_Lannister), Jof
 
 — Shae to Sansa Stark, ASOS Tyrion VIII (`sources/chapters/asos/asos-tyrion-08.md:91`) — Retrospective horror — Shae's innocent excitement about the very feast where Joffrey dies
 
-> Whenever she closed her eyes she saw [Joffrey](wiki:Joffrey_Baratheon) tearing at his collar, clawing at the soft skin of his throat, dying with flakes of pie crust on his lips and [wine](wiki:Wine) stains on his doublet. And the wind keening in the lines reminded her of the terrible thin sucking sound he'd made as he fought to draw in air.(wiki:Purple_Wedding.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-1)
+> Whenever she closed her eyes she saw Joffrey tearing at his collar, clawing at the soft skin of his throat, dying with flakes of pie crust on his lips and wine stains on his doublet. And the wind keening in the lines reminded her of the terrible thin sucking sound he'd made as he fought to draw in air.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-06.md:15`)
 
-> The [northern girl](wiki:Sansa_Stark). Winterfell's daughter. We heard she killed [the king](wiki:Joffrey_Baratheon) with a spell, and afterward changed into a [wolf](wiki:Wolf) with big leather wings like a [bat](wiki:Bat), and flew out a tower window. But she left [the dwarf](wiki:Tyrion_Lannister) behind and [Cersei](wiki:Cersei_Lannister) means to have his head.(wiki:Purple_Wedding.cite_ref-Rasos74.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-1)
+> The northern girl. Winterfell's daughter. We heard she killed the king with a spell, and afterward changed into a wolf with big leather wings like a bat, and flew out a tower window. But she left the dwarf behind and Cersei means to have his head.
 >
-> —[Polliver](wiki:Polliver) to [Sandor Clegane](wiki:Sandor_Clegane)
+> —Polliver to Sandor Clegane, ASOS (`sources/chapters/asos/asos-arya-13.md:63`)

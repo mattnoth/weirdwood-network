@@ -122,9 +122,9 @@ When news of the [taking of Griffin's Roost](wiki:Taking_of_Griffin's_Roost) and
 >
 > —Randyll to [Guyard Morrigen](wiki:Guyard_Morrigen)
 
-> You ruined [one boy](wiki:Samwell_Tarly) with those soft [septon](wiki:Septon)'s songs, do you mean to do the same to [this babe](wiki:Dickon_Tarly)?(wiki:Randyll_Tarly.cite_ref-Rasos46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-2)
+> You ruined one boy with those soft septon's songs, do you mean to do the same to this babe?
 >
-> —Randyll to [Melessa Florent](wiki:Melessa_Florent)
+> —Randyll to Melessa Florent, ASOS (`sources/chapters/asos/asos-samwell-03.md:113`)
 
 > No son of [House Tarly](wiki:House_Tarly) will ever wear [a chain](wiki:Maesters). The men of [Horn Hill](wiki:Horn_Hill) do not bow and scrape to petty [lords](wiki:Lord).(wiki:Randyll_Tarly.cite_ref-Raffc5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-0)
 >
@@ -134,27 +134,27 @@ When news of the [taking of Griffin's Roost](wiki:Taking_of_Griffin's_Roost) and
 >
 > —[Brienne Tarth](wiki:Brienne_Tarth) and Randyll
 
-> What have we become, when [kings](wiki:King) and high [lords](wiki:Lord) must dance to the twittering of [sparrows](wiki:Sparrows)?(wiki:Randyll_Tarly.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+> What have we become, when kings and high lords must dance to the twittering of sparrows?
 >
-> —Randyll to [Kevan Lannister](wiki:Kevan_Lannister)
+> —Randyll to Kevan Lannister, ADWD (`sources/chapters/adwd/adwd-epilogue.md:51`)
 
 ### Quotes about Randyll
 
-> He wondered what his father would say if he could see him now. I killed one of the [Others](wiki:Others), my lord, he imagined saying. I stabbed him with an [obsidian](wiki:Obsidian) dagger, and my [Sworn Brothers](wiki:Night's_Watch) call me Sam the Slayer now. But even in his fancies, Lord Randyll only scowled, disbelieving.(wiki:Randyll_Tarly.cite_ref-Rasos46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-3)
+> He wondered what his father would say if he could see him now. I killed one of the Others, my lord, he imagined saying. I stabbed him with an obsidian dagger, and my Sworn Brothers call me Sam the Slayer now. But even in his fancies, Lord Randyll only scowled, disbelieving.
 >
-> —thoughts of [Samwell Tarly](wiki:Samwell_Tarly)
+> —thoughts of Samwell Tarly, ASOS (`sources/chapters/asos/asos-samwell-03.md:131`)
 
 > **Stannis**: Your father is an able soldier. He defeated [my brother](wiki:Robert_I_Baratheon) once, at [Ashford](wiki:Battle_of_Ashford). [Mace Tyrell](wiki:Mace_Tyrell) has been pleased to claim the honors for that victory, but Lord Randyll had decided matters before Tyrell ever found the battlefield. He slew [Lord Cafferen](wiki:Lord_Cafferen) with [that great Valyrian sword](wiki:Heartsbane) of his and sent his head to [Aerys](wiki:Aerys_II_Targaryen). You are not the sort of son I would expect such a man to have. **Samwell**: I ... I am not the sort of son he wanted, sire.(wiki:Randyll_Tarly.cite_ref-Rasos78.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-3)
 >
 > —[Stannis Baratheon](wiki:Stannis_Baratheon) and [Samwell Tarly](wiki:Samwell_Tarly)
 
-> The sight of blood might make Sam faint, but he knew how wars were won. His own father had seen to that.(wiki:Randyll_Tarly.cite_ref-Raffc5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-1)
+> The sight of blood might make Sam faint, but he knew how wars were won. His own father had seen to that.
 >
-> —thoughts of [Samwell Tarly](wiki:Samwell_Tarly)
+> —thoughts of Samwell Tarly, AFFC (`sources/chapters/affc/affc-samwell-01.md:145`)
 
-> Randyll Tarly is the finest soldier in [the realm](wiki:Seven_Kingdoms). A poor [Hand](wiki:Hand_of_the_King) for peacetime, but with [Tywin](wiki:Tywin_Lannister) dead there's no better man to finish [this war](wiki:War_of_the_Five_Kings).(wiki:Randyll_Tarly.cite_ref-Raffc7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-2)
+> Randyll Tarly is the finest soldier in the realm. A poor Hand for peacetime, but with Tywin dead there's no better man to finish this war.
 >
-> —[Kevan Lannister](wiki:Kevan_Lannister) to [Cersei Lannister](wiki:Cersei_Lannister)
+> —Kevan Lannister to Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-02.md:313`)
 
 > **Dunstan**: Lord Tarly bears the greatsword [Heartsbane](wiki:Heartsbane), forged of [Valyrian steel](wiki:Valyrian_steel), and he is always in Lord [Tyrell's](wiki:Mace_Tyrell) van. **Victarion**: Let him come. I will take his sword for mine own, as your own forebear took [Red Rain](wiki:Red_Rain).(wiki:Randyll_Tarly.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)
 >

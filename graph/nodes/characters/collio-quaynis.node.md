@@ -29,10 +29,10 @@ Collio is one of the seven singers chosen to compete in the singers tourney at [
 
 ## Quotes
 
-> And Collio, with that absurd [Tyroshi accent](wiki:Tyroshi_language)! If you understand one word in three, count yourself fortunate.(wiki:Collio_Quaynis.cite_ref-Rasos32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> And Collio, with that absurd Tyroshi accent! If you understand one word in three, count yourself fortunate.
 >
-> —[Symon Silver Tongue](wiki:Symon_Silver_Tongue) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Symon Silver Tongue to Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-04.md:115`)
 
-> Then the heralds summoned another singer; Collio Quaynis of [Tyrosh](wiki:Tyrosh), who had a vermilion beard and an accent as ludicrous as [Symon](wiki:Symon_Silver_Tongue) had promised. Collio began with his version of "[The Dance of the Dragons](wiki:The_Dance_of_the_Dragons)," which was more properly a song for two singers, male and female. Tyrion suffered through it with a double helping of honey-ginger partridge and several cups of [wine](wiki:Wine). A haunting ballad of two dying lovers amidst the [Doom of Valyria](wiki:Doom_of_Valyria) might have pleased the hall more if Collio had not sung it in [High Valyrian](wiki:High_Valyrian), which most of [the guests](wiki:Purple_Wedding) could not speak.(wiki:Collio_Quaynis.cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+> Then the heralds summoned another singer; Collio Quaynis of Tyrosh, who had a vermilion beard and an accent as ludicrous as Symon had promised. Collio began with his version of "The Dance of the Dragons," which was more properly a song for two singers, male and female. Tyrion suffered through it with a double helping of honey-ginger partridge and several cups of wine. A haunting ballad of two dying lovers amidst the Doom of Valyria might have pleased the hall more if Collio had not sung it in High Valyrian, which most of the guests could not speak.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-08.md:157`)

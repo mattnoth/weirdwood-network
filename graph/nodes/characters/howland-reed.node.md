@@ -88,33 +88,33 @@ Theon resolves the [siege of Moat Cailin](wiki:Siege_of_Moat_Cailin), with the m
 
 ## Quotes
 
-> In the dream his friends rode with him, as they had in life. Proud [Martyn Cassel](wiki:Martyn_Cassel), [Jory](wiki:Jory_Cassel)'s father; faithful [Theo Wull](wiki:Theo_Wull); [Ethan Glover](wiki:Ethan_Glover), who had been [Brandon](wiki:Brandon_Stark)'s [squire](wiki:Squire); Ser [Mark Ryswell](wiki:Mark_Ryswell), soft of speech and gentle of heart; the [crannogman](wiki:Crannogman), Howland Reed; Lord [Dustin](wiki:Willam_Dustin) on his great red [stallion](wiki:Horse). Ned had known their faces as well as he knew his own once, but the years leech at a man's memories, even those he has vowed never to forget. In the dream they were only shadows, grey wraiths on horses made of mist.(wiki:Howland_Reed.cite_ref-Ragot39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-5)
+> In the dream his friends rode with him, as they had in life. Proud Martyn Cassel, Jory's father; faithful Theo Wull; Ethan Glover, who had been Brandon's squire; Ser Mark Ryswell, soft of speech and gentle of heart; the crannogman, Howland Reed; Lord Dustin on his great red stallion. Ned had known their faces as well as he knew his own once, but the years leech at a man's memories, even those he has vowed never to forget. In the dream they were only shadows, grey wraiths on horses made of mist.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-10.md:13`)
 
-> They had been [seven against three](wiki:Combat_at_the_tower_of_joy), yet only two had lived to ride away; Eddard Stark himself and the little [crannogman](wiki:Crannogman), Howland Reed.(wiki:Howland_Reed.cite_ref-Ragot39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-6)
+> They had been seven against three, yet only two had lived to ride away; Eddard Stark himself and the little crannogman, Howland Reed.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-10.md:93`)
 
 > Howland Reed was a great friend to [your father](wiki:Eddard_Stark).(wiki:Howland_Reed.cite_ref-Racok21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-6)
 >
 > —[Rodrik Cassel](wiki:Rodrik_Cassel), to [Bran Stark](wiki:Bran_Stark)
 
-> The finest [knight](wiki:Knight) I ever saw was Ser [Arthur Dayne](wiki:Arthur_Dayne), who fought with a blade called [Dawn](wiki:Dawn), forged from the heart of a [fallen star](wiki:Astronomy). They called him the [Sword of the Morning](wiki:Sword_of_the_Morning), and he would have [killed me](wiki:Combat_at_the_tower_of_joy) but for Howland Reed.(wiki:Howland_Reed.cite_ref-Racok21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-7)
+> The finest knight I ever saw was Ser Arthur Dayne, who fought with a blade called Dawn, forged from the heart of a fallen star. They called him the Sword of the Morning, and he would have killed me but for Howland Reed.
 >
-> —[Eddard Stark](wiki:Eddard_Stark), to [Bran Stark](wiki:Bran_Stark)
+> —Eddard Stark, to Bran Stark, ACOK (`sources/chapters/acok/acok-bran-03.md:127`)
 
 > **Bran**: Did he have [green dreams](wiki:Green_dreams) like Jojen? **Meera**: No, but he could breathe mud and run on leaves, and change earth to water and water to earth with no more than a whispered word. He could talk to trees and weave words and make castles appear and disappear.(wiki:Howland_Reed.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
 >
 > —[Bran Stark](wiki:Bran_Stark) and [Meera Reed](wiki:Meera_Reed)
 
-> In his head, the [crannogman](wiki:Crannogman) looked like [Jojen](wiki:Jojen_Reed), only older and stronger and dressed like [Meera](wiki:Meera_Reed).(wiki:Howland_Reed.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-10)
+> In his head, the crannogman looked like Jojen, only older and stronger and dressed like Meera.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, ASOS (`sources/chapters/asos/asos-bran-02.md:149`)
 
-> [My father](wiki:Eddard_Stark) knew the worth of Howland Reed.(wiki:Howland_Reed.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2)
+> My father knew the worth of Howland Reed.
 >
-> —[Robb Stark](wiki:Robb_Stark), to [Galbart Glover](wiki:Galbart_Glover)
+> —Robb Stark, to Galbart Glover, ASOS (`sources/chapters/asos/asos-catelyn-05.md:239`)
 
 > The little crannogman, Howland Reed, had taken her hand from his.
 

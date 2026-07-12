@@ -79,17 +79,17 @@ With Mance a captive of Stannis, the free folk host is broken, with some submitt
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) and [Jon Snow](wiki:Jon_Snow)
 
-> North of the [Wall](wiki:Wall), things are different. That's where the [children](wiki:Children_of_the_forest) went, and the [giants](wiki:Giants), and the other old races.(wiki:Beyond_the_Wall.cite_ref-Ragot66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_39-0)
+> North of the Wall, things are different. That's where the children went, and the giants, and the other old races.
 >
-> —[Osha](wiki:Osha) to [Bran Stark](wiki:Bran_Stark)
+> —Osha to Bran Stark, AGOT (`sources/chapters/agot/agot-bran-07.md:181`)
 
 > [The Mother](wiki:Mother_(the_Seven)) was merciful, all the [septons](wiki:Septon) agreed, but [the Seven](wiki:Faith_of_the_Seven) had no power beyond the [Wall](wiki:Wall). This was where the [old gods](wiki:Old_gods) ruled, the nameless gods of the trees and the [wolves](wiki:Wolves) and the snows.(wiki:Beyond_the_Wall.cite_ref-Rasos18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-1)
 >
 > —thoughts of [Samwell Tarly](wiki:Samwell_Tarly)
 
-> Beyond the gates the monsters live, and the [giants](wiki:Giants) and the [ghouls](wiki:Wights), he remembered [Old Nan](wiki:Old_Nan) saying, but they cannot pass so long as the [Wall](wiki:Wall) stands strong.(wiki:Beyond_the_Wall.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_40-0)
+> Beyond the gates the monsters live, and the giants and the ghouls, he remembered Old Nan saying, but they cannot pass so long as the Wall stands strong.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, ASOS (`sources/chapters/asos/asos-bran-04.md:247`)
 
 > **Jeor**: There is no crime so foul as for a guest to bring [murder into a man's hall](wiki:Mutiny_at_Craster's_Keep). By all the [laws](wiki:Laws) of the hearth, we— **Dirk**: There are no laws beyond the [Wall](wiki:Wall), old man. Remember?(wiki:Beyond_the_Wall.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-1)
 >

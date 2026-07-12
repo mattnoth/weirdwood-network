@@ -38,9 +38,9 @@ Some claim that Lann's [ghost](wiki:Ghosts) still haunts Casterly Rock.(wiki:Lan
 
 ## Quotes
 
-> In the songs, Lann was the fellow who winkled the [Casterlys](wiki:House_Casterly) out of [Casterly Rock](wiki:Casterly_Rock) with no weapon but his wits, and stole gold from the [sun](wiki:Sun) to brighten his curly hair.(wiki:Lann_the_Clever.cite_ref-Ragot27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> In the songs, Lann was the fellow who winkled the Casterlys out of Casterly Rock with no weapon but his wits, and stole gold from the sun to brighten his curly hair.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-06.md:57`)
 
 ## Edges
 

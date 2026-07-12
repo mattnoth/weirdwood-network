@@ -35,9 +35,9 @@ The downtrodden castle sits on the edge of a cliff overlooking the [narrow sea](
 
 ## Quotes
 
-> Being they was just heads, they couldn't talk real loud, but they never shut up neither. When you're a head, talking's all you got to pass the day. So [Crabb's](wiki:Clarence_Crabb) keep got named the Whispers.(wiki:Whispers.cite_ref-Raffc14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
+> Being they was just heads, they couldn't talk real loud, but they never shut up neither. When you're a head, talking's all you got to pass the day. So Crabb's keep got named the Whispers.
 >
-> —[Dick Crabb](wiki:Dick_Crabb) to [Brienne Tarth](wiki:Brienne_Tarth)
+> —Dick Crabb to Brienne Tarth, AFFC (`sources/chapters/affc/affc-brienne-03.md:353`)
 
 > **Dick**: The Whispers. Have a listen. You can hear the heads.
 >

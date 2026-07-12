@@ -41,9 +41,9 @@ Chroyane of old was said to have streets made of water and houses of gold.(wiki:
 
 ## Quotes
 
-> Many a voyager has been lost here, poleboats and [pirates](wiki:Pirates) and great river galleys too. They wander forlorn through the mists, searching for a sun they cannot find until madness or hunger claim their lives. There are restless spirits in the air here and tormented souls below the water.(wiki:Chroyane.cite_ref-Radwd18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7)
+> Many a voyager has been lost here, poleboats and pirates and great river galleys too. They wander forlorn through the mists, searching for a sun they cannot find until madness or hunger claim their lives. There are restless spirits in the air here and tormented souls below the water.
 >
-> —[Ysilla](wiki:Ysilla) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Ysilla to Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-05.md:19`)
 
 > This was the most beautiful city on [the river](wiki:Rhoyne), and the richest. Chroyane, the festival city.(wiki:Chroyane.cite_ref-Radwd18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-8)
 >

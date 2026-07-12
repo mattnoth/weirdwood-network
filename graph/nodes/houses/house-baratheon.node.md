@@ -108,14 +108,14 @@ The regent of King Tommen I Baratheon, Ser Kevan Lannister, is murdered in [King
 >
 > —writings of [Yandel](wiki:Yandel)
 
-> [Orys](wiki:Orys_Baratheon) had been a [bastard](wiki:Bastard) brother to [Aegon the Conqueror](wiki:Aegon_I_Targaryen) and his most trusted commander. After slaying [Argilac the Arrogant](wiki:Argilac_Durrandon), last of the [Durrandon](wiki:House_Durrandon), he had taken [Argilac's daughter](wiki:Argella_Durrandon) to wife. Lord [Rogar](wiki:Rogar_Baratheon) could thus claim that both the blood of [the dragon](wiki:House_Targaryen) and that of the [storm kings](wiki:Storm_kings) of old flowed in his veins.(wiki:House_Baratheon.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-0)
+> Orys had been a bastard brother to Aegon the Conqueror and his most trusted commander. After slaying Argilac the Arrogant, last of the Durrandon, he had taken Argilac's daughter to wife. Lord Rogar could thus claim that both the blood of the dragon and that of the storm kings of old flowed in his veins.
 >
-> —writings of [Gyldayn](wiki:Gyldayn)
+> —writings of Gyldayn, F&B (`sources/chapters/fab/fab-year-of-the-three-brides-07.md:37`)
 
-> They are quite a pair, [Stannis](wiki:Stannis_Baratheon) and [Renly](wiki:Renly_Baratheon). The [iron](wiki:Iron) gauntlet and the [silk](wiki:Silk) glove.(wiki:House_Baratheon.cite_ref-Ragot58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_49-0)
+> They are quite a pair, Stannis and Renly. The iron gauntlet and the silk glove.
 >
-> —[Varys](wiki:Varys) to [Eddard Stark](wiki:Eddard_Stark)
+> —Varys to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-15.md:115`)
 
-> [Renly's](wiki:Renly_Baratheon) own standard flew high over all. From the top of his tallest siege tower, a wheeled oaken immensity covered with rawhides, streamed the largest war banner that Catelyn had ever seen—a cloth big enough to carpet many a hall, shimmering gold, with the crowned [stag](wiki:Stag) of Baratheon black upon it, prancing proud and tall.(wiki:House_Baratheon.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_50-0)
+> Renly's own standard flew high over all. From the top of his tallest siege tower, a wheeled oaken immensity covered with rawhides, streamed the largest war banner that Catelyn had ever seen—a cloth big enough to carpet many a hall, shimmering gold, with the crowned stag of Baratheon black upon it, prancing proud and tall.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-02.md:77`)

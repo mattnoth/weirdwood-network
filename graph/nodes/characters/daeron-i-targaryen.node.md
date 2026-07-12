@@ -72,6 +72,6 @@ Daeron wore the [Valyrian steel](wiki:Valyrian_steel) [circlet](wiki:Crowns_(obj
 >
 > —[Jon Snow](wiki:Jon_Snow) and [Benjen Stark](wiki:Benjen_Stark)
 
-> King Daeron wrote with an elegant simplicity, and [his history](wiki:The_Conquest_of_Dorne) is rich with blood, battle, and bravery.(wiki:Daeron_I_Targaryen.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> King Daeron wrote with an elegant simplicity, and his history is rich with blood, battle, and bravery.
 >
-> —[Pylos](wiki:Pylos) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Pylos to Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-05.md:241`)

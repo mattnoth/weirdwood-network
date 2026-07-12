@@ -61,28 +61,28 @@ Quentyn succumbs to his wounds after three days.(wiki:Gerris_Drinkwater.cite_ref
 
 ### Quotes by Gerris
 
-> Men's lives have meaning, not their deaths.(wiki:Gerris_Drinkwater.cite_ref-Radwd60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1)
+> Men's lives have meaning, not their deaths.
 >
-> —Gerris to [Quentyn Martell](wiki:Quentyn_Martell)
+> —Gerris to Quentyn Martell, ADWD (`sources/chapters/adwd/adwd-the-spurned-suitor-01.md:81`)
 
 > Men may be fond of maidens, but women like a man who knows what he's about in the bedchamber. It's another sort of sword-play. Takes training to be good at it.(wiki:Gerris_Drinkwater.cite_ref-Radwd68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
 >
 > —Gerris to [Quentyn Martell](wiki:Quentyn_Martell)
 
-> I told him it was folly. I begged him to go home. Your [bitch of a queen](wiki:Daenerys_Targaryen) had no use for him, any man could see that. He crossed [the world](wiki:Known_world) to offer her his love and fealty, and she laughed in his face.(wiki:Gerris_Drinkwater.cite_ref-Radwd70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-5)
+> I told him it was folly. I begged him to go home. Your bitch of a queen had no use for him, any man could see that. He crossed the world to offer her his love and fealty, and she laughed in his face.
 >
-> —Gerris to [Barristan Selmy](wiki:Barristan_Selmy)
+> —Gerris to Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-queens-hand-01.md:159`)
 
 ### Quotes about Gerris
 
-> It was not in Gerris Drinkwater's nature to imagine they might fail, let alone that they might die.(wiki:Gerris_Drinkwater.cite_ref-Radwd6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-8)
+> It was not in Gerris Drinkwater's nature to imagine they might fail, let alone that they might die.
 >
-> —thoughts of [Quentyn Martell](wiki:Quentyn_Martell)
+> —thoughts of Quentyn Martell, ADWD (`sources/chapters/adwd/adwd-the-merchants-man-01.md:125`)
 
-> That smile has won many a maiden's heart, I'll wager.(wiki:Gerris_Drinkwater.cite_ref-Radwd43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> That smile has won many a maiden's heart, I'll wager.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-07.md:143`)
 
-> If this one had been the prince, things might have gone elsewise, he could not help but think ... but there was something a bit too pleasant about Drinkwater for his taste. False coin, the old knight thought. He had known such men before.(wiki:Gerris_Drinkwater.cite_ref-Radwd59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4)
+> If this one had been the prince, things might have gone elsewise, he could not help but think ... but there was something a bit too pleasant about Drinkwater for his taste. False coin, the old knight thought. He had known such men before.
 >
-> —thoughts of [Barristan Selmy](wiki:Barristan_Selmy)
+> —thoughts of Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-discarded-knight-01.md:49`)

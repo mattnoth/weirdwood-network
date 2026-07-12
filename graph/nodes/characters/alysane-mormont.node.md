@@ -66,20 +66,20 @@ Stannis commands Ser [Justin Massey](wiki:Justin_Massey) to bring "Arya Stark" (
 >
 > —Alysane and [Clayton Suggs](wiki:Clayton_Suggs)
 
-> And if you burn [her](wiki:Asha_Greyjoy) and the snows still fall, what then? Who will you burn next? Me?(wiki:Alysane_Mormont.cite_ref-Radwd62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> And if you burn her and the snows still fall, what then? Who will you burn next? Me?
 >
-> —Alysane, to [Clayton Suggs](wiki:Clayton_Suggs)
+> —Alysane, to Clayton Suggs, ADWD (`sources/chapters/adwd/adwd-the-sacrifice-01.md:125`)
 
 ### Quotes about Alysane
 
-> [This southron king](wiki:Stannis_Baratheon) seemed to be one of those men to whom women are another race, as strange and unfathomable as [giants](wiki:Giants) and [grumkins](wiki:Grumkins) and the [children of the forest](wiki:Children_of_the_forest). The She-Bear made him grind his teeth as well.(wiki:Alysane_Mormont.cite_ref-Radwd42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-8)
+> This southron king seemed to be one of those men to whom women are another race, as strange and unfathomable as giants and grumkins and the children of the forest. The She-Bear made him grind his teeth as well.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-kings-prize-01.md:37`)
 
-> Her proper name was Alysane of [House Mormont](wiki:House_Mormont), but she wore the other name as easily as she wore her mail.(wiki:Alysane_Mormont.cite_ref-Radwd42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-9)
+> Her proper name was Alysane of House Mormont, but she wore the other name as easily as she wore her mail.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-kings-prize-01.md:77`)
 
-> One did not provoke the She-Bear needlessly.(wiki:Alysane_Mormont.cite_ref-Radwd62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> One did not provoke the She-Bear needlessly.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-sacrifice-01.md:115`)

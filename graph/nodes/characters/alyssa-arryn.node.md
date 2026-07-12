@@ -32,9 +32,9 @@ Snow falls upon the [Eyrie](wiki:Eyrie), and [Sansa Stark](wiki:Sansa_Stark) ent
 
 ## Quotes
 
-> Alyssa had been dead six thousand years now, and still no drop of [the torrent](wiki:Alyssa's_Tears) had ever reached the [valley floor](wiki:Vale_of_Arryn) far below. Catelyn wondered how large a waterfall her own tears would make when she died.(wiki:Alyssa_Arryn.cite_ref-Ragot40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> Alyssa had been dead six thousand years now, and still no drop of the torrent had ever reached the valley floor far below. Catelyn wondered how large a waterfall her own tears would make when she died.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-07.md:13`)
 
 ## Edges
 

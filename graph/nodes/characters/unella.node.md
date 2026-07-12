@@ -37,6 +37,6 @@ Septas Unella, [Moelle](wiki:Moelle) and [Scolera](wiki:Scolera) are part of the
 
 ## Quotes
 
-> Only through confession and true repentance may our immortal souls be saved.(wiki:Unella.cite_ref-Radwd54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+> Only through confession and true repentance may our immortal souls be saved.
 >
-> —Unella to [Cersei Lannister](wiki:Cersei_Lannister)
+> —Unella to Cersei Lannister, ADWD (`sources/chapters/adwd/adwd-cersei-01.md:51`)

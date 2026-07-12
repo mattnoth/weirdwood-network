@@ -53,9 +53,9 @@ Mychel arrives at the [Gates of the Moon](wiki:Gates_of_the_Moon) to compete in 
 >
 > —[Catelyn Stark](wiki:Catelyn_Stark) and [Mya Stone](wiki:Mya_Stone)
 
-> His love she might be, but no [Redfort](wiki:House_Redfort) would ever wed a [bastard](wiki:Bastard). His family would arrange a more suitable match for him, to a [Corbray](wiki:House_Corbray) or a [Waynwood](wiki:House_Waynwood) or a [Royce](wiki:House_Royce), or perhaps a daughter of some greater house outside the [Vale](wiki:Vale). If Mychel Redfort laid with [this girl](wiki:Mya_Stone) at all, it would be on the wrong side of the sheet.(wiki:Mychel_Redfort.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+> His love she might be, but no Redfort would ever wed a bastard. His family would arrange a more suitable match for him, to a Corbray or a Waynwood or a Royce, or perhaps a daughter of some greater house outside the Vale. If Mychel Redfort laid with this girl at all, it would be on the wrong side of the sheet.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-06.md:183`)
 
 > Mychel Redfort was the one. He used to be [Lyn Corbray](wiki:Lyn_Corbray)'s squire. A real squire, not like that loutish lad Ser Lyn's got squiring for him now. He only took that one on for coin, they say. Mychel was the best young swordsman in the [Vale](wiki:Vale_of_Arryn), and gallant ... or so poor [Mya](wiki:Mya_Stone) thought, till he wed [one of Bronze Yohn's daughters](wiki:Ysilla_Royce). Lord [Horton](wiki:Horton_Redfort) gave him no choice in the matter, I am sure, but it was still a cruel thing to do to Mya.(wiki:Mychel_Redfort.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
 >

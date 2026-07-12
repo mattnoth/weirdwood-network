@@ -50,14 +50,14 @@ Myranda helps her father to host the [tourney](wiki:Tourney) that will determine
 
 ## Quotes
 
-> I do need another husband. I had one once, but I killed him.(wiki:Myranda_Royce.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-6)
+> I do need another husband. I had one once, but I killed him.
 >
-> —Myranda, to [Alayne Stone](wiki:Alayne_Stone)
+> —Myranda, to Alayne Stone, AFFC (`sources/chapters/affc/affc-alayne-02.md:289`)
 
 > **Alayne:** That must have been dreadful, my lady. Him dying. There, I mean, whilst... whilst he was... **Myranda:** ...fucking me? It was disconcerting, certainly. Not to mention discourteous. He did not even have the common decency to plant a child in me. Old men have weak seed. So here I am, a widow, but scarce used.(wiki:Myranda_Royce.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-7)
 >
 > —[Alayne Stone](wiki:Alayne_Stone) and Myranda
 
-> [Harry](wiki:Harrold_Hardyng) could have done much worse. I daresay that he will.(wiki:Myranda_Royce.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-8)
+> Harry could have done much worse. I daresay that he will.
 >
-> —Myranda, to [Alayne Stone](wiki:Alayne_Stone)
+> —Myranda, to Alayne Stone, AFFC (`sources/chapters/affc/affc-alayne-02.md:297`)

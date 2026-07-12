@@ -46,9 +46,9 @@ The night before her [walk of atonement](wiki:Walk_of_atonement) through the str
 
 ## Quotes
 
-> The unshaven and the unwashed stared at the riders with dull resentment from behind the line of spears. I like this not one speck, Tyrion thought.(wiki:Riots_in_King's_Landing.cite_ref-Racok41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-11)
+> The unshaven and the unwashed stared at the riders with dull resentment from behind the line of spears. I like this not one speck, Tyrion thought.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-09.md:59`)
 
 > **Joffrey**: They were traitors. They called me names and attacked me! **Tyrion**: You set your dog on them! What did you imagine they would do, bend the knee meekly while the [Hound](wiki:Hound) lopped off some limbs? You spoiled witless little boy, you've killed [Clegane](wiki:Sandor_Clegane) and gods know how many more, and yet you come through unscratched. Damn you!(wiki:Riots_in_King's_Landing.cite_ref-Racok41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-12)
 >
@@ -58,6 +58,6 @@ The night before her [walk of atonement](wiki:Walk_of_atonement) through the str
 >
 > —[Sansa Stark](wiki:Sansa_Stark) to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> The eunuch had agents and informers all over [the city](wiki:King's_Landing). It would have been a simple matter for him to arrange to have [Tyrek](wiki:Tyrek_Lannister) snatched during the confusion . . . provided he knew beforehand that the mob was like to riot. And [Varys](wiki:Varys) knew all, or so he would have us believe. Yet he gave [Cersei](wiki:Cersei_Lannister) no warning of that riot.(wiki:Riots_in_King's_Landing.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> The eunuch had agents and informers all over the city. It would have been a simple matter for him to arrange to have Tyrek snatched during the confusion . . . provided he knew beforehand that the mob was like to riot. And Varys knew all, or so he would have us believe. Yet he gave Cersei no warning of that riot.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-03.md:139`)

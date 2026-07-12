@@ -40,9 +40,9 @@ Since her bastard son, [Edric Storm](wiki:Edric_Storm), has the large ears commo
 
 ## Quotes
 
-> The mother was a [Florent](wiki:House_Florent), niece to the Lady [Selyse](wiki:Selyse_Florent), one of her [bedmaids](wiki:Bedmaid). [Renly](wiki:Renly_Baratheon) says that [Robert](wiki:Robert_I_Baratheon) carried the girl upstairs during [the feast](wiki:Wedding_of_Stannis_Baratheon_and_Selyse_Florent), and broke in the wedding bed while [Stannis](wiki:Stannis_Baratheon) and his bride were still dancing. Lord Stannis seemed to think that was a blot on the honor of his wife's House, so when the boy was born, he shipped him off to Renly.(wiki:Delena_Florent.cite_ref-Ragot35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> The mother was a Florent, niece to the Lady Selyse, one of her bedmaids. Renly says that Robert carried the girl upstairs during the feast, and broke in the wedding bed while Stannis and his bride were still dancing. Lord Stannis seemed to think that was a blot on the honor of his wife's House, so when the boy was born, he shipped him off to Renly.
 >
-> —[Petyr Baelish](wiki:Petyr_Baelish) to [Eddard Stark](wiki:Eddard_Stark)
+> —Petyr Baelish to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-09.md:51`)
 
 > [Robert](wiki:Robert_I_Baratheon) and Delena defiled [our bed](wiki:Wedding_of_Stannis_Baratheon_and_Selyse_Florent) and laid a curse upon our union. [This boy](wiki:Edric_Storm) is the foul fruit of their fornications. Lift his shadow from my womb and I will bear you many trueborn sons, I know it. He is only one boy, born of your brother's lust and my cousin's shame.(wiki:Delena_Florent.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
 >

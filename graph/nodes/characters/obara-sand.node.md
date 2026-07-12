@@ -54,27 +54,27 @@ When discussing Gregor's death with her sisters, [Areo Hotah](wiki:Areo_Hotah), 
 
 ### Quotes by Obara
 
-> The day [my father](wiki:Oberyn_Martell) came to claim me, my mother did not wish for me to go. 'She is a girl,' she said, 'and I do not think that she is yours. I had a thousand other men.' He tossed his spear at my feet and gave my mother the back of his hand across the face, so she began to weep. 'Girl or boy, we fight our battles,' he said, 'but the gods let us choose our weapons.' He pointed to the spear, then to my mother's tears, and I picked up the spear. 'I told you she was mine,' my father said, and took me. My mother drank herself to death within the year. They say that she was weeping as she died.(wiki:Obara_Sand.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7)
+> The day my father came to claim me, my mother did not wish for me to go. 'She is a girl,' she said, 'and I do not think that she is yours. I had a thousand other men.' He tossed his spear at my feet and gave my mother the back of his hand across the face, so she began to weep. 'Girl or boy, we fight our battles,' he said, 'but the gods let us choose our weapons.' He pointed to the spear, then to my mother's tears, and I picked up the spear. 'I told you she was mine,' my father said, and took me. My mother drank herself to death within the year. They say that she was weeping as she died.
 >
-> —Obara to [Doran Martell](wiki:Doran_Martell)
+> —Obara to Doran Martell, AFFC (`sources/chapters/affc/affc-the-captain-of-guards-01.md:97`)
 
-> Give me back my spear, Uncle. [Cersei](wiki:Cersei_Lannister) sent us [a head](wiki:Mountain's_skull). We should send her back a bag of them.(wiki:Obara_Sand.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-9)
+> Give me back my spear, Uncle. Cersei sent us a head. We should send her back a bag of them.
 >
-> —Obara to [Doran Martell](wiki:Doran_Martell)
+> —Obara to Doran Martell, ADWD (`sources/chapters/adwd/adwd-the-watcher-01.md:225`)
 
 ### Quotes about Obara
 
-> Obara Sand always walked too fast. She is chasing after something she can never catch, [the prince](wiki:Doran_Martell) had told [his daughter](wiki:Arianne_Martell) once, in the captain's hearing.(wiki:Obara_Sand.cite_ref-Radwd2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+> Obara Sand always walked too fast. She is chasing after something she can never catch, the prince had told his daughter once, in the captain's hearing.
 >
-> —thoughts of [Areo Hotah](wiki:Areo_Hotah)
+> —thoughts of Areo Hotah, AFFC (`sources/chapters/affc/affc-the-captain-of-guards-01.md:21`)
 
 > Quick and strong as she was, the woman was no match for him, he knew ... but she did not, and he had no wish to see her blood upon the pale pink marble.(wiki:Obara_Sand.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-8)
 >
 > —thoughts of [Areo Hotah](wiki:Areo_Hotah)
 
-> Hotah studied each of them in turn. Obara, rusted nails and boiled leather, with her angry, close-set eyes and rat-brown hair. [Nymeria](wiki:Nymeria_Sand), languid, elegant, olive-skinned, her long black braid bound up in red-gold wire. [Tyene](wiki:Tyene_Sand), blue-eyed and blond, a child-woman with her soft hands and little giggles.(wiki:Obara_Sand.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-10)
+> Hotah studied each of them in turn. Obara, rusted nails and boiled leather, with her angry, close-set eyes and rat-brown hair. Nymeria, languid, elegant, olive-skinned, her long black braid bound up in red-gold wire. Tyene, blue-eyed and blond, a child-woman with her soft hands and little giggles.
 >
-> —thoughts of [Areo Hotah](wiki:Areo_Hotah)
+> —thoughts of Areo Hotah, ADWD (`sources/chapters/adwd/adwd-the-watcher-01.md:191`)
 
 ## Edges
 

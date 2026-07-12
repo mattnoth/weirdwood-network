@@ -117,13 +117,13 @@ At the [crofters' village](wiki:Crofters'_village), Stannis discovers that the [
 >
 > —[Robert I Baratheon](wiki:Robert_I_Baratheon) and [Eddard Stark](wiki:Eddard_Stark)
 
-> What is there north of the [Neck](wiki:Neck) that any sane man would want?(wiki:North.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-1)
+> What is there north of the Neck that any sane man would want?
 >
-> —[Mathis Rowan](wiki:Mathis_Rowan) to [Tywin Lannister](wiki:Tywin_Lannister)
+> —Mathis Rowan to Tywin Lannister, ASOS (`sources/chapters/asos/asos-tyrion-03.md:61`)
 
-> The north is hard and cold, and has no mercy, [Ned](wiki:Eddard_Stark) had told her when she first came to [Winterfell](wiki:Winterfell) a thousand years ago.(wiki:North.cite_ref-Rasos20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-2)
+> The north is hard and cold, and has no mercy, Ned had told her when she first came to Winterfell a thousand years ago.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-03.md:27`)
 
 > The north remembers.(wiki:North.cite_ref-Rasos20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-3)
 >

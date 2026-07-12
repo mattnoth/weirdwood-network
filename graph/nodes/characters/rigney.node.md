@@ -26,6 +26,6 @@ Lord [Rodrik Harlaw](wiki:Rodrik_Harlaw) recalls the philosophy of Rigney to [As
 
 ## Quotes
 
-> Archmaester Rigney once wrote that history is a wheel, for the nature of man is fundamentally unchanging. What has happened before will perforce happen again, he said.(wiki:Rigney.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> Archmaester Rigney once wrote that history is a wheel, for the nature of man is fundamentally unchanging. What has happened before will perforce happen again, he said.
 >
-> —[Rodrik Harlaw](wiki:Rodrik_Harlaw) to [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —Rodrik Harlaw to Asha Greyjoy, AFFC (`sources/chapters/affc/affc-the-krakens-daughter-01.md:127`)

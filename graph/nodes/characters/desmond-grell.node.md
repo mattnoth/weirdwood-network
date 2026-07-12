@@ -77,6 +77,6 @@ After Jaime achieves the [surrender of Riverrun](wiki:Siege_of_Riverrun), Desmon
 
 ### Quotes about Desmond
 
-> Ser Desmond Grell had served [House Tully](wiki:House_Tully) all his life. He had been a squire when Catelyn was born, a [knight](wiki:Knight) when she learned to walk and ride and swim, [master-at-arms](wiki:Master-at-arms) by the day that she was wed. He had seen Lord [Hoster's](wiki:Hoster_Tully) little Cat become a young woman, [a great lord's](wiki:Eddard_Stark) lady, mother to [a king](wiki:Robb_Stark). And now he has seen me [become a traitor](wiki:A_Storm_of_Swords-Chapter_1) as well.(wiki:Desmond_Grell.cite_ref-Rasos2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-5)
+> Ser Desmond Grell had served House Tully all his life. He had been a squire when Catelyn was born, a knight when she learned to walk and ride and swim, master-at-arms by the day that she was wed. He had seen Lord Hoster's little Cat become a young woman, a great lord's lady, mother to a king. And now he has seen me become a traitor as well.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-01.md:11`)

@@ -99,13 +99,13 @@ It is reported in [a letter](wiki:Bastard_Letter) to Jon purportedly from Ramsay
 
 ### Quotes by Mance
 
-> The [Wall](wiki:Wall) can stop an army, but not a man alone.(wiki:Mance_Rayder.cite_ref-Rasos7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-11)
+> The Wall can stop an army, but not a man alone.
 >
-> —Mance to [Jon Snow](wiki:Jon_Snow)
+> —Mance to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-01.md:247`)
 
-> I know every bawdy song that's ever been made, north or south of the [Wall](wiki:Wall).(wiki:Mance_Rayder.cite_ref-Rasos7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-12)
+> I know every bawdy song that's ever been made, north or south of the Wall.
 >
-> —Mance to [Jon Snow](wiki:Jon_Snow)
+> —Mance to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-01.md:247`)
 
 > [The Halfhand](wiki:Qhorin_Halfhand) was carved of old [oak](wiki:Oak), but I am made of flesh, and I have a great fondness for the charms of women ... which makes me no different from three-quarters of [the Watch](wiki:Night's_Watch).(wiki:Mance_Rayder.cite_ref-Rasos7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-13)
 >
@@ -135,14 +135,14 @@ It is reported in [a letter](wiki:Bastard_Letter) to Jon purportedly from Ramsay
 >
 > —[Jon Snow](wiki:Jon_Snow) and [Qhorin Halfhand](wiki:Qhorin_Halfhand)
 
-> Mance has cunning. He was raised [a crow](wiki:Night's_Watch), you know, and the crow's a [tricksy bird](wiki:Crow).(wiki:Mance_Rayder.cite_ref-Rasos7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-14)
+> Mance has cunning. He was raised a crow, you know, and the crow's a tricksy bird.
 >
-> —[Tormund](wiki:Tormund), to [Jon Snow](wiki:Jon_Snow)
+> —Tormund, to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-01.md:199`)
 
-> [The king](wiki:King-Beyond-the-Wall) was plainly a man who liked the sound of his own voice.(wiki:Mance_Rayder.cite_ref-Rasos7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-15)
+> The king was plainly a man who liked the sound of his own voice.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ASOS (`sources/chapters/asos/asos-jon-01.md:259`)
 
-> Abel had doomed them. All singers were half-mad. In songs, the hero always saved the maiden from the monster's castle, but life was not a song, no more than [Jeyne](wiki:Jeyne_Poole) was [Arya Stark](wiki:Arya_Stark).(wiki:Mance_Rayder.cite_ref-Radwd51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-5)
+> Abel had doomed them. All singers were half-mad. In songs, the hero always saved the maiden from the monster's castle, but life was not a song, no more than Jeyne was Arya Stark.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-theon-01.md:229`)

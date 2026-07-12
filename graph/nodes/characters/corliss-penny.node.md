@@ -54,6 +54,6 @@ Corliss wants Stannis to sacrifice [Theon Greyjoy](wiki:Theon_Greyjoy).(wiki:Cor
 
 ### Quotes about Corliss
 
-> Corliss Penny, come over here. What sort of name is Penny? Is that how much your mother charged?(wiki:Corliss_Penny.cite_ref-Radwd62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+> Corliss Penny, come over here. What sort of name is Penny? Is that how much your mother charged?
 >
-> —[Peasebury](wiki:House_Peasebury) serjeant to Corliss
+> —Peasebury serjeant to Corliss, ADWD (`sources/chapters/adwd/adwd-the-sacrifice-01.md:57`)

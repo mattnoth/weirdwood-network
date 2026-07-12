@@ -50,9 +50,9 @@ When the Arryn court descends to the [Gates of the Moon](wiki:Gates_of_the_Moon)
 
 ### Quotes about Mord
 
-> The turnkey was twenty stone of gross stupidity, with brown rotting teeth and small dark eyes.(wiki:Mord.cite_ref-Ragot38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-9)
+> The turnkey was twenty stone of gross stupidity, with brown rotting teeth and small dark eyes.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-05.md:17`)
 
 ## Edges
 

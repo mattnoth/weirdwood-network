@@ -47,10 +47,10 @@ Whilst escorting [Bran Stark](wiki:Bran_Stark) [beyond the Wall](wiki:Beyond_the
 
 ## Quotes
 
-> Ollo Lophand now, he was talking about sailing back to [Tyrosh](wiki:Tyrosh), where he claimed men didn't lose their hands for a bit of honest thievery, nor get sent off to [freeze their life away](wiki:Night's_Watch) for being found in bed with some [knight](wiki:Knight)'s wife.(wiki:Ollo_Lophand.cite_ref-Rasosprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+> Ollo Lophand now, he was talking about sailing back to Tyrosh, where he claimed men didn't lose their hands for a bit of honest thievery, nor get sent off to freeze their life away for being found in bed with some knight's wife.
 >
-> —thoughts of [Chett](wiki:Chett)
+> —thoughts of Chett, ASOS (`sources/chapters/asos/asos-prologue.md:77`)
 
-> He went from man to man, sniffing, before settling on the biggest, a faceless thing who clutched black [iron](wiki:Iron) in one hand. His other hand was missing, severed at the wrist, the stump bound up in leather. Blood flowed thick and sluggish from the slash across his throat. The [wolf](wiki:Direwolf) lapped at it with his tongue, licked the ragged eyeless ruin of his nose and cheeks, then buried his muzzle in his neck and tore it open, gulping down a gobbet of sweet meat. No flesh had ever tasted half as good.(wiki:Ollo_Lophand.cite_ref-Radwd4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> He went from man to man, sniffing, before settling on the biggest, a faceless thing who clutched black iron in one hand. His other hand was missing, severed at the wrist, the stump bound up in leather. Blood flowed thick and sluggish from the slash across his throat. The wolf lapped at it with his tongue, licked the ragged eyeless ruin of his nose and cheeks, then buried his muzzle in his neck and tore it open, gulping down a gobbet of sweet meat. No flesh had ever tasted half as good.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark) as [Summer](wiki:Summer)
+> —thoughts of Bran Stark as Summer, ADWD (`sources/chapters/adwd/adwd-bran-01.md:175`)

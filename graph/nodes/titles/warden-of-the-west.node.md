@@ -41,10 +41,10 @@ Daven participates in the [siege of Riverrun](wiki:Siege_of_Riverrun).(wiki:Ward
 >
 > —[Eddard Stark](wiki:Eddard_Stark) to [Robert I Baratheon](wiki:Robert_I_Baratheon)
 
-> Lord [Tywin](wiki:Tywin_Lannister) the proud and splendid, Warden of the West, [Hand of the King](wiki:Hand_of_the_King), oh, what a great man that one is, him and his [gold](wiki:Gold) this and gold that and [lions](wiki:Lion) here and lions there. I'll wager you, he eats too many beans, he breaks wind just like me, but you'll never hear him admit it, oh, no.(wiki:Warden_of_the_West.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)
+> Lord Tywin the proud and splendid, Warden of the West, Hand of the King, oh, what a great man that one is, him and his gold this and gold that and lions here and lions there. I'll wager you, he eats too many beans, he breaks wind just like me, but you'll never hear him admit it, oh, no.
 >
-> —[Walder Frey](wiki:Walder_Frey) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Walder Frey to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-09.md:191`)
 
-> [Kevan](wiki:Kevan_Lannister) should be the Warden of the West. Or you. It's not that I'm not grateful for the honor, mind you, but our uncle's twice my age and has more experience of command. I hope he knows I never asked for this.(wiki:Warden_of_the_West.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
+> Kevan should be the Warden of the West. Or you. It's not that I'm not grateful for the honor, mind you, but our uncle's twice my age and has more experience of command. I hope he knows I never asked for this.
 >
-> —[Daven Lannister](wiki:Daven_Lannister) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Daven Lannister to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-05.md:137`)

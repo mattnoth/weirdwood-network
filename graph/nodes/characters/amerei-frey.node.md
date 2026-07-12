@@ -60,9 +60,9 @@ During the siege of Riverrun, Ser [Daven Lannister](wiki:Daven_Lannister) shares
 
 ### Quotes by Amerei
 
-> I begged him not to go, but my [Pate](wiki:Pate_of_the_Blue_Fork) was oh so very brave, and swore he was the man to slay [that monster](wiki:Gregor_Clegane). He wanted to make a great name for himself.(wiki:Amerei_Frey.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-5)
+> I begged him not to go, but my Pate was oh so very brave, and swore he was the man to slay that monster. He wanted to make a great name for himself.
 >
-> —Amerei, to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Amerei, to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-04.md:111`)
 
 > **Amerei**: [Outlaws](wiki:Outlaw) killed him. [Father](wiki:Merrett_Frey) had only gone out to ransom [Petyr Pimple](wiki:Petyr_Frey). He brought them the [gold](wiki:Gold) they asked for, but [they](wiki:Brotherhood_without_banners) hung him anyway. **Mariya**: *Hanged*, Ami. Your father was not a [tapestry](wiki:Tapestry).(wiki:Amerei_Frey.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
 >
@@ -74,9 +74,9 @@ During the siege of Riverrun, Ser [Daven Lannister](wiki:Daven_Lannister) shares
 
 ### Quotes about Amerei
 
-> I married Ami to Ser [Pate](wiki:Pate_of_the_Blue_Fork) of [Sevenstreams](wiki:Sevenstreams), but the [Mountain](wiki:Gregor_Clegane) killed the oaf so I got her back.(wiki:Amerei_Frey.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
+> I married Ami to Ser Pate of Sevenstreams, but the Mountain killed the oaf so I got her back.
 >
-> —[Walder Frey](wiki:Walder_Frey), to [Robb Stark](wiki:Robb_Stark)
+> —Walder Frey, to Robb Stark, ASOS (`sources/chapters/asos/asos-catelyn-06.md:119`)
 
 > When Ami was caught in the stables with no fewer than three grooms, he'd been forced to marry her off to a bloody [hedge knight](wiki:Hedge_knight). That situation could not possibly get any worse, he'd thought... until Ser [Pate](wiki:Pate_of_the_Blue_Fork) decided he could win renown by defeating Ser [Gregor Clegane](wiki:Gregor_Clegane). Ami had come running back a widow, to Merrett's dismay and the undoubted delight of every stablehand in the [Twins](wiki:Twins).(wiki:Amerei_Frey.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
 >
@@ -98,6 +98,6 @@ During the siege of Riverrun, Ser [Daven Lannister](wiki:Daven_Lannister) shares
 >
 > —[Daven Lannister](wiki:Daven_Lannister) and [Jaime Lannister](wiki:Jaime_Lannister)
 
-> At least [Kevan](wiki:Kevan_Lannister) still has [Martyn](wiki:Martyn_Lannister) for an heir. He can marry him to Gatehouse Ami in [Lancel's](wiki:Lancel_Lannister) place. [Seven](wiki:The_Seven) save us all.(wiki:Amerei_Frey.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+> At least Kevan still has Martyn for an heir. He can marry him to Gatehouse Ami in Lancel's place. Seven save us all.
 >
-> —[Genna Lannister](wiki:Genna_Lannister), to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Genna Lannister, to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-05.md:261`)

@@ -76,9 +76,9 @@ Denys reports sightings of fires in the night north of the Gorge,(wiki:Denys_Mal
 
 ### Quotes by Denys
 
-> We are the sons of great lords, you and I. We know the importance of birth, blood, and that early training that can ne'er be replaced. I was a squire at twelve, a [knight](wiki:Knight) at eighteen, a champion at two-and-twenty. I have been the commander at the [Shadow Tower](wiki:Shadow_Tower) for thirty-three years. Blood, birth, and training have fitted me to deal with kings.(wiki:Denys_Mallister.cite_ref-Rasos78.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-13)
+> We are the sons of great lords, you and I. We know the importance of birth, blood, and that early training that can ne'er be replaced. I was a squire at twelve, a knight at eighteen, a champion at two-and-twenty. I have been the commander at the Shadow Tower for thirty-three years. Blood, birth, and training have fitted me to deal with kings.
 >
-> —Denys to [Samwell Tarly](wiki:Samwell_Tarly)
+> —Denys to Samwell Tarly, ASOS (`sources/chapters/asos/asos-samwell-05.md:209`)
 
 > It was a hard thing young [Samwell](wiki:Samwell_Tarly) asked of me. When [Lord Qorgyle](wiki:Lord_Commander_Qorgyle) was chosen, I told myself, 'No matter, he has been longer on the [Wall](wiki:Wall) than you have, your time will come.' When it was [Lord Mormont](wiki:Jeor_Mormont), I thought, 'He is strong and fierce, but he is old, your time may yet come.' But you are half a boy, Lord Snow, and now I must return to the [Shadow Tower](wiki:Shadow_Tower) knowing that my time will never come. Do not make me die regretful. [Your uncle](wiki:Benjen_Stark) was a great man. [Your lord father](wiki:Eddard_Stark) and [his father](wiki:Rickard_Stark) as well. I shall expect full as much of you.(wiki:Denys_Mallister.cite_ref-Rasos79.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
 >
@@ -96,6 +96,6 @@ Denys reports sightings of fires in the night north of the Gorge,(wiki:Denys_Mal
 >
 > —[Cotter Pyke](wiki:Cotter_Pyke) and [Samwell Tarly](wiki:Samwell_Tarly)
 
-> The commander of the [Shadow Tower](wiki:Shadow_Tower) had been born beneath the [Booming Tower](wiki:Booming_Tower) of [Seagard](wiki:Seagard), and looked every inch a [Mallister](wiki:House_Mallister).(wiki:Denys_Mallister.cite_ref-Rasos78.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-15)
+> The commander of the Shadow Tower had been born beneath the Booming Tower of Seagard, and looked every inch a Mallister.
 >
-> —thoughts of [Samwell Tarly](wiki:Samwell_Tarly)
+> —thoughts of Samwell Tarly, ASOS (`sources/chapters/asos/asos-samwell-05.md:197`)

@@ -68,9 +68,9 @@ As their wealth remains mostly untouched, the Wise Masters of Yunkai are able to
 >
 > —[Daenerys Targaryen](wiki:Daenerys_Targaryen) and [Jorah Mormont](wiki:Jorah_Mormont)
 
-> Your Grace, I bring you victory. The [Stormcrows](wiki:Stormcrows) turned their cloaks, the [slaves](wiki:Slaves) broke, and the [Second Sons](wiki:Second_Sons) were too drunk to fight, just as you said. Two hundred dead, [Yunkai](wiki:Yunkai)'i for the most part. Their slaves threw down their spears and ran, and their sellswords yielded. We have several thousand captives.(wiki:Battle_near_Yunkai.cite_ref-Rasos42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> Your Grace, I bring you victory. The Stormcrows turned their cloaks, the slaves broke, and the Second Sons were too drunk to fight, just as you said. Two hundred dead, Yunkai'i for the most part. Their slaves threw down their spears and ran, and their sellswords yielded. We have several thousand captives.
 >
-> —[Jorah Mormont](wiki:Jorah_Mormont) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Jorah Mormont to Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-04.md:359`)
 
 > “Can I have a flagon of this fine wine to take back to my captains?” “You may have a tun. It is from the cellars of the Good Masters of Astapor, and I have wagons full of it.” “Then give me a wagon. A token of your good regard.”
 

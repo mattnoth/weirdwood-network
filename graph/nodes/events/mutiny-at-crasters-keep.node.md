@@ -53,9 +53,9 @@ Nine mutineers remain at Craster's Keep with his food and wives.(wiki:Mutiny_at_
 >
 > —[Jeor Mormont](wiki:Jeor_Mormont) and [Dirk](wiki:Dirk)
 
-> [Ollo](wiki:Ollo_Lophand) had only one hand, but that was quick. He twisted free of the old man's grasp, shoved the knife into [Mormont's belly](wiki:Jeor_Mormont), and yanked it out again, all red. And then the world went mad.(wiki:Mutiny_at_Craster's_Keep.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-17)
+> Ollo had only one hand, but that was quick. He twisted free of the old man's grasp, shoved the knife into Mormont's belly, and yanked it out again, all red. And then the world went mad.
 >
-> —thoughts of [Samwell Tarly](wiki:Samwell_Tarly)
+> —thoughts of Samwell Tarly, ASOS (`sources/chapters/asos/asos-samwell-02.md:317`)
 
 > **Aemon**: Jon ... it grieves me to say, but Lord Commander [Mormont](wiki:Jeor_Mormont) was murdered at [Craster's Keep](wiki:Craster's_Keep), at the hands of his Sworn Brothers.
 >

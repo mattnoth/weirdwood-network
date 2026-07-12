@@ -58,12 +58,12 @@ Jon eventually names Emmett commander of [Long Barrow](wiki:Long_Barrow), where 
 >
 > —Emmett to [Jon Snow](wiki:Jon_Snow)
 
-> Men are men, vows are words, and words are wind.(wiki:Emmett.cite_ref-Radwd35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
+> Men are men, vows are words, and words are wind.
 >
-> —Emmett to [Jon Snow](wiki:Jon_Snow)
+> —Emmett to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-07.md:77`)
 
 ### Quotes about Emmett
 
-> Emmett was an amiable man, and he loved the song of swords.(wiki:Emmett.cite_ref-Rasos79.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> Emmett was an amiable man, and he loved the song of swords.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ASOS (`sources/chapters/asos/asos-jon-12.md:29`)

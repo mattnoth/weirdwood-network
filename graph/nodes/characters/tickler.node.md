@@ -55,9 +55,9 @@ While training at the [House of Black and White](wiki:House_of_Black_and_White),
 
 ### Quotes by the Tickler
 
-> Was there [gold](wiki:Currency) hidden in the village? Silver, gems? Was there more food? Where was Lord [Beric Dondarrion](wiki:Beric_Dondarrion)? Which of the [village folk](wiki:Smallfolk) had aided him? When he rode off, where did he go? How many men were with them? How many [knights](wiki:Knight), how many bowmen, how many men-at-arms? How were they armed? How many were [horsed](wiki:Horse)? How many were wounded? What other enemy had they seen? How many? When? What banners did they fly? Where did they go? Was there gold hidden in the village? Silver, gems? Where was Lord Beric Dondarrion? How many men were with him?(wiki:Tickler.cite_ref-Racok26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> Was there gold hidden in the village? Silver, gems? Was there more food? Where was Lord Beric Dondarrion? Which of the village folk had aided him? When he rode off, where did he go? How many men were with them? How many knights, how many bowmen, how many men-at-arms? How were they armed? How many were horsed? How many were wounded? What other enemy had they seen? How many? When? What banners did they fly? Where did they go? Was there gold hidden in the village? Silver, gems? Where was Lord Beric Dondarrion? How many men were with him?
 >
-> —the Tickler to his victims
+> —the Tickler to his victims, ACOK (`sources/chapters/acok/acok-arya-06.md:25`)
 
 ### Quotes about the Tickler
 
@@ -65,9 +65,9 @@ While training at the [House of Black and White](wiki:House_of_Black_and_White),
 >
 > —[Chiswyck](wiki:Chiswyck) to [Arya Stark](wiki:Arya_Stark)
 
-> The Tickler was almost too scary to hate. At times she could almost forget he was still with them; when he was not asking questions, he was just another soldier, quieter than most, with a face like a thousand other men.(wiki:Tickler.cite_ref-Racok26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
+> The Tickler was almost too scary to hate. At times she could almost forget he was still with them; when he was not asking questions, he was just another soldier, quieter than most, with a face like a thousand other men.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ACOK (`sources/chapters/acok/acok-arya-06.md:57`)
 
 > He always asked the same questions, but he changed the tickling every day.(wiki:Tickler.cite_ref-Rasos22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
 >

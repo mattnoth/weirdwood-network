@@ -48,6 +48,6 @@ The [City Watch of King's Landing](wiki:City_Watch_of_King's_Landing) arrive at 
 >
 > —Moreo, [Catelyn Stark](wiki:Catelyn_Stark), and [Rodrik Cassel](wiki:Rodrik_Cassel)
 
-> The [Tyroshi](wiki:Tyrosh) knew who they were and where they were, damn him. She hoped he'd gotten a good price for the information.(wiki:Moreo_Tumitis.cite_ref-Ragot18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
+> The Tyroshi knew who they were and where they were, damn him. She hoped he'd gotten a good price for the information.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-04.md:113`)

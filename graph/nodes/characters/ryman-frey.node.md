@@ -78,9 +78,9 @@ Ser [Jaime Lannister](wiki:Jaime_Lannister) ends the [siege of Raventree](wiki:S
 
 ### Quotes by Ryman
 
-> If you would follow me, [my father](wiki:Stevron_Frey) awaits.(wiki:Ryman_Frey.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> If you would follow me, my father awaits.
 >
-> —Ryman, to [Robb Stark](wiki:Robb_Stark), before the [Red Wedding](wiki:Red_Wedding)
+> —Ryman, to Robb Stark, before the Red Wedding, ASOS (`sources/chapters/asos/asos-catelyn-06.md:71`)
 
 > **Ryman**: I have done nothing... **Jaime**: ...but drink and [whore](wiki:Whore). I know.(wiki:Ryman_Frey.cite_ref-Raffc38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
 >
@@ -92,13 +92,13 @@ Ser [Jaime Lannister](wiki:Jaime_Lannister) ends the [siege of Raventree](wiki:S
 >
 > —[Little Walder Frey](wiki:Walder_Frey_(son_of_Merrett)) and [Big Walder Frey](wiki:Walder_Frey_(son_of_Jammos))
 
-> [Tully](wiki:Brynden_Tully) ought to make a sortie, to remind us all we're [still at war](wiki:Siege_of_Riverrun). Be nice if he culled some [Freys](wiki:House_Frey) too. Ryman, for a start. The man's drunk more oft than not.(wiki:Ryman_Frey.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-3)
+> Tully ought to make a sortie, to remind us all we're still at war. Be nice if he culled some Freys too. Ryman, for a start. The man's drunk more oft than not.
 >
-> —[Daven Lannister](wiki:Daven_Lannister), to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Daven Lannister, to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-05.md:47`)
 
-> A sot, a fool, and a craven. Lord [Walder](wiki:Walder_Frey) had best outlive this one, or the Freys are done.(wiki:Ryman_Frey.cite_ref-Raffc38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)
+> A sot, a fool, and a craven. Lord Walder had best outlive this one, or the Freys are done.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-06.md:271`)
 
 > **Jaime**: Edwyn, I am giving you your father's command. Try not to be so stupid as your sire. **Edwyn**: That ought not pose much difficulty, my lord.(wiki:Ryman_Frey.cite_ref-Raffc38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-6)
 >

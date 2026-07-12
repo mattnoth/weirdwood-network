@@ -60,9 +60,9 @@ Jason and Patrek are imprisoned in their own castle.(wiki:Seagard.cite_ref-Radwd
 
 ## Quotes
 
-> But when old Lord [Jason](wiki:Jason_Mallister) saw his heir growing overly fond of Theon's company, he had taken [Patrek](wiki:Patrek_Mallister) aside to remind him that Seagard had been built to defend the coast against reavers from the [Iron Islands](wiki:Iron_Islands), the [Greyjoys](wiki:House_Greyjoy) of [Pyke](wiki:Pyke) chief among them. Their Booming Tower was named for its immense [bronze](wiki:Bronze) bell, rung of old to call the townsfolk and farmhands into the castle when longships were sighted on the western horizon.(wiki:Seagard.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)
+> But when old Lord Jason saw his heir growing overly fond of Theon's company, he had taken Patrek aside to remind him that Seagard had been built to defend the coast against reavers from the Iron Islands, the Greyjoys of Pyke chief among them. Their Booming Tower was named for its immense bronze bell, rung of old to call the townsfolk and farmhands into the castle when longships were sighted on the western horizon.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-01.md:213`)
 
 > **Robb**: You have a fleet at Seagard? **Jason**: A fleet, Your Grace? Half a dozen longships and two war galleys. Enough to defend my own shores against raiders, but I could not hope to meet the [Iron Fleet](wiki:Iron_Fleet) in battle.(wiki:Seagard.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
 >

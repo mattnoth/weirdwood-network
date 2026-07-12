@@ -66,17 +66,17 @@ Axell accompanies Selyse to [Castle Black](wiki:Castle_Black) after she sets out
 
 ### Quotes by Axell
 
-> [R'hllor](wiki:R'hllor) has blessed me with that gift. Like Lady [Melisandre](wiki:Melisandre), he shows me the future in the fire. [Stannis Baratheon](wiki:Stannis_Baratheon) will sit the [Iron Throne](wiki:Iron_Throne). I have seen it. And I know what must be done. His Grace must make me his [Hand](wiki:Hand_of_the_King), in place of [my traitor brother](wiki:Alester_Florent).(wiki:Axell_Florent.cite_ref-Rasos36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
+> R'hllor has blessed me with that gift. Like Lady Melisandre, he shows me the future in the fire. Stannis Baratheon will sit the Iron Throne. I have seen it. And I know what must be done. His Grace must make me his Hand, in place of my traitor brother.
 >
-> —Axell to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Axell to Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-04.md:57`)
 
 > If you think to betray me, pray remember that I have been castellan of [Dragonstone](wiki:Dragonstone) a good long time. The garrison is mine. Perhaps I cannot burn you without [the king's](wiki:Stannis_Baratheon) consent, but who is to say you might not suffer a fall.(wiki:Axell_Florent.cite_ref-Rasos36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-7)
 >
 > —Axell to [Davos Seaworth](wiki:Davos_Seaworth)
 
-> Defeat is a disease, and victory is the cure.(wiki:Axell_Florent.cite_ref-Rasos36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-8)
+> Defeat is a disease, and victory is the cure.
 >
-> —Axell to [Stannis Baratheon](wiki:Stannis_Baratheon)
+> —Axell to Stannis Baratheon, ASOS (`sources/chapters/asos/asos-davos-04.md:99`)
 
 > To King [Stannis](wiki:Stannis_Baratheon) and his wife, Queen [Selyse](wiki:Selyse_Florent), Light of the North! To [R'hllor](wiki:R'hllor), the Lord of Light, may he defend us all! One land, one god, one king!(wiki:Axell_Florent.cite_ref-Radwd49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4)
 >
@@ -84,18 +84,18 @@ Axell accompanies Selyse to [Castle Black](wiki:Castle_Black) after she sets out
 
 ### Quotes about Axell
 
-> I shall bring [justice](wiki:Justice) to [Westeros](wiki:Westeros). A thing Ser Axell understands as little as he does war.(wiki:Axell_Florent.cite_ref-Rasos36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-9)
+> I shall bring justice to Westeros. A thing Ser Axell understands as little as he does war.
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Stannis Baratheon to Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-04.md:185`)
 
 > If he is not a [kinslayer](wiki:Kinslayer), he is the next best thing. Axell Florent's [brother](wiki:Alester_Florent) had been burned by [Melisandre](wiki:Melisandre), Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) had informed him, yet Ser Axell had done little and less to stop it. What sort of man can stand by idly and watch his own brother being burned alive?(wiki:Axell_Florent.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
 >
 > —thoughts of [Jon Snow](wiki:Jon_Snow)
 
-> The letters [he](wiki:Jon_Snow)'d received from [Eastwatch-by-the-Sea](wiki:Eastwatch-by-the-Sea) had a deal to say of Axell Florent, very little of it good.(wiki:Axell_Florent.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3)
+> The letters he'd received from Eastwatch-by-the-Sea had a deal to say of Axell Florent, very little of it good.
 >
-> —[Jon Snow](wiki:Jon_Snow)'s thoughts on [Cotter Pyke](wiki:Cotter_Pyke)'s reports on Axell
+> —Jon Snow's thoughts on Cotter Pyke's reports on Axell, ADWD (`sources/chapters/adwd/adwd-jon-09.md:29`)
 
-> Ser Axell, if you are truly the [Queen's Hand](wiki:Hand_of_the_King), I pity [Her Grace](wiki:Selyse_Florent).(wiki:Axell_Florent.cite_ref-Radwd49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-5)
+> Ser Axell, if you are truly the Queen's Hand, I pity Her Grace.
 >
-> —[Jon Snow](wiki:Jon_Snow) to Axell
+> —Jon Snow to Axell, ADWD (`sources/chapters/adwd/adwd-jon-10.md:283`)

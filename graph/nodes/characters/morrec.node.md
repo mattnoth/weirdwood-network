@@ -28,9 +28,9 @@ Morrec accompanies [Tyrion Lannister](wiki:Tyrion_Lannister) north to [Winterfel
 
 ## Quotes
 
-> [Jyck](wiki:Jyck) swung a fair enough sword, but Morrec scarcely counted; he was part groom, part cook, part body servant, and no soldier.(wiki:Morrec.cite_ref-Ragot31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> Jyck swung a fair enough sword, but Morrec scarcely counted; he was part groom, part cook, part body servant, and no soldier.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-04.md:41`)
 
 ## Edges
 

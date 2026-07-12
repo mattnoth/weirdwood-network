@@ -76,9 +76,9 @@ After the feast, Arianne and her elder cousins meet with Doran in his solar. [El
 >
 > —Tyene, [Doran Martell](wiki:Doran_Martell), and [Areo Hotah](wiki:Areo_Hotah)
 
-> Sisters, truly, I know the poison [Father](wiki:Oberyn_Martell) used. If his spear so much as broke the Mountain's skin, [Clegane](wiki:Gregor_Clegane) is dead, I do not care how big he was. Doubt your little sister if you like, but never doubt our sire.(wiki:Tyene_Sand.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-7)
+> Sisters, truly, I know the poison Father used. If his spear so much as broke the Mountain's skin, Clegane is dead, I do not care how big he was. Doubt your little sister if you like, but never doubt our sire.
 >
-> —Tyene to [Obara Sand](wiki:Obara_Sand) and [Nymeria Sand](wiki:Nymeria_Sand)
+> —Tyene to Obara Sand and Nymeria Sand, ADWD (`sources/chapters/adwd/adwd-the-watcher-01.md:127`)
 
 > **Obara**: If Ser [Balon](wiki:Balon_Swann) is allowed to carry tales back to [King's Landing](wiki:King's_Landing), drums will sound and blood will flow. He should not be allowed to leave. **Tyene**: We could kill him, to be sure, but then we would need to kill the rest of his party too, even those sweet young squires. That would be ... oh, so messy.(wiki:Tyene_Sand.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-8)
 >
@@ -90,9 +90,9 @@ After the feast, Arianne and her elder cousins meet with Doran in his solar. [El
 
 ### Quotes about Tyene
 
-> Lady Tyene's voice was gentle, and she looked as sweet as summer strawberries. Her mother had been a [septa](wiki:Septa), and Tyene had an air of almost otherworldy innocence about her.(wiki:Tyene_Sand.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-12)
+> Lady Tyene's voice was gentle, and she looked as sweet as summer strawberries. Her mother had been a septa, and Tyene had an air of almost otherworldy innocence about her.
 >
-> —thoughts of [Areo Hotah](wiki:Areo_Hotah)
+> —thoughts of Areo Hotah, AFFC (`sources/chapters/affc/affc-the-captain-of-guards-01.md:259`)
 
 > I have never been as fearless as [my cousins](wiki:Sand_Snakes), for I was made with weaker seed, but Tyene and I are of an age and have been close as sisters since we were little girls. We have no secrets between us. If she can be imprisoned, so can I, and for the same cause ... this of [Myrcella](wiki:Myrcella_Baratheon).(wiki:Tyene_Sand.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
 >
@@ -102,9 +102,9 @@ After the feast, Arianne and her elder cousins meet with Doran in his solar. [El
 >
 > —thoughts of [Arianne Martell](wiki:Arianne_Martell)
 
-> Hotah studied each of them in turn. [Obara](wiki:Obara_Sand), rusted nails and boiled leather, with her angry, close-set eyes and rat-brown hair. [Nymeria](wiki:Nymeria_Sand), languid, elegant, olive-skinned, her long black braid bound up in red-gold wire. Tyene, blue-eyed and blond, a child-woman with her soft hands and little giggles.(wiki:Tyene_Sand.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-10)
+> Hotah studied each of them in turn. Obara, rusted nails and boiled leather, with her angry, close-set eyes and rat-brown hair. Nymeria, languid, elegant, olive-skinned, her long black braid bound up in red-gold wire. Tyene, blue-eyed and blond, a child-woman with her soft hands and little giggles.
 >
-> —thoughts of [Areo Hotah](wiki:Areo_Hotah)
+> —thoughts of Areo Hotah, ADWD (`sources/chapters/adwd/adwd-the-watcher-01.md:191`)
 
 ## Edges
 

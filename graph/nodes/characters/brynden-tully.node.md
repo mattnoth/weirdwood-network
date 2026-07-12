@@ -116,9 +116,9 @@ Brynden has been declared an outlaw.(wiki:Brynden_Tully.cite_ref-Radwd48.7B.7B.7
 >
 > —Brynden and [Catelyn Stark](wiki:Catelyn_Stark)
 
-> My first rule of war, Cat—never give the enemy his wish.(wiki:Brynden_Tully.cite_ref-Racok7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-9)
+> My first rule of war, Cat—never give the enemy his wish.
 >
-> —Brynden to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Brynden to Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-01.md:227`)
 
 > **Brynden**: I am the last man in the [Seven Kingdoms](wiki:Seven_Kingdoms) to tell anyone who they must wed, Nephew. Nonetheless, you did say something of making amends for your [Battle of the Fords](wiki:Battle_of_the_Fords). **Edmure**: I had in mind a different sort of amends. Single combat with the [Kingslayer](wiki:Jaime_Lannister). Seven years of penace as a [begging brother](wiki:Begging_brother). Swimming the [sunset sea](wiki:Sunset_sea) with my legs tied. The [Others](wiki:Others) take you all! Very well, I'll wed [the wench](wiki:Roslin_Frey). As amends.(wiki:Brynden_Tully.cite_ref-Rasos35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-2)
 >
@@ -134,17 +134,17 @@ Brynden has been declared an outlaw.(wiki:Brynden_Tully.cite_ref-Radwd48.7B.7B.7
 >
 > —[Robb Stark](wiki:Robb_Stark) to Brynden
 
-> Ser Brynden Tully was [Robb's](wiki:Robb_Stark) eyes and ears, the commander of his scouts and outriders.(wiki:Brynden_Tully.cite_ref-Racok7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-10)
+> Ser Brynden Tully was Robb's eyes and ears, the commander of his scouts and outriders.
 >
-> —[Catelyn Stark](wiki:Catelyn_Stark)'s thoughts
+> —Catelyn Stark's thoughts, ACOK (`sources/chapters/acok/acok-catelyn-01.md:177`)
 
 > Small chance the Blackfish will pay good coin for [a girl](wiki:Arya_Stark) he doesn't know. Those [Tullys](wiki:House_Tully) are a sour, suspicious lot, he's like to think we're selling him false goods.(wiki:Brynden_Tully.cite_ref-Rasos43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-1)
 >
 > —[Tom of Sevenstreams](wiki:Tom_of_Sevenstreams) to [Beric Dondarrion](wiki:Beric_Dondarrion)
 
-> Resolve is one thing Brynden Blackfish never lacked for. [Hoster Tully](wiki:Hoster_Tully) could have told you that.(wiki:Brynden_Tully.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-7)
+> Resolve is one thing Brynden Blackfish never lacked for. Hoster Tully could have told you that.
 >
-> —[Genna Lannister](wiki:Genna_Lannister) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Genna Lannister to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-05.md:297`)
 
 > Tully had a craggy face, deeply lined and windburnt beneath a shock of stiff grey hair, but Jaime could still see the great knight who once enthralled a squire with tales of the [Ninepenny Kings](wiki:War_of_the_Ninepenny_Kings).(wiki:Brynden_Tully.cite_ref-Raffc38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-10)
 >

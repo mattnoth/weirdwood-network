@@ -49,6 +49,6 @@ Leaf helps Lord Brynden train Bran as a [greenseer](wiki:Greenseer), giving him 
 
 ### Quotes about Leaf
 
-> That was not [Arya's](wiki:Arya_Stark) voice, nor any child's. It was a woman's voice, high and sweet, with a strange music in it like none that he had ever heard and a sadness that he thought might break his heart.(wiki:Leaf.cite_ref-Radwd13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+> That was not Arya's voice, nor any child's. It was a woman's voice, high and sweet, with a strange music in it like none that he had ever heard and a sadness that he thought might break his heart.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, ADWD (`sources/chapters/adwd/adwd-bran-02.md:135`)

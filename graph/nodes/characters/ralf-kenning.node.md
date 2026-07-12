@@ -42,9 +42,9 @@ The dwindling force of [ironborn](wiki:Ironborn) holds Moat Cailin, not knowing 
 
 ### Quotes by Ralf
 
-> [The wolves](wiki:Northmen) are broken, lord. What good to win [this swamp](wiki:Neck) and lose [the isles](wiki:Iron_Islands)?(wiki:Ralf_Kenning.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+> The wolves are broken, lord. What good to win this swamp and lose the isles?
 >
-> —Ralf to [Victarion Greyjoy](wiki:Victarion_Greyjoy)
+> —Ralf to Victarion Greyjoy, AFFC (`sources/chapters/affc/affc-the-iron-captain-01.md:21`)
 
 ### Quotes about Ralf
 

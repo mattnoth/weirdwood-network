@@ -30,9 +30,9 @@ Theon has a nightmare of eating with the dead, including Porther, at [Winterfell
 
 ## Quotes
 
-> Porther was a brave man, but headstrong. He wanted someone more solid and sensible to keep watch over his daughters.(wiki:Porther.cite_ref-Ragot47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+> Porther was a brave man, but headstrong. He wanted someone more solid and sensible to keep watch over his daughters.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-13.md:187`)
 
 ## Edges
 

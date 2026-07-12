@@ -65,9 +65,9 @@ By the time they reach the [siege of Riverrun](wiki:Siege_of_Riverrun), Peck and
 
 ### Quotes about Pia
 
-> And as [lords](wiki:Lord) and ladies never notice the little grey mice under their feet, Arya heard all sorts of secrets just by keeping her ears open as she went about her duties. Pretty Pia from the buttery was a slut who was working her way through every knight in [the castle](wiki:Harrenhal).(wiki:Pia.cite_ref-Racok30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
+> And as lords and ladies never notice the little grey mice under their feet, Arya heard all sorts of secrets just by keeping her ears open as she went about her duties. Pretty Pia from the buttery was a slut who was working her way through every knight in the castle.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ACOK (`sources/chapters/acok/acok-arya-07.md:33`)
 
 > Pia is quite skilled, would you not agree? And so ... willing.(wiki:Pia.cite_ref-Rasos44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
 >
@@ -77,9 +77,9 @@ By the time they reach the [siege of Riverrun](wiki:Siege_of_Riverrun), Peck and
 >
 > —[Bonifer Hasty](wiki:Bonifer_Hasty) to [Jaime Lannister](wiki:Jaime_Lannister)
 
-> Pia listened as solemnly as a girl of five being lessoned by her [septa](wiki:Septa). That's all she is, a little girl in a woman's body, scarred and scared.(wiki:Pia.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-5)
+> Pia listened as solemnly as a girl of five being lessoned by her septa. That's all she is, a little girl in a woman's body, scarred and scared.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-04.md:25`)
 
 > **Josmyn**: Kind, my lord? How .... how would I ...? **Jaime**: Sweet words. Gentle touches. You don't want to wed her, but so long as you're abed treat her as you would your bride.(wiki:Pia.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-6)
 >

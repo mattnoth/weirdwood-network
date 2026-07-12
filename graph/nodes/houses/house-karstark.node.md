@@ -100,9 +100,9 @@ Stannis learns of Arnolf's plot thanks to the letter sent by Jon Snow. Stannis s
 
 ## Quotes
 
-> [Old Nan](wiki:Old_Nan) said they had [Stark](wiki:House_Stark) blood in them, going back hundreds of years, but they did not look like Starks to Bran.(wiki:House_Karstark.cite_ref-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
+> Old Nan said they had Stark blood in them, going back hundreds of years, but they did not look like Starks to Bran.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, AGOT (`sources/chapters/agot/agot-bran-06.md:13`)
 
 > We are kin, [Stark](wiki:House_Stark) and Karstark.(wiki:House_Karstark.cite_ref-Rasos20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-8)
 >

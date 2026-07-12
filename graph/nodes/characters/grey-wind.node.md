@@ -74,17 +74,17 @@ Jon Snow's direwolf, [Ghost](wiki:Ghost), is aware that his littermate Grey Wind
 >
 > —a messenger to [Tywin Lannister](wiki:Tywin_Lannister)'s council after the [battle in the Whispering Wood](wiki:Battle_in_the_Whispering_Wood)
 
-> A hall is no place for a wolf. He gets restless, you've seen. Growling and snapping. I should never have taken him into battle with me. He's killed too many men to fear them now. [Jeyne's](wiki:Jeyne_Westerling) anxious around him, and he terrifies [her mother](wiki:Sybell_Spicer).(wiki:Grey_Wind.cite_ref-Rasos14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3)
+> A hall is no place for a wolf. He gets restless, you've seen. Growling and snapping. I should never have taken him into battle with me. He's killed too many men to fear them now. Jeyne's anxious around him, and he terrifies her mother.
 >
-> —[Robb Stark](wiki:Robb_Stark) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Robb Stark to Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-02.md:181`)
 
-> Any man Grey Wind mislikes is a man I do not want close to you. These wolves are more than wolves, Robb. You must know that. I think perhaps the gods sent them to us. [Your father's](wiki:Eddard_Stark) gods, the [old gods](wiki:Old_gods) of the [north](wiki:North).(wiki:Grey_Wind.cite_ref-Rasos14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-4)
+> Any man Grey Wind mislikes is a man I do not want close to you. These wolves are more than wolves, Robb. You must know that. I think perhaps the gods sent them to us. Your father's gods, the old gods of the north.
 >
-> —[Catelyn Stark](wiki:Catelyn_Stark) to [Robb Stark](wiki:Robb_Stark), upon learning that Grey Wind does not like [Rolph Spicer](wiki:Rolph_Spicer)
+> —Catelyn Stark to Robb Stark, upon learning that Grey Wind does not like Rolph Spicer, ASOS (`sources/chapters/asos/asos-catelyn-02.md:199`)
 
-> A silence fell across the torchlit hall, and in the quiet Catelyn could hear Grey Wind howling half a castle away. He smells the blood, she thought, through stone walls and wooden doors, through night and rain, he still knows the scent of death and ruin.(wiki:Grey_Wind.cite_ref-Rasos20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
+> A silence fell across the torchlit hall, and in the quiet Catelyn could hear Grey Wind howling half a castle away. He smells the blood, she thought, through stone walls and wooden doors, through night and rain, he still knows the scent of death and ruin.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-03.md:11`)
 
 > He's a [direwolf](wiki:Direwolf), not a dog, and dangerous to men he does not trust.(wiki:Grey_Wind.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1)
 >

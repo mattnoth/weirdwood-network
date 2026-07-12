@@ -67,9 +67,9 @@ When Jon suffers a nightmare, Qhorin is among the men cut down by the new [Lord 
 >
 > —[Jeor Mormont](wiki:Jeor_Mormont) and Qhorin
 
-> To lead men you must know them, Jon Snow. I know more of you now than I did this morning.(wiki:Qhorin_Halfhand.cite_ref-Racok53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-6)
+> To lead men you must know them, Jon Snow. I know more of you now than I did this morning.
 >
-> —Qhorin to [Jon Snow](wiki:Jon_Snow)
+> —Qhorin to Jon Snow, ACOK (`sources/chapters/acok/acok-jon-07.md:67`)
 
 > If we are taken, you will go over to them, as [the wildling girl](wiki:Ygritte) you captured once urged you. They may demand that you cut your cloak to ribbons, that you swear them an oath on [your father's](wiki:Eddard_Stark) grave, that you curse your brothers and [your Lord Commander](wiki:Jeor_Mormont). You must not balk, whatever is asked of you. Do as they bid you ... but in your heart, remember who and what you are. Ride with them, eat with them, fight with them, for as long as it takes. And watch.(wiki:Qhorin_Halfhand.cite_ref-Racok68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-8)
 >
@@ -77,22 +77,22 @@ When Jon suffers a nightmare, Qhorin is among the men cut down by the new [Lord 
 
 ### Quotes about Qhorin
 
-> The Halfhand had ventured deeper [into the wild](wiki:Beyond_the_Wall) than any other living man.(wiki:Qhorin_Halfhand.cite_ref-Racok43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-16)
+> The Halfhand had ventured deeper into the wild than any other living man.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ACOK (`sources/chapters/acok/acok-jon-05.md:103`)
 
 > He knew. He knew what they would ask of me.(wiki:Qhorin_Halfhand.cite_ref-Racok68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-9)
 >
 > —thoughts of [Jon Snow](wiki:Jon_Snow)
 
-> I will see, and hear, and learn, and when I have I will carry the word back to the [Wall](wiki:Wall). The [wildlings](wiki:Wildlings) had taken him for an oathbreaker, but in his heart he was still a man of the [Night's Watch](wiki:Night's_Watch), doing the last duty that Qhorin Halfhand had laid on him. Before I killed him.(wiki:Qhorin_Halfhand.cite_ref-Rasos7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-3)
+> I will see, and hear, and learn, and when I have I will carry the word back to the Wall. The wildlings had taken him for an oathbreaker, but in his heart he was still a man of the Night's Watch, doing the last duty that Qhorin Halfhand had laid on him. Before I killed him.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ASOS (`sources/chapters/asos/asos-jon-01.md:39`)
 
 > **Mance**: Qhorin was my enemy. But also my brother, once. So ... shall I thank you for killing him, Jon Snow? Or curse you? **Jon**: You ought to thank me for killing your enemy, and curse me for killing your friend.(wiki:Qhorin_Halfhand.cite_ref-Rasos7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-4)
 >
 > —[Mance Rayder](wiki:Mance_Rayder) and [Jon Snow](wiki:Jon_Snow)
 
-> The Halfhand could have killed me as easy as you swat a bug.(wiki:Qhorin_Halfhand.cite_ref-Raffc5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)
+> The Halfhand could have killed me as easy as you swat a bug.
 >
-> —[Jon Snow](wiki:Jon_Snow) to [Samwell Tarly](wiki:Samwell_Tarly)
+> —Jon Snow to Samwell Tarly, AFFC (`sources/chapters/affc/affc-samwell-01.md:83`)

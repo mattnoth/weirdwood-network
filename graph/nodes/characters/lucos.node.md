@@ -28,6 +28,6 @@ When the [Lords Declarant](wiki:Lords_Declarant) of the [Vale](wiki:Vale_of_Arry
 
 ## Quotes
 
-> Septon Lucos will instruct him in matters of the spirit.(wiki:Lucos.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> Septon Lucos will instruct him in matters of the spirit.
 >
-> —[Anya Waynwood](wiki:Anya_Waynwood)
+> —Anya Waynwood, AFFC (`sources/chapters/affc/affc-alayne-01.md:227`)

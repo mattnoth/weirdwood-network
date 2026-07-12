@@ -67,9 +67,9 @@ By the time Cotter arrives at Hardhome, he has lost five ships and the wildlings
 
 ### Quotes by Cotter
 
-> Understand this, boy. I don't want [the bloody job](wiki:Lord_Commander_of_the_Night's_Watch), and never did. I fight best with a [deck](wiki:Ship) beneath me, not a [horse](wiki:Horse), and [Castle Black](wiki:Castle_Black) is too far from [the sea](wiki:Shivering_Sea). But I'll be buggered with a red-hot sword before I turn the [Night's Watch](wiki:Night's_Watch) over to [that preening eagle](wiki:Denys_Mallister) from the [Shadow Tower](wiki:Shadow_Tower).(wiki:Cotter_Pyke.cite_ref-Rasos78.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-10)
+> Understand this, boy. I don't want the bloody job, and never did. I fight best with a deck beneath me, not a horse, and Castle Black is too far from the sea. But I'll be buggered with a red-hot sword before I turn the Night's Watch over to that preening eagle from the Shadow Tower.
 >
-> —Cotter to [Samwell Tarly](wiki:Samwell_Tarly)
+> —Cotter to Samwell Tarly, ASOS (`sources/chapters/asos/asos-samwell-05.md:189`)
 
 > Lord Snow, if you muck this up, I'm going to rip your liver out and eat it raw with onions.(wiki:Cotter_Pyke.cite_ref-Rasos79.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)
 >
@@ -81,14 +81,14 @@ By the time Cotter arrives at Hardhome, he has lost five ships and the wildlings
 >
 > —thoughts of [Jon Snow](wiki:Jon_Snow)
 
-> Those look like [Eastwatch](wiki:Eastwatch-by-the-Sea) men. Sailors on horses. Cotter Pyke always had more guts than sense.(wiki:Cotter_Pyke.cite_ref-Rasos73.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)
+> Those look like Eastwatch men. Sailors on horses. Cotter Pyke always had more guts than sense.
 >
-> —[Mance Rayder](wiki:Mance_Rayder) to [Jon Snow](wiki:Jon_Snow)
+> —Mance Rayder to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-10.md:241`)
 
 > Samwell, it is not my habit to speak unkindly of my brothers, but let us be frank ... the [ironborn](wiki:Ironborn) are a race of [pirates](wiki:Pirates) and thieves, and Cotter Pyke was raping and murdering when he was still half a boy.(wiki:Cotter_Pyke.cite_ref-Rasos78.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-11)
 >
 > —[Denys Mallister](wiki:Denys_Mallister) to [Samwell Tarly](wiki:Samwell_Tarly)
 
-> We are done with [Eastwatch](wiki:Eastwatch-by-the-Sea). We did not like it there. A queen should be mistress beneath her own roof. We found your Cotter Pyke to be an uncouth and unpleasant man, quarrelsome and niggardly.(wiki:Cotter_Pyke.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
+> We are done with Eastwatch. We did not like it there. A queen should be mistress beneath her own roof. We found your Cotter Pyke to be an uncouth and unpleasant man, quarrelsome and niggardly.
 >
-> —[Selyse Florent](wiki:Selyse_Florent) to [Jon Snow](wiki:Jon_Snow)
+> —Selyse Florent to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-09.md:53`)

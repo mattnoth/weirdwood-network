@@ -81,9 +81,9 @@ Jon Snow recalls his siblings, including Sansa brushing out Lady's coat and sing
 >
 > —[Sansa](wiki:Sansa_Stark) to [Eddard Stark](wiki:Eddard_Stark)
 
-> The [Lannister woman](wiki:Cersei_Lannister) shall never have this skin.(wiki:Lady.cite_ref-Ragot16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
+> The Lannister woman shall never have this skin.
 >
-> —[Eddard Stark](wiki:Eddard_Stark) to [Jory Cassel](wiki:Jory_Cassel)
+> —Eddard Stark to Jory Cassel, AGOT (`sources/chapters/agot/agot-eddard-03.md:145`)
 
 > What was it that [Jon](wiki:Jon_Snow) had said? When they found the pups in the snow? "Your children were meant to have these pups, my lord." And he had killed [Sansa's](wiki:Sansa_Stark), and for what?(wiki:Lady.cite_ref-Ragot20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
 >
@@ -93,17 +93,17 @@ Jon Snow recalls his siblings, including Sansa brushing out Lady's coat and sing
 >
 > —thoughts of [Sansa Stark](wiki:Sansa_Stark)
 
-> She had gone south, and only her bones had returned.(wiki:Lady.cite_ref-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> She had gone south, and only her bones had returned.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, AGOT (`sources/chapters/agot/agot-bran-06.md:99`)
 
-> She could smell out falsehood, she could, but she was dead, [Father](wiki:Eddard_Stark) had killed her, on account of [Arya](wiki:Arya_Stark).(wiki:Lady.cite_ref-Racok18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1)
+> She could smell out falsehood, she could, but she was dead, Father had killed her, on account of Arya.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, ACOK (`sources/chapters/acok/acok-sansa-02.md:75`)
 
-> If Lady was here, I would not be afraid.(wiki:Lady.cite_ref-Rasos59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-1)
+> If Lady was here, I would not be afraid.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-04.md:13`)
 
 > Sometimes [he](wiki:Summer) could sense [them](wiki:Template:Stark_Direwolves), though, as if they were still with him, only hidden from his sight by a boulder or a stand of trees. He could not smell them, nor hear their howls by night, yet he felt their presence at his back... all but the sister they had lost. His tail drooped when he remembered her.(wiki:Lady.cite_ref-Rasos9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 >

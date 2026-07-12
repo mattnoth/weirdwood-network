@@ -38,9 +38,9 @@ Brandon the Builder is not as beloved among singers and storytellers as [Lann th
 >
 > —writings of [Yandel](wiki:Yandel)
 
-> Thousands and thousands of years ago, Brandon the Builder had raised [Winterfell](wiki:Winterfell), and some said the [Wall](wiki:Wall).(wiki:Brandon_the_Builder.cite_ref-Ragot24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
+> Thousands and thousands of years ago, Brandon the Builder had raised Winterfell, and some said the Wall.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, AGOT (`sources/chapters/agot/agot-bran-04.md:37`)
 
 > No one can even say for certain if Brandon the Builder ever lived. He is as remote from the time of the novels as Noah and Gilgamesh are from our own time.(wiki:Brandon_the_Builder.cite_ref-21)
 >

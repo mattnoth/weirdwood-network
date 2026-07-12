@@ -58,6 +58,6 @@ Barristan Selmy recalls that King [Jaehaerys II Targaryen](wiki:Jaehaerys_II_Tar
 
 ## Quotes
 
-> When Maelys the Monstrous died upon the [Stepstones](wiki:Stepstones), it was the end of the male line of [House Blackfyre](wiki:House_Blackfyre).(wiki:Maelys_I_Blackfyre.cite_ref-Radwd5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> When Maelys the Monstrous died upon the Stepstones, it was the end of the male line of House Blackfyre.
 >
-> —[Illyrio Mopatis](wiki:Illyrio_Mopatis)
+> —Illyrio Mopatis, ADWD (`sources/chapters/adwd/adwd-tyrion-02.md:145`)

@@ -48,6 +48,6 @@ In the meantime, [Euron Greyjoy](wiki:Euron_Greyjoy) has ordered his fleet to ca
 
 ## Quotes
 
-> If [King's Landing](wiki:King's_Landing) loses [Oldtown](wiki:Oldtown) and the [Arbor](wiki:Arbor), the [whole realm](wiki:Seven_Kingdoms) will fall to pieces, he thought as he watched the [Huntress](wiki:Huntress) and her sisters moving off.(wiki:Invasion_of_the_Arbor.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> If King's Landing loses Oldtown and the Arbor, the whole realm will fall to pieces, he thought as he watched the Huntress and her sisters moving off.
 >
-> —thoughts of [Samwell Tarly](wiki:Samwell_Tarly)
+> —thoughts of Samwell Tarly, AFFC (`sources/chapters/affc/affc-samwell-05.md:49`)

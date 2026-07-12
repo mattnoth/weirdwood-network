@@ -56,6 +56,6 @@ When Lord [Petyr Baelish](wiki:Petyr_Baelish) teaches her some [Arryn](wiki:Hous
 
 ### Quotes about Donnel
 
-> He was a stocky youth of twenty years, earnest and homely, with a wide nose and a shock of thick brown hair.(wiki:Donnel_Waynwood.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+> He was a stocky youth of twenty years, earnest and homely, with a wide nose and a shock of thick brown hair.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-06.md:15`)

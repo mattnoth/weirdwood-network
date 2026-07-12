@@ -58,13 +58,13 @@ Poor Fellows and [Warrior's Sons](wiki:Warrior's_Sons) escort Cersei during her 
 
 ## Quotes
 
-> This debt shall be forgiven, and King [Tommen](wiki:Tommen_Baratheon) will have his blessing. The [Warrior's Sons](wiki:Warrior's_Sons) shall escort me to him, shining in the glory of their [Faith](wiki:Faith_of_the_Seven), whilst my [sparrows](wiki:Sparrows) go forth to defend the meek and humble of the land, reborn as Poor Fellows as of old.(wiki:Poor_Fellows.cite_ref-Raffc28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> This debt shall be forgiven, and King Tommen will have his blessing. The Warrior's Sons shall escort me to him, shining in the glory of their Faith, whilst my sparrows go forth to defend the meek and humble of the land, reborn as Poor Fellows as of old.
 >
-> —[High Sparrow](wiki:High_Sparrow) to [Cersei Lannister](wiki:Cersei_Lannister)
+> —High Sparrow to Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-06.md:273`)
 
-> Filthy, unshaven creatures armed with spears and axes and clad in bits of dinted plate, rusted mail, and cracked leather, under roughspun surcoats bleached white and blazoned with the seven-pointed star of the Faith. The High Sparrow's ragged army.(wiki:Poor_Fellows.cite_ref-Radwd65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+> Filthy, unshaven creatures armed with spears and axes and clad in bits of dinted plate, rusted mail, and cracked leather, under roughspun surcoats bleached white and blazoned with the seven-pointed star of the Faith. The High Sparrow's ragged army.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister)'s thoughts on the reborn Poor Fellows
+> —Cersei Lannister's thoughts on the reborn Poor Fellows, ADWD (`sources/chapters/adwd/adwd-cersei-02.md:81`)
 
 ## Fire & Blood
 

@@ -58,7 +58,9 @@ Ben, along with the other three sellsword commanders, is allowed to enter Meeree
 
 ### Quotes by Ben
 
-> There are old [sellswords](wiki:Sellsword) and bold sellswords, but no old bold sellswords.(wiki:Ben_Plumm.cite_ref-Rasos57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)
+> There are old sellswords and bold sellswords, but no old bold sellswords.
+>
+> — ASOS (`sources/chapters/asos/asos-daenerys-05.md:119`)
 
 ### Quotes about Ben
 
@@ -70,10 +72,10 @@ Ben, along with the other three sellsword commanders, is allowed to enter Meeree
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
 
-> Brown Ben is shrewd, tenacious, not unintelligent … but wary.(wiki:Ben_Plumm.cite_ref-Radwd57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> Brown Ben is shrewd, tenacious, not unintelligent … but wary.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-11.md:247`)
 
-> I hear you're twice a [turncloak](wiki:Turncloak), Plumm. A man after mine own heart.(wiki:Ben_Plumm.cite_ref-Radwd57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
+> I hear you're twice a turncloak, Plumm. A man after mine own heart.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-11.md:287`)

@@ -80,6 +80,6 @@ Clydas is frightened by a [letter to Jon](wiki:Bastard_Letter) entitled "Bastard
 >
 > —thoughts of [Jon Snow](wiki:Jon_Snow)
 
-> [Cellador](wiki:Cellador) would be half-drunk, and Clydas was a poor substitute for a real [maester](wiki:Maester), but they were what he had.(wiki:Clydas.cite_ref-Radwd53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-2)
+> Cellador would be half-drunk, and Clydas was a poor substitute for a real maester, but they were what he had.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-11.md:123`)

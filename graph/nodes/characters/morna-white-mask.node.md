@@ -30,6 +30,6 @@ Morna White Mask is among the [free folk](wiki:Free_folk) leaders who accompany 
 
 ## Quotes
 
-> The warrior witch Morna removed her weirwood mask just long enough to kiss his gloved hand and swear to be his man or his woman, whichever he preferred.(wiki:Morna_White_Mask.cite_ref-Radwd58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> The warrior witch Morna removed her weirwood mask just long enough to kiss his gloved hand and swear to be his man or his woman, whichever he preferred.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-12.md:155`)

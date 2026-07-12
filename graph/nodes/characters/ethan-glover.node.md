@@ -37,9 +37,9 @@ Lady [Catelyn Stark](wiki:Catelyn_Stark) tells Ser [Jaime Lannister](wiki:Jaime_
 
 ## Quotes
 
-> In the dream his friends rode with him, as they had in life. Proud [Martyn Cassel](wiki:Martyn_Cassel), [Jory](wiki:Jory_Cassel)'s father; faithful [Theo Wull](wiki:Theo_Wull); Ethan Glover, who had been [Brandon](wiki:Brandon_Stark)'s [squire](wiki:Squire); Ser [Mark Ryswell](wiki:Mark_Ryswell), soft of speech and gentle of heart; the [crannogman](wiki:Crannogman), [Howland Reed](wiki:Howland_Reed); Lord [Dustin](wiki:Willam_Dustin) on his great red [stallion](wiki:Horse). Ned had known their faces as well as he knew his own once, but the years leech at a man's memories, even those he has vowed never to forget. In the dream they were only shadows, grey wraiths on horses made of mist.(wiki:Ethan_Glover.cite_ref-Ragot39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+> In the dream his friends rode with him, as they had in life. Proud Martyn Cassel, Jory's father; faithful Theo Wull; Ethan Glover, who had been Brandon's squire; Ser Mark Ryswell, soft of speech and gentle of heart; the crannogman, Howland Reed; Lord Dustin on his great red stallion. Ned had known their faces as well as he knew his own once, but the years leech at a man's memories, even those he has vowed never to forget. In the dream they were only shadows, grey wraiths on horses made of mist.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-10.md:13`)
 
 > **Jaime**: [Aerys](wiki:Aerys_II_Targaryen) sent [his guards](wiki:House_Targaryen_guards) to arrest them all for plotting [his son's](wiki:Rhaegar_Targaryen) murder. The others were [lords](wiki:Lord)' sons too, it seems to me. **Catelyn**: Ethan Glover was [Brandon's](wiki:Brandon_Stark) [squire](wiki:Squire). He was the only one to survive.(wiki:Ethan_Glover.cite_ref-Racok55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
 >

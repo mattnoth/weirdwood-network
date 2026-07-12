@@ -95,14 +95,14 @@ In the aftermath of the [Red Wedding](wiki:Red_Wedding), Ser [Gregor Clegane](wi
 >
 > —writigs of [Yandel](wiki:Yandel)
 
-> [Tobho](wiki:Tobho_Mott) had learned to work [Valyrian steel](wiki:Valyrian_steel) at the forges of Qohor as a boy. Only a man who knew the [spells](wiki:Spells) could take old weapons and forge them anew.(wiki:Qohor.cite_ref-Ragot27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-0)
+> Tobho had learned to work Valyrian steel at the forges of Qohor as a boy. Only a man who knew the spells could take old weapons and forge them anew.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-06.md:125`)
 
 > Since [that day](wiki:Three_Thousand_of_Qohor), the [city guard of Qohor](wiki:City_watch_(Qohor)) has been made up solely of [Unsullied](wiki:Unsullied), every one of whom carries a tall spear from which hangs a braid of human hair.(wiki:Qohor.cite_ref-Rasos8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
 >
 > —[Jorah Mormont](wiki:Jorah_Mormont) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> [Zekko](wiki:Zekko) visits Qohor every three or four years. The Qohorik give him a sack of [gold](wiki:Gold) and he turns east again.(wiki:Qohor.cite_ref-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-1)
+> Zekko visits Qohor every three or four years. The Qohorik give him a sack of gold and he turns east again.
 >
-> —[Illyrio Mopatis](wiki:Illyrio_Mopatis) to [Haldon](wiki:Haldon)
+> —Illyrio Mopatis to Haldon, ADWD (`sources/chapters/adwd/adwd-tyrion-03.md:57`)

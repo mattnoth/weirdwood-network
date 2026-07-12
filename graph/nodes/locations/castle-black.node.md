@@ -105,14 +105,14 @@ Lord Commander Snow agrees to disperse the wildlings amongst the previously aban
 >
 > —[Lothor Burley](wiki:Lothor_Burley) and [Alysanne Targaryen](wiki:Alysanne_Targaryen)
 
-> There was scant warmth to be found in Castle Black; the walls were cold here, and the people colder.(wiki:Castle_Black.cite_ref-Ragot19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
+> There was scant warmth to be found in Castle Black; the walls were cold here, and the people colder.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, AGOT (`sources/chapters/agot/agot-jon-03.md:45`)
 
-> Castle Black lay below him, etched in [moonlight](wiki:Moon). You could see how stark and empty it was from up here; windowless keeps, crumbling walls, courtyards choked with broken stone. Farther off, he could see the lights of [Mole's Town](wiki:Mole's_Town), the little village half a league south along the [kingsroad](wiki:Kingsroad), and here and there the bright glitter of moonlight on water where icy streams descended from the mountain heights to cut across the plains.(wiki:Castle_Black.cite_ref-Ragot21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> Castle Black lay below him, etched in moonlight. You could see how stark and empty it was from up here; windowless keeps, crumbling walls, courtyards choked with broken stone. Farther off, he could see the lights of Mole's Town, the little village half a league south along the kingsroad, and here and there the bright glitter of moonlight on water where icy streams descended from the mountain heights to cut across the plains.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-03.md:129`)
 
-> Castle Black had no defenses, but for the [Wall](wiki:Wall) itself. It lacked even wooden palisades or earthen dikes. The "castle" was nothing more than a cluster of towers and keeps, two-thirds of them falling into ruin.(wiki:Castle_Black.cite_ref-Rasos41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-0)
+> Castle Black had no defenses, but for the Wall itself. It lacked even wooden palisades or earthen dikes. The "castle" was nothing more than a cluster of towers and keeps, two-thirds of them falling into ruin.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ASOS (`sources/chapters/asos/asos-jon-05.md:95`)

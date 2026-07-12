@@ -64,9 +64,9 @@ Arya thinks of Syrio when she arrives at the [House of Black and White](wiki:Hou
 >
 > —Syrio and [Arya Stark](wiki:Arya_Stark)
 
-> Now we will begin the dance. Remember, child, this is not the [iron](wiki:Iron) dance of [Westeros](wiki:Westeros) we are learning, the [knight](wiki:Knight)'s dance, hacking and hammering, no. This is the [bravo](wiki:Bravo)'s dance, the [water dance](wiki:Water_dance), swift and sudden. All men are made of water, do you know this? When you pierce them, the water leaks out and they die.(wiki:Syrio_Forel.cite_ref-Ragot22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> Now we will begin the dance. Remember, child, this is not the iron dance of Westeros we are learning, the knight's dance, hacking and hammering, no. This is the bravo's dance, the water dance, swift and sudden. All men are made of water, do you know this? When you pierce them, the water leaks out and they die.
 >
-> —Syrio to [Arya Stark](wiki:Arya_Stark)
+> —Syrio to Arya Stark, AGOT (`sources/chapters/agot/agot-arya-02.md:199`)
 
 > **Arya**: You saw what was there. **Syrio**: Just so. Opening your eyes is all that is needing. The heart lies and the head plays tricks with us, but the eyes see true. Look with your eyes. Hear with your ears. Taste with your mouth. Smell with your nose. Feel with your skin. Then comes the thinking, afterward, and in that way knowing the truth.(wiki:Syrio_Forel.cite_ref-Ragot50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
 >
@@ -78,17 +78,17 @@ Arya thinks of Syrio when she arrives at the [House of Black and White](wiki:Hou
 
 ### Quotes about Syrio
 
-> Syrio says that every hurt is a lesson, and every lesson makes you better.(wiki:Syrio_Forel.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> Syrio says that every hurt is a lesson, and every lesson makes you better.
 >
-> —[Arya Stark](wiki:Arya_Stark) to [Eddard Stark](wiki:Eddard_Stark)
+> —Arya Stark to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-07.md:205`)
 
-> Look with your eyes, he had said. She saw: [the knight](wiki:Meryn_Trant) in his [pale armor](wiki:Kingsguard) head to foot, legs, throat, and hands sheathed in metal, eyes hidden behind his high white helm, and in his hand cruel steel. Against that: Syrio, in a leather vest, with a wooden sword in his hand.(wiki:Syrio_Forel.cite_ref-Ragot50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-10)
+> Look with your eyes, he had said. She saw: the knight in his pale armor head to foot, legs, throat, and hands sheathed in metal, eyes hidden behind his high white helm, and in his hand cruel steel. Against that: Syrio, in a leather vest, with a wooden sword in his hand.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, AGOT (`sources/chapters/agot/agot-arya-04.md:115`)
 
-> All that Syrio Forel had taught her went racing through her head. Swift as a [deer](wiki:Deer). Quiet as a shadow. Fear cuts deeper than swords. Quick as a [snake](wiki:Snake). Calm as still water. Fear cuts deeper than swords. Strong as a [bear](wiki:Bear). Fierce as a [wolverine](wiki:Wolverine). Fear cuts deeper than swords. The man who fears losing has already lost. Fear cuts deeper than swords. Fear cuts deeper than swords. Fear cuts deeper than swords.(wiki:Syrio_Forel.cite_ref-Ragot50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-11)
+> All that Syrio Forel had taught her went racing through her head. Swift as a deer. Quiet as a shadow. Fear cuts deeper than swords. Quick as a snake. Calm as still water. Fear cuts deeper than swords. Strong as a bear. Fierce as a wolverine. Fear cuts deeper than swords. The man who fears losing has already lost. Fear cuts deeper than swords. Fear cuts deeper than swords. Fear cuts deeper than swords.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, AGOT (`sources/chapters/agot/agot-arya-04.md:125`)
 
 > **Tyrion**: I saw the older girl out in the yard with [Joffrey](wiki:Joffrey_Baratheon). **Cersei**: [Sansa](wiki:Sansa_Stark). I've given it out that I have [the younger brat](wiki:Arya_Stark) as well, but it's a lie. I sent [Meryn Trant](wiki:Meryn_Trant) to take her in hand when [Robert](wiki:Robert_I_Baratheon) died, but her wretched dancing master interfered and the girl fled. No one has seen her since. Likely she's dead. [A great many people died that day](wiki:Arrest_of_Eddard_Stark).(wiki:Syrio_Forel.cite_ref-Racok3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
 >

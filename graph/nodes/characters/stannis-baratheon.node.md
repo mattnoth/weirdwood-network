@@ -215,9 +215,9 @@ At the [crofters' village](wiki:Crofters'_village), Stannis prepares for the loo
 
 — Stannis to [Davos Seaworth](davos-seaworth), ACOK Davos II (`sources/chapters/acok/acok-davos-02.md:165`) [L826]
 
-> These pardoned lords would do well to reflect on that. Good men and true will fight for [Joffrey](wiki:Joffrey_Baratheon), wrongly believing him the true king. A [northman](wiki:Northman) might even say the same of [Robb Stark](wiki:Robb_Stark). But these lords who flocked to [my brother's](wiki:Renly_Baratheon) banners knew him for a usurper. They turned their backs on their rightful king for no better reason than dreams of power and glory, and I have marked them for what they are. Pardoned them, yes. Forgiven. But not forgotten.(wiki:Stannis_Baratheon.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-6)
+> These pardoned lords would do well to reflect on that. Good men and true will fight for Joffrey, wrongly believing him the true king. A northman might even say the same of Robb Stark. But these lords who flocked to my brother's banners knew him for a usurper. They turned their backs on their rightful king for no better reason than dreams of power and glory, and I have marked them for what they are. Pardoned them, yes. Forgiven. But not forgotten.
 >
-> —Stannis to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Stannis to Davos Seaworth, ACOK (`sources/chapters/acok/acok-davos-02.md:165`)
 
 > It is not a question of wanting. The throne is mine, as [Robert's](wiki:Robert_I_Baratheon) heir. That is law. After me, it must pass to my daughter, unless [Selyse](wiki:Selyse_Florent) should finally give me a son. I am king. Wants do not enter into it. I have a duty to my daughter. To the realm. Even to Robert. He loved me but little, I know, yet he was my brother. The [Lannister woman](wiki:Cersei_Lannister) gave him horns and made a motley fool of him. She may have murdered him as well, as she murdered [Jon Arryn](wiki:Jon_Arryn) and [Ned Stark](wiki:Eddard_Stark). For such crimes there must be justice. Starting with Cersei and her abominations. But only starting. I mean to scour that court clean. As Robert should have done after the [Trident](wiki:Battle_of_the_Trident).(wiki:Stannis_Baratheon.cite_ref-Rasos36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-8)
 >
@@ -235,9 +235,9 @@ At the [crofters' village](wiki:Crofters'_village), Stannis prepares for the loo
 >
 > —Stannis to [Davos Seaworth](wiki:Davos_Seaworth)
 
-> Lord [Seaworth](wiki:Davos_Seaworth) is a man of [humble birth](wiki:Smallfolk), but he reminded me of my duty, when all I could think of was my rights. I had the [cart](wiki:Cart) before the [horse](wiki:Horse), Davos said. I was trying to win the throne to save the kingdom, when I should have been trying to save the kingdom to win the throne.(wiki:Stannis_Baratheon.cite_ref-Rasos76.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-3)
+> Lord Seaworth is a man of humble birth, but he reminded me of my duty, when all I could think of was my rights. I had the cart before the horse, Davos said. I was trying to win the throne to save the kingdom, when I should have been trying to save the kingdom to win the throne.
 >
-> —Stannis to [Jon Snow](wiki:Jon_Snow)
+> —Stannis to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-11.md:109`)
 
 > [Demons made of snow and ice and cold](wiki:Others). The ancient enemy. The only enemy that matters.(wiki:Stannis_Baratheon.cite_ref-Rasos78.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-4)
 >
@@ -255,57 +255,57 @@ At the [crofters' village](wiki:Crofters'_village), Stannis prepares for the loo
 
 ### Quotes about Stannis
 
-> [Robert's](wiki:Robert_I_Baratheon) lusts were the subject of ribald drinking songs throughout [the realm](wiki:Seven_Kingdoms), but Stannis was a different sort of man; a bare year younger than the king, yet utterly unlike him, stern, humorless, unforgiving, grim in his sense of duty.(wiki:Stannis_Baratheon.cite_ref-Ragot27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-10)
+> Robert's lusts were the subject of ribald drinking songs throughout the realm, but Stannis was a different sort of man; a bare year younger than the king, yet utterly unlike him, stern, humorless, unforgiving, grim in his sense of duty.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-06.md:77`)
 
-> Ned found it hard to imagine what could frighten Stannis Baratheon, who had once held [Storm's End](wiki:Storm's_End) through a [year of siege](wiki:Siege_of_Storm's_End), surviving on rats and boot leather while the Lords [Tyrell](wiki:Mace_Tyrell) and [Redwyne](wiki:Paxter_Redwyne) sat outside with their hosts, banqueting in sight of his walls.(wiki:Stannis_Baratheon.cite_ref-Ragot58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-2)
+> Ned found it hard to imagine what could frighten Stannis Baratheon, who had once held Storm's End through a year of siege, surviving on rats and boot leather while the Lords Tyrell and Redwyne sat outside with their hosts, banqueting in sight of his walls.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-06.md:89`)
 
-> His claim is the true one, he is known for his prowess as a battle commander, and he is utterly without mercy. There is no creature on earth half so terrifying as a truly just man.(wiki:Stannis_Baratheon.cite_ref-Ragot58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-3)
+> His claim is the true one, he is known for his prowess as a battle commander, and he is utterly without mercy. There is no creature on earth half so terrifying as a truly just man.
 >
-> —[Varys](wiki:Varys) to [Eddard Stark](wiki:Eddard_Stark)
+> —Varys to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-15.md:127`)
 
-> I have felt from the beginning that Stannis was a greater danger than [all the others combined](wiki:War_of_the_Five_Kings).(wiki:Stannis_Baratheon.cite_ref-Ragot69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_55-1)
+> I have felt from the beginning that Stannis was a greater danger than all the others combined.
 >
-> —[Tywin Lannister](wiki:Tywin_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Tywin Lannister to Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-09.md:127`)
 
-> Stannis, my lord, my sad sullen boy, son I never had, you must not do this, don't you know how I have cared for you, lived for you, loved you despite all? Yes, loved you, better than [Robert](wiki:Robert_I_Baratheon) even, or [Renly](wiki:Renly_Baratheon), for you were the one unloved, the one who needed me most.(wiki:Stannis_Baratheon.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-34)
+> Stannis, my lord, my sad sullen boy, son I never had, you must not do this, don't you know how I have cared for you, lived for you, loved you despite all? Yes, loved you, better than Robert even, or Renly, for you were the one unloved, the one who needed me most.
 >
-> —thoughts of [Cressen](wiki:Cressen)
+> —thoughts of Cressen, ACOK (`sources/chapters/acok/acok-prologue.md:319`)
 
-> [Robert](wiki:Robert_I_Baratheon) was the true [steel](wiki:Steel). Stannis is pure [iron](wiki:Iron), black and hard and strong, yes, but brittle, the way iron gets. He'll break before he bends. And [Renly](wiki:Renly_Baratheon), that one, he's [copper](wiki:Copper), bright and shiny, pretty to look at but not worth all that much at the end of the day.(wiki:Stannis_Baratheon.cite_ref-Racok6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_90-0)
+> Robert was the true steel. Stannis is pure iron, black and hard and strong, yes, but brittle, the way iron gets. He'll break before he bends. And Renly, that one, he's copper, bright and shiny, pretty to look at but not worth all that much at the end of the day.
 >
-> —[Donal Noye](wiki:Donal_Noye) to [Jon Snow](wiki:Jon_Snow)
+> —Donal Noye to Jon Snow, ACOK (`sources/chapters/acok/acok-jon-01.md:117`)
 
-> Let us be blunt, my lady. Stannis would make an appalling king. Nor is he like to become one. Men respect Stannis, even fear him, but precious few have ever loved him.(wiki:Stannis_Baratheon.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-2)
+> Let us be blunt, my lady. Stannis would make an appalling king. Nor is he like to become one. Men respect Stannis, even fear him, but precious few have ever loved him.
 >
-> —[Renly Baratheon](wiki:Renly_Baratheon) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Renly Baratheon to Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-02.md:271`)
 
 > And Stannis has always felt he was cheated of [Storm's End](wiki:Storm's_End). The ancestral seat of [House Baratheon](wiki:House_Baratheon), his by rights... if you knew how many times he came to [Robert](wiki:Robert_I_Baratheon) singing that same dull song in that gloomy aggrieved tone he has. When Robert gave the place to [Renly](wiki:Renly_Baratheon), Stannis clenched his jaw so tight I thought his teeth would shatter.(wiki:Stannis_Baratheon.cite_ref-Racok25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-4)
 >
 > —[Cersei Lannister](wiki:Cersei_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> Were it anyone else outside the gates, I might hope to beguile him. But this is Stannis Baratheon. I'd have a better chance of seducing his horse.(wiki:Stannis_Baratheon.cite_ref-Racok60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_91-0)
+> Were it anyone else outside the gates, I might hope to beguile him. But this is Stannis Baratheon. I'd have a better chance of seducing his horse.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister) to [Sansa Stark](wiki:Sansa_Stark)
+> —Cersei Lannister to Sansa Stark, ACOK (`sources/chapters/acok/acok-sansa-06.md:43`)
 
-> This is Stannis Baratheon. The man will fight to the bitter end and then some.(wiki:Stannis_Baratheon.cite_ref-Rasos72.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
+> This is Stannis Baratheon. The man will fight to the bitter end and then some.
 >
-> —[Tywin Lannister](wiki:Tywin_Lannister) to [Pycelle](wiki:Pycelle)
+> —Tywin Lannister to Pycelle, ASOS (`sources/chapters/asos/asos-jaime-09.md:81`)
 
-> Stannis Baratheon with a grievance was like a mastiff with a [bone](wiki:Bone); he gnawed it down to splinters.(wiki:Stannis_Baratheon.cite_ref-Radwd3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> Stannis Baratheon with a grievance was like a mastiff with a bone; he gnawed it down to splinters.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-01.md:201`)
 
-> What does Stannis offer you? Vengeance. Vengeance for my sons and yours, for your husbands and your fathers and your brothers. Vengeance for [your murdered lord](wiki:Eddard_Stark), [your murdered king](wiki:Robb_Stark), [your butchered princes](wiki:Capture_of_Winterfell). Vengeance!(wiki:Stannis_Baratheon.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_92-0)
+> What does Stannis offer you? Vengeance. Vengeance for my sons and yours, for your husbands and your fathers and your brothers. Vengeance for your murdered lord, your murdered king, your butchered princes. Vengeance!
 >
-> —[Davos Seaworth](wiki:Davos_Seaworth) to the [Merman's Court](wiki:Merman's_Court)
+> —Davos Seaworth to the Merman's Court, ADWD (`sources/chapters/adwd/adwd-davos-03.md:159`)
 
-> His eyes were sunk in deep pits, his close-cropped beard no more than a shadow across his hollow cheeks and bony jawbone. Yet there was power in his stare, an iron ferocity that told Asha this man would never, ever turn back from his course.(wiki:Stannis_Baratheon.cite_ref-Radwd42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-4)
+> His eyes were sunk in deep pits, his close-cropped beard no more than a shadow across his hollow cheeks and bony jawbone. Yet there was power in his stare, an iron ferocity that told Asha this man would never, ever turn back from his course.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-kings-prize-01.md:135`)
 
 > Stannis Baratheon, Lord of Dragonstone and by the grace of the gods rightful heir to the Iron Throne of the Seven Kingdoms of Westeros, was broad of shoulder and sinewy of limb, with a tightness to his face and flesh that spoke of leather cured in the sun until it was as tough as steel. Hard was the word men used when they spoke of Stannis, and hard he was. Though he was not yet five-and-thirty, only a fringe of thin black hair remained on his head, circling behind his ears like the shadow of a crown.
 

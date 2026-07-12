@@ -75,9 +75,9 @@ Mya informs young Robert that Lady [Anya Waynwood](wiki:Anya_Waynwood)'s party h
 >
 >
 
-> I promise you, my lady, no harm will come to you. It would be my honor to take you up. I've made [the dark climb](wiki:Giant's_Lance) a hundred times. [Mychel](wiki:Mychel_Redfort) says my father must have been a [goat](wiki:Goat).(wiki:Mya_Stone.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-9)
+> I promise you, my lady, no harm will come to you. It would be my honor to take you up. I've made the dark climb a hundred times. Mychel says my father must have been a goat.
 >
-> —Mya to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Mya to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-06.md:157`)
 
 > [Mychel](wiki:Mychel_Redfort) says I have the eyes of the [owl](wiki:Owl).(wiki:Mya_Stone.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-10)
 >
@@ -97,17 +97,17 @@ Mya informs young Robert that Lady [Anya Waynwood](wiki:Anya_Waynwood)'s party h
 
 ### Quotes about Mya
 
-> Mya's a clever girl, and if she vows she will bring you safely to the Lady [Lysa](wiki:Lysa_Arryn), I believe her. She has not failed me yet.(wiki:Mya_Stone.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-11)
+> Mya's a clever girl, and if she vows she will bring you safely to the Lady Lysa, I believe her. She has not failed me yet.
 >
-> —[Nestor Royce](wiki:Nestor_Royce) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Nestor Royce to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-06.md:165`)
 
 > **Alayne**: Mya Stone is waiting down at [Sky](wiki:Sky), and she'll be hurt if you go to sleep on her. You know how much she loves you. **Robert**: I don't love her. She's just the [mule](wiki:Mule) girl.(wiki:Mya_Stone.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-14)
 >
 > —"[Alayne Stone](wiki:Sansa_Stark)" and [Robert Arryn](wiki:Robert_Arryn)
 
-> Mya's eyes were her best feature, big and blue. She could be pretty, if she would dress up like a girl. Alayne found herself wondering whether Ser [Lothor](wiki:Lothor_Brune) liked her best in her [iron](wiki:Iron) and leather, or dreamed of her gowned in lace and [silk](wiki:Silk). Mya liked to say that her father had been a [goat](wiki:Goat) and her mother an [owl](wiki:Owl), but Alayne had gotten [the true story](wiki:Robert_I_Baratheon) from [Maddy](wiki:Maddy). Yes, she thought, looking at her now, those are his eyes, and she has his hair too, the thick black hair he shared with [Renly](wiki:Renly_Baratheon).(wiki:Mya_Stone.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-15)
+> Mya's eyes were her best feature, big and blue. She could be pretty, if she would dress up like a girl. Alayne found herself wondering whether Ser Lothor liked her best in her iron and leather, or dreamed of her gowned in lace and silk. Mya liked to say that her father had been a goat and her mother an owl, but Alayne had gotten the true story from Maddy. Yes, she thought, looking at her now, those are his eyes, and she has his hair too, the thick black hair he shared with Renly.
 >
-> —thoughts of "[Alayne Stone](wiki:Sansa_Stark)"
+> —thoughts of "Alayne Stone", AFFC (`sources/chapters/affc/affc-alayne-02.md:181`)
 
 > **Alayne**: Ser [Lothor](wiki:Lothor_Brune) is fond of her. More than fond.
 >

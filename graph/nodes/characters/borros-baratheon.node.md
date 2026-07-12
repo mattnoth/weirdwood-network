@@ -50,9 +50,9 @@ Borros had a beard.(wiki:Borros_Baratheon.cite_ref-Rfabthe_dying_of_the_dragons_
 
 ### Quotes by Borros
 
-> Go [home](wiki:Dragonstone), [pup](wiki:Lucerys_Velaryon), and tell the bitch [your mother](wiki:Rhaenyra_Targaryen) that the [Lord of Storm's End](wiki:Lord_of_Storm's_End) is not a dog that she can whistle up at need to set against her foes.(wiki:Borros_Baratheon.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-7)
+> Go home, pup, and tell the bitch your mother that the Lord of Storm's End is not a dog that she can whistle up at need to set against her foes.
 >
-> —Borros, to [Lucerys Velaryon](wiki:Lucerys_Velaryon)
+> —Borros, to Lucerys Velaryon, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p02.md:219`)
 
 > It is not for me to tell you what to do when you are not beneath [my roof](wiki:Storm's_End).(wiki:Borros_Baratheon.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-8)
 >

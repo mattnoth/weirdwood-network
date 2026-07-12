@@ -41,10 +41,10 @@ Lord [Roose Bolton](wiki:Roose_Bolton) asks [Theon Greyjoy](wiki:Theon_Greyjoy) 
 
 ## Quotes
 
-> This miller's [marriage](wiki:Marriage) had been performed without my leave or knowledge. The man had cheated me. So I had him hanged, and [claimed my rights](wiki:First_night) beneath the tree where he was swaying. If truth be told, the wench was hardly worth the rope. The fox escaped as well, and on our way back to the [Dreadfort](wiki:Dreadfort) my favorite [courser](wiki:Horse) came up lame, so all in all it was a dismal day.(wiki:Miller's_wife.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> This miller's marriage had been performed without my leave or knowledge. The man had cheated me. So I had him hanged, and claimed my rights beneath the tree where he was swaying. If truth be told, the wench was hardly worth the rope. The fox escaped as well, and on our way back to the Dreadfort my favorite courser came up lame, so all in all it was a dismal day.
 >
-> —[Roose Bolton](wiki:Roose_Bolton)
+> —Roose Bolton, ADWD (`sources/chapters/adwd/adwd-reek-03.md:225`)
 
-> Get the keys and remove those chains from [him](wiki:Theon_Greyjoy), before you make me rue the day I raped your mother.(wiki:Miller's_wife.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> Get the keys and remove those chains from him, before you make me rue the day I raped your mother.
 >
-> —[Roose Bolton](wiki:Roose_Bolton) to [Ramsay Bolton](wiki:Ramsay_Snow)
+> —Roose Bolton to Ramsay Bolton, ADWD (`sources/chapters/adwd/adwd-reek-03.md:175`)

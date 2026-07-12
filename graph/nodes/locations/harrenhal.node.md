@@ -191,21 +191,21 @@ Harrenhal's inhuman scale as observed by Arya once inside: "covered thrice as mu
 
 ## Quotes
 
-> Whose notion was it to make this [Janos Slynt](wiki:Janos_Slynt) a [lord](wiki:Lord_of_Harrenhal)? The man's father was a butcher, and they grant him Harrenhal. Harrenhal, that was the seat of kings! Not that he will ever set foot inside it, if I have a say.(wiki:Harrenhal.cite_ref-Ragot69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_38-2)
+> Whose notion was it to make this Janos Slynt a lord? The man's father was a butcher, and they grant him Harrenhal. Harrenhal, that was the seat of kings! Not that he will ever set foot inside it, if I have a say.
 >
-> —[Tywin Lannister](wiki:Tywin_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Tywin Lannister to Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-09.md:161`)
 
-> Every child of the [Trident](wiki:Trident) knew the tales told of Harrenhal, the vast fortress that King [Harren the Black](wiki:Harren_Hoare) had raised beside the waters of [Gods Eye](wiki:Gods_Eye) three hundred years past, when the [Seven Kingdoms](wiki:Seven_Kingdoms) had been seven kingdoms, and the [riverlands](wiki:Riverlands) were ruled by the [ironmen](wiki:Ironmen) from the islands. In his pride, Harren had desired the highest hall and tallest towers in all [Westeros](wiki:Westeros). Forty years it had taken, rising like a great shadow on the shore of the lake while Harren's armies plundered his neighbors for stone, lumber, [gold](wiki:Gold), and workers. Thousands of captives died in his quarries, chained to his sledges, or laboring on his five colossal towers. Men froze by winter and sweltered in summer. [Weirwoods](wiki:Weirwood) that had stood three thousand years were cut down for beams and rafters. Harren had beggared the riverlands and the [Iron Islands](wiki:Iron_Islands) alike to ornament his dream. And when at last Harrenhal stood complete, on the very day King Harren took up residence, [Aegon the Conqueror](wiki:Aegon_I_Targaryen) had come ashore at [King's Landing](wiki:Aegon's_Landing).(wiki:Harrenhal.cite_ref-Racok7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-5)
+> Every child of the Trident knew the tales told of Harrenhal, the vast fortress that King Harren the Black had raised beside the waters of Gods Eye three hundred years past, when the Seven Kingdoms had been seven kingdoms, and the riverlands were ruled by the ironmen from the islands. In his pride, Harren had desired the highest hall and tallest towers in all Westeros. Forty years it had taken, rising like a great shadow on the shore of the lake while Harren's armies plundered his neighbors for stone, lumber, gold, and workers. Thousands of captives died in his quarries, chained to his sledges, or laboring on his five colossal towers. Men froze by winter and sweltered in summer. Weirwoods that had stood three thousand years were cut down for beams and rafters. Harren had beggared the riverlands and the Iron Islands alike to ornament his dream. And when at last Harrenhal stood complete, on the very day King Harren took up residence, Aegon the Conqueror had come ashore at King's Landing.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-01.md:229`)
 
 > **Tyrion**: You're a bold man to take Harrenhal for your seat. Such a grim place, and huge ... costly to maintain. And some say cursed as well. **Janos**: Should I fear a pile of stone?(wiki:Harrenhal.cite_ref-Racok8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-4)
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) and [Janos Slynt](wiki:Janos_Slynt)
 
-> That is an ill place. Cursed, they say. Not that I am the sort to swallow such tales, but still, there it is.(wiki:Harrenhal.cite_ref-Racok16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_51-1)
+> That is an ill place. Cursed, they say. Not that I am the sort to swallow such tales, but still, there it is.
 >
-> —[Wyman Manderly](wiki:Wyman_Manderly) to [Rodrik Cassel](wiki:Rodrik_Cassel)
+> —Wyman Manderly to Rodrik Cassel, ACOK (`sources/chapters/acok/acok-bran-02.md:123`)
 
 > Harrenhal was deceptive from afar, because it was so huge. Its colossal curtain walls rose beside [the lake](wiki:Gods_Eye), sheer and sudden as mountain cliffs, while atop their battlements the rows of wood-and-iron [scorpions](wiki:Scorpion_(weapon)) looked as small as [the bugs](wiki:Scorpion) for which they were named.(wiki:Harrenhal.cite_ref-Racok30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-15)
 >
@@ -217,9 +217,9 @@ Harrenhal's inhuman scale as observed by Arya once inside: "covered thrice as mu
 >
 > —[Sansa Stark](wiki:Sansa_Stark) and [Petyr Baelish](wiki:Petyr_Baelish)
 
-> Across the pewter waters of [the lake](wiki:Gods_Eye) the towers of [Black Harren's](wiki:Harren_Hoare) folly appeared at last, five twisted fingers of black, misshapen stone grasping for the sky.(wiki:Harrenhal.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7)
+> Across the pewter waters of the lake the towers of Black Harren's folly appeared at last, five twisted fingers of black, misshapen stone grasping for the sky.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-03.md:175`)
 
 > Gods, but I hate this bloody castle. Harrenhal had witnessed more horror in its three hundred years than [Casterly Rock](wiki:Casterly_Rock) had witnessed in three thousand.(wiki:Harrenhal.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-8)
 >

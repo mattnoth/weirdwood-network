@@ -92,9 +92,9 @@ Though they find safety in the cave, staying there for months while Bran learns 
 >
 > —[Meera Reed](wiki:Meera_Reed) and Jojen
 
-> I dreamed of [the man](wiki:Ramsay_Snow) who came today, the one they call [Reek](wiki:Reek). You and [your brother](wiki:Rickon_Stark) lay dead at his feet, and he was [skinning off your faces](wiki:Flaying) with a long red blade.(wiki:Jojen_Reed.cite_ref-Racok35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
+> I dreamed of the man who came today, the one they call Reek. You and your brother lay dead at his feet, and he was skinning off your faces with a long red blade.
 >
-> —Jojen to [Bran Stark](wiki:Bran_Stark)
+> —Jojen to Bran Stark, ACOK (`sources/chapters/acok/acok-bran-05.md:169`)
 
 > “There is a power in living wood,” said Jojen Reed, almost as if he knew what Bran was thinking, “a power strong as fire.”
 > —Jojen to [Bran Stark](wiki:Bran_Stark) (book cite: `sources/chapters/acok/acok-bran-07.md:145`) [godswood/weirwood foreshadowing]
@@ -109,9 +109,9 @@ Though they find safety in the cave, staying there for months while Bran learns 
 
 ### Quotes about Jojen
 
-> No, my prince. Jojen Reed may have had a dream or two that he believes came true, but he does not have the [greensight](wiki:Greensight). No living man has that power.(wiki:Jojen_Reed.cite_ref-Racok28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> No, my prince. Jojen Reed may have had a dream or two that he believes came true, but he does not have the greensight. No living man has that power.
 >
-> —[Luwin](wiki:Luwin) to [Bran Stark](wiki:Bran_Stark)
+> —Luwin to Bran Stark, ACOK (`sources/chapters/acok/acok-bran-04.md:225`)
 
 > It was hard to sulk with [Meera](wiki:Meera_Reed). She was much more cheerful than her brother, and always seemed to know how to make him smile. Nothing ever scared her or made her angry. Well, except Jojen, sometimes ... Jojen Reed could scare most anyone.(wiki:Jojen_Reed.cite_ref-Rasos9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
 >

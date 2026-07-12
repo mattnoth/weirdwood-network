@@ -120,9 +120,9 @@ At the [crofters' village](wiki:Crofters'_village), Ser [Justin Massey](wiki:Jus
 > All the skulls were grinning, even Bittersteel’s on the tall pike in the center. What does he have to grin about? He died defeated and alone, a broken man in an alien land. On his deathbed, Ser Aegor Rivers had famously commanded his men to boil the flesh from his skull, dip it in gold, and carry it before them when they crossed the sea to retake Westeros.
 > —thoughts of [Jon Connington](wiki:Jon_Connington). ADWD The Lost Lord (`sources/chapters/adwd/adwd-the-lost-lord-01.md:97`). The deathbed command is stated in free indirect discourse; his successors followed the example, creating the Golden Company's column of gilded skulls.
 
-> Bittersteel and [Bloodraven](wiki:Brynden_Rivers) both loved [Shiera Seastar](wiki:Shiera_Seastar), and the [Seven Kingdoms](wiki:Seven_Kingdoms) bled.(wiki:Aegor_Rivers.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-1)
+> Bittersteel and Bloodraven both loved Shiera Seastar, and the Seven Kingdoms bled.
 >
-> —thoughts of [Barristan Selmy](wiki:Barristan_Selmy)
+> —thoughts of Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-kingbreaker-01.md:85`)
 
 > When he fled, he swore he would return to place a son of [Daemon's](wiki:Daemon_I_Blackfyre) upon the [Iron Throne](wiki:Iron_Throne). He never did. Words are wind, and the wind that blows exiles across the [narrow sea](wiki:Narrow_sea) seldom blows them back.(wiki:Aegor_Rivers.cite_ref-TheonI_21-1)
 >

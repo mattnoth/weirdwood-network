@@ -157,29 +157,29 @@ In the [Dothraki sea](wiki:Dothraki_sea), [Daenerys Targaryen](wiki:Daenerys_Tar
 
 ## Quotes
 
-> Dragonstone was grim beyond a doubt, a lonely citadel in the wet waste surrounded by storm and salt, with the smoking shadow of [the mountain](wiki:Dragonmont) at its back.(wiki:Dragonstone.cite_ref-Racok0.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-16)
+> Dragonstone was grim beyond a doubt, a lonely citadel in the wet waste surrounded by storm and salt, with the smoking shadow of the mountain at its back.
 >
-> —thoughts of [Cressen](wiki:Cressen)
+> —thoughts of Cressen, ACOK (`sources/chapters/acok/acok-prologue.md:37`)
 
-> I never asked for Dragonstone. I never wanted it.(wiki:Dragonstone.cite_ref-Racok0.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-17)
+> I never asked for Dragonstone. I never wanted it.
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Cressen](wiki:Cressen)
+> —Stannis Baratheon to Cressen, ACOK (`sources/chapters/acok/acok-prologue.md:185`)
 
-> Perhaps the old tales were true, and Dragonstone was built with the stones of hell.(wiki:Dragonstone.cite_ref-Rasos25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3)
+> Perhaps the old tales were true, and Dragonstone was built with the stones of hell.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-03.md:15`)
 
-> What kind of [dragons](wiki:Dragon) are full of rooms and stairs and furniture? And windows. And chimneys. And privy shafts.(wiki:Dragonstone.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-11)
+> What kind of dragons are full of rooms and stairs and furniture? And windows. And chimneys. And privy shafts.
 >
-> —[Salladhor Saan](wiki:Salladhor_Saan) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Salladhor Saan to Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-05.md:165`)
 
-> A place of [dragons](wiki:Dragons) and [dragonlords](wiki:Dragonlords), the seat of [House Targaryen](wiki:House_Targaryen).(wiki:Dragonstone.cite_ref-Rasos63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-3)
+> A place of dragons and dragonlords, the seat of House Targaryen.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-06.md:133`)
 
-> The [Valyrians](wiki:Valyrians) had raised it, after all, and all their works stank of [sorcery](wiki:Sorcery).(wiki:Dragonstone.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-3)
+> The Valyrians had raised it, after all, and all their works stank of sorcery.
 >
-> —thoughts of [Kevan Lannister](wiki:Kevan_Lannister)
+> —thoughts of Kevan Lannister, ADWD (`sources/chapters/adwd/adwd-epilogue.md:95`)
 
 > If you look at how the citadel of Dragonstone was built and how in some of its structures the stone was shaped in some fashion with [magic](wiki:Magic)... yes, it's safe to say that there's something of [Valyrian](wiki:Valyria) magic still present.(wiki:Dragonstone.cite_ref-Rssm6539.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_62-0)
 >

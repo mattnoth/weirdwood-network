@@ -57,9 +57,9 @@ Clad again in her septa's robes, Lemore accompanies Jon and Aegon to the [Storml
 >
 > —[Haldon](wiki:Haldon), [Tyrion Lannister](wiki:Tyrion_Lannister), and Lemore
 
-> You are not the only one who must needs hide.(wiki:Lemore.cite_ref-Radwd22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> You are not the only one who must needs hide.
 >
-> —Lemore to [Aegon Targaryen](wiki:Aegon_Targaryen_(son_of_Rhaegar))
+> —Lemore to Aegon Targaryen), ADWD (`sources/chapters/adwd/adwd-tyrion-06.md:91`)
 
 ### Quotes about Lemore
 

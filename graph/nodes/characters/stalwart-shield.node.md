@@ -28,6 +28,6 @@ A company of freedmen named the [Stalwart Shields](wiki:Stalwart_Shields) is for
 
 ## Quotes
 
-> The knives that slew my Stalwart Shield were meant for me.(wiki:Stalwart_Shield.cite_ref-Radwd2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+> The knives that slew my Stalwart Shield were meant for me.
 >
-> —[Daenerys Targaryen](wiki:Daenerys_Targaryen)'s thoughts
+> —Daenerys Targaryen's thoughts, ADWD (`sources/chapters/adwd/adwd-daenerys-01.md:101`)

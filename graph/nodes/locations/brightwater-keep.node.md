@@ -37,6 +37,6 @@ From [King's Landing](wiki:King's_Landing), Garlan brings half of the Tyrell str
 
 ## Quotes
 
-> Brightwater Keep and all its lands and incomes were granted to [Lord Tyrell's](wiki:Mace_Tyrell) second son, Ser [Garlan](wiki:Garlan_Tyrell), transforming him into a great [lord](wiki:Lord) in the blink of an eye.(wiki:Brightwater_Keep.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> Brightwater Keep and all its lands and incomes were granted to Lord Tyrell's second son, Ser Garlan, transforming him into a great lord in the blink of an eye.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-03.md:161`)

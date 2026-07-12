@@ -95,9 +95,9 @@ Marq remains a captive.(wiki:Marq_Piper.cite_ref-Radwdappendix.7B.7B.7B3.7D.7D.7
 
 ### Quotes about Marq
 
-> He was a swaggering bantam rooster of a youth, too young and too hot-blooded for Ned's taste, though a fast friend of [Catelyn's](wiki:Catelyn_Stark) brother, [Edmure Tully](wiki:Edmure_Tully).(wiki:Marq_Piper.cite_ref-Ragot43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-6)
+> He was a swaggering bantam rooster of a youth, too young and too hot-blooded for Ned's taste, though a fast friend of Catelyn's brother, Edmure Tully.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-11.md:55`)
 
 > **Tywin**: Marq Piper and [Karyl Vance](wiki:Karyl_Vance) are loose in our rear, raiding [our lands](wiki:Westerlands) across the [Red Fork](wiki:Red_Fork). **Tyrion**: The gall of them, fighting back.(wiki:Marq_Piper.cite_ref-Ragot56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
 >

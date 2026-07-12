@@ -151,25 +151,25 @@ Jon intends to rescue Cotter at Hardhome, but he is interrupted by a [taunting l
 >
 > —Jon and [Arya Stark](wiki:Arya_Stark) regarding [Needle](wiki:Needle)
 
-> Tell [Robb](wiki:Robb_Stark) that I'm going to command the [Night's Watch](wiki:Night's_Watch) and keep him safe, so he might as well take up needlework with the girls and have [Mikken](wiki:Mikken) melt down his sword for horseshoes.(wiki:Jon_Snow.cite_ref-Ragot21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_95-0)
+> Tell Robb that I'm going to command the Night's Watch and keep him safe, so he might as well take up needlework with the girls and have Mikken melt down his sword for horseshoes.
 >
-> —Jon to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Jon to Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-03.md:177`)
 
-> [Tyrion Lannister](wiki:Tyrion_Lannister) had claimed that most men would rather deny a hard truth than face it, but Jon was done with denials. He was who he was; Jon Snow, [bastard](wiki:Bastard) and oathbreaker, motherless, friendless, and damned. For the rest of his life—however long that might be—he would be condemned to be an outsider, the silent man standing in the shadows who dares not speak his true name.(wiki:Jon_Snow.cite_ref-Ragot70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_52-2)
+> Tyrion Lannister had claimed that most men would rather deny a hard truth than face it, but Jon was done with denials. He was who he was; Jon Snow, bastard and oathbreaker, motherless, friendless, and damned. For the rest of his life—however long that might be—he would be condemned to be an outsider, the silent man standing in the shadows who dares not speak his true name.
 >
-> —Jon's thoughts
+> —Jon's thoughts, AGOT (`sources/chapters/agot/agot-jon-09.md:43`)
 
 > Jon was not afraid of death, but he did not want to [die like that](wiki:A_Game_of_Thrones-Chapter_65), trussed and bound and beheaded like a common brigand. If he must perish, let it be with a sword in his hand, fighting his father's killers. He was no true [Stark](wiki:House_Stark), had never been one... but he could die like one. Let them say that [Eddard Stark](wiki:Eddard_Stark) had fathered four sons, not three.(wiki:Jon_Snow.cite_ref-Ragot70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_52-3)
 >
 > —Jon's thoughts
 
-> There's no shame in fear, [my father](wiki:Eddard_Stark) told me, what matters is how we face it.(wiki:Jon_Snow.cite_ref-Racok6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-4)
+> There's no shame in fear, my father told me, what matters is how we face it.
 >
-> —Jon to [Samwell Tarly](wiki:Samwell_Tarly)
+> —Jon to Samwell Tarly, ACOK (`sources/chapters/acok/acok-jon-01.md:73`)
 
-> The more you give a king, the more he wants. We are walking on a bridge of ice with an abyss on either side. Pleasing [one king](wiki:Stannis_Baratheon) is difficult enough. Pleasing [two](wiki:Tommen_Baratheon) is hardly possible.(wiki:Jon_Snow.cite_ref-Radwd7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_75-3)
+> The more you give a king, the more he wants. We are walking on a bridge of ice with an abyss on either side. Pleasing one king is difficult enough. Pleasing two is hardly possible.
 >
-> —Jon to [Samwell Tarly](wiki:Samwell_Tarly)
+> —Jon to Samwell Tarly, ADWD (`sources/chapters/adwd/adwd-jon-02.md:113`)
 
 > Edd, fetch me a block.(wiki:Jon_Snow.cite_ref-Radwd7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_75-4)
 >
@@ -191,45 +191,45 @@ Jon intends to rescue Cotter at Hardhome, but he is interrupted by a [taunting l
 
 ### Quotes about Jon
 
-> You have more of the [north](wiki:North) in you than your brothers.(wiki:Jon_Snow.cite_ref-Ragot5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-5)
+> You have more of the north in you than your brothers.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to Jon
+> —Tyrion Lannister to Jon, AGOT (`sources/chapters/agot/agot-jon-01.md:153`)
 
 > Never ask me about Jon. He is [my blood](wiki:House_Stark) and that is all you need to know.(wiki:Jon_Snow.cite_ref-Ragot6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-10)
 >
 > —[Eddard Stark](wiki:Eddard_Stark) to [Catelyn Stark](wiki:Catelyn_Stark)
 
-> Whoever Jon's mother had been, [Ned](wiki:Eddard_Stark) must have loved her fiercely, for nothing Catelyn said would persuade him to send the boy away. It was the one thing she could never forgive him. She had come to love her husband with all her heart, but she had never found it in her to love Jon. She might have overlooked a dozen [bastards](wiki:Bastards) for Ned's sake, so long as they were out of sight. Jon was never out of sight, and as he grew, he looked more like Ned than any of the trueborn sons she bore him. Somehow that made it worse.(wiki:Jon_Snow.cite_ref-Ragot6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-11)
+> Whoever Jon's mother had been, Ned must have loved her fiercely, for nothing Catelyn said would persuade him to send the boy away. It was the one thing she could never forgive him. She had come to love her husband with all her heart, but she had never found it in her to love Jon. She might have overlooked a dozen bastards for Ned's sake, so long as they were out of sight. Jon was never out of sight, and as he grew, he looked more like Ned than any of the trueborn sons she bore him. Somehow that made it worse.
 >
-> —[Catelyn Stark](wiki:Catelyn_Stark)'s thoughts
+> —Catelyn Stark's thoughts, AGOT (`sources/chapters/agot/agot-catelyn-02.md:187`)
 
 > You know nothing, Jon Snow.(wiki:Jon_Snow.cite_ref-Rasos15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
 >
 > —[Ygritte](wiki:Ygritte) to Jon
 
-> Jon's more a [Stark](wiki:House_Stark) than some lordlings from the [Vale](wiki:Vale_of_Arryn) who have never so much as set eyes on [Winterfell](wiki:Winterfell).(wiki:Jon_Snow.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_66-1)
+> Jon's more a Stark than some lordlings from the Vale who have never so much as set eyes on Winterfell.
 >
-> —[Robb Stark](wiki:Robb_Stark) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Robb Stark to Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-05.md:123`)
 
 > Jon Snow was the only brother that remained to her. *I am a [bastard](wiki:Bastard) too now, just like him. Oh, it would be so sweet to see him once again.*(wiki:Jon_Snow.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_96-0)
 >
 > —[Sansa Stark](wiki:Sansa_Stark)'s thoughts
 
-> [Needle](wiki:Needle) was Jon Snow's smile. He used to mess my hair and call me "little sister," she remembered, and suddenly there were tears in her eyes.(wiki:Jon_Snow.cite_ref-Raffc22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_97-0)
+> Needle was Jon Snow's smile. He used to mess my hair and call me "little sister," she remembered, and suddenly there were tears in her eyes.
 >
-> —[Arya Stark](wiki:Arya_Stark)'s thoughts
+> —Arya Stark's thoughts, AFFC (`sources/chapters/affc/affc-arya-02.md:161`)
 
-> My lords, when [Donal Noye](wiki:Donal_Noye) was slain, it was this young man Jon Snow who took the [Wall](wiki:Wall) and held it, against [all the fury of the north](wiki:Attack_on_Castle_Black). He has proved himself valiant, loyal, and resourceful. Were it not for him, you would have found [Mance Rayder](wiki:Mance_Rayder) sitting here when you arrived, Lord Slynt. You are doing him a great wrong. Jon Snow was [Lord Mormont's](wiki:Jeor_Mormont) own steward and squire. He was chosen for that duty because the [Lord Commander](wiki:Lord_Commander_of_the_Night's_Watch) saw much promise in him. As do I.(wiki:Jon_Snow.cite_ref-Rasos69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-2)
+> My lords, when Donal Noye was slain, it was this young man Jon Snow who took the Wall and held it, against all the fury of the north. He has proved himself valiant, loyal, and resourceful. Were it not for him, you would have found Mance Rayder sitting here when you arrived, Lord Slynt. You are doing him a great wrong. Jon Snow was Lord Mormont's own steward and squire. He was chosen for that duty because the Lord Commander saw much promise in him. As do I.
 >
-> —[Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) to [Janos Slynt](wiki:Janos_Slynt)
+> —Aemon) to Janos Slynt, ASOS (`sources/chapters/asos/asos-jon-09.md:199`)
 
-> [The gift](wiki:Skinchanger) was strong in Snow, but the youth was untaught, still fighting his nature when he should have gloried in it.(wiki:Jon_Snow.cite_ref-Radwd0.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_98-0)
+> The gift was strong in Snow, but the youth was untaught, still fighting his nature when he should have gloried in it.
 >
-> —[Varamyr](wiki:Varamyr)'s thoughts
+> —Varamyr's thoughts, ADWD (`sources/chapters/adwd/adwd-prologue.md:129`)
 
-> [Stannis](wiki:Stannis_Baratheon) had been a younger son living in the shadow of [his elder brother](wiki:Robert_I_Baratheon), just as Jon Snow, [bastard](wiki:Bastard)-born, had always been eclipsed by his trueborn sibling, the fallen hero men had called [the Young Wolf](wiki:Robb_Stark). Both men were unbelievers by nature, mistrustful, suspicious. The only gods they truly worshiped were honor and duty.(wiki:Jon_Snow.cite_ref-Radwd31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_85-1)
+> Stannis had been a younger son living in the shadow of his elder brother, just as Jon Snow, bastard-born, had always been eclipsed by his trueborn sibling, the fallen hero men had called the Young Wolf. Both men were unbelievers by nature, mistrustful, suspicious. The only gods they truly worshiped were honor and duty.
 >
-> —[Melisandre](wiki:Melisandre)'s thoughts
+> —Melisandre's thoughts, ADWD (`sources/chapters/adwd/adwd-melisandre-01.md:213`)
 
 ## Edges
 

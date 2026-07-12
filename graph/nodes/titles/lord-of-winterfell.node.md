@@ -54,10 +54,10 @@ Stannis offers once more to make Jon the Lord of Winterfell, but Jon refuses, in
 
 ## Quotes
 
-> The first Lords of [Winterfell](wiki:Winterfell) had been men hard as [the land](wiki:North) they ruled. In the centuries before the [Dragonlords](wiki:House_Targaryen) came over [the sea](wiki:Narrow_sea), they had sworn allegiance to no man, styling themselves the [Kings in the North](wiki:Kings_in_the_North).(wiki:Lord_of_Winterfell.cite_ref-Ragot4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> The first Lords of Winterfell had been men hard as the land they ruled. In the centuries before the Dragonlords came over the sea, they had sworn allegiance to no man, styling themselves the Kings in the North.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-01.md:53`)
 
-> [Your father's](wiki:Eddard_Stark) lands are bleeding, and I have neither the strength nor the time to stanch the wounds. What is needed is a Lord of Winterfell. A loyal Lord of Winterfell.(wiki:Lord_of_Winterfell.cite_ref-Rasos76.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-2)
+> Your father's lands are bleeding, and I have neither the strength nor the time to stanch the wounds. What is needed is a Lord of Winterfell. A loyal Lord of Winterfell.
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Jon Snow](wiki:Jon_Snow)
+> —Stannis Baratheon to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-11.md:129`)

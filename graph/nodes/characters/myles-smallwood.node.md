@@ -49,9 +49,9 @@ Lord [Davos Seaworth](wiki:Davos_Seaworth), now [Hand of the King](wiki:Hand_of_
 
 ### Quotes by Myles
 
-> I was made to sit a [horse](wiki:Horse), not a cushion.(wiki:Myles_Smallwood.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> I was made to sit a horse, not a cushion.
 >
-> —Myles after being dismissed as [Hand of the King](wiki:Hand_of_the_King)
+> —Myles after being dismissed as Hand of the King, F&B (`sources/chapters/fab/fab-jaehaerys-and-alysanne-triumphs-12-p02.md:63`)
 
 ### Quotes about Myles
 

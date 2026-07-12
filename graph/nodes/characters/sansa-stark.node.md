@@ -141,9 +141,9 @@ To find a means of meeting her betrothed, Alayne suggests that a personal guard 
 >
 >
 
-> All she wanted was for things to be nice and pretty, the way they were in the songs.(wiki:Sansa_Stark.cite_ref-Ragot15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> All she wanted was for things to be nice and pretty, the way they were in the songs.
 >
-> —Sansa's thoughts
+> —Sansa's thoughts, AGOT (`sources/chapters/agot/agot-sansa-01.md:85`)
 
 > The [Hound](wiki:Sandor_Clegane) is right ... I am only a little bird, repeating the words they taught me.(wiki:Sansa_Stark.cite_ref-Ragot67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_41-1)
 >
@@ -153,17 +153,17 @@ To find a means of meeting her betrothed, Alayne suggests that a personal guard 
 >
 > —Sansa's thoughts
 
-> If I am ever a queen, I'll make them love me.(wiki:Sansa_Stark.cite_ref-Racok60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_47-1)
+> If I am ever a queen, I'll make them love me.
 >
-> —Sansa's thoughts
+> —Sansa's thoughts, ACOK (`sources/chapters/acok/acok-sansa-06.md:59`)
 
 > **Tyrion**: You hide behind courtesy as if it were a castle wall. **Sansa**: Courtesy is a lady's armor.(wiki:Sansa_Stark.cite_ref-Rasos28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_53-1)
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) and Sansa
 
-> My skin has turned to porcelain, to [ivory](wiki:Ivory), to [steel](wiki:Steel).(wiki:Sansa_Stark.cite_ref-Rasos61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_52-2)
+> My skin has turned to porcelain, to ivory, to steel.
 >
-> —Sansa's thoughts
+> —Sansa's thoughts, ASOS (`sources/chapters/asos/asos-sansa-05.md:21`)
 
 > All it would take was a shove, she told herself. He was standing right there, right there, smirking at her with those fat wormlips. You could do it, she told herself. You could. Do it right now. It wouldn't even matter if she went over with him. It wouldn't matter at all.
 
@@ -179,9 +179,9 @@ To find a means of meeting her betrothed, Alayne suggests that a personal guard 
 >
 > —[Petyr Baelish](wiki:Petyr_Baelish) and Sansa
 
-> As [the boy's](wiki:Robert_Arryn) lips touched her own she found herself thinking of [another kiss](wiki:UnKiss). She could still remember how it felt, when [his cruel mouth](wiki:Sandor_Clegane) pressed down on her own. He had come to Sansa in the darkness as [green fire](wiki:Wildfire) filled the sky. He took a song and a kiss, and left me nothing but a bloody cloak.(wiki:Sansa_Stark.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-4)
+> As the boy's lips touched her own she found herself thinking of another kiss. She could still remember how it felt, when his cruel mouth pressed down on her own. He had come to Sansa in the darkness as green fire filled the sky. He took a song and a kiss, and left me nothing but a bloody cloak.
 >
-> —Sansa's thoughts
+> —Sansa's thoughts, AFFC (`sources/chapters/affc/affc-alayne-02.md:101`)
 
 > He was Petyr, her protector, warm and funny and gentle . . . but he was also Littlefinger, the lord she'd known at King's Landing, smiling slyly and stroking his beard as he whispered in Queen Cersei's ear. And Littlefinger was no friend of hers. When Joff had her beaten, the Imp defended her, not Littlefinger. When the mob sought to rape her, the Hound carried her to safety, not Littlefinger. When the Lannisters wed her to Tyrion against her will, Ser Garlan the Gallant gave her comfort, not Littlefinger. Littlefinger never lifted so much as his little finger for her.
 
@@ -189,9 +189,9 @@ To find a means of meeting her betrothed, Alayne suggests that a personal guard 
 
 ### Quotes about Sansa
 
-> You're like one of those birds from the [Summer Isles](wiki:Summer_Isles), aren't you? A pretty little talking bird, repeating all the pretty little words they taught you to recite.(wiki:Sansa_Stark.cite_ref-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> You're like one of those birds from the Summer Isles, aren't you? A pretty little talking bird, repeating all the pretty little words they taught you to recite.
 >
-> —[Sandor Clegane](wiki:Sandor_Clegane) to Sansa
+> —Sandor Clegane to Sansa, AGOT (`sources/chapters/agot/agot-sansa-02.md:109`)
 
 > Life is not a song, sweetling. Someday you may learn that, to your sorrow.(wiki:Sansa_Stark.cite_ref-Ragot44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_39-1)
 >
@@ -213,9 +213,9 @@ To find a means of meeting her betrothed, Alayne suggests that a personal guard 
 >
 > —[Tyrion](wiki:Tyrion_Lannister) and [Tywin Lannister](wiki:Tywin_Lannister)
 
-> She is just as comely as [the Tyrell girl](wiki:Margaery_Tyrell). Her hair was a rich [autumn](wiki:Autumn) auburn, her eyes a deep [Tully](wiki:House_Tully) blue. Grief had given her a haunted, vulnerable look; if anything, it had only made her more beautiful. He wanted to reach her, to break through the armor of her courtesy.(wiki:Sansa_Stark.cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-1)
+> She is just as comely as the Tyrell girl. Her hair was a rich autumn auburn, her eyes a deep Tully blue. Grief had given her a haunted, vulnerable look; if anything, it had only made her more beautiful. He wanted to reach her, to break through the armor of her courtesy.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
+> —Tyrion Lannister's thoughts, ASOS (`sources/chapters/asos/asos-tyrion-08.md:51`)
 
 > My brother [Doran](wiki:Doran_Martell) would be most pleased to meet the rightful heir to [Casterly Rock](wiki:Casterly_Rock)... especially if he brought his lovely wife, the [Lady of Winterfell](wiki:Lord_of_Winterfell).(wiki:Sansa_Stark.cite_ref-Rasos70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
 >
@@ -231,9 +231,9 @@ To find a means of meeting her betrothed, Alayne suggests that a personal guard 
 >
 > —[Catelyn Stark](wiki:Catelyn_Stark) to [Brienne Tarth](wiki:Brienne_Tarth)
 
-> You have [your mother's](wiki:Catelyn_Stark) eyes. Honest eyes, and innocent. Blue as a sunlit sea. When you are a little older, many a man will drown in those eyes.(wiki:Sansa_Stark.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_62-4)
+> You have your mother's eyes. Honest eyes, and innocent. Blue as a sunlit sea. When you are a little older, many a man will drown in those eyes.
 >
-> —[Petyr Baelish](wiki:Petyr_Baelish) to Sansa
+> —Petyr Baelish to Sansa, AFFC (`sources/chapters/affc/affc-sansa-01.md:53`)
 
 > I ought to have shown her to the [black cells](wiki:Black_cells) as the daughter of [a traitor](wiki:Eddard_Stark), but instead I made her part of mine own household. She shared my hearth and hall, played with my own children. I fed her, dressed her, tried to make her a little less ignorant about the world, and how did she repay me for my kindness? She helped [murder my son](wiki:Purple_Wedding). When we find [the Imp](wiki:Tyrion_Lannister), we will find the Lady Sansa too. She is not dead ... but before I am done with her, I promise you, she will be singing to the [Stranger](wiki:Stranger_(the_Seven)), begging for his kiss.(wiki:Sansa_Stark.cite_ref-Raffc17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_66-1)
 >

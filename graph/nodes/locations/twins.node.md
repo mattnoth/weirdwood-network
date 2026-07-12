@@ -98,30 +98,30 @@ The pregnant Roslin Frey is to remain at the Twins until she gives birth, after 
 
 ## Quotes
 
-> The Twins—two squat, ugly, formidable castles, identical in every respect, with the bridge arching between—had guarded the crossing for centuries.(wiki:Twins.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-18)
+> The Twins—two squat, ugly, formidable castles, identical in every respect, with the bridge arching between—had guarded the crossing for centuries.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-09.md:99`)
 
 > **Roose**: That cannot be assaulted, my lords. **Helman**: Nor can we take it by siege, without an army on the far bank to invest the other castle.(wiki:Twins.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-19)
 >
 > —[Roose Bolton](wiki:Roose_Bolton) and [Helman Tallhart](wiki:Helman_Tallhart)
 
-> The gatehouse towers emerged from the rain like ghosts, hazy grey apparitions that grew more solid the closer they rode. The Frey stronghold was not one castle but two; mirror images in wet stone standing on opposite sides of [the water](wiki:Green_Fork), linked by a great arched bridge.(wiki:Twins.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-7)
+> The gatehouse towers emerged from the rain like ghosts, hazy grey apparitions that grew more solid the closer they rode. The Frey stronghold was not one castle but two; mirror images in wet stone standing on opposite sides of the water, linked by a great arched bridge.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-06.md:15`)
 
-> In the Twins, you learned early that only full blood siblings could be trusted, and them not very far.(wiki:Twins.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-0)
+> In the Twins, you learned early that only full blood siblings could be trusted, and them not very far.
 >
-> —thoughts of [Merrett Frey](wiki:Merrett_Frey)
+> —thoughts of Merrett Frey, ASOS (`sources/chapters/asos/asos-epilogue.md:31`)
 
-> My son [Wendel](wiki:Wendel_Manderly) came to the Twins a guest. He ate Lord [Walder's](wiki:Walder_Frey) [bread and salt](wiki:Guest_right), and hung his sword upon the wall to feast with friends. And they [murdered him](wiki:Red_Wedding). Murdered, I say, and may the Freys choke upon their fables.(wiki:Twins.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-0)
+> My son Wendel came to the Twins a guest. He ate Lord Walder's bread and salt, and hung his sword upon the wall to feast with friends. And they murdered him. Murdered, I say, and may the Freys choke upon their fables.
 >
-> —[Wyman Manderly](wiki:Wyman_Manderly) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Wyman Manderly to Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-04.md:125`)
 
-> The world won't miss a few [Freys](wiki:House_Frey). There's plenty more down at the Twins should we ever have need of one.(wiki:Twins.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_38-0)
+> The world won't miss a few Freys. There's plenty more down at the Twins should we ever have need of one.
 >
-> —[Ramsay Bolton](wiki:Ramsay_Snow) to [Roose Bolton](wiki:Roose_Bolton)
+> —Ramsay Bolton to Roose Bolton, ADWD (`sources/chapters/adwd/adwd-reek-03.md:81`)
 
-> [Walder Frey](wiki:Walder_Frey)'s [fourth wife](wiki:Alyssa_Blackwood) was a [Blackwood](wiki:House_Blackwood), but kinship counts for no more than [guest right](wiki:Guest_right) at the Twins.(wiki:Twins.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_35-1)
+> Walder Frey's fourth wife was a Blackwood, but kinship counts for no more than guest right at the Twins.
 >
-> —[Tytos Blackwood](wiki:Tytos_Blackwood) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Tytos Blackwood to Jaime Lannister, ADWD (`sources/chapters/adwd/adwd-jaime-01.md:221`)

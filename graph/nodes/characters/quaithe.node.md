@@ -50,9 +50,9 @@ While Daenerys is later wandering lost, starving, and alone in the [Dothraki sea
 
 ### Quotes by Quaithe
 
-> They shall come day and night to see the wonder that has been born again into the world, and when they see they shall lust. For [dragons](wiki:Dragon) are fire made flesh, and [fire is power](wiki:Dragonflame).(wiki:Quaithe.cite_ref-Racok27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+> They shall come day and night to see the wonder that has been born again into the world, and when they see they shall lust. For dragons are fire made flesh, and fire is power.
 >
-> —Quaithe to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Quaithe to Daenerys Targaryen, ACOK (`sources/chapters/acok/acok-daenerys-02.md:61`)
 
 > To go north, you must journey south, to reach the west you must go east. To go forward you must go back and to touch the light you must pass [beneath the shadow](wiki:Asshai).(wiki:Quaithe.cite_ref-Racok40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
 >
@@ -70,10 +70,10 @@ While Daenerys is later wandering lost, starving, and alone in the [Dothraki sea
 >
 > —[Jorah Mormont](wiki:Jorah_Mormont) and [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> Was she an enemy too, or only a dangerous friend? Dany could not say.(wiki:Quaithe.cite_ref-Rasos8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+> Was she an enemy too, or only a dangerous friend? Dany could not say.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-01.md:131`)
 
-> [Khaleesi](wiki:Khaleesi), better a man should swallow scorpions than trust in the spawn of [shadows](wiki:Shadow_Lands), who dare not show their face beneath the sun. It is known.(wiki:Quaithe.cite_ref-Racok40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4)
+> Khaleesi, better a man should swallow scorpions than trust in the spawn of shadows, who dare not show their face beneath the sun. It is known.
 >
-> —[Rakharo](wiki:Rakharo) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Rakharo to Daenerys Targaryen, ACOK (`sources/chapters/acok/acok-daenerys-03.md:153`)

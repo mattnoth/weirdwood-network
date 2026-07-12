@@ -62,9 +62,9 @@ Following Renly's death near Storm's End, Lord [Petyr Baelish](wiki:Petyr_Baelis
 
 ## Quotes
 
-> [Lord Caswell's](wiki:Lorent_Caswell) keep was scarcely tall enough to call a tower, but the country was low and flat and Catelyn could see for leagues in all directions.(wiki:Bitterbridge.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+> Lord Caswell's keep was scarcely tall enough to call a tower, but the country was low and flat and Catelyn could see for leagues in all directions.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-02.md:259`)
 
 > Thousands of cookfires filled the air with a pale smoky haze. The horse lines alone stretched out over leagues. A forest had surely been felled to make the tall staffs that held the banners. Great siege engines lined the grassy verge of the roseroad, mangonels and trebuchets and rolling rams mounted on wheels taller than a man on horseback.
 >
@@ -73,4 +73,3 @@ Following Renly's death near Storm's End, Lord [Petyr Baelish](wiki:Petyr_Baelis
 > Of food there was plenty. The war had not touched the fabled bounty of Highgarden. While singers sang and tumblers tumbled, they began with pears poached in wine, and went on to tiny savory fish rolled in salt and cooked crisp, and capons stuffed with onions and mushrooms. There were great loaves of brown bread, mounds of turnips and sweetcorn and pease, immense hams and roast geese and trenchers dripping full of venison stewed with beer and barley. For the sweet, Lord Caswell’s servants brought down trays of pastries from his castle kitchens, cream swans and spun-sugar unicorns, lemon cakes in the shape of roses, spiced honey biscuits and blackberry tarts, apple crisps and wheels of buttery cheese.
 >
 > — sources/chapters/acok/acok-catelyn-02.md:205 · Complete feast menu at the Bitterbridge farewell feast — primary food/hospitality record for this event and location  _(capture: chapter-quote sweep, food)_
-

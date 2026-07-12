@@ -39,6 +39,6 @@ During [Alys Karstark](wiki:Alys_Karstark)'s wedding celebrations, [Jon Snow](wi
 
 ## Quotes
 
-> No good ever came from dealing with [outlaws](wiki:Outlaw). That vile little bitch Wenda had burned a [fawn](wiki:Deer) into the cheek of his arse while she had him captive.(wiki:Wenda_the_White_Fawn.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+> No good ever came from dealing with outlaws. That vile little bitch Wenda had burned a fawn into the cheek of his arse while she had him captive.
 >
-> —thoughts of [Merrett Frey](wiki:Merrett_Frey)
+> —thoughts of Merrett Frey, ASOS (`sources/chapters/asos/asos-epilogue.md:57`)

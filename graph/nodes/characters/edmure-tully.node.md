@@ -100,9 +100,9 @@ During the [siege of Raventree](wiki:Siege_of_Raventree), Lord [Tytos Blackwood]
 
 ### Quotes by Edmure
 
-> How can we talk of peace while the [Lannisters](wiki:House_Lannister) spread like a pestilence over [my father's domains](wiki:Riverlands), stealing his crops and slaughtering his people?(wiki:Edmure_Tully.cite_ref-Racok7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-2)
+> How can we talk of peace while the Lannisters spread like a pestilence over my father's domains, stealing his crops and slaughtering his people?
 >
-> —Edmure to [Robb Stark](wiki:Robb_Stark)
+> —Edmure to Robb Stark, ACOK (`sources/chapters/acok/acok-catelyn-01.md:93`)
 
 > **Catelyn**: Who are [all these folk](wiki:Smallfolk)? **Edmure**: My people. They were afraid.(wiki:Edmure_Tully.cite_ref-Racok39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-8)
 >
@@ -144,9 +144,9 @@ During the [siege of Raventree](wiki:Siege_of_Raventree), Lord [Tytos Blackwood]
 >
 > —[Catelyn Stark](wiki:Catelyn_Stark)'s thoughts
 
-> You owe [His Grace](wiki:Robb_Stark) your thanks for his forbearance. He played out that mummer's farce in the Great Hall so as not to shame you before your own people. Had it been me I would have flayed you for your stupidity rather than praising this [folly of the fords](wiki:Battle_of_the_Fords).(wiki:Edmure_Tully.cite_ref-Rasos14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-3)
+> You owe His Grace your thanks for his forbearance. He played out that mummer's farce in the Great Hall so as not to shame you before your own people. Had it been me I would have flayed you for your stupidity rather than praising this folly of the fords.
 >
-> —[Brynden Tully](wiki:Brynden_Tully) to Edmure
+> —Brynden Tully to Edmure, ASOS (`sources/chapters/asos/asos-catelyn-02.md:213`)
 
 > **Robb**: We must win back the [Freys](wiki:House_Frey). With them, we still have [some chance of success](wiki:Siege_of_Moat_Cailin), however small. Without them, I see no hope. I am willing to give Lord [Walder](wiki:Walder_Frey) whatever he requires ... apologies, honors, lands, gold ... there must be something that would soothe his pride ... **Catelyn**: Not something. Someone.(wiki:Edmure_Tully.cite_ref-Rasos14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-4)
 >
@@ -168,9 +168,9 @@ During the [siege of Raventree](wiki:Siege_of_Raventree), Lord [Tytos Blackwood]
 >
 > —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
 
-> He had the same blue eyes as his sister [Catelyn](wiki:Catelyn), and Jaime saw the same loathing there that he'd once seen in hers.(wiki:Edmure_Tully.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-3)
+> He had the same blue eyes as his sister Catelyn, and Jaime saw the same loathing there that he'd once seen in hers.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-07.md:37`)
 
 > **Tytos**: For honor's sake I must ask about my liege lord.
 >

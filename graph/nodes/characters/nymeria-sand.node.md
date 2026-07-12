@@ -53,9 +53,9 @@ Doran sends Nymeria to King's Landing to take the vacant [Dornish](wiki:Dorne) s
 
 ### Quotes by Nymeria
 
-> You know the [Fowler](wiki:House_Fowler) words? Let Me Soar! That is all I ask of you. Let me soar, Uncle.(wiki:Nymeria_Sand.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-14)
+> You know the Fowler words? Let Me Soar! That is all I ask of you. Let me soar, Uncle.
 >
-> —Nymeria to [Doran Martell](wiki:Doran_Martell)
+> —Nymeria to Doran Martell, AFFC (`sources/chapters/affc/affc-the-captain-of-guards-01.md:193`)
 
 > **Nymeria**: [Obara](wiki:Obara_Sand) would make [Oldtown](wiki:Oldtown) our father's funeral pyre, but I am not so greedy. Four lives will suffice for me. Lord [Tywin's](wiki:Tywin_Lannister) golden twins, as payment for [Elia's](wiki:Elia_Martell) children. The old lion, for Elia herself. And last of all [the little king](wiki:Tommen_Baratheon), for [my father](wiki:Oberyn_Martell).
 >
@@ -75,17 +75,17 @@ Doran sends Nymeria to King's Landing to take the vacant [Dornish](wiki:Dorne) s
 
 ### Quotes about Nymeria
 
-> Nymeria was least dangerous when nearly naked. Elsewise she was sure to have a dozen blades concealed about her person.(wiki:Nymeria_Sand.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-11)
+> Nymeria was least dangerous when nearly naked. Elsewise she was sure to have a dozen blades concealed about her person.
 >
-> —thoughts of [Areo Hotah](wiki:Areo_Hotah)
+> —thoughts of Areo Hotah, ADWD (`sources/chapters/adwd/adwd-the-watcher-01.md:33`)
 
-> Hotah studied each of them in turn. [Obara](wiki:Obara_Sand), rusted nails and boiled leather, with her angry, close-set eyes and rat-brown hair. Nymeria, languid, elegant, olive-skinned, her long black braid bound up in red-gold wire. [Tyene](wiki:Tyene_Sand), blue-eyed and blond, a child-woman with her soft hands and little giggles.(wiki:Nymeria_Sand.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-12)
+> Hotah studied each of them in turn. Obara, rusted nails and boiled leather, with her angry, close-set eyes and rat-brown hair. Nymeria, languid, elegant, olive-skinned, her long black braid bound up in red-gold wire. Tyene, blue-eyed and blond, a child-woman with her soft hands and little giggles.
 >
-> —thoughts of [Areo Hotah](wiki:Areo_Hotah)
+> —thoughts of Areo Hotah, ADWD (`sources/chapters/adwd/adwd-the-watcher-01.md:191`)
 
-> The Lady Nym. But no lady, if even half of what [Qyburn](wiki:Qyburn) reports is true. A bastard daughter of the Red Viper, near as notorious as her father and intent on claiming the council seat that Prince [Oberyn](wiki:Oberyn_Martell) himself had occupied so briefly.(wiki:Nymeria_Sand.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+> The Lady Nym. But no lady, if even half of what Qyburn reports is true. A bastard daughter of the Red Viper, near as notorious as her father and intent on claiming the council seat that Prince Oberyn himself had occupied so briefly.
 >
-> —thoughts of [Kevan Lannister](wiki:Kevan_Lannister)
+> —thoughts of Kevan Lannister, ADWD (`sources/chapters/adwd/adwd-epilogue.md:137`)
 
 ## Edges
 

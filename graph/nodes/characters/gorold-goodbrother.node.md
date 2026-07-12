@@ -46,9 +46,9 @@ After the [taking of the Shields](wiki:Taking_of_the_Shields), Gorold is spotted
 
 ### Quotes by Gorold
 
-> This is [my hall](wiki:Hammerhorn), Damphair. It is not for you to say who must go and who remains.(wiki:Gorold_Goodbrother.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
+> This is my hall, Damphair. It is not for you to say who must go and who remains.
 >
-> —Gorold to [Aeron Greyjoy](wiki:Aeron_Greyjoy)
+> —Gorold to Aeron Greyjoy, AFFC (`sources/chapters/affc/affc-the-prophet-01.md:111`)
 
 > **Gorold**: I must send word to [Pyke](wiki:Pyke), and soon. Damphair, I would have your counsel. What shall it be, homage or defiance? **Aeron**: For now, send only silence. I must pray on this.(wiki:Gorold_Goodbrother.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-10)
 >

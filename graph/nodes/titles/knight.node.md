@@ -37,17 +37,17 @@ At the time of the [tourney at Ashford Meadow](wiki:Tourney_at_Ashford_Meadow) i
 >
 > —[Barristan Selmy](wiki:Barristan_Selmy) to [Joffrey I Baratheon](wiki:Joffrey_Baratheon)'s court
 
-> What do you think a knight is for, girl? You think it’s all taking favors from ladies and looking fine in gold plate? Knights are for killing.(wiki:Knight.cite_ref-Racok52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_78-0)
+> What do you think a knight is for, girl? You think it’s all taking favors from ladies and looking fine in gold plate? Knights are for killing.
 >
-> —[Sandor Clegane](wiki:Sandor_Clegane) to [Sansa Stark](wiki:Sansa_Stark)
+> —Sandor Clegane to Sansa Stark, ACOK (`sources/chapters/acok/acok-sansa-04.md:101`)
 
-> Knights may keep their truces with other knights, but they are not so careful of their honor when dealing with those they deem [outlaw](wiki:Outlaw).(wiki:Knight.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_79-0)
+> Knights may keep their truces with other knights, but they are not so careful of their honor when dealing with those they deem outlaw.
 >
-> —[Black Lorren](wiki:Black_Lorren) to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Black Lorren to Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-06.md:81`)
 
-> I have seen a hundred [tournaments](wiki:Tourney) and more wars than I would wish, and however strong or fast or skilled a knight may be, there are others who can match him.(wiki:Knight.cite_ref-Rasos8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_80-0)
+> I have seen a hundred tournaments and more wars than I would wish, and however strong or fast or skilled a knight may be, there are others who can match him.
 >
-> —[Arstan Whitebeard](wiki:Barristan_Selmy) to [Jorah Mormont](wiki:Jorah_Mormont)
+> —Arstan Whitebeard to Jorah Mormont, ASOS (`sources/chapters/asos/asos-daenerys-01.md:101`)
 
 > Any knight can make a knight, and every man you see before you has felt a sword upon his shoulder.(wiki:Knight.cite_ref-Rasos34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_53-1)
 >
@@ -63,18 +63,18 @@ At the time of the [tourney at Ashford Meadow](wiki:Tourney_at_Ashford_Meadow) i
 >
 > —[Thoros of Myr](wiki:Thoros_of_Myr) to [Brienne of Tarth](wiki:Brienne_of_Tarth)
 
-> In my [Seven Kingdoms](wiki:Seven_Kingdoms), knights go on quests to prove themselves worthy of the maiden that they love. They seek for magic swords, for chests of gold, for crowns stolen from a [dragon](wiki:Dragon)'s hoard.(wiki:Knight.cite_ref-Radwd23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_82-0)
+> In my Seven Kingdoms, knights go on quests to prove themselves worthy of the maiden that they love. They seek for magic swords, for chests of gold, for crowns stolen from a dragon's hoard.
 >
-> —[Daenerys Targaryen](wiki:Daenerys_Targaryen) to [Hizdahr zo Loraq](wiki:Hizdahr_zo_Loraq)
+> —Daenerys Targaryen to Hizdahr zo Loraq, ADWD (`sources/chapters/adwd/adwd-daenerys-04.md:137`)
 
-> Knights defend the weak and protect the innocent, they say. And I am the fairest maid in all [Volantis](wiki:Volantis).(wiki:Knight.cite_ref-Radwd27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_83-0)
+> Knights defend the weak and protect the innocent, they say. And I am the fairest maid in all Volantis.
 >
-> —The [widow of the waterfront](wiki:Widow_of_the_waterfront) to [Jorah Mormont](wiki:Jorah_Mormont)
+> —The widow of the waterfront to Jorah Mormont, ADWD (`sources/chapters/adwd/adwd-tyrion-07.md:399`)
 
 > Night work is not knight's work.(wiki:Knight.cite_ref-Radwd46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_84-0)
 >
 > —[Barbrey Dustin](wiki:Barbrey_Dustin) to [Aenys Frey](wiki:Aenys_Frey)
 
-> Without honor, a knight is no more than a common killer. It is better to die with honor than to live without it.(wiki:Knight.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+> Without honor, a knight is no more than a common killer. It is better to die with honor than to live without it.
 >
-> —[Barristan Selmy](wiki:Barristan_Selmy) to his squires
+> —Barristan Selmy to his squires, ADWD (`sources/chapters/adwd/adwd-the-kingbreaker-01.md:137`)

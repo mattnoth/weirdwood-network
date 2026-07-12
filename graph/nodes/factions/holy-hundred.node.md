@@ -48,6 +48,6 @@ The Holy Hundred join Ser [Jaime Lannister](wiki:Jaime_Lannister)'s force which 
 >
 > —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
 
-> All the same, Jaime wondered about any soldiers who were better known for their lovely horses than for the foes they'd slain. They pray well, I suppose, but can they fight? They had not disgraced themselves on the [Blackwater](wiki:Battle_of_the_Blackwater), so far as he knew, but they had not distinguished themselves either. (wiki:Holy_Hundred.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-8)
+> All the same, Jaime wondered about any soldiers who were better known for their lovely horses than for the foes they'd slain. They pray well, I suppose, but can they fight? They had not disgraced themselves on the Blackwater, so far as he knew, but they had not distinguished themselves either.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-03.md:283`)

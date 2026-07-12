@@ -29,6 +29,6 @@ When King [Robert I Baratheon](wiki:Robert_I_Baratheon) asked his friend [Lord](
 
 ## Quotes
 
-> And yet there was that one time … what was her name, that [common](wiki:Smallfolk) girl of yours? Becca? No, she was one of mine, gods love her, black hair and these sweet big eyes, you could drown in them.(wiki:Becca.cite_ref-Ragot12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> And yet there was that one time … what was her name, that common girl of yours? Becca? No, she was one of mine, gods love her, black hair and these sweet big eyes, you could drown in them.
 >
-> —[Robert I Baratheon](wiki:Robert_I_Baratheon) to [Eddard Stark](wiki:Eddard_Stark)
+> —Robert I Baratheon to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-02.md:33`)

@@ -60,10 +60,10 @@ With Moat Cailin retaken, Roose's host, consisting of 4,000 northerners (almost 
 
 ## Quotes
 
-> [Moat Cailin](wiki:Moat_Cailin) has fallen, Reek realized then, only no one has seen fit to tell them.(wiki:Siege_of_Moat_Cailin.cite_ref-Radwd20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-12)
+> Moat Cailin has fallen, Reek realized then, only no one has seen fit to tell them.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-02.md:85`)
 
-> The [Lord of the Dreadfort](wiki:Roose_Bolton) will bring his knights up the [causeway](wiki:Causeway), whilst [his son](wiki:Ramsay_Snow) leads his own men down on you from the [north](wiki:North). No quarter will be granted. The ones that die fighting will be the lucky ones. Those who live will be given to the [bog devils](wiki:Crannogmen).(wiki:Siege_of_Moat_Cailin.cite_ref-Radwd20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-13)
+> The Lord of the Dreadfort will bring his knights up the causeway, whilst his son leads his own men down on you from the north. No quarter will be granted. The ones that die fighting will be the lucky ones. Those who live will be given to the bog devils.
 >
-> —[Theon Greyjoy](wiki:Theon_Greyjoy) to [Dagon Codd](wiki:Dagon_Codd)
+> —Theon Greyjoy to Dagon Codd, ADWD (`sources/chapters/adwd/adwd-reek-02.md:153`)

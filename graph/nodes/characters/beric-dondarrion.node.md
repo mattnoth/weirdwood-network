@@ -92,9 +92,9 @@ Ser [Jaime Lannister](wiki:Jaime_Lannister) is prepared to fight Beric and his o
 >
 > —Beric to [Thoros of Myr](wiki:Thoros_of_Myr), cataloguing his deaths just before the "Can I dwell on what I scarce remember?" quote below, same scene (book cite: `sources/chapters/asos/asos-arya-07.md:87`; note the queue's cited chapter asos-arya-03 was a cite-drift error — verified at asos-arya-07)
 
-> Can I dwell on what I scarce remember? I held [a castle](wiki:Blackhaven) on [the Marches](wiki:Dornish_Marches) once, and there was [a woman](wiki:Allyria_Dayne) I was pledged to marry, but I could not find that castle today, nor tell you the color of that woman's hair. Who [knighted](wiki:Knight) me, old friend? What were my favorite foods? It all fades. Sometimes I think I was born on the bloody grass in that [grove of ash](wiki:Battle_at_the_Mummer's_Ford), with the [taste of fire](wiki:Last_kiss) in my mouth and a hole in my chest. Are you my mother, Thoros?(wiki:Beric_Dondarrion.cite_ref-Rasos39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-12)
+> Can I dwell on what I scarce remember? I held a castle on the Marches once, and there was a woman I was pledged to marry, but I could not find that castle today, nor tell you the color of that woman's hair. Who knighted me, old friend? What were my favorite foods? It all fades. Sometimes I think I was born on the bloody grass in that grove of ash, with the taste of fire in my mouth and a hole in my chest. Are you my mother, Thoros?
 >
-> —Beric to [Thoros of Myr](wiki:Thoros_of_Myr)
+> —Beric to Thoros of Myr, ASOS (`sources/chapters/asos/asos-arya-07.md:91`)
 
 > **Beric**: Gendry, do you swear before the eyes of gods and men to defend those who cannot defend themselves, to protect all women and children, to obey your captains, your liege lord, and your king, to fight bravely when needed and to such other tasks as are laid upon you, however hard or humble or dangerous they may be?
 >
@@ -108,21 +108,21 @@ Ser [Jaime Lannister](wiki:Jaime_Lannister) is prepared to fight Beric and his o
 
 ### Quotes about Beric
 
-> The lightning lord is everywhere and nowhere, skinny squirrel.(wiki:Beric_Dondarrion.cite_ref-Rasos22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-3)
+> The lightning lord is everywhere and nowhere, skinny squirrel.
 >
-> —[Greenbeard](wiki:Greenbeard) to [Arya Stark](wiki:Arya_Stark)
+> —Greenbeard to Arya Stark, ASOS (`sources/chapters/asos/asos-arya-04.md:51`)
 
-> They say Lord Beric always gives a man a trial, that he won't kill a man unless something's proved against him.(wiki:Beric_Dondarrion.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-1)
+> They say Lord Beric always gives a man a trial, that he won't kill a man unless something's proved against him.
 >
-> —[Merrett Frey](wiki:Merrett_Frey) to [Lem](wiki:Lem)
+> —Merrett Frey to Lem, ASOS (`sources/chapters/asos/asos-epilogue.md:165`)
 
 > **Lyle**: Once we're done at [Riverrun](wiki:Siege_of_Riverrun), I'll be itching for another fight. Not that Beric Dondarrion is like to give me one. I recall the man from tourneys past. A comely lad in a pretty cloak, he was. Slight and callow. **Arwood**: That was before he died. Death changed him, the [smallfolk](wiki:Smallfolk) say. You can kill him, but he won't stay dead. How do you fight a man like that?(wiki:Beric_Dondarrion.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-4)
 >
 > —[Lyle Crakehall](wiki:Lyle_Crakehall) and [Arwood Frey](wiki:Arwood_Frey)
 
-> Don't get me started on Lord Beric. He's here, he's there, he's everywhere, but when you send men after him, he melts away like dew.(wiki:Beric_Dondarrion.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-1)
+> Don't get me started on Lord Beric. He's here, he's there, he's everywhere, but when you send men after him, he melts away like dew.
 >
-> —[Daven Lannister](wiki:Daven_Lannister) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Daven Lannister to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-05.md:121`)
 
 > **Brienne**: You ride with the Dondarrion. The lightning lord. **Thoros**: Lightning comes and goes and then is seen no more. So too with men. Lord Beric's fire has gone out of this world, I fear. [A grimmer shadow](wiki:Lady_Stoneheart) leads us in his place.(wiki:Beric_Dondarrion.cite_ref-Raffc42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-2)
 >

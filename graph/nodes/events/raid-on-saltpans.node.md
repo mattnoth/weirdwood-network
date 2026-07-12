@@ -78,6 +78,6 @@ Brienne and her small band arrive at the inn before the Saltpans marauders. Led 
 
 — AFFC Brienne VII (`sources/chapters/affc/affc-brienne-07.md:17`) — book-cite overlay for the salt-in-mouths detail; confirmed at this line.
 
-> At [Saltpans](wiki:Saltpans), they had found only death and desolation. By the time Brienne and her companions were ferried over from the [Quiet Isle](wiki:Quiet_Isle), the survivors had fled and the dead had been given to the ground, but the corpse of the town itself remained, ashen and unburied.(wiki:Raid_on_Saltpans.cite_ref-Raffc37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-4)
+> At Saltpans, they had found only death and desolation. By the time Brienne and her companions were ferried over from the Quiet Isle, the survivors had fled and the dead had been given to the ground, but the corpse of the town itself remained, ashen and unburied.
 >
-> —thoughts of [Brienne of Tarth](wiki:Brienne_of_Tarth)
+> —thoughts of Brienne of Tarth, AFFC (`sources/chapters/affc/affc-brienne-07.md:77`)

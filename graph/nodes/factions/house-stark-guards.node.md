@@ -65,6 +65,6 @@ Robb and most of his host are killed during the [Red Wedding](wiki:Red_Wedding).
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Bronn](wiki:Bronn)
 
-> The [Winterfell](wiki:Winterfell) men looked especially fine in their silvery mail and long grey cloaks.(wiki:House_Stark_guards.cite_ref-Ragot44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+> The Winterfell men looked especially fine in their silvery mail and long grey cloaks.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, AGOT (`sources/chapters/agot/agot-sansa-03.md:59`)

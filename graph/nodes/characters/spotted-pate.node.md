@@ -33,6 +33,6 @@ Months later, [a man who has killed Pate and replaced him](wiki:Alchemist) intro
 
 ## Quotes
 
-> In the real world pig boys never fared so well. Pate sometimes thought his mother must have hated him to have named him as she did.(wiki:Spotted_Pate.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> In the real world pig boys never fared so well. Pate sometimes thought his mother must have hated him to have named him as she did.
 >
-> —thoughts of [Pate](wiki:Pate_(novice)), the [novice](wiki:Novice)
+> —thoughts of Pate), the novice, AFFC (`sources/chapters/affc/affc-prologue.md:129`)

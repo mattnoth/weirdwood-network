@@ -94,9 +94,9 @@ Jon receives [a letter](wiki:Bastard_Letter) from [Ramsay Snow](wiki:Ramsay_Snow
 >
 > —Selyse and [Stannis Baratheon](wiki:Stannis_Baratheon)
 
-> We are done with [Eastwatch](wiki:Eastwatch-by-the-Sea). We did not like it there. A queen should be mistress beneath her own roof. We found your [Cotter Pyke](wiki:Cotter_Pyke) to be an uncouth and unpleasant man, quarrelsome and niggardly.(wiki:Selyse_Florent.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-4)
+> We are done with Eastwatch. We did not like it there. A queen should be mistress beneath her own roof. We found your Cotter Pyke to be an uncouth and unpleasant man, quarrelsome and niggardly.
 >
-> —Selyse to [Jon Snow](wiki:Jon_Snow)
+> —Selyse to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-09.md:53`)
 
 > **Jon**: Your Grace, they are starving at [Hardhome](wiki:Hardhome) by the thousands. Many are women— **Selyse**: —and children, yes. Very sad. We are sorry for the little ones, of course, but we must be sensible. We have no food for them, and they are too young to help the king [my husband](wiki:Stannis_Baratheon) in his wars. Better that they be [reborn into the light](wiki:R'hllor).(wiki:Selyse_Florent.cite_ref-Radwd69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-7)
 >
@@ -104,9 +104,9 @@ Jon receives [a letter](wiki:Bastard_Letter) from [Ramsay Snow](wiki:Ramsay_Snow
 
 ### Quotes about Selyse
 
-> [The red woman](wiki:Melisandre) had won her, heart and soul, turning her from the gods of the [Seven Kingdoms](wiki:Seven_Kingdoms), both [old](wiki:Old_gods) and [new](wiki:Faith_of_the_Seven), to worship the one they called the [Lord of Light](wiki:R'hllor).(wiki:Selyse_Florent.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-11)
+> The red woman had won her, heart and soul, turning her from the gods of the Seven Kingdoms, both old and new, to worship the one they called the Lord of Light.
 >
-> —thoughts of [Cressen](wiki:Cressen)
+> —thoughts of Cressen, ACOK (`sources/chapters/acok/acok-prologue.md:229`)
 
 > **Petyr**: Ser [Axell](wiki:Axell_Florent) might serve for [Shireen's](wiki:Shireen_Baratheon) father, but in my experience, the more bizarre and shocking a tale the more apt it is to be repeated. [Stannis](wiki:Stannis_Baratheon) keeps an especially grotesque [fool](wiki:Fool), a lackwit with a [tattooed](wiki:Tattoo) face.
 >
@@ -114,26 +114,26 @@ Jon receives [a letter](wiki:Bastard_Letter) from [Ramsay Snow](wiki:Ramsay_Snow
 >
 > —[Petyr Baelish](wiki:Petyr_Baelish) and [Pycelle](wiki:Pycelle)
 
-> Lady [Melisandre](wiki:Melisandre) wore no crown, but every man there knew that she was [Stannis Baratheon](wiki:Stannis_Baratheon)'s real queen, not the homely woman he had left to shiver at [Eastwatch-by-the-Sea](wiki:Eastwatch-by-the-Sea).(wiki:Selyse_Florent.cite_ref-Radwd10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-0)
+> Lady Melisandre wore no crown, but every man there knew that she was Stannis Baratheon's real queen, not the homely woman he had left to shiver at Eastwatch-by-the-Sea.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-03.md:37`)
 
-> Those flames on her crown are the warmest thing about her.(wiki:Selyse_Florent.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-5)
+> Those flames on her crown are the warmest thing about her.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-09.md:105`)
 
-> There must have been a blizzard the day [she and Stannis wed](wiki:Wedding_of_Stannis_Baratheon_and_Selyse_Florent). Huddled beneath her ermine mantle and surrounded by her ladies, serving girls, and knights, the [southron](wiki:Southron) queen seemed a frail, pale, shrunken thing. A strained smile was frozen into place on her thin lips, but her eyes brimmed with reverence. She hates the cold but loves the flames. He had only to look at her to see that. A word from [Melisandre](wiki:Melisandre), and she would walk into the fire willingly, embrace it like a lover.(wiki:Selyse_Florent.cite_ref-Radwd49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)
+> There must have been a blizzard the day she and Stannis wed. Huddled beneath her ermine mantle and surrounded by her ladies, serving girls, and knights, the southron queen seemed a frail, pale, shrunken thing. A strained smile was frozen into place on her thin lips, but her eyes brimmed with reverence. She hates the cold but loves the flames. He had only to look at her to see that. A word from Melisandre, and she would walk into the fire willingly, embrace it like a lover.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-10.md:19`)
 
-> You lied about her beard. That one has more hair on her chin than I have between my legs.(wiki:Selyse_Florent.cite_ref-Radwd53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> You lied about her beard. That one has more hair on her chin than I have between my legs.
 >
-> —[Val](wiki:Val) to [Jon Snow](wiki:Jon_Snow)
+> —Val to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-11.md:211`)
 
 > This queen never fails to disappoint.(wiki:Selyse_Florent.cite_ref-Radwd69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-8)
 >
 > —thoughts of [Jon Snow](wiki:Jon_Snow)
 
-> Afraid of being carried off, is she? I hope you never said how big me member is, Jon Snow, that'd frighten any woman. I always wanted me one with a mustache.(wiki:Selyse_Florent.cite_ref-Radwd69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-9)
+> Afraid of being carried off, is she? I hope you never said how big me member is, Jon Snow, that'd frighten any woman. I always wanted me one with a mustache.
 >
-> —[Tormund](wiki:Tormund) to [Jon Snow](wiki:Jon_Snow)
+> —Tormund to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-13.md:21`)

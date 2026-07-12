@@ -36,9 +36,9 @@ Sent to resolve the [siege of Raventree](wiki:Siege_of_Raventree), Ser [Jaime La
 
 ## Quotes
 
-> A snot-nosed little creature, couldn't be more than seven.(wiki:Bethany_Blackwood.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> A snot-nosed little creature, couldn't be more than seven.
 >
-> —[Jonos Bracken](wiki:Jonos_Bracken) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Jonos Bracken to Jaime Lannister, ADWD (`sources/chapters/adwd/adwd-jaime-01.md:95`)
 
 > **Jaime**: Why not let her see [King's Landing](wiki:King's_Landing)? [His Grace](wiki:Tommen_Baratheon) is almost of an age with her. He would be pleased to have another friend. **Tytos**: One he can hang if the friend's father should displease him?(wiki:Bethany_Blackwood.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 >

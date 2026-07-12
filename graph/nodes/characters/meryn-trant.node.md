@@ -128,18 +128,18 @@ Meryn guards the Hand's apartments in [Maegor's Holdfast](wiki:Maegor's_Holdfast
 
 ### Quotes about Meryn
 
-> Ser [Boros](wiki:Boros_Blount) and Ser Meryn are [the queen's](wiki:Cersei_Lannister) creatures to the bone, and I have deep suspicions of [the others](wiki:Kingsguard).(wiki:Meryn_Trant.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2)
+> Ser Boros and Ser Meryn are the queen's creatures to the bone, and I have deep suspicions of the others.
 >
-> —[Varys](wiki:Varys) to [Eddard Stark](wiki:Eddard_Stark)
+> —Varys to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-07.md:295`)
 
-> He did not hate her, Sansa realized; neither did he love her. He felt nothing for her at all. She was only a ... a thing to him.(wiki:Meryn_Trant.cite_ref-Ragot67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
+> He did not hate her, Sansa realized; neither did he love her. He felt nothing for her at all. She was only a ... a thing to him.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, AGOT (`sources/chapters/agot/agot-sansa-06.md:75`)
 
-> [Sandor Clegane](wiki:Sandor_Clegane) would have laughed at that, Sansa knew. Other men might have cursed her, warned her to keep silent, even begged for her forgiveness. Ser Meryn Trant did none of these. Ser Meryn Trant simply did not care.(wiki:Meryn_Trant.cite_ref-Ragot67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-10)
+> Sandor Clegane would have laughed at that, Sansa knew. Other men might have cursed her, warned her to keep silent, even begged for her forgiveness. Ser Meryn Trant did none of these. Ser Meryn Trant simply did not care.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, AGOT (`sources/chapters/agot/agot-sansa-06.md:81`)
 
-> Ser Meryn had always been [Cersei's](wiki:Cersei_Lannister) creature.(wiki:Meryn_Trant.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-2)
+> Ser Meryn had always been Cersei's creature.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-01.md:137`)

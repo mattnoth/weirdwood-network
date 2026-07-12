@@ -44,9 +44,9 @@ After Daenerys disappears from [Daznak's Pit](wiki:Daznak's_Pit), Marselen share
 
 ### Quotes about Marselen
 
-> [Missandei](wiki:Missandei) and her brothers had been taken from their home on [Naath](wiki:Naath) by raiders from the [Basilisk Isles](wiki:Basilisk_Isles) and sold into [slavery](wiki:Slavery) in [Astapor](wiki:Astapor). Young as she was, Missandei had shown such a gift for tongues that the [Good Masters](wiki:Good_Masters) had made a scribe of her. [Mossador](wiki:Mossador) and Marselen had not been so fortunate. They had been [gelded](wiki:Eunuch) and made into [Unsullied](wiki:Unsullied).(wiki:Marselen.cite_ref-Radwd11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> Missandei and her brothers had been taken from their home on Naath by raiders from the Basilisk Isles and sold into slavery in Astapor. Young as she was, Missandei had shown such a gift for tongues that the Good Masters had made a scribe of her. Mossador and Marselen had not been so fortunate. They had been gelded and made into Unsullied.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-02.md:35`)
 
 ## Edges
 

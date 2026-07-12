@@ -67,13 +67,13 @@ Qarl and Tristifer accompany Asha to her meeting with Stannis, when she asks abo
 
 ### Quotes about Qarl
 
-> The singers call [Andrik](wiki:Andrik_the_Unsmiling) best now. Andrik the Unsmiling, they name him. A giant of a man. He serves [Lord Drumm](wiki:Dunstan_Drumm) of [Old Wyk](wiki:Old_Wyk). And [Black Lorren](wiki:Black_Lorren) and Qarl the Maid are near as dread.(wiki:Qarl_the_Maid.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+> The singers call Andrik best now. Andrik the Unsmiling, they name him. A giant of a man. He serves Lord Drumm of Old Wyk. And Black Lorren and Qarl the Maid are near as dread.
 >
-> —[Dagmer Cleftjaw](wiki:Dagmer_Cleftjaw) to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Dagmer Cleftjaw to Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-03.md:97`)
 
-> A shy smile, strong arms, clever fingers, and two sure swords. What more could any woman want? She would have married Qarl, and gladly, but she was Lord [Balon's](wiki:Balon_Greyjoy) daughter and he was common-born, the grandson of a [thrall](wiki:Thrall).(wiki:Qarl_the_Maid.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-12)
+> A shy smile, strong arms, clever fingers, and two sure swords. What more could any woman want? She would have married Qarl, and gladly, but she was Lord Balon's daughter and he was common-born, the grandson of a thrall.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-wayward-bride-01.md:83`)
 
 ## Edges
 

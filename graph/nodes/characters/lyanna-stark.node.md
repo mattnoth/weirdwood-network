@@ -130,17 +130,17 @@ Ser [Barristan Selmy](wiki:Barristan_Selmy) regrets having been defeated by Rhae
 
 ### Quotes about Lyanna
 
-> Lyanna had only been sixteen, a child-woman of surpassing loveliness. Ned had loved her with all his heart. [Robert](wiki:Robert_I_Baratheon) had loved her even more. She was to have been his bride.(wiki:Lyanna_Stark.cite_ref-Ragot4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-13)
+> Lyanna had only been sixteen, a child-woman of surpassing loveliness. Ned had loved her with all his heart. Robert had loved her even more. She was to have been his bride.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-01.md:63`)
 
 > She was more beautiful than that. Ah, damn it, Ned, did you have to bury her in [a place like this](wiki:Crypt_of_Winterfell)? She deserved more than darkness ...(wiki:Lyanna_Stark.cite_ref-Ragot4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-14)
 >
 > —[Robert I Baratheon](wiki:Robert_I_Baratheon) to [Eddard Stark](wiki:Eddard_Stark)
 
-> [My husband](wiki:Robert_I_Baratheon) grows more restless every day. Having [Stark](wiki:Eddard_Stark) beside him will only make him worse. He's still in love with the sister, the insipid little dead sixteen-year-old. How long till he decides to put me aside for some new Lyanna?(wiki:Lyanna_Stark.cite_ref-Ragot8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-3)
+> My husband grows more restless every day. Having Stark beside him will only make him worse. He's still in love with the sister, the insipid little dead sixteen-year-old. How long till he decides to put me aside for some new Lyanna?
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Cersei Lannister to Jaime Lannister, AGOT (`sources/chapters/agot/agot-bran-02.md:115`)
 
 > **Robert**: Go down into [your crypt](wiki:Crypt_of_Winterfell) and ask Lyanna about [the dragon's](wiki:Rhaegar_Targaryen) honor!
 >
@@ -156,9 +156,9 @@ Ser [Barristan Selmy](wiki:Barristan_Selmy) regrets having been defeated by Rhae
 >
 > —[Eddard Stark](wiki:Eddard_Stark) to [Robert I Baratheon](wiki:Robert_I_Baratheon)
 
-> [Rhaegar](wiki:Rhaegar_Targaryen) ... Rhaegar won, damn him. I killed him, Ned, I drove the spike right through that black armor into his black heart, and [he died at my feet](wiki:Battle_of_the_Trident). They made up songs about it. Yet somehow he still won. He has Lyanna now, and I have [her](wiki:Cersei_Lannister).(wiki:Lyanna_Stark.cite_ref-Ragot39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+> Rhaegar ... Rhaegar won, damn him. I killed him, Ned, I drove the spike right through that black armor into his black heart, and he died at my feet. They made up songs about it. Yet somehow he still won. He has Lyanna now, and I have her.
 >
-> —[Robert I Baratheon](wiki:Robert_I_Baratheon) to [Eddard Stark](wiki:Eddard_Stark)
+> —Robert I Baratheon to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-10.md:171`)
 
 > **Eddard**: I remember [Robert](wiki:Robert_I_Baratheon) as he was the day he took [the throne](wiki:Iron_Throne), every inch a king. A thousand other women might have loved him with all their hearts. What did he do to make you hate him so?
 >
@@ -170,9 +170,9 @@ Ser [Barristan Selmy](wiki:Barristan_Selmy) regrets having been defeated by Rhae
 >
 > —[Harwin](wiki:Harwin) to [Arya Stark](wiki:Arya_Stark)
 
-> The [northern](wiki:North) girl had a wild beauty, as he recalled, though however bright a torch might burn it could never match [the rising sun](wiki:Cersei_Lannister).(wiki:Lyanna_Stark.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-1)
+> The northern girl had a wild beauty, as he recalled, though however bright a torch might burn it could never match the rising sun.
 >
-> —thoughts of [Kevan Lannister](wiki:Kevan_Lannister)
+> —thoughts of Kevan Lannister, ADWD (`sources/chapters/adwd/adwd-epilogue.md:163`)
 
 > ‘That’s my father’s man you’re kicking,’ howled the she-wolf.
 

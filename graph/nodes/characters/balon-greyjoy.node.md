@@ -125,9 +125,9 @@ Euron admits to the captive Aeron that he was responsible for Balon's death, alt
 >
 > —Balon and [Theon Greyjoy](wiki:Theon_Greyjoy)
 
-> I am the Greyjoy, [Lord Reaper of Pyke](wiki:Lord_Reaper_of_Pyke), [King of Salt and Rock](wiki:King_of_Salt_and_Rock), [Son of the Sea Wind](wiki:Son_of_the_Sea_Wind), and no man gives me a crown. I pay the [iron price](wiki:Iron_price). I will take my crown, as [Urron Redhand](wiki:Urron_Greyiron) did five thousand years ago.(wiki:Balon_Greyjoy.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-7)
+> I am the Greyjoy, Lord Reaper of Pyke, King of Salt and Rock, Son of the Sea Wind, and no man gives me a crown. I pay the iron price. I will take my crown, as Urron Redhand did five thousand years ago.
 >
-> —Balon to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Balon to Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-01.md:361`)
 
 > Did [Ned Stark](wiki:Eddard_Stark) dress you like that? Was it his pleasure to garb you in velvets and silks and make you his own sweet daughter?(wiki:Balon_Greyjoy.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-8)
 >
@@ -139,9 +139,9 @@ Euron admits to the captive Aeron that he was responsible for Balon's death, alt
 
 ### Quotes about Balon
 
-> He was smaller than Theon remembered him. And so gaunt. Balon Greyjoy had always been thin, but now he looked as though the gods had put him in a cauldron and boiled every spare ounce of flesh from his bones, until nothing remained but hair and skin. Bone thin and bone hard he was, with a face that might have been chipped from [flint](wiki:Flint). His eyes were flinty too, black and sharp, but the years and the salt winds had turned his hair the grey of a winter sea, flecked with whitecaps.(wiki:Balon_Greyjoy.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-9)
+> He was smaller than Theon remembered him. And so gaunt. Balon Greyjoy had always been thin, but now he looked as though the gods had put him in a cauldron and boiled every spare ounce of flesh from his bones, until nothing remained but hair and skin. Bone thin and bone hard he was, with a face that might have been chipped from flint. His eyes were flinty too, black and sharp, but the years and the salt winds had turned his hair the grey of a winter sea, flecked with whitecaps.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-01.md:291`)
 
 > **Cersei**: By what right does he call himself [king](wiki:King_of_the_Isles_and_the_North)? **Tywin**: By right of conquest. King Balon has strangler's fingers round the [Neck](wiki:Neck). [Robb Stark](wiki:Robb_Stark)'s heirs are dead, [Winterfell is fallen](wiki:Sack_of_Winterfell), and the ironmen hold [Moat Cailin](wiki:Fall_of_Moat_Cailin), [Deepwood Motte](wiki:Taking_of_Deepwood_Motte), and most of the [Stony Shore](wiki:Harrying_of_the_Stony_Shore). King Balon's longships command the [sunset sea](wiki:Sunset_sea), and are well placed to menace [Lannisport](wiki:Lannisport), [Fair Isle](wiki:Fair_Isle), and even [Highgarden](wiki:Highgarden), should we provoke him.(wiki:Balon_Greyjoy.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-1)
 >
@@ -151,9 +151,9 @@ Euron admits to the captive Aeron that he was responsible for Balon's death, alt
 >
 > —The [captain](wiki:Captain_of_the_Myraham) of the *[Myraham](wiki:Myraham)* and [Jon Umber](wiki:Jon_Umber)
 
-> My brother Balon made [us](wiki:Ironborn) great again, which earned the [Storm God](wiki:Storm_God)'s wrath. He feasts now in the [Drowned God](wiki:Drowned_God)'s watery halls, with [mermaids](wiki:Mermaids) to attend his every want. It shall be for us who remain behind in this dry and dismal vale to finish his great work.(wiki:Balon_Greyjoy.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-9)
+> My brother Balon made us great again, which earned the Storm God's wrath. He feasts now in the Drowned God's watery halls, with mermaids to attend his every want. It shall be for us who remain behind in this dry and dismal vale to finish his great work.
 >
-> —[Aeron Greyjoy](wiki:Aeron_Greyjoy) to [the Sparr](wiki:The_Sparr), [Steffarion Sparr](wiki:Steffarion_Sparr), and [Gormond Goodbrother](wiki:Gormond_Goodbrother)
+> —Aeron Greyjoy to the Sparr, Steffarion Sparr, and Gormond Goodbrother, AFFC (`sources/chapters/affc/affc-the-prophet-01.md:75`)
 
 > A brave man but a bad [lord](wiki:Lord_of_the_Iron_Islands).(wiki:Balon_Greyjoy.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-3)
 >

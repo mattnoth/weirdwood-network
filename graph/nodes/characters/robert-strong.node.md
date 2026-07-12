@@ -49,9 +49,9 @@ Later, at a meeting of the [small council](wiki:Small_council), Kevan announces 
 
 ### Quotes about Robert
 
-> What he lacks in gallantry he will give you tenfold in devotion. He will protect [your son](wiki:Tommen_Baratheon), kill your enemies, and keep your secrets, and no living man will be able to withstand him.(wiki:Robert_Strong.cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+> What he lacks in gallantry he will give you tenfold in devotion. He will protect your son, kill your enemies, and keep your secrets, and no living man will be able to withstand him.
 >
-> —[Qyburn](wiki:Qyburn), to [Cersei Lannister](wiki:Cersei_Lannister)
+> —Qyburn, to Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-07.md:125`)
 
 > **Cersei:** When the hour is ripe, you may produce this paragon of yours and we will see if he is all that you have promised. **Qyburn:** They will sing of him, I swear it.(wiki:Robert_Strong.cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
 >

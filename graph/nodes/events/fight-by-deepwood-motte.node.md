@@ -64,13 +64,13 @@ Stannis ransoms many of the most notable ironmen,(wiki:Fight_by_Deepwood_Motte.c
 >
 > —[Asha Greyjoy](wiki:Asha_Greyjoy) to [Tristifer Botley](wiki:Tristifer_Botley)
 
-> We are fighting shrubbery, Asha thought as she slew a man who had more leaves on him than most of the surrounding trees.(wiki:Fight_by_Deepwood_Motte.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-8)
+> We are fighting shrubbery, Asha thought as she slew a man who had more leaves on him than most of the surrounding trees.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-wayward-bride-01.md:317`)
 
-> [Greyjoy's](wiki:Asha_Greyjoy) longships are burned or taken, her crews slain or surrendered. The captains, knights, notable warriors, and others of high birth we shall ransom or make other use of, the rest I mean to hang ...(wiki:Fight_by_Deepwood_Motte.cite_ref-Radwd35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> Greyjoy's longships are burned or taken, her crews slain or surrendered. The captains, knights, notable warriors, and others of high birth we shall ransom or make other use of, the rest I mean to hang ...
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) writing to [Jon Snow](wiki:Jon_Snow)
+> —Stannis Baratheon writing to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-07.md:193`)
 
 > **Justin**: The last time we went into battle without Lady [Melisandre](wiki:Melisandre) was [the Blackwater](wiki:Battle_of_the_Blackwater), when [Lord Renly's shade](wiki:Renly_Baratheon) came down upon us and drove half our host into [the bay](wiki:Blackwater_Bay).
 >

@@ -99,18 +99,18 @@ Cersei receives word from Stokeworth has Tanda died from a chill in her chest br
 
 ### Quotes about Tanda
 
-> I won't detain you long, I'm on my way to dine with Lady Tanda. [Lamprey](wiki:Lamprey) pie and roast suckling pig. She has some thought to wed me to [her younger daughter](wiki:Lollys_Stokeworth), so her table is always astonishing. If truth be told, I'd sooner marry the pig, but don't tell her. I do love lamprey pie.(wiki:Tanda_Stokeworth.cite_ref-Ragot33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-2)
+> I won't detain you long, I'm on my way to dine with Lady Tanda. Lamprey pie and roast suckling pig. She has some thought to wed me to her younger daughter, so her table is always astonishing. If truth be told, I'd sooner marry the pig, but don't tell her. I do love lamprey pie.
 >
-> —[Petyr Baelish](wiki:Petyr_Baelish) to [Eddard Stark](wiki:Eddard_Stark)
+> —Petyr Baelish to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-08.md:137`)
 
-> [Your lackwit sister](wiki:Lollys_Stokeworth) gets herself [raped by half of King's Landing](wiki:Riots_in_King's_Landing), and Tanda thinks to honor the [bastard](wiki:Bastard) with [my lord father's name](wiki:Tywin_Lannister)? I think not.(wiki:Tanda_Stokeworth.cite_ref-Raffc7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-1)
+> Your lackwit sister gets herself raped by half of King's Landing, and Tanda thinks to honor the bastard with my lord father's name? I think not.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister) to [Falyse Stokeworth](wiki:Falyse_Stokeworth)
+> —Cersei Lannister to Falyse Stokeworth, AFFC (`sources/chapters/affc/affc-cersei-02.md:69`)
 
-> Pray all you like, she will still be dead before the moon turns. Women as old as Tanda Stokeworth did not survive a broken hip.(wiki:Tanda_Stokeworth.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-1)
+> Pray all you like, she will still be dead before the moon turns. Women as old as Tanda Stokeworth did not survive a broken hip.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-05.md:301`)
 
-> Tanda dead and [Gyles](wiki:Gyles_Rosby) dying. It is well that we have [Moon Boy](wiki:Moon_Boy), or the court would be entirely bereft of [fools](wiki:Fool).(wiki:Tanda_Stokeworth.cite_ref-Raffc36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+> Tanda dead and Gyles dying. It is well that we have Moon Boy, or the court would be entirely bereft of fools.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-08.md:195`)

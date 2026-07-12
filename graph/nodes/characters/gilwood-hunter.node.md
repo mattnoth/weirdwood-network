@@ -59,6 +59,6 @@ Afterward, Petyr speculates to Alayne that Gilwood will be killed by his brother
 
 ### Quotes about Gilwood
 
-> Hunter's cheeks and nose were red as [apples](wiki:Apple), which bespoke a certain fondness for the [grape](wiki:Wine). She made certain to fill his cup as often as he emptied it.(wiki:Gilwood_Hunter.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-10)
+> Hunter's cheeks and nose were red as apples, which bespoke a certain fondness for the grape. She made certain to fill his cup as often as he emptied it.
 >
-> —thoughts of [Alayne Stone](wiki:Sansa_Stark)
+> —thoughts of Alayne Stone, AFFC (`sources/chapters/affc/affc-alayne-01.md:165`)

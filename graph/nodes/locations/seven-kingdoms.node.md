@@ -238,41 +238,41 @@ After Theon helps Jeyne escape Winterfell,(wiki:Seven_Kingdoms.cite_ref-Radwd51.
 >
 > —[Viserys Targaryen](wiki:Viserys_Targaryen) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> His own remote ancestor, King [Loren of the Rock](wiki:Loren_I_Lannister), had tried to stand against the fire when he joined with King [Mern of the Reach](wiki:Mern_IX_Gardener) to oppose the [Targaryen conquest](wiki:Aegon's_Conquest). That was close on three hundred years ago, when the Seven Kingdoms were kingdoms, and not mere provinces of a greater realm.(wiki:Seven_Kingdoms.cite_ref-Ragot13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> His own remote ancestor, King Loren of the Rock, had tried to stand against the fire when he joined with King Mern of the Reach to oppose the Targaryen conquest. That was close on three hundred years ago, when the Seven Kingdoms were kingdoms, and not mere provinces of a greater realm.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-02.md:61`)
 
 > **Eddard**: Tell me, Lord Varys, who do you truly serve? **Varys**: Why, the realm, my good lord, how ever could you doubt that? I swear it by my lost manhood. I serve the realm, and the realm needs peace.(wiki:Seven_Kingdoms.cite_ref-Ragot58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1)
 >
 > —[Eddard Stark](wiki:Eddard_Stark) and [Varys](wiki:Varys)
 
-> [Viserys](wiki:Viserys_Targaryen) always said the Seven Kingdoms were more beautiful than any other place in [the world](wiki:Known_world).(wiki:Seven_Kingdoms.cite_ref-Racok27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_101-1)
+> Viserys always said the Seven Kingdoms were more beautiful than any other place in the world.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ACOK (`sources/chapters/acok/acok-daenerys-02.md:81`)
 
-> Why else do we don these [black cloaks](wiki:Night's_Watch), but to die in defense of the realm?(wiki:Seven_Kingdoms.cite_ref-Racok43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_168-0)
+> Why else do we don these black cloaks, but to die in defense of the realm?
 >
-> —[Qhorin Halfhand](wiki:Qhorin_Halfhand) to [Jeor Mormont](wiki:Jeor_Mormont)
+> —Qhorin Halfhand to Jeor Mormont, ACOK (`sources/chapters/acok/acok-jon-05.md:155`)
 
 > **Stannis**: The [Iron Throne](wiki:Iron_Throne) is mine by rights. All those who deny that are my foes. **Renly**: The whole of the realm denies it, brother. Old men deny it with their death rattle, and unborn children deny it in their mothers' wombs. They deny it in [Dorne](wiki:Dorne) and they deny it on the [Wall](wiki:Wall). No one wants you for their king. Sorry.(wiki:Seven_Kingdoms.cite_ref-Racok31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_169-0)
 >
 > —[Stannis Baratheon](wiki:Stannis_Baratheon) and [Renly Baratheon](wiki:Renly_Baratheon)
 
-> [Robert](wiki:Robert_I_Baratheon) is slain, but his realm remains. And [we](wiki:Brotherhood_without_banners) defend her.(wiki:Seven_Kingdoms.cite_ref-Rasos34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_104-1)
+> Robert is slain, but his realm remains. And we defend her.
 >
-> —[Beric Dondarrion](wiki:Beric_Dondarrion) to [Sandor Clegane](wiki:Sandor_Clegane)
+> —Beric Dondarrion to Sandor Clegane, ASOS (`sources/chapters/asos/asos-arya-06.md:67`)
 
 > This talk of Seven Kingdoms is a folly. [Aegon](wiki:Aegon_I_Targaryen) saw that three hundred years ago when he stood where we are standing. They painted [this table](wiki:Painted_Table) at his command. Rivers and bays they painted, hills and mountains, castles and cities and market towns, lakes and swamps and forests ... but no borders. It is all one. One realm, for one king to rule alone.(wiki:Seven_Kingdoms.cite_ref-Rasos36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_170-0)
 >
 > —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Davos Seaworth](wiki:Davos_Seaworth)
 
-> I had the cart before the horse, [Davos](wiki:Davos_Seaworth) said. I was trying to win [the throne](wiki:Iron_Throne) to save the kingdom, when I should have been trying to save the kingdom to win the throne.(wiki:Seven_Kingdoms.cite_ref-Rasos76.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_171-0)
+> I had the cart before the horse, Davos said. I was trying to win the throne to save the kingdom, when I should have been trying to save the kingdom to win the throne.
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Jon Snow](wiki:Jon_Snow)
+> —Stannis Baratheon to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-11.md:109`)
 
-> It was hard work to rule a kingdom, much less seven of them.(wiki:Seven_Kingdoms.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_172-0)
+> It was hard work to rule a kingdom, much less seven of them.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-05.md:77`)
 
 > The [Faith Militant](wiki:Faith_Militant) reborn ... that would be the answer to three hundred years of prayer, Your Grace. [The Warrior](wiki:Warrior_(the_Seven)) would lift his shining sword again and cleanse this sinful realm of all its evil. If [His Grace](wiki:Tommen_Baratheon) were to allow me to restore the ancient blessed orders of the [Sword](wiki:Warrior's_Sons) and [Star](wiki:Poor_Fellows), every godly man in the Seven Kingdoms would know him to be our true and rightful lord.(wiki:Seven_Kingdoms.cite_ref-Raffc28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_140-2)
 >

@@ -132,9 +132,9 @@ A mutilated Theon is brought back to Winterfell by [Roose](wiki:Roose_Bolton) an
 >
 > —Bran to [Meera Reed](wiki:Meera_Reed)
 
-> All the tales agreed that the [green men](wiki:Green_men) had strange magic powers. Maybe they could help him walk again, even turn him into a [knight](wiki:Knight). They turned the [little crannogman](wiki:Howland_Reed) into a knight, even if it was only for [a day](wiki:Tourney_at_Harrenhal), he thought. A day would be enough.(wiki:Bran_Stark.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-3)
+> All the tales agreed that the green men had strange magic powers. Maybe they could help him walk again, even turn him into a knight. They turned the little crannogman into a knight, even if it was only for a day, he thought. A day would be enough.
 >
-> —Bran's thoughts
+> —Bran's thoughts, ASOS (`sources/chapters/asos/asos-bran-02.md:237`)
 
 > **Bran**: I'm here, only I'm broken. Will you ... will you fix me ... my legs, I mean? **crow**: No. That is beyond my powers. You will never walk again, Bran, but you will fly.(wiki:Bran_Stark.cite_ref-Radwd13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_39-2)
 >
@@ -146,37 +146,37 @@ A mutilated Theon is brought back to Winterfell by [Roose](wiki:Roose_Bolton) an
 >
 > —[Catelyn Stark](wiki:Catelyn_Stark) to [Eddard Stark](wiki:Eddard_Stark)
 
-> He is a sweet boy, quick to laugh, easy to love. Let him grow up with the young princes, let him become their friend as [Robert](wiki:Robert_I_Baratheon) became mine.(wiki:Bran_Stark.cite_ref-Ragot6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
+> He is a sweet boy, quick to laugh, easy to love. Let him grow up with the young princes, let him become their friend as Robert became mine.
 >
-> —[Eddard Stark](wiki:Eddard_Stark) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Eddard Stark to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-02.md:169`)
 
 > I prayed for it. He was my special boy. I went to the [sept](wiki:Winterfell) and prayed seven times to the [seven faces of the god](wiki:Faith_of_the_Seven) that [Ned](wiki:Eddard_Stark) would change his mind and leave him [here](wiki:Winterfell) with me.(wiki:Bran_Stark.cite_ref-Ragot10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-0)
 >
 > —[Catelyn Stark](wiki:Catelyn_Stark) to [Jon Snow](wiki:Jon_Snow) during Bran's coma
 
-> I may indeed have shit for honor, I won't deny it, but I have never yet [hired anyone](wiki:Catspaw) to do my killing. Believe what you will, Lady Stark, but if I had wanted your Bran dead I would have slain him myself.(wiki:Bran_Stark.cite_ref-Racok55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-2)
+> I may indeed have shit for honor, I won't deny it, but I have never yet hired anyone to do my killing. Believe what you will, Lady Stark, but if I had wanted your Bran dead I would have slain him myself.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Jaime Lannister to Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-07.md:221`)
 
-> Innocent? The wretched boy was spying on us.(wiki:Bran_Stark.cite_ref-Rasos1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_49-0)
+> Innocent? The wretched boy was spying on us.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister) to [Brienne of Tarth](wiki:Brienne_of_Tarth)
+> —Jaime Lannister to Brienne of Tarth, ASOS (`sources/chapters/asos/asos-jaime-01.md:63`)
 
 > He's our [prince](wiki:Prince_of_Winterfell).(wiki:Bran_Stark.cite_ref-Rasos56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-1)
 >
 > —[Meera Reed](wiki:Meera_Reed) to [Samwell Tarly](wiki:Samwell_Tarly)
 
-> The strongest trees are rooted in the dark places of the earth. Darkness will be your cloak, your shield, your mother's milk. Darkness will make you strong.(wiki:Bran_Stark.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_40-3)
+> The strongest trees are rooted in the dark places of the earth. Darkness will be your cloak, your shield, your mother's milk. Darkness will make you strong.
 >
-> —the [three-eyed crow](wiki:Three-eyed_crow) to Bran
+> —the three-eyed crow to Bran, ADWD (`sources/chapters/adwd/adwd-bran-03.md:45`)
 
-> No one had expected the broken boy to live. The gods could not kill Bran, no more than I could. It was a strange thought, and stranger still to remember that Bran might still be alive.(wiki:Bran_Stark.cite_ref-Radwd41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_50-0)
+> No one had expected the broken boy to live. The gods could not kill Bran, no more than I could. It was a strange thought, and stranger still to remember that Bran might still be alive.
 >
-> —[Theon Greyjoy](wiki:Theon_Greyjoy)'s thoughts
+> —Theon Greyjoy's thoughts, ADWD (`sources/chapters/adwd/adwd-the-turncloak-01.md:141`)
 
-> They know. [The gods](wiki:Old_gods) know. They [saw what I did](wiki:Capture_of_Winterfell). And for one strange moment it seemed as if it were Bran's face carved into the pale trunk of the [weirwood](wiki:Godswood_of_Winterfell), staring down at him with eyes red and wise and sad. Bran's ghost, he thought, but that was madness. Why should Bran want to haunt him? He had been fond of the boy, had never done him any harm. It was not Bran we killed. It was not [Rickon](wiki:Rickon_Stark). They were only miller's sons, from the mill by the [Acorn Water](wiki:Acorn_Water).(wiki:Bran_Stark.cite_ref-Radwd46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_46-1)
+> They know. The gods know. They saw what I did. And for one strange moment it seemed as if it were Bran's face carved into the pale trunk of the weirwood, staring down at him with eyes red and wise and sad. Bran's ghost, he thought, but that was madness. Why should Bran want to haunt him? He had been fond of the boy, had never done him any harm. It was not Bran we killed. It was not Rickon. They were only miller's sons, from the mill by the Acorn Water.
 >
-> —[Theon Greyjoy](wiki:Theon_Greyjoy)'s thoughts
+> —Theon Greyjoy's thoughts, ADWD (`sources/chapters/adwd/adwd-a-ghost-in-winterfell-01.md:247`)
 
 ## Foreshadowing
 

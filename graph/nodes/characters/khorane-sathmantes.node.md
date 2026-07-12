@@ -34,10 +34,10 @@ Khorane takes *Shayala's Dance* into the [Spears of the Merling King](wiki:Spear
 
 ## Quotes
 
-> He had the pale blue eyes you often saw on [Lys](wiki:Lys), set in a bony weatherworn face, but he had spent many years trading in the [Seven Kingdoms](wiki:Seven_Kingdoms).(wiki:Khorane_Sathmantes.cite_ref-Rasos10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> He had the pale blue eyes you often saw on Lys, set in a bony weatherworn face, but he had spent many years trading in the Seven Kingdoms.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-02.md:17`)
 
-> This was well done, Khorane. You will be having a fine reward, I am thinking.(wiki:Khorane_Sathmantes.cite_ref-Rasos10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> This was well done, Khorane. You will be having a fine reward, I am thinking.
 >
-> —[Salladhor Saan](wiki:Salladhor_Saan) to Khorane
+> —Salladhor Saan to Khorane, ASOS (`sources/chapters/asos/asos-davos-02.md:49`)

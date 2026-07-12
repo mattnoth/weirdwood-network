@@ -105,9 +105,9 @@ Theon, who has been [tortured](wiki:Torture) by Ramsay, is hated and considered 
 >
 > —[Robb Stark](wiki:Robb_Stark) to [Catelyn Stark](wiki:Catelyn_Stark)
 
-> His baby brother had been wild as a winter storm since he learned [Robb](wiki:Robb_Stark) was riding off to [war](wiki:War_of_the_Five_Kings), weeping and angry by turns.(wiki:Rickon_Stark.cite_ref-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-1)
+> His baby brother had been wild as a winter storm since he learned Robb was riding off to war, weeping and angry by turns.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, AGOT (`sources/chapters/agot/agot-bran-06.md:73`)
 
 > Though he knew Lord [Eddard](wiki:Eddard_Stark) was dead, sometimes Rickon forgot ... willfully, Bran suspected. His little brother was stubborn as only a boy of four can be.(wiki:Rickon_Stark.cite_ref-Racok35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3)
 >
@@ -117,9 +117,9 @@ Theon, who has been [tortured](wiki:Torture) by Ramsay, is hated and considered 
 >
 > —[Brienne of Tarth](wiki:Brienne_of_Tarth) and [Catelyn Stark](wiki:Catelyn_Stark)
 
-> [Roose Bolton](wiki:Roose_Bolton) has Lord Eddard's [daughter](wiki:Arya_Stark). To thwart him [White Harbor](wiki:White_Harbor) must have [Ned's](wiki:Eddard_Stark) son ... and [the direwolf](wiki:Shaggydog). The wolf will prove the boy is who we say he is, should the [Dreadfort](wiki:Dreadfort) attempt to deny him. That is my price, Lord Davos. Smuggle me back my liege lord, and I will take [Stannis Baratheon](wiki:Stannis_Baratheon) as my king.(wiki:Rickon_Stark.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_46-2)
+> Roose Bolton has Lord Eddard's daughter. To thwart him White Harbor must have Ned's son ... and the direwolf. The wolf will prove the boy is who we say he is, should the Dreadfort attempt to deny him. That is my price, Lord Davos. Smuggle me back my liege lord, and I will take Stannis Baratheon as my king.
 >
-> —[Wyman Manderly](wiki:Wyman_Manderly) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Wyman Manderly to Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-04.md:211`)
 
 ## Edges
 

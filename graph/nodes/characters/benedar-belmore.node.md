@@ -56,9 +56,9 @@ Benedar attends Lord [Robert Arryn](wiki:Robert_Arryn)'s tourney, competing for 
 
 ### Quotes about Benedar
 
-> Six silver bells on purple, that was Belmore, pear-bellied and round of shoulder. His beard was a ginger-grey horror sprouting from a multiplicity of chins.(wiki:Benedar_Belmore.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> Six silver bells on purple, that was Belmore, pear-bellied and round of shoulder. His beard was a ginger-grey horror sprouting from a multiplicity of chins.
 >
-> —thoughts of [Alayne Stone](wiki:Sansa_Stark)
+> —thoughts of Alayne Stone, AFFC (`sources/chapters/affc/affc-alayne-01.md:165`)
 
 > Belmore is corrupt and can be bought.(wiki:Benedar_Belmore.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
 >

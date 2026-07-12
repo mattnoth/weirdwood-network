@@ -93,18 +93,18 @@ Ser [Jaime Lannister](wiki:Jaime_Lannister) expects that his work pacifying the 
 >
 > —[Eddard Stark](wiki:Eddard_Stark) and [Robert I Baratheon](wiki:Robert_I_Baratheon)
 
-> I mean to make you [liege lord of the Trident](wiki:Lord_Paramount_of_the_Trident). These [river lords](wiki:Rivermen) have proven they cannot be trusted. Let them do you fealty for their lands.(wiki:Trident.cite_ref-Racok17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-1)
+> I mean to make you liege lord of the Trident. These river lords have proven they cannot be trusted. Let them do you fealty for their lands.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Petyr Baelish](wiki:Petyr_Baelish)
+> —Tyrion Lannister to Petyr Baelish, ACOK (`sources/chapters/acok/acok-tyrion-04.md:291`)
 
-> It is time to cross the Trident, Dany thought, as she wheeled and rode [her silver](wiki:Silver_mare) back.(wiki:Trident.cite_ref-Rasos27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-1)
+> It is time to cross the Trident, Dany thought, as she wheeled and rode her silver back.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen) before the [fall of Astapor](wiki:Fall_of_Astapor)
+> —thoughts of Daenerys Targaryen before the fall of Astapor, ASOS (`sources/chapters/asos/asos-daenerys-03.md:249`)
 
-> Ser [Brynden](wiki:Brynden_Tully) would hold the Trident if any man could.(wiki:Trident.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
+> Ser Brynden would hold the Trident if any man could.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-05.md:33`)
 
-> The river had returned meekly to its accustomed channel, Arya saw, all its wet brown rage vanished with the rains. It's tired too, she thought.(wiki:Trident.cite_ref-Rasos74.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-4)
+> The river had returned meekly to its accustomed channel, Arya saw, all its wet brown rage vanished with the rains. It's tired too, she thought.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ASOS (`sources/chapters/asos/asos-arya-13.md:163`)

@@ -44,18 +44,18 @@ Queen Regent [Cersei Lannister](wiki:Cersei_Lannister) has a nightmare about the
 
 ## Quotes
 
-> Cersei did not care to think about [Senelle](wiki:Senelle). She repaid my kindness with betrayal. [Sansa Stark](wiki:Sansa_Stark) had done the same. So had [Melara Hetherspoon](wiki:Melara_Hetherspoon) and fat Jeyne Farman when the three of them were girls. I would never have gone into that tent if not for them. I would never have allowed [Maggy the Frog](wiki:Maggy_the_Frog) to taste [my morrows](wiki:Prophecy) in a [drop of blood](wiki:Bloodmagic).(wiki:Jeyne_Farman.cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+> Cersei did not care to think about Senelle. She repaid my kindness with betrayal. Sansa Stark had done the same. So had Melara Hetherspoon and fat Jeyne Farman when the three of them were girls. I would never have gone into that tent if not for them. I would never have allowed Maggy the Frog to taste my morrows in a drop of blood.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-07.md:163`)
 
-> Fat Jeyne Farman hung back as she always did. It was a wonder she had come this far.(wiki:Jeyne_Farman.cite_ref-Raffc36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
+> Fat Jeyne Farman hung back as she always did. It was a wonder she had come this far.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-08.md:199`)
 
-> Lord [Tywin's](wiki:Tywin_Lannister) daughter was the first through the flap, with [Melara](wiki:Melara_Hetherspoon) close behind her. Jeyne Farman came last, and tried to hide behind the other two, the way she always did.(wiki:Jeyne_Farman.cite_ref-Raffc36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
+> Lord Tywin's daughter was the first through the flap, with Melara close behind her. Jeyne Farman came last, and tried to hide behind the other two, the way she always did.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-08.md:203`)
 
-> Plump stupid timid little Jeyne, pasty-faced and fat and scared of every shadow. She was the wise one, though. Jeyne lived on [Fair Isle](wiki:Fair_Isle) still. She had married one of [her lord brother's](wiki:Sebaston_Farman) [bannermen](wiki:Gareth_Clifton) and whelped a dozen children.(wiki:Jeyne_Farman.cite_ref-Raffc36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
+> Plump stupid timid little Jeyne, pasty-faced and fat and scared of every shadow. She was the wise one, though. Jeyne lived on Fair Isle still. She had married one of her lord brother's bannermen and whelped a dozen children.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-08.md:209`)

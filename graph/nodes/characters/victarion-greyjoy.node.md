@@ -113,25 +113,25 @@ Just as the [second siege of Meereen](wiki:Second_siege_of_Meereen) resumes, Vic
 >
 > —Victarion to [Asha Greyjoy](wiki:Asha_Greyjoy)
 
-> [Wizards](wiki:Wizard) may be well and good, but blood and [steel](wiki:Steel) win wars.(wiki:Victarion_Greyjoy.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-13)
+> Wizards may be well and good, but blood and steel win wars.
 >
-> —Victarion to the [dusky woman](wiki:Dusky_woman)
+> —Victarion to the dusky woman, AFFC (`sources/chapters/affc/affc-the-reaver-01.md:71`)
 
-> There is no [wine](wiki:Wine) so sweet as wine taken from a foe. Someone had told him that once. [His father](wiki:Quellon_Greyjoy), or his brother [Balon](wiki:Balon_Greyjoy). One day I shall drink your wine, [Crow's Eye](wiki:Euron_Greyjoy), and take from you all that you hold dear.(wiki:Victarion_Greyjoy.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-14)
+> There is no wine so sweet as wine taken from a foe. Someone had told him that once. His father, or his brother Balon. One day I shall drink your wine, Crow's Eye, and take from you all that you hold dear.
 >
-> —Victarion's thoughts
+> —Victarion's thoughts, AFFC (`sources/chapters/affc/affc-the-reaver-01.md:193`)
 
-> Victarion Greyjoy mistrusted laughter. The sound of it always left him with the uneasy feeling that he was the butt of some jape he did not understand.(wiki:Victarion_Greyjoy.cite_ref-Radwd56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-4)
+> Victarion Greyjoy mistrusted laughter. The sound of it always left him with the uneasy feeling that he was the butt of some jape he did not understand.
 >
-> —Victarion's thoughts
+> —Victarion's thoughts, ADWD (`sources/chapters/adwd/adwd-the-iron-suitor-01.md:135`)
 
 > **Moqorro**: I have seen you in the [nightfires](wiki:Nightfire), Victarion Greyjoy. You come striding through the flames stern and fierce, your great axe dripping blood, blind to the tentacles that grasp you at wrist and neck and ankle, the black strings that make you dance. **Victarion**: Dance? Your nightfires lie. I was not made for dancing, and I am no man's puppet.(wiki:Victarion_Greyjoy.cite_ref-Radwd56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-5)
 >
 > —[Moqorro](wiki:Moqorro) and Victarion
 
-> [The most beautiful woman](wiki:Daenerys_Targaryen) in [the world](wiki:Known_world) has urgent need of my axe.(wiki:Victarion_Greyjoy.cite_ref-Radwd63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-6)
+> The most beautiful woman in the world has urgent need of my axe.
 >
-> —Victarion's thoughts
+> —Victarion's thoughts, ADWD (`sources/chapters/adwd/adwd-victarion-01.md:33`)
 
 > Two gods are with me now. No foe can stand before two gods.(wiki:Victarion_Greyjoy.cite_ref-Radwd63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-7)
 >
@@ -139,9 +139,9 @@ Just as the [second siege of Meereen](wiki:Second_siege_of_Meereen) resumes, Vic
 
 ### Quotes about Victarion
 
-> [Lord Captain of the Iron Fleet](wiki:Lord_Captain_of_the_Iron_Fleet), and a fearsome warrior. I have heard them sing of him in the alehouses.(wiki:Victarion_Greyjoy.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-6)
+> Lord Captain of the Iron Fleet, and a fearsome warrior. I have heard them sing of him in the alehouses.
 >
-> —"[Esgred](wiki:Asha_Greyjoy)" to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —"Esgred" to Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-02.md:255`)
 
 > Victarion is like some great grey bullock, strong and tireless and dutiful, but not like to win any races. No doubt he'll serve me as loyally as he has served [my lord father](wiki:Balon_Greyjoy). He has neither the wits nor the ambition to plot betrayal.(wiki:Victarion_Greyjoy.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-7)
 >
@@ -151,17 +151,17 @@ Just as the [second siege of Meereen](wiki:Second_siege_of_Meereen) resumes, Vic
 >
 > —[Asha Greyjoy](wiki:Asha_Greyjoy) to [Theon Greyjoy](wiki:Theon_Greyjoy)
 
-> [The king](wiki:King_of_the_Isles_and_the_North) must be Victarion, or [the storm](wiki:Storm_God) will slay us all.(wiki:Victarion_Greyjoy.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-4)
+> The king must be Victarion, or the storm will slay us all.
 >
-> —[Aeron Greyjoy](wiki:Aeron_Greyjoy)'s thoughts
+> —Aeron Greyjoy's thoughts, AFFC (`sources/chapters/affc/affc-the-prophet-01.md:169`)
 
 > [She](wiki:Victarion_Greyjoy's_third_wife) came to me wet and willing. It seems Victarion is big everywhere but where it matters.(wiki:Victarion_Greyjoy.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-22)
 >
 > —[Euron Greyjoy](wiki:Euron_Greyjoy) to Victarion
 
-> He shall be [our king](wiki:King_of_the_Isles_and_the_North). What man could look on him and doubt it?(wiki:Victarion_Greyjoy.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-5)
+> He shall be our king. What man could look on him and doubt it?
 >
-> —[Aeron Greyjoy](wiki:Aeron_Greyjoy)'s thoughts
+> —Aeron Greyjoy's thoughts, AFFC (`sources/chapters/affc/affc-the-drowned-man-01.md:35`)
 
 ## Foreshadowing
 

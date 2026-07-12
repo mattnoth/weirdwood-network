@@ -53,10 +53,10 @@ Ser [Barristan Selmy](wiki:Barristan_Selmy) recalls that the [Great Pyramid of M
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister), [Rolly Duckfield](wiki:Rolly_Duckfield), and [Haldon](wiki:Haldon)
 
-> For years afterward, he had cherished a dream that one day he would travel [the world](wiki:Known_world) and see Longstrider's wonders for himself.(wiki:Lomas_Longstrider.cite_ref-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
+> For years afterward, he had cherished a dream that one day he would travel the world and see Longstrider's wonders for himself.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-03.md:163`)
 
-> Lomas Longstrider saw [the walls of Qarth](wiki:Triple_walls_of_Qarth). His books suffice for me. I have gone [as far east](wiki:Meereen) as I intend to go.(wiki:Lomas_Longstrider.cite_ref-Radwd57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+> Lomas Longstrider saw the walls of Qarth. His books suffice for me. I have gone as far east as I intend to go.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Penny](wiki:Penny)
+> —Tyrion Lannister to Penny, ADWD (`sources/chapters/adwd/adwd-tyrion-11.md:57`)

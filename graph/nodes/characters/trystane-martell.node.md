@@ -47,9 +47,9 @@ Queen [Cersei Lannister](wiki:Cersei_Lannister) sends Ser [Balon Swann](wiki:Bal
 
 ### Quotes about Trystane
 
-> The two children could not have looked more different, him with his olive skin and straight black hair, her pale as milk with a mop of golden curls; light and dark, like Queen [Cersei](wiki:Cersei_Lannister) and King [Robert](wiki:Robert_I_Baratheon). He prayed [Myrcella](wiki:Myrcella_Baratheon) would find more joy in her [Dornish](wiki:Dornish) boy than her mother had found with her [storm lord](wiki:Stormlands).(wiki:Trystane_Martell.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> The two children could not have looked more different, him with his olive skin and straight black hair, her pale as milk with a mop of golden curls; light and dark, like Queen Cersei and King Robert. He prayed Myrcella would find more joy in her Dornish boy than her mother had found with her storm lord.
 >
-> —thoughts of [Arys Oakheart](wiki:Arys_Oakheart)
+> —thoughts of Arys Oakheart, AFFC (`sources/chapters/affc/affc-the-soiled-knight-01.md:25`)
 
 ## Edges
 

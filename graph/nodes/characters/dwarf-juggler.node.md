@@ -41,9 +41,9 @@ Penny blames Tyrion for the old man's death, as she does for Oppo, who was also 
 
 ## Quotes
 
-> Your head may have glass eyes, but I do not. There are [gargoyles](wiki:Gargoyle) on [Dragonstone](wiki:Dragonstone) that look more like [the Imp](wiki:Tyrion_Lannister) than this creature.(wiki:Dwarf_juggler.cite_ref-Raffc36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> Your head may have glass eyes, but I do not. There are gargoyles on Dragonstone that look more like the Imp than this creature.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister), to the [Tyroshi](wiki:Tyroshi)
+> —Cersei Lannister, to the Tyroshi, AFFC (`sources/chapters/affc/affc-cersei-08.md:105`)
 
 > **Tyroshi:** An honest mistake. One [dwarf](wiki:Dwarf) looks so much like another, and... Your Grace will observe, he has no nose... **Cersei:** He has no nose because you *cut it off*.(wiki:Dwarf_juggler.cite_ref-Raffc36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
 >

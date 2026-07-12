@@ -64,6 +64,6 @@ Sybelle ransoms six [ironborn prisoners](wiki:Ragged_nine) to [Tycho Nestoris](w
 
 ### Quotes about Sybelle
 
-> Whether Sybelle Glover would find any joy in the [fall of Moat Cailin](wiki:Siege_of_Moat_Cailin), Asha could not say. Lady Sybelle all but lived in her [godswood](wiki:Godswood), praying for her children and her husband's safe return. Another prayer like to go unanswered. Her [heart tree](wiki:Heart_tree) is as deaf and blind as our [Drowned God](wiki:Drowned_God). [Robett Glover](wiki:Robett_Glover) and his brother [Galbart](wiki:Galbart_Glover) had ridden south with the [Young Wolf](wiki:Robb_Stark). If the tales they had heard of the [Red Wedding](wiki:Red_Wedding) were even half-true, they were not like to ride north again. Her children are alive, at least, and that is thanks to me.(wiki:Sybelle_Glover.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-5)
+> Whether Sybelle Glover would find any joy in the fall of Moat Cailin, Asha could not say. Lady Sybelle all but lived in her godswood, praying for her children and her husband's safe return. Another prayer like to go unanswered. Her heart tree is as deaf and blind as our Drowned God. Robett Glover and his brother Galbart had ridden south with the Young Wolf. If the tales they had heard of the Red Wedding were even half-true, they were not like to ride north again. Her children are alive, at least, and that is thanks to me.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-wayward-bride-01.md:31`)

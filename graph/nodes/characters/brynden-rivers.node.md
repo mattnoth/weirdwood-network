@@ -123,9 +123,9 @@ Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) tells [Samwell Tarly](wi
 > “I wore many names when I was quick, but even I once had a mother, and the name she gave me at her breast was Brynden.”
 > —the [three-eyed crow](wiki:Three-eyed_crow) to [Meera Reed](wiki:Meera_Reed) (book cite: `sources/chapters/adwd/adwd-bran-03.md:19`)
 
-> I have my own ghosts, Bran. A brother that I loved, [a brother that I hated](wiki:Aegor_Rivers), [a woman I desired](wiki:Shiera_Seastar). Through [the trees](wiki:Weirwood), I see them still, but no word of mine has ever reached them. The past remains the past. We can learn from it, but we cannot change it.(wiki:Brynden_Rivers.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
+> I have my own ghosts, Bran. A brother that I loved, a brother that I hated, a woman I desired. Through the trees, I see them still, but no word of mine has ever reached them. The past remains the past. We can learn from it, but we cannot change it.
 >
-> —the [three-eyed crow](wiki:Three-eyed_crow) to [Bran Stark](wiki:Bran_Stark)
+> —the three-eyed crow to Bran Stark, ADWD (`sources/chapters/adwd/adwd-bran-03.md:195`)
 
 > I have watched you for a long time, watched you with a thousand eyes and one. I saw your birth, and that of your lord father before you. I saw your first step, heard your first word, was part of your first dream. I was watching when you fell.
 >

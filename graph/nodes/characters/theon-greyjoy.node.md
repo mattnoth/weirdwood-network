@@ -158,9 +158,9 @@ When [Victarion Greyjoy](wiki:Victarion_Greyjoy) and the [Iron Fleet](wiki:Iron_
 >
 > —Theon to [Robb Stark](wiki:Robb_Stark)
 
-> He'd led men in war, hunted with [a king](wiki:Robert_I_Baratheon), won honor in [tourney](wiki:Tourney) [melees](wiki:Melee), ridden with [Brynden Blackfish](wiki:Brynden_Blackfish) and [Greatjon Umber](wiki:Jon_Umber), fought in the [Whispering Wood](wiki:Battle_in_the_Whispering_Wood), [bedded](wiki:Bedded) more girls than he could name, and yet [this uncle](wiki:Aeron_Greyjoy) was treating him as though he were still a child of ten.(wiki:Theon_Greyjoy.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-15)
+> He'd led men in war, hunted with a king, won honor in tourney melees, ridden with Brynden Blackfish and Greatjon Umber, fought in the Whispering Wood, bedded more girls than he could name, and yet this uncle was treating him as though he were still a child of ten.
 >
-> —Theon's thoughts
+> —Theon's thoughts, ACOK (`sources/chapters/acok/acok-theon-01.md:195`)
 
 > **Balon**: [My daughter](wiki:Asha_Greyjoy) has taken an axe for a lover. I will not have my son bedeck himself like a [whore](wiki:Whore). It is as I feared. The [green lands](wiki:Green_lands) have made you soft, and the [Starks](wiki:House_Stark) have made you theirs. **Theon**: You're wrong. [Ned Stark](wiki:Eddard_Stark) was my gaoler, but my blood is still [salt and iron](wiki:Ironborn).(wiki:Theon_Greyjoy.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-16)
 >
@@ -170,9 +170,9 @@ When [Victarion Greyjoy](wiki:Victarion_Greyjoy) and the [Iron Fleet](wiki:Iron_
 >
 > —Theon and [Balon Greyjoy](wiki:Balon_Greyjoy)
 
-> Only a fool humbles himself when the world is so full of men eager to do that job for him.(wiki:Theon_Greyjoy.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
+> Only a fool humbles himself when the world is so full of men eager to do that job for him.
 >
-> —Theon to "[Esgred](wiki:Asha_Greyjoy)"
+> —Theon to "Esgred", ACOK (`sources/chapters/acok/acok-theon-02.md:275`)
 
 > **Asha:** Ten years [a wolf](wiki:House_Stark), and you land here and think to prince about [the islands](wiki:Iron_Islands), but you know nothing and no one. Why should men fight and die for you?
 >
@@ -194,9 +194,9 @@ When [Victarion Greyjoy](wiki:Victarion_Greyjoy) and the [Iron Fleet](wiki:Iron_
 >
 > —Theon to [Barbrey Dustin](wiki:Barbrey_Dustin)
 
-> Theon wondered what that would be like, to have a home.(wiki:Theon_Greyjoy.cite_ref-Radwd37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-11)
+> Theon wondered what that would be like, to have a home.
 >
-> —Theon's thoughts
+> —Theon's thoughts, ADWD (`sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:63`)
 
 > Please. A sword, that's all I ask. Let me die as Theon, not as [Reek](wiki:Reek).(wiki:Theon_Greyjoy.cite_ref-Radwd46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4)
 >
@@ -220,29 +220,29 @@ When [Victarion Greyjoy](wiki:Victarion_Greyjoy) and the [Iron Fleet](wiki:Iron_
 
 ### Quotes about Theon
 
-> He smiled a lot, as if the world were a secret joke that only he was clever enough to understand.(wiki:Theon_Greyjoy.cite_ref-Ragot37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-9)
+> He smiled a lot, as if the world were a secret joke that only he was clever enough to understand.
 >
-> —[Bran Stark](wiki:Bran_Stark)'s thoughts
+> —Bran Stark's thoughts, AGOT (`sources/chapters/agot/agot-bran-05.md:33`)
 
-> She studied Theon Greyjoy's sly smile, wondering what it meant. That young man had a way of looking as though he knew some secret jest that only he was privy to; Catelyn had never liked it.(wiki:Theon_Greyjoy.cite_ref-Racok7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-1)
+> She studied Theon Greyjoy's sly smile, wondering what it meant. That young man had a way of looking as though he knew some secret jest that only he was privy to; Catelyn had never liked it.
 >
-> —[Catelyn Stark](wiki:Catelyn_Stark)'s thoughts
+> —Catelyn Stark's thoughts, ACOK (`sources/chapters/acok/acok-catelyn-01.md:65`)
 
-> Your [lord father](wiki:Eddard_Stark) did what he could to gentle Theon, but I fear it was too little and too late.(wiki:Theon_Greyjoy.cite_ref-Racok46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-2)
+> Your lord father did what he could to gentle Theon, but I fear it was too little and too late.
 >
-> —[Luwin](wiki:Luwin) to [Bran Stark](wiki:Bran_Stark)
+> —Luwin to Bran Stark, ACOK (`sources/chapters/acok/acok-bran-06.md:85`)
 
 > He had only the vaguest memory of Theon Greyjoy from his time with the [Starks](wiki:House_Stark). A callow youth, always smiling, skilled with a bow; it was hard to imagine him as Lord of [Winterfell](wiki:Winterfell).(wiki:Theon_Greyjoy.cite_ref-Racok49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
 
-> If Theon had died in place of Lord [Karstark](wiki:Rickard_Karstark)'s sons, how much ill would have been undone?(wiki:Theon_Greyjoy.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-1)
+> If Theon had died in place of Lord Karstark's sons, how much ill would have been undone?
 >
-> —[Catelyn Stark](wiki:Catelyn_Stark)'s thoughts
+> —Catelyn Stark's thoughts, ASOS (`sources/chapters/asos/asos-catelyn-05.md:61`)
 
-> They can't be dead. Theon would never do that.(wiki:Theon_Greyjoy.cite_ref-Rasos48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_41-1)
+> They can't be dead. Theon would never do that.
 >
-> —[Jon Snow](wiki:Jon_Snow)'s thoughts, after hearing of the murder of [Bran](wiki:Bran_Stark) and [Rickon Stark](wiki:Rickon_Stark)
+> —Jon Snow's thoughts, after hearing of the murder of Bran and Rickon Stark, ASOS (`sources/chapters/asos/asos-jon-06.md:189`)
 
 > [The skin](wiki:Flaying) from the little finger of Theon Greyjoy's left hand. [My son](wiki:Ramsay_Snow) is cruel, I confess it. And yet ... what is a little skin, against the lives of [two young](wiki:Bran_Stark) [princes](wiki:Rickon_Stark)? You were their mother, my lady. May I offer you this ... small token of revenge?(wiki:Theon_Greyjoy.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_42-1)
 >
@@ -262,13 +262,13 @@ When [Victarion Greyjoy](wiki:Victarion_Greyjoy) and the [Iron Fleet](wiki:Iron_
 >
 > —[Arnolf Karstark](wiki:Arnolf_Karstark), [Ramsay Bolton](wiki:Ramsay_Snow), and [Hother Umber](wiki:Hother_Umber)
 
-> You're Reek. You'll always be Reek, no matter how sweet you smell. Your nose may lie to you. Remember your name. Remember who you are.(wiki:Theon_Greyjoy.cite_ref-Radwd20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-8)
+> You're Reek. You'll always be Reek, no matter how sweet you smell. Your nose may lie to you. Remember your name. Remember who you are.
 >
-> —[Ramsay Bolton](wiki:Ramsay_Snow) to Theon
+> —Ramsay Bolton to Theon, ADWD (`sources/chapters/adwd/adwd-reek-02.md:25`)
 
-> I send you each a [piece](wiki:Flaying) of prince. Linger in [my lands](wiki:North), and share his fate.(wiki:Theon_Greyjoy.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_49-1)
+> I send you each a piece of prince. Linger in my lands, and share his fate.
 >
-> —[Ramsay Bolton](wiki:Ramsay_Snow), in a letter to [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —Ramsay Bolton, in a letter to Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-wayward-bride-01.md:23`)
 
 > **Stannis**: I am sorry for [your mother](wiki:Alannys_Harlaw), but I do not spare the lives of [turncloaks](wiki:Turncloak). This one, especially. He slew two sons of [Eddard Stark](wiki:Eddard_Stark). Every [Northman](wiki:North) in my service would abandon me if I showed him any clemency. Your brother must die. **Asha**: Then do the deed yourself, Your Grace. Take him out across the lake to the islet where the [weirwood](wiki:Weirwood) grows, and strike his head off with that [sorcerous](wiki:Sorcery) [sword you bear](wiki:Lightbringer). That is how Eddard Stark would have done it. Theon slew Lord Eddard's sons. Give him to Lord Eddard's gods. The [old gods](wiki:Old_gods) of the north. Give him to the tree.(wiki:Theon_Greyjoy.cite_ref-twow_51-4)
 >

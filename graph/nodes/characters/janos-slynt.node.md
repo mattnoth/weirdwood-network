@@ -89,9 +89,9 @@ Janos's accusations toward Jon are remembered by some of the men at Castle Black
 
 ### Quotes by Janos
 
-> You and your threats, well, we will see. I am the king's friend, you know. We shall hear what [Joffrey](wiki:Joffrey_Baratheon) has to say about this. And [Littlefinger](wiki:Petyr_Baelish) and [the queen](wiki:Cersei_Lannister), oh, yes. Janos Slynt has a good many friends. We will see who goes sailing, I promise you. Indeed we will.(wiki:Janos_Slynt.cite_ref-Racok8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
+> You and your threats, well, we will see. I am the king's friend, you know. We shall hear what Joffrey has to say about this. And Littlefinger and the queen, oh, yes. Janos Slynt has a good many friends. We will see who goes sailing, I promise you. Indeed we will.
 >
-> —Janos to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Janos to Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-02.md:129`)
 
 > **Janos**: You lie through your [bastard](wiki:Bastard)'s teeth. Well, I will not suffer it. I will not! You might have fooled [this crippled blacksmith](wiki:Donal_Noye), but not Janos Slynt! Oh, no. Janos Slynt does not swallow lies so easily. Did you think my skull was stuffed with cabbage? **Jon**: I don't know what your skull is stuffed with. My lord.(wiki:Janos_Slynt.cite_ref-Rasos69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-1)
 >
@@ -117,17 +117,17 @@ Janos's accusations toward Jon are remembered by some of the men at Castle Black
 
 ### Quotes about Janos
 
-> If you cannot keep the king's peace, Janos, perhaps the [City Watch](wiki:City_Watch_of_King's_Landing) should be commanded by someone who can.(wiki:Janos_Slynt.cite_ref-Ragot27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+> If you cannot keep the king's peace, Janos, perhaps the City Watch should be commanded by someone who can.
 >
-> —[Renly Baratheon](wiki:Renly_Baratheon) to Janos
+> —Renly Baratheon to Janos, AGOT (`sources/chapters/agot/agot-eddard-06.md:19`)
 
-> Frog-faced Lord Slynt sat at the end of the [council](wiki:Small_council) table wearing a black velvet doublet and a shiny cloth-of-[gold](wiki:Gold) cape, nodding with approval every time [the king](wiki:Joffrey_Baratheon) pronounced a sentence. Sansa stared hard at his ugly face, remembering how he had thrown down [her father](wiki:Eddard_Stark) for Ser [Ilyn](wiki:Ilyn_Payne) to behead, wishing she could hurt him, wishing that some hero would throw him down and cut off his head.(wiki:Janos_Slynt.cite_ref-Ragot67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-1)
+> Frog-faced Lord Slynt sat at the end of the council table wearing a black velvet doublet and a shiny cloth-of-gold cape, nodding with approval every time the king pronounced a sentence. Sansa stared hard at his ugly face, remembering how he had thrown down her father for Ser Ilyn to behead, wishing she could hurt him, wishing that some hero would throw him down and cut off his head.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, AGOT (`sources/chapters/agot/agot-sansa-06.md:87`)
 
-> Whose notion was it to make this Janos Slynt a lord? The man's father was a butcher, and they grant him [Harrenhal](wiki:Harrenhal). Harrenhal, that was the [seat of kings](wiki:House_Hoare)! Not that he will ever set foot inside it, if I have a say. I am told he took a bloody spear for his sigil. A bloody cleaver would have been my choice.(wiki:Janos_Slynt.cite_ref-Ragot69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> Whose notion was it to make this Janos Slynt a lord? The man's father was a butcher, and they grant him Harrenhal. Harrenhal, that was the seat of kings! Not that he will ever set foot inside it, if I have a say. I am told he took a bloody spear for his sigil. A bloody cleaver would have been my choice.
 >
-> —[Tywin Lannister](wiki:Tywin_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Tywin Lannister to Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-09.md:161`)
 
 > **Tyrion**: Janos Slynt is a butcher's son. You yourself told me—
 >
@@ -143,9 +143,9 @@ Janos's accusations toward Jon are remembered by some of the men at Castle Black
 >
 > —[Denys Mallister](wiki:Denys_Mallister) to [Samwell Tarly](wiki:Samwell_Tarly)
 
-> All of a man's crimes were wiped away when he [took the black](wiki:Night's_Watch), and all of his allegiances as well, yet he found it hard to think of Janos Slynt as a brother. There is blood between us. This man helped slay [my father](wiki:Eddard_Stark) and did his best to have me killed as well.(wiki:Janos_Slynt.cite_ref-Radwd7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-6)
+> All of a man's crimes were wiped away when he took the black, and all of his allegiances as well, yet he found it hard to think of Janos Slynt as a brother. There is blood between us. This man helped slay my father and did his best to have me killed as well.
 >
-> —[Jon Snow](wiki:Jon_Snow)'s thoughts
+> —Jon Snow's thoughts, ADWD (`sources/chapters/adwd/adwd-jon-02.md:313`)
 
 > **Jon**: I will not hang him. Bring him here.
 >

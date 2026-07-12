@@ -67,22 +67,22 @@ In Meereen, [Daenerys Targaryen](wiki:Daenerys_Targaryen) receives the news of t
 
 ## Quotes
 
-> The [Red City](wiki:Astapor) was the closest thing to hell he ever hoped to know.(wiki:Siege_of_Astapor.cite_ref-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+> The Red City was the closest thing to hell he ever hoped to know.
 >
-> —thoughts of [Quentyn Martell](wiki:Quentyn_Martell)
+> —thoughts of Quentyn Martell, ADWD (`sources/chapters/adwd/adwd-the-windblown-01.md:29`)
 
-> We were dancing with cripples at [Astapor](wiki:Astapor).(wiki:Siege_of_Astapor.cite_ref-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
+> We were dancing with cripples at Astapor.
 >
-> —[Beans](wiki:Beans) to [Books](wiki:Books)
+> —Beans to Books, ADWD (`sources/chapters/adwd/adwd-the-windblown-01.md:77`)
 
 > That was butchery, not battle.(wiki:Siege_of_Astapor.cite_ref-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
 >
 > —[Denzo D'han](wiki:Denzo_D'han) to the [Windblown](wiki:Windblown)
 
-> By the time he'd left the field, his sword was running red with blood and his arm was so tired he could hardly lift it.(wiki:Siege_of_Astapor.cite_ref-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
+> By the time he'd left the field, his sword was running red with blood and his arm was so tired he could hardly lift it.
 >
-> —thoughts of [Quentyn Martell](wiki:Quentyn_Martell)
+> —thoughts of Quentyn Martell, ADWD (`sources/chapters/adwd/adwd-the-windblown-01.md:101`)
 
-> Ash and bone is Astapor, and ash and bone its people.(wiki:Siege_of_Astapor.cite_ref-Radwd30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-7)
+> Ash and bone is Astapor, and ash and bone its people.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-05.md:285`)

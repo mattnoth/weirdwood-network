@@ -63,15 +63,15 @@ When Jeor tells [Tyrion Lannister](wiki:Tyrion_Lannister) about the conditions o
 >
 > —[Waymar Royce](wiki:Waymar_Royce) and Gared
 
-> Everyone talks about snows forty foot deep, and how the ice wind comes howling out of the north, but the real enemy is the cold.(wiki:Gared.cite_ref-Ragotprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+> Everyone talks about snows forty foot deep, and how the ice wind comes howling out of the north, but the real enemy is the cold.
 >
-> —Gared to [Waymar Royce](wiki:Waymar_Royce)
+> —Gared to Waymar Royce, AGOT (`sources/chapters/agot/agot-prologue.md:75`)
 
 ### Quotes about Gared
 
-> Gared had spent forty years in the [Night's Watch](wiki:Night's_Watch), man and boy, and he was not accustomed to being made light of. Yet it was more than that. Under the wounded pride, Will could sense something else in the older man. You could taste it; a nervous tension that came perilous close to fear.(wiki:Gared.cite_ref-Ragotprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+> Gared had spent forty years in the Night's Watch, man and boy, and he was not accustomed to being made light of. Yet it was more than that. Under the wounded pride, Will could sense something else in the older man. You could taste it; a nervous tension that came perilous close to fear.
 >
-> —thoughts of [Will](wiki:Will)
+> —thoughts of Will, AGOT (`sources/chapters/agot/agot-prologue.md:31`)
 
 > **Robb**: The deserter died bravely. He had courage, at the least. **Jon**: No. It was not courage. This one was dead of fear. You could see it in his eyes, Stark.(wiki:Gared.cite_ref-Ragot1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
 >

@@ -83,10 +83,10 @@ Ser [Barristan Selmy](wiki:Barristan_Selmy), the [Hand of the Queen](wiki:Hand_o
 
 ### Quotes about Archibald
 
-> [The sellswords](wiki:Windblown) loved Greenguts, who bet as fearlessly as he fought, but with far less success.(wiki:Archibald_Yronwood.cite_ref-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
+> The sellswords loved Greenguts, who bet as fearlessly as he fought, but with far less success.
 >
-> —thoughts of [Quentyn Martell](wiki:Quentyn_Martell)
+> —thoughts of Quentyn Martell, ADWD (`sources/chapters/adwd/adwd-the-windblown-01.md:33`)
 
-> The [Dornishmen](wiki:Dornishmen) were [knights](wiki:Knight), at least in name, though only Yronwood impressed him as having the true [steel](wiki:Steel). [Drinkwater](wiki:Gerris_Drinkwater) had a pretty face, a glib tongue, and a fine head of hair.(wiki:Archibald_Yronwood.cite_ref-Radwd70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-3)
+> The Dornishmen were knights, at least in name, though only Yronwood impressed him as having the true steel. Drinkwater had a pretty face, a glib tongue, and a fine head of hair.
 >
-> —thoughts of [Barristan Selmy](wiki:Barristan_Selmy)
+> —thoughts of Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-queens-hand-01.md:251`)

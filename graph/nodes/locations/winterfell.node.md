@@ -173,25 +173,25 @@ Mors had his troops built pits outside the main gate. The Freys ride into them, 
 >
 > —[Bran Stark](wiki:Bran_Stark)'s thoughts
 
-> He remembered Winterfell as he had last seen it. Not as grotesquely huge as [Harrenhal](wiki:Harrenhal), nor as solid and impregnable to look at as [Storm's End](wiki:Storm's_End), yet there had been a great strength in those stones, a sense that within those walls a man might feel safe. The news of the castle’s fall had come as a wrenching shock.(wiki:Winterfell.cite_ref-Racok54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_62-0)
+> He remembered Winterfell as he had last seen it. Not as grotesquely huge as Harrenhal, nor as solid and impregnable to look at as Storm's End, yet there had been a great strength in those stones, a sense that within those walls a man might feel safe. The news of the castle’s fall had come as a wrenching shock.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
+> —Tyrion Lannister's thoughts, ACOK (`sources/chapters/acok/acok-tyrion-11.md:63`)
 
-> The Lord of Winterfell would always be a [Stark](wiki:House_Stark).(wiki:Winterfell.cite_ref-Racok54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_62-1)
+> The Lord of Winterfell would always be a Stark.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
+> —Tyrion Lannister's thoughts, ACOK (`sources/chapters/acok/acok-tyrion-11.md:67`)
 
-> "The [Prince of Winterfell](wiki:Prince_of_Winterfell)." Of Winterfell burned and tumbled, its people scattered and slain. The glass gardens were smashed, and hot water gushed from the cracked walls to steam beneath the sun. How can you be the prince of someplace you might never see again?(wiki:Winterfell.cite_ref-Rasos9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_63-0)
+> "The Prince of Winterfell." Of Winterfell burned and tumbled, its people scattered and slain. The glass gardens were smashed, and hot water gushed from the cracked walls to steam beneath the sun. How can you be the prince of someplace you might never see again?
 >
-> —[Bran Stark](wiki:Bran_Stark)'s thoughts
+> —Bran Stark's thoughts, ASOS (`sources/chapters/asos/asos-bran-01.md:85`)
 
 > The [weirwood](wiki:Weirwood) was the heart of Winterfell, Lord [Eddard](wiki:Eddard_Stark) always said ... but to save the castle Jon would have to tear that heart up by its ancient roots, and feed it to [the red woman's](wiki:Melisandre) hungry [fire god](wiki:R'hllor). I have no right. Winterfell belongs to the [old gods](wiki:Old_gods).(wiki:Winterfell.cite_ref-Rasos79.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_64-0)
 >
 > —[Jon Snow](wiki:Jon_Snow)'s thoughts
 
-> Drifting snowflakes brushed her face as light as lover’s kisses, and melted on her cheeks. At the center of the garden, beside the statue of the weeping woman that lay broken and half-buried on the ground, she turned her face up to the sky and closed her eyes. She could feel the snow on her lashes, taste it on her lips. It was the taste of Winterfell. The taste of innocence. The taste of dreams.(wiki:Winterfell.cite_ref-Rasos80.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-7)
+> Drifting snowflakes brushed her face as light as lover’s kisses, and melted on her cheeks. At the center of the garden, beside the statue of the weeping woman that lay broken and half-buried on the ground, she turned her face up to the sky and closed her eyes. She could feel the snow on her lashes, taste it on her lips. It was the taste of Winterfell. The taste of innocence. The taste of dreams.
 >
-> —[Sansa Stark](wiki:Sansa_Stark)'s thoughts, at the [Eyrie](wiki:Eyrie)
+> —Sansa Stark's thoughts, at the Eyrie, ASOS (`sources/chapters/asos/asos-sansa-07.md:31`)
 
 > **Petyr**: May I come into your castle, my lady?
 >
@@ -199,13 +199,13 @@ Mors had his troops built pits outside the main gate. The Freys ride into them, 
 >
 > —[Sansa Stark](wiki:Sansa_Stark) makes a snow castle of Winterfell with [Petyr Baelish](wiki:Petyr_Baelish)
 
-> Winterfell was full of ghosts for Theon Greyjoy.(wiki:Winterfell.cite_ref-Radwd37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-3)
+> Winterfell was full of ghosts for Theon Greyjoy.
 >
-> —[Theon Greyjoy](wiki:Theon_Greyjoy)'s thoughts
+> —Theon Greyjoy's thoughts, ADWD (`sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:93`)
 
-> It was my home, though. Not a true home, but the best I ever knew.(wiki:Winterfell.cite_ref-Radwd46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-5)
+> It was my home, though. Not a true home, but the best I ever knew.
 >
-> —[Theon Greyjoy](wiki:Theon_Greyjoy)'s thoughts
+> —Theon Greyjoy's thoughts, ADWD (`sources/chapters/adwd/adwd-a-ghost-in-winterfell-01.md:155`)
 
 > They stood in the shadow of the First Keep, or what remained of it. One whole side of the building had torn loose and fallen away. Stone and shattered gargoyles lay strewn across the yard. They fell just where I did, Bran thought when he saw them.
 

@@ -87,13 +87,13 @@ Despite numerous threats facing the [Iron Throne](wiki:Iron_Throne), including [
 
 ### Quotes by Mace
 
-> There is no greater pleasure than to serve the King's Grace. If I was deemed worthy to join your [royal council](wiki:Small_council), you would find none more loyal or true.(wiki:Mace_Tyrell.cite_ref-Racok65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-2)
+> There is no greater pleasure than to serve the King's Grace. If I was deemed worthy to join your royal council, you would find none more loyal or true.
 >
-> —Mace to [Joffrey I Baratheon](wiki:Joffrey_I_Baratheon)
+> —Mace to Joffrey I Baratheon, ACOK (`sources/chapters/acok/acok-sansa-08.md:33`)
 
-> Is there anything as pointless as a king without a kingdom? No, it's plain, [the boy](wiki:Robb_Stark) must abandon the [riverlands](wiki:Riverlands), join his forces to [Roose Bolton](wiki:Roose_Bolton)'s once more, and throw all his strength against [Moat Cailin](wiki:Moat_Cailin). That is what I would do.(wiki:Mace_Tyrell.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-6)
+> Is there anything as pointless as a king without a kingdom? No, it's plain, the boy must abandon the riverlands, join his forces to Roose Bolton's once more, and throw all his strength against Moat Cailin. That is what I would do.
 >
-> —Mace to [Joffrey I Baratheon](wiki:Joffrey_I_Baratheon)'s [small council](wiki:Small_council)
+> —Mace to Joffrey I Baratheon's small council, ASOS (`sources/chapters/asos/asos-tyrion-03.md:45`)
 
 > **Mace**: Once [Paxter Redwyne](wiki:Paxter_Redwyne) sweeps the [ironmen](wiki:Ironmen) from the seas, my sons will retake the [Shields](wiki:Shield_Islands). [The snows](wiki:March_on_Winterfell) will do for [Stannis](wiki:Stannis_Baratheon), or [Bolton](wiki:Roose_Bolton) will. As for [Connington](wiki:Jon_Connington) ...
 >
@@ -111,21 +111,21 @@ Despite numerous threats facing the [Iron Throne](wiki:Iron_Throne), including [
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
 
-> [Robb Stark](wiki:Robb_Stark) had won more battles in a year than the [Lord](wiki:Lord) of [Highgarden](wiki:Highgarden) had in twenty.(wiki:Mace_Tyrell.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-8)
+> Robb Stark had won more battles in a year than the Lord of Highgarden had in twenty.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
+> —Tyrion Lannister's thoughts, ASOS (`sources/chapters/asos/asos-tyrion-03.md:47`)
 
-> [The mob](wiki:Smallfolk) loved [Margaery](wiki:Margaery_Tyrell) so much they were even willing to love [Joffrey](wiki:Joffrey_Baratheon) again. She had belonged to [Renly](wiki:Renly_Baratheon), the handsome young prince who had loved them so well he had come back from beyond the grave to save them. And the bounty of [Highgarden](wiki:Highgarden) had come with her, flowing up the [roseroad](wiki:Roseroad) from the south. The fools didn't seem to remember that it had been Mace Tyrell who closed the roseroad to begin with, and made the bloody famine.(wiki:Mace_Tyrell.cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-3)
+> The mob loved Margaery so much they were even willing to love Joffrey again. She had belonged to Renly, the handsome young prince who had loved them so well he had come back from beyond the grave to save them. And the bounty of Highgarden had come with her, flowing up the roseroad from the south. The fools didn't seem to remember that it had been Mace Tyrell who closed the roseroad to begin with, and made the bloody famine.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
+> —Tyrion Lannister's thoughts, ASOS (`sources/chapters/asos/asos-tyrion-08.md:41`)
 
 > You would be a fool to make Mace Tyrell your [Hand](wiki:Hand_of_the_King), but a bigger fool to make him your foe.(wiki:Mace_Tyrell.cite_ref-Raffc7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-5)
 >
 > —[Kevan Lannister](wiki:Kevan_Lannister) to [Cersei Lannister](wiki:Cersei_Lannister)
 
-> His sigil ought to be a fat man sitting on his arse.(wiki:Mace_Tyrell.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-0)
+> His sigil ought to be a fat man sitting on his arse.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister)'s thoughts
+> —Cersei Lannister's thoughts, AFFC (`sources/chapters/affc/affc-cersei-05.md:55`)
 
 > The more I give him, the more he wants.(wiki:Mace_Tyrell.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_47-4)
 >

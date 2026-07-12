@@ -57,6 +57,6 @@ Moat Cailin is eventually [besieged](wiki:Siege_of_Moat_Cailin) and taken by a B
 >
 > —[Balon Greyjoy](wiki:Balon_Greyjoy) to [Victarion Greyjoy](wiki:Victarion_Greyjoy)
 
-> Moat Cailin is the key. Lord [Balon](wiki:Balon_Greyjoy) knew that, which is why he sent his brother [Victarion](wiki:Victarion_Greyjoy) there with the hard heart of the [Greyjoy](wiki:House_Greyjoy) strength.(wiki:Fall_of_Moat_Cailin.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
+> Moat Cailin is the key. Lord Balon knew that, which is why he sent his brother Victarion there with the hard heart of the Greyjoy strength.
 >
-> —[Robb Stark](wiki:Robb_Stark) to his bannermen
+> —Robb Stark to his bannermen, ASOS (`sources/chapters/asos/asos-catelyn-05.md:215`)

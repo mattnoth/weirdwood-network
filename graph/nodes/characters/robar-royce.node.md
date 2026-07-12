@@ -73,14 +73,14 @@ Now a member of the [Kingsguard](wiki:Kingsguard), Loras sadly recalls that he k
 
 ### Quotes about Robar
 
-> Ser Robar's ancestral [runes](wiki:Runes) proved small protection as Ser [Loras](wiki:Loras_Tyrell) split his shield and drove him from his saddle to crash with an awful clangor in the dirt. Robar lay moaning as the victor made his circuit of the field.(wiki:Robar_Royce.cite_ref-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> Ser Robar's ancestral runes proved small protection as Ser Loras split his shield and drove him from his saddle to crash with an awful clangor in the dirt. Robar lay moaning as the victor made his circuit of the field.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, AGOT (`sources/chapters/agot/agot-sansa-02.md:41`)
 
-> They are still unblooded, Catelyn thought as she watched Lord [Bryce](wiki:Bryce_Caron) goad Ser Robar into juggling a brace of daggers. It is all a game to them still, a [tourney](wiki:Tourney) writ large, and all they see is the chance for glory and honor and spoils. They are boys drunk on song and story, and like all boys, they think themselves immortal.(wiki:Robar_Royce.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
+> They are still unblooded, Catelyn thought as she watched Lord Bryce goad Ser Robar into juggling a brace of daggers. It is all a game to them still, a tourney writ large, and all they see is the chance for glory and honor and spoils. They are boys drunk on song and story, and like all boys, they think themselves immortal.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-02.md:219`)
 
-> [Renly](wiki:Renly_Baratheon) is dead. Robar as well. What use to speak of them?(wiki:Robar_Royce.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
+> Renly is dead. Robar as well. What use to speak of them?
 >
-> —[Loras Tyrell](wiki:Loras_Tyrell) to [Sansa Stark](wiki:Sansa_Stark)
+> —Loras Tyrell to Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-01.md:77`)

@@ -49,13 +49,13 @@ In the [crypts of Winterfell](wiki:Crypts_of_Winterfell), [Barbrey Dustin](wiki:
 
 ### Quotes about Willam
 
-> In the dream his friends rode with him, as they had in life. Proud [Martyn Cassel](wiki:Martyn_Cassel), [Jory](wiki:Jory_Cassel)'s father; faithful [Theo Wull](wiki:Theo_Wull); [Ethan Glover](wiki:Ethan_Glover), who had been [Brandon](wiki:Brandon_Stark)'s [squire](wiki:Squire); Ser [Mark Ryswell](wiki:Mark_Ryswell), soft of speech and gentle of heart; the [crannogman](wiki:Crannogman), [Howland Reed](wiki:Howland_Reed); Lord Dustin on his great red [stallion](wiki:Horse). Ned had known their faces as well as he knew his own once, but the years leech at a man's memories, even those he has vowed never to forget. In the dream they were only shadows, grey wraiths on horses made of mist.(wiki:Willam_Dustin.cite_ref-Ragot39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+> In the dream his friends rode with him, as they had in life. Proud Martyn Cassel, Jory's father; faithful Theo Wull; Ethan Glover, who had been Brandon's squire; Ser Mark Ryswell, soft of speech and gentle of heart; the crannogman, Howland Reed; Lord Dustin on his great red stallion. Ned had known their faces as well as he knew his own once, but the years leech at a man's memories, even those he has vowed never to forget. In the dream they were only shadows, grey wraiths on horses made of mist.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-10.md:13`)
 
-> When Lord Dustin had [beheld her naked](wiki:Bedding), he'd told [Ned](wiki:Eddard_Stark) that her breasts were enough to make him wish he'd never been weaned. Poor man, she thought. He had [ridden south](wiki:Robert's_Rebellion) with Ned, [never to return](wiki:Combat_at_the_tower_of_joy).(wiki:Willam_Dustin.cite_ref-Rasos51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+> When Lord Dustin had beheld her naked, he'd told Ned that her breasts were enough to make him wish he'd never been weaned. Poor man, she thought. He had ridden south with Ned, never to return.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-07.md:83`)
 
 > [Ned Stark](wiki:Eddard_Stark) returned the [horse](wiki:Horse) to me on his way back home to [Winterfell](wiki:Winterfell). He told me that my lord had died [an honorable death](wiki:Combat_at_the_tower_of_joy), that his body had been laid to rest beneath the [red mountains](wiki:Red_mountains) of [Dorne](wiki:Dorne). He brought [his sister's](wiki:Lyanna_Stark) bones back [north](wiki:North), though, and [there she rests](wiki:Crypt_of_Winterfell)... but I promise you, Lord Eddard's bones will never rest beside hers. I mean to feed them to my [dogs](wiki:Dog).(wiki:Willam_Dustin.cite_ref-Radwd41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
 >

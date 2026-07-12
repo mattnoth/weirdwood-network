@@ -86,9 +86,9 @@ Ramsay, Lord of the Hornwood, weds "[Arya Stark](wiki:Arya_Stark)" (actually [Je
 >
 > —[Wyman Manderly](wiki:Wyman_Manderly) to [Bran Stark](wiki:Bran_Stark), [Luwin](wiki:Luwin), and [Rodrik Cassel](wiki:Rodrik_Cassel)
 
-> She was a pale husk of a woman, every line of her face etched with grief.(wiki:Donella_Hornwood.cite_ref-Racok16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-15)
+> She was a pale husk of a woman, every line of her face etched with grief.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, ACOK (`sources/chapters/acok/acok-bran-02.md:127`)
 
 > **Mors**: Who better to protect the widow's lands than an [Umber](wiki:House_Umber), and what Umber better than me?
 >
@@ -96,6 +96,6 @@ Ramsay, Lord of the Hornwood, weds "[Arya Stark](wiki:Arya_Stark)" (actually [Je
 >
 > —[Mors Umber](wiki:Mors_Umber) and [Luwin](wiki:Luwin)
 
-> And do you imagine the [Hornwood](wiki:Hornwood) men have forgotten [the Bastard's](wiki:Ramsay_Snow) last marriage, and how his lady wife was left to starve, chewing her own fingers? What do you think passes through their heads when they hear [the new bride](wiki:Jeyne_Poole) weeping?(wiki:Donella_Hornwood.cite_ref-Radwd41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1)
+> And do you imagine the Hornwood men have forgotten the Bastard's last marriage, and how his lady wife was left to starve, chewing her own fingers? What do you think passes through their heads when they hear the new bride weeping?
 >
-> —[Barbrey Dustin](wiki:Barbrey_Dustin) to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Barbrey Dustin to Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-turncloak-01.md:165`)

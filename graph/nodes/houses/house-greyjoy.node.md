@@ -142,13 +142,13 @@ Since his disappearance following the [kingsmoot](wiki:Kingsmoot_on_Old_Wyk), [A
 >
 > —writings of [Yandel](wiki:Yandel)
 
-> I am a Greyjoy of [Pyke](wiki:Pyke), born to paint a [kraken](wiki:Kraken) on my shield and sail the [great salt sea](wiki:Sunset_Sea).(wiki:House_Greyjoy.cite_ref-Racok56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-2)
+> I am a Greyjoy of Pyke, born to paint a kraken on my shield and sail the great salt sea.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-05.md:151`)
 
-> [A lion](wiki:House_Lannister) may be fierce enough on land, but at sea the [kraken](wiki:Kraken) rules supreme.(wiki:House_Greyjoy.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_47-3)
+> A lion may be fierce enough on land, but at sea the kraken rules supreme.
 >
-> —[Victarion Greyjoy](wiki:Victarion_Greyjoy) to [Dunstan Drumm](wiki:Dunstan_Drumm)
+> —Victarion Greyjoy to Dunstan Drumm, AFFC (`sources/chapters/affc/affc-the-reaver-01.md:139`)
 
 > In those days, the ironborn did not work mines; that was labor for the captives brought back from the hostings, and so too the sorry business of farming and tending goats and sheep. War was an ironman’s proper trade. The Drowned God had made them to reave and rape, to carve out kingdoms and write their names in fire and blood and song. Aegon the Dragon had destroyed the Old Way when he burned Black Harren, gave Harren’s kingdom back to the weakling rivermen, and reduced the Iron Islands to an insignificant backwater of a much greater realm. Yet the old red tales were still told around driftwood fires and smoky hearths all across the islands, even behind the high stone halls of Pyke. Theon’s father numbered among his titles the style of Lord Reaper, and the Greyjoy words boasted that We Do Not Sow.
 

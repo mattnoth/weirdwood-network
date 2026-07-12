@@ -70,9 +70,9 @@ It is revealed that Aenys fell from his horse and broke his neck when he and his
 
 ## Quotes
 
-> We trusted the word of [Robb Stark](wiki:Robb_Stark), and he repaid our faith with [betrayal](wiki:Jeyne_Westerling).(wiki:Aenys_Frey.cite_ref-Rasos31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
+> We trusted the word of Robb Stark, and he repaid our faith with betrayal.
 >
-> —Aenys to [Brienne of Tarth](wiki:Brienne_of_Tarth)
+> —Aenys to Brienne of Tarth, ASOS (`sources/chapters/asos/asos-jaime-04.md:121`)
 
 > **Aenys**: I do not claim Lord [Wyman](wiki:Wyman_Manderly) does the deeds himself. He brought three hundred men with him. A hundred [knights](wiki:Knight). Any of them might have— **Barbrey**: Night work is not knight's work. And Lord Wyman is not the only man who lost kin at your [Red Wedding](wiki:Red_Wedding), Frey. Do you imagine [Whoresbane](wiki:Hother_Umber) loves you any better? If you did not hold the [Greatjon](wiki:Jon_Umber), he would pull out your entrails and make you eat them, as Lady [Hornwood](wiki:Donella_Hornwood) ate her fingers. [Flints](wiki:House_Flint), [Cerwyns](wiki:House_Cerwyn), [Tallharts](wiki:House_Tallhart), [Slates](wiki:House_Slate) ... they all had men with the [Young Wolf](wiki:Robb_Stark). **Roger**: [House Ryswell](wiki:House_Ryswell) too. **Barbrey**: Even [Dustins](wiki:House_Dustin) out of [Barrowton](wiki:Barrowton). The [north](wiki:North) remembers, Frey. **Aenys**: Stark dishonored us. That is what you northmen had best remember.(wiki:Aenys_Frey.cite_ref-Radwd46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4)
 >

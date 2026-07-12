@@ -65,9 +65,9 @@ After being captured by the [brotherhood without banners](wiki:Brotherhood_witho
 
 ## Quotes
 
-> You are all your [lord](wiki:Lord) father claimed you were.(wiki:Selwyn_Tarth.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+> You are all your lord father claimed you were.
 >
-> —[Renly Baratheon](wiki:Renly_Baratheon), to [Brienne Tarth](wiki:Brienne_Tarth)
+> —Renly Baratheon, to Brienne Tarth, ACOK (`sources/chapters/acok/acok-catelyn-02.md:125`)
 
 > **Brienne**: I never knew my mother. My father had [ladies](wiki:Paramour)... a different lady every year, but... **Catelyn**: Those were no ladies.(wiki:Selwyn_Tarth.cite_ref-Racok45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-5)
 >
@@ -79,9 +79,9 @@ After being captured by the [brotherhood without banners](wiki:Brotherhood_witho
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) and [Brienne Tarth](wiki:Brienne_Tarth)
 
-> As for you, my lady, it is said that your father is a good man. If so, I pity him. Some men are blessed with sons, some with daughters. No man deserves to be cursed with such as you.(wiki:Selwyn_Tarth.cite_ref-Raffc25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2)
+> As for you, my lady, it is said that your father is a good man. If so, I pity him. Some men are blessed with sons, some with daughters. No man deserves to be cursed with such as you.
 >
-> —[Randyll Tarly](wiki:Randyll_Tarly), to [Brienne Tarth](wiki:Brienne_Tarth)
+> —Randyll Tarly, to Brienne Tarth, AFFC (`sources/chapters/affc/affc-brienne-05.md:67`)
 
 > You have a noble father who must surely love you. Consider his grief if you should never return. Perhaps they will bring your [sword](wiki:Sword) and [shield](wiki:Shield) to him, after you have fallen. Perhaps he will even hang them in [his hall](wiki:Evenfall_Hall) and look on them with pride... but if you were to ask him, I know he would tell you that he would sooner have a living daughter than a shattered shield.(wiki:Selwyn_Tarth.cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-5)
 >

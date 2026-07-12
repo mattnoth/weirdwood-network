@@ -42,6 +42,6 @@ Returning to Riverrun after the [storming of the Crag](wiki:Storming_of_the_Crag
 
 ## Quotes
 
-> Nothing's more like to bring a [Lannister](wiki:House_Lannister) running than a threat to his [gold](wiki:Gold).(wiki:Seizure_of_westerlands_gold_mines.cite_ref-Racok39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> Nothing's more like to bring a Lannister running than a threat to his gold.
 >
-> —[Wendel Manderly](wiki:Wendel_Manderly) to [Martyn Rivers](wiki:Martyn_Rivers)
+> —Wendel Manderly to Martyn Rivers, ACOK (`sources/chapters/acok/acok-catelyn-05.md:49`)

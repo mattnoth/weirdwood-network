@@ -96,13 +96,13 @@ The [siege of Riverrun](wiki:Siege_of_Riverrun) is settled peacefully by Ser [Ja
 >
 > —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
 
-> Jeyne is bright as well as beautiful. And kind as well. She has a gentle heart.(wiki:Jeyne_Westerling.cite_ref-Rasos14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-16)
+> Jeyne is bright as well as beautiful. And kind as well. She has a gentle heart.
 >
-> —[Robb Stark](wiki:Robb_Stark), to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Robb Stark, to Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-02.md:139`)
 
-> I took [her castle](wiki:Crag) and she took my heart.(wiki:Jeyne_Westerling.cite_ref-Rasos14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-17)
+> I took her castle and she took my heart.
 >
-> —[Robb Stark](wiki:Robb_Stark), to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Robb Stark, to Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-02.md:143`)
 
 > **Tywin:** [The Young Wolf](wiki:Robb_Stark) has taken [Gawen Westerling](wiki:Gawen_Westerling)'s eldest daughter to wife.
 >
@@ -114,9 +114,9 @@ The [siege of Riverrun](wiki:Siege_of_Riverrun) is settled peacefully by Ser [Ja
 >
 > —[Kevan Lannister](wiki:Kevan_Lannister), to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> Having once married [a whore](wiki:Tysha), Tyrion could not entirely share [his uncle's](wiki:Kevan_Lannister) horror at the thought of wedding a girl whose great grandfather sold [cloves](wiki:Spices).(wiki:Jeyne_Westerling.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-5)
+> Having once married a whore, Tyrion could not entirely share his uncle's horror at the thought of wedding a girl whose great grandfather sold cloves.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-03.md:355`)
 
 > Jeyne Westerling is [her mother's](wiki:Sybell_Spicer) daughter, and [Robb Stark](wiki:Robb_Stark) is [his father's](wiki:Eddard_Stark) son.(wiki:Jeyne_Westerling.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-6)
 >
@@ -132,9 +132,9 @@ The [siege of Riverrun](wiki:Siege_of_Riverrun) is settled peacefully by Ser [Ja
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) and [Brynden Tully](wiki:Brynden_Tully)
 
-> Jeyne Westerling had been [Robb Stark](wiki:Robb_Stark)'s queen, the girl who cost him everything. With a [wolf](wiki:House_Stark) in her belly, she could have proved more dangerous than [the Blackfish](wiki:Brynden_Tully).(wiki:Jeyne_Westerling.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-9)
+> Jeyne Westerling had been Robb Stark's queen, the girl who cost him everything. With a wolf in her belly, she could have proved more dangerous than the Blackfish.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-07.md:67`)
 
 > She did not look dangerous. Jeyne was a willowy girl, no more than fifteen or sixteen, more awkward than graceful. She had breasts the size of apples, a mop of chestnut curls, and the soft brown eyes of a [doe](wiki:Doe). *Pretty enough for a child*, Jaime decided, *but not a girl to lose [a kingdom](wiki:King_in_the_North) for*.(wiki:Jeyne_Westerling.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-10)(wiki:Jeyne_Westerling.cite_ref-hips_8-1)
 >

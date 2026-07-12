@@ -56,17 +56,17 @@ Jon is willing to offer clemency to the Weeper and passage through the Wall if t
 
 ## Quotes
 
-> They were armed with spears and fire-hardened lances, all but their leader, a fleshy blond man with watery eyes who bore a great curved scythe of sharpened [steel](wiki:Steel). The Weeper, he knew at once. The [black brothers](wiki:Night's_Watch) told tales of this one. Like [Rattleshirt](wiki:Rattleshirt) and [Harma Dogshead](wiki:Harma_Dogshead) and [Alfyn Crowkiller](wiki:Alfyn_Crowkiller), he was a known raider.(wiki:Weeper.cite_ref-Rasos7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> They were armed with spears and fire-hardened lances, all but their leader, a fleshy blond man with watery eyes who bore a great curved scythe of sharpened steel. The Weeper, he knew at once. The black brothers told tales of this one. Like Rattleshirt and Harma Dogshead and Alfyn Crowkiller, he was a known raider.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ASOS (`sources/chapters/asos/asos-jon-01.md:43`)
 
-> Along with the [Tormunds](wiki:Tormund) and the [Longspears](wiki:Ryk) rode other sorts of [wildlings](wiki:Free_folk), though; men like [Rattleshirt](wiki:Rattleshirt) and the Weeper who would as soon slit you as spit on you.(wiki:Weeper.cite_ref-Rasos15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+> Along with the Tormunds and the Longspears rode other sorts of wildlings, though; men like Rattleshirt and the Weeper who would as soon slit you as spit on you.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ASOS (`sources/chapters/asos/asos-jon-02.md:123`)
 
-> Cutting out the eyes, that's the Weeper's work. The best [crow's](wiki:Night's_Watch) a blind crow, he likes to say. Sometimes I think he'd like to cut out his own eyes, the way they're always watering and itching. [Snow's](wiki:Jon_Snow) been assuming the [free folk](wiki:Free_folk) would turn to [Tormund](wiki:Tormund) to lead them, because that's what he would do. He liked Tormund, and the old fraud liked him too. If it's the Weeper, though ... that's not good. Not for him, and not for us.(wiki:Weeper.cite_ref-Radwd31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
+> Cutting out the eyes, that's the Weeper's work. The best crow's a blind crow, he likes to say. Sometimes I think he'd like to cut out his own eyes, the way they're always watering and itching. Snow's been assuming the free folk would turn to Tormund to lead them, because that's what he would do. He liked Tormund, and the old fraud liked him too. If it's the Weeper, though ... that's not good. Not for him, and not for us.
 >
-> —[Mance Rayder](wiki:Mance_Rayder) to [Melisandre](wiki:Melisandre)
+> —Mance Rayder to Melisandre, ADWD (`sources/chapters/adwd/adwd-melisandre-01.md:105`)
 
 > **Othell**: The Weeper will not say the words. He will not wear [the cloak](wiki:Night's_Watch). Even other raiders do not trust him.
 >

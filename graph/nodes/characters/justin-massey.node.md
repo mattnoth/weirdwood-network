@@ -98,18 +98,18 @@ Stannis tasks Justin to return with the sellswords even if he falls in battle, a
 
 ### Quotes about Justin
 
-> [Horpe](wiki:Richard_Horpe) and Massey aspire to [your father's seat](wiki:Winterfell). Massey wants [the wildling princess](wiki:Val) too. He once served my brother [Robert](wiki:Robert_I_Baratheon) as squire and acquired his appetite for female flesh.(wiki:Justin_Massey.cite_ref-Radwd17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-9)
+> Horpe and Massey aspire to your father's seat. Massey wants the wildling princess too. He once served my brother Robert as squire and acquired his appetite for female flesh.
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Jon Snow](wiki:Jon_Snow)
+> —Stannis Baratheon to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-04.md:219`)
 
-> A man of easy smiles and endless japes, large and well fleshed, with pink cheeks, blue eyes, and a wind-tossed tangle of white-blond hair as pale as flax, he was a considerate gaoler, ever solicitous of his captive's comfort.(wiki:Justin_Massey.cite_ref-Radwd42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-11)
+> A man of easy smiles and endless japes, large and well fleshed, with pink cheeks, blue eyes, and a wind-tossed tangle of white-blond hair as pale as flax, he was a considerate gaoler, ever solicitous of his captive's comfort.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-kings-prize-01.md:73`)
 
-> The [Crow's Eye](wiki:Euron_Greyjoy) could eat Ser Justin to break his fast and never even belch.(wiki:Justin_Massey.cite_ref-Radwd42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-12)
+> The Crow's Eye could eat Ser Justin to break his fast and never even belch.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-kings-prize-01.md:79`)
 
-> My champion is made of suet. Even so, Ser Justin was one of the few who might object should the [queen's men](wiki:Queen's_men) try to [burn her](wiki:Blood_sacrifice). (wiki:Justin_Massey.cite_ref-Radwd62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-9)
+> My champion is made of suet. Even so, Ser Justin was one of the few who might object should the queen's men try to burn her.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-sacrifice-01.md:217`)

@@ -41,9 +41,9 @@ When [Quentyn Martell](wiki:Quentyn_Martell), [Gerris Drinkwater](wiki:Gerris_Dr
 
 ### Quotes about Zahrina
 
-> Her flesh was maggot white; wrapped in the violet [tokar](wiki:Tokar), she looked like a prune gone to mold.(wiki:Zahrina.cite_ref-Radwd47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> Her flesh was maggot white; wrapped in the violet tokar, she looked like a prune gone to mold.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-10.md:73`)
 
 > **Tyrion**: Who is the old woman? **Soldier**: Zahrina. Cheap fighters, hers. Meat for heroes. [Your friend](wiki:Jorah_Mormont) dead soon.(wiki:Zahrina.cite_ref-Radwd47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
 >

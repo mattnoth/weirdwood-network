@@ -85,9 +85,9 @@ The company sails with Jon and Aegon from Volon Therys for Westeros, but the Vol
 
 ## Quotes
 
-> A brotherhood of exiles and the sons of exiles, united by the dream of [Bittersteel](wiki:Aegor_Rivers). It's home they want, as much as [gold](wiki:Gold).(wiki:Golden_Company.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> A brotherhood of exiles and the sons of exiles, united by the dream of Bittersteel. It's home they want, as much as gold.
 >
-> —[Arianne Martell](wiki:Arianne_Martell) to [Arys Oakheart](wiki:Arys_Oakheart)
+> —Arianne Martell to Arys Oakheart, AFFC (`sources/chapters/affc/affc-the-soiled-knight-01.md:269`)
 
 > **Tyrion**: How did you convince the Golden Company to take up the cause of our sweet queen when they have spent so much of their history fighting against the [Targaryens](wiki:House_Targaryen)? **Illyrio**: Black or red, a dragon is still a dragon. When [Maelys the Monstrous](wiki:Maelys_I_Blackfyre) died upon the [Stepstones](wiki:Stepstones), it was the end of the male line of [House Blackfyre](wiki:House_Blackfyre). And [Daenerys](wiki:Daenerys_Targaryen) will give the exiles what [Bittersteel](wiki:Aegor_Rivers) and the Blackfyres never could. She will take them home.(wiki:Golden_Company.cite_ref-Radwd5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
 >
@@ -103,6 +103,6 @@ The company sails with Jon and Aegon from Volon Therys for Westeros, but the Vol
 >
 > —[Harry Strickland](wiki:Harry_Strickland), [Lysono Maar](wiki:Lysono_Maar), and [Tristan Rivers](wiki:Tristan_Rivers)
 
-> These were the heirs of [Bittersteel](wiki:Aegor_Rivers), and discipline was mother's milk to them.(wiki:Golden_Company.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-4)
+> These were the heirs of Bittersteel, and discipline was mother's milk to them.
 >
-> —[Jon Connington](wiki:Jon_Connington)'s thoughts
+> —Jon Connington's thoughts, ADWD (`sources/chapters/adwd/adwd-the-griffin-reborn-01.md:91`)

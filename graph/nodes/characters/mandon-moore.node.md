@@ -86,13 +86,13 @@ When Ser [Jaime Lannister](wiki:Jaime_Lannister) assumes his duties as [Lord Com
 
 ### Quotes about Mandon
 
-> [Jaime](wiki:Jaime_Lannister) had once told him that Moore was the most dangerous of the [Kingsguard](wiki:Kingsguard)—excepting himself, always—because his face gave no hint as what he might do next.(wiki:Mandon_Moore.cite_ref-Racok3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+> Jaime had once told him that Moore was the most dangerous of the Kingsguard—excepting himself, always—because his face gave no hint as what he might do next.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-01.md:17`)
 
-> Tyrion rode down an archer, opened a spearman from shoulder to armpit, glanced a blow off a [swordfish-crested helm](wiki:House_Bar_Emmon). At the ram his big red reared but the black stallion leapt the obstacle smoothly and Ser Mandon flashed past him, death in snow-white silk. His sword sheared off limbs, cracked heads, broke shields asunder—though few enough of the enemy had made it across [the river](wiki:Battle_of_the_Blackwater) with shields intact.(wiki:Mandon_Moore.cite_ref-Racok61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+> Tyrion rode down an archer, opened a spearman from shoulder to armpit, glanced a blow off a swordfish-crested helm. At the ram his big red reared but the black stallion leapt the obstacle smoothly and Ser Mandon flashed past him, death in snow-white silk. His sword sheared off limbs, cracked heads, broke shields asunder—though few enough of the enemy had made it across the river with shields intact.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-14.md:25`)
 
 > **Tyrion**: Ser Mandon?
 >

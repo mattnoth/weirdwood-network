@@ -80,14 +80,14 @@ Returning to Deepwood after the [kingsmoot on Old Wyk](wiki:Kingsmoot_on_Old_Wyk
 
 ### Quotes about Galbart
 
-> Ser [Brynden](wiki:Brynden_Tully) had played a part in every victory [her son](wiki:Robb_Stark) had won. Galbart Glover had taken command of the scouts and outriders in his place; a good man, loyal and steady, but without the Blackfish's brilliance.(wiki:Galbart_Glover.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
+> Ser Brynden had played a part in every victory her son had won. Galbart Glover had taken command of the scouts and outriders in his place; a good man, loyal and steady, but without the Blackfish's brilliance.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-05.md:35`)
 
-> Asha Greyjoy was seated in [Galbart Glover's longhall](wiki:Deepwood_Motte) drinking Galbart Glover's [wine](wiki:Wine) when Galbart Glover's [maester](wiki:Maester) brought the letter to her.(wiki:Galbart_Glover.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-2)
+> Asha Greyjoy was seated in Galbart Glover's longhall drinking Galbart Glover's wine when Galbart Glover's maester brought the letter to her.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-wayward-bride-01.md:11`)
 
-> [Deepwood](wiki:Deepwood_Motte) be Galbart Glover's seat. No home for [squids](wiki:House_Greyjoy).(wiki:Galbart_Glover.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-3)
+> Deepwood be Galbart Glover's seat. No home for squids.
 >
-> —a [Flint](wiki:House_Flint_of_the_mountains) to [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —a Flint to Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-wayward-bride-01.md:219`)

@@ -47,6 +47,6 @@ The title is restored to Robert Arryn.(wiki:Warden_of_the_East.cite_ref-Rasosapp
 >
 > —[Eddard Stark](wiki:Eddard_Stark) and [Robert I Baratheon](wiki:Robert_I_Baratheon)
 
-> Lord [Jon](wiki:Jon_Arryn) was much loved, and the insult was keenly felt when [the king](wiki:Robert_I_Baratheon) named [Jaime Lannister](wiki:Jaime_Lannister) to an office the [Arryns](wiki:House_Arryn) had held for near three hundred years. [Lysa](wiki:Lysa_Arryn) has commanded us to call [her son](wiki:Robert_Arryn) the True Warden of the East, but no one is fooled.(wiki:Warden_of_the_East.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+> Lord Jon was much loved, and the insult was keenly felt when the king named Jaime Lannister to an office the Arryns had held for near three hundred years. Lysa has commanded us to call her son the True Warden of the East, but no one is fooled.
 >
-> —[Brynden Tully](wiki:Brynden_Tully) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Brynden Tully to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-06.md:83`)

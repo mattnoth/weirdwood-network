@@ -126,9 +126,9 @@ Euron has Aeron bound to the prow of the *Silence*, where he is joined by Falia,
 >
 > —Euron at the [kingsmoot on Old Wyk](wiki:Kingsmoot_on_Old_Wyk)
 
-> I am the storm, my lord. The first storm, and the last.(wiki:Euron_Greyjoy.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-17)
+> I am the storm, my lord. The first storm, and the last.
 >
-> —Euron to [Rodrik Harlaw](wiki:Rodrik_Harlaw)
+> —Euron to Rodrik Harlaw, AFFC (`sources/chapters/affc/affc-the-reaver-01.md:199`)
 
 > I am the storm, my lord. The first storm, and the last. I have taken the Silence on longer voyages than this, and ones far more hazardous. Have you forgotten? I have sailed the Smoking Sea and seen Valyria.
 
@@ -164,9 +164,9 @@ Euron has Aeron bound to the prow of the *Silence*, where he is joined by Falia,
 >
 > —[Theon Greyjoy](wiki:Theon_Greyjoy) and "Esgred" ([Asha Greyjoy](wiki:Asha_Greyjoy))
 
-> Euron Greyjoy is no man’s notion of a king, if half of what [Theon](wiki:Theon_Greyjoy) said of him was true.(wiki:Euron_Greyjoy.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2)
+> Euron Greyjoy is no man’s notion of a king, if half of what Theon said of him was true.
 >
-> —[Robb Stark](wiki:Robb_Stark) to his bannermen
+> —Robb Stark to his bannermen, ASOS (`sources/chapters/asos/asos-catelyn-05.md:203`)
 
 > **Tristifer**: The Crow's Eye brought back monsters from the east ... aye, and [wizards](wiki:Warlocks) too. **Asha**: Nuncle always had a fondness for freaks and fools. [My father](wiki:Balon_Greyjoy) used to fight with him about it. Let the wizards call upon their gods. [The Damphair](wiki:Aeron_Greyjoy) will call on [ours](wiki:Drowned_God), and drown them.(wiki:Euron_Greyjoy.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-3)
 >

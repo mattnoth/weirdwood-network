@@ -56,9 +56,9 @@ Before entering the [haunted forest](wiki:Haunted_forest) in search of [Tormund 
 
 ### Quotes about Jarl
 
-> [Mance Rayder](wiki:Mance_Rayder) had called the dark youth a "pet" of [Val](wiki:Val), who was sister to [Dalla](wiki:Dalla), his own queen, which made Jarl a sort of good brother once removed to the [King-beyond-the-Wall](wiki:King-beyond-the-Wall). [The Magnar](wiki:Styr) plainly resented sharing his authority. He had brought a hundred [Thenns](wiki:Thenns), five times as many men as Jarl, and often acted as if he had the sole command. But it would be the younger man who got them over the ice, Jon knew. Though he could not have been older than twenty, Jarl had been raiding for eight years, and had gone over the [Wall](wiki:Wall) a dozen times with the likes of [Alfyn Crowkiller](wiki:Alfyn_Crowkiller) and the [Weeper](wiki:Weeper), and more recently with his own band.(wiki:Jarl.cite_ref-Rasos26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> Mance Rayder had called the dark youth a "pet" of Val, who was sister to Dalla, his own queen, which made Jarl a sort of good brother once removed to the King-beyond-the-Wall. The Magnar plainly resented sharing his authority. He had brought a hundred Thenns, five times as many men as Jarl, and often acted as if he had the sole command. But it would be the younger man who got them over the ice, Jon knew. Though he could not have been older than twenty, Jarl had been raiding for eight years, and had gone over the Wall a dozen times with the likes of Alfyn Crowkiller and the Weeper, and more recently with his own band.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ASOS (`sources/chapters/asos/asos-jon-03.md:55`)
 
 > **Jon**: I was sorry when Jarl fell. **Val**: He always climbed too fast.(wiki:Jarl.cite_ref-Rasos73.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
 >

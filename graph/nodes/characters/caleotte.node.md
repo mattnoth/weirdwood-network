@@ -52,15 +52,15 @@ When Ser [Balon Swann](wiki:Balon_Swann) presents the head of Ser [Gregor Clegan
 
 ### Quotes by Caleotte
 
-> Shall I fetch [my prince](wiki:Prince_of_Dorne) a thimble cup of [milk of the poppy](wiki:Milk_of_the_poppy)?(wiki:Caleotte.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
+> Shall I fetch my prince a thimble cup of milk of the poppy?
 >
-> —Caleotte to [Doran Martell](wiki:Doran_Martell)
+> —Caleotte to Doran Martell, ADWD (`sources/chapters/adwd/adwd-the-watcher-01.md:115`)
 
 ### Quotes about Caleotte
 
-> Despite his age and girth, he was still nimble enough, and clever as they came, but meek. He is no match for any [Sand Snake](wiki:Sand_Snake), the captain thought.(wiki:Caleotte.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-6)
+> Despite his age and girth, he was still nimble enough, and clever as they came, but meek. He is no match for any Sand Snake, the captain thought.
 >
-> —thoughts of [Areo Hotah](wiki:Areo_Hotah)
+> —thoughts of Areo Hotah, AFFC (`sources/chapters/affc/affc-the-captain-of-guards-01.md:45`)
 
 ## Edges
 

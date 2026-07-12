@@ -69,6 +69,6 @@ After the [surrender of Riverrun](wiki:Siege_of_Riverrun), Robin and Ser [Desmon
 
 ### Quotes about Robin
 
-> In his day Ser Robin Ryger had been a notably tenacious fighter, but his day was done; he was of an age with [Hoster Tully](wiki:Hoster_Tully), and had grown old with his lord.(wiki:Robin_Ryger.cite_ref-Rasos1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+> In his day Ser Robin Ryger had been a notably tenacious fighter, but his day was done; he was of an age with Hoster Tully, and had grown old with his lord.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-01.md:221`)

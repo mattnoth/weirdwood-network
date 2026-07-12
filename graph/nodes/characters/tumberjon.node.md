@@ -28,6 +28,6 @@ Tumberjon possibly returns to Castle Black and then departs with [Bowen Marsh](w
 
 ## Quotes
 
-> [Harma the Dogshead](wiki:Harma) has the van, the poxy bitch. [Goady](wiki:Goady) crept up on her camp and saw her plain by the fire. That fool Tumberjon wanted to pick her off with an arrow, but [Smallwood](wiki:Thoren_Smallwood) had better sense.(wiki:Tumberjon.cite_ref-Rasosprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+> Harma the Dogshead has the van, the poxy bitch. Goady crept up on her camp and saw her plain by the fire. That fool Tumberjon wanted to pick her off with an arrow, but Smallwood had better sense.
 >
-> —[Kedge Whiteye](wiki:Kedge_Whiteye) to [Chett](wiki:Chett)
+> —Kedge Whiteye to Chett, ASOS (`sources/chapters/asos/asos-prologue.md:45`)

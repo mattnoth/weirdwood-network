@@ -51,16 +51,16 @@ After Forley departs, Jaime thinks the able knight would make a good choice as [
 
 ### Quotes by Forley
 
-> Scouts and outriders will screen our march, and we'll fortify our camps by night. I have picked ten men to stay with [Tully](wiki:Edmure_Tully) day and night, my best longbowmen. If he should ride so much as a foot off the road, they will loose so many shafts at him that [his own mother](wiki:Minisa_Whent) would take him for a goose.(wiki:Forley_Prester.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> Scouts and outriders will screen our march, and we'll fortify our camps by night. I have picked ten men to stay with Tully day and night, my best longbowmen. If he should ride so much as a foot off the road, they will loose so many shafts at him that his own mother would take him for a goose.
 >
-> —Forley to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Forley to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-07.md:101`)
 
 ### Quotes about Forley
 
-> Though he bore a bull's head upon his surcoat and horns upon his helm, Ser Forley could not have been less bovine.(wiki:Forley_Prester.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> Though he bore a bull's head upon his surcoat and horns upon his helm, Ser Forley could not have been less bovine.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-07.md:99`)
 
-> Like most innkeeps, Ser Forley was no man's fool.(wiki:Forley_Prester.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> Like most innkeeps, Ser Forley was no man's fool.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-07.md:101`)

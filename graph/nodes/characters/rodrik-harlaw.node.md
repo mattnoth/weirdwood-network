@@ -78,13 +78,13 @@ At [Deepwood Motte](wiki:Deepwood_Motte), Asha recalls how after Euron was named
 
 ### Quotes about Rodrik
 
-> [Harlaw](wiki:Harlaw) was not the largest of the [Iron Islands](wiki:Iron_Islands), but it was the richest and most populous, and Lord Rodrik's power was not to be despised.(wiki:Rodrik_Harlaw.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-11)
+> Harlaw was not the largest of the Iron Islands, but it was the richest and most populous, and Lord Rodrik's power was not to be despised.
 >
-> —[Asha Greyjoy](wiki:Asha_Greyjoy)'s thoughts
+> —Asha Greyjoy's thoughts, AFFC (`sources/chapters/affc/affc-the-krakens-daughter-01.md:141`)
 
-> Lord Rodrik was seldom seen without a book in hand, be it in the privy, on the deck of his [Sea Song](wiki:Sea_Song), or whilst holding audience.(wiki:Rodrik_Harlaw.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-12)
+> Lord Rodrik was seldom seen without a book in hand, be it in the privy, on the deck of his Sea Song, or whilst holding audience.
 >
-> —[Asha Greyjoy](wiki:Asha_Greyjoy)'s thoughts
+> —Asha Greyjoy's thoughts, AFFC (`sources/chapters/affc/affc-the-krakens-daughter-01.md:53`)
 
 > You read too much and fight too little. Your blood is milk.(wiki:Rodrik_Harlaw.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
 >

@@ -44,14 +44,14 @@ Lady [Barbrey Dustin](wiki:Barbrey_Dustin), the widow of Lord [Willam Dustin](wi
 
 ## Quotes
 
-> Ned's wraiths moved up beside him, with shadow swords in hand. They were seven against three.(wiki:Combat_at_the_tower_of_joy.cite_ref-Ragot39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+> Ned's wraiths moved up beside him, with shadow swords in hand. They were seven against three.
 >
-> —dream of [Eddard Stark](wiki:Eddard_Stark)
+> —dream of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-10.md:41`)
 
 > **Arthur**: And now it begins. **Eddard**: No. Now it ends.(wiki:Combat_at_the_tower_of_joy.cite_ref-Ragot39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
 >
 > —[Arthur Dayne](wiki:Arthur_Dayne) in dream of [Eddard Stark](wiki:Eddard_Stark)
 
-> The finest [knight](wiki:Knight) I ever saw was Ser [Arthur Dayne](wiki:Arthur_Dayne), who fought with a blade called [Dawn](wiki:Dawn), forged from the heart of a fallen star. They called him the [Sword of the Morning](wiki:Sword_of_the_Morning), and he would have killed me but for [Howland Reed](wiki:Howland_Reed).(wiki:Combat_at_the_tower_of_joy.cite_ref-Racok21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1)
+> The finest knight I ever saw was Ser Arthur Dayne, who fought with a blade called Dawn, forged from the heart of a fallen star. They called him the Sword of the Morning, and he would have killed me but for Howland Reed.
 >
-> —[Eddard Stark](wiki:Eddard_Stark) to [Bran Stark](wiki:Bran_Stark)
+> —Eddard Stark to Bran Stark, ACOK (`sources/chapters/acok/acok-bran-03.md:127`)

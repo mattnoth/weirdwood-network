@@ -46,13 +46,13 @@ It is reported by Lord [Alester Florent](wiki:Alester_Florent) that Lord Monford
 
 ## Quotes
 
-> Davos would have given much to know what he was thinking, but one such as Velaryon would never confide in him. The [Lord of the Tides](wiki:Lord_of_the_Tides) was of the blood of ancient [Valyria](wiki:Valyria), and [his House](wiki:House_Velaryon) had thrice provided brides for [Targaryen](wiki:House_Targaryen) princes; Davos Seaworth stank of fish and onions.(wiki:Monford_Velaryon.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
+> Davos would have given much to know what he was thinking, but one such as Velaryon would never confide in him. The Lord of the Tides was of the blood of ancient Valyria, and his House had thrice provided brides for Targaryen princes; Davos Seaworth stank of fish and onions.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ACOK (`sources/chapters/acok/acok-davos-01.md:33`)
 
-> The others bobbed their heads up and down like a flock of geese, all but Velaryon, who said that [steel](wiki:Steel) would decide [the matter](wiki:War_of_the_Five_Kings), not words on parchment. As if I had never suspected.(wiki:Monford_Velaryon.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)
+> The others bobbed their heads up and down like a flock of geese, all but Velaryon, who said that steel would decide the matter, not words on parchment. As if I had never suspected.
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Stannis Baratheon to Davos Seaworth, ACOK (`sources/chapters/acok/acok-davos-01.md:213`)
 
 > Lord Velaryon will urge me to [storm the castle walls](wiki:Siege_of_Storm's_End_(299)) at first light, grapnels and scaling ladders against arrows and boiling oil. The young mules will think this a splendid notion.(wiki:Monford_Velaryon.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
 >

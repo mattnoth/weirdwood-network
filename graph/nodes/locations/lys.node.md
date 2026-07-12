@@ -141,22 +141,22 @@ Magister Illyrio sends a [bedwarmer trained in Lys](wiki:Girl_bought_to_please_t
 >
 > —writings of [Yandel](wiki:Yandel)
 
-> Amongst the Lyseni, it is truly said, wars are fought with plots and [poisons](wiki:Poison) rather than with armies.(wiki:Lys.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-10)
+> Amongst the Lyseni, it is truly said, wars are fought with plots and poisons rather than with armies.
 >
-> —writings of [Gyldayn](wiki:Gyldayn)
+> —writings of Gyldayn, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p01.md:175`)
 
-> [The Lysene girl](wiki:Doreah) had hair the color of honey, and eyes like the summer sky.(wiki:Lys.cite_ref-Ragot23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
+> The Lysene girl had hair the color of honey, and eyes like the summer sky.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, AGOT (`sources/chapters/agot/agot-daenerys-03.md:175`)
 
 > Clever, craven Lyseni.(wiki:Lys.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_58-1)
 >
 > —[Andrey Dalt](wiki:Andrey_Dalt) to [Sylva Santagar](wiki:Sylva_Santagar)
 
-> Cat liked [it](wiki:Purple_Harbor) best of any place in [Braavos](wiki:Braavos). She liked the noise and the strange smells, and seeing what ships had come in on the evening tide and what ships had departed. She liked the sailors too; the boisterous [Tyroshi](wiki:Tyrosh) with their booming voices and dyed whiskers; the fair-haired Lyseni, always trying to niggle down her prices; the [squat, hairy sailors](wiki:Ibbenese) from the [Port of Ibben](wiki:Port_of_Ibben), growling curses in low, raspy voices.(wiki:Lys.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_55-1)
+> Cat liked it best of any place in Braavos. She liked the noise and the strange smells, and seeing what ships had come in on the evening tide and what ships had departed. She liked the sailors too; the boisterous Tyroshi with their booming voices and dyed whiskers; the fair-haired Lyseni, always trying to niggle down her prices; the squat, hairy sailors from the Port of Ibben, growling curses in low, raspy voices.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, AFFC (`sources/chapters/affc/affc-cat-of-the-canals-01.md:61`)
 
-> [She](wiki:Girl_bought_to_please_the_king) was trained in Lys, where they make an art of love.(wiki:Lys.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_64-1)
+> She was trained in Lys, where they make an art of love.
 >
-> —[Illyrio Mopatis](wiki:Illyrio_Mopatis) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Illyrio Mopatis to Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-01.md:173`)

@@ -136,27 +136,27 @@ After being attacked by [Biter](wiki:Biter) and falling into a fever, Brienne ha
 >
 > —Renly and [Stannis Baratheon](wiki:Stannis_Baratheon)
 
-> Why the oldest son, and not the best-fitted? The crown will suit me, as it never suited [Robert](wiki:Robert_I_Baratheon) and would not suit [Stannis](wiki:Stannis_Baratheon).(wiki:Renly_Baratheon.cite_ref-Racok31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_42-6)
+> Why the oldest son, and not the best-fitted? The crown will suit me, as it never suited Robert and would not suit Stannis.
 >
-> —Renly to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Renly to Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-03.md:207`)
 
-> Tell me, my lady, do [direwolves](wiki:Direwolves) vote on who should lead the pack?(wiki:Renly_Baratheon.cite_ref-Racok31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_42-7)
+> Tell me, my lady, do direwolves vote on who should lead the pack?
 >
-> —Renly to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Renly to Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-04.md:91`)
 
 ### Quotes about Renly
 
-> Renly had been a boy of eight when [Robert](wiki:Robert_I_Baratheon) won [the throne](wiki:Iron_Throne), but he had grown into a man so like his brother that Ned found it disconcerting. Whenever he saw him, it was as if the years had slipped away and Robert stood before him, fresh from his victory on the [Trident](wiki:Battle_of_the_Trident).(wiki:Renly_Baratheon.cite_ref-Ragot20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-2)
+> Renly had been a boy of eight when Robert won the throne, but he had grown into a man so like his brother that Ned found it disconcerting. Whenever he saw him, it was as if the years had slipped away and Robert stood before him, fresh from his victory on the Trident.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-04.md:29`)
 
-> Ned was not sure what to make of Renly, with all his friendly ways and easy smiles.(wiki:Renly_Baratheon.cite_ref-Ragot27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4)
+> Ned was not sure what to make of Renly, with all his friendly ways and easy smiles.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-06.md:95`)
 
-> They are quite a pair, [Stannis](wiki:Stannis_Baratheon) and Renly. The [iron](wiki:Iron) gauntlet and the [silk](wiki:Silk) glove.(wiki:Renly_Baratheon.cite_ref-Ragot58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_61-0)
+> They are quite a pair, Stannis and Renly. The iron gauntlet and the silk glove.
 >
-> —[Varys](wiki:Varys) to [Eddard Stark](wiki:Eddard_Stark)
+> —Varys to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-15.md:115`)
 
 > It was just the sort of notion that would appeal to Renly Baratheon; a splendid [new order](wiki:Rainbow_Guard) of [knighthood](wiki:Knighthood), with gorgeous new raiment to proclaim it. Even as a boy, Renly had loved bright colors and rich fabrics, and he had loved his games as well. "Look at me!" he would shout as he ran laughing through the halls of [Storm's End](wiki:Storm's_End). "Look at me, I'm a [dragon](wiki:Dragon)," or "Look at me, I'm a [wizard](wiki:Wizard)," or "Look at me, look at me, I'm the [rain god](wiki:Rain_god)." The bold little boy with wild black hair and laughing eyes was a man grown now, one-and-twenty, and still he played his games. Look at me, I'm a king, Cressen thought sadly. Oh, Renly, Renly, dear sweet child, do you know what you are doing? And would you care if you did? Is there anyone who cares for him but me?(wiki:Renly_Baratheon.cite_ref-Racok0.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_62-0)
 >
@@ -170,25 +170,25 @@ After being attacked by [Biter](wiki:Biter) and falling into a fever, Brienne ha
 >
 > —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
 
-> Small wonder the lords gather around him with such fervor, she thought, he is [Robert](wiki:Robert_I_Baratheon) come again. Renly was handsome as Robert had been handsome; long of limb and broad of shoulder, with the same coal-black hair, fine and straight, the same deep blue eyes, the same easy smile.(wiki:Renly_Baratheon.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-15)
+> Small wonder the lords gather around him with such fervor, she thought, he is Robert come again. Renly was handsome as Robert had been handsome; long of limb and broad of shoulder, with the same coal-black hair, fine and straight, the same deep blue eyes, the same easy smile.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-02.md:105`)
 
-> [Robert](wiki:Robert_Baratheon) was the true [steel](wiki:Steel). [Stannis](wiki:Stannis_Baratheon) is pure [iron](wiki:Iron), black and hard and strong, yes, but brittle, the way iron gets. He'll break before he bends. And Renly, that one, he's [copper](wiki:Copper), bright and shiny, pretty to look at but not worth all that much at the end of the day.(wiki:Renly_Baratheon.cite_ref-Racok6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_63-0)
+> Robert was the true steel. Stannis is pure iron, black and hard and strong, yes, but brittle, the way iron gets. He'll break before he bends. And Renly, that one, he's copper, bright and shiny, pretty to look at but not worth all that much at the end of the day.
 >
-> —[Donal Noye](wiki:Donal_Noye) to [Jon Snow](wiki:Jon_Snow)
+> —Donal Noye to Jon Snow, ACOK (`sources/chapters/acok/acok-jon-01.md:117`)
 
-> He knew how to dress and he knew how to smile and he knew how to bathe, and somehow he got the notion that this made him fit to be king.(wiki:Renly_Baratheon.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_50-2)
+> He knew how to dress and he knew how to smile and he knew how to bathe, and somehow he got the notion that this made him fit to be king.
 >
-> —[Olenna Redwyne](wiki:Olenna_Redwyne) to [Margaery Tyrell](wiki:Margaery_Tyrell)
+> —Olenna Redwyne to Margaery Tyrell, ASOS (`sources/chapters/asos/asos-sansa-01.md:121`)
 
 > **Tyrion**: What of love? **Loras**: When the sun has set, no candle can replace it.(wiki:Renly_Baratheon.cite_ref-Rasos12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_64-0)
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) and [Loras Tyrell](wiki:Loras_Tyrell)
 
-> I will defend King [Tommen](wiki:Tommen_Baratheon) with all my strength, I swear it. I will give my life for his if need be. But I will never betray Renly, by word or deed. He was the king that should have been. He was the best of [them](wiki:War_of_the_Five_Kings).(wiki:Renly_Baratheon.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3)
+> I will defend King Tommen with all my strength, I swear it. I will give my life for his if need be. But I will never betray Renly, by word or deed. He was the king that should have been. He was the best of them.
 >
-> —[Loras Tyrell](wiki:Loras_Tyrell) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Loras Tyrell to Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-08.md:213`)
 
 > Renly Baratheon had been more than a king to her. She had loved him since first he came to [Tarth](wiki:Tarth) on his leisurely lord's [progress](wiki:Progress), to mark his [coming of age](wiki:Coming_of_age). [...He] had shown her every courtesy, as if she were a proper maid, and pretty. He even danced with her, and in his arms she'd felt graceful, and her feet had floated across the floor. Later others begged a dance of her, because of his example. From that day forth, she wanted only to be close to Lord Renly, to serve him and protect him. But in the end she failed him. Renly died in my arms, but I did not kill him, she thought, but these [hedge knights](wiki:Hedge_knight) would never understand.(wiki:Renly_Baratheon.cite_ref-Raffc4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-2)
 >

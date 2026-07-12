@@ -39,9 +39,9 @@ Whilst some Hornwoods submit to Ramsay and attend his wedding to "[Arya Stark](w
 
 ## Quotes
 
-> [Roose Bolton](wiki:Roose_Bolton)'s [bastard](wiki:Ramsay_Snow) had started it by seizing [Lady Hornwood](wiki:Donella_Hornwood) as she returned from the [harvest feast](wiki:Harvest_feast), marrying her that very night even though he was young enough to be her son. Then [Lord Manderly](wiki:Wyman_Manderly) had taken [her castle](wiki:Hornwood). To protect the Hornwood holdings from the [Boltons](wiki:House_Bolton), he had written, but Ser [Rodrik](wiki:Rodrik_Cassel) had been almost as angry with him as with the bastard.(wiki:Fighting_in_the_Hornwood.cite_ref-Racok28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> Roose Bolton's bastard had started it by seizing Lady Hornwood as she returned from the harvest feast, marrying her that very night even though he was young enough to be her son. Then Lord Manderly had taken her castle. To protect the Hornwood holdings from the Boltons, he had written, but Ser Rodrik had been almost as angry with him as with the bastard.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, ACOK (`sources/chapters/acok/acok-bran-04.md:49`)
 
 > [He](wiki:Reek) is the only witness to the worst of [the Bastard's](wiki:Ramsay_Snow) crimes. Perhaps when Lord [Bolton](wiki:Roose_Bolton) hears his tale, he will abandon his claim, but meantime we have [Manderly](wiki:White_Harbor) knights and [Dreadfort](wiki:Dreadfort) men killing one another in [Hornwood forests](wiki:Hornwood_(forest)), and I lack the strength to stop them.(wiki:Fighting_in_the_Hornwood.cite_ref-Racok35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
 > —[Rodrik Cassel](wiki:Rodrik_Cassel) to [Luwin](wiki:Luwin)

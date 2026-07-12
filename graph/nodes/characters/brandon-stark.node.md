@@ -97,9 +97,9 @@ Theon and Lady [Barbrey Dustin](wiki:Barbrey_Dustin) discuss Brandon while in th
 >
 > —[Eddard Stark](wiki:Eddard_Stark) and [Petyr Baelish](wiki:Petyr_Baelish)
 
-> She remembered how [her own father](wiki:Hoster_Tully) had raged when the news had been brought to [Riverrun](wiki:Riverrun). The gallant fool, was what he called Brandon.(wiki:Brandon_Stark.cite_ref-Racok55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-6)
+> She remembered how her own father had raged when the news had been brought to Riverrun. The gallant fool, was what he called Brandon.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-07.md:307`)
 
 > **Jaime**: Brandon was different from [his brother](wiki:Eddard_Stark), wasn't he? He had [blood in his](wiki:Wolf_blood) veins instead of cold water. More like me.
 >
@@ -107,9 +107,9 @@ Theon and Lady [Barbrey Dustin](wiki:Barbrey_Dustin) discuss Brandon while in th
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) and [Catelyn Stark](wiki:Catelyn_Stark)
 
-> Brandon was never shy about taking what he wanted. I am old now, a dried-up thing, too long a widow, but I still remember the look of my [maiden](wiki:Maiden)'s blood on his cock the night he claimed me. I think Brandon liked the sight as well. A bloody [sword](wiki:Sword) is a beautiful thing, yes. It hurt, but it was a sweet pain.(wiki:Brandon_Stark.cite_ref-Radwd41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-10)
+> Brandon was never shy about taking what he wanted. I am old now, a dried-up thing, too long a widow, but I still remember the look of my maiden's blood on his cock the night he claimed me. I think Brandon liked the sight as well. A bloody sword is a beautiful thing, yes. It hurt, but it was a sweet pain.
 >
-> —[Barbrey Dustin](wiki:Barbrey_Dustin), to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Barbrey Dustin, to Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-turncloak-01.md:219`)
 
 ## Edges
 

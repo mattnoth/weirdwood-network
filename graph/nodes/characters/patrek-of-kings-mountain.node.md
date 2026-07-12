@@ -45,9 +45,9 @@ When Selyse decides that Patrek should marry Val, [Jon Snow](wiki:Jon_Snow), [Lo
 >
 > —[Jon Snow](wiki:Jon_Snow) and Patrek
 
-> No man has ever had cause to question my courage. No woman ever will.(wiki:Patrek_of_King's_Mountain.cite_ref-Radwd69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> No man has ever had cause to question my courage. No woman ever will.
 >
-> —Patrek to [Jon Snow](wiki:Jon_Snow)
+> —Patrek to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-13.md:65`)
 
 ### Quotes about Patrek
 

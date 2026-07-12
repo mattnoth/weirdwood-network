@@ -69,24 +69,23 @@ Huge and heavy, the splendid Sunfyre was a formidable fighter despite his youth.
 
 ## Quotes
 
-> "Sunfyre" was the name given this [dragon](wiki:Dragon) of the golden dawn.(wiki:Sunfyre.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+> "Sunfyre" was the name given this dragon of the golden dawn.
 >
-> —writings of [Gyldayn](wiki:Gyldayn)
+> —writings of Gyldayn, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p01.md:183`)
 
 > But who can presume to know the heart of a [dragon](wiki:Dragon)?(wiki:Sunfyre.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-11)
 >
 > —writings of [Gyldayn](wiki:Gyldayn)
 
-> And the [second Aegon](wiki:Aegon_II_Targaryen) fed [Grand Maester](wiki:Grand_Maester) [Gerardys](wiki:Gerardys) to his [dragon](wiki:Dragon).(wiki:Sunfyre.cite_ref-Rasos12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+> And the second Aegon fed Grand Maester Gerardys to his dragon.
 >
-> —[Varys](wiki:Varys) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Varys to Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-02.md:39`)
 
 > The fool Mushroom, cruelly, says that whereas most dragons moved through the sky like eagles, Sunfyre had become no more than “a great golden fire-breathing chicken, hopping and fluttering from hill to hill.”
 > — Mushroom, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:235`)
 
 > On the ninth day of the twelfth moon of 130 AC, the magnificent golden dragon that had been King Aegon’s glory died in the outer yard of Dragonstone where he had fallen.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-short-sad-reign-of-aegon-ii-19.md:33`)
-
 
 ## Fire & Blood
 

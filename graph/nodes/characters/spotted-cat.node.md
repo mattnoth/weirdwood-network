@@ -41,6 +41,6 @@ Shortly before the resumption of the [second siege of Meereen](wiki:Second_siege
 
 ## Quotes
 
-> Now comes the Spotted Cat. See how he moves, my queen. A poem on two feet.(wiki:Spotted_Cat.cite_ref-Radwd52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+> Now comes the Spotted Cat. See how he moves, my queen. A poem on two feet.
 >
-> —[Hizdahr zo Loraq](wiki:Hizdahr_zo_Loraq) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Hizdahr zo Loraq to Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-09.md:131`)

@@ -102,21 +102,21 @@ Missandei aids Ser Barristan in taking control of the court of Meereen. He uses 
 
 ### Quotes about Missandei
 
-> The little scribe with the big golden eyes was wise beyond her years. She is brave as well. She had to be, to survive the life she's lived.(wiki:Missandei.cite_ref-Rasos71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-11)
+> The little scribe with the big golden eyes was wise beyond her years. She is brave as well. She had to be, to survive the life she's lived.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-06.md:19`)
 
-> She relied so much on the little scribe that she oft forgot that Missandei had only turned eleven.(wiki:Missandei.cite_ref-Radwd43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
+> She relied so much on the little scribe that she oft forgot that Missandei had only turned eleven.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-07.md:283`)
 
-> Only Missandei remained, a forlorn little ghost haunting [the queen's](wiki:Daenerys_Targaryen) chambers at the apex of [the pyramid](wiki:Great_Pyramid).(wiki:Missandei.cite_ref-Radwd55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-5)
+> Only Missandei remained, a forlorn little ghost haunting the queen's chambers at the apex of the pyramid.
 >
-> —thoughts of [Barristan Selmy](wiki:Barristan_Selmy)
+> —thoughts of Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-queensguard-01.md:43`)
 
-> Eleven years of age, yet Missandei is as clever as half the men at this table and wiser than [all of them](wiki:Ruling_council_of_Meereen).(wiki:Missandei.cite_ref-Radwd70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-3)
+> Eleven years of age, yet Missandei is as clever as half the men at this table and wiser than all of them.
 >
-> —thoughts of [Barristan Selmy](wiki:Barristan_Selmy)
+> —thoughts of Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-queens-hand-01.md:127`)
 
 ## Edges
 

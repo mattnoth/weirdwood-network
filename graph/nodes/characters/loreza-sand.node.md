@@ -39,9 +39,9 @@ Loreza has just turned seven and is accompanying her mother to [Hellholt](wiki:H
 >
 > —[Arianne Martell](wiki:Arianne_Martell) to [Arys Oakheart](wiki:Arys_Oakheart)
 
-> I have four daughters, I remind you. Your sisters. My [Elia](wiki:Elia_Sand) is fourteen, almost a woman. [Obella](wiki:Obella_Sand) is twelve, on the brink of maidenhood. They worship you, as [Dorea](wiki:Dorea_Sand) and Loreza worship them. If you should die, must El and Obella seek vengeance for you, then Dorea and Loree for them? Is that how it goes, round and round forever?(wiki:Loreza_Sand.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> I have four daughters, I remind you. Your sisters. My Elia is fourteen, almost a woman. Obella is twelve, on the brink of maidenhood. They worship you, as Dorea and Loreza worship them. If you should die, must El and Obella seek vengeance for you, then Dorea and Loree for them? Is that how it goes, round and round forever?
 >
-> —[Ellaria Sand](wiki:Ellaria_Sand) to [Oberyn Martell](wiki:Oberyn_Martell)'s [three](wiki:Obara_Sand) [oldest](wiki:Nymeria_Sand) [daughters](wiki:Tyene_Sand)
+> —Ellaria Sand to Oberyn Martell's three oldest daughters, ADWD (`sources/chapters/adwd/adwd-the-watcher-01.md:143`)
 
 ## Edges
 

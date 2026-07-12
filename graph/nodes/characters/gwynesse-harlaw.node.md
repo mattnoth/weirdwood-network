@@ -50,9 +50,9 @@ After fleeing the [kingsmoot on Old Wyk](wiki:Kingsmoot_on_Old_Wyk), Asha briefl
 >
 > —Gwynesse to [Rodrik Harlaw](wiki:Rodrik_Harlaw)
 
-> I am seven years [his elder](wiki:Rodrik_Harlaw). [Ten Towers](wiki:Ten_Towers) should be mine.(wiki:Gwynesse_Harlaw.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+> I am seven years his elder. Ten Towers should be mine.
 >
-> —Gwynesse to [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —Gwynesse to Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-wayward-bride-01.md:119`)
 
 ### Quotes about Gwynesse
 

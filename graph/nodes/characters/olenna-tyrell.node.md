@@ -80,21 +80,21 @@ Tommen chooses the name *[Lady Olenna](wiki:Lady_Olenna)* for one of the [new dr
 
 ### Quotes by Olenna
 
-> All men are [fools](wiki:Fool), if truth be told, but the ones in motley are more amusing than ones with crowns.(wiki:Olenna_Tyrell.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-19)
+> All men are fools, if truth be told, but the ones in motley are more amusing than ones with crowns.
 >
-> —Olenna to [Sansa Stark](wiki:Sansa_Stark)
+> —Olenna to Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-01.md:151`)
 
 > There is entirely too much tut-tutting in [this realm](wiki:Seven_Kingdoms), if you ask me. All these kings would do a deal better if they put down their swords and listened to their mothers.(wiki:Olenna_Tyrell.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-20)
 >
 > —Olenna to [Sansa Stark](wiki:Sansa_Stark)
 
-> Hush, Alerie, don't take that tone with me. And don't call me Mother. If I'd given birth to you, I'm sure I'd remember. I'm only to blame for your husband, the [lord oaf of Highgarden](wiki:Mace_Tyrell).(wiki:Olenna_Tyrell.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-21)
+> Hush, Alerie, don't take that tone with me. And don't call me Mother. If I'd given birth to you, I'm sure I'd remember. I'm only to blame for your husband, the lord oaf of Highgarden.
 >
-> —Olenna to [Alerie Hightower](wiki:Alerie_Hightower)
+> —Olenna to Alerie Hightower, ASOS (`sources/chapters/asos/asos-sansa-01.md:129`)
 
-> Night falls for all of us in the end, and too soon for some. You would know that more than most, poor child. You've had your share of grief, I know. We are sorry for your losses.(wiki:Olenna_Tyrell.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-22)
+> Night falls for all of us in the end, and too soon for some. You would know that more than most, poor child. You've had your share of grief, I know. We are sorry for your losses.
 >
-> —Olenna to [Sansa Stark](wiki:Sansa_Stark)
+> —Olenna to Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-01.md:115`)
 
 > "The wind has been at your hair, though." The little old woman reached up and fussed at the loose strands, tucking them back into place and straightening Sansa's hair net. "I was very sorry to hear about your losses," she said as she tugged and fiddled.
 
@@ -106,14 +106,14 @@ Tommen chooses the name *[Lady Olenna](wiki:Lady_Olenna)* for one of the [new dr
 >
 > —[Loras Tyrell](wiki:Loras_Tyrell) to [Sansa Stark](wiki:Sansa_Stark)
 
-> Why, she's just the littlest bit of a thing. There was nothing the least bit thorny about her.(wiki:Olenna_Tyrell.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-24)
+> Why, she's just the littlest bit of a thing. There was nothing the least bit thorny about her.
 >
-> —[Sansa Stark](wiki:Sansa_Stark)'s thoughts
+> —Sansa Stark's thoughts, ASOS (`sources/chapters/asos/asos-sansa-01.md:107`)
 
-> Tyrion was beginning to wonder whether Lord [Luthor Tyrell](wiki:Luthor_Tyrell) had ridden off that cliff intentionally.(wiki:Olenna_Tyrell.cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4)
+> Tyrion was beginning to wonder whether Lord Luthor Tyrell had ridden off that cliff intentionally.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
+> —Tyrion Lannister's thoughts, ASOS (`sources/chapters/asos/asos-tyrion-08.md:115`)
 
-> The old woman is not boring, though, I'll grant her that. A fearsome old harridan, and not near as frail as she pretends.(wiki:Olenna_Tyrell.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-5)
+> The old woman is not boring, though, I'll grant her that. A fearsome old harridan, and not near as frail as she pretends.
 >
-> —[Petyr Baelish](wiki:Petyr_Baelish) to [Sansa Stark](wiki:Sansa_Stark)
+> —Petyr Baelish to Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-06.md:187`)

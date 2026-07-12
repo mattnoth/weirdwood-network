@@ -80,9 +80,9 @@ Pycelle served six kings during his time as [Grand Maester](wiki:Grand_Maester):
 
 ### Quotes by Pycelle
 
-> Minds are like swords, I do fear. The old ones go to rust.(wiki:Pycelle.cite_ref-Ragot25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-5)
+> Minds are like swords, I do fear. The old ones go to rust.
 >
-> —Pycelle to [Eddard Stark](wiki:Eddard_Stark)
+> —Pycelle to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-05.md:17`)
 
 > Once I counseled King [Aerys](wiki:Aerys_II_Targaryen) as loyally as I council King [Robert](wiki:Robert_I_Baratheon) now...(wiki:Pycelle.cite_ref-Ragot33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_35-0)
 >
@@ -114,13 +114,13 @@ Pycelle served six kings during his time as [Grand Maester](wiki:Grand_Maester):
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Varys](wiki:Varys)
 
-> That one has outlived any usefulness he ever had, the queen decided. All Pycelle ever seemed to do of late was plague her with cautions and objections.(wiki:Pycelle.cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-0)
+> That one has outlived any usefulness he ever had, the queen decided. All Pycelle ever seemed to do of late was plague her with cautions and objections.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister)'s thoughts
+> —Cersei Lannister's thoughts, AFFC (`sources/chapters/affc/affc-cersei-07.md:119`)
 
-> This is no man, she thought, only the ruins of one. The [black cells](wiki:Black_cells) robbed him of whatever strength he had. That, and the [Imp](wiki:Tyrion_Lannister)'s razor.(wiki:Pycelle.cite_ref-Raffc36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+> This is no man, she thought, only the ruins of one. The black cells robbed him of whatever strength he had. That, and the Imp's razor.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister)'s thoughts
+> —Cersei Lannister's thoughts, AFFC (`sources/chapters/affc/affc-cersei-08.md:269`)
 
 ## Edges
 

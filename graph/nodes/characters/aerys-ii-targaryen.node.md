@@ -218,9 +218,9 @@ Barristan tries to explain the actions of Lord Stark to Daenerys, [Queen of Meer
 >
 > —Aerys to [Rossart](wiki:Rossart)
 
-> I want [him](wiki:Tywin_Lannister) dead, the traitor. I want his head, you'll bring me his head, or you'll burn with all the rest. All the traitors.(wiki:Aerys_II_Targaryen.cite_ref-Rasos11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-7)
+> I want him dead, the traitor. I want his head, you'll bring me his head, or you'll burn with all the rest. All the traitors.
 >
-> —Aerys to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Aerys to Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-02.md:291`)
 
 > He'll win no glory here. He's mine now, not [Tywin's](wiki:Tywin_Lannister). He'll serve as I see fit. I am the king. I rule, and he'll obey.(wiki:Aerys_II_Targaryen.cite_ref-Rasos44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_60-0)
 >
@@ -252,9 +252,9 @@ Barristan tries to explain the actions of Lord Stark to Daenerys, [Queen of Meer
 >
 > —[Catelyn Stark](wiki:Catelyn_Stark) to [Jaime Lannister](wiki:Jaime_Lannister)
 
-> [Mummers](wiki:Mummers) and [monkeys](wiki:Monkey) require applause. So did Aerys, for that matter.(wiki:Aerys_II_Targaryen.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_62-0)
+> Mummers and monkeys require applause. So did Aerys, for that matter.
 >
-> —[Tywin Lannister](wiki:Tywin_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Tywin Lannister to Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-01.md:229`)
 
 > **Jaime**: You are not old enough to have known Aerys Targaryen ...
 >
@@ -272,9 +272,9 @@ Barristan tries to explain the actions of Lord Stark to Daenerys, [Queen of Meer
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) to [Brienne Tarth](wiki:Brienne_Tarth)
 
-> They said [the queen](wiki:Rhaella_Targaryen) looked as if some beast had savaged her, clawing at her thighs and chewing on her breasts. A crowned beast, Jaime knew.(wiki:Aerys_II_Targaryen.cite_ref-Raffc16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-4)
+> They said the queen looked as if some beast had savaged her, clawing at her thighs and chewing on her breasts. A crowned beast, Jaime knew.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister)'s thoughts
+> —Jaime Lannister's thoughts, AFFC (`sources/chapters/affc/affc-jaime-02.md:135`)
 
 > By the end the Mad King had become so fearful that he would allow no blade in his presence, save for the swords his Kingsguard wore. His beard was matted and unwashed, his hair a silver-gold tangle that reached his waist, his fingernails cracked yellow claws nine inches long. Yet still the blades tormented him, the ones he could never escape, the blades of the Iron Throne. His arms and legs were always covered with scabs and half-healed cuts.
 >

@@ -39,9 +39,9 @@ The bodies of the two men are brought back to [Castle Black](wiki:Castle_Black),
 
 ## Quotes
 
-> Strength and courage did not avail much against foemen who would not fall because they were [already dead](wiki:Wights); even arms and armor offered small protection.(wiki:Jafer_Flowers.cite_ref-Ragot60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+> Strength and courage did not avail much against foemen who would not fall because they were already dead; even arms and armor offered small protection.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, AGOT (`sources/chapters/agot/agot-jon-08.md:151`)
 
 > **Alliser**: I brought Jared's hand, torn from his corpse by [the bastard's wolf](wiki:Ghost).
 >

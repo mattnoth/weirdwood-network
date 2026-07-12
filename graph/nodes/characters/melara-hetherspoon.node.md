@@ -66,13 +66,13 @@ Cersei, imprisoned by the [Faith of the Seven](wiki:Faith_of_the_Seven) in the [
 
 ### Quotes about Melara
 
-> Cersei had not had [a friend](wiki:Taena_of_Myr) she so enjoyed since Melara Hetherspoon, and Melara had turned out to be a greedy little schemer with ideas above her station. I should not think ill of her. She’s dead and drowned, and she taught me never to trust anyone but [Jaime](wiki:Jaime_Lannister).(wiki:Melara_Hetherspoon.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-7)
+> Cersei had not had a friend she so enjoyed since Melara Hetherspoon, and Melara had turned out to be a greedy little schemer with ideas above her station. I should not think ill of her. She’s dead and drowned, and she taught me never to trust anyone but Jaime.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-05.md:295`)
 
-> Cersei did not care to think about [Senelle](wiki:Senelle). She repaid my kindness with betrayal. [Sansa Stark](wiki:Sansa_Stark) had done the same. So had Melara Hetherspoon and fat [Jeyne Farman](wiki:Jeyne_Farman) when the three of them were girls. I would never have gone into that tent if not for them. I would never have allowed [Maggy the Frog](wiki:Maggy_the_Frog) to taste my morrows in a drop of blood.(wiki:Melara_Hetherspoon.cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+> Cersei did not care to think about Senelle. She repaid my kindness with betrayal. Sansa Stark had done the same. So had Melara Hetherspoon and fat Jeyne Farman when the three of them were girls. I would never have gone into that tent if not for them. I would never have allowed Maggy the Frog to taste my morrows in a drop of blood.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-07.md:163`)
 
 > You stupid girl, the queen thought, angry even now. [Jaime](wiki:Jaime_Lannister) does not even know you are alive. Back then her brother lived only for [swords](wiki:Sword) and [dogs](wiki:Dog) and [horses](wiki:Horse)... and for her, his twin.(wiki:Melara_Hetherspoon.cite_ref-Raffc36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-14)
 >
@@ -84,6 +84,6 @@ Cersei, imprisoned by the [Faith of the Seven](wiki:Faith_of_the_Seven) in the [
 >
 > —[Cersei Lannister](wiki:Cersei_Lannister) and [Qyburn](wiki:Qyburn)
 
-> She could still hear Melara Hetherspoon insisting that if they never spoke about the [prophecies](wiki:Prophecy), they would not come true. She was not so silent in the well, though. She screamed and shouted.(wiki:Melara_Hetherspoon.cite_ref-Raffc39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-4)
+> She could still hear Melara Hetherspoon insisting that if they never spoke about the prophecies, they would not come true. She was not so silent in the well, though. She screamed and shouted.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-09.md:267`)

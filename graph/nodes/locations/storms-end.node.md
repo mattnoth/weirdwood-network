@@ -110,18 +110,18 @@ At [Griffin's Roost](wiki:Griffin's_Roost), [Haldon Halfmaester](wiki:Haldon_Hal
 
 ## Quotes
 
-> The nightfires had burned low, and as the east began to lighten the immense mass of Storm's End emerged like a dream of stone while wisps of pale mist raced across the field, flying from the sun on wings of wind.(wiki:Storm's_End.cite_ref-Racok33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-1)
+> The nightfires had burned low, and as the east began to lighten the immense mass of Storm's End emerged like a dream of stone while wisps of pale mist raced across the field, flying from the sun on wings of wind.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-04.md:125`)
 
 > **Stannis**: I give you fair warning. If you force me to take my castle by storm, you may expect no mercy. I will hang you for traitors, every one of you. **Cortnay**: As the gods will it. Bring on your storm, my lord—and recall, if you do, the **name** of this castle.(wiki:Storm's_End.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-6)
 >
 > —[Stannis Baratheon](wiki:Stannis_Baratheon) and [Cortnay Penrose](wiki:Cortnay_Penrose)
 
-> This Storm's End is an old place. There are [spells](wiki:Magic) woven into the stones. Dark walls that no shadow can pass—ancient, forgotten, yet still in place.(wiki:Storm's_End.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-7)
+> This Storm's End is an old place. There are spells woven into the stones. Dark walls that no shadow can pass—ancient, forgotten, yet still in place.
 >
-> —[Melisandre](wiki:Melisandre) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Melisandre to Davos Seaworth, ACOK (`sources/chapters/acok/acok-davos-02.md:331`)
 
-> I mean to take Storm's End. A nigh-impregnable stronghold, and [Stannis Baratheon](wiki:Stannis_Baratheon)'s last foothold in the south. Once taken, it will give us a secure fastness to which we may retreat at need, and winning it will prove our strength.(wiki:Storm's_End.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_45-1)
+> I mean to take Storm's End. A nigh-impregnable stronghold, and Stannis Baratheon's last foothold in the south. Once taken, it will give us a secure fastness to which we may retreat at need, and winning it will prove our strength.
 >
-> —[Jon Connington](wiki:Jon_Connington) to [Harry Strickland](wiki:Harry_Strickland)
+> —Jon Connington to Harry Strickland, ADWD (`sources/chapters/adwd/adwd-the-griffin-reborn-01.md:173`)

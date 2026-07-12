@@ -39,9 +39,9 @@ Borys was often considered to be the most volatile and belligerent of the five B
 
 ### Quotes by Borys
 
-> Rather name me a [kingslayer](wiki:Kingslaying) than [him](wiki:Rogar_Baratheon) a [kinslayer](wiki:Kinslayer)!(wiki:Borys_Baratheon.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> Rather name me a kingslayer than him a kinslayer!
 >
-> —Borys, just before charging against [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen)
+> —Borys, just before charging against Jaehaerys I Targaryen, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p01.md:199`)
 
 ## Edges
 

@@ -95,9 +95,9 @@ Jon is troubled that Alliser's friend, Glendon Hewett, commands at Eastwatch whi
 >
 > —Alliser and [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> They will call you men of [Night's Watch](wiki:Night's_Watch) now, but you are bigger fools than the [Mummer's Monkey](wiki:Pypar) here if you believe that. You are boys still, green and stinking of summer, and when the winter comes you will die like flies.(wiki:Alliser_Thorne.cite_ref-Ragot41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-0)
+> They will call you men of Night's Watch now, but you are bigger fools than the Mummer's Monkey here if you believe that. You are boys still, green and stinking of summer, and when the winter comes you will die like flies.
 >
-> —Alliser to his recruits
+> —Alliser to his recruits, AGOT (`sources/chapters/agot/agot-jon-05.md:13`)
 
 > **Alliser**: Do you think I sailed all the way from [Eastwatch-by-the-Sea](wiki:Eastwatch-by-the-Sea) to be mocked by the likes of you? This is no jape. I saw it with my own eyes. I tell you, [the dead](wiki:Wights) walk. **Tyrion**: You should try to kill them more thoroughly.(wiki:Alliser_Thorne.cite_ref-Racok25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
 >
@@ -107,15 +107,15 @@ Jon is troubled that Alliser's friend, Glendon Hewett, commands at Eastwatch whi
 >
 > —[Jon Snow](wiki:Jon_Snow) and Alliser
 
-> You would like me to refuse. Then you could hack off my head, same as you did for [Slynt](wiki:Janos_Slynt). I'll not give you that pleasure, bastard. You'd best pray that it's a [wildling](wiki:Wildling) blade that kills me, though. The ones the [Others](wiki:Others) kill [don't stay dead](wiki:Wights) ... and they remember. I'm coming back, Lord Snow.(wiki:Alliser_Thorne.cite_ref-Radwd28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-3)
+> You would like me to refuse. Then you could hack off my head, same as you did for Slynt. I'll not give you that pleasure, bastard. You'd best pray that it's a wildling blade that kills me, though. The ones the Others kill don't stay dead ... and they remember. I'm coming back, Lord Snow.
 >
-> —Alliser to [Jon Snow](wiki:Jon_Snow)
+> —Alliser to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-06.md:23`)
 
 ### Quotes about Alliser
 
-> Ser Alliser Thorne had a voice with an edge like [Valyrian steel](wiki:Valyrian_steel).(wiki:Alliser_Thorne.cite_ref-Ragot19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-8)
+> Ser Alliser Thorne had a voice with an edge like Valyrian steel.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, AGOT (`sources/chapters/agot/agot-jon-03.md:15`)
 
 > **Jeor**: You are a wicked man, to provoke our Ser Alliser so.
 >
@@ -127,9 +127,9 @@ Jon is troubled that Alliser's friend, Glendon Hewett, commands at Eastwatch whi
 >
 > —[Jeor Mormont](wiki:Jeor_Mormont) and [Jaremy Rykker](wiki:Jaremy_Rykker)
 
-> Of all the [black brothers](wiki:Night's_Watch) he'd met on the [Wall](wiki:Wall), Tyrion Lannister had liked Ser Alliser Thorne the least. A bitter, mean-spirited man with too great a sense of his own worth.(wiki:Alliser_Thorne.cite_ref-Racok17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-2)
+> Of all the black brothers he'd met on the Wall, Tyrion Lannister had liked Ser Alliser Thorne the least. A bitter, mean-spirited man with too great a sense of his own worth.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-04.md:143`)
 
 > We'll learn you what you need t' know, ser. Teach you how t' wipe your highborn arse with leaves, just like a proper [ranger](wiki:Ranger).(wiki:Alliser_Thorne.cite_ref-Radwd28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-4)
 >

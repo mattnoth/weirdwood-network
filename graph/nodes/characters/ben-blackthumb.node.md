@@ -41,6 +41,6 @@ Ben, [Pia](wiki:Pia), and a cook are the only servants from the time of Lady [Sh
 
 ## Quotes
 
-> You know old Ben Blackthumb? He came [here](wiki:Harrenhal) as a boy. Smithed for Lady [Whent](wiki:Shella_Whent) and her father before her and his father before him, and even for Lord [Lothston](wiki:House_Lothston) who held Harrenhal before the [Whents](wiki:House_Whent). Now he smiths for Lord [Tywin](wiki:Tywin_Lannister), and you know what he says? A sword's a sword, a helm's a helm, and if you reach in the fire you get burned, no matter who you're serving.(wiki:Ben_Blackthumb.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+> You know old Ben Blackthumb? He came here as a boy. Smithed for Lady Whent and her father before her and his father before him, and even for Lord Lothston who held Harrenhal before the Whents. Now he smiths for Lord Tywin, and you know what he says? A sword's a sword, a helm's a helm, and if you reach in the fire you get burned, no matter who you're serving.
 >
-> —[Gendry](wiki:Gendry) to [Arya Stark](wiki:Arya_Stark)
+> —Gendry to Arya Stark, ACOK (`sources/chapters/acok/acok-arya-09.md:105`)

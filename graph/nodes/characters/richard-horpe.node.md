@@ -80,10 +80,10 @@ Richard and other queen's men want Stannis to sacrifice [Theon Greyjoy](wiki:The
 
 ### Quotes about Richard
 
-> Horpe will take [Val](wiki:Val) to wife if I command it, but it is battle he lusts for. As a squire he dreamed of a [white cloak](wiki:Kingsguard), but [Cersei Lannister](wiki:Cersei_Lannister) spoke against him and [Robert](wiki:Robert_I_Baratheon) passed him over. Perhaps rightly. Ser Richard is too fond of killing.(wiki:Richard_Horpe.cite_ref-Radwd17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
+> Horpe will take Val to wife if I command it, but it is battle he lusts for. As a squire he dreamed of a white cloak, but Cersei Lannister spoke against him and Robert passed him over. Perhaps rightly. Ser Richard is too fond of killing.
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Jon Snow](wiki:Jon_Snow)
+> —Stannis Baratheon to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-04.md:219`)
 
-> [Dormund](wiki:Dormund) was cut down in the [battle for the Wall](wiki:Battle_for_the_Wall), and him still half a boy. One o' [your king's](wiki:Stannis_Baratheon) knights did for him, some bastard all in grey steel with moths upon his shield. I saw the cut, but my boy was dead before I reached him.(wiki:Richard_Horpe.cite_ref-Radwd51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)
+> Dormund was cut down in the battle for the Wall, and him still half a boy. One o' your king's knights did for him, some bastard all in grey steel with moths upon his shield. I saw the cut, but my boy was dead before I reached him.
 >
-> —[Tormund](wiki:Tormund) to [Jon Snow](wiki:Jon_Snow)
+> —Tormund to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-11.md:35`)

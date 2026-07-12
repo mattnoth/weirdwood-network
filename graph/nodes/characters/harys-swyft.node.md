@@ -85,13 +85,13 @@ In Braavos, Harys attends a performance of *[The Bloody Hand](wiki:The_Bloody_Ha
 
 ### Quotes about Harys
 
-> Better than you, you chinless craven, Tyrion thought. [Jaime](wiki:Jaime_Lannister) might have [lost Riverrun](wiki:Battle_of_the_Camps), but it angered him to hear his brother slandered by the likes of Swyft, a shameless lickspittle whose greatest accomplishment was marrying [his equally chinless daughter](wiki:Dorna_Swyft) to Ser [Kevan](wiki:Kevan_Lannister), and thereby attaching himself to the [Lannisters](wiki:House_Lannister).(wiki:Harys_Swyft.cite_ref-Ragot69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-3)
+> Better than you, you chinless craven, Tyrion thought. Jaime might have lost Riverrun, but it angered him to hear his brother slandered by the likes of Swyft, a shameless lickspittle whose greatest accomplishment was marrying his equally chinless daughter to Ser Kevan, and thereby attaching himself to the Lannisters.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
+> —Tyrion Lannister's thoughts, AGOT (`sources/chapters/agot/agot-tyrion-09.md:25`)
 
-> [Kevan](wiki:Kevan_Lannister) should be [Tommen's](wiki:Tommen_Baratheon) [Hand](wiki:Hand_of_the_King). Harys Swyft is a toad, and [my sister](wiki:Cersei_Lannister) is a fool if she thinks elsewise.(wiki:Harys_Swyft.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
+> Kevan should be Tommen's Hand. Harys Swyft is a toad, and my sister is a fool if she thinks elsewise.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister)'s thoughts
+> —Jaime Lannister's thoughts, AFFC (`sources/chapters/affc/affc-jaime-04.md:15`)
 
 > **Genna**: Is it true that [Cersei](wiki:Cersei_Lannister) burned the [Red Keep](wiki:Red_Keep)?
 >
@@ -99,6 +99,6 @@ In Braavos, Harys attends a performance of *[The Bloody Hand](wiki:The_Bloody_Ha
 >
 > —[Genna Lannister](wiki:Genna_Lannister) and [Jaime Lannister](wiki:Jaime_Lannister)
 
-> The knight of the yellow chicken, Cersei mused. You ought to take a worm for your sigil, ser. A chicken is too bold for you.(wiki:Harys_Swyft.cite_ref-Raffc43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> The knight of the yellow chicken, Cersei mused. You ought to take a worm for your sigil, ser. A chicken is too bold for you.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister)'s thoughts
+> —Cersei Lannister's thoughts, AFFC (`sources/chapters/affc/affc-cersei-10.md:61`)

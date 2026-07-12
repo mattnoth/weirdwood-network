@@ -36,9 +36,9 @@ Gedmund Great-Axe had prowess as a warrior but little experience with [ships](wi
 
 ## Quotes
 
-> They are my fleets now, and [Baela's](wiki:Baela_Targaryen) monkey is more suited to command them than Nuncle Gedmund.(wiki:Gedmund_Peake.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+> They are my fleets now, and Baela's monkey is more suited to command them than Nuncle Gedmund.
 >
-> —[Alyn Velaryon](wiki:Alyn_Velaryon) after learning of Gedmund's appointment
+> —Alyn Velaryon after learning of Gedmund's appointment, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p01.md:133`)
 
 ## Fire & Blood
 

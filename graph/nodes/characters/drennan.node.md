@@ -26,9 +26,9 @@ While on guard duty with [Squint](wiki:Squint) at the [Hunter's Gate](wiki:Hunte
 
 ## Quotes
 
-> I'd say Drennan was pulling down his breeches to stick it in [the woman](wiki:Osha) when she stuck it in him. His own [cheese](wiki:Cheese) knife, by the look of it.(wiki:Drennan.cite_ref-Racok50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> I'd say Drennan was pulling down his breeches to stick it in the woman when she stuck it in him. His own cheese knife, by the look of it.
 >
-> —[Theon Greyjoy](wiki:Theon_Greyjoy) to [Black Lorren](wiki:Black_Lorren)
+> —Theon Greyjoy to Black Lorren, ACOK (`sources/chapters/acok/acok-theon-04.md:63`)
 
 ## Edges
 

@@ -51,10 +51,10 @@ In [Meereen](wiki:Meereen) Ser [Barristan Selmy](wiki:Barristan_Selmy) recalls t
 >
 > —[Alester Florent](wiki:Alester_Florent) to [Davos Seaworth](wiki:Davos_Seaworth)
 
-> And yet Summerhall was the place [the prince](wiki:Rhaegar_Targaryen) loved best.(wiki:Summerhall.cite_ref-Rasos42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-1)
+> And yet Summerhall was the place the prince loved best.
 >
-> —[Arstan Whitebeard](wiki:Arstan_Whitebeard) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Arstan Whitebeard to Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-04.md:349`)
 
-> I gorged on grief at Summerhall, I need none of yours.(wiki:Summerhall.cite_ref-Rasos43.7B.7B.7B4.7D.7D.7D_21-0)
+> I gorged on grief at Summerhall, I need none of yours.
 >
-> —The [ghost of High Heart](wiki:Ghost_of_High_Heart) to [Arya Stark](wiki:Arya_Stark)
+> —The ghost of High Heart to Arya Stark, ASOS (`sources/chapters/asos/asos-arya-08.md:77`)

@@ -78,9 +78,9 @@ Qyburn continues to work with the whisperers, reporting information on the [Gold
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) and Qyburn
 
-> The [Citadel](wiki:Citadel) took my chain, but they could not take my knowledge.(wiki:Qyburn.cite_ref-Raffc3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+> The Citadel took my chain, but they could not take my knowledge.
 >
-> —Qyburn to [Cersei Lannister](wiki:Cersei_Lannister)
+> —Qyburn to Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-01.md:95`)
 
 > "The archmaesters are all craven at heart. The grey sheep, Marwyn calls them. I was as skilled a healer as Ebrose, but aspired to surpass him. For hundreds of years the men of the Citadel have opened the bodies of the dead, to study the nature of life. I wished to understand the nature of death, so I opened the bodies of the living. For that crime the grey sheep shamed me and forced me into exile . . . but I understand the nature of life and death better than any man in Oldtown."
 
@@ -100,9 +100,9 @@ Qyburn continues to work with the whisperers, reporting information on the [Gold
 
 ### Quotes about Qyburn
 
-> Qyburn was old, but his hair still had more ash than snow in it, and the laugh lines around his mouth made him look like some little girl's favorite grandfather. A rather shabby grandfather, though.(wiki:Qyburn.cite_ref-Raffc7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-8)
+> Qyburn was old, but his hair still had more ash than snow in it, and the laugh lines around his mouth made him look like some little girl's favorite grandfather. A rather shabby grandfather, though.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-02.md:165`)
 
 > **Jaime**: As for Qyburn ... gods be good, Cersei, he rode with [Vargo Hoat](wiki:Vargo_Hoat). The [Citadel](wiki:Citadel) stripped him of his chain! **Cersei**: The [grey sheep](wiki:Maesters). Qyburn has made himself most useful to me. And he is loyal, which is more than I can say of [mine own kin](wiki:House_Lannister).(wiki:Qyburn.cite_ref-Raffc12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-1)
 >
@@ -118,9 +118,9 @@ Qyburn continues to work with the whisperers, reporting information on the [Gold
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) and [Cersei Lannister](wiki:Cersei_Lannister)
 
-> Lord Qyburn had them, and Lord Qyburn could do wonders. And horrors. He can do horrors as well.(wiki:Qyburn.cite_ref-Radwd54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-1)
+> Lord Qyburn had them, and Lord Qyburn could do wonders. And horrors. He can do horrors as well.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, ADWD (`sources/chapters/adwd/adwd-cersei-01.md:243`)
 
 ## Edges
 

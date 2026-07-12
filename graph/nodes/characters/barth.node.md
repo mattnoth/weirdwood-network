@@ -98,9 +98,9 @@ Later, outside of [Meereen](wiki:Meereen) on his way to the camp of the [Second 
 >
 > —[Pylos](wiki:Pylos) to [Davos Seaworth](wiki:Davos_Seaworth)
 
-> What fools we were, who thought ourselves so wise! The error crept in from [the translation](wiki:The_prince_that_was_promised). [Dragons](wiki:Dragon) are neither male nor female, Barth saw the truth of that, but now one and now the other, as changeable as flame. The language misled us all for a thousand years.(wiki:Barth.cite_ref-Raffc35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-3)
+> What fools we were, who thought ourselves so wise! The error crept in from the translation. Dragons are neither male nor female, Barth saw the truth of that, but now one and now the other, as changeable as flame. The language misled us all for a thousand years.
 >
-> —[Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) to [Samwell Tarly](wiki:Samwell_Tarly)
+> —Aemon) to Samwell Tarly, AFFC (`sources/chapters/affc/affc-samwell-04.md:21`)
 
 ## Edges
 

@@ -66,10 +66,10 @@ Having been rejected by Daenerys, Quentyn mentions Cletus and Willam while tryin
 
 ### Quotes about Cletus
 
-> Cletus had been Quentyn's dearest friend for half his life, a brother in all but blood.(wiki:Cletus_Yronwood.cite_ref-Radwd6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
+> Cletus had been Quentyn's dearest friend for half his life, a brother in all but blood.
 >
-> —thoughts of [Quentyn Martell](wiki:Quentyn_Martell)
+> —thoughts of Quentyn Martell, ADWD (`sources/chapters/adwd/adwd-the-merchants-man-01.md:93`)
 
-> A grand adventure, Cletus called it. [Demon roads](wiki:Demon_road) and stormy seas, and at the end of it the [most beautiful woman](wiki:Daenerys_Targaryen) in the world. A tale to tell our grandchildren. But Cletus will never father a child, unless he left a bastard in the belly of that tavern wench he liked. [Will](wiki:Willam_Wells) will never have his wedding. Their deaths should have some meaning.(wiki:Cletus_Yronwood.cite_ref-Radwd60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+> A grand adventure, Cletus called it. Demon roads and stormy seas, and at the end of it the most beautiful woman in the world. A tale to tell our grandchildren. But Cletus will never father a child, unless he left a bastard in the belly of that tavern wench he liked. Will will never have his wedding. Their deaths should have some meaning.
 >
-> —[Quentyn Martell](wiki:Quentyn_Martell) to [Gerris Drinkwater](wiki:Gerris_Drinkwater)
+> —Quentyn Martell to Gerris Drinkwater, ADWD (`sources/chapters/adwd/adwd-the-spurned-suitor-01.md:75`)

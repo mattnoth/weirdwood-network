@@ -55,6 +55,6 @@ On the journey to resolve the [siege of Riverrun](wiki:Siege_of_Riverrun), Ser [
 
 ### Quotes about Willis
 
-> He was [Lady Whent's](wiki:Shella_Whent) man, stiff-necked and stolid, and the first to rise to aid [Catelyn Stark](wiki:Catelyn_Stark) back at [the inn](wiki:Inn_at_the_crossroads).(wiki:Willis_Wode.cite_ref-Ragot31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-7)
+> He was Lady Whent's man, stiff-necked and stolid, and the first to rise to aid Catelyn Stark back at the inn.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-04.md:77`)

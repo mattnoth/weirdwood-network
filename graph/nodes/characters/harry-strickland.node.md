@@ -53,13 +53,13 @@ During the [landing of the Golden Company](wiki:Landing_of_the_Golden_Company) i
 
 ### Quotes about Harry
 
-> Homeless Harry looked little like a warrior.(wiki:Harry_Strickland.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
+> Homeless Harry looked little like a warrior.
 >
-> —thoughts of [Jon Connington](wiki:Jon_Connington)
+> —thoughts of Jon Connington, ADWD (`sources/chapters/adwd/adwd-the-lost-lord-01.md:113`)
 
-> Harry Strickland had always been a genial man, better at hammering out contracts than at hammering on foes. He had a nose for [gold](wiki:Currency), but whether he had the belly for battle was another question.(wiki:Harry_Strickland.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
+> Harry Strickland had always been a genial man, better at hammering out contracts than at hammering on foes. He had a nose for gold, but whether he had the belly for battle was another question.
 >
-> —thoughts of [Jon Connington](wiki:Jon_Connington)
+> —thoughts of Jon Connington, ADWD (`sources/chapters/adwd/adwd-the-lost-lord-01.md:167`)
 
 > Harry's an old [maid](wiki:Maid), isn't he?(wiki:Harry_Strickland.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
 >

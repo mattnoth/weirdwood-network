@@ -67,9 +67,9 @@ During [the wedding](wiki:Wedding_of_Sigorn_and_Alys_Karstark), which is perform
 >
 > —Alys to [Jon Snow](wiki:Jon_Snow)
 
-> You are my only hope, Lord Snow. In [your father's](wiki:Eddard_Stark) name, I beg you. Protect me.(wiki:Alys_Karstark.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7)
+> You are my only hope, Lord Snow. In your father's name, I beg you. Protect me.
 >
-> —Alys to [Jon Snow](wiki:Jon_Snow)
+> —Alys to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-09.md:333`)
 
 > **Jon**: You're not scared?
 >
@@ -83,14 +83,14 @@ During [the wedding](wiki:Wedding_of_Sigorn_and_Alys_Karstark), which is perform
 
 ### Quotes about Alys
 
-> I have seen your sister in my fires, fleeing from this marriage they have made for her. Coming here, to you. A girl in grey on a dying horse, I have seen it plain as day. It has not happened yet, but it will.(wiki:Alys_Karstark.cite_ref-Radwd28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+> I have seen your sister in my fires, fleeing from this marriage they have made for her. Coming here, to you. A girl in grey on a dying horse, I have seen it plain as day. It has not happened yet, but it will.
 >
-> —[Melisandre](wiki:Melisandre) to [Jon Snow](wiki:Jon_Snow)
+> —Melisandre to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-06.md:165`)
 
 > **Jon**: You were not right. Alys is not [Arya](wiki:Arya_Stark). **Melisandre**: The vision was a true one. It was my reading that was false. I am as mortal as you, Jon Snow. All mortals err.(wiki:Alys_Karstark.cite_ref-Radwd49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-5)
 >
 > —[Jon Snow](wiki:Jon_Snow) and [Melisandre](wiki:Melisandre)
 
-> A [northern](wiki:North) maid and a [wildling warrior](wiki:Sigorn), bound together by the [Lord of Light](wiki:R'hllor).(wiki:Alys_Karstark.cite_ref-Radwd49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-6)
+> A northern maid and a wildling warrior, bound together by the Lord of Light.
 >
-> —[Axell Florent](wiki:Axell_Florent) to [Jon Snow](wiki:Jon_Snow)
+> —Axell Florent to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-10.md:261`)

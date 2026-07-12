@@ -47,9 +47,9 @@ In [Oldtown](wiki:Oldtown), Jaehaerys was blessed and crowned by the [High Septo
 
 ## Quotes
 
-> No man in the [Seven Kingdoms](wiki:Seven_Kingdoms) could doubt that [the king](wiki:Maegor_I_Targaryen) was accursed now.(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
+> No man in the Seven Kingdoms could doubt that the king was accursed now.
 >
-> —writings of [Gyldayn](wiki:Gyldayn)
+> —writings of Gyldayn, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p03.md:213`)
 
 > [Maegor](wiki:Maegor_I_Targaryen) has only [one](wiki:Balerion) [dragon](wiki:Dragon). [Our prince](wiki:Jaehaerys_I_Targaryen) has two.(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13)
 >

@@ -89,9 +89,9 @@ Ser Davos recalls that when Stannis decided to aid the [Night's Watch](wiki:Nigh
 >
 > —Alester and [Davos Seaworth](wiki:Davos_Seaworth)
 
-> [Stannis Baratheon](wiki:Stannis_Baratheon) will never sit the [Iron Throne](wiki:Iron_Throne). Is it [treason](wiki:Treason) to say the truth? A bitter truth, but no less true for that.(wiki:Alester_Florent.cite_ref-Rasos25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-9)
+> Stannis Baratheon will never sit the Iron Throne. Is it treason to say the truth? A bitter truth, but no less true for that.
 >
-> —Alester to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Alester to Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-03.md:135`)
 
 > Not treason. Never treason. I love [His Grace](wiki:Stannis_Baratheon) as much as any man. [My own niece](wiki:Selyse_Florent) is his queen, and I remained loyal to him when wiser men fled. I am his Hand, the [Hand of the King](wiki:Hand_of_the_King), how can I be a traitor? I only meant to save our lives, and ... honor ... yes.(wiki:Alester_Florent.cite_ref-Rasos25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-10)
 >
@@ -103,9 +103,9 @@ Ser Davos recalls that when Stannis decided to aid the [Night's Watch](wiki:Nigh
 >
 > —[Davos Seaworth](wiki:Davos_Seaworth)'s thoughts
 
-> [Tyrell](wiki:Mace_Tyrell) demanded the lands and castles of Lord Alester Florent, his own bannerman, who'd had the singular ill judgment to back first [Renly](wiki:Renly_Baratheon) and then [Stannis](wiki:Stannis_Baratheon).(wiki:Alester_Florent.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-1)
+> Tyrell demanded the lands and castles of Lord Alester Florent, his own bannerman, who'd had the singular ill judgment to back first Renly and then Stannis.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
+> —Tyrion Lannister's thoughts, ASOS (`sources/chapters/asos/asos-tyrion-03.md:161`)
 
 > This man is defeated.(wiki:Alester_Florent.cite_ref-Rasos25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-11)
 >

@@ -73,17 +73,17 @@ Nobles and knights from the Vale travel to the Gates of the Moon to attend the t
 
 ## Quotes
 
-> It stretched before them to the misty east, a tranquil land of rich black soil, wide slow-moving rivers, and hundreds of small lakes that shone like mirrors in the sun, protected on all sides by its sheltering peaks.(wiki:Vale_of_Arryn.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)
+> It stretched before them to the misty east, a tranquil land of rich black soil, wide slow-moving rivers, and hundreds of small lakes that shone like mirrors in the sun, protected on all sides by its sheltering peaks.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-06.md:45`)
 
 > **Gunthor**: The mothers go hungry, and steel fills more mouths than gold. What would you give us for your lives, Tyrion son of [Tywin](wiki:Tywin_Lannister)? Swords? Lances? Mail? **Tyrion**: All that, and more, Gunthor son of [Gurn](wiki:Gurn). I will give you the Vale of Arryn.(wiki:Vale_of_Arryn.cite_ref-Ragot42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-1)
 >
 > —[Gunthor](wiki:Gunthor) and [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> My lords, with your leave, I propose to travel to the Vale and there woo and win Lady [Lysa Arryn](wiki:Lysa_Arryn). Once I am her consort, I shall deliver you the Vale of Arryn without a drop of blood being spilled.(wiki:Vale_of_Arryn.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_42-0)
+> My lords, with your leave, I propose to travel to the Vale and there woo and win Lady Lysa Arryn. Once I am her consort, I shall deliver you the Vale of Arryn without a drop of blood being spilled.
 >
-> —[Petyr Baelish](wiki:Petyr_Baelish) to the [small council](wiki:Small_council)
+> —Petyr Baelish to the small council, ASOS (`sources/chapters/asos/asos-tyrion-03.md:77`)
 
 > The lords of the Vale are numerous. As with any large group, their views vary.(wiki:Vale_of_Arryn.cite_ref-43)
 >

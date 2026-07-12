@@ -66,6 +66,6 @@ Ser [Forley Prester](wiki:Forley_Prester) retreats with his men from Riverrun to
 >
 > —[Hoster Tully](wiki:Hoster_Tully) and [Catelyn Stark](wiki:Catelyn_Stark)
 
-> [Her son](wiki:Robb_Stark) had won two great victories, smashing [Jaime Lannister](wiki:Jaime_Lannister) in the [Whispering Wood](wiki:Battle_in_the_Whispering_Wood) and routing his leaderless host outside the walls of [Riverrun](wiki:Riverrun) in the Battle of the Camps, but from the way some of his bannermen spoke of him, he might have been [Aegon the Conqueror](wiki:Aegon_I_Targaryen) reborn.(wiki:Battle_of_the_Camps.cite_ref-Racok7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-2)
+> Her son had won two great victories, smashing Jaime Lannister in the Whispering Wood and routing his leaderless host outside the walls of Riverrun in the Battle of the Camps, but from the way some of his bannermen spoke of him, he might have been Aegon the Conqueror reborn.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-01.md:225`)

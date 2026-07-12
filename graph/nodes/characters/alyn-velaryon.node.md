@@ -117,9 +117,9 @@ Bold(wiki:Alyn_Velaryon.cite_ref-Rfab20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-
 
 ### Quotes by Alyn
 
-> They are my fleets now, and [Baela's](wiki:Baela_Targaryen) [monkey](wiki:Monkey) is more suited to command them than [Nuncle Gedmund](wiki:Gedmund_Peake).(wiki:Alyn_Velaryon.cite_ref-Rfab21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-7)
+> They are my fleets now, and Baela's monkey is more suited to command them than Nuncle Gedmund.
 >
-> —Alyn regarding the [royal fleet](wiki:Royal_fleet)
+> —Alyn regarding the royal fleet, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p01.md:133`)
 
 > Lord [Corlys Velaryon](wiki:Corlys_Velaryon) had made nine [famous voyages](wiki:Great_voyages) on his *[Sea Snake](wiki:Sea_Snake)*, it will be recalled. Lord Alyn Oakenfist would make six, upon six different [ships](wiki:Ship). “My ladies,” he would call them.(wiki:Alyn_Velaryon.cite_ref-Rfab21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-8)
 >

@@ -52,14 +52,14 @@ Victarion thinks about Talbert on his voyage to [Slaver's Bay](wiki:Slaver's_Bay
 
 ### Quotes about Talbert
 
-> May he feast as he fought, in the [Drowned God](wiki:Drowned_God)'s watery halls.(wiki:Talbert_Serry.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> May he feast as he fought, in the Drowned God's watery halls.
 >
-> —[Victarion Greyjoy](wiki:Victarion_Greyjoy) to his crew
+> —Victarion Greyjoy to his crew, AFFC (`sources/chapters/affc/affc-the-reaver-01.md:51`)
 
-> A brave man, thought Victarion. Almost [ironborn](wiki:Ironborn).(wiki:Talbert_Serry.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> A brave man, thought Victarion. Almost ironborn.
 >
-> —thoughts of [Victarion Greyjoy](wiki:Victarion_Greyjoy)
+> —thoughts of Victarion Greyjoy, AFFC (`sources/chapters/affc/affc-the-reaver-01.md:51`)
 
-> Serry, that had been his name. A [knight](wiki:Knight), and heir to [Southshield](wiki:Southshield). I killed him, but he stabs at me from beyond the grave. From the hot heart of whatever hell I sent him to, he thrusts his steel into my hand and twists.(wiki:Talbert_Serry.cite_ref-Radwd56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+> Serry, that had been his name. A knight, and heir to Southshield. I killed him, but he stabs at me from beyond the grave. From the hot heart of whatever hell I sent him to, he thrusts his steel into my hand and twists.
 >
-> —thoughts of [Victarion Greyjoy](wiki:Victarion_Greyjoy)
+> —thoughts of Victarion Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-iron-suitor-01.md:107`)

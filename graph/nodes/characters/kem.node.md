@@ -63,6 +63,6 @@ As the [second siege of Meereen](wiki:Second_siege_of_Meereen) commences, Tyrion
 
 ### Quotes about Kem
 
-> Every word out of your mouth reeks of [Flea Bottom](wiki:Flea_Bottom).(wiki:Kem.cite_ref-Radwd66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+> Every word out of your mouth reeks of Flea Bottom.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-12.md:157`)

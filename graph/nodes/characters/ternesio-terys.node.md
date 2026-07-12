@@ -38,9 +38,9 @@ Ternesio captains the *Titan's Daughter* from [Saltpans](wiki:Saltpans) to [Braa
 
 ## Quotes
 
-> The [north](wiki:North) has nothing for us. Ice and [war](wiki:War_of_the_Five_Kings) and [pirates](wiki:Pirates). We saw a dozen pirate ships making north as we rounded [Crackclaw Point](wiki:Crackclaw_Point), and I have no wish to meet them again. From here we bend our oars for [home](wiki:Braavos), and I suggest you do the same.(wiki:Ternesio_Terys.cite_ref-Rasos74.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> The north has nothing for us. Ice and war and pirates. We saw a dozen pirate ships making north as we rounded Crackclaw Point, and I have no wish to meet them again. From here we bend our oars for home, and I suggest you do the same.
 >
-> —Ternesio Terys to [Arya Stark](wiki:Arya_Stark)
+> —Ternesio Terys to Arya Stark, ASOS (`sources/chapters/asos/asos-arya-13.md:245`)
 
 > **Arya:** Wait, I have something else. **Ternesio:** One more [silver](wiki:Currency) will make no difference, child. **Arya:** It's not [silver](wiki:Silver). It's [iron](wiki:Iron). Here. **Ternesio:** This… how…? **Arya:** *Valar morghulis.* **Ternesio:** *Valar dohaeris*. Of *course* you shall have a cabin.(wiki:Ternesio_Terys.cite_ref-Rasos74.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
 >

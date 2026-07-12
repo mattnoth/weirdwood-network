@@ -115,10 +115,10 @@ The [Tullys](wiki:House_Tully) of [Riverrun](wiki:Riverrun), a house of First Me
 >
 > —[Albin Massey](wiki:Albin_Massey) to [Alysanne Targaryen](wiki:Alysanne_Targaryen)
 
-> The blood of the First Men still flows in the veins of the [Starks](wiki:House_Stark), and we hold to the belief that the man who passes the sentence should swing the sword. If you would take a man's life, you owe it to him to look into his eyes and hear his final words. And if you cannot bear to do that, then perhaps the man does not deserve to die.(wiki:First_Men.cite_ref-Ragot1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> The blood of the First Men still flows in the veins of the Starks, and we hold to the belief that the man who passes the sentence should swing the sword. If you would take a man's life, you owe it to him to look into his eyes and hear his final words. And if you cannot bear to do that, then perhaps the man does not deserve to die.
 >
-> —[Eddard Stark](wiki:Eddard_Stark) to [Bran Stark](wiki:Bran_Stark)
+> —Eddard Stark to Bran Stark, AGOT (`sources/chapters/agot/agot-bran-01.md:63`)
 
-> Some twelve thousand years ago, the First Men appeared from [the east](wiki:Essos), crossing the [Broken Arm](wiki:Broken_Arm) of [Dorne](wiki:Dorne) before it was broken. They came with [bronze](wiki:Bronze) swords and great leathern shields, riding [horses](wiki:Horse).(wiki:First_Men.cite_ref-Ragot66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-15)
+> Some twelve thousand years ago, the First Men appeared from the east, crossing the Broken Arm of Dorne before it was broken. They came with bronze swords and great leathern shields, riding horses.
 >
-> —[Luwin](wiki:Luwin) to [Bran Stark](wiki:Bran_Stark)
+> —Luwin to Bran Stark, AGOT (`sources/chapters/agot/agot-bran-07.md:173`)

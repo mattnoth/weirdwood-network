@@ -48,14 +48,14 @@ Roose tells [Theon Greyjoy](wiki:Theon_Greyjoy) about Domeric and his death whil
 
 ### Quotes about Domeric
 
-> Domeric. A quiet boy, but most accomplished. He served four years as [Lady Dustin's](wiki:Barbrey_Dustin) [page](wiki:Page), and three in the [Vale](wiki:Vale_of_Arryn) as a [squire](wiki:Squire) to [Lord Redfort](wiki:Horton_Redfort). He played the high harp, read histories, and rode like the wind. [Horses](wiki:Horse) … the boy was mad for horses, Lady Dustin will tell you. Not even [Lord Rickard's](wiki:Rickard_Stark) [daughter](wiki:Lyanna_Stark) could outrace him, and that one was half a horse herself. Redfort said he showed great promise [in the lists](wiki:Tourney). A great jouster must be a great horseman first.(wiki:Domeric_Bolton.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> Domeric. A quiet boy, but most accomplished. He served four years as Lady Dustin's page, and three in the Vale as a squire to Lord Redfort. He played the high harp, read histories, and rode like the wind. Horses … the boy was mad for horses, Lady Dustin will tell you. Not even Lord Rickard's daughter could outrace him, and that one was half a horse herself. Redfort said he showed great promise in the lists. A great jouster must be a great horseman first.
 >
-> —[Roose Bolton](wiki:Roose_Bolton), to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Roose Bolton, to Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-03.md:247`)
 
-> [Ramsay](wiki:Ramsay_Snow) killed him. A sickness of the bowels, [Maester](wiki:Maester) [Uthor](wiki:Uthor) says, but I say [poison](wiki:Poison). In the [Vale](wiki:Vale_of_Arryn), Domeric had enjoyed the company of [Redfort's](wiki:Horton_Redfort) sons. He wanted a brother by his side, so he rode up the [Weeping Water](wiki:Weeping_Water) to seek [my bastard](wiki:Ramsay_Snow) out. I forbade it, but Domeric was a man grown and thought that he knew better than his father. Now his bones lie beneath the [Dreadfort](wiki:Dreadfort) with the bones of his brothers, who died still in the cradle, and I am left with Ramsay. Tell me, my lord … if the [kinslayer](wiki:Kinslayer) is accursed, what is a father to do when one son slays another?(wiki:Domeric_Bolton.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
+> Ramsay killed him. A sickness of the bowels, Maester Uthor says, but I say poison. In the Vale, Domeric had enjoyed the company of Redfort's sons. He wanted a brother by his side, so he rode up the Weeping Water to seek my bastard out. I forbade it, but Domeric was a man grown and thought that he knew better than his father. Now his bones lie beneath the Dreadfort with the bones of his brothers, who died still in the cradle, and I am left with Ramsay. Tell me, my lord … if the kinslayer is accursed, what is a father to do when one son slays another?
 >
-> —[Roose Bolton](wiki:Roose_Bolton), to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Roose Bolton, to Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-03.md:251`)
 
-> Once he had heard [Skinner](wiki:Skinner) say that [the Bastard](wiki:Ramsay_Snow) had killed his trueborn brother, but he had never dared to believe it. He could be wrong. Brothers die sometimes, it does not mean that they were killed.(wiki:Domeric_Bolton.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+> Once he had heard Skinner say that the Bastard had killed his trueborn brother, but he had never dared to believe it. He could be wrong. Brothers die sometimes, it does not mean that they were killed.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-03.md:253`)

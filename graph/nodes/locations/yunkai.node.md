@@ -91,17 +91,17 @@ In the [Great Pyramid](wiki:Great_Pyramid) of Meereen, [Skahaz mo Kandaq](wiki:S
 >
 > —[Grazdan mo Eraz](wiki:Grazdan_mo_Eraz) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> A [slave](wiki:Slave) in Yunkai learns the way of seven sighs and the sixteen seats of pleasure, Your Grace. The [Unsullied](wiki:Unsullied) learn the way of the three spears.(wiki:Yunkai.cite_ref-Rasos42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-19)
+> A slave in Yunkai learns the way of seven sighs and the sixteen seats of pleasure, Your Grace. The Unsullied learn the way of the three spears.
 >
-> —[Grey Worm](wiki:Grey_Worm) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Grey Worm to Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-04.md:43`)
 
-> The city was built of yellow bricks instead of red; elsewise it was [Astapor](wiki:Astapor) all over again, with the same crumbling walls and high stepped [pyramids](wiki:Pyramid), and a great [harpy](wiki:Harpies) mounted above its gates.(wiki:Yunkai.cite_ref-Rasos42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-20)
+> The city was built of yellow bricks instead of red; elsewise it was Astapor all over again, with the same crumbling walls and high stepped pyramids, and a great harpy mounted above its gates.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-04.md:371`)
 
-> I [spared Yunkai](wiki:Battle_near_Yunkai) before, but I will not make that mistake again. If they should dare attack me, this time I shall raze their Yellow City to the ground.(wiki:Yunkai.cite_ref-Radwd16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+> I spared Yunkai before, but I will not make that mistake again. If they should dare attack me, this time I shall raze their Yellow City to the ground.
 >
-> —[Daenerys Targaryen](wiki:Daenerys_Targaryen) to [Xaro Xhoan Daxos](wiki:Xaro_Xhoan_Daxos)
+> —Daenerys Targaryen to Xaro Xhoan Daxos, ADWD (`sources/chapters/adwd/adwd-daenerys-03.md:153`)
 
 > With their generals, it's a wonder they don't march into [the sea](wiki:Slaver's_Bay).(wiki:Yunkai.cite_ref-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3)
 >

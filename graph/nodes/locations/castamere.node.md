@@ -48,6 +48,6 @@ For their part in the downfall of [House Stark](wiki:House_Stark) during the [Wa
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) and [Tywin Lannister](wiki:Tywin_Lannister)
 
-> Every [crow](wiki:Crow) in the [Seven Kingdoms](wiki:Seven_Kingdoms) should pay homage to you, [Father](wiki:Tywin_Lannister). From Castamere to the [Blackwater](wiki:Battle_of_the_Blackwater), you fed them well.(wiki:Castamere.cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+> Every crow in the Seven Kingdoms should pay homage to you, Father. From Castamere to the Blackwater, you fed them well.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-01.md:143`)

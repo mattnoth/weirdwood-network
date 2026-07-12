@@ -50,10 +50,10 @@ After Ser [Jaime Lannister](wiki:Jaime_Lannister) negotiates an end to the [sieg
 
 ## Quotes
 
-> Patrek Mallister was not too ill a fellow; they shared a taste for wenches, [wine](wiki:Wine), and [hawking](wiki:Hawk).(wiki:Patrek_Mallister.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+> Patrek Mallister was not too ill a fellow; they shared a taste for wenches, wine, and hawking.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-01.md:213`)
 
-> [Mallister](wiki:House_Mallister) or no, he was a more amiable riding companion than this sour old priest that his uncle [Aeron](wiki:Aeron_Greyjoy) had turned into.(wiki:Patrek_Mallister.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> Mallister or no, he was a more amiable riding companion than this sour old priest that his uncle Aeron had turned into.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-01.md:219`)

@@ -49,13 +49,13 @@ Shiera was a great reader, even at an early age, spoke many [languages](wiki:Lan
 >
 > —[Duncan the Tall](wiki:Duncan_the_Tall) and [Aegon Targaryen](wiki:Aegon_V_Targaryen)
 
-> I have my own ghosts, Bran. A brother that I loved, [a brother](wiki:Aegor_Rivers) that I hated, a woman I desired.(wiki:Shiera_Seastar.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+> I have my own ghosts, Bran. A brother that I loved, a brother that I hated, a woman I desired.
 >
-> —[Brynden Rivers](wiki:Brynden_Rivers) to [Bran Stark](wiki:Bran_Stark)
+> —Brynden Rivers to Bran Stark, ADWD (`sources/chapters/adwd/adwd-bran-03.md:195`)
 
-> [Bittersteel](wiki:Aegor_Rivers) and [Bloodraven](wiki:Brynden_Rivers) both loved Shiera Seastar, and the [Seven Kingdoms](wiki:Seven_Kingdoms) bled.(wiki:Shiera_Seastar.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+> Bittersteel and Bloodraven both loved Shiera Seastar, and the Seven Kingdoms bled.
 >
-> —[Barristan Selmy](wiki:Barristan_Selmy)'s thoughts
+> —Barristan Selmy's thoughts, ADWD (`sources/chapters/adwd/adwd-the-kingbreaker-01.md:85`)
 
 > Though she never wed, she had many offers, and several lovers through the years. Duels were fought over the right to sit beside her, men killed themselves after falling from her favor, poets outdid each other writing songs about her beauty. Her most ardent admirer was her half-brother, [Bloodraven](wiki:Brynden_Rivers), who proposed marriage to her half a hundred times. Shiera gave him her bed, but never her hand. It amused her more to make him jealous.(wiki:Shiera_Seastar.cite_ref-SSM_1-5)
 >

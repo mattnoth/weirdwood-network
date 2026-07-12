@@ -33,16 +33,16 @@ After Ser [Jaime Lannister](wiki:Jaime_Lannister) negotiates the end of the [sie
 
 ### Quotes by Hoster
 
-> Past a certain point, all the dates grow hazy and confused, and the clarity of history becomes the fog of legend.(wiki:Hoster_Blackwood.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> Past a certain point, all the dates grow hazy and confused, and the clarity of history becomes the fog of legend.
 >
-> —Hoster to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Hoster to Jaime Lannister, ADWD (`sources/chapters/adwd/adwd-jaime-01.md:305`)
 
 ### Quotes about Hoster
 
-> A weakling, this one. Water for blood. Never mind how tall he is, any one of my girls could snap him like a rotten twig.(wiki:Hoster_Blackwood.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> A weakling, this one. Water for blood. Never mind how tall he is, any one of my girls could snap him like a rotten twig.
 >
-> —[Jonos Bracken](wiki:Jonos_Bracken) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Jonos Bracken to Jaime Lannister, ADWD (`sources/chapters/adwd/adwd-jaime-01.md:267`)
 
-> [Tyrion](wiki:Tyrion_Lannister) would like this one. They could talk from dusk to dawn, arguing about books.(wiki:Hoster_Blackwood.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> Tyrion would like this one. They could talk from dusk to dawn, arguing about books.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, ADWD (`sources/chapters/adwd/adwd-jaime-01.md:307`)

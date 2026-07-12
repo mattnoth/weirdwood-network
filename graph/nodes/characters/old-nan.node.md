@@ -116,9 +116,9 @@ According to [Theon Greyjoy](wiki:Theon_Greyjoy), who was held captive at the Dr
 >
 > —[Bran Stark](wiki:Bran_Stark), [Jojen Reed](wiki:Jojen_Reed), and [Meera Reed](wiki:Meera_Reed)
 
-> Sometimes Old Nan would tell the same story she'd told before, but we never minded, if it was a good story. Old stories are like old friends, she used to say. You have to visit them from time to time.(wiki:Old_Nan.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-4)
+> Sometimes Old Nan would tell the same story she'd told before, but we never minded, if it was a good story. Old stories are like old friends, she used to say. You have to visit them from time to time.
 >
-> —[Bran Stark](wiki:Bran_Stark) to [Jojen Reed](wiki:Jojen_Reed)
+> —Bran Stark to Jojen Reed, ASOS (`sources/chapters/asos/asos-bran-02.md:129`)
 
 ## Edges
 

@@ -37,9 +37,9 @@ Obeying the orders of Queen Regent [Cersei Lannister](wiki:Cersei_Lannister), Al
 >
 > —[Janos Slynt](wiki:Janos_Slynt) to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> A hard man for a hard job, is Deem. Does as he's told, and never a word afterward.(wiki:Allar_Deem.cite_ref-Racok8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> A hard man for a hard job, is Deem. Does as he's told, and never a word afterward.
 >
-> —[Janos Slynt](wiki:Janos_Slynt) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Janos Slynt to Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-02.md:57`)
 
 > **Tyrion**: Deem. Tell the captain it would not be taken amiss if that one should happen to be swept overboard before they reach [Eastwatch](wiki:Eastwatch-by-the-Sea). **Jacelyn**: I'm told those [northern](wiki:North) waters are very stormy, my lord.(wiki:Allar_Deem.cite_ref-Racok8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
 >

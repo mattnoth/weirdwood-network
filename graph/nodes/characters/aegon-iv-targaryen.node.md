@@ -129,9 +129,9 @@ Aegon dressed in silk and satin, bright and rich, and wore rings and chains of g
 >
 > —writings of [Kaeth](wiki:Kaeth) in *[Lives of Four Kings](wiki:Lives_of_Four_Kings)*
 
-> Aegon was not called the Unworthy without cause.(wiki:Aegon_IV_Targaryen.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-0)
+> Aegon was not called the Unworthy without cause.
 >
-> —[Arys Oakheart](wiki:Arys_Oakheart) to [Arianne Martell](wiki:Arianne_Martell)
+> —Arys Oakheart to Arianne Martell, AFFC (`sources/chapters/affc/affc-the-soiled-knight-01.md:155`)
 
 > That King Aegon, he had any woman he wanted, whether they were married or not.(wiki:Aegon_IV_Targaryen.cite_ref-Rasos28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-1)
 >

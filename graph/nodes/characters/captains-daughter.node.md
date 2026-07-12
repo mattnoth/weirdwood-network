@@ -33,9 +33,9 @@ The *Myraham* is forbidden to set sail again by Lord [Balon Greyjoy](wiki:Balon_
 
 ## Quotes
 
-> Her father had forbidden her to come ashore, but whenever Theon came to [Lordsport](wiki:Lordsport) he spied her wandering forlornly about the deck.(wiki:Captain's_daughter.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+> Her father had forbidden her to come ashore, but whenever Theon came to Lordsport he spied her wandering forlornly about the deck.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-02.md:183`)
 
 > **Daughter**: Milord, a moment. As it please milord... **Esgred**: Did she? Please milord?(wiki:Captain's_daughter.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 >

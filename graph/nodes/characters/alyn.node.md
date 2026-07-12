@@ -67,9 +67,9 @@ During [the wedding](wiki:Wedding_of_Ramsay_Bolton_and_Arya_Stark) of [Ramsay Bo
 
 ### Quotes about Alyn
 
-> Alyn carried the [Stark](wiki:House_Stark) banner. When she saw him rein in beside Lord [Beric](wiki:Beric_Dondarrion) to exchange words, it made Sansa feel ever so proud. Alyn was handsomer than [Jory](wiki:Jory_Cassel) had been; he was going to be a [knight](wiki:Knight) one day.(wiki:Alyn.cite_ref-Ragot44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> Alyn carried the Stark banner. When she saw him rein in beside Lord Beric to exchange words, it made Sansa feel ever so proud. Alyn was handsomer than Jory had been; he was going to be a knight one day.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, AGOT (`sources/chapters/agot/agot-sansa-03.md:61`)
 
 ## Edges
 

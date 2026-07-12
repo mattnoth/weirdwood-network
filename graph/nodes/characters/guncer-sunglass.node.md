@@ -42,9 +42,9 @@ Ser [Triston of Tally Hill](wiki:Triston_of_Tally_Hill), who was one of Guncer's
 
 ## Quotes
 
-> The [Rambtons](wiki:House_Rambton) had slain four of the [queen's men](wiki:Queen's_men) before the others overwhelmed them. Afterward Guncer Sunglass, mildest and most pious of [lords](wiki:Lord), told [Stannis](wiki:Stannis_Baratheon) he could no longer support his claim. Now he shared a sweltering cell with [the septon](wiki:Barre) and Ser [Hubard's](wiki:Hubard_Rambton) two surviving sons.(wiki:Guncer_Sunglass.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+> The Rambtons had slain four of the queen's men before the others overwhelmed them. Afterward Guncer Sunglass, mildest and most pious of lords, told Stannis he could no longer support his claim. Now he shared a sweltering cell with the septon and Ser Hubard's two surviving sons.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ACOK (`sources/chapters/acok/acok-davos-01.md:23`)
 
 > **Davos**: I want no part of you, my lady. Or your god. May [the Seven](wiki:Faith_of_the_Seven) protect me. **Melisandre**: They did not protect Guncer Sunglass. He prayed thrice each day, and bore seven seven-pointed stars upon his shield, but when [R'hllor](wiki:R'hllor) reached out his hand his prayers turned to screams, and he [burned](wiki:Blood_sacrifice).(wiki:Guncer_Sunglass.cite_ref-Rasos25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
 >

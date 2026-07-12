@@ -45,6 +45,6 @@ After Ser [Gerris Drinkwater](wiki:Gerris_Drinkwater) informs the Windblown that
 
 ### Quotes about Denzo
 
-> Denzo was a captain, and veteran of a hundred battles. Frog's experience was limited to practice yard and tourney ground, so he did not think it was his place to dispute the verdict of such a seasoned warrior.(wiki:Denzo_D'han.cite_ref-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> Denzo was a captain, and veteran of a hundred battles. Frog's experience was limited to practice yard and tourney ground, so he did not think it was his place to dispute the verdict of such a seasoned warrior.
 >
-> —thoughts of [Quentyn Martell](wiki:Quentyn_Martell)
+> —thoughts of Quentyn Martell, ADWD (`sources/chapters/adwd/adwd-the-windblown-01.md:85`)

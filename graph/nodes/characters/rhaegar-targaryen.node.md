@@ -126,9 +126,9 @@ Jon discusses the issue of trust with Aegon, and then recalls that Rhaegar had b
 >
 > —Rhaegar and [Elia Martell](wiki:Elia_Martell) in [Daenerys Targaryen](wiki:Daenerys_Targaryen)'s vision in the [House of the Undying](wiki:House_of_the_Undying)
 
-> I will require [sword](wiki:Sword) and armor. It seems I must be a warrior.(wiki:Rhaegar_Targaryen.cite_ref-Rasos8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-6)
+> I will require sword and armor. It seems I must be a warrior.
 >
-> —Rhaegar to [Willem Darry](wiki:Willem_Darry)
+> —Rhaegar to Willem Darry, ASOS (`sources/chapters/asos/asos-daenerys-01.md:115`)
 
 > When [the battle's](wiki:Battle_of_the_Trident) done I mean to call a [council](wiki:Great_Council). Changes will be made. I meant to do it long ago, but ... well, it does no good to speak of roads not taken. We shall talk when I return.(wiki:Rhaegar_Targaryen.cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-3)
 >
@@ -154,13 +154,13 @@ Jon discusses the issue of trust with Aegon, and then recalls that Rhaegar had b
 >
 > —[Robert I Baratheon](wiki:Robert_I_Baratheon) and [Eddard Stark](wiki:Eddard_Stark)
 
-> Your brother Rhaegar was the last dragon, and he died on the [Trident](wiki:Battle_of_the_Trident). [Viserys](wiki:Viserys_Targaryen) is less than the shadow of a [snake](wiki:Snake).(wiki:Rhaegar_Targaryen.cite_ref-Ragot23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+> Your brother Rhaegar was the last dragon, and he died on the Trident. Viserys is less than the shadow of a snake.
 >
-> —[Jorah Mormont](wiki:Jorah_Mormont) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Jorah Mormont to Daenerys Targaryen, AGOT (`sources/chapters/agot/agot-daenerys-03.md:103`)
 
-> [Rubies](wiki:Rubies) flew like drops of blood from the chest of a dying prince, and he sank to his knees in [the water](wiki:Ruby_ford) and with his last breath murmured a woman's name.(wiki:Rhaegar_Targaryen.cite_ref-Racok48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-5)
+> Rubies flew like drops of blood from the chest of a dying prince, and he sank to his knees in the water and with his last breath murmured a woman's name.
 >
-> —[Daenerys Targaryen](wiki:Daenerys_Targaryen)'s vision in the [House of the Undying](wiki:House_of_the_Undying)
+> —Daenerys Targaryen's vision in the House of the Undying, ACOK (`sources/chapters/acok/acok-daenerys-04.md:165`)
 
 > **Daenerys**: Ser [Jorah](wiki:Jorah_Mormont) named Rhaegar the last dragon once. He had to have been a peerless warrior to be called that, surely?
 >
@@ -184,9 +184,9 @@ Jon discusses the issue of trust with Aegon, and then recalls that Rhaegar had b
 >
 > —[Daenerys Targaryen](wiki:Daenerys_Targaryen) and [Barristan Selmy](wiki:Barristan_Selmy)
 
-> Had any man ever been so beautiful? He was more than a man, though. His blood was the blood of [old Valyria](wiki:Valyrian_Freehold), the blood of [dragons](wiki:Dragon) and [gods](wiki:Gods).(wiki:Rhaegar_Targaryen.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-10)
+> Had any man ever been so beautiful? He was more than a man, though. His blood was the blood of old Valyria, the blood of dragons and gods.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-05.md:383`)
 
 > Prince Rhaegar loved his Lady [Lyanna](wiki:Lyanna_Stark) and [thousands died](wiki:Robert's_Rebellion) for it.(wiki:Rhaegar_Targaryen.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-3)
 >

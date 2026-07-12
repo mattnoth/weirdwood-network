@@ -51,6 +51,6 @@ Disguised as "Alayne Stone", Sansa dances with Albar at the Gates of the Moon.(w
 
 ### Quotes about Albar
 
-> A blunt broad-shouldered [knight](wiki:Knight) who shaved his chin but cultivated thick black sidewhiskers that framed his homely face like hedgerows, Ser Albar was a younger version of [his father](wiki:Nestor_Royce).(wiki:Albar_Royce.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7)
+> A blunt broad-shouldered knight who shaved his chin but cultivated thick black sidewhiskers that framed his homely face like hedgerows, Ser Albar was a younger version of his father.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, AFFC (`sources/chapters/affc/affc-sansa-01.md:151`)

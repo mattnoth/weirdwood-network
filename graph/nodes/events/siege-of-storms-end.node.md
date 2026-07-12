@@ -60,22 +60,22 @@ Having lost an arm, the blacksmith [Donal Noye](wiki:Donal_Noye) left Storm's En
 >
 > —[George R. R. Martin](wiki:George_R._R._Martin)
 
-> Within [Storm's End](wiki:Storm's_End), the horses had long since been eaten, the dogs and cats were gone, and the garrison was down to roots and rats. Then came a night when the moon was new and black clouds hid the stars. Cloaked in that darkness, [Davos](wiki:Davos_Seaworth) the smuggler had dared the [Redwyne](wiki:Redwyne_fleet) cordon and the rocks of [Shipbreaker Bay](wiki:Shipbreaker_Bay) alike. His little ship had a black hull, black sails, black oars, and a hold crammed with onions and salt fish. Little enough, yet it had kept the garrison alive long enough for [Eddard Stark](wiki:Eddard_Stark) to reach Storm's End and break the siege.(wiki:Siege_of_Storm's_End.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> Within Storm's End, the horses had long since been eaten, the dogs and cats were gone, and the garrison was down to roots and rats. Then came a night when the moon was new and black clouds hid the stars. Cloaked in that darkness, Davos the smuggler had dared the Redwyne cordon and the rocks of Shipbreaker Bay alike. His little ship had a black hull, black sails, black oars, and a hold crammed with onions and salt fish. Little enough, yet it had kept the garrison alive long enough for Eddard Stark to reach Storm's End and break the siege.
 >
-> —thoughts of [Cressen](wiki:Cressen)
+> —thoughts of Cressen, ACOK (`sources/chapters/acok/acok-prologue.md:155`)
 
-> I held [Storm's End](wiki:Storm's_End) for him, watching good men starve while [Mace Tyrell](wiki:Mace_Tyrell) and [Paxter Redwyne](wiki:Paxter_Redwyne) feasted within sight of my walls. Did [Robert](wiki:Robert_I_Baratheon) thank me? No.(wiki:Siege_of_Storm's_End.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+> I held Storm's End for him, watching good men starve while Mace Tyrell and Paxter Redwyne feasted within sight of my walls. Did Robert thank me? No.
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Cressen](wiki:Cressen)
+> —Stannis Baratheon to Cressen, ACOK (`sources/chapters/acok/acok-prologue.md:211`)
 
-> [He](wiki:Eddard_Stark) had won a great victory that day, all the greater for being bloodless.(wiki:Siege_of_Storm's_End.cite_ref-Racok31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)
+> He had won a great victory that day, all the greater for being bloodless.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-03.md:15`)
 
 > Maester [Cressen](wiki:Cressen) told [Stannis](wiki:Stannis_Baratheon) that we might be forced to eat our dead, and there was no gain in flinging away good meat. Thanks to the [Onion Knight](wiki:Davos_Seaworth) we were never reduced to dining on corpses, but it was a close thing.(wiki:Siege_of_Storm's_End.cite_ref-Racok33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
 >
 > —[Renly Baratheon](wiki:Renly_Baratheon) to [Mathis Rowan](wiki:Mathis_Rowan)
 
-> The last time, torches had burned all along the tunnel, and the eyes of starving men had peered down through the murder holes in the ceiling.(wiki:Siege_of_Storm's_End.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+> The last time, torches had burned all along the tunnel, and the eyes of starving men had peered down through the murder holes in the ceiling.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ACOK (`sources/chapters/acok/acok-davos-02.md:341`)

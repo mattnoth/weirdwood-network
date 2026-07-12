@@ -101,9 +101,9 @@ At the Gates of the Moon, Sansa remembers how she used to dash through Winterfel
 
 ### Quotes by Jeyne
 
-> Lord [Beric](wiki:Beric_Dondarrion) is as much a hero as Ser [Loras](wiki:Loras_Tyrell). He's ever so brave and gallant.(wiki:Jeyne_Poole.cite_ref-Ragot44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)
+> Lord Beric is as much a hero as Ser Loras. He's ever so brave and gallant.
 >
-> —Jeyne to [Sansa Stark](wiki:Sansa_Stark)
+> —Jeyne to Sansa Stark, AGOT (`sources/chapters/agot/agot-sansa-03.md:35`)
 
 > [They're](wiki:House_Lannister) [killing everyone](wiki:Arrest_of_Eddard_Stark).(wiki:Jeyne_Poole.cite_ref-Ragot51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-2)
 >
@@ -141,9 +141,9 @@ At the Gates of the Moon, Sansa remembers how she used to dash through Winterfel
 
 ### Quotes about Jeyne
 
-> Of course, Jeyne had been in love with Lord [Beric](wiki:Beric_Dondarrion) ever since she had first glimpsed him in the lists. Sansa thought she was being silly; Jeyne was only [a steward's](wiki:Vayon_Poole) daughter, after all, and no matter how much she mooned after him, Lord Beric would never look at someone so far beneath him, even if she hadn't been half his age.(wiki:Jeyne_Poole.cite_ref-Ragot44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4)
+> Of course, Jeyne had been in love with Lord Beric ever since she had first glimpsed him in the lists. Sansa thought she was being silly; Jeyne was only a steward's daughter, after all, and no matter how much she mooned after him, Lord Beric would never look at someone so far beneath him, even if she hadn't been half his age.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, AGOT (`sources/chapters/agot/agot-sansa-03.md:37`)
 
 > **Sansa**: No one will talk to us or tell us [what's happened](wiki:Arrest_of_Eddard_Stark)…
 >
@@ -155,25 +155,25 @@ At the Gates of the Moon, Sansa remembers how she used to dash through Winterfel
 >
 > —[Sansa Stark](wiki:Sansa_Stark) and [Cersei Lannister](wiki:Cersei_Lannister)
 
-> The girl's long brown hair blew wild in the wind. She had a pretty face, he thought, but her eyes were sad and wary.(wiki:Jeyne_Poole.cite_ref-Rasos72.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> The girl's long brown hair blew wild in the wind. She had a pretty face, he thought, but her eyes were sad and wary.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-09.md:47`)
 
-> If the [north](wiki:North) must have a [Stark](wiki:Stark), we'll give them one.(wiki:Jeyne_Poole.cite_ref-Raffc17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1)
+> If the north must have a Stark, we'll give them one.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister) to the [small council](wiki:Small_council)
+> —Cersei Lannister to the small council, AFFC (`sources/chapters/affc/affc-cersei-04.md:275`)
 
-> That's [Sansa](wiki:Sansa_Stark)'s little friend, the [steward](wiki:Vayon_Poole)'s girl. Jeyne, that was her name. Jeyne Poole.(wiki:Jeyne_Poole.cite_ref-Radwd20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-2)
+> That's Sansa's little friend, the steward's girl. Jeyne, that was her name. Jeyne Poole.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-02.md:235`)
 
 > Jeyne, Jeyne, it rhymes with pain.(wiki:Jeyne_Poole.cite_ref-Radwd37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-10)
 >
 > —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
 
-> Brown eyes. They should be [grey](wiki:Arya_Stark). Someone will see. Someone will remember.(wiki:Jeyne_Poole.cite_ref-Radwd37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-11)
+> Brown eyes. They should be grey. Someone will see. Someone will remember.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:33`)
 
 > Valiant [Ned's](wiki:Eddard_Stark) precious little girl. Lady [Arya's](wiki:Arya_Stark) sobs do us more harm than all of Lord [Stannis's](wiki:Stannis_Baratheon) swords and spears. If [the Bastard](wiki:Ramsay_Snow) means to remain [Lord of Winterfell](wiki:Lord_of_Winterfell), he had best teach his wife to laugh.(wiki:Jeyne_Poole.cite_ref-Radwd41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 >

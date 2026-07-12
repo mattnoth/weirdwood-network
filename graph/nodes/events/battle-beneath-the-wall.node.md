@@ -89,9 +89,9 @@ The wildlings who escaped capture flee into the [haunted forest](wiki:Haunted_fo
 
 ## Quotes
 
-> The [Wall](wiki:Wall) was too big to be stormed by any conventional means; too high for ladders or siege towers, too thick for battering rams. No catapult could throw a stone large enough to breach it, and if you tried to set it on fire, the icemelt would quench the flames. You could climb over, as the raiders did near [Greyguard](wiki:Greyguard), but only if you were strong and fit and sure-handed, and even then you might end up like [Jarl](wiki:Jarl), impaled on a tree. They must take the gate, or they cannot pass.(wiki:Battle_beneath_the_Wall.cite_ref-Rasos64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+> The Wall was too big to be stormed by any conventional means; too high for ladders or siege towers, too thick for battering rams. No catapult could throw a stone large enough to breach it, and if you tried to set it on fire, the icemelt would quench the flames. You could climb over, as the raiders did near Greyguard, but only if you were strong and fit and sure-handed, and even then you might end up like Jarl, impaled on a tree. They must take the gate, or they cannot pass.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ASOS (`sources/chapters/asos/asos-jon-08.md:55`)
 
 > The [Wall](wiki:Wall) will stop them. The Wall will stop them. The Wall defends itself. [Mance](wiki:Mance_Rayder) wants to unman us with his numbers. Does he think we're stupid? The chariots, the horsemen, all those fools on foot ... what are they going to do to us up here? Any of you ever see a [mammoth](wiki:Mammoth) climb a wall? They're nothing, they're less use than our straw brothers here, they can't reach us, they can't hurt us, and they don't frighten us, do they?(wiki:Battle_beneath_the_Wall.cite_ref-Rasos64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
 >

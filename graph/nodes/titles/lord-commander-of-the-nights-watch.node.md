@@ -62,9 +62,9 @@ Jon beheads [Janos Slynt](wiki:Janos_Slynt) for insubordination.(wiki:Lord_Comma
 
 ## Quotes
 
-> The [Night's Watch](wiki:Night's_Watch) is pledged to take no part in the quarrels of [the realm](wiki:Seven_Kingdoms). Yet over the centuries certain Lords Commander, more proud than wise, forgot their vows and near destroyed us all with their ambitions.(wiki:Lord_Commander_of_the_Night's_Watch.cite_ref-Rasos55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> The Night's Watch is pledged to take no part in the quarrels of the realm. Yet over the centuries certain Lords Commander, more proud than wise, forgot their vows and near destroyed us all with their ambitions.
 >
-> —[Benjen Stark](wiki:Benjen_Stark) to [Jon Snow](wiki:Jon_Snow)
+> —Benjen Stark to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-07.md:45`)
 
 > The Lord Commander of the [Night's Watch](wiki:Night's_Watch) is a [lord](wiki:Lord), first and foremost. He must be able to treat with other lords ... and with [kings](wiki:King_of_the_Andals,_the_Rhoynar,_and_the_First_Men) as well. He must be a man worthy of respect.(wiki:Lord_Commander_of_the_Night's_Watch.cite_ref-Rasos78.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 >

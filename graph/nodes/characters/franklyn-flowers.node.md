@@ -43,14 +43,14 @@ During the victors' feast in the great hall, Jon presides from the Griffin's Sea
 
 ## Quotes
 
-> My mother was a washerwoman at [Cider Hall](wiki:Cider_Hall) till one of milord's sons raped her. Makes me a sort o' brown apple [Fossoway](wiki:House_Fossoway_of_Cider_Hall), the way I see it.(wiki:Franklyn_Flowers.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+> My mother was a washerwoman at Cider Hall till one of milord's sons raped her. Makes me a sort o' brown apple Fossoway, the way I see it.
 >
-> —Franklyn to [Aegon Targaryen](wiki:Aegon_Targaryen_(son_of_Rhaegar))
+> —Franklyn to Aegon Targaryen), ADWD (`sources/chapters/adwd/adwd-the-lost-lord-01.md:87`)
 
 > **Aegon**: Why should I go running to [my aunt](wiki:Daenerys_Targaryen) as if I were a beggar? My claim is better than her own. Let her come to me ... in [Westeros](wiki:Westeros). **Franklyn**: I like it. Sail west, not east. Leave the little queen to her olives and seat Prince Aegon upon the [Iron Throne](wiki:Iron_Throne). The boy has stones, I give him that.(wiki:Franklyn_Flowers.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
 >
 > —[Aegon Targaryen](wiki:Aegon_Targaryen_(Young_Griff)) and Franklyn
 
-> So long as I can kill some [Fossoways](wiki:House_Fossoway_of_Cider_Hall), I'm for it.(wiki:Franklyn_Flowers.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
+> So long as I can kill some Fossoways, I'm for it.
 >
-> —Franklyn to [Aegon Targaryen](wiki:Aegon_Targaryen_(Young_Griff))
+> —Franklyn to Aegon Targaryen), ADWD (`sources/chapters/adwd/adwd-the-lost-lord-01.md:219`)

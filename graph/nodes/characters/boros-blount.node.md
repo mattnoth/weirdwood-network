@@ -106,9 +106,9 @@ Boros guards Tommen when Ser [Kevan Lannister](wiki:Kevan_Lannister), the [Lord 
 
 ### Quotes about Boros
 
-> Ser Boros was the worst of the [Kingsguard](wiki:Kingsguard), an ugly man with a foul temper, all scowls and jowls.(wiki:Boros_Blount.cite_ref-Racok18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-2)
+> Ser Boros was the worst of the Kingsguard, an ugly man with a foul temper, all scowls and jowls.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, ACOK (`sources/chapters/acok/acok-sansa-02.md:141`)
 
 > That one is nothing to fear, girl. Paint stripes on a toad, he does not become a [tiger](wiki:Tiger).(wiki:Boros_Blount.cite_ref-Racok18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-3)
 >
@@ -120,14 +120,14 @@ Boros guards Tommen when Ser [Kevan Lannister](wiki:Kevan_Lannister), the [Lord 
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) and [Varys](wiki:Varys)
 
-> [Father](wiki:Tywin_Lannister) should never have restored him to [the white](wiki:Kingsguard). The man had proved himself a craven.(wiki:Boros_Blount.cite_ref-Raffc3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-1)
+> Father should never have restored him to the white. The man had proved himself a craven.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-01.md:45`)
 
 > Boros the Belly? He's what, forty? Fifty? Half-drunk half the time, fat even when he's sober. If he ever had a taste for battle, he's lost it. Aye, Your Grace, if Ser Boros wants for killing, [Osney](wiki:Osney_Kettleblack) could do it easy enough.(wiki:Boros_Blount.cite_ref-Raffc36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 >
 > —[Osmund Kettleblack](wiki:Osmund_Kettleblack) to [Cersei Lannister](wiki:Cersei_Lannister)
 
-> Ser Boros tasted every dish that was set before [the king](wiki:Tommen_Baratheon). A humiliating duty for a [knight](wiki:Knight) of the [Kingsguard](wiki:Kingsguard), but perhaps all Blount was capable of these days ... and wise, after the way [Tommen's brother](wiki:Joffrey_Baratheon) had died.(wiki:Boros_Blount.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-1)
+> Ser Boros tasted every dish that was set before the king. A humiliating duty for a knight of the Kingsguard, but perhaps all Blount was capable of these days ... and wise, after the way Tommen's brother had died.
 >
-> —thoughts of [Kevan Lannister](wiki:Kevan_Lannister)
+> —thoughts of Kevan Lannister, ADWD (`sources/chapters/adwd/adwd-epilogue.md:197`)

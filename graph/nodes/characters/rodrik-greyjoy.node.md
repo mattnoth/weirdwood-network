@@ -58,9 +58,9 @@ After the [capture of Winterfell](wiki:Capture_of_Winterfell) and the supposed d
 >
 > —[Balon Greyjoy](wiki:Balon_Greyjoy) and [Theon Greyjoy](wiki:Theon_Greyjoy)
 
-> And now I must tell [her](wiki:Alannys_Harlaw) that [Theon](wiki:Theon_Greyjoy) is dead, and drive yet another dagger through her heart. There were two knives buried there already. On the blades were writ the words Rodrik and [Maron](wiki:Maron_Greyjoy), and many a time they twisted cruelly in the night.(wiki:Rodrik_Greyjoy.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+> And now I must tell her that Theon is dead, and drive yet another dagger through her heart. There were two knives buried there already. On the blades were writ the words Rodrik and Maron, and many a time they twisted cruelly in the night.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, AFFC (`sources/chapters/affc/affc-the-krakens-daughter-01.md:39`)
 
 ## Edges
 

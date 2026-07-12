@@ -60,9 +60,9 @@ After Beric's final death,(wiki:Anguy.cite_ref-Raffc42.7B.7B.7B3.7D.7D.7D.7B.7B.
 >
 > —[Tom of Sevenstreams](wiki:Tom_of_Sevenstreams) and Anguy
 
-> When I don't fancy a man's eyes, I put an arrow through one.(wiki:Anguy.cite_ref-Rasos13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+> When I don't fancy a man's eyes, I put an arrow through one.
 >
-> —Anguy to [Husband](wiki:Husband)
+> —Anguy to Husband, ASOS (`sources/chapters/asos/asos-arya-02.md:299`)
 
 > **Sandor**: You didn't leave me enough [gold](wiki:Gold) to buy a cup of [wine](wiki:Wine), you whoresons.
 >
@@ -78,14 +78,14 @@ After Beric's final death,(wiki:Anguy.cite_ref-Raffc42.7B.7B.7B3.7D.7D.7D.7B.7B.
 
 ### Quotes about Anguy
 
-> That afternoon a boy named Anguy, an unheralded commoner from the [Dornish Marches](wiki:Dornish_Marches), won the [archery competition](wiki:Hand's_tourney), outshooting Ser [Balon Swann](wiki:Balon_Swann) and [Jalabhar Xho](wiki:Jalabhar_Xho) at a hundred paces after all the other bowmen had been eliminated at the shorter distances. Ned sent [Alyn](wiki:Alyn) to seek him out and offer him a position with the [Hand's guard](wiki:House_Stark_guards), but the boy was flush with [wine](wiki:Wine) and victory and riches undreamed of, and he refused.(wiki:Anguy.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
+> That afternoon a boy named Anguy, an unheralded commoner from the Dornish Marches, won the archery competition, outshooting Ser Balon Swann and Jalabhar Xho at a hundred paces after all the other bowmen had been eliminated at the shorter distances. Ned sent Alyn to seek him out and offer him a position with the Hand's guard, but the boy was flush with wine and victory and riches undreamed of, and he refused.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-07.md:193`)
 
 > **Tom**: Boy, put up that sword now, unless you're wanting to be hurt. It's too big for you, lad, and besides, Anguy here could put three shafts through you before you could hope to reach us. **Arya**: He could not, and I'm a girl.(wiki:Anguy.cite_ref-Rasos13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
 >
 > —[Tom of Sevenstreams](wiki:Tom_of_Sevenstreams) and [Arya Stark](wiki:Arya_Stark)
 
-> The archer's hand moved quicker than Arya would have believed. His shaft went hissing past her head within an inch of her ear and buried itself in the trunk of the willow behind her. By then the bowman had a second arrow notched and drawn. She'd thought she understood what [Syrio](wiki:Syrio_Forel) meant by quick as a snake and smooth as summer silk, but now she knew she hadn't.(wiki:Anguy.cite_ref-Rasos13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
+> The archer's hand moved quicker than Arya would have believed. His shaft went hissing past her head within an inch of her ear and buried itself in the trunk of the willow behind her. By then the bowman had a second arrow notched and drawn. She'd thought she understood what Syrio meant by quick as a snake and smooth as summer silk, but now she knew she hadn't.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ASOS (`sources/chapters/asos/asos-arya-02.md:169`)

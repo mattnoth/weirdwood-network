@@ -107,22 +107,22 @@ Victarion leads the Iron Fleet to [Slaver's Bay](wiki:Slaver's_Bay) on a mission
 
 ## Quotes
 
-> [Ironborn](wiki:Ironborn) captains were proud and willful, and did not go in awe of a man's blood. The islands were too small for awe, and a longship smaller still. If every captain was a king aboard his own ship, as was often said, it was small wonder they named the islands the land of ten thousand kings.(wiki:Iron_Islands.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-10)
+> Ironborn captains were proud and willful, and did not go in awe of a man's blood. The islands were too small for awe, and a longship smaller still. If every captain was a king aboard his own ship, as was often said, it was small wonder they named the islands the land of ten thousand kings.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-01.md:35`)
 
 > The islands are stern and stony places, scant of comfort and bleak of prospect. Death is never far here, and life is mean and meagre. Men spend their nights drinking [ale](wiki:Ale) and arguing over whose lot is worse, the fisherfolk who fight the sea or the farmers who scratch a crop from the poor thin soil. If truth be told, the miners have it worse than either, breaking their backs down in the dark, and for what? [Iron](wiki:Iron), [lead](wiki:Lead), [tin](wiki:Tin), those are our treasures. Small wonder the [ironmen](wiki:Ironmen) of old turned to raiding.(wiki:Iron_Islands.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-11)
 >
 > —[Theon Greyjoy](wiki:Theon_Greyjoy) to the [captain's daughter](wiki:Daughter_of_the_captain_of_the_Myraham)
 
-> Men fish the sea, dig in the earth, and die. Women birth children in blood and pain, and die. Night follows day. The winds and tides remain. The islands are as [our god](wiki:Drowned_God) made them.(wiki:Iron_Islands.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-12)
+> Men fish the sea, dig in the earth, and die. Women birth children in blood and pain, and die. Night follows day. The winds and tides remain. The islands are as our god made them.
 >
-> —[Aeron Greyjoy](wiki:Aeron_Greyjoy) to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Aeron Greyjoy to Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-01.md:173`)
 
-> The Iron Islands lived in the past; the present was too hard and bitter to be borne.(wiki:Iron_Islands.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-13)
+> The Iron Islands lived in the past; the present was too hard and bitter to be borne.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-01.md:211`)
 
-> The [Old Way](wiki:Old_Way) served the isles well when we were one small kingdom amongst many, but [Aegon's Conquest](wiki:Aegon's_Conquest) put an end to that.(wiki:Iron_Islands.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_43-0)
+> The Old Way served the isles well when we were one small kingdom amongst many, but Aegon's Conquest put an end to that.
 >
-> —[Rodrik Harlaw](wiki:Rodrik_Harlaw) to [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —Rodrik Harlaw to Asha Greyjoy, AFFC (`sources/chapters/affc/affc-the-krakens-daughter-01.md:151`)

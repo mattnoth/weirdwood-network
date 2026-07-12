@@ -64,6 +64,6 @@ Training in [Braavos](wiki:Braavos), Arya thinks that Hot Pie would enjoy the ki
 >
 > —[Arya Stark](wiki:Arya_Stark) to [Gendry](wiki:Gendry)
 
-> In his chainmail shirt with a sword in his hand, [Gendry](wiki:Gendry) looked almost a man grown, and dangerous. Hot Pie looked like Hot Pie.(wiki:Hot_Pie.cite_ref-Rasos13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4)
+> In his chainmail shirt with a sword in his hand, Gendry looked almost a man grown, and dangerous. Hot Pie looked like Hot Pie.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ASOS (`sources/chapters/asos/asos-arya-02.md:89`)

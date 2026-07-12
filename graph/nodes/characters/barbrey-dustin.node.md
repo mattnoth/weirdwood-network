@@ -66,9 +66,9 @@ As tensions arise in snow-bound Winterfell, Barbrey and her brother, Ser [Roger 
 >
 > —Barbrey and [Theon Greyjoy](wiki:Theon_Greyjoy)
 
-> If I were queen, the first thing I would do would be to kill all those [grey rats](wiki:Maesters).(wiki:Barbrey_Dustin.cite_ref-Radwd37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-5)
+> If I were queen, the first thing I would do would be to kill all those grey rats.
 >
-> —Barbrey to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Barbrey to Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:161`)
 
 > **Barbrey**: Why do you love the [Starks](wiki:House_Stark)?
 >
@@ -76,9 +76,9 @@ As tensions arise in snow-bound Winterfell, Barbrey and her brother, Ser [Roger 
 >
 > —Barbrey and [Theon Greyjoy](wiki:Theon_Greyjoy)
 
-> I was left with young [Lord Dustin](wiki:Willam_Dustin), until [Ned Stark](wiki:Eddard_Stark) took him from me.(wiki:Barbrey_Dustin.cite_ref-Radwd41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-14)
+> I was left with young Lord Dustin, until Ned Stark took him from me.
 >
-> —Barbrey to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Barbrey to Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-turncloak-01.md:221`)
 
 > [Ned Stark](wiki:Ned_Stark) returned the [horse](wiki:Horse) to me on his way back home to [Winterfell](wiki:Winterfell). He told me that [my lord](wiki:Willam_Dustin) had died an honorable death, that his body had been laid to rest beneath the [red mountains](wiki:Red_mountains) of [Dorne](wiki:Dorne). He brought [his sister's](wiki:Lyanna_Stark) bones back north, though, and [there](wiki:Crypt_of_Winterfell) she rests… but I promise you, Lord Eddard's bones will never rest beside hers. I mean to feed them to my dogs.(wiki:Barbrey_Dustin.cite_ref-Radwd41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-15)
 >
@@ -96,6 +96,6 @@ As tensions arise in snow-bound Winterfell, Barbrey and her brother, Ser [Roger 
 >
 > —[Roose Bolton](wiki:Roose_Bolton) and [Ramsay Bolton](wiki:Ramsay_Snow)
 
-> To his left sat Lady Dustin, clad as ever in black wool, severe in cut and unadorned.(wiki:Barbrey_Dustin.cite_ref-Radwd37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-6)
+> To his left sat Lady Dustin, clad as ever in black wool, severe in cut and unadorned.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:125`)

@@ -55,22 +55,22 @@ A council of masters takes command of the Yunkish army,(wiki:Yurkhaz_zo_Yunzak.c
 
 ## Quotes
 
-> The human prune in the place of honor was evidently the [Yunkish](wiki:Yunkai) supreme commander, who looked about as formidable as a loose stool.(wiki:Yurkhaz_zo_Yunzak.cite_ref-Radwd47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+> The human prune in the place of honor was evidently the Yunkish supreme commander, who looked about as formidable as a loose stool.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-10.md:243`)
 
-> The [Yunkish](wiki:Yunkai) Supreme Commander, Yurkhaz zo Yunzak, might have been alive during [Aegon's Conquest](wiki:Aegon's_Conquest), to judge by his appearance.(wiki:Yurkhaz_zo_Yunzak.cite_ref-Radwd50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> The Yunkish Supreme Commander, Yurkhaz zo Yunzak, might have been alive during Aegon's Conquest, to judge by his appearance.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-08.md:37`)
 
-> The [Yellow City](wiki:Yunkai) mourns its noble son Yurkhaz zo Yunzak, who perished cruelly whilst a guest of [Meereen](wiki:Meereen). [Blood must pay for blood](wiki:Groleo).(wiki:Yurkhaz_zo_Yunzak.cite_ref-Radwd59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-3)
+> The Yellow City mourns its noble son Yurkhaz zo Yunzak, who perished cruelly whilst a guest of Meereen. Blood must pay for blood.
 >
-> —[Wise Master](wiki:Wise_Master) to [Hizdahr zo Loraq](wiki:Hizdahr_zo_Loraq)
+> —Wise Master to Hizdahr zo Loraq, ADWD (`sources/chapters/adwd/adwd-the-discarded-knight-01.md:83`)
 
 > **Quentyn**: Yurkhaz zo Yunzak is dead. **Tattered Prince**: Ancient tidings. I saw him die. The poor man saw [a dragon](wiki:Drogon) and stumbled as he tried to flee. Then a thousand of his closest friends stepped on him. No doubt the [Yellow City](wiki:Yunkai) is awash in tears. Did you ask me [here](wiki:Purple_Lotus) to toast his memory?(wiki:Yurkhaz_zo_Yunzak.cite_ref-Radwd60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3)
 >
 > —[Quentyn Martell](wiki:Quentyn_Martell) and the [Tattered Prince](wiki:Tattered_Prince)
 
-> The [Yunkai'i](wiki:Yunkai) played us a [mummer](wiki:Mummer)'s farce, with noble [Hizdahr](wiki:Hizdahr_zo_Loraq) as chief mummer. The issue was never Yurkhaz zo Yunzak. The [other slavers](wiki:Wise_Masters) would gladly have trampled that old fool themselves. This was to give Hizdahr a pretext to kill the [dragons](wiki:Dragon).(wiki:Yurkhaz_zo_Yunzak.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
+> The Yunkai'i played us a mummer's farce, with noble Hizdahr as chief mummer. The issue was never Yurkhaz zo Yunzak. The other slavers would gladly have trampled that old fool themselves. This was to give Hizdahr a pretext to kill the dragons.
 >
-> —[Skahaz mo Kandaq](wiki:Skahaz_mo_Kandaq) to [Barristan Selmy](wiki:Barristan_Selmy)
+> —Skahaz mo Kandaq to Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-kingbreaker-01.md:21`)

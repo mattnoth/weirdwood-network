@@ -98,19 +98,19 @@ Ser Loras is reportedly gravely injured at [Dragonstone](wiki:Dragonstone). The 
 >
 > —Loras and [Eddard Stark](wiki:Eddard_Stark)
 
-> I will defend King [Tommen](wiki:Tommen_Baratheon) with all my strength, I swear it. I will give my life for his if need be. But I will never betray [Renly](wiki:Renly_Baratheon), by word or deed. He was the king that should have been. He was the best of [them](wiki:War_of_the_Five_Kings).(wiki:Loras_Tyrell.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-6)
+> I will defend King Tommen with all my strength, I swear it. I will give my life for his if need be. But I will never betray Renly, by word or deed. He was the king that should have been. He was the best of them.
 >
-> —Loras to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Loras to Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-08.md:213`)
 
-> Give me the command, Your Grace. [The castle](wiki:Siege_of_Dragonstone) will be yours within a fortnight if I have to tear it down with my bare hands.(wiki:Loras_Tyrell.cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_50-1)
+> Give me the command, Your Grace. The castle will be yours within a fortnight if I have to tear it down with my bare hands.
 >
-> —Loras to [Cersei Lannister](wiki:Cersei_Lannister)
+> —Loras to Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-07.md:91`)
 
 ### Quotes about Loras
 
-> Have you seen [Mace Tyrell](wiki:Mace_Tyrell)'s boy? The Knight of Flowers, they call him. Now there's a son any man would be proud to own to. [Last tourney](wiki:Tourney_on_Prince_Joffrey's_name_day), he dumped the [Kingslayer](wiki:Jaime_Lannister) on his golden rump, you ought to have seen the look on [Cersei's](wiki:Cersei_Lannister) face. I laughed till my sides hurt.(wiki:Loras_Tyrell.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-3)
+> Have you seen Mace Tyrell's boy? The Knight of Flowers, they call him. Now there's a son any man would be proud to own to. Last tourney, he dumped the Kingslayer on his golden rump, you ought to have seen the look on Cersei's face. I laughed till my sides hurt.
 >
-> —[Robert I Baratheon](wiki:Robert_I_Baratheon) to [Eddard Stark](wiki:Eddard_Stark)
+> —Robert I Baratheon to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-07.md:113`)
 
 > He's me. I am speaking to myself, as I was, all cocksure arrogance and empty chivalry. This is what it does to you, to be too good too young.(wiki:Loras_Tyrell.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-7)
 >
@@ -120,13 +120,13 @@ Ser Loras is reportedly gravely injured at [Dragonstone](wiki:Dragonstone). The 
 >
 > —[Petyr Baelish](wiki:Petyr_Baelish) to [Sansa Stark](wiki:Sansa_Stark)
 
-> Ser Loras might be as pretty as a maiden's dream, but underneath his [white cloak](wiki:Kingsguard) he was [Tyrell](wiki:House_Tyrell) to the [bone](wiki:Bone).(wiki:Loras_Tyrell.cite_ref-Raffc3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_54-0)
+> Ser Loras might be as pretty as a maiden's dream, but underneath his white cloak he was Tyrell to the bone.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister)'s thoughts
+> —Cersei Lannister's thoughts, AFFC (`sources/chapters/affc/affc-cersei-01.md:41`)
 
-> The Knight of Flowers was still half a boy, arrogant and vain, but he had it in him to be great, to perform deeds worthy of the [White Book](wiki:White_Book).(wiki:Loras_Tyrell.cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_47-2)
+> The Knight of Flowers was still half a boy, arrogant and vain, but he had it in him to be great, to perform deeds worthy of the White Book.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister)'s thoughts
+> —Jaime Lannister's thoughts, AFFC (`sources/chapters/affc/affc-jaime-01.md:161`)
 
 > **Cersei**: Ser Loras is so [Tyrell](wiki:House_Tyrell) he pisses [rosewater](wiki:Rose). He should never have been given a [white cloak](wiki:Kingsguard). **Jaime**: He would not have been my choice, I'll grant you. No one troubled to consult me. Loras will do well enough, I think. Once a man puts on that cloak, it changes him.(wiki:Loras_Tyrell.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-2)
 >

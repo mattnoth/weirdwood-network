@@ -33,6 +33,6 @@ After [Euron Greyjoy](wiki:Euron_Greyjoy) is chosen king, he commands the [ironb
 
 ## Quotes
 
-> Volmark is a callow boy, but he has [Black Harren's](wiki:Harren_Hoare) blood in him through his mother.(wiki:Maron_Volmark.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+> Volmark is a callow boy, but he has Black Harren's blood in him through his mother.
 >
-> —thoughts of [Victarion Greyjoy](wiki:Victarion_Greyjoy)
+> —thoughts of Victarion Greyjoy, AFFC (`sources/chapters/affc/affc-the-reaver-01.md:185`)

@@ -66,9 +66,9 @@ Throughout his travels in [Essos](wiki:Essos), Tyrion is haunted by his father's
 
 ### Quotes about Tysha
 
-> She was scarcely a year older than I was, dark-haired, slender, with a face that would break your heart. It certainly broke mine. [Lowborn](wiki:Smallfolk), half-starved, unwashed ... yet lovely.(wiki:Tysha.cite_ref-Ragot42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+> She was scarcely a year older than I was, dark-haired, slender, with a face that would break your heart. It certainly broke mine. Lowborn, half-starved, unwashed ... yet lovely.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Bronn](wiki:Bronn)
+> —Tyrion Lannister to Bronn, AGOT (`sources/chapters/agot/agot-tyrion-06.md:111`)
 
 > His sweet innocent Tysha had been a lie from start to finish, only a [whore](wiki:Whore) his brother [Jaime](wiki:Jaime_Lannister) had hired to make him a man.(wiki:Tysha.cite_ref-Racok29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
 >
@@ -78,17 +78,17 @@ Throughout his travels in [Essos](wiki:Essos), Tyrion is haunted by his father's
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> A girl, she was only a girl, no older than [Sansa](wiki:Sansa_Stark).(wiki:Tysha.cite_ref-Rasos77.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-2)
+> A girl, she was only a girl, no older than Sansa.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-11.md:81`)
 
 > Ah yes. Your first whore ... She'd learned her place.(wiki:Tysha.cite_ref-Rasos77.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-3)
 >
 > —[Tywin Lannister](wiki:Tywin_Lannister), to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> [Sansa](wiki:Sansa_Stark), [Shae](wiki:Shae), all my women ... Tysha was the only one who ever loved me. Where do [whores](wiki:Whore) go?(wiki:Tysha.cite_ref-Radwd40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-2)
+> Sansa, Shae, all my women ... Tysha was the only one who ever loved me. Where do whores go?
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-09.md:163`)
 
 > [Jaime](wiki:Jaime_Lannister). [Shae](wiki:Shae). Tysha. My wife, I miss my wife, the wife I hardly knew.(wiki:Tysha.cite_ref-Radwd66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
 >

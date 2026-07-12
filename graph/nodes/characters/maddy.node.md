@@ -33,13 +33,13 @@ Maddy stays behind to help prepare Lord Robert for his descent to the [Gates of 
 
 ## Quotes
 
-> I hate Maddy. She has a wart on her eye, and she scrubs so hard it hurts. [My mommy](wiki:Lysa_Arryn) never hurt me scrubbing.(wiki:Maddy.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> I hate Maddy. She has a wart on her eye, and she scrubs so hard it hurts. My mommy never hurt me scrubbing.
 >
-> —[Robert Arryn](wiki:Robert_Arryn) to [Sansa Stark](wiki:Sansa_Stark)
+> —Robert Arryn to Sansa Stark, AFFC (`sources/chapters/affc/affc-alayne-02.md:57`)
 
-> She has a mouth as big as her thighs, and her thighs are enormous.(wiki:Maddy.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> She has a mouth as big as her thighs, and her thighs are enormous.
 >
-> —[Myranda Royce](wiki:Myranda_Royce) to [Sansa Stark](wiki:Sansa_Stark)
+> —Myranda Royce to Sansa Stark, AFFC (`sources/chapters/affc/affc-alayne-02.md:309`)
 
 ## Edges
 

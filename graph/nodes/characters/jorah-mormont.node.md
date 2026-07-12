@@ -168,17 +168,17 @@ Jorah and Tyrion agree that the Second Sons need to go over to [Meereen](wiki:Me
 >
 > —Jorah and [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> I did things it shames me to speak of. For [gold](wiki:Currency). So [Lynesse](wiki:Lynesse_Hightower) might keep her jewels, her harper, and her cook. In the end it cost me all.(wiki:Jorah_Mormont.cite_ref-Racok12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-15)
+> I did things it shames me to speak of. For gold. So Lynesse might keep her jewels, her harper, and her cook. In the end it cost me all.
 >
-> —Jorah to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Jorah to Daenerys Targaryen, ACOK (`sources/chapters/acok/acok-daenerys-01.md:163`)
 
 > **Jorah**: I should not have waited so long. I should have kissed you in [Qarth](wiki:Qarth), in [Vaes Tolorro](wiki:Vaes_Tolorro). I should have kissed you in the [red waste](wiki:Red_waste), every night and every day. You were made to be kissed, often and well. **Daenerys**: I ... that was not fitting. I am your queen.(wiki:Jorah_Mormont.cite_ref-Rasos8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-5)
 >
 > —Jorah and [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> There is a savage beast in every man, and when you hand that man a sword or spear and send him forth to war, the beast stirs. The scent of blood is all it takes to wake him.(wiki:Jorah_Mormont.cite_ref-Rasos23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-5)
+> There is a savage beast in every man, and when you hand that man a sword or spear and send him forth to war, the beast stirs. The scent of blood is all it takes to wake him.
 >
-> —Jorah to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Jorah to Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-02.md:317`)
 
 > **widow**: Why would you seek [Daenerys Targaryen](wiki:Daenerys_Targaryen), whom half the world wants dead?
 >
@@ -196,17 +196,17 @@ Jorah and Tyrion agree that the Second Sons need to go over to [Meereen](wiki:Me
 >
 > —[Eddard Stark](wiki:Eddard_Stark) to [Robert I Baratheon](wiki:Robert_I_Baratheon)
 
-> Sometimes he thinks of me as a child he must protect, and sometimes as a woman he would like to bed, but does he ever truly see me as his queen?(wiki:Jorah_Mormont.cite_ref-Racok27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-1)
+> Sometimes he thinks of me as a child he must protect, and sometimes as a woman he would like to bed, but does he ever truly see me as his queen?
 >
-> —[Daenerys Targaryen](wiki:Daenerys_Targaryen)'s thoughts
+> —Daenerys Targaryen's thoughts, ACOK (`sources/chapters/acok/acok-daenerys-02.md:155`)
 
-> You have been a better friend to me than any I have known, a better brother than [Viserys](wiki:Viserys_Targaryen) ever was. You are the first of my [Queensguard](wiki:Queensguard), the commander of my army, my most valued counselor, my good right hand. I honor and respect and cherish you—but I do not desire you, Jorah Mormont, and I am weary of your trying to push every other man in the world away from me, so I must needs rely on you and you alone. It will not serve, and it will not make me love you any better.(wiki:Jorah_Mormont.cite_ref-Rasos42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-7)
+> You have been a better friend to me than any I have known, a better brother than Viserys ever was. You are the first of my Queensguard, the commander of my army, my most valued counselor, my good right hand. I honor and respect and cherish you—but I do not desire you, Jorah Mormont, and I am weary of your trying to push every other man in the world away from me, so I must needs rely on you and you alone. It will not serve, and it will not make me love you any better.
 >
-> —[Daenerys Targaryen](wiki:Daenerys_Targaryen) to Jorah
+> —Daenerys Targaryen to Jorah, ASOS (`sources/chapters/asos/asos-daenerys-04.md:287`)
 
-> He lied to me, informed on me, but he loved me too, and he always gave good counsel.(wiki:Jorah_Mormont.cite_ref-Radwd30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_42-0)
+> He lied to me, informed on me, but he loved me too, and he always gave good counsel.
 >
-> —[Daenerys Targaryen](wiki:Daenerys_Targaryen)'s thoughts
+> —Daenerys Targaryen's thoughts, ADWD (`sources/chapters/adwd/adwd-daenerys-05.md:255`)
 
 > One whispered word had done what fists and clubs could not; it had broken him. I should have let [the crone](wiki:Zahrina) have him. He's going to be about as useful as nipples on a breastplate.(wiki:Jorah_Mormont.cite_ref-Radwd47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-4)
 >

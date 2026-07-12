@@ -40,9 +40,9 @@ Victarion gives command to Wulfe over the *[Noble Lady](wiki:Noble_Lady)* and th
 
 ### Quotes about Wulfe
 
-> He was not half the man that [Nute the Barber](wiki:Nute_the_Barber) was, but the [Crow's Eye](wiki:Euron_Greyjoy) had stolen Nute.(wiki:Wulfe_One-Ear.cite_ref-Radwd56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+> He was not half the man that Nute the Barber was, but the Crow's Eye had stolen Nute.
 >
-> —thoughts of [Victarion Greyjoy](wiki:Victarion_Greyjoy)
+> —thoughts of Victarion Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-iron-suitor-01.md:45`)
 
 ## Edges
 

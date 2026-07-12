@@ -57,9 +57,9 @@ Jon speaks with Melisandre about [sorcery](wiki:Sorcery), and mentions what Dall
 
 ### Quotes by Dalla
 
-> We [free folk](wiki:Free_folk) know things you [kneelers](wiki:Kneeler) have forgotten. Sometimes the short road is not the safest, Jon Snow. The [Horned Lord](wiki:Horned_Lord) once said that [sorcery](wiki:Sorcery) is a [sword](wiki:Sword) without a hilt. There is no safe way to grasp it.(wiki:Dalla.cite_ref-Rasos73.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> We free folk know things you kneelers have forgotten. Sometimes the short road is not the safest, Jon Snow. The Horned Lord once said that sorcery is a sword without a hilt. There is no safe way to grasp it.
 >
-> —Dalla to [Jon Snow](wiki:Jon_Snow)
+> —Dalla to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-10.md:169`)
 
 ### Quotes about Dalla
 
@@ -67,13 +67,13 @@ Jon speaks with Melisandre about [sorcery](wiki:Sorcery), and mentions what Dall
 >
 > —[Mance Rayder](wiki:Mance_Rayder) to [Jon Snow](wiki:Jon_Snow)
 
-> It's a wise woman I've found. A true queen.(wiki:Dalla.cite_ref-Rasos73.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> It's a wise woman I've found. A true queen.
 >
-> —[Mance Rayder](wiki:Mance_Rayder) to Dalla
+> —Mance Rayder to Dalla, ASOS (`sources/chapters/asos/asos-jon-10.md:191`)
 
-> Fire is a cruel way to die. Dalla died to give [this child](wiki:Aemon_Steelsong) life, but [you](wiki:Gilly) have nourished him, cherished him. You saved [your own boy](wiki:Monster) from [the ice](wiki:Others). Now save hers from [the fire](wiki:Melisandre).(wiki:Dalla.cite_ref-Radwd7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
+> Fire is a cruel way to die. Dalla died to give this child life, but you have nourished him, cherished him. You saved your own boy from the ice. Now save hers from the fire.
 >
-> —[Jon Snow](wiki:Jon_Snow), to [Gilly](wiki:Gilly)
+> —Jon Snow, to Gilly, ADWD (`sources/chapters/adwd/adwd-jon-02.md:63`)
 
 > **Jon**: Dalla told me something once. [Val](wiki:Val)'s sister, [Mance Rayder](wiki:Mance_Rayder)'s wife. She said that [sorcery](wiki:Sorcery) was a [sword](wiki:Sword) without a hilt. There is no safe way to grasp it. **Melisandre**: A wise woman. A sword without a hilt is still a sword, though, and a sword is a fine thing to have when foes are all about.(wiki:Dalla.cite_ref-Radwd28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
 >

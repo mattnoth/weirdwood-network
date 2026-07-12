@@ -71,13 +71,13 @@ Jalabhar is held with the rest of Margaery's falsely-accused lovers in a dungeon
 
 ## Quotes
 
-> Jalabhar Xho was all in feathers, a plumage so fantastic and extravagant that he seemed like to take flight.(wiki:Jalabhar_Xho.cite_ref-Racok65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-1)
+> Jalabhar Xho was all in feathers, a plumage so fantastic and extravagant that he seemed like to take flight.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, ACOK (`sources/chapters/acok/acok-sansa-08.md:13`)
 
-> Beneath his jewels and feathers, Xho was little more than a wellborn beggar. [Robert](wiki:Robert_I_Baratheon) could have put an end to his importuning for good with one firm "No," but the notion of conquering the [Summer Isles](wiki:Summer_Isles) had appealed to her drunken lout of a husband.(wiki:Jalabhar_Xho.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4)
+> Beneath his jewels and feathers, Xho was little more than a wellborn beggar. Robert could have put an end to his importuning for good with one firm "No," but the notion of conquering the Summer Isles had appealed to her drunken lout of a husband.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-05.md:99`)
 
 > Splendid as he looked in his bright feather cloak, he had only come to beg.(wiki:Jalabhar_Xho.cite_ref-Raffc36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-1)
 >

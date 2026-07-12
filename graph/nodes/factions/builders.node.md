@@ -45,6 +45,6 @@ Lord Commander Snow offers to lend builders to [Stannis Baratheon](wiki:Stannis_
 
 ## Quotes
 
-> The order of builders provided the masons and carpenters to repair keeps and towers, the miners to dig tunnels and crush stone for roads and footpaths, the woodsmen to clear away new growth wherever the forest pressed too close to the [Wall](wiki:Wall). Once, it was said, they had quarried immense blocks of ice from frozen lakes deep in the [haunted forest](wiki:Haunted_forest), dragging them south on sledges so the Wall might be raised ever higher. Those days were centuries gone, however; now, it was all they could do to ride the Wall from [Eastwatch](wiki:Eastwatch-by-the-Sea) to the [Shadow Tower](wiki:Shadow_Tower), watching for cracks or signs of melt and making what repairs they could.(wiki:Builders.cite_ref-Ragot41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> The order of builders provided the masons and carpenters to repair keeps and towers, the miners to dig tunnels and crush stone for roads and footpaths, the woodsmen to clear away new growth wherever the forest pressed too close to the Wall. Once, it was said, they had quarried immense blocks of ice from frozen lakes deep in the haunted forest, dragging them south on sledges so the Wall might be raised ever higher. Those days were centuries gone, however; now, it was all they could do to ride the Wall from Eastwatch to the Shadow Tower, watching for cracks or signs of melt and making what repairs they could.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, AGOT (`sources/chapters/agot/agot-jon-05.md:41`)

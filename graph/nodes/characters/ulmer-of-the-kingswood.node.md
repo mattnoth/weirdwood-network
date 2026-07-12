@@ -53,9 +53,9 @@ After Jon treats with [Tormund Giantsbane](wiki:Tormund_Giantsbane), Ulmer acts 
 
 ### Quotes about Ulmer
 
-> Every man at [Castle Black](wiki:Castle_Black) had heard Ulmer's tales of the [great outlaw band of yore](wiki:Kingswood_Brotherhood); of [Simon Toyne](wiki:Simon_Toyne) and the [Smiling Knight](wiki:Smiling_Knight), [Oswyn Longneck the Thrice-Hanged](wiki:Oswyn_Longneck_the_Thrice-Hanged), [Wenda the White Fawn](wiki:Wenda_the_White_Fawn), [Fletcher Dick](wiki:Fletcher_Dick), [Big Belly Ben](wiki:Big_Belly_Ben), and all the rest.(wiki:Ulmer_of_the_Kingswood.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-9)
+> Every man at Castle Black had heard Ulmer's tales of the great outlaw band of yore; of Simon Toyne and the Smiling Knight, Oswyn Longneck the Thrice-Hanged, Wenda the White Fawn, Fletcher Dick, Big Belly Ben, and all the rest.
 >
-> —thoughts of [Samwell Tarly](wiki:Samwell_Tarly)
+> —thoughts of Samwell Tarly, ASOS (`sources/chapters/asos/asos-samwell-02.md:77`)
 
 > **Samwell**: I can hit the target more often than not now, but I'm still the worst [archer](wiki:Archer) who ever bent a bow. I like Ulmer's stories, though. Someone needs to write them down and put them in a book. **Jon**: You do it.(wiki:Ulmer_of_the_Kingswood.cite_ref-Radwd7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)
 >

@@ -146,13 +146,13 @@ It is reported at [Maidenpool](wiki:Maidenpool) that Lysa was pushed off a mount
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) and [Cersei Lannister](wiki:Cersei_Lannister)
 
-> If an old man may be forgiven his blunt speech, let me say that grief can derange even the strongest and most disciplined of minds, and the Lady Lysa was never that. Since her last stillbirth, she has seen enemies in every shadow, and the death of [her lord husband](wiki:Jon_Arryn) left her shattered and lost.(wiki:Lysa_Arryn.cite_ref-Ragot25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_43-2)
+> If an old man may be forgiven his blunt speech, let me say that grief can derange even the strongest and most disciplined of minds, and the Lady Lysa was never that. Since her last stillbirth, she has seen enemies in every shadow, and the death of her lord husband left her shattered and lost.
 >
-> —[Pycelle](wiki:Pycelle) to [Eddard Stark](wiki:Eddard_Stark)
+> —Pycelle to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-05.md:51`)
 
-> I'd tell you to slap some sense into your sister, if I thought it would do any good, but you'd only bruise your hand.(wiki:Lysa_Arryn.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-15)
+> I'd tell you to slap some sense into your sister, if I thought it would do any good, but you'd only bruise your hand.
 >
-> —[Brynden Tully](wiki:Brynden_Tully) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Brynden Tully to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-07.md:39`)
 
 > **Petyr**: Lysa is more tractable than [Catelyn](wiki:Catelyn_Stark), true ... but also more fearful, and I understand she hates you. **Tyrion**: She believes she has good reason. When I was her guest in the [Eyrie](wiki:Eyrie), she insisted that I'd murdered her husband, and was not inclined to listen to denials. If I gave her [Jon Arryn](wiki:Jon_Arryn)'s true killer, she might think more kindly of me.(wiki:Lysa_Arryn.cite_ref-Ragot17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_53-0)
 >
@@ -162,17 +162,17 @@ It is reported at [Maidenpool](wiki:Maidenpool) that Lysa was pushed off a mount
 >
 > —[Catelyn Stark](wiki:Catelyn_Stark) to [Hoster Tully](wiki:Hoster_Tully)
 
-> [Mead](wiki:Mead) and marriage had taken years off Lady Lysa. She laughed at everything so long as she held [her husband's](wiki:Petyr_Baelish) hand, and her eyes seemed to glow whenever she looked at him.(wiki:Lysa_Arryn.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-15)
+> Mead and marriage had taken years off Lady Lysa. She laughed at everything so long as she held her husband's hand, and her eyes seemed to glow whenever she looked at him.
 >
-> —[Sansa Stark](wiki:Sansa_Stark)'s thoughts
+> —Sansa Stark's thoughts, ASOS (`sources/chapters/asos/asos-sansa-06.md:245`)
 
-> She was mad and dangerous. She murdered [her own lord husband](wiki:Jon_Arryn), and would have murdered me if [Petyr](wiki:Petyr_Baelish) had not come along to save me.(wiki:Lysa_Arryn.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_50-2)
+> She was mad and dangerous. She murdered her own lord husband, and would have murdered me if Petyr had not come along to save me.
 >
-> —[Sansa Stark](wiki:Sansa_Stark)'s thoughts
+> —Sansa Stark's thoughts, AFFC (`sources/chapters/affc/affc-sansa-01.md:117`)
 
-> Lysa Tully was never truly of the [Vale](wiki:Vale_of_Arryn), nor had she the right to dispose of us.(wiki:Lysa_Arryn.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-9)
+> Lysa Tully was never truly of the Vale, nor had she the right to dispose of us.
 >
-> —[Gilwood Hunter](wiki:Gilwood_Hunter) to [Petyr Baelish](wiki:Petyr_Baelish)
+> —Gilwood Hunter to Petyr Baelish, AFFC (`sources/chapters/affc/affc-alayne-01.md:249`)
 
 ## Edges
 

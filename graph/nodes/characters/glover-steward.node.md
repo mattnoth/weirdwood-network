@@ -35,6 +35,6 @@ The steward returns to Deepwood Motte and fights when [Asha Greyjoy](wiki:Asha_G
 
 ## Quotes
 
-> My [lady](wiki:Sybelle_Glover) begs that [you](wiki:Bran_Stark) excuse her absence. Her babes are still too young for such a journey, and she was loath to leave them.(wiki:Glover_steward.cite_ref-Racok16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> My lady begs that you excuse her absence. Her babes are still too young for such a journey, and she was loath to leave them.
 >
-> —The Glover steward to [Bran Stark](wiki:Bran_Stark)
+> —The Glover steward to Bran Stark, ACOK (`sources/chapters/acok/acok-bran-02.md:235`)

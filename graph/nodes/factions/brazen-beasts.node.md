@@ -95,6 +95,6 @@ As the [second siege of Meereen](wiki:Second_siege_of_Meereen) resumes, Skahaz a
 >
 > —[Barristan Selmy](wiki:Barristan_Selmy) and [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> [Marghaz](wiki:Marghaz_zo_Loraq) knows what I want him to know. The Beasts are still mine. Do not forget it.(wiki:Brazen_Beasts.cite_ref-Radwd55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-13)
+> Marghaz knows what I want him to know. The Beasts are still mine. Do not forget it.
 >
-> —[Skahaz mo Kandaq](wiki:Skahaz_mo_Kandaq) to [Barristan Selmy](wiki:Barristan_Selmy)
+> —Skahaz mo Kandaq to Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-queensguard-01.md:151`)

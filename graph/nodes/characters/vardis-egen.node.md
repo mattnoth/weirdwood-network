@@ -69,9 +69,9 @@ Tyrion mentions Vardis when introducing Bronn to Ser [Mandon Moore](wiki:Mandon_
 
 ### Quotes about Vardis
 
-> Tyrion remembered him well from the years he had spent at [King's Landing](wiki:King's_Landing) as [the captain](wiki:House_Arryn_guards) of the [Hand's](wiki:Jon_Arryn) household guard. A square, plain face, silver hair, a heavy build, and no humor whatsoever.(wiki:Vardis_Egen.cite_ref-Ragot38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)
+> Tyrion remembered him well from the years he had spent at King's Landing as the captain of the Hand's household guard. A square, plain face, silver hair, a heavy build, and no humor whatsoever.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-05.md:149`)
 
 > **Eon**: Ser Vardis is a doughty fighter. He will make short work of [the sellsword](wiki:Bronn). **Catelyn**: Will he, my lord? I wonder.(wiki:Vardis_Egen.cite_ref-Ragot40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 >

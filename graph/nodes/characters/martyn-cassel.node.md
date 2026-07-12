@@ -42,10 +42,10 @@ During a fever dream, Lord [Eddard Stark](wiki:Eddard_Stark) recalls Martyn and 
 
 ## Quotes
 
-> In the dream his friends rode with him, as they had in life. Proud Martyn Cassel, [Jory](wiki:Jory_Cassel)'s father; faithful [Theo Wull](wiki:Theo_Wull); [Ethan Glover](wiki:Ethan_Glover), who had been [Brandon](wiki:Brandon_Stark)'s [squire](wiki:Squire); Ser [Mark Ryswell](wiki:Mark_Ryswell), soft of speech and gentle of heart; the [crannogman](wiki:Crannogman), [Howland Reed](wiki:Howland_Reed); Lord [Dustin](wiki:Willam_Dustin) on his great red [stallion](wiki:Horse). Ned had known their faces as well as he knew his own once, but the years leech at a man's memories, even those he has vowed never to forget. In the dream they were only shadows, grey wraiths on horses made of mist.(wiki:Martyn_Cassel.cite_ref-Ragot39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> In the dream his friends rode with him, as they had in life. Proud Martyn Cassel, Jory's father; faithful Theo Wull; Ethan Glover, who had been Brandon's squire; Ser Mark Ryswell, soft of speech and gentle of heart; the crannogman, Howland Reed; Lord Dustin on his great red stallion. Ned had known their faces as well as he knew his own once, but the years leech at a man's memories, even those he has vowed never to forget. In the dream they were only shadows, grey wraiths on horses made of mist.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-10.md:13`)
 
-> My brother Martyn fathered four strong sons, yet only [Jory](wiki:Jory_Cassel) lived to be a man. When he was slain, Martyn's line died with him. When we speak of the morrow nothing is ever certain.(wiki:Martyn_Cassel.cite_ref-Racok16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+> My brother Martyn fathered four strong sons, yet only Jory lived to be a man. When he was slain, Martyn's line died with him. When we speak of the morrow nothing is ever certain.
 >
-> —[Rodrik Cassel](wiki:Rodrik_Cassel), to [Bran Stark](wiki:Bran_Stark)
+> —Rodrik Cassel, to Bran Stark, ACOK (`sources/chapters/acok/acok-bran-02.md:241`)

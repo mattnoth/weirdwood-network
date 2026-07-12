@@ -65,9 +65,9 @@ Arnolf's plot to claim Karhold is ruined when [Jon Snow](wiki:Jon_Snow), the new
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Cleos Frey](wiki:Cleos_Frey)
 
-> No one ransomed the [northmen](wiki:Northmen), though. [One fat lordling](wiki:Wylis_Manderly) haunted the kitchens, [Hot Pie](wiki:Hot_Pie) told her, always looking for a morsel. His mustache was so bushy that it covered his mouth, and the clasp that held his cloak was a silver-and-sapphire trident. He belonged to Lord [Tywin](wiki:Tywin_Lannister), but the fierce, bearded young man who liked to walk the battlements alone in a black cloak patterned with [white suns](wiki:House_Karstark) had been taken by some [hedge knight](wiki:Hedge_knight) who meant to get rich off him. [Sansa](wiki:Sansa_Stark) would have known who he was, and the fat one too, but Arya had never taken much interest in titles and sigils.(wiki:Harrion_Karstark.cite_ref-Racok30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)
+> No one ransomed the northmen, though. One fat lordling haunted the kitchens, Hot Pie told her, always looking for a morsel. His mustache was so bushy that it covered his mouth, and the clasp that held his cloak was a silver-and-sapphire trident. He belonged to Lord Tywin, but the fierce, bearded young man who liked to walk the battlements alone in a black cloak patterned with white suns had been taken by some hedge knight who meant to get rich off him. Sansa would have known who he was, and the fat one too, but Arya had never taken much interest in titles and sigils.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ACOK (`sources/chapters/acok/acok-arya-07.md:65`)
 
 > **Brynden**: [Lord Karstark's](wiki:Rickard_Karstark) heir was at [Harrenhal](wiki:Harrenhal) as well. The eldest son, the one the [Lannisters](wiki:House_Lannister) took captive on the [Green Fork](wiki:Battle_on_the_Green_Fork).
 >

@@ -72,31 +72,31 @@ Dagmer continues to hold Torrhen's Square with his force of ironborn.(wiki:Dagme
 >
 > —[Theon Greyjoy](wiki:Theon_Greyjoy) and Dagmer
 
-> [These old knights](wiki:Rodrik_Cassel) are more cunning than you think, or they would never have lived to see their first grey hair.(wiki:Dagmer.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-13)
+> These old knights are more cunning than you think, or they would never have lived to see their first grey hair.
 >
-> —Dagmer to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Dagmer to Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-03.md:159`)
 
 ### Quotes about Dagmer
 
-> He gave me more smiles than [my father](wiki:Balon_Greyjoy) and [Eddard Stark](wiki:Eddard_Stark) together.(wiki:Dagmer.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-14)
+> He gave me more smiles than my father and Eddard Stark together.
 >
-> —[Theon Greyjoy](wiki:Theon_Greyjoy)'s thoughts
+> —Theon Greyjoy's thoughts, ACOK (`sources/chapters/acok/acok-theon-03.md:77`)
 
-> His hair is white and his teeth are rotten, but he still has a taste for glory.(wiki:Dagmer.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-15)
+> His hair is white and his teeth are rotten, but he still has a taste for glory.
 >
-> —[Theon Greyjoy](wiki:Theon_Greyjoy)'s thoughts
+> —Theon Greyjoy's thoughts, ACOK (`sources/chapters/acok/acok-theon-03.md:141`)
 
 > If I had a man like you in my service, I should not waste him on this child's business of harrying and burning. This is no work for Lord [Balon's](wiki:Balon_Greyjoy) best man...(wiki:Dagmer.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-16)
 >
 > —[Theon Greyjoy](wiki:Theon_Greyjoy) to Dagmer
 
-> [Old Nan](wiki:Old_Nan) said he couldn't be killed, that once a foe had cut his head in two with an axe, but Dagmer was so fierce he'd just pushed the two halves back together and held them until they healed up.(wiki:Dagmer.cite_ref-Racok46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+> Old Nan said he couldn't be killed, that once a foe had cut his head in two with an axe, but Dagmer was so fierce he'd just pushed the two halves back together and held them until they healed up.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, ACOK (`sources/chapters/acok/acok-bran-06.md:43`)
 
-> [Torrhen's Square](wiki:Torrhen's_Square) was not a ruin like [Moat Cailin](wiki:Moat_Cailin), and Dagmer was [iron](wiki:Ironborn) to the bone. He would die before he'd yield.(wiki:Dagmer.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1)
+> Torrhen's Square was not a ruin like Moat Cailin, and Dagmer was iron to the bone. He would die before he'd yield.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-wayward-bride-01.md:35`)
 
 ## Edges
 

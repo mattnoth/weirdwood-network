@@ -50,13 +50,13 @@ In [Meereen](wiki:Meereen), Daenerys learns from Ser [Barristan Selmy](wiki:Barr
 >
 > —Wineseller to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> [That](wiki:Dornish_red)? [Dornish](wiki:Dorne) swill. It is not worthy of a [princess](wiki:Prince). I have a [dry red](wiki:Arbor_red) from the [Arbor](wiki:Arbor), crisp and delectable. Please, let me give you a cask.(wiki:Wineseller.cite_ref-Ragot54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> That? Dornish swill. It is not worthy of a princess. I have a dry red from the Arbor, crisp and delectable. Please, let me give you a cask.
 >
-> —Wineseller to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Wineseller to Daenerys Targaryen, AGOT (`sources/chapters/agot/agot-daenerys-06.md:97`)
 
-> I am not worthy of this vintage, my lord. And it's a poor [wine](wiki:Wine) merchant who drinks up his own wares.(wiki:Wineseller.cite_ref-Ragot54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> I am not worthy of this vintage, my lord. And it's a poor wine merchant who drinks up his own wares.
 >
-> —Wineseller to [Jorah Mormont](wiki:Jorah_Mormont)
+> —Wineseller to Jorah Mormont, AGOT (`sources/chapters/agot/agot-daenerys-06.md:129`)
 
 > **Daenerys**: I need clever men about me if I am to win the [Iron Throne](wiki:Iron_Throne).
 >

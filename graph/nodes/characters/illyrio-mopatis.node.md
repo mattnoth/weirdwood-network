@@ -119,9 +119,9 @@ It is revealed that Illyrio, Jon, and [Myles Toyne](wiki:Myles_Toyne) of the [Go
 >
 > —[Viserys Targaryen](wiki:Viserys_Targaryen) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> He had friends in all of the [Nine Free Cities](wiki:Free_Cities), it was said, and even beyond, in [Vaes Dothrak](wiki:Vaes_Dothrak) and the fabled lands beside the [Jade Sea](wiki:Jade_Sea). It was also said that he'd never had a friend he wouldn't cheerfully sell for the right price.(wiki:Illyrio_Mopatis.cite_ref-Ragot3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-21)
+> He had friends in all of the Nine Free Cities, it was said, and even beyond, in Vaes Dothrak and the fabled lands beside the Jade Sea. It was also said that he'd never had a friend he wouldn't cheerfully sell for the right price.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, AGOT (`sources/chapters/agot/agot-daenerys-01.md:23`)
 
 > Some pox-ridden [Pentoshi](wiki:Pentos) [cheesemonger](wiki:Cheese) had [her brother](wiki:Viserys_Targaryen) and [her](wiki:Daenerys_Targaryen) walled up on his estate with [pointy-hatted eunuchs](wiki:Unsullied) all around them, and now he's handed them both over to the [Dothraki](wiki:Dothraki). I should have had them both killed years ago, when it was easy to get to them.(wiki:Illyrio_Mopatis.cite_ref-Ragot12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-0)
 >
@@ -135,9 +135,9 @@ It is revealed that Illyrio, Jon, and [Myles Toyne](wiki:Myles_Toyne) of the [Go
 >
 > —[Daenerys Targaryen](wiki:Daenerys_Targaryen) and [Jorah Mormont](wiki:Jorah_Mormont)
 
-> Illyrio Mopatis. A whale with whiskers, I am telling you truly. [These chairs](wiki:Bountiful_Harvest) were built to his measure, though he is seldom bestirring himself from [Pentos](wiki:Pentos) to sit in them. A fat man always sits comfortably, I am thinking, for he takes his pillow with him wherever he goes.(wiki:Illyrio_Mopatis.cite_ref-Rasos10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-1)
+> Illyrio Mopatis. A whale with whiskers, I am telling you truly. These chairs were built to his measure, though he is seldom bestirring himself from Pentos to sit in them. A fat man always sits comfortably, I am thinking, for he takes his pillow with him wherever he goes.
 >
-> —[Salladhor Saan](wiki:Salladhor_Saan) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Salladhor Saan to Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-02.md:61`)
 
 > **Lemore**: Illyrio could not have been expected to know that [the girl](wiki:Daenerys_Targaryen) would choose to remain at [Slaver's Bay](wiki:Slaver's_Bay). **Jon**: No more than he knew that the [Beggar King](wiki:Viserys_Targaryen) would die young, or that Khal [Drogo](wiki:Drogo) would follow him into the grave. Very little of what the fat man has anticipated has come to pass. I have danced to the fat man's pipes for years, Lemore.(wiki:Illyrio_Mopatis.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
 >

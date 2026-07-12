@@ -58,9 +58,9 @@ After being tortured by Ramsay at the Dreadfort,(wiki:Sack_of_Winterfell.cite_re
 >
 > —[Ramsay Snow](wiki:Ramsay_Snow) to his men
 
-> All through the night the fires crackled, and once there was a great roar and a crash that made the earth jump under his feet. Dogs barked and whined and horses screamed in terror. Howls shuddered through the night; the howls of the man-pack, wails of fear and wild shouts, laughter and screams. No beast was as noisy as man.(wiki:Sack_of_Winterfell.cite_ref-Racok69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-5)
+> All through the night the fires crackled, and once there was a great roar and a crash that made the earth jump under his feet. Dogs barked and whined and horses screamed in terror. Howls shuddered through the night; the howls of the man-pack, wails of fear and wild shouts, laughter and screams. No beast was as noisy as man.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark) while in the mind of [Summer](wiki:Summer)
+> —thoughts of Bran Stark while in the mind of Summer, ACOK (`sources/chapters/acok/acok-bran-07.md:17`)
 
 > Winterfell. It was Winterfell. It was all on fire. There were horse smells, and steel, and blood. They killed everyone, Meera.(wiki:Sack_of_Winterfell.cite_ref-Racok69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-6)
 >
@@ -78,6 +78,6 @@ After being tortured by Ramsay at the Dreadfort,(wiki:Sack_of_Winterfell.cite_re
 >
 > —[Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) and [Grenn](wiki:Grenn) to [Jon Snow](wiki:Jon_Snow)
 
-> The tale you tell is one we all have heard, as full of lies as a pudding's full of raisins. It was the Bastard of Bolton who put [Winterfell](wiki:Winterfell) to the sword ... [Ramsay Snow](wiki:Ramsay_Snow), he was called then, before [the boy king](wiki:Tommen_Baratheon) made him a [Bolton](wiki:House_Bolton). Snow did not kill them all. He spared the women, roped them together, and marched them to the [Dreadfort](wiki:Dreadfort) for his sport.(wiki:Sack_of_Winterfell.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
+> The tale you tell is one we all have heard, as full of lies as a pudding's full of raisins. It was the Bastard of Bolton who put Winterfell to the sword ... Ramsay Snow, he was called then, before the boy king made him a Bolton. Snow did not kill them all. He spared the women, roped them together, and marched them to the Dreadfort for his sport.
 >
-> —[Wyman Manderly](wiki:Wyman_Manderly) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Wyman Manderly to Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-04.md:153`)

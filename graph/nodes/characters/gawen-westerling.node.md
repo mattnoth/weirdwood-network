@@ -59,10 +59,10 @@ Gawen is present at the [siege of Riverrun](wiki:Siege_of_Riverrun). He is with 
 
 ## Quotes
 
-> Gawen is a good man, but his wife is [Sybell Spicer](wiki:Sybell_Spicer). He should never have wed her. The [Westerlings](wiki:House_Westerling) always did have more honor than sense.(wiki:Gawen_Westerling.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
+> Gawen is a good man, but his wife is Sybell Spicer. He should never have wed her. The Westerlings always did have more honor than sense.
 >
-> —[Kevan Lannister](wiki:Kevan_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Kevan Lannister to Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-03.md:353`)
 
-> Jaime had to wonder how much Lord Gawen knew about [his wife's](wiki:Sybell_Spicer) scheming. How much do we men ever know?(wiki:Gawen_Westerling.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1)
+> Jaime had to wonder how much Lord Gawen knew about his wife's scheming. How much do we men ever know?
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-07.md:97`)

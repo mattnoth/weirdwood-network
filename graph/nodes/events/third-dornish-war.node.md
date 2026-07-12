@@ -51,6 +51,6 @@ Many years later in [83 AC](wiki:83_AC), [Morion Martell](wiki:Morion_Martell) 
 
 ## Quotes
 
-> The fight that followed is named in the histories as the Third Dornish War, but that is a misnomer, for the [Prince of Dorne](wiki:Prince_of_Dorne) kept his armies well out of the conflict. The [smallfolk](wiki:Smallfolk) of the time called it Lord Rogar's War, and that name is far more apt.(wiki:Third_Dornish_War.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
+> The fight that followed is named in the histories as the Third Dornish War, but that is a misnomer, for the Prince of Dorne kept his armies well out of the conflict. The smallfolk of the time called it Lord Rogar's War, and that name is far more apt.
 >
-> —[Gyldayn](wiki:Gyldayn)
+> —Gyldayn, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p01.md:187`)

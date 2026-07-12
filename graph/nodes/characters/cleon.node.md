@@ -51,9 +51,9 @@ Cleon is slain by his own men when he commands them to march out and attack the 
 >
 > —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> Great Cleon bid me tell you not to be afraid. [Astapor](wiki:Astapor) remembers. Astapor will not forsake you.(wiki:Cleon.cite_ref-Rasos71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> Great Cleon bid me tell you not to be afraid. Astapor remembers. Astapor will not forsake you.
 >
-> —[Ghael](wiki:Ghael) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Ghael to Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-06.md:105`)
 
 > **Daenerys**: I should have gone to [Astapor](wiki:Astapor). **Barristan**: Your Grace could not have saved them. You warned King Cleon against this war with [Yunkai](wiki:Yunkai). The man was a fool, and his hands were red with blood.(wiki:Cleon.cite_ref-Radwd30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
 >

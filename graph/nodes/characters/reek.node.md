@@ -60,14 +60,14 @@ At the [Wall](wiki:Wall), [Jon Snow](wiki:Jon_Snow) receives a [letter](wiki:Bas
 
 ### Quotes about Reek
 
-> [The boy](wiki:Ramsay_Snow) is a sly creature by all accounts, and he has a servant who is almost as cruel as he is. Reek, they call the man. It's said he never bathes. They hunt together, the Bastard and this Reek, and not for [deer](wiki:Deer). I've heard tales, things I can scarce believe, even of a [Bolton](wiki:House_Bolton).(wiki:Reek.cite_ref-Racok16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
+> The boy is a sly creature by all accounts, and he has a servant who is almost as cruel as he is. Reek, they call the man. It's said he never bathes. They hunt together, the Bastard and this Reek, and not for deer. I've heard tales, things I can scarce believe, even of a Bolton.
 >
-> —[Donella Hornwood](wiki:Donella_Hornwood) to [Rodrik Cassel](wiki:Rodrik_Cassel)
+> —Donella Hornwood to Rodrik Cassel, ACOK (`sources/chapters/acok/acok-bran-02.md:137`)
 
-> The smell was something he was born with. A curse, the [smallfolk](wiki:Smallfolk) said. The gods had made him stink so that men would know his soul was rotting.(wiki:Reek.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4)
+> The smell was something he was born with. A curse, the smallfolk said. The gods had made him stink so that men would know his soul was rotting.
 >
-> —[Roose Bolton](wiki:Roose_Bolton) to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Roose Bolton to Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-03.md:211`)
 
-> I do wonder, though ... was it [Ramsay](wiki:Ramsay_Snow) who corrupted Reek, or Reek Ramsay?(wiki:Reek.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-5)
+> I do wonder, though ... was it Ramsay who corrupted Reek, or Reek Ramsay?
 >
-> —[Roose Bolton](wiki:Roose_Bolton) to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Roose Bolton to Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-03.md:211`)

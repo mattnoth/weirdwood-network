@@ -58,9 +58,9 @@ In King's Landing, at a meeting of King [Tommen Baratheon](wiki:Tommen_Baratheon
 
 ## Quotes
 
-> We were speaking of my grandson Willas. He is a bit old for you, to be sure, but a dear boy for all that. Not the least bit oafish, and heir to [Highgarden](wiki:Highgarden) besides.(wiki:Willas_Tyrell.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
+> We were speaking of my grandson Willas. He is a bit old for you, to be sure, but a dear boy for all that. Not the least bit oafish, and heir to Highgarden besides.
 >
-> —[Olenna Tyrell](wiki:Olenna_Tyrell) to [Sansa Stark](wiki:Sansa_Stark)
+> —Olenna Tyrell to Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-01.md:275`)
 
 > Willas has a bad leg but a good heart.(wiki:Willas_Tyrell.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-5)
 >
@@ -74,9 +74,9 @@ In King's Landing, at a meeting of King [Tommen Baratheon](wiki:Tommen_Baratheon
 >
 > —[Oberyn Martell](wiki:Oberyn_Martell) to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> Gentle, pious, good-hearted Willas Tyrell. Be grateful you were spared, he would have bored you spitless.(wiki:Willas_Tyrell.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+> Gentle, pious, good-hearted Willas Tyrell. Be grateful you were spared, he would have bored you spitless.
 >
-> —[Petyr Baelish](wiki:Petyr_Baelish) to [Sansa Stark](wiki:Sansa_Stark)
+> —Petyr Baelish to Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-06.md:187`)
 
 ## Edges
 

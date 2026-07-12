@@ -109,9 +109,9 @@ Although the [stormlands](wiki:Stormlands) are [under attack by the Golden Compa
 >
 > —[Sansa Stark](wiki:Sansa_Stark) and Margaery
 
-> I know what a burden you bear. You should let me share the load. There must be some things I could do to help you. It would put to rest all this talk that you and I are rivals for [the king](wiki:Tommen_Baratheon).(wiki:Margaery_Tyrell.cite_ref-Raffc28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-12)
+> I know what a burden you bear. You should let me share the load. There must be some things I could do to help you. It would put to rest all this talk that you and I are rivals for the king.
 >
-> —Margaery to [Cersei Lannister](wiki:Cersei_Lannister)
+> —Margaery to Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-06.md:309`)
 
 > **Cersei**: You wrong me, daughter. All I want— **Margaery**: —is [your son](wiki:Tommen_Baratheon), all for yourself. He will never have a wife that you don't hate. And I am not your daughter, thank [the gods](wiki:Faith_of_the_Seven).(wiki:Margaery_Tyrell.cite_ref-Raffc43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-7)
 >
@@ -123,25 +123,25 @@ Although the [stormlands](wiki:Stormlands) are [under attack by the Golden Compa
 >
 > —thoughts of [Eddard Stark](wiki:Eddard_Stark)
 
-> The girl is a [maid](wiki:Maiden) of fourteen, sweet and beautiful and tractable, and Lord [Renly](wiki:Renly_Baratheon) and Ser [Loras](wiki:Loras_Tyrell) intend that [Robert](wiki:Robert_I_Baratheon) should bed her, wed her, and make a new queen.(wiki:Margaery_Tyrell.cite_ref-Ragot32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-3)
+> The girl is a maid of fourteen, sweet and beautiful and tractable, and Lord Renly and Ser Loras intend that Robert should bed her, wed her, and make a new queen.
 >
-> —[Varys](wiki:Varys), to [Illyrio Mopatis](wiki:Illyrio_Mopatis)
+> —Varys, to Illyrio Mopatis, AGOT (`sources/chapters/agot/agot-arya-03.md:97`)
 
 > **Stannis**: We both know your wedding was a [mummer](wiki:Mummer)'s farce. A year ago you were scheming to make the girl one of [Robert](wiki:Robert_I_Baratheon)'s [whores](wiki:Whore). **Renly**: A year ago I was scheming to make the girl Robert’s queen.(wiki:Margaery_Tyrell.cite_ref-Racok31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-1)
 >
 > —[Renly Baratheon](wiki:Renly_Baratheon) and [Stannis Baratheon](wiki:Stannis_Baratheon)
 
-> If you had to fall into [a woman's](wiki:Jeyne_Westerling) arms, [my son](wiki:Robb_Stark), why couldn't they have been Margaery Tyrell's? The wealth and power of [Highgarden](wiki:Highgarden) could have made all the difference in the fighting yet to come. And perhaps [Grey Wind](wiki:Grey_Wind) would have liked the smell of her as well.(wiki:Margaery_Tyrell.cite_ref-Rasos14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1)
+> If you had to fall into a woman's arms, my son, why couldn't they have been Margaery Tyrell's? The wealth and power of Highgarden could have made all the difference in the fighting yet to come. And perhaps Grey Wind would have liked the smell of her as well.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-02.md:239`)
 
-> Margaery was different, though. Sweet and gentle, yet there was a little of [her grandmother](wiki:Olenna_Tyrell) in her, too.(wiki:Margaery_Tyrell.cite_ref-Rasos16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-6)
+> Margaery was different, though. Sweet and gentle, yet there was a little of her grandmother in her, too.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-02.md:57`)
 
-> Her smile was shy and sweet. A lovely girl, thought Tyrion, and a kinder fate than [my nephew](wiki:Joffrey_Baratheon) deserves.(wiki:Margaery_Tyrell.cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-4)
+> Her smile was shy and sweet. A lovely girl, thought Tyrion, and a kinder fate than my nephew deserves.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-08.md:123`)
 
 > Lady [Olenna](wiki:Olenna_Tyrell) was not about to let [Joff](wiki:Joffrey_Baratheon) harm her precious darling granddaughter, but unlike [her son](wiki:Mace_Tyrell) she also realized that under all his flowers and finery, Ser [Loras](wiki:Loras_Tyrell) is as hot-tempered as [Jaime Lannister](wiki:Jaime_Lannister). Toss Joffrey, Margaery, and Loras in a pot, and you've got the makings for [kingslayer](wiki:Kingslayer) stew. The old woman understood something else as well. Her son was determined to make Margaery a queen, and for that he needed a king... but he did not need *Joffrey*.(wiki:Margaery_Tyrell.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-1)
 >
@@ -151,13 +151,13 @@ Although the [stormlands](wiki:Stormlands) are [under attack by the Golden Compa
 >
 > —[Petyr Baelish](wiki:Petyr_Baelish), to [Sansa Stark](wiki:Sansa_Stark)
 
-> So the girl is as clever as she is pretty. [Tommen](wiki:Tommen_Baratheon) could do a deal worse for a queen.(wiki:Margaery_Tyrell.cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-3)
+> So the girl is as clever as she is pretty. Tommen could do a deal worse for a queen.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-01.md:205`)
 
-> She is pretty enough, she had to admit, but most of that is youth. Even [peasant](wiki:Smallfolk) girls are pretty at a certain age, when they are still fresh and innocent and unspoiled, and most of them have the same brown hair and brown eyes as she does. Only a fool would ever claim she was more beautiful than I. The world was full of fools, however. So was [her son's](wiki:Tommen_Baratheon) court.(wiki:Margaery_Tyrell.cite_ref-Raffc12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-13)
+> She is pretty enough, she had to admit, but most of that is youth. Even peasant girls are pretty at a certain age, when they are still fresh and innocent and unspoiled, and most of them have the same brown hair and brown eyes as she does. Only a fool would ever claim she was more beautiful than I. The world was full of fools, however. So was her son's court.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-03.md:151`)
 
 ## Edges
 

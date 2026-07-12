@@ -44,6 +44,6 @@ Laswell successfully [takes](wiki:Taking_of_Rain_House) Rain House.(wiki:Laswell
 
 ## Quotes
 
-> Even after a century, some of us still have friends in the [Reach](wiki:Reach). The power of [Highgarden](wiki:Highgarden) may not be what [Mace Tyrell](wiki:Mace_Tyrell) imagines.(wiki:Laswell_Peake.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> Even after a century, some of us still have friends in the Reach. The power of Highgarden may not be what Mace Tyrell imagines.
 >
-> —Laswell to [Harry Strickland](wiki:Harry_Strickland)
+> —Laswell to Harry Strickland, ADWD (`sources/chapters/adwd/adwd-the-lost-lord-01.md:213`)

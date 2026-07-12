@@ -48,6 +48,6 @@ Having been rejected by Daenerys, Quentyn mentions Willam and Cletus while tryin
 
 ### Quotes about Willam
 
-> Men's lives have meaning, not their deaths. I loved Will and [Cletus](wiki:Cletus_Yronwood) too, but this will not bring them back to us.(wiki:Willam_Wells.cite_ref-Radwd60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> Men's lives have meaning, not their deaths. I loved Will and Cletus too, but this will not bring them back to us.
 >
-> —[Gerris Drinkwater](wiki:Gerris_Drinkwater) to [Quentyn Martell](wiki:Quentyn_Martell)
+> —Gerris Drinkwater to Quentyn Martell, ADWD (`sources/chapters/adwd/adwd-the-spurned-suitor-01.md:81`)

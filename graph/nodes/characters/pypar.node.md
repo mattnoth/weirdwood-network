@@ -100,14 +100,14 @@ Jon sees Pyp eating with Grenn and his other friends in the cellar below the arm
 
 ### Quotes about Pypar
 
-> The [mummer](wiki:Mummer)'s boy with the big ears was a born liar with a hundred different voices, and he did not tell his tales so much as live them, playing all the parts as needed, a king one moment and a swineherd the next. When he turned into an [alehouse](wiki:Ale) girl or a virgin princess, he used a high falsetto voice that reduced them all to tears of helpless laughter, and his eunuchs were always eerily accurate caricatures of Ser [Alliser](wiki:Alliser_Thorne).(wiki:Pypar.cite_ref-Ragot26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-5)
+> The mummer's boy with the big ears was a born liar with a hundred different voices, and he did not tell his tales so much as live them, playing all the parts as needed, a king one moment and a swineherd the next. When he turned into an alehouse girl or a virgin princess, he used a high falsetto voice that reduced them all to tears of helpless laughter, and his eunuchs were always eerily accurate caricatures of Ser Alliser.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, AGOT (`sources/chapters/agot/agot-jon-04.md:117`)
 
-> They will call you men of [Night's Watch](wiki:Night's_Watch) now, but you are bigger fools than the Mummer's Monkey here if you believe that. You are boys still, green and stinking of summer, and when the winter comes you will die like flies.(wiki:Pypar.cite_ref-Ragot41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> They will call you men of Night's Watch now, but you are bigger fools than the Mummer's Monkey here if you believe that. You are boys still, green and stinking of summer, and when the winter comes you will die like flies.
 >
-> —[Alliser Thorne](wiki:Alliser_Thorne) to Pyp's fellow recruits
+> —Alliser Thorne to Pyp's fellow recruits, AGOT (`sources/chapters/agot/agot-jon-05.md:13`)
 
-> I am the shield that guards the realms of men, he remembered. He wondered what those men would say if they realized [their realms](wiki:Seven_Kingdoms) were being guarded by the likes of [Grenn](wiki:Grenn), Pyp, and [Dolorous Edd](wiki:Eddison_Tollett).(wiki:Pypar.cite_ref-Raffc5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> I am the shield that guards the realms of men, he remembered. He wondered what those men would say if they realized their realms were being guarded by the likes of Grenn, Pyp, and Dolorous Edd.
 >
-> —thoughts of [Samwell Tarly](wiki:Samwell_Tarly)
+> —thoughts of Samwell Tarly, AFFC (`sources/chapters/affc/affc-samwell-01.md:89`)

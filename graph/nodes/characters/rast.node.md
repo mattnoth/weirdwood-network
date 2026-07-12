@@ -56,6 +56,6 @@ Still in training,(wiki:Rast.cite_ref-Rasosappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4
 
 ### Quotes about Rast
 
-> Jon had once threatened to have [Ghost](wiki:Ghost) rip his throat out unless he stopped tormenting [Samwell Tarly](wiki:Samwell_Tarly), and Rast did not forget things like that.(wiki:Rast.cite_ref-Rasos55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+> Jon had once threatened to have Ghost rip his throat out unless he stopped tormenting Samwell Tarly, and Rast did not forget things like that.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ASOS (`sources/chapters/asos/asos-jon-07.md:55`)

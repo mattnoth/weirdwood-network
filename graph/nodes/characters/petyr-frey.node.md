@@ -41,10 +41,10 @@ After the Red Wedding, Petyr wanders off with a [camp follower](wiki:Camp_follow
 
 ## Quotes
 
-> The lad with the unfortunate face. Petyr Pimple, his brothers call him.(wiki:Petyr_Frey.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
+> The lad with the unfortunate face. Petyr Pimple, his brothers call him.
 >
-> —[Edmure Tully](wiki:Edmure_Tully), to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Edmure Tully, to Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-06.md:33`)
 
-> [Whores](wiki:Whore) did have charms, especially if you had a face like Petyr's.(wiki:Petyr_Frey.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+> Whores did have charms, especially if you had a face like Petyr's.
 >
-> —thoughts of [Merrett Frey](wiki:Merrett_Frey)
+> —thoughts of Merrett Frey, ASOS (`sources/chapters/asos/asos-epilogue.md:23`)

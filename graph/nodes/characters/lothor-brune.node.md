@@ -95,9 +95,9 @@ After Ser [Harrold Hardyng](wiki:Harrold_Hardyng) is rude to Sansa, believing he
 
 ### Quotes about Lothor
 
-> Ser Lothor, she had to remind herself; the man had been [knighted](wiki:Knight) for his valor in the [Battle of the Blackwater](wiki:Battle_of_the_Blackwater). Though no proper knight would wear those patched brown breeches and scuffed boots, nor that cracked and water-stained leather jerkin. A square-faced stocky man with a squashed nose and a mat of nappy grey hair, Brune spoke seldom. He is stronger than he looks, though.(wiki:Lothor_Brune.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-10)
+> Ser Lothor, she had to remind herself; the man had been knighted for his valor in the Battle of the Blackwater. Though no proper knight would wear those patched brown breeches and scuffed boots, nor that cracked and water-stained leather jerkin. A square-faced stocky man with a squashed nose and a mat of nappy grey hair, Brune spoke seldom. He is stronger than he looks, though.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-06.md:11`)
 
 > **Sansa**: [Oswell](wiki:Oswell_Kettleblack) ... my lord, Oswell rowed me from [King's Landing](wiki:King's_Landing) the [night that I escaped](wiki:Purple_Wedding). He must know who I am. **Petyr**: If he's half as clever as a sheep pellet, you would think so. Ser Lothor knows as well. But Oswell has been in my service a long time, and Brune is close-mouthed by nature. Kettleblack watches Brune for me, and Brune watches Kettleblack.(wiki:Lothor_Brune.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-2)
 >
@@ -107,9 +107,9 @@ After Ser [Harrold Hardyng](wiki:Harrold_Hardyng) is rude to Sansa, believing he
 >
 > —thoughts of [Sansa Stark](wiki:Sansa_Stark)
 
-> Sober, he was a quiet man, but a strong one. And [Petyr](wiki:Petyr_Baelish) says he's loyal. He trusts him as much as he trusts anyone. Brune would be a good match for a [bastard](wiki:Bastard) girl like [Mya Stone](wiki:Mya_Stone), she thought.(wiki:Lothor_Brune.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-9)
+> Sober, he was a quiet man, but a strong one. And Petyr says he's loyal. He trusts him as much as he trusts anyone. Brune would be a good match for a bastard girl like Mya Stone, she thought.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, AFFC (`sources/chapters/affc/affc-alayne-02.md:169`)
 
 > **Sansa**: Ser Lothor is fond of her. More than fond.
 >

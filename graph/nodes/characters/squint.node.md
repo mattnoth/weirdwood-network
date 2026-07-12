@@ -24,9 +24,9 @@ Squint is among [Theon Greyjoy](wiki:Theon_Greyjoy)'s force that participates in
 
 ## Quotes
 
-> They found Squint floating facedown in the moat, his entrails drifting behind him like a nest of pale [snakes](wiki:Snake).(wiki:Squint.cite_ref-Racok50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+> They found Squint floating facedown in the moat, his entrails drifting behind him like a nest of pale snakes.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-04.md:57`)
 
 ## Edges
 

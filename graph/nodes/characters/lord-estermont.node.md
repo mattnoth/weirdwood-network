@@ -68,6 +68,6 @@ Lord Estermont has apparently passed away, as Ser [Eldon Estermont](wiki:Eldon_E
 
 ### Quotes about Lord Estermont
 
-> The [Lannisters](wiki:House_Lannister) think I am done and beaten, and my sworn lords have forsaken me, near every one. Even Lord Estermont, [my own mother's](wiki:Cassana_Estermont) father, has bent his knee to [Joffrey](wiki:Joffrey_Baratheon).(wiki:Lord_Estermont.cite_ref-Rasos36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> The Lannisters think I am done and beaten, and my sworn lords have forsaken me, near every one. Even Lord Estermont, my own mother's father, has bent his knee to Joffrey.
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Stannis Baratheon to Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-04.md:97`)

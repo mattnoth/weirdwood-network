@@ -46,9 +46,9 @@ Haldon goes to [Griffin's Roost](wiki:Griffin's_Roost) with Griff, who is actual
 >
 > —Haldon to the crew of the *[Shy Maid](wiki:Shy_Maid)*
 
-> The [Lannisters](wiki:House_Lannister) make enemies easily but seem to have a harder time keeping friends.(wiki:Haldon.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+> The Lannisters make enemies easily but seem to have a harder time keeping friends.
 >
-> —Haldon to [Jon Connington](wiki:Jon_Connington)
+> —Haldon to Jon Connington, ADWD (`sources/chapters/adwd/adwd-the-griffin-reborn-01.md:99`)
 
 ## Edges
 

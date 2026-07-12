@@ -67,22 +67,22 @@ The kingsroad near Winterfell is blanketed by snowfall from a fierce blizzard,(w
 
 ## Quotes
 
-> My lady, let me accompany you at least. The kingsroad can be perilous for a woman alone.(wiki:Kingsroad.cite_ref-Ragot14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_43-0)
+> My lady, let me accompany you at least. The kingsroad can be perilous for a woman alone.
 >
-> —[Rodrik Cassel](wiki:Rodrik_Cassel) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Rodrik Cassel to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-03.md:241`)
 
 > The kingsroad can be perilous [this far north](wiki:Gift).(wiki:Kingsroad.cite_ref-Ragot21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_44-0)
 >
 > —[Jeor Mormont](wiki:Jeor_Mormont) to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> These days, the sea is safer than the kingsroad.(wiki:Kingsroad.cite_ref-Ragot44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_45-0)
+> These days, the sea is safer than the kingsroad.
 >
-> —[Eddard Stark](wiki:Eddard_Stark) to [Sansa Stark](wiki:Sansa_Stark) and [Arya Stark](wiki:Arya_Stark)
+> —Eddard Stark to Sansa Stark and Arya Stark, AGOT (`sources/chapters/agot/agot-sansa-03.md:149`)
 
 > I'd stay well clear of that kingsroad, if I were you. It's worse than bad, I hear. [Wolves](wiki:House_Stark) and [lions](wiki:House_Lannister) both, and bands of [broken men](wiki:Broken_men) preying on anyone they can catch.(wiki:Kingsroad.cite_ref-Rasos11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_46-0)
 >
 > —[peasant](wiki:Smallfolk) to [Brienne of Tarth](wiki:Brienne_Tarth), [Jaime Lannister](wiki:Jaime_Lannister), and [Cleos Frey](wiki:Cleos_Frey)
 
-> When there was a [Stark](wiki:House_Stark) in [Winterfell](wiki:Winterfell), a maiden girl could walk the kingsroad in her [name-day](wiki:Name_day) gown and still go unmolested, and travelers could find fire, bread, and salt at many an inn and holdfast. But the nights are colder now, and doors are closed. There's [squids](wiki:House_Greyjoy) in the [wolfswood](wiki:Wolfswood), and [flayed men](wiki:House_Bolton) ride the kingsroad asking after strangers.(wiki:Kingsroad.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-1)
+> When there was a Stark in Winterfell, a maiden girl could walk the kingsroad in her name-day gown and still go unmolested, and travelers could find fire, bread, and salt at many an inn and holdfast. But the nights are colder now, and doors are closed. There's squids in the wolfswood, and flayed men ride the kingsroad asking after strangers.
 >
-> —a [Liddle](wiki:The_Liddle) to [Bran Stark](wiki:Bran_Stark), [Meera Reed](wiki:Meera_Reed), and [Jojen Reed](wiki:Jojen_Reed)
+> —a Liddle to Bran Stark, Meera Reed, and Jojen Reed, ASOS (`sources/chapters/asos/asos-bran-02.md:65`)

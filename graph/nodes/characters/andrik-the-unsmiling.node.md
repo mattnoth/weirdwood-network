@@ -38,14 +38,14 @@ Wearing rings on each finger and with a woman under each arm, Andrik celebrates 
 
 ## Quotes
 
-> The singers call Andrik best now. Andrik the Unsmiling, they name him. A giant of a man. He serves [Lord Drumm](wiki:Dunstan_Drumm) of [Old Wyk](wiki:Old_Wyk).(wiki:Andrik_the_Unsmiling.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> The singers call Andrik best now. Andrik the Unsmiling, they name him. A giant of a man. He serves Lord Drumm of Old Wyk.
 >
-> —[Dagmer](wiki:Dagmer) to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Dagmer to Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-03.md:97`)
 
-> Andrik the Unsmiling, a giant of a man with arms as thick as trees. It spoke well of [the Drumm](wiki:Dunstan_Drumm) that such a man would stand for him.(wiki:Andrik_the_Unsmiling.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+> Andrik the Unsmiling, a giant of a man with arms as thick as trees. It spoke well of the Drumm that such a man would stand for him.
 >
-> —thoughts of [Aeron Greyjoy](wiki:Aeron_Greyjoy)
+> —thoughts of Aeron Greyjoy, AFFC (`sources/chapters/affc/affc-the-drowned-man-01.md:91`)
 
-> Rise, Andrik the Unsmiling, [Lord of Southshield](wiki:Lord_of_Southshield).(wiki:Andrik_the_Unsmiling.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+> Rise, Andrik the Unsmiling, Lord of Southshield.
 >
-> —[Euron Greyjoy](wiki:Euron_Greyjoy) to Andrik
+> —Euron Greyjoy to Andrik, AFFC (`sources/chapters/affc/affc-the-reaver-01.md:181`)

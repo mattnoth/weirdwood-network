@@ -41,14 +41,14 @@ At the [House of Black and White](wiki:House_of_Black_and_White) in [Braavos](wi
 
 ## Quotes
 
-> The girl was no older than two and she cried all the time, a whimpery sound, like something was caught in her throat. Either she couldn't talk yet or she had forgotten how.(wiki:Weasel.cite_ref-Racok9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> The girl was no older than two and she cried all the time, a whimpery sound, like something was caught in her throat. Either she couldn't talk yet or she had forgotten how.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ACOK (`sources/chapters/acok/acok-arya-03.md:63`)
 
 > **Gendry**: [Lommy's](wiki:Lommy_Greenhands) no use to anyone. That crying girl's no use either. **Arya**: You leave Weasel alone, she's just scared and hungry is all.(wiki:Weasel.cite_ref-Racok19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-6)
 >
 > —[Gendry](wiki:Gendry) and [Arya Stark](wiki:Arya_Stark)
 
-> And Arya thought, Run, Weasel, run as far as you can, run and hide and never come back.(wiki:Weasel.cite_ref-Racok19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-7)
+> And Arya thought, Run, Weasel, run as far as you can, run and hide and never come back.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ACOK (`sources/chapters/acok/acok-arya-05.md:307`)

@@ -98,9 +98,9 @@ Exiled in [Essos](wiki:Essos), [Tyrion Lannister](wiki:Tyrion_Lannister) uses Br
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) and Bronn
 
-> By [your lord father's](wiki:Tywin_Lannister) command, I'm Ser Bronn of the [Blackwater](wiki:Blackwater_Rush) now, Imp. See you don't forget it.(wiki:Bronn.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> By your lord father's command, I'm Ser Bronn of the Blackwater now, Imp. See you don't forget it.
 >
-> —Bronn to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Bronn to Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-01.md:29`)
 
 > **Bronn**: I like you well enough, ugly little whoreson that you are ... but if I fight your battle, I lose either way. Either [the Mountain](wiki:Gregor_Clegane) spills my guts, or I kill him and lose [Stokeworth](wiki:Stokeworth). I sell my sword, I don't give it away. I'm not [your bloody brother](wiki:Jaime_Lannister) **Tyrion**: No. You're not. Begone, then. Run to Stokeworth and Lady [Lollys](wiki:Lollys_Stokeworth). May you find more joy in your marriage bed than I ever found in [mine](wiki:Sansa_Stark). **Bronn**: What will you do, Imp? **Tyrion**: Kill Gregor myself. Won't that make for a jolly song? **Bronn**: I hope I hear them sing it. .(wiki:Bronn.cite_ref-Rasos66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
 >
@@ -108,29 +108,29 @@ Exiled in [Essos](wiki:Essos), [Tyrion Lannister](wiki:Tyrion_Lannister) uses Br
 
 ### Quotes about Bronn
 
-> Courage he had, and strength, but there was no kindness in him, and little loyalty.(wiki:Bronn.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1)
+> Courage he had, and strength, but there was no kindness in him, and little loyalty.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-06.md:65`)
 
-> She had seen Bronn fight on the [high road](wiki:High_road); it was no accident that he had survived the journey while other men had died. He moved like a panther, and that ugly sword of his seemed a part of his arm.(wiki:Bronn.cite_ref-Ragot40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
+> She had seen Bronn fight on the high road; it was no accident that he had survived the journey while other men had died. He moved like a panther, and that ugly sword of his seemed a part of his arm.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-07.md:69`)
 
-> And this is Bronn, a [sellsword](wiki:Sellsword) of no particular allegiance. He has already changed sides twice in the short time I've known him, you and he ought to get on famously, Father.(wiki:Bronn.cite_ref-Ragot56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_39-0)
+> And this is Bronn, a sellsword of no particular allegiance. He has already changed sides twice in the short time I've known him, you and he ought to get on famously, Father.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Tywin Lannister](wiki:Tywin_Lannister)
+> —Tyrion Lannister to Tywin Lannister, AGOT (`sources/chapters/agot/agot-tyrion-07.md:151`)
 
 > Every lord has need of a beast from time to time ... a lesson you seem to have learned, judging from Ser Bronn and those [clansmen](wiki:Vale_mountain_clans) of yours.(wiki:Bronn.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 >
 > —[Tywin Lannister](wiki:Tywin_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> Is it your fault that Bronn's an insolent black-hearted rogue? He’s always been an insolent black-hearted rogue. That's what I liked about him.(wiki:Bronn.cite_ref-Rasos66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)
+> Is it your fault that Bronn's an insolent black-hearted rogue? He’s always been an insolent black-hearted rogue. That's what I liked about him.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Podrick Payne](wiki:Podrick_Payne)
+> —Tyrion Lannister to Podrick Payne, ASOS (`sources/chapters/asos/asos-tyrion-09.md:153`)
 
-> Bronn was no [knight](wiki:Knight), that was true. Bronn was a battle-hardened killer.(wiki:Bronn.cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> Bronn was no knight, that was true. Bronn was a battle-hardened killer.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-07.md:203`)
 
 > **Tyrion**: You will find, [Lord Plumm](wiki:Ben_Plumm), that I can be very generous to my friends. If you doubt me, ask Bronn. Ask [Shagga](wiki:Shagga), son of [Dolf](wiki:Dolf). Ask [Timett](wiki:Timett), son of [Timett](wiki:Timett_(father)).
 >

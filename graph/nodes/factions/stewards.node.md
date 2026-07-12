@@ -37,6 +37,6 @@ Several members of the Night's Watch, including multiple stewards, plot to kill 
 
 ## Quotes
 
-> You think it's easy work, fit for cowards? The order of stewards keeps the [Watch](wiki:Night's_Watch) alive. We hunt and farm, tend the [horses](wiki:Horse), milk the [cows](wiki:Cow), gather firewood, cook the meals. Who do you think makes your clothing? Who brings up supplies from the south? The stewards.(wiki:Stewards.cite_ref-Ragot41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> You think it's easy work, fit for cowards? The order of stewards keeps the Watch alive. We hunt and farm, tend the horses, milk the cows, gather firewood, cook the meals. Who do you think makes your clothing? Who brings up supplies from the south? The stewards.
 >
-> —[Chett](wiki:Chett) to [Jon Snow](wiki:Jon_Snow)
+> —Chett to Jon Snow, AGOT (`sources/chapters/agot/agot-jon-05.md:131`)

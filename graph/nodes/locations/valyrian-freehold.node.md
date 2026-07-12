@@ -76,17 +76,17 @@ With Valyrian leadership destroyed, the lands outside of the peninsula fell into
 
 ## Quotes
 
-> Valyria was the [last ember](wiki:Magic), and Valyria is gone.(wiki:Valyrian_Freehold.cite_ref-Racok28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_53-0)
+> Valyria was the last ember, and Valyria is gone.
 >
-> —[Luwin](wiki:Luwin) to [Bran Stark](wiki:Bran_Stark)
+> —Luwin to Bran Stark, ACOK (`sources/chapters/acok/acok-bran-04.md:223`)
 
 > [Old Ghis](wiki:Old_Ghis) ruled [an empire](wiki:Old_Empire_of_Ghis) when the Valyrians were still fucking sheep, and we are the sons of the [harpy](wiki:Harpies).(wiki:Valyrian_Freehold.cite_ref-Rasos23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2)
 >
 > —[Kraznys mo Nakloz](wiki:Kraznys_mo_Nakloz) to [Missandei](wiki:Missandei)
 
-> All Valyrian [sorcery](wiki:Magic) was rooted in blood or fire. The sorcerers of the Freehold could see across mountains, seas, and deserts with one of these [glass candles](wiki:Glass_candle). They could enter a man's dreams and give him visions, and speak to one another half a world apart, seated before their candles.(wiki:Valyrian_Freehold.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_54-0)
+> All Valyrian sorcery was rooted in blood or fire. The sorcerers of the Freehold could see across mountains, seas, and deserts with one of these glass candles. They could enter a man's dreams and give him visions, and speak to one another half a world apart, seated before their candles.
 >
-> —[Marwyn](wiki:Marwyn) to [Samwell Tarly](wiki:Samwell_Tarly)
+> —Marwyn to Samwell Tarly, AFFC (`sources/chapters/affc/affc-samwell-05.md:201`)
 
 > The proudest city in all the world was [gone in an instant](wiki:Doom_of_Valyria), its fabled empire vanished in a day, the [Lands of the Long Summer](wiki:Lands_of_the_Long_Summer) scorched and drowned and blighted. An empire built on blood and fire. The Valyrians reaped the seed they had sown.(wiki:Valyrian_Freehold.cite_ref-Radwd33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_55-0)}
 >

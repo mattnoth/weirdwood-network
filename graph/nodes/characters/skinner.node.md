@@ -42,6 +42,6 @@ When Ramsay marries "[Arya Stark](wiki:Arya_Stark)" (actually [Jeyne Poole](wiki
 
 ### Quotes about Skinner
 
-> No pain Theon had ever known came close to the agony that Skinner could evoke with a little flensing blade.(wiki:Skinner.cite_ref-Radwd51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+> No pain Theon had ever known came close to the agony that Skinner could evoke with a little flensing blade.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-theon-01.md:33`)

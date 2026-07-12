@@ -61,13 +61,13 @@ Tormund informs Jon that Ryk has married Munda.(wiki:Ryk.cite_ref-Radwd53.7B.7B.
 
 ### Quotes about Ryk
 
-> She broke his lip for him and bit one ear half off, and I hear he's got so many scratches on his back he can't wear a cloak. She likes him well enough, though. And why not? He don't fight with no spear, you know. Never has. So where do you think he got that name? Har!(wiki:Ryk.cite_ref-Rasos73.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+> She broke his lip for him and bit one ear half off, and I hear he's got so many scratches on his back he can't wear a cloak. She likes him well enough, though. And why not? He don't fight with no spear, you know. Never has. So where do you think he got that name? Har!
 >
-> —[Tormund](wiki:Tormund) to [Jon Snow](wiki:Jon_Snow)
+> —Tormund to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-10.md:113`)
 
-> [Ygritte](wiki:Ygritte) had been fond of Longspear Ryk. He hoped he found some joy with [Tormund](wiki:Tormund)'s [Munda](wiki:Munda). Someone needed to find some joy somewhere.(wiki:Ryk.cite_ref-Rasos73.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+> Ygritte had been fond of Longspear Ryk. He hoped he found some joy with Tormund's Munda. Someone needed to find some joy somewhere.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ASOS (`sources/chapters/asos/asos-jon-10.md:115`)
 
 > [Munda](wiki:Munda). Took that Longspear Ryk to husband, if you believe it. Boy's got more cock than sense, you ask me, but he treats her well enough. I told him if he ever hurt her, I'd yank his member off and beat him bloody with it.(wiki:Ryk.cite_ref-Radwd53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
 >

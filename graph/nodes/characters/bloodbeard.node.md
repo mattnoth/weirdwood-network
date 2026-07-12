@@ -53,10 +53,10 @@ The [Tattered Prince](wiki:Tattered_Prince) later tells Prince [Quentyn Martell]
 >
 > —[Skahaz mo Kandaq](wiki:Skahaz_mo_Kandaq), to [Barristan Selmy](wiki:Barristan_Selmy)
 
-> Give me half a reason to dance with you, and we will see who is laughing at the end.(wiki:Bloodbeard.cite_ref-Radwd59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+> Give me half a reason to dance with you, and we will see who is laughing at the end.
 >
-> —thoughts of [Barristan Selmy](wiki:Barristan_Selmy)
+> —thoughts of Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-discarded-knight-01.md:61`)
 
-> He came to sack [a city](wiki:Meereen), and [Hizdahr's](wiki:Hizdahr_zo_Loraq) peace has cheated him of his plunder. He will do whatever he must to start the bloodshed.(wiki:Bloodbeard.cite_ref-Radwd59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+> He came to sack a city, and Hizdahr's peace has cheated him of his plunder. He will do whatever he must to start the bloodshed.
 >
-> —thoughts of [Barristan Selmy](wiki:Barristan_Selmy)
+> —thoughts of Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-discarded-knight-01.md:119`)

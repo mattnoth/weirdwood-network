@@ -40,9 +40,9 @@ Ottyn is killed during the [fight at the Fist](wiki:Fight_at_the_Fist) when a ri
 
 ## Quotes
 
-> This wet has soaked my bones, and even my saddle sores complain of saddle sores.(wiki:Ottyn_Wythers.cite_ref-Racok23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+> This wet has soaked my bones, and even my saddle sores complain of saddle sores.
 >
-> —Ottyn to [Jon Snow](wiki:Jon_Snow)
+> —Ottyn to Jon Snow, ACOK (`sources/chapters/acok/acok-jon-03.md:41`)
 
 > We are the shield that guards the realms of men. You do not throw away your shield for no good purpose.(wiki:Ottyn_Wythers.cite_ref-Rasosprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)
 >

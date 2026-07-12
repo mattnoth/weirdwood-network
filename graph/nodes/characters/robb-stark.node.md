@@ -183,9 +183,9 @@ Now a mutilated captive of [House Bolton](wiki:House_Bolton) at Winterfell, [The
 >
 > —Robb and [Catelyn Stark](wiki:Catelyn_Stark)
 
-> If you keep all your treasures in one purse, you only make it easier for those who would rob you.(wiki:Robb_Stark.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-5)
+> If you keep all your treasures in one purse, you only make it easier for those who would rob you.
 >
-> —Robb to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Robb to Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-05.md:257`)
 
 > He's more use alive than dead. And my lord father never condoned the murder of prisoners after a battle.
 >
@@ -217,13 +217,13 @@ Now a mutilated captive of [House Bolton](wiki:House_Bolton) at Winterfell, [The
 >
 > —[Jon Umber](wiki:Jon_Umber) to the [northern](wiki:North) bannermen
 
-> He is a boy no longer, she realized with a pang. He is sixteen now, a man grown. Just look at him. [War](wiki:War_of_the_Five_Kings) had melted all the softness from his face and left him hard and lean.(wiki:Robb_Stark.cite_ref-Rasos14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-12)
+> He is a boy no longer, she realized with a pang. He is sixteen now, a man grown. Just look at him. War had melted all the softness from his face and left him hard and lean.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-02.md:29`)
 
-> Robb Stark had won more battles in a year than the [Lord of Highgarden](wiki:Mace_Tyrell) had in twenty.(wiki:Robb_Stark.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+> Robb Stark had won more battles in a year than the Lord of Highgarden had in twenty.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
+> —Tyrion Lannister's thoughts, ASOS (`sources/chapters/asos/asos-tyrion-03.md:47`)
 
 > **Tyrion**: He foreswore himself, shamed [an ally](wiki:Walder_Frey), betrayed a solemn promise. Where is the honor in that? **Kevan**: He chose [the girl](wiki:Jeyne_Westerling)'s honor over his own. Once he had deflowered her, he had no other course.(wiki:Robb_Stark.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
 >
@@ -233,9 +233,9 @@ Now a mutilated captive of [House Bolton](wiki:House_Bolton) at Winterfell, [The
 >
 > —[Rickard Karstark](wiki:Rickard_Karstark) to [Jon Umber](wiki:Jon_Umber) and Robb
 
-> The crown is crushing him, she thought. He wants so much to be a good king, to be brave and honorable and clever, but the weight is too much for a boy to bear.(wiki:Robb_Stark.cite_ref-Rasos35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_66-5)
+> The crown is crushing him, she thought. He wants so much to be a good king, to be brave and honorable and clever, but the weight is too much for a boy to bear.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-04.md:91`)
 
 > He won [the war](wiki:War_of_the_Five_Kings) on the battlefield and lost it in a bedchamber.(wiki:Robb_Stark.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_65-2)
 >
@@ -247,17 +247,17 @@ Now a mutilated captive of [House Bolton](wiki:House_Bolton) at Winterfell, [The
 >
 > —[Stannis Baratheon](wiki:Stannis_Baratheon) and [Jon Snow](wiki:Jon_Snow)
 
-> I would have slain Robb Stark in the [Whispering Wood](wiki:Battle_in_the_Whispering_Wood), if I could have reached him. [Some fools](wiki:Robb_Stark's_battle_guard) got in my way. Does it matter how the boy perished? He's no less dead, and [his kingdom](wiki:King_in_the_North) died when he did.(wiki:Robb_Stark.cite_ref-Raffc38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_85-0)
+> I would have slain Robb Stark in the Whispering Wood, if I could have reached him. Some fools got in my way. Does it matter how the boy perished? He's no less dead, and his kingdom died when he did.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister) to [Brynden Tully](wiki:Brynden_Tully)
+> —Jaime Lannister to Brynden Tully, AFFC (`sources/chapters/affc/affc-jaime-06.md:85`)
 
 > More beast than boy, that one, puffed up with pride and bloodlust ... Robb Stark betrayed us all. He abandoned the [north](wiki:North) to the cruel mercies of the [ironmen](wiki:Ironmen) to carve out a fairer kingdom for himself along the [Trident](wiki:King_of_the_Trident). Then he abandoned the [riverlords](wiki:Riverlands) who had risked much and more for him, breaking his marriage pact with [my grandfather](wiki:Walder_Frey) to wed [the first western wench](wiki:Jeyne_Westerling) who caught his eye. The Young Wolf? He was a vile dog and [died like one](wiki:Red_Wedding).(wiki:Robb_Stark.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_78-1)
 >
 > —[Rhaegar Frey](wiki:Rhaegar_Frey) to the [Merman's Court](wiki:Merman's_Court)
 
-> Robb who had been more a brother to Theon than any son born of [Balon Greyjoy](wiki:Balon_Greyjoy)'s loins. Murdered at the [Red Wedding](wiki:Red_Wedding), butchered by the [Freys](wiki:House_Frey). I should have been with him. Where was I? I should have died with him.(wiki:Robb_Stark.cite_ref-Radwd51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_38-2)
+> Robb who had been more a brother to Theon than any son born of Balon Greyjoy's loins. Murdered at the Red Wedding, butchered by the Freys. I should have been with him. Where was I? I should have died with him.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-theon-01.md:187`)
 
 > Even war-trained destriers went mad. Knights were trampled to death in their pavilions, and the rabble woke in terror and fled, casting aside their weapons to run the faster.
 > — sources/chapters/acok/acok-sansa-03.md:153 · Tyrion's eyewitness-quality account (via intelligence) of the panic Grey Wind caused — best evidence for Robb's supernatural-terror reputation at Oxcross.  _(capture: chapter-quote sweep, other)_
@@ -265,4 +265,3 @@ Now a mutilated captive of [House Bolton](wiki:House_Bolton) at Winterfell, [The
 > Catelyn watched a breeze stir his auburn hair, so like her own, and wondered when her son had grown so big. Fifteen, and near as tall as she was.
 >
 > — sources/chapters/agot/agot-catelyn-10.md:27 · POV confirmation of Robb's age (fifteen) and physical description (auburn hair from Tully side) at Whispering Wood — clearest age-anchor in the chapter  _(capture: chapter-quote sweep, physical)_
-

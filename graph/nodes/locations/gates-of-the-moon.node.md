@@ -65,13 +65,13 @@ Nobles from throughout the Vale, including Harry the Heir, travel to the Gates o
 
 ## Quotes
 
-> The Gates of the Moon was much larger than the [Eyrie](wiki:Eyrie), and livelier as well. Lord [Nestor Royce](wiki:Nestor_Royce) seemed gruff and stern, but his daughter [Myranda](wiki:Myranda_Royce) kept his castle for him, and everyone said how frolicsome she was.(wiki:Gates_of_the_Moon.cite_ref-Rasos80.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> The Gates of the Moon was much larger than the Eyrie, and livelier as well. Lord Nestor Royce seemed gruff and stern, but his daughter Myranda kept his castle for him, and everyone said how frolicsome she was.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-07.md:147`)
 
-> The [Arryns](wiki:House_Arryn) raised the Gates, in the days when they still wore the Falcon Crown and ruled the Vale as [kings](wiki:King_of_Mountain_and_Vale). The [Eyrie](wiki:Eyrie) was their summer seat, but when the snows began to fall the court would make its descent. Some would say the Gates were as royal as the Eyrie.(wiki:Gates_of_the_Moon.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> The Arryns raised the Gates, in the days when they still wore the Falcon Crown and ruled the Vale as kings. The Eyrie was their summer seat, but when the snows began to fall the court would make its descent. Some would say the Gates were as royal as the Eyrie.
 >
-> —[Nestor Royce](wiki:Nestor_Royce) to [Petyr Baelish](wiki:Petyr_Baelish)
+> —Nestor Royce to Petyr Baelish, AFFC (`sources/chapters/affc/affc-sansa-01.md:231`)
 
 > **Nestor**: Whilst Lord [Jon](wiki:Jon_Arryn) ruled the realm as [Hand](wiki:Hand_of_the_King), it fell to me to rule the [Vale](wiki:Vale_of_Arryn) for him. I did all that he required of me and asked nothing for myself. But by the gods, I earned this! **Petyr**: You did, and Lord [Robert](wiki:Robert_Arryn) sleeps more easily knowing that you are always there, a staunch friend at the foot of [his mountain](wiki:Giant's_Lance). So ... a toast, my lord. To [House Royce](wiki:House_Royce_of_the_Gates_of_the_Moon), [Keepers of the Gates of the Moon](wiki:Keepers_of_the_Gates_of_the_Moon) ... now and forever.(wiki:Gates_of_the_Moon.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 >

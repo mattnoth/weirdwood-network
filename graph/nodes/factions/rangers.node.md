@@ -46,6 +46,6 @@ After the [battle beneath the Wall](wiki:Battle_beneath_the_Wall), [Jon Snow](wi
 
 ## Quotes
 
-> Every man who wore the black walked the [Wall](wiki:Wall), and every man was expected to take up steel in its defense, but the rangers were the true fighting heart of the [Night's Watch](wiki:Night's_Watch). It was they who dared ride [beyond the Wall](wiki:Beyond_the_Wall), sweeping through the [haunted forest](wiki:Haunted_forest) and the [icy mountain heights](wiki:Frostfangs) west of the [Shadow Tower](wiki:Shadow_Tower), fighting [wildlings](wiki:Free_folk) and [giants](wiki:Giants) and monstrous [snow bears](wiki:Snow_bear).(wiki:Rangers.cite_ref-Ragot41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> Every man who wore the black walked the Wall, and every man was expected to take up steel in its defense, but the rangers were the true fighting heart of the Night's Watch. It was they who dared ride beyond the Wall, sweeping through the haunted forest and the icy mountain heights west of the Shadow Tower, fighting wildlings and giants and monstrous snow bears.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, AGOT (`sources/chapters/agot/agot-jon-05.md:37`)

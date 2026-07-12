@@ -90,22 +90,22 @@ At [Winterfell](wiki:Winterfell), where the wedding of [Ramsay Bolton](wiki:Rams
 
 ### Quotes about Wylis
 
-> Ser Wylis was only a few [eels](wiki:Eel) short of not being able to mount his own [horse](wiki:Horse); she pitied the poor animal.(wiki:Wylis_Manderly.cite_ref-Ragot55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-8)
+> Ser Wylis was only a few eels short of not being able to mount his own horse; she pitied the poor animal.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-08.md:19`)
 
-> I know Wylis would not want to sit out the rest of [the war](wiki:War_of_the_Five_Kings). Gallant, that son of mine, and fierce as a mastiff.(wiki:Wylis_Manderly.cite_ref-Racok16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)
+> I know Wylis would not want to sit out the rest of the war. Gallant, that son of mine, and fierce as a mastiff.
 >
-> —[Wyman Manderly](wiki:Wyman_Manderly) to [Rodrik Cassel](wiki:Rodrik_Cassel)
+> —Wyman Manderly to Rodrik Cassel, ACOK (`sources/chapters/acok/acok-bran-02.md:123`)
 
-> None had any defiance left; especially not Ser Wylis, a bushy-faced tub of suet with dull eyes and sallow, sagging jowls.(wiki:Wylis_Manderly.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> None had any defiance left; especially not Ser Wylis, a bushy-faced tub of suet with dull eyes and sallow, sagging jowls.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-03.md:257`)
 
 > "Lannisters on the Trident," said Ser Wendel unhappily. "My brother is taken again."
 >
 > —[Wendel Manderly](wiki:Wendel_Manderly), ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:245`) · book-cite for Wylis's second capture at the [fighting at the fords of the Trident](wiki:Fighting_at_the_fords_of_the_Trident) ("taken again" — first captured at the [Green Fork](wiki:Battle_on_the_Green_Fork))
 
-> The [north](wiki:North) remembers, Lord Davos. The north remembers, and the [mummer](wiki:Mummer)'s farce is almost done. My son is [home](wiki:New_Castle).(wiki:Wylis_Manderly.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
+> The north remembers, Lord Davos. The north remembers, and the mummer's farce is almost done. My son is home.
 >
-> —[Wyman Manderly](wiki:Wyman_Manderly) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Wyman Manderly to Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-04.md:125`)

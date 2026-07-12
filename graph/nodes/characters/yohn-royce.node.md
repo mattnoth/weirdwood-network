@@ -90,13 +90,13 @@ Lord Baelish is convinced Yohn warned Ser Harrold against him before the young k
 >
 > —[Petyr Baelish](wiki:Petyr_Baelish) and Yohn
 
-> I mean to take [the boy](wiki:Robert_Arryn) with me to [Runestone](wiki:Runestone), and raise him up to be a knight that [Jon Arryn](wiki:Jon_Arryn) would be proud of.(wiki:Yohn_Royce.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-7)
+> I mean to take the boy with me to Runestone, and raise him up to be a knight that Jon Arryn would be proud of.
 >
-> —Yohn to [Petyr Baelish](wiki:Petyr_Baelish)
+> —Yohn to Petyr Baelish, AFFC (`sources/chapters/affc/affc-alayne-01.md:219`)
 
-> I like it not, but it would seem you have your year. Best use it well, my lord. Not all of us are fooled.(wiki:Yohn_Royce.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-8)
+> I like it not, but it would seem you have your year. Best use it well, my lord. Not all of us are fooled.
 >
-> —Yohn to [Petyr Baelish](wiki:Petyr_Baelish)
+> —Yohn to Petyr Baelish, AFFC (`sources/chapters/affc/affc-alayne-01.md:325`)
 
 ### Quotes about Yohn
 
@@ -108,13 +108,13 @@ Lord Baelish is convinced Yohn warned Ser Harrold against him before the young k
 >
 > —[Kevan Lannister](wiki:Kevan_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> Though his hair was grey and his face lined, Lord Yohn still looked as though he could break most younger men like twigs in those huge gnarled hands.(wiki:Yohn_Royce.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-9)
+> Though his hair was grey and his face lined, Lord Yohn still looked as though he could break most younger men like twigs in those huge gnarled hands.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, AFFC (`sources/chapters/affc/affc-alayne-01.md:169`)
 
-> Lord Yohn raised three fine sons of his own, there is no man more fit to foster [his young lordship](wiki:Robert_Arryn).(wiki:Yohn_Royce.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-10)
+> Lord Yohn raised three fine sons of his own, there is no man more fit to foster his young lordship.
 >
-> —[Anya Waynwood](wiki:Anya_Waynwood) to [Petyr Baelish](wiki:Petyr_Baelish)
+> —Anya Waynwood to Petyr Baelish, AFFC (`sources/chapters/affc/affc-alayne-01.md:227`)
 
 > Our cousin Bronze Yohn had himself a [mêlée](wiki:Mêlée) at [Runestone](wiki:Runestone), a small one, just for [squires](wiki:Squire). It was meant for [Harry the Heir](wiki:Harrold_Hardyng) to win the honors, and so he did.(wiki:Yohn_Royce.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 >

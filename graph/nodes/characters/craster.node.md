@@ -63,9 +63,9 @@ Following the [fight at the Fist](wiki:Fight_at_the_Fist), Craster allows the su
 >
 > —[Jeor Mormont](wiki:Jeor_Mormont) and Craster
 
-> A godly man got no cause to fear such. I said as much to that [Mance Rayder](wiki:Mance_Rayder) once, when he come sniffing round. He never listened, no more'n you crows with your swords and your bloody fires. That won't help you none when the white cold comes. Only [the gods](wiki:Others) will help you then. You best get right with the gods.(wiki:Craster.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> A godly man got no cause to fear such. I said as much to that Mance Rayder once, when he come sniffing round. He never listened, no more'n you crows with your swords and your bloody fires. That won't help you none when the white cold comes. Only the gods will help you then. You best get right with the gods.
 >
-> —Craster to the [Night's Watch](wiki:Night's_Watch)
+> —Craster to the Night's Watch, ASOS (`sources/chapters/asos/asos-samwell-02.md:61`)
 
 > **Craster**: Who calls me [bastard](wiki:Bastard)? **Karl**: It's no more than all men know.(wiki:Craster.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
 >
@@ -91,6 +91,6 @@ Following the [fight at the Fist](wiki:Fight_at_the_Fist), Craster allows the su
 >
 > —[Jon Snow](wiki:Jon_Snow) and [Jeor Mormont](wiki:Jeor_Mormont)
 
-> Craster's blood is black, and he bears a heavy curse.(wiki:Craster.cite_ref-Rasos26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+> Craster's blood is black, and he bears a heavy curse.
 >
-> —[Ygritte](wiki:Ygritte) to [Jon Snow](wiki:Jon_Snow)
+> —Ygritte to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-03.md:173`)

@@ -36,6 +36,6 @@ Tristifer's appearance can only be gleaned from the description of his tomb. He 
 
 ## Quotes
 
-> Old Tristifer don't mind my bony arse. The Hammer of Justice, they called him. Been a long while since he heard any new songs.(wiki:Tristifer_IV_Mudd.cite_ref-Rasos81.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+> Old Tristifer don't mind my bony arse. The Hammer of Justice, they called him. Been a long while since he heard any new songs.
 >
-> —[Tom of Sevenstreams](wiki:Tom_of_Sevenstreams)'s reply, after being told to get off Tristifer's sepulchre by [Merrett Frey](wiki:Merrett_Frey)
+> —Tom of Sevenstreams's reply, after being told to get off Tristifer's sepulchre by Merrett Frey, ASOS (`sources/chapters/asos/asos-epilogue.md:63`)

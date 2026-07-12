@@ -28,6 +28,6 @@ Arnell is sent by [Lord Commander](wiki:Lord_Commander_of_the_Night's_Watch) [Je
 
 ## Quotes
 
-> I'll send Ser Arnell. He's a deal steadier, and his mother was one of the [green-apple Fossoways](wiki:House_Fossoway_of_New_Barrel).(wiki:Arnell.cite_ref-Racok6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> I'll send Ser Arnell. He's a deal steadier, and his mother was one of the green-apple Fossoways.
 >
-> —[Jeor Mormont](wiki:Jeor_Mormont) to [Jon Snow](wiki:Jon_Snow)
+> —Jeor Mormont to Jon Snow, ACOK (`sources/chapters/acok/acok-jon-01.md:169`)

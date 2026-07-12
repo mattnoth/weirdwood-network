@@ -103,25 +103,25 @@ Volantene ships transport the Golden Company to Westeros, though the [landing of
 >
 > —writings of [Yandel](wiki:Yandel)
 
-> The Volantenes were fond of boasting that the hundred isles of [Braavos](wiki:Braavos) could be dropped into their deep harbor and drowned. Quentyn had never seen Braavos, but he could believe it. Rich and ripe and rotted, Volantis covered the mouth of the [Rhoyne](wiki:Rhoyne) like a warm wet kiss, stretching across hill and marsh on both sides of the river.(wiki:Volantis.cite_ref-Radwd6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-20)
+> The Volantenes were fond of boasting that the hundred isles of Braavos could be dropped into their deep harbor and drowned. Quentyn had never seen Braavos, but he could believe it. Rich and ripe and rotted, Volantis covered the mouth of the Rhoyne like a warm wet kiss, stretching across hill and marsh on both sides of the river.
 >
-> —thoughts of [Quentyn Martell](wiki:Quentyn_Martell)
+> —thoughts of Quentyn Martell, ADWD (`sources/chapters/adwd/adwd-the-merchants-man-01.md:51`)
 
 > I hate this city.(wiki:Volantis.cite_ref-Radwd6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-21)
 >
 > —[Gerris Drinkwater](wiki:Gerris_Drinkwater) to [Quentyn Martell](wiki:Quentyn_Martell)
 
-> The Volantene apple had rolled a fair distance from the [Valyrian tree](wiki:Valyrian_Freehold).(wiki:Volantis.cite_ref-Radwd6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-22)
+> The Volantene apple had rolled a fair distance from the Valyrian tree.
 >
-> —thoughts of [Quentyn Martell](wiki:Quentyn_Martell)
+> —thoughts of Quentyn Martell, ADWD (`sources/chapters/adwd/adwd-the-merchants-man-01.md:189`)
 
 > The city thirsts for war.(wiki:Volantis.cite_ref-Radwd22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-6)
 >
 > —[Qavo Nogarys](wiki:Qavo_Nogarys) to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> Old Volantis, first daughter of [Valyria](wiki:Valyria), the [dwarf](wiki:Dwarf) mused. Proud Volantis, queen of the [Rhoyne](wiki:Rhoyne) and mistress of the [Summer Sea](wiki:Summer_Sea), home to noble lords and lovely ladies of the [most ancient blood](wiki:Old_Blood). Never mind the packs of naked children that roamed the alleys screaming in shrill voices, or the [bravos](wiki:Bravo) standing in the doors of [wineshops](wiki:Wine) fingering their sword hilts, or the [slaves](wiki:Slaves) with their bent backs and [tattooed](wiki:Tattoo) faces who scurried everywhere like cockroaches. Mighty Volantis, grandest and most populous of the [Nine Free Cities](wiki:Nine_Free_Cities). Ancient wars had depopulated much of the city, however, and large areas of Volantis had begun to sink back into the mud on which it stood. Beautiful Volantis, city of fountains and flowers. But half the fountains were dry, half the pools cracked and stagnant. Flowering vines sent up creepers from every crack in the wall or pavement, and young trees had taken root in the walls of abandoned shops and roofless temples.(wiki:Volantis.cite_ref-Radwd27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-18)
+> Old Volantis, first daughter of Valyria, the dwarf mused. Proud Volantis, queen of the Rhoyne and mistress of the Summer Sea, home to noble lords and lovely ladies of the most ancient blood. Never mind the packs of naked children that roamed the alleys screaming in shrill voices, or the bravos standing in the doors of wineshops fingering their sword hilts, or the slaves with their bent backs and tattooed faces who scurried everywhere like cockroaches. Mighty Volantis, grandest and most populous of the Nine Free Cities. Ancient wars had depopulated much of the city, however, and large areas of Volantis had begun to sink back into the mud on which it stood. Beautiful Volantis, city of fountains and flowers. But half the fountains were dry, half the pools cracked and stagnant. Flowering vines sent up creepers from every crack in the wall or pavement, and young trees had taken root in the walls of abandoned shops and roofless temples.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-07.md:45`)
 
 > This city smells like an old [whore](wiki:Whore).(wiki:Volantis.cite_ref-Radwd27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-19)
 >

@@ -91,13 +91,13 @@ Merrett's son, [Little Walder Frey](wiki:Walder_Frey_(son_of_Merrett)), serves a
 >
 > —thoughts of Merrett
 
-> You needed some sort of distinction in the [Twins](wiki:Twins), else they were liable to forget you were alive, but a reputation as the biggest drinker in the castle had done little to enhance his prospects, he'd found. I once hoped to be the greatest [knight](wiki:Knight) who ever couched a lance. [The gods](wiki:Faith_of_the_Seven) took that away from me. Why shouldn't I have a cup of [wine](wiki:Wine) from time to time? It helps my headaches. Besides, [my wife](wiki:Mariya_Darry) is a shrew, [my father](wiki:Walder_Frey) despises me, my children are worthless. What do I have to stay sober for?(wiki:Merrett_Frey.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-21)
+> You needed some sort of distinction in the Twins, else they were liable to forget you were alive, but a reputation as the biggest drinker in the castle had done little to enhance his prospects, he'd found. I once hoped to be the greatest knight who ever couched a lance. The gods took that away from me. Why shouldn't I have a cup of wine from time to time? It helps my headaches. Besides, my wife is a shrew, my father despises me, my children are worthless. What do I have to stay sober for?
 >
-> —thoughts of Merrett
+> —thoughts of Merrett, ASOS (`sources/chapters/asos/asos-epilogue.md:15`)
 
-> He wasn't clever enough to be a [maester](wiki:Maester), pious enough to be a [septon](wiki:Septon), or savage enough to be a [sellsword](wiki:Sellsword). [The gods](wiki:Faith_of_the_Seven) gave me no gift but birth, and they stinted me there. What good was it to be the son of [a rich and powerful House](wiki:House_Frey) if you were the ninth son? When you took grandsons and great-grandsons into account, Merrett stood a better chance of being chosen [High Septon](wiki:High_Septon) than he did of inheriting the [Twins](wiki:Twins).(wiki:Merrett_Frey.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-22)
+> He wasn't clever enough to be a maester, pious enough to be a septon, or savage enough to be a sellsword. The gods gave me no gift but birth, and they stinted me there. What good was it to be the son of a rich and powerful House if you were the ninth son? When you took grandsons and great-grandsons into account, Merrett stood a better chance of being chosen High Septon than he did of inheriting the Twins.
 >
-> —thoughts of Merrett
+> —thoughts of Merrett, ASOS (`sources/chapters/asos/asos-epilogue.md:35`)
 
 > **Merrett**: Please. I've done you no harm. I brought the [gold](wiki:Gold), the way you said. I answered your question. I have children. **Jack**: That [Young Wolf](wiki:Robb_Stark) never will.(wiki:Merrett_Frey.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-23)
 >
@@ -113,9 +113,9 @@ Merrett's son, [Little Walder Frey](wiki:Walder_Frey_(son_of_Merrett)), serves a
 >
 > —[Lothar Frey](wiki:Lothar_Frey) to Merrett
 
-> When Jaime had arrived, Merrett Frey had been [the castle](wiki:Crakehall) bully, lording it over all the younger boys. Then he tried to bully me.(wiki:Merrett_Frey.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-5)
+> When Jaime had arrived, Merrett Frey had been the castle bully, lording it over all the younger boys. Then he tried to bully me.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-04.md:129`)
 
 > **Amerei**: [Outlaws](wiki:Brotherhood_without_banners) killed him. Father had only gone out to ransom [Petyr Pimple](wiki:Petyr_Frey). He brought them the [gold](wiki:Gold) they asked for, but they hung him anyway. **Mariya**: *Hanged*, Ami. Your father was not a [tapestry](wiki:Tapestry).(wiki:Merrett_Frey.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-6)
 >

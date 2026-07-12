@@ -36,6 +36,6 @@ When [Stannis Baratheon](wiki:Stannis_Baratheon) sends out letters demanding the
 
 ### Quotes by Lyanna
 
-> [Bear Island](wiki:Bear_Island) knows no [king](wiki:King_of_the_Andals,_the_Rhoynar,_and_the_First_Men) but the [King in the North](wiki:King_in_the_North), whose name is [STARK](wiki:House_Stark).(wiki:Lyanna_Mormont.cite_ref-Radwd3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+> Bear Island knows no king but the King in the North, whose name is STARK.
 >
-> —Lyanna to [Stannis Baratheon](wiki:Stannis_Baratheon)
+> —Lyanna to Stannis Baratheon, ADWD (`sources/chapters/adwd/adwd-jon-01.md:135`)

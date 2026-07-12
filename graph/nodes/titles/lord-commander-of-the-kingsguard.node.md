@@ -57,13 +57,13 @@ Barristan, having traveled across the [narrow sea](wiki:Narrow_sea), becomes the
 >
 > —[Barristan Selmy](wiki:Barristan_Selmy) to [Joffrey I Baratheon](wiki:Joffrey_Baratheon)
 
-> The [King's Justice](wiki:King's_Justice) must be fearsome, the [master of coin](wiki:Master_of_coin) must be frugal, the Lord Commander of the Kingsguard must be valiant ... and the [master of whisperers](wiki:Master_of_whisperers) must be sly and obsequious and without scruple.(wiki:Lord_Commander_of_the_Kingsguard.cite_ref-Ragot58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-0)
+> The King's Justice must be fearsome, the master of coin must be frugal, the Lord Commander of the Kingsguard must be valiant ... and the master of whisperers must be sly and obsequious and without scruple.
 >
-> —[Varys](wiki:Varys) to [Eddard Stark](wiki:Eddard_Stark)
+> —Varys to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-15.md:87`)
 
-> Your Grace, in [Westeros](wiki:Westeros) the Lord Commander of the Kingsguard sits on the [small council](wiki:Small_council), and serves the king with his wits as well as his steel.(wiki:Lord_Commander_of_the_Kingsguard.cite_ref-Rasos8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-0)
+> Your Grace, in Westeros the Lord Commander of the Kingsguard sits on the small council, and serves the king with his wits as well as his steel.
 >
-> —[Jorah Mormont](wiki:Jorah_Mormont) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Jorah Mormont to Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-01.md:223`)
 
 > You are not my son. You say you are the Lord Commander of the Kingsguard, and only that. Very well, ser. Go do your duty.(wiki:Lord_Commander_of_the_Kingsguard.cite_ref-Rasos62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
 >
@@ -73,6 +73,6 @@ Barristan, having traveled across the [narrow sea](wiki:Narrow_sea), becomes the
 >
 > —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
 
-> Jaime watched from the foot of the table, thinking of all those lords who aspired to a seat on the king's [small council](wiki:Small_council). They can bloody well have mine. If this was power, why did it taste like tedium?(wiki:Lord_Commander_of_the_Kingsguard.cite_ref-Rasos72.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-0)
+> Jaime watched from the foot of the table, thinking of all those lords who aspired to a seat on the king's small council. They can bloody well have mine. If this was power, why did it taste like tedium?
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-09.md:15`)

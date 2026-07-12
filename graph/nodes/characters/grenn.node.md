@@ -109,14 +109,14 @@ Jon sees Grenn eating with Pyp and his other friends in the cellar below the arm
 
 ### Quotes about Grenn
 
-> The night before they left the [Wall](wiki:Wall), [Pyp](wiki:Pypar) had teased Grenn the way he did, Sam remembered, smiling and saying how Grenn was a good choice for [the ranging](wiki:Great_ranging), since he was too stupid to be terrified. Grenn hotly denied it until he realized what he was saying. He was stocky and thick-necked and strong—Ser [Alliser Thorne](wiki:Alliser_Thorne) had called him "Aurochs," the same way he called Sam "Ser Piggy" and [Jon](wiki:Jon_Snow) "Lord Snow"—but he had always treated Sam nice enough.(wiki:Grenn.cite_ref-Rasos18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)
+> The night before they left the Wall, Pyp had teased Grenn the way he did, Sam remembered, smiling and saying how Grenn was a good choice for the ranging, since he was too stupid to be terrified. Grenn hotly denied it until he realized what he was saying. He was stocky and thick-necked and strong—Ser Alliser Thorne had called him "Aurochs," the same way he called Sam "Ser Piggy" and Jon "Lord Snow"—but he had always treated Sam nice enough.
 >
-> —thoughts of [Samwell Tarly](wiki:Samwell_Tarly)
+> —thoughts of Samwell Tarly, ASOS (`sources/chapters/asos/asos-samwell-01.md:107`)
 
-> Grenn had changed a great deal from the big, clumsy, red-necked boy Jon had first befriended. He had grown half a foot, his chest and shoulders had thickened, and he had not cut his hair nor trimmed his beard since the [Fist of the First Men](wiki:Fist_of_the_First_Men). It made him look as huge and shaggy as an [aurochs](wiki:Aurochs), the mocking name that Ser [Alliser Thorne](wiki:Alliser_Thorne) had hung on him during training.(wiki:Grenn.cite_ref-Rasos69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-1)
+> Grenn had changed a great deal from the big, clumsy, red-necked boy Jon had first befriended. He had grown half a foot, his chest and shoulders had thickened, and he had not cut his hair nor trimmed his beard since the Fist of the First Men. It made him look as huge and shaggy as an aurochs, the mocking name that Ser Alliser Thorne had hung on him during training.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ASOS (`sources/chapters/asos/asos-jon-09.md:37`)
 
-> I am the shield that guards the realms of men, he remembered. He wondered what those men would say if they realized [their realms](wiki:Seven_Kingdoms) were being guarded by the likes of Grenn, [Pyp](wiki:Pypar), and [Dolorous Edd](wiki:Eddison_Tollett).(wiki:Grenn.cite_ref-Raffc5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-1)
+> I am the shield that guards the realms of men, he remembered. He wondered what those men would say if they realized their realms were being guarded by the likes of Grenn, Pyp, and Dolorous Edd.
 >
-> —thoughts of [Samwell Tarly](wiki:Samwell_Tarly)
+> —thoughts of Samwell Tarly, AFFC (`sources/chapters/affc/affc-samwell-01.md:89`)

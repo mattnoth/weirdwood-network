@@ -59,14 +59,14 @@ Later in the Second Sons' camp, Penny says they had been better off with Yezzan,
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts on Sweets's fate if Yezzan dies
 
-> Sweets sounded numb. It was more than just fear of having her throat cut; alone amongst [Yezzan](wiki:Yezzan_zo_Qaggaz)'s [treasures](wiki:Grotesquerie), she actually seemed fond of their immense master.(wiki:Sweets.cite_ref-Radwd57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-8)
+> Sweets sounded numb. It was more than just fear of having her throat cut; alone amongst Yezzan's treasures, she actually seemed fond of their immense master.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-11.md:63`)
 
 > **Tyrion:** Sweets said [the master](wiki:Yezzan_zo_Qaggaz) must have water. **Scar:** Sweets can go fuck himself. He's made for it. We don't take commands from that freak neither.(wiki:Sweets.cite_ref-Radwd57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-9)
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) and [Scar](wiki:Scar)
 
-> The hermaphrodite had long been their master's special pet, indulged and favored, and the noble [Yezzan](wiki:Yezzan_zo_Qaggaz)'s other [slaves](wiki:Slave) hated him for it.(wiki:Sweets.cite_ref-Radwd57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-10)
+> The hermaphrodite had long been their master's special pet, indulged and favored, and the noble Yezzan's other slaves hated him for it.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-11.md:101`)

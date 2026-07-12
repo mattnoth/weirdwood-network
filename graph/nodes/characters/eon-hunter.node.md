@@ -57,6 +57,6 @@ Lord [Petyr Baelish](wiki:Petyr_Baelish) reveals to [Alayne Stone](wiki:Sansa_St
 
 ### Quotes about Eon
 
-> Eon Hunter was even older than [Jon Arryn](wiki:Jon_Arryn) had been, half-crippled by gout, and cursed with three quarrelsome sons, each more grasping than the last.(wiki:Eon_Hunter.cite_ref-Ragot40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
+> Eon Hunter was even older than Jon Arryn had been, half-crippled by gout, and cursed with three quarrelsome sons, each more grasping than the last.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-07.md:57`)

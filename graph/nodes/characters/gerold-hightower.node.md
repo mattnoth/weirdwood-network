@@ -64,15 +64,15 @@ Resting on a [weirwood](wiki:Weirwood) stump, Ser [Jaime Lannister](wiki:Jaime_L
 >
 > —Gerold to [Eddard Stark](wiki:Eddard_Stark) in Eddard's dream
 
-> You swore a vow to guard the king, not to judge him.(wiki:Gerold_Hightower.cite_ref-Racok55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1)
+> You swore a vow to guard the king, not to judge him.
 >
-> —Gerold to [Jaime Lannister](wiki:Jaime_Lannister), after [Aerys II Targaryen](wiki:Aerys_II_Targaryen) murdered [Brandon](wiki:Brandon_Stark) and [Rickard Stark](wiki:Rickard_Stark)
+> —Gerold to Jaime Lannister, after Aerys II Targaryen murdered Brandon and Rickard Stark, ACOK (`sources/chapters/acok/acok-catelyn-07.md:319`)
 
 ### Quotes about Gerold
 
-> That was the White Bull, loyal to the end and a better man than me, all agree.(wiki:Gerold_Hightower.cite_ref-Racok55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-2)
+> That was the White Bull, loyal to the end and a better man than me, all agree.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Jaime Lannister to Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-07.md:319`)
 
 > I learned from the White Bull and [Barristan the Bold](wiki:Barristan_Selmy). I learned from Ser [Arthur Dayne](wiki:Arthur_Dayne), the [Sword of the Morning](wiki:Sword_of_the_Morning), who could have slain all five of you with his left hand while he was taking a piss with the right. I learned from Prince [Lewyn of Dorne](wiki:Lewyn_Martell) and Ser [Oswell Whent](wiki:Oswell_Whent) and Ser [Jonothor Darry](wiki:Jonothor_Darry), good men every one.(wiki:Gerold_Hightower.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
 >

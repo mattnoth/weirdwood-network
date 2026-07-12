@@ -99,14 +99,14 @@ According to [Valena Toland](wiki:Valena_Toland), a new pirate king has set up o
 
 ## Quotes
 
-> The Stepstones, the chain of rocky islands between [Dorne](wiki:Dorne) and the [Disputed Lands](wiki:Disputed_Lands) of [Essos](wiki:Essos), had long been a haunt of [outlaws](wiki:Outlaw), exiles, wreckers, and [pirates](wiki:Pirate). Of themselves the isles were of little worth, but placed as they were, they controlled the sea lanes to and from the [narrow sea](wiki:Narrow_sea), and merchant ships passing through those waters were often preyed on by their inhabitants.(wiki:Stepstones.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-6)
+> The Stepstones, the chain of rocky islands between Dorne and the Disputed Lands of Essos, had long been a haunt of outlaws, exiles, wreckers, and pirates. Of themselves the isles were of little worth, but placed as they were, they controlled the sea lanes to and from the narrow sea, and merchant ships passing through those waters were often preyed on by their inhabitants.
 >
-> —writings of [Gyldayn](wiki:Gyldayn)
+> —writings of Gyldayn, F&B (`sources/chapters/fab/fab-heirs-of-the-dragon-15-p02.md:59`)
 
-> The [Dornish](wiki:Dorne) coast is dry and bleak, four hundred leagues of whirlpools, cliffs, and hidden shoals with hardly a safe landing anywhere. Beyond wait the Stepstones, with their storms and their nests of [Lysene](wiki:Lys) and [Myrish](wiki:Myr) [pirates](wiki:Pirate).(wiki:Stepstones.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
+> The Dornish coast is dry and bleak, four hundred leagues of whirlpools, cliffs, and hidden shoals with hardly a safe landing anywhere. Beyond wait the Stepstones, with their storms and their nests of Lysene and Myrish pirates.
 >
-> —[Rodrik Harlaw](wiki:Rodrik_Harlaw) to [Euron Greyjoy](wiki:Euron_Greyjoy)
+> —Rodrik Harlaw to Euron Greyjoy, AFFC (`sources/chapters/affc/affc-the-reaver-01.md:197`)
 
-> [Autumn](wiki:Autumn) is a season rife with storms, and [pirates](wiki:Pirate) still make their dens upon the Stepstones and venture forth to prey on honest men.(wiki:Stepstones.cite_ref-Radwd5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+> Autumn is a season rife with storms, and pirates still make their dens upon the Stepstones and venture forth to prey on honest men.
 >
-> —[Illyrio Mopatis](wiki:Illyrio_Mopatis) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Illyrio Mopatis to Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-02.md:19`)

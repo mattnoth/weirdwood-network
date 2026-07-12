@@ -38,10 +38,10 @@ Owen was considered amiable but not capable.(wiki:Owen_Merryweather.cite_ref-Raf
 
 ## Quotes
 
-> [Tywin](wiki:Tywin_Lannister) claimed the only thing Merryweather was good for was chuckling at [the king's](wiki:Aerys_II_Targaryen) witticisms. His lordship chuckled himself right into exile, as I recall.(wiki:Owen_Merryweather.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+> Tywin claimed the only thing Merryweather was good for was chuckling at the king's witticisms. His lordship chuckled himself right into exile, as I recall.
 >
-> —[Genna Lannister](wiki:Genna_Lannister) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Genna Lannister to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-05.md:301`)
 
-> Replacing [Tywin Lannister](wiki:Tywin_Lannister) with Owen Merryweather had proved to be akin to replacing a destrier with a donkey, to be sure, but Owen had been an old done man when [Aerys](wiki:Aerys_II_Targaryen) raised him, amiable if ineffectual.(wiki:Owen_Merryweather.cite_ref-Raffc39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+> Replacing Tywin Lannister with Owen Merryweather had proved to be akin to replacing a destrier with a donkey, to be sure, but Owen had been an old done man when Aerys raised him, amiable if ineffectual.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-09.md:135`)

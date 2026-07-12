@@ -115,9 +115,9 @@ Having escaped Winterfell with [Jeyne Poole](wiki:Jeyne_Poole), [Theon Greyjoy](
 >
 > — Roose Bolton to Robb Stark before the killing blow, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:135`)
 
-> Frequent [leechings](wiki:Leech) are the secret of a long life. A man must purge himself of bad blood.(wiki:Roose_Bolton.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-6)
+> Frequent leechings are the secret of a long life. A man must purge himself of bad blood.
 >
-> —Roose to "Nan" ([Arya Stark](wiki:Arya_Stark))
+> —Roose to "Nan" (Arya Stark), ACOK (`sources/chapters/acok/acok-arya-09.md:385`)
 
 > **Roose**: Lord [Tywin](wiki:Tywin_Lannister) is many leagues from here. He has many matters yet to settle at [King's Landing](wiki:King's_Landing). He will not march on [Harrenhal](wiki:Harrenhal) for some time.
 >
@@ -131,17 +131,17 @@ Having escaped Winterfell with [Jeyne Poole](wiki:Jeyne_Poole), [Theon Greyjoy](
 >
 > —Roose and [Ramsay Bolton](wiki:Ramsay_Snow)
 
-> Power tastes best when sweetened by courtesy.(wiki:Roose_Bolton.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-16)
+> Power tastes best when sweetened by courtesy.
 >
-> —Roose to [Ramsay Bolton](wiki:Ramsay_Snow)
+> —Roose to Ramsay Bolton, ADWD (`sources/chapters/adwd/adwd-reek-03.md:171`)
 
-> All you have I gave you. You would do well to remember that, [bastard](wiki:Bastard). As for this ... [Reek](wiki:Theon_Greyjoy) ... if you have not ruined him beyond redemption, he may yet be of some use to us. Get the keys and remove those chains from him, before you make me rue the day I raped your mother.(wiki:Roose_Bolton.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-17)
+> All you have I gave you. You would do well to remember that, bastard. As for this ... Reek ... if you have not ruined him beyond redemption, he may yet be of some use to us. Get the keys and remove those chains from him, before you make me rue the day I raped your mother.
 >
-> —Roose to [Ramsay Bolton](wiki:Ramsay_Snow)
+> —Roose to Ramsay Bolton, ADWD (`sources/chapters/adwd/adwd-reek-03.md:175`)
 
-> Fear is what keeps a man alive in this world of treachery and deceit.(wiki:Roose_Bolton.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-18)
+> Fear is what keeps a man alive in this world of treachery and deceit.
 >
-> —Roose to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Roose to Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-03.md:239`)
 
 ### Quotes about Roose
 
@@ -153,33 +153,33 @@ Having escaped Winterfell with [Jeyne Poole](wiki:Jeyne_Poole), [Theon Greyjoy](
 >
 > —Robb and [Bran Stark](wiki:Bran_Stark)
 
-> Lord Bolton, he used to say a naked man has few secrets, but a [flayed](wiki:Flaying) man's got none.(wiki:Roose_Bolton.cite_ref-Racok50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-1)
+> Lord Bolton, he used to say a naked man has few secrets, but a flayed man's got none.
 >
-> —"[Reek](wiki:Ramsay_Snow)" to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —"Reek" to Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-04.md:105`)
 
-> Bolton's silence was a hundred times more threatening than [Vargo Hoat](wiki:Vargo_Hoat)'s slobbering malevolence. Pale as morning mist, his eyes concealed more than they told.(wiki:Roose_Bolton.cite_ref-Rasos31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_42-0)
+> Bolton's silence was a hundred times more threatening than Vargo Hoat's slobbering malevolence. Pale as morning mist, his eyes concealed more than they told.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-04.md:145`)
 
 > This is a cold man.(wiki:Roose_Bolton.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-4)
 >
 > —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
 
-> There was an agelessness about him, a stillness; on Roose Bolton's face, rage and joy looked much the same.(wiki:Roose_Bolton.cite_ref-Radwd20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-3)
+> There was an agelessness about him, a stillness; on Roose Bolton's face, rage and joy looked much the same.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-02.md:221`)
 
-> Once, a boy called Theon Greyjoy had enjoyed tweaking Bolton as they sat at council with [Robb Stark](wiki:Robb_Stark), mocking his soft voice and making japes about [leeches](wiki:Leech). He must have been mad. This is no man to jape with. You had only to look at Bolton to know that he had more cruelty in his pinky toe than all the [Freys](wiki:House_Frey) combined.(wiki:Roose_Bolton.cite_ref-Radwd20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-4)
+> Once, a boy called Theon Greyjoy had enjoyed tweaking Bolton as they sat at council with Robb Stark, mocking his soft voice and making japes about leeches. He must have been mad. This is no man to jape with. You had only to look at Bolton to know that he had more cruelty in his pinky toe than all the Freys combined.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-02.md:223`)
 
-> [The son](wiki:Ramsay_Snow) is just the shadow of the father.(wiki:Roose_Bolton.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-19)
+> The son is just the shadow of the father.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-03.md:281`)
 
-> [Eddard Stark](wiki:Eddard_Stark) had never had any reason to complain of the [Lord of the Dreadfort](wiki:Lord_of_the_Dreadfort), so far as Jon knew, but even so he had never trusted him, with his whispery voice and his pale, pale eyes.(wiki:Roose_Bolton.cite_ref-Radwd35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_43-0)
+> Eddard Stark had never had any reason to complain of the Lord of the Dreadfort, so far as Jon knew, but even so he had never trusted him, with his whispery voice and his pale, pale eyes.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-07.md:217`)
 
 > Roose has no feelings, you see. Those [leeches](wiki:Leech) that he loves so well sucked all the passions out of him years ago. He does not love, he does not hate, he does not grieve. This is a game to him, mildly diverting. Some men hunt, some [hawk](wiki:Hawk), some tumble [dice](wiki:Dice). Roose plays with men. You and me, these [Freys](wiki:House_Frey), [Lord Manderly](wiki:Wyman_Manderly), [his plump new wife](wiki:Walda_Frey_(daughter_of_Merrett)), even [his bastard](wiki:Ramsay_Snow), we are but his playthings.(wiki:Roose_Bolton.cite_ref-Radwd37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-4)
 >

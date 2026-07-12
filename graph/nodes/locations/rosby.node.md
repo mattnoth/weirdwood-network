@@ -67,6 +67,6 @@ The Rosby inheritance is brought up in a [small council](wiki:Small_council) mee
 >
 > —thoughts of [Brienne of Tarth](wiki:Brienne_of_Tarth)
 
-> [Aurane](wiki:Aurane_Waters) had been hinting at his need for a seat; his lordship was only an empty honor without one. He had his eye on [Dragonstone](wiki:Dragonstone), Cersei knew, but there he aimed too high. Rosby would be more suitable to his birth and station.(wiki:Rosby.cite_ref-Raffc39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-1)
+> Aurane had been hinting at his need for a seat; his lordship was only an empty honor without one. He had his eye on Dragonstone, Cersei knew, but there he aimed too high. Rosby would be more suitable to his birth and station.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-09.md:87`)

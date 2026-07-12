@@ -70,6 +70,6 @@ During [the wedding](wiki:Wedding_of_Sigorn_and_Alys_Karstark), which is perform
 >
 > —[Jon Snow](wiki:Jon_Snow) and [Cregan Karstark](wiki:Cregan_Karstark)
 
-> A [northern maid](wiki:Alys_Karstark) and a [wildling](wiki:Wildling) warrior, bound together by the [Lord of Light](wiki:R'hllor).(wiki:Sigorn.cite_ref-Radwd49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-10)
+> A northern maid and a wildling warrior, bound together by the Lord of Light.
 >
-> —[Axell Florent](wiki:Axell_Florent), to [Jon Snow](wiki:Jon_Snow)
+> —Axell Florent, to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-10.md:261`)

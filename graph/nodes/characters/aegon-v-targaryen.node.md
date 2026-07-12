@@ -162,13 +162,13 @@ Before departing [Castle Black](wiki:Castle_Black), Aemon told [Jon Snow](wiki:J
 >
 > —a [lord](wiki:Lord) regarding Aegon's reforms
 
-> Aegon the Unlikely, they called him, born the fourth son of [a fourth son](wiki:Maekar_I_Targaryen).(wiki:Aegon_V_Targaryen.cite_ref-Racok6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+> Aegon the Unlikely, they called him, born the fourth son of a fourth son.
 >
-> —[Jeor Mormont](wiki:Jeor_Mormont) to [Jon Snow](wiki:Jon_Snow)
+> —Jeor Mormont to Jon Snow, ACOK (`sources/chapters/acok/acok-jon-01.md:217`)
 
-> Egg had an innocence to him, a sweetness we all loved. Kill the boy within you, I told him the day I took ship for the [Wall](wiki:Wall). It takes a man to rule. An Aegon, not an Egg. Kill the boy and let the man be born.(wiki:Aegon_V_Targaryen.cite_ref-Radwd7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-3)
+> Egg had an innocence to him, a sweetness we all loved. Kill the boy within you, I told him the day I took ship for the Wall. It takes a man to rule. An Aegon, not an Egg. Kill the boy and let the man be born.
 >
-> —[Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) to [Jon Snow](wiki:Jon_Snow)
+> —Aemon) to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-02.md:215`)
 
 > All three of the sons of the fifth Aegon had wed for love in defiance of their father's wishes. And because that unlikely monarch had followed his heart when he chose [his queen](wiki:Betha_Blackwood), he allowed his sons to have their way, making bitter enemies when he might have made fast friends. Treason and turmoil followed, as night follows day, ending at [Summerhall](wiki:Summerhall) in [sorcery, fire and grief](wiki:Tragedy_at_Summerhall).(wiki:Aegon_V_Targaryen.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-1)
 >

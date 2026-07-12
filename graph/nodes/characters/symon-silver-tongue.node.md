@@ -71,6 +71,6 @@ After joining the [Second Sons](wiki:Second_Sons), [Kem](wiki:Kem) mentions to T
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) and [Shae](wiki:Shae)
 
-> In his soft hands he held a twelve-stringed woodharp more deadly than a longsword.(wiki:Symon_Silver_Tongue.cite_ref-Rasos32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
+> In his soft hands he held a twelve-stringed woodharp more deadly than a longsword.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-04.md:57`)

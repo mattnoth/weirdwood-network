@@ -80,9 +80,9 @@ The Redwyne twins are declared innocent.(wiki:Horas_Redwyne.cite_ref-Radwd54.7B.
 
 ## Quotes
 
-> [Sansa](wiki:Sansa_Stark) and [Jeyne Poole](wiki:Jeyne_Poole) used to call them Ser Horror and Ser Slobber, and giggle whenever they caught sight of them. They did not look funny now.(wiki:Horas_Redwyne.cite_ref-Ragot65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-5)
+> Sansa and Jeyne Poole used to call them Ser Horror and Ser Slobber, and giggle whenever they caught sight of them. They did not look funny now.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, AGOT (`sources/chapters/agot/agot-arya-05.md:107`)
 
 > This is a feeble show.(wiki:Horas_Redwyne.cite_ref-Racok2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-1)
 >
@@ -92,14 +92,14 @@ The Redwyne twins are declared innocent.(wiki:Horas_Redwyne.cite_ref-Radwd54.7B.
 >
 > —[Varys](wiki:Varys) and [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> So long as I hold those [poxy](wiki:Pox) twins of his, Lord [Paxter](wiki:Paxter_Redwyne) will squat on the [Arbor](wiki:Arbor) and count himself fortunate to be out of [it](wiki:War_of_the_Five_Kings).(wiki:Horas_Redwyne.cite_ref-Racok17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1)
+> So long as I hold those poxy twins of his, Lord Paxter will squat on the Arbor and count himself fortunate to be out of it.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Cersei Lannister to Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-04.md:163`)
 
-> The [Redwynes](wiki:House_Redwyne) have always had more freckles than wits.(wiki:Horas_Redwyne.cite_ref-Raffc17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-4)
+> The Redwynes have always had more freckles than wits.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister) to [Taena Merryweather](wiki:Taena_Merryweather)
+> —Cersei Lannister to Taena Merryweather, AFFC (`sources/chapters/affc/affc-cersei-04.md:309`)
 
-> [Slobber](wiki:Hobber_Redwyne) brings flowers and fruit, and Horror's taken up the [lute](wiki:Lute). To hear [Osney](wiki:Osney_Kettleblack) tell it, you could make a sweeter sound strangling a cat.(wiki:Horas_Redwyne.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
+> Slobber brings flowers and fruit, and Horror's taken up the lute. To hear Osney tell it, you could make a sweeter sound strangling a cat.
 >
-> —[Osmund Kettleblack](wiki:Osmund_Kettleblack) to [Cersei Lannister](wiki:Cersei_Lannister)
+> —Osmund Kettleblack to Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-05.md:97`)

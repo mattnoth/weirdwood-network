@@ -90,9 +90,9 @@ Rhaenys was kindhearted,(wiki:Rhaenys_Targaryen.cite_ref-Rtwoiafthe_targaryen_ki
 
 ### Quotes about Rhaenys
 
-> Visenya’s dragon was Vhagar, Rhaenys had Meraxes, and Aegon rode Balerion, the Black Dread.(wiki:Rhaenys_Targaryen.cite_ref-Racok12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0)
+> Visenya’s dragon was Vhagar, Rhaenys had Meraxes, and Aegon rode Balerion, the Black Dread.
 >
-> —[Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Daenerys Targaryen, ACOK (`sources/chapters/acok/acok-daenerys-01.md:53`)
 
 > **Jorah**:The three heads were Aegon and his sisters. **Daenerys**:I am descended from [Aegon](wiki:Aegon_I_Targaryen) and Rhaenys through their son [Aenys](wiki:Aenys_I_Targaryen) and their grandson [Jaehaerys](wiki:Jaehaerys_I_Targaryen).(wiki:Rhaenys_Targaryen.cite_ref-Racok63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0)
 >
@@ -103,7 +103,6 @@ Rhaenys was kindhearted,(wiki:Rhaenys_Targaryen.cite_ref-Rtwoiafthe_targaryen_ki
 
 > Thus the first six blows the man had struck had been lawful...but the remaining ninety-four had been an offense against gods and men, and must be punished in kind. From that day forth, the “rule of six” became a part of the common law, along with the “rule of thumb.”
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-reign-of-the-dragon-04.md:265`)
-
 
 ## Edges
 

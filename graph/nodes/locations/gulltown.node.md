@@ -81,9 +81,9 @@ Lord [Lyonel Corbray](wiki:Lyonel_Corbray) marries the [daughter](wiki:Lady_Corb
 
 ## Quotes
 
-> I am well loved in Gulltown, and have some [lordly](wiki:Lord) friends of mine own as well.(wiki:Gulltown.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-1)
+> I am well loved in Gulltown, and have some lordly friends of mine own as well.
 >
-> —[Petyr Baelish](wiki:Petyr_Baelish) to [Sansa Stark](wiki:Sansa_Stark)
+> —Petyr Baelish to Sansa Stark, AFFC (`sources/chapters/affc/affc-alayne-01.md:129`)
 
 > **Crew**: [War](wiki:War_of_the_Five_Kings)? What war? There is no war. **Other crew**: Not in Gulltown. Not in the [Vale](wiki:Vale_of_Arryn). [The little lord's](wiki:Robert_Arryn) kept us out of it, same as [his mother](wiki:Lysa_Arryn) did.(wiki:Gulltown.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-0)
 >

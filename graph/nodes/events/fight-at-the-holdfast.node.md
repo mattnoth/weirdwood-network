@@ -63,6 +63,6 @@ Arya's party is eventually captured by the [Mountain's men](wiki:Mountain's_men)
 >
 > —[Amory Lorch](wiki:Amory_Lorch) and [Yoren](wiki:Yoren)
 
-> The night rang to the clash of steel and the cries of the wounded and dying. For a moment Arya stood uncertain, not knowing which way to go. Death was all around her.(wiki:Fight_at_the_holdfast.cite_ref-Racok14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-9)
+> The night rang to the clash of steel and the cries of the wounded and dying. For a moment Arya stood uncertain, not knowing which way to go. Death was all around her.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ACOK (`sources/chapters/acok/acok-arya-04.md:185`)

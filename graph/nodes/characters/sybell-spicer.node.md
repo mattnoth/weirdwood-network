@@ -78,13 +78,13 @@ Jaime makes his contempt for Sybell plain and warns her to stay out of his sight
 
 ### Quotes about Sybell
 
-> [Gawen](wiki:Gawen_Westerling) is a good man, but his wife is Sybell Spicer. He should never have wed her.(wiki:Sybell_Spicer.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+> Gawen is a good man, but his wife is Sybell Spicer. He should never have wed her.
 >
-> —[Kevan Lannister](wiki:Kevan_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Kevan Lannister to Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-03.md:353`)
 
-> The [Westerlings](wiki:House_Westerling) were old blood, but they had more pride than power. It would not surprise him to learn that Lady Sybell had brought more wealth to the marriage than [her highborn husband](wiki:Gawen_Westerling).(wiki:Sybell_Spicer.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> The Westerlings were old blood, but they had more pride than power. It would not surprise him to learn that Lady Sybell had brought more wealth to the marriage than her highborn husband.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-03.md:355`)
 
 > [Jeyne Westerling](wiki:Jeyne_Westerling) is her mother's daughter, and [Robb Stark](wiki:Robb_Stark) is [his father's](wiki:Eddard_Stark) son.(wiki:Sybell_Spicer.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
 >

@@ -58,9 +58,9 @@ Now fourteen years old,(wiki:Elia_Sand.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B
 
 ### Quotes about Elia
 
-> [Oberyn](wiki:Oberyn_Martell) wanted vengeance for [Elia](wiki:Elia_Martell). Now the three of you want vengeance for him. I have four daughters, I remind you. Your sisters. My Elia is fourteen, almost a woman. [Obella](wiki:Obella_Sand) is twelve, on the brink of maidenhood. They worship you, as [Dorea](wiki:Dorea_Sand) and [Loreza](wiki:Loreza_Sand) worship them. If you should die, must El and Obella seek vengeance for you, then Dorea and Loree for them? Is that how it goes, round and round forever? I ask again, where does it end?(wiki:Elia_Sand.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> Oberyn wanted vengeance for Elia. Now the three of you want vengeance for him. I have four daughters, I remind you. Your sisters. My Elia is fourteen, almost a woman. Obella is twelve, on the brink of maidenhood. They worship you, as Dorea and Loreza worship them. If you should die, must El and Obella seek vengeance for you, then Dorea and Loree for them? Is that how it goes, round and round forever? I ask again, where does it end?
 >
-> —[Ellaria Sand](wiki:Ellaria_Sand) to [Obara](wiki:Obara_Sand), [Nymeria](wiki:Nymeria_Sand), and [Tyene Sand](wiki:Tyene_Sand)
+> —Ellaria Sand to Obara, Nymeria, and Tyene Sand, ADWD (`sources/chapters/adwd/adwd-the-watcher-01.md:143`)
 
 > The girl was mad for [horses](wiki:Horse), which might be why she often smelled like one, to the despair of [her mother](wiki:Ellaria_Sand).(wiki:Elia_Sand.cite_ref-twowarianne1_2-7)
 >

@@ -75,21 +75,21 @@ Roose reforms his host at the mouth of the [causeway](wiki:Causeway)(wiki:Battle
 
 ## Quotes
 
-> The [northerners](wiki:North) would be exhausted after their long sleepless march. Tyrion wondered what [the boy](wiki:Robb_Stark) had been thinking. Did he think to take them unawares while they slept? Small chance of that; whatever else might be said of him, [Tywin Lannister](wiki:Tywin_Lannister) was no man's fool.(wiki:Battle_on_the_Green_Fork.cite_ref-Ragot62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-34)
+> The northerners would be exhausted after their long sleepless march. Tyrion wondered what the boy had been thinking. Did he think to take them unawares while they slept? Small chance of that; whatever else might be said of him, Tywin Lannister was no man's fool.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-08.md:199`)
 
-> Tyrion watched [his father](wiki:Tywin_Lannister) fly past, the crimson-and-gold banner of [Lannister](wiki:House_Lannister) rippling over his head as he thundered across the field. Five hundred [knights](wiki:Knight) surrounded him, sunlight flashing off the points of their lances. The remnants of the [Stark](wiki:House_Stark) lines shattered like glass beneath the hammer of their charge.(wiki:Battle_on_the_Green_Fork.cite_ref-Ragot62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-35)
+> Tyrion watched his father fly past, the crimson-and-gold banner of Lannister rippling over his head as he thundered across the field. Five hundred knights surrounded him, sunlight flashing off the points of their lances. The remnants of the Stark lines shattered like glass beneath the hammer of their charge.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-08.md:265`)
 
 > A fine victory. Your [wild men](wiki:Vale_mountain_clans) fought well.(wiki:Battle_on_the_Green_Fork.cite_ref-Ragot62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-36)
 >
 > —[Kevan Lannister](wiki:Kevan_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> [Bolton](wiki:Roose_Bolton) does not concern me. He is a wary man, and we made him warier on the [Green Fork](wiki:Green_Fork).(wiki:Battle_on_the_Green_Fork.cite_ref-Ragot69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-5)
+> Bolton does not concern me. He is a wary man, and we made him warier on the Green Fork.
 >
-> —[Tywin Lannister](wiki:Tywin_Lannister) to [Kevan Lannister](wiki:Kevan_Lannister)
+> —Tywin Lannister to Kevan Lannister, AGOT (`sources/chapters/agot/agot-tyrion-09.md:137`)
 
 > We fought between [a river](wiki:Green_Fork) and [a road](wiki:Kingsroad). When I saw [my father's](wiki:Tywin_Lannister) host deploy, I remember thinking how beautiful it was. Like a flower opening its petals to the sun. A crimson rose with iron thorns. And my father, ah, he had never looked so resplendent. He wore crimson armor, with this huge greatcloak made of cloth-of-gold. A pair of golden lions on his shoulders, another on his helm. His stallion was magnificent. His lordship watched the whole battle from atop that horse and never got within a hundred yards of any foe. He never moved, never smiled, never broke a sweat, whilst thousands died below him.(wiki:Battle_on_the_Green_Fork.cite_ref-Rtwow.5B.5Btyrion_ii_.28the_winds_of_winter.29.7Ctyrion.5D.5D.7B.7B.7B4.7D.7D.7D_31-0)
 >

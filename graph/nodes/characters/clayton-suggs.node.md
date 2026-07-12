@@ -67,17 +67,17 @@ Clayton is present along with Ser [Godry Farring](wiki:Godry_Farring) and Ser [R
 
 ### Quotes about Clayton
 
-> Suggs was an upjumped [hedge knight](wiki:Hedge_knight), as crude as he was strong.(wiki:Clayton_Suggs.cite_ref-Radwd17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-7)
+> Suggs was an upjumped hedge knight, as crude as he was strong.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-04.md:217`)
 
-> She had seen him at the nightfires, watching, his lips parted and his eyes avid. It is not [the god](wiki:R'hllor) he loves, it is the flames, she concluded.(wiki:Clayton_Suggs.cite_ref-Radwd62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-9)
+> She had seen him at the nightfires, watching, his lips parted and his eyes avid. It is not the god he loves, it is the flames, she concluded.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-sacrifice-01.md:43`)
 
-> Some men had faces that cried out for a beard. Ser Clayton's face cried out for an axe between the eyes.(wiki:Clayton_Suggs.cite_ref-Radwd62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-10)
+> Some men had faces that cried out for a beard. Ser Clayton's face cried out for an axe between the eyes.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-sacrifice-01.md:111`)
 
 > He learned all he knows in the wynds of [Flea Bottom](wiki:Flea_Bottom). Were I to put you in his charge, he might strangle you with your own chain or scoop your eye out with a spoon.(wiki:Clayton_Suggs.cite_ref-TWOW_3-3)
 >

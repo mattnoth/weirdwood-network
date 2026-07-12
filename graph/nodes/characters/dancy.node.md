@@ -53,6 +53,6 @@ When Prince [Oberyn Martell](wiki:Oberyn_Martell) arrives at [King's Landing](wi
 
 ### Quotes about Dancy
 
-> I'd hate to have the poor child lose her [pearls](wiki:Pearl) on account of me.(wiki:Dancy.cite_ref-Racok29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> I'd hate to have the poor child lose her pearls on account of me.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister), to [Alayaya](wiki:Alayaya)
+> —Tyrion Lannister, to Alayaya, ACOK (`sources/chapters/acok/acok-tyrion-07.md:167`)

@@ -51,8 +51,9 @@ The rebellion resulted in the [castle of Pyke](wiki:Pyke) being severely damaged
 > **Balon**: You may take my head, but you cannot name me traitor. No [Greyjoy](wiki:House_Greyjoy) ever swore fealty to a [Baratheon](wiki:House_Baratheon_of_King's_Landing). **Robert**: Swear one now or lose that stubborn head of yours.(wiki:Greyjoy's_Rebellion.cite_ref-Rtwoiafthe_iron_islands:_the_old_way_and_the_new.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4)
 > —[Balon Greyjoy](wiki:Balon_Greyjoy) and [Robert I Baratheon](wiki:Robert_I_Baratheon)
 
-> We cannot stand alone against all [Westeros](wiki:Westeros). King [Robert](wiki:Robert_I_Baratheon) proved that, to our grief. [Balon](wiki:Balon_Greyjoy) would pay the [iron price](wiki:Iron_price) for freedom, he said, but our women bought Balon's crowns with empty beds. [My mother](wiki:Alannys_Harlaw) was one such. The [Old Way](wiki:Old_Way) is dead.(wiki:Greyjoy's_Rebellion.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-4)
-> —[Asha Greyjoy](wiki:Asha_Greyjoy) to [Victarion Greyjoy](wiki:Victarion_Greyjoy)
+> We cannot stand alone against all Westeros. King Robert proved that, to our grief. Balon would pay the iron price for freedom, he said, but our women bought Balon's crowns with empty beds. My mother was one such. The Old Way is dead.
+>
+> —Asha Greyjoy to Victarion Greyjoy, AFFC (`sources/chapters/affc/affc-the-iron-captain-01.md:87`)
 
 > [Robert](wiki:Robert_I_Baratheon) should have scoured [the isles](wiki:Iron_Islands) after [Balon Greyjoy](wiki:Balon_Greyjoy) rose against him ... He smashed [their fleet](wiki:Iron_Fleet), burned their towns and broke their castles, but when he had them on their knees, he let them up again. He should have made another island of their skulls.(wiki:Greyjoy's_Rebellion.cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0)
 > —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)

@@ -70,9 +70,9 @@ Several of Daenerys's supporters, such as Ser Barristan and Skahaz mo Kandaq, su
 >
 > —[Daenerys Targaryen](wiki:Daenerys_Targaryen) and Hizdahr
 
-> Men are born to strive and suffer. Our woes only vanish when we die.(wiki:Hizdahr_zo_Loraq.cite_ref-Radwd23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-8)
+> Men are born to strive and suffer. Our woes only vanish when we die.
 >
-> —Hizdahr, to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Hizdahr, to Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-04.md:85`)
 
 > **Daenerys:** Why should the [Sons of the Harpy](wiki:Sons_of_the_Harpy) lay down their knives for you? Are you one of them?
 >
@@ -80,13 +80,13 @@ Several of Daenerys's supporters, such as Ser Barristan and Skahaz mo Kandaq, su
 >
 > —[Daenerys Targaryen](wiki:Daenerys_Targaryen) and Hizdahr
 
-> Before you came [Meereen](wiki:Meereen) was dying. Our rulers were old men with withered cocks and crones whose puckered cunts were dry as dust. They sat atop their [pyramids](wiki:Category:Pyramids) sipping apricot [wine](wiki:Wine) and talking of the glories of the [Old Empire](wiki:Old_Empire) whilst the centuries slipped by and the very bricks of the city crumbled all around them. Custom and caution had an iron grip upon us till [you awakened us with fire and blood](wiki:Siege_of_Meereen). A new time has come, and new things are possible.(wiki:Hizdahr_zo_Loraq.cite_ref-Radwd23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-10)
+> Before you came Meereen was dying. Our rulers were old men with withered cocks and crones whose puckered cunts were dry as dust. They sat atop their pyramids sipping apricot wine and talking of the glories of the Old Empire whilst the centuries slipped by and the very bricks of the city crumbled all around them. Custom and caution had an iron grip upon us till you awakened us with fire and blood. A new time has come, and new things are possible.
 >
-> —Hizdahr, to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Hizdahr, to Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-04.md:117`)
 
-> One day all men must die, but it serves no good to dwell on death. I prefer to take each day as it comes.(wiki:Hizdahr_zo_Loraq.cite_ref-Radwd23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-11)
+> One day all men must die, but it serves no good to dwell on death. I prefer to take each day as it comes.
 >
-> —Hizdahr, to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Hizdahr, to Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-04.md:135`)
 
 > All men must die, but not all can [die in glory](wiki:Pit_fighters), with the cheers of [the city](wiki:Meereen) ringing in their ears.(wiki:Hizdahr_zo_Loraq.cite_ref-Radwd52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3)
 >
@@ -102,25 +102,25 @@ Several of Daenerys's supporters, such as Ser Barristan and Skahaz mo Kandaq, su
 >
 > —[Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> Wed Hizdahr zo Loraq and make a son with him, a son whose father is the [harpy](wiki:Harpies), whose mother is the [dragon](wiki:Dragon). In him the prophecies shall be fulfilled, and your enemies will melt away like snow.(wiki:Hizdahr_zo_Loraq.cite_ref-Radwd23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-12)
+> Wed Hizdahr zo Loraq and make a son with him, a son whose father is the harpy, whose mother is the dragon. In him the prophecies shall be fulfilled, and your enemies will melt away like snow.
 >
-> —[Galazza Galare](wiki:Galazza_Galare), to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Galazza Galare, to Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-04.md:63`)
 
-> On her terrace, in her bathing pool, the little fish would nibble at her legs as she soaked. Even they kissed with more fervor than Hizdahr zo Loraq.(wiki:Hizdahr_zo_Loraq.cite_ref-Radwd23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-13)
+> On her terrace, in her bathing pool, the little fish would nibble at her legs as she soaked. Even they kissed with more fervor than Hizdahr zo Loraq.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-04.md:129`)
 
-> I have to trust in Hizdahr. I have to hope for peace.(wiki:Hizdahr_zo_Loraq.cite_ref-Radwd30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-4)
+> I have to trust in Hizdahr. I have to hope for peace.
 >
-> —[Daenerys Targaryen](wiki:Daenerys_Targaryen), to [Skahaz mo Kandaq](wiki:Skahaz_mo_Kandaq)
+> —Daenerys Targaryen, to Skahaz mo Kandaq, ADWD (`sources/chapters/adwd/adwd-daenerys-05.md:95`)
 
-> Hizdahr zo Loraq might be [his queen's](wiki:Daenerys_Targaryen) consort, but he would never be his king.(wiki:Hizdahr_zo_Loraq.cite_ref-Radwd55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-3)
+> Hizdahr zo Loraq might be his queen's consort, but he would never be his king.
 >
-> —thoughts of [Barristan Selmy](wiki:Barristan_Selmy)
+> —thoughts of Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-queensguard-01.md:17`)
 
-> Naked men felt vulnerable and were less inclined to acts of suicidal heroism.(wiki:Hizdahr_zo_Loraq.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-2)
+> Naked men felt vulnerable and were less inclined to acts of suicidal heroism.
 >
-> —thoughts of [Barristan Selmy](wiki:Barristan_Selmy), prior to capturing Hizdahr
+> —thoughts of Barristan Selmy, prior to capturing Hizdahr, ADWD (`sources/chapters/adwd/adwd-the-kingbreaker-01.md:223`)
 
 > A queer look passed across Hizdahr zo Loraq's long, pale face—part fear, part lust, part rapture. He licked his lips.
 

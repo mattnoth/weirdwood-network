@@ -73,9 +73,9 @@ At Lord [Tywin Lannister](wiki:Tywin_Lannister)'s request, Tobho melts the late 
 
 ### Quotes about Tobho
 
-> He decided that he liked Tobho Mott, master [armorer](wiki:Armorer).(wiki:Tobho_Mott.cite_ref-Ragot27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+> He decided that he liked Tobho Mott, master armorer.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-06.md:189`)
 
 > **Gendry**: My master said you were a sot and a fraud, as bad a [priest](wiki:Red_priest) as there ever was.
 >

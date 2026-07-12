@@ -88,9 +88,9 @@ In Sunspear, [Ellaria Sand](wiki:Ellaria_Sand) wishes for the end of the Martell
 
 ### Quotes about Amory
 
-> [Vargo Hoat](wiki:Vargo_Hoat) had Ser Amory torn apart by a [bear](wiki:Bear) after the [fall of Harrenhal](wiki:Fall_of_Harrenhal). That ought to be sufficiently grisly to appease even [Oberyn Martell](wiki:Oberyn_Martell).(wiki:Amory_Lorch.cite_ref-Rasos53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-4)
+> Vargo Hoat had Ser Amory torn apart by a bear after the fall of Harrenhal. That ought to be sufficiently grisly to appease even Oberyn Martell.
 >
-> —[Tywin Lannister](wiki:Tywin_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Tywin Lannister to Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-06.md:175`)
 
 > I asked him afterward why it had required half a hundred thrusts to kill [a girl](wiki:Rhaenys_Targaryen_(daughter_of_Rhaegar)) of … two? Three? He said she'd kicked him and would not stop screaming. If Lorch had half the wits the gods gave a turnip, he would have calmed her with a few sweet words and used a soft silk pillow. The blood was in him.(wiki:Amory_Lorch.cite_ref-Rasos53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-5)
 >

@@ -48,9 +48,9 @@ Palla remains among the captives held at the [Dreadfort](wiki:Dreadfort).(wiki:P
 >
 > —[Theon Greyjoy](wiki:Theon_Greyjoy) and "[Reek](wiki:Ramsay_Snow)"
 
-> So you'd offer me a kennel girl for my good service, is that the way of it?(wiki:Palla.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+> So you'd offer me a kennel girl for my good service, is that the way of it?
 >
-> —[Ramsay Snow](wiki:Ramsay_Snow), to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Ramsay Snow, to Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-06.md:251`)
 
 ## Edges
 

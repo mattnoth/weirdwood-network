@@ -65,15 +65,15 @@ During her wedding procession in [Meereen](wiki:Meereen), on her way to marry [H
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) and Bonifer
 
-> Sins may be forgiven. Crimes require punishment.(wiki:Bonifer_Hasty.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-10)
+> Sins may be forgiven. Crimes require punishment.
 >
-> —Bonifer to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Bonifer to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-03.md:299`)
 
 ### Quotes about Bonifer
 
-> Ser Bonifer himself had been a promising [knight](wiki:Knight) in his youth, but [something](wiki:Rhaella_Targaryen) had happened to him, a defeat or a disgrace or a near brush with death, and afterward he had decided that jousting was an empty vanity and put away his lance for good and all.(wiki:Bonifer_Hasty.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-11)
+> Ser Bonifer himself had been a promising knight in his youth, but something had happened to him, a defeat or a disgrace or a near brush with death, and afterward he had decided that jousting was an empty vanity and put away his lance for good and all.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister)'s thoughts
+> —Jaime Lannister's thoughts, AFFC (`sources/chapters/affc/affc-jaime-03.md:283`)
 
 > His passion was impossible of course. A [landed knight](wiki:Landed_knight) is no fit consort for [a princess](wiki:Rhaella_Targaryen) of [royal blood](wiki:House_Targaryen).(wiki:Bonifer_Hasty.cite_ref-Radwd43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)
 >

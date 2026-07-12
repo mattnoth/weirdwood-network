@@ -31,6 +31,6 @@ Iggo and three other [Brave Companions](wiki:Brave_Companions)—a pale [Lyseni]
 
 ## Quotes
 
-> Only the belled man stood his ground. His horse kicked in the head of one of [her sisters](wiki:Wolf), and he cut another almost in half with [his curved silvery claw](wiki:Arakh) as his hair tinkled softly.(wiki:Iggo.cite_ref-Rasos3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> Only the belled man stood his ground. His horse kicked in the head of one of her sisters, and he cut another almost in half with his curved silvery claw as his hair tinkled softly.
 >
-> —[Arya](wiki:Arya_Stark)'s thoughts when [dreaming](wiki:Skinchanger) of [Nymeria](wiki:Nymeria_(direwolf))
+> —Arya's thoughts when dreaming of Nymeria), ASOS (`sources/chapters/asos/asos-arya-01.md:165`)

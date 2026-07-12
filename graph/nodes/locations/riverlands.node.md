@@ -123,21 +123,21 @@ Jaime Lannister resolves the [siege of Raventree](wiki:Siege_of_Raventree), with
 >
 > —writings of [Yandel](wiki:Yandel)
 
-> North of [here](wiki:Crossroads) the [kingsroad](wiki:Kingsroad) ran along the [Green Fork](wiki:Green_Fork) of the [Trident](wiki:Trident), through fertile valleys and green woodlands, past thriving towns and stout holdfasts and the castles of the river lords.(wiki:Riverlands.cite_ref-Ragot28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
+> North of here the kingsroad ran along the Green Fork of the Trident, through fertile valleys and green woodlands, past thriving towns and stout holdfasts and the castles of the river lords.
 >
-> —thoughts of [Catelyn Tully](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Tully, AGOT (`sources/chapters/agot/agot-catelyn-05.md:47`)
 
-> Tell them I want to see the riverlands afire from the [Gods Eye](wiki:Gods_Eye) to the [Red Fork](wiki:Red_Fork).(wiki:Riverlands.cite_ref-Ragot69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> Tell them I want to see the riverlands afire from the Gods Eye to the Red Fork.
 >
-> —[Tywin Lannister](wiki:Tywin_Lannister) to [Kevan Lannister](wiki:Kevan_Lannister)
+> —Tywin Lannister to Kevan Lannister, AGOT (`sources/chapters/agot/agot-tyrion-09.md:141`)
 
 > The land was gentle enough, rolling hills and terraced fields interspersed with meadows and woodlands and little valleys where willows crowded close to slow shallow steams ... Here farmland gave way to forest, the villages and holdfasts were smaller and farther apart, the hills higher and the valleys deeper.(wiki:Riverlands.cite_ref-Racok9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_86-0)
 >
 > —thoughts of [Arya Stark](wiki:Arya_Stark)
 
-> Between rains, floods, fire, and war, they had lost two harvests and a good part of a third. An early winter would mean famine all across the riverlands.(wiki:Riverlands.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_82-1)
+> Between rains, floods, fire, and war, they had lost two harvests and a good part of a third. An early winter would mean famine all across the riverlands.
 >
-> —thoughts of [Merrett Frey](wiki:Merrett_Frey)
+> —thoughts of Merrett Frey, ASOS (`sources/chapters/asos/asos-epilogue.md:11`)
 
 > From what Jaime had seen of the riverlands, scarce a field remained unburnt, a town unsacked, a maiden unspoiled.(wiki:Riverlands.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-2)
 >

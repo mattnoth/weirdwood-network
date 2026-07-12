@@ -30,6 +30,6 @@ Brynden continues to hold Riverrun for [House Stark](wiki:House_Stark) after Rob
 
 ## Quotes
 
-> [Robb](wiki:Robb_Stark) had even created him a new title, Warden of the Southern Marches. Ser [Brynden](wiki:Brynden_Tully) would hold the [Trident](wiki:Trident) if any man could.(wiki:Warden_of_the_Southern_Marches.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> Robb had even created him a new title, Warden of the Southern Marches. Ser Brynden would hold the Trident if any man could.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-05.md:33`)

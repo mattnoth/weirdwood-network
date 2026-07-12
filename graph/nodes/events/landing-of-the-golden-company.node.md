@@ -62,6 +62,6 @@ The small council later hears reports of sellswords incursions all along the coa
 >
 > —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> Let the [Lannisters](wiki:House_Lannister) suspect [Stannis Baratheon](wiki:Stannis_Baratheon), pirates from the [Stepstones](wiki:Stepstones), outlaws out of [the woods](wiki:Rainwood), or whoever else they cared to blame. If the reports that reached [King's Landing](wiki:King's_Landing) were confused and contradictory, so much the better. The slower the [Iron Throne](wiki:Iron_Throne) was to react, the longer they would have to gather their strength and bring allies to the cause.(wiki:Landing_of_the_Golden_Company.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
+> Let the Lannisters suspect Stannis Baratheon, pirates from the Stepstones, outlaws out of the woods, or whoever else they cared to blame. If the reports that reached King's Landing were confused and contradictory, so much the better. The slower the Iron Throne was to react, the longer they would have to gather their strength and bring allies to the cause.
 >
-> —thoughts of [Jon Connington](wiki:Jon_Connington)
+> —thoughts of Jon Connington, ADWD (`sources/chapters/adwd/adwd-the-griffin-reborn-01.md:151`)

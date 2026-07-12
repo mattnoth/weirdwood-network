@@ -47,6 +47,6 @@ William agrees to marry his eldest daughter and heir,(wiki:William_Mooton.cite_r
 
 ## Quotes
 
-> Mooton has the courage of a worm. You will not speak to me of Mooton.(wiki:William_Mooton.cite_ref-Raffc25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+> Mooton has the courage of a worm. You will not speak to me of Mooton.
 >
-> —[Randyll Tarly](wiki:Randyll_Tarly) to [Hyle Hunt](wiki:Hyle_Hunt)
+> —Randyll Tarly to Hyle Hunt, AFFC (`sources/chapters/affc/affc-brienne-05.md:67`)

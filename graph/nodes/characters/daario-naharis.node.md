@@ -60,9 +60,9 @@ After Daenerys disappears from [Daznak's Pit](wiki:Daznak's_Pit) on the back of 
 >
 > —Daario and [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> Better the butcher than the meat. All kings are butchers. Are queens so different?(wiki:Daario_Naharis.cite_ref-Radwd23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-6)
+> Better the butcher than the meat. All kings are butchers. Are queens so different?
 >
-> —Daario to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Daario to Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-04.md:305`)
 
 > **Daenerys**: You boasted that you'd had a hundred women. **Daario**: A hundred? I lied, sweet queen. It was a thousand. But never once a [dragon](wiki:House_Targaryen).(wiki:Daario_Naharis.cite_ref-Radwd36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-2)
 >
@@ -74,37 +74,37 @@ After Daenerys disappears from [Daznak's Pit](wiki:Daznak's_Pit) on the back of 
 
 ### Quotes about Daario
 
-> I have seen how false men are. Very few are worthy of trust, and Daario Naharis is not one of them. Even his beard wears [false colors](wiki:Hair_dye).(wiki:Daario_Naharis.cite_ref-Rasos42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-11)
+> I have seen how false men are. Very few are worthy of trust, and Daario Naharis is not one of them. Even his beard wears false colors.
 >
-> —[Jorah Mormont](wiki:Jorah_Mormont) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Jorah Mormont to Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-04.md:277`)
 
-> She had a city to take, and dreaming of kisses and some [sellsword](wiki:Sellsword)'s bright blue eyes would not help her breach the walls of [Meereen](wiki:Meereen).(wiki:Daario_Naharis.cite_ref-Rasos57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4)
+> She had a city to take, and dreaming of kisses and some sellsword's bright blue eyes would not help her breach the walls of Meereen.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-05.md:203`)
 
-> She was a queen, and Daario Naharis was not the stuff of kings.(wiki:Daario_Naharis.cite_ref-Radwd11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)
+> She was a queen, and Daario Naharis was not the stuff of kings.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-02.md:109`)
 
-> He is a monster. A gallant monster, but a monster still.(wiki:Daario_Naharis.cite_ref-Radwd23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-7)
+> He is a monster. A gallant monster, but a monster still.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-04.md:303`)
 
 > He has a [sellsword](wiki:Sellsword)'s conscience, That is to say, none at all.(wiki:Daario_Naharis.cite_ref-Radwd43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-8)
 >
 > —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> If he did not betray her, he would master her. She did not know which of those she feared the most.(wiki:Daario_Naharis.cite_ref-Radwd50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-3)
+> If he did not betray her, he would master her. She did not know which of those she feared the most.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-08.md:49`)
 
-> [Daenerys Targaryen](wiki:Daenerys_Targaryen) loved her captain, but that was the girl in her, not the queen.(wiki:Daario_Naharis.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-2)
+> Daenerys Targaryen loved her captain, but that was the girl in her, not the queen.
 >
-> —thoughts of [Barristan Selmy](wiki:Barristan_Selmy)
+> —thoughts of Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-kingbreaker-01.md:85`)
 
-> [Her](wiki:Daenerys_Targaryen) love for Daario is [poison](wiki:Poison). A slower poison than [the locusts](wiki:Poisoned_locusts), but in the end as deadly.(wiki:Daario_Naharis.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-3)
+> Her love for Daario is poison. A slower poison than the locusts, but in the end as deadly.
 >
-> —thoughts of [Barristan Selmy](wiki:Barristan_Selmy)
+> —thoughts of Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-kingbreaker-01.md:87`)
 
 ## Edges
 

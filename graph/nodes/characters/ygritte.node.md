@@ -70,13 +70,13 @@ Jon, now [Lord Commander of the Night's Watch](wiki:Lord_Commander_of_the_Night'
 
 ### Quotes by Ygritte
 
-> Strike hard and true, crow, or I'll come back and haunt you.(wiki:Ygritte.cite_ref-Racok51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+> Strike hard and true, crow, or I'll come back and haunt you.
 >
-> —Ygritte to [Jon Snow](wiki:Jon_Snow)
+> —Ygritte to Jon Snow, ACOK (`sources/chapters/acok/acok-jon-06.md:255`)
 
-> It's dangerous being free, but most come to like the taste o' it.(wiki:Ygritte.cite_ref-Rasos7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3)
+> It's dangerous being free, but most come to like the taste o' it.
 >
-> —Ygritte to [Jon Snow](wiki:Jon_Snow)
+> —Ygritte to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-01.md:37`)
 
 > **Jon**: What if the man who stole you drank too much? What if he was brutal or cruel? What if he was stronger than you, and liked to beat you bloody? **Ygritte**: I'd cut his throat while he slept. You know nothing, Jon Snow.(wiki:Ygritte.cite_ref-Rasos41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
 >
@@ -98,26 +98,26 @@ Jon, now [Lord Commander of the Night's Watch](wiki:Lord_Commander_of_the_Night'
 
 ### Quotes about Ygritte
 
-> She wasn't wed and her weapon of choice was a short curved bow of horn and weirwood, but "[spearwife](wiki:Spearwife)" fit her all the same.(wiki:Ygritte.cite_ref-Rasos15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-11)
+> She wasn't wed and her weapon of choice was a short curved bow of horn and weirwood, but "spearwife" fit her all the same.
 >
-> —[Jon Snow](wiki:Jon_Snow)'s thoughts
+> —Jon Snow's thoughts, ASOS (`sources/chapters/asos/asos-jon-02.md:157`)
 
-> I know one thing. I know that you are [wildling](wiki:Wildling) to the bone.(wiki:Ygritte.cite_ref-Rasos41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-9)
+> I know one thing. I know that you are wildling to the bone.
 >
-> —[Jon Snow](wiki:Jon_Snow)'s thoughts
+> —Jon Snow's thoughts, ASOS (`sources/chapters/asos/asos-jon-05.md:71`)
 
-> You were wrong to love her, a voice whispered. You were wrong to leave her, a different voice insisted.(wiki:Ygritte.cite_ref-Rasos41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-10)
+> You were wrong to love her, a voice whispered. You were wrong to leave her, a different voice insisted.
 >
-> —[Jon Snow](wiki:Jon_Snow)'s thoughts
+> —Jon Snow's thoughts, ASOS (`sources/chapters/asos/asos-jon-06.md:17`)
 
-> How could he explain Ygritte to [them?](wiki:Night's_Watch) She's warm and smart and funny and she can kiss a man or slit his throat.(wiki:Ygritte.cite_ref-Rasos48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0)
+> How could he explain Ygritte to them? She's warm and smart and funny and she can kiss a man or slit his throat.
 >
-> —[Jon Snow](wiki:Jon_Snow)'s thoughts
+> —Jon Snow's thoughts, ASOS (`sources/chapters/asos/asos-jon-06.md:127`)
 
 > **Tormund**: If I'd been ten years younger, I'd have stolen her meself. That hair she had. Well, the hottest fires burn out quickest. To Ygritte, [kissed by fire](wiki:Kissed_by_fire)! **Jon**: To Ygritte, kissed by fire.(wiki:Ygritte.cite_ref-Rasos73.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-1)
 >
 > —[Tormund](wiki:Tormund) and [Jon Snow](wiki:Jon_Snow)
 
-> I know nothing, Ygritte, he thought, and perhaps I never will.(wiki:Ygritte.cite_ref-Radwd35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-0)
+> I know nothing, Ygritte, he thought, and perhaps I never will.
 >
-> —[Jon Snow](wiki:Jon_Snow)'s thoughts
+> —Jon Snow's thoughts, ADWD (`sources/chapters/adwd/adwd-jon-07.md:95`)

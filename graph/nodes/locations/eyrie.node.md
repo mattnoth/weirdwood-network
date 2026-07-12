@@ -140,26 +140,26 @@ Lord Robert fears that his heir, Ser [Harrold Hardyng](wiki:Harrold_Hardyng), is
 >
 > —[Quince](wiki:Quince)
 
-> Those years we spent in the Eyrie ... gods, those were good years.(wiki:Eyrie.cite_ref-Ragot4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-0)
+> Those years we spent in the Eyrie ... gods, those were good years.
 >
-> —[Robert I Baratheon](wiki:Robert_I_Baratheon) to [Eddard Stark](wiki:Eddard_Stark)
+> —Robert I Baratheon to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-01.md:127`)
 
 > Above [the Vale](wiki:Vale_of_Arryn_(valley)), the Eyrie stood high and impregnable, its towers reaching for the sky.(wiki:Eyrie.cite_ref-Ragot28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-1)
 >
 > —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
 
-> Seven towers, [Ned](wiki:Eddard_Stark) had told her, like white daggers thrust into the belly of the sky, so high you can stand on the parapets and look down on the clouds.(wiki:Eyrie.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-17)
+> Seven towers, Ned had told her, like white daggers thrust into the belly of the sky, so high you can stand on the parapets and look down on the clouds.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-06.md:49`)
 
-> The Eyrie is impregnable. You saw for yourself. No enemy could ever reach us up here.(wiki:Eyrie.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-18)
+> The Eyrie is impregnable. You saw for yourself. No enemy could ever reach us up here.
 >
-> —[Lysa Arryn](wiki:Lysa_Arryn) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Lysa Arryn to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-06.md:263`)
 
-> The older servants said these halls rang with laughter when [her father](wiki:Eddard_Stark) and [Robert Baratheon](wiki:Robert_I_Baratheon) had been [Jon Arryn](wiki:Jon_Arryn)'s wards, but those days were many years gone.(wiki:Eyrie.cite_ref-Rasos80.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-11)
+> The older servants said these halls rang with laughter when her father and Robert Baratheon had been Jon Arryn's wards, but those days were many years gone.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-07.md:13`)
 
-> The Eyrie boasted a [sept](wiki:Sept), but no [septon](wiki:Septon); [a godswood](wiki:Godswood_of_the_Eyrie), but no [heart tree](wiki:Heart_tree). No prayers are answered here, she often thought, though some days she felt so lonely she had to try. Only the wind answered her, sighing endlessly around the seven slim white towers and rattling the [Moon Door](wiki:Moon_Door) every time it gusted. It will be even worse in winter, she knew. In winter this will be a cold white prison.(wiki:Eyrie.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-10)
+> The Eyrie boasted a sept, but no septon; a godswood, but no heart tree. No prayers are answered here, she often thought, though some days she felt so lonely she had to try. Only the wind answered her, sighing endlessly around the seven slim white towers and rattling the Moon Door every time it gusted. It will be even worse in winter, she knew. In winter this will be a cold white prison.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, AFFC (`sources/chapters/affc/affc-alayne-02.md:153`)

@@ -169,21 +169,21 @@ The new [Hand of the King](wiki:Hand_of_the_King), Lord [Mace Tyrell](wiki:Mace_
 >
 > —declaration of [Aenys I Targaryen](wiki:Aenys_I_Targaryen)
 
-> The Red Keep has its secrets, known only to the dead.(wiki:Red_Keep.cite_ref-Rfab4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_45-5)
+> The Red Keep has its secrets, known only to the dead.
 >
-> —writings of [Gyldayn](wiki:Gyldayn)
+> —writings of Gyldayn, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p03.md:243`)
 
-> [His father](wiki:Eddard_Stark) would be the [Hand of the King](wiki:Hand_of_the_King), and they were going to live in the red castle at [King's Landing](wiki:King's_Landing), the castle the [Dragonlords](wiki:House_Targaryen) had built. [Old Nan](wiki:Old_Nan) said there were [ghosts](wiki:Ghosts) there, and dungeons where terrible things had been done, and [dragon heads](wiki:Skulls_of_the_Targaryen_dragons) on the walls.(wiki:Red_Keep.cite_ref-Ragot8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_94-0)
+> His father would be the Hand of the King, and they were going to live in the red castle at King's Landing, the castle the Dragonlords had built. Old Nan said there were ghosts there, and dungeons where terrible things had been done, and dragon heads on the walls.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, AGOT (`sources/chapters/agot/agot-bran-02.md:15`)
 
-> And above it all, frowning down from [Aegon's high hill](wiki:Aegon's_high_hill), was the Red Keep; seven huge drum-towers crowned with [iron](wiki:Iron) ramparts, an immense grim barbican, vaulted halls and covered bridges, barracks and dungeons and granaries, massive curtain walls studded with archers' nests, all fashioned of pale red stone. [Aegon the Conqueror](wiki:Aegon_I_Targaryen) had commanded it built. His son [Maegor the Cruel](wiki:Maegor_I_Targaryen) had seen it completed. Afterward he had taken the heads of every stonemason, woodworker, and builder who had labored on it. Only the [blood of the dragon](wiki:House_Targaryen) would ever know the secrets of the fortress the [Dragonlords](wiki:Dragonlords) had built, he vowed.(wiki:Red_Keep.cite_ref-Ragot18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> And above it all, frowning down from Aegon's high hill, was the Red Keep; seven huge drum-towers crowned with iron ramparts, an immense grim barbican, vaulted halls and covered bridges, barracks and dungeons and granaries, massive curtain walls studded with archers' nests, all fashioned of pale red stone. Aegon the Conqueror had commanded it built. His son Maegor the Cruel had seen it completed. Afterward he had taken the heads of every stonemason, woodworker, and builder who had labored on it. Only the blood of the dragon would ever know the secrets of the fortress the Dragonlords had built, he vowed.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-04.md:61`)
 
-> The Red Keep has ways known only to [ghosts](wiki:Ghosts) and [spiders](wiki:Spider).(wiki:Red_Keep.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-1)
+> The Red Keep has ways known only to ghosts and spiders.
 >
-> —[Varys](wiki:Varys) to [Eddard Stark](wiki:Eddard_Stark)
+> —Varys to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-07.md:255`)
 
 > The Red Keep shelters two sorts of people, Lord Eddard. Those who are loyal to [the realm](wiki:Seven_Kingdoms), and those who are loyal only to themselves. (wiki:Red_Keep.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-2)
 >
@@ -193,18 +193,18 @@ The new [Hand of the King](wiki:Hand_of_the_King), Lord [Mace Tyrell](wiki:Mace_
 >
 > —thoughts of [Arya Stark](wiki:Arya_Stark)
 
-> The only palace I desire is the red castle at [King's Landing](wiki:King's_Landing), my lord Pyat.(wiki:Red_Keep.cite_ref-Racok27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_95-0)
+> The only palace I desire is the red castle at King's Landing, my lord Pyat.
 >
-> —[Daenerys Targaryen](wiki:Daenerys_Targaryen) to [Pyat Pree](wiki:Pyat_Pree)
+> —Daenerys Targaryen to Pyat Pree, ACOK (`sources/chapters/acok/acok-daenerys-02.md:31`)
 
-> [The river](wiki:Blackwater_Rush) that had seemed so narrow from a distance now stretched wide as a sea, but [the city](wiki:King's_Landing) had grown gigantic as well. Glowering down from [Aegon's High Hill](wiki:Aegon's_High_Hill), the Red Keep commanded the approaches. Its iron-crowned battlements, massive towers, and thick red walls gave it the aspect of a ferocious beast hunched above river and streets. The bluffs on which it crouched were steep and rocky, spotted with lichen and gnarled thorny trees.(wiki:Red_Keep.cite_ref-Racok58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+> The river that had seemed so narrow from a distance now stretched wide as a sea, but the city had grown gigantic as well. Glowering down from Aegon's High Hill, the Red Keep commanded the approaches. Its iron-crowned battlements, massive towers, and thick red walls gave it the aspect of a ferocious beast hunched above river and streets. The bluffs on which it crouched were steep and rocky, spotted with lichen and gnarled thorny trees.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ACOK (`sources/chapters/acok/acok-davos-03.md:65`)
 
-> No one knew the Red Keep better than [the eunuch](wiki:Varys).(wiki:Red_Keep.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-2)
+> No one knew the Red Keep better than the eunuch.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-08.md:89`)
 
-> It is my day now. It is my castle and [my kingdom](wiki:Seven_Kingdoms).(wiki:Red_Keep.cite_ref-Raffc12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_89-3)
+> It is my day now. It is my castle and my kingdom.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-03.md:229`)

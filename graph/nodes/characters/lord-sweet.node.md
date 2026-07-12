@@ -28,6 +28,6 @@ Lord Sweet accompanies King [Stannis Baratheon](wiki:Stannis_Baratheon) to [Cast
 
 ## Quotes
 
-> The craven sees an [outlaw](wiki:Outlaw) behind every blade of grass.(wiki:Lord_Sweet.cite_ref-Radwd17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> The craven sees an outlaw behind every blade of grass.
 >
-> —Lord Sweet to [Jon Snow](wiki:Jon_Snow)
+> —Lord Sweet to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-04.md:171`)

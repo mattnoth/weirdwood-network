@@ -45,13 +45,13 @@ As night gathers the party comes upon the [Old Stone Bridge](wiki:Old_Stone_Brid
 >
 > —Creighton to [Brienne Tarth](wiki:Brienne_Tarth)
 
-> A sword is only as good as the man who wields it.(wiki:Creighton_Longbough.cite_ref-Raffc4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-10)
+> A sword is only as good as the man who wields it.
 >
-> —Creighton to [Brienne Tarth](wiki:Brienne_Tarth)
+> —Creighton to Brienne Tarth, AFFC (`sources/chapters/affc/affc-brienne-01.md:63`)
 
-> When swords clash, you shall ne'er find Ser Creighton Longbough to the rear.(wiki:Creighton_Longbough.cite_ref-Raffc4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-11)
+> When swords clash, you shall ne'er find Ser Creighton Longbough to the rear.
 >
-> —Creighton to [Brienne Tarth](wiki:Brienne_Tarth)
+> —Creighton to Brienne Tarth, AFFC (`sources/chapters/affc/affc-brienne-01.md:71`)
 
 > **Hibald**: As to portly [knights](wiki:Knight), it is hard for any honest man to keep his belly round when so many lack for food ... though your Ser Creighton has not hungered, it would seem. **Creighton**: I have big bones.(wiki:Creighton_Longbough.cite_ref-Raffc4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-12)
 >

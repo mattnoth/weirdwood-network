@@ -40,10 +40,10 @@ Wearing a [jade](wiki:Jade)-decorated gown, Ermesande is brought before Ser [Jai
 
 ## Quotes
 
-> [Tyrek](wiki:Tyrek_Lannister) was the son of his late [Uncle Tygett](wiki:Tygett_Lannister), a boy of thirteen. He had vanished in [the riot](wiki:Riots_in_King's_Landing), not long after [wedding](wiki:Wedding_of_Tyrek_Lannister_and_Ermesande_Hayford) the Lady Ermesande, a suckling babe who happened to be the last surviving heir of [House Hayford](wiki:House_Hayford). And likely the first bride in the history of the [Seven Kingdoms](wiki:Seven_Kingdoms) to be widowed before she was weaned.(wiki:Ermesande_Hayford.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+> Tyrek was the son of his late Uncle Tygett, a boy of thirteen. He had vanished in the riot, not long after wedding the Lady Ermesande, a suckling babe who happened to be the last surviving heir of House Hayford. And likely the first bride in the history of the Seven Kingdoms to be widowed before she was weaned.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-01.md:163`)
 
-> My fealty's owed to [House Hayford](wiki:House_Hayford), and Lady Ermesande bends her little knee at [King's Landing](wiki:King's_Landing), or will when she's old enough to walk.(wiki:Ermesande_Hayford.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+> My fealty's owed to House Hayford, and Lady Ermesande bends her little knee at King's Landing, or will when she's old enough to walk.
 >
-> —[Roger Hogg](wiki:Roger_Hogg) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Roger Hogg to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-03.md:165`)

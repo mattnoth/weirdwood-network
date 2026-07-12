@@ -68,13 +68,13 @@ Edd briefly returns to Castle Black with six wagons so that more spearwives can 
 >
 > —Edd to [Jon Snow](wiki:Jon_Snow)
 
-> Some dogs crawled atop me during the night. My cloak was almost dry when one of them pissed in it. Or perhaps it was [Brown Bernarr](wiki:Brown_Bernarr). Have you noticed that the rain stopped the instant I had [a roof](wiki:Craster's_Keep) above me? It will start again now that I'm back out. Gods and dogs alike delight to piss on me.(wiki:Eddison_Tollett.cite_ref-Racok23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> Some dogs crawled atop me during the night. My cloak was almost dry when one of them pissed in it. Or perhaps it was Brown Bernarr. Have you noticed that the rain stopped the instant I had a roof above me? It will start again now that I'm back out. Gods and dogs alike delight to piss on me.
 >
-> —Edd to [Jon Snow](wiki:Jon_Snow)
+> —Edd to Jon Snow, ACOK (`sources/chapters/acok/acok-jon-03.md:329`)
 
-> There are worse ways to die than warm and drunk. I knew a brother drowned himself in [wine](wiki:Wine) once. It was a poor vintage, though, and his corpse did not improve it.(wiki:Eddison_Tollett.cite_ref-Racok43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
+> There are worse ways to die than warm and drunk. I knew a brother drowned himself in wine once. It was a poor vintage, though, and his corpse did not improve it.
 >
-> —Edd to [Jon Snow](wiki:Jon_Snow)
+> —Edd to Jon Snow, ACOK (`sources/chapters/acok/acok-jon-05.md:77`)
 
 > Once they figure a way to work a dead [horse](wiki:Horse), we'll be next. Likely I'll be the first too. 'Edd' they'll say, 'dying's no excuse for laying down no more, so get on up and take this spear, you've got the watch tonight.' Well, I shouldn't be so gloomy. Might be I'll die before they work it out.(wiki:Eddison_Tollett.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2)
 >
@@ -86,9 +86,9 @@ Edd briefly returns to Castle Black with six wagons so that more spearwives can 
 >
 > —Edd and [Grenn](wiki:Grenn)
 
-> I just want to say to whoever is voting for me that I would certainly make an awful [Lord Commander](wiki:Lord_Commander_of_the_Night's_Watch). But so would all these others.(wiki:Eddison_Tollett.cite_ref-Rasos75.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-3)
+> I just want to say to whoever is voting for me that I would certainly make an awful Lord Commander. But so would all these others.
 >
-> —Edd to his black brothers
+> —Edd to his black brothers, ASOS (`sources/chapters/asos/asos-samwell-04.md:113`)
 
 > **Cotter**: We'll defend the [Wall](wiki:Wall) to the last man. **Edd**: Probably me.(wiki:Eddison_Tollett.cite_ref-Rasos78.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0)
 >
@@ -98,13 +98,13 @@ Edd briefly returns to Castle Black with six wagons so that more spearwives can 
 >
 > —[Samwell Tarly](wiki:Samwell_Tarly) and Edd
 
-> My old [septon](wiki:Septon) used to say that books are dead men talking. Dead men should keep quiet, is what I say. No one wants to hear a dead man's yabber.(wiki:Eddison_Tollett.cite_ref-Radwd7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1)
+> My old septon used to say that books are dead men talking. Dead men should keep quiet, is what I say. No one wants to hear a dead man's yabber.
 >
-> —Edd to [Jon Snow](wiki:Jon_Snow)
+> —Edd to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-02.md:17`)
 
-> [Place](wiki:Long_Barrow) was overrun with rats when we moved in. The [spearwives](wiki:Spearwife) killed the nasty buggers. Now the place is overrun with spearwives. There's days I want the rats back.(wiki:Eddison_Tollett.cite_ref-Radwd58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+> Place was overrun with rats when we moved in. The spearwives killed the nasty buggers. Now the place is overrun with spearwives. There's days I want the rats back.
 >
-> —Edd to [Jon Snow](wiki:Jon_Snow)
+> —Edd to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-12.md:37`)
 
 ### Quotes about Edd
 

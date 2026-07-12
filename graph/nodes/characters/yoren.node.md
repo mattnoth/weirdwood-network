@@ -74,9 +74,9 @@ With Yoren missing and presumed dead, [Dareon](wiki:Dareon) is named by [Jon Sno
 
 ### Quotes by Yoren
 
-> I'm here to find men for the [Wall](wiki:Wall), and when [Robert](wiki:Robert_I_Baratheon) next holds court, I'll bend the knee and cry our need, see if the king and his [Hand](wiki:Hand_of_the_King) have some scum in the dungeons they'd be well rid of.(wiki:Yoren.cite_ref-Ragot32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
+> I'm here to find men for the Wall, and when Robert next holds court, I'll bend the knee and cry our need, see if the king and his Hand have some scum in the dungeons they'd be well rid of.
 >
-> —Yoren to [Eddard Stark](wiki:Eddard_Stark)
+> —Yoren to Eddard Stark, AGOT (`sources/chapters/agot/agot-arya-03.md:175`)
 
 > There was a black brother, begging men for the [Wall](wiki:Wall), only he was kind of old and smelly.(wiki:Yoren.cite_ref-Ragot44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1)
 >
@@ -96,6 +96,6 @@ With Yoren missing and presumed dead, [Dareon](wiki:Dareon) is named by [Jon Sno
 >
 > —thoughts of [Arya Stark](wiki:Arya_Stark)
 
-> Yoren had sworn to deliver her to [Winterfell](wiki:Winterfell), only she had ended up in [Harrenhal](wiki:Harrenhal) and Yoren in his grave.(wiki:Yoren.cite_ref-Raffc6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0)
+> Yoren had sworn to deliver her to Winterfell, only she had ended up in Harrenhal and Yoren in his grave.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, AFFC (`sources/chapters/affc/affc-arya-01.md:21`)

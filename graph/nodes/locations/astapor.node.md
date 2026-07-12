@@ -97,14 +97,14 @@ According to the peace treaty between Meereen and Yunkai, Astapor is to be resto
 >
 > —[Daenerys Targaryen](wiki:Daenerys_Targaryen)'s thoughts
 
-> Even a modest [khalasar](wiki:Khalasar) could crack this Astapor like a nut and spill out the rotted meat inside.(wiki:Astapor.cite_ref-Rasos23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-25)
+> Even a modest khalasar could crack this Astapor like a nut and spill out the rotted meat inside.
 >
-> —[Daenerys Targaryen](wiki:Daenerys_Targaryen) to [Jorah Mormont](wiki:Jorah_Mormont)
+> —Daenerys Targaryen to Jorah Mormont, ASOS (`sources/chapters/asos/asos-daenerys-02.md:319`)
 
 > **Daenerys**: Many of my [freedmen](wiki:Freedmen) were [slaves](wiki:Slaves) in Astapor. Perhaps some will wish to help defend [your king](wiki:Cleon). That is their choice, as free men. I gave Astapor its freedom. It is up to you to defend it. **Ghael**: We are all dead, then. You gave us death, not freedom.(wiki:Astapor.cite_ref-Radwd16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-2)
 >
 > —[Daenerys Targaryen](wiki:Daenerys_Targaryen) and [Ghael](wiki:Ghael)
 
-> Brick and blood built Astapor, and brick and blood its people. The old rhyme rang in her head. Ash and bone is Astapor, and ash and bone its people.(wiki:Astapor.cite_ref-Radwd30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
+> Brick and blood built Astapor, and brick and blood its people. The old rhyme rang in her head. Ash and bone is Astapor, and ash and bone its people.
 >
-> —[Daenerys Targaryen](wiki:Daenerys_Targaryen)'s thoughts
+> —Daenerys Targaryen's thoughts, ADWD (`sources/chapters/adwd/adwd-daenerys-05.md:285`)

@@ -70,9 +70,9 @@ After Sansa is [forced to wed](wiki:Wedding_of_Tyrion_Lannister_and_Sansa_Stark)
 
 ### Quotes about Mordane
 
-> You had best run back to your room, little sister. Septa Mordane will surely be lurking. The longer you hide, the sterner the penance.(wiki:Mordane.cite_ref-Ragot7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+> You had best run back to your room, little sister. Septa Mordane will surely be lurking. The longer you hide, the sterner the penance.
 >
-> —[Jon Snow](wiki:Jon_Snow) to [Arya Stark](wiki:Arya_Stark)
+> —Jon Snow to Arya Stark, AGOT (`sources/chapters/agot/agot-arya-01.md:171`)
 
 > **Eddard**: What would Septa Mordane say if she knew you were playing with [swords](wiki:Needle)?
 >
@@ -84,9 +84,9 @@ After Sansa is [forced to wed](wiki:Wedding_of_Tyrion_Lannister_and_Sansa_Stark)
 >
 > —[Sansa Stark](wiki:Sansa_Stark) and [Joffrey I Baratheon](wiki:Joffrey_Baratheon)
 
-> What was it that Septa Mordane used to tell her? A lady's armor is courtesy, that was it.(wiki:Mordane.cite_ref-Racok2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
+> What was it that Septa Mordane used to tell her? A lady's armor is courtesy, that was it.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, ACOK (`sources/chapters/acok/acok-sansa-01.md:221`)
 
 ## Edges
 

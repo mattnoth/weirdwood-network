@@ -115,25 +115,25 @@ While preparing for the [second siege of Meereen](wiki:Second_siege_of_Meereen),
 
 ### Quotes about Podrick
 
-> Podrick Payne was so shy he was furtive. Tyrion had never quite gotten over the suspicion that [his father](wiki:Tywin_Lannister) had inflicted the boy on him as a joke.(wiki:Podrick_Payne.cite_ref-Racok15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-0)
+> Podrick Payne was so shy he was furtive. Tyrion had never quite gotten over the suspicion that his father had inflicted the boy on him as a joke.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-03.md:111`)
 
-> It was Pod on the [bridge of boats](wiki:Battle_of_the_Blackwater), the lad saved my life.(wiki:Podrick_Payne.cite_ref-Racok67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
+> It was Pod on the bridge of boats, the lad saved my life.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-15.md:117`)
 
 > He is such a timid boy.(wiki:Podrick_Payne.cite_ref-Rasos59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-4)
 >
 > —thoughts of [Sansa Stark](wiki:Sansa_Stark)
 
-> You've been a good squire to me. Better than I deserved. Whatever happens, I thank you for your leal service.(wiki:Podrick_Payne.cite_ref-Rasos70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-1)
+> You've been a good squire to me. Better than I deserved. Whatever happens, I thank you for your leal service.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to Podrick
+> —Tyrion Lannister to Podrick, ASOS (`sources/chapters/asos/asos-tyrion-10.md:23`)
 
-> The boy may be a stumbletongue, but he’s not stupid.(wiki:Podrick_Payne.cite_ref-Raffc14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-9)
+> The boy may be a stumbletongue, but he’s not stupid.
 >
-> —thoughts of [Brienne Tarth](wiki:Brienne_Tarth)
+> —thoughts of Brienne Tarth, AFFC (`sources/chapters/affc/affc-brienne-03.md:225`)
 
 > Not the quickest lad I've ever known, but a decent [squire](wiki:Squire) in the end. I hope he found a better man to serve.(wiki:Podrick_Payne.cite_ref-TWOW_25-1)
 >

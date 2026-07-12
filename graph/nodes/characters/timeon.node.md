@@ -66,10 +66,10 @@ Brienne later has nightmares involving Pyg, Shagwell, and Timeon.(wiki:Timeon.ci
 
 ### Quotes about Timeon
 
-> He was better than [Pyg](wiki:Pyg), but he had only a short throwing spear, and she had a [Valyrian steel](wiki:Valyrian_steel) [blade](wiki:Oathkeeper).(wiki:Timeon.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-11)
+> He was better than Pyg, but he had only a short throwing spear, and she had a Valyrian steel blade.
 >
-> —thoughts of [Brienne of Tarth](wiki:Brienne_of_Tarth)
+> —thoughts of Brienne of Tarth, AFFC (`sources/chapters/affc/affc-brienne-04.md:319`)
 
-> Timeon was still trying to fight as she pulled [her blade](wiki:Oathkeeper) from him, its fullers running red with blood. He clawed at his belt and came up with a dagger, so Brienne cut his hand off. That one was for [Jaime](wiki:Jaime_Lannister).(wiki:Timeon.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-12)
+> Timeon was still trying to fight as she pulled her blade from him, its fullers running red with blood. He clawed at his belt and came up with a dagger, so Brienne cut his hand off. That one was for Jaime.
 >
-> —thoughts of [Brienne of Tarth](wiki:Brienne_of_Tarth)
+> —thoughts of Brienne of Tarth, AFFC (`sources/chapters/affc/affc-brienne-04.md:321`)

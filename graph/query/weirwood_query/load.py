@@ -294,12 +294,28 @@ def split_sections(body: str) -> dict[str, str]:
     return sections
 
 
+_WIKI_LINK_RE = re.compile(r"\[([^\]]+)\]\(wiki:[^)]*\)")
+_WIKI_TOKEN_RE = re.compile(r"\(wiki:[^)]*\)")
+
+
+def _strip_wiki_artifacts(s: str) -> str:
+    """`[label](wiki:Page)` → label; bare `(wiki:…cite_ref…)` tokens dropped.
+    S213 (Matt): raw MediaWiki cite_ref anchors were reaching the model and the
+    UI through quote text — strip them at the parse layer so no consumer
+    (bundle, search index, read_node) ever sees them. Quotes that still lack a
+    book cite keep cite=None; provenance stays wiki-tier without the gibberish."""
+    s = _WIKI_LINK_RE.sub(r"\1", s)
+    s = _WIKI_TOKEN_RE.sub("", s)
+    return re.sub(r"[ \t]{2,}", " ", s).strip()
+
+
 def parse_quotes(quotes_text: str) -> list[dict[str, str | None]]:
     """Parse a `## Quotes` section body into [{text, attribution, cite}].
 
     A quote = one-or-more consecutive `> ` lines (joined), optionally followed
     by (or containing) an attribution line starting with `—` that may carry a
-    `chapter:line` cite. Absorbed verbatim from scripts/build-chat-export.py.
+    `chapter:line` cite. Absorbed verbatim from scripts/build-chat-export.py
+    (S213: wiki-artifact stripping added at return time).
     """
     if not quotes_text:
         return []
@@ -335,6 +351,9 @@ def parse_quotes(quotes_text: str) -> list[dict[str, str | None]]:
                 if cm:
                     cite = cm.group(1)
                 i += 1
+            text = _strip_wiki_artifacts(text)
+            if attribution:
+                attribution = _strip_wiki_artifacts(attribution) or None
             if text:
                 quotes.append({"text": text, "attribution": attribution, "cite": cite})
         else:

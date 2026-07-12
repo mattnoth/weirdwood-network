@@ -98,25 +98,25 @@ Cersei, imprisoned by the [Faith of the Seven](wiki:Faith_of_the_Seven) in the [
 >
 > —[Kevan Lannister](wiki:Kevan_Lannister), to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> [Melara](wiki:Melara_Hetherspoon) said that if we never spoke about her [prophecies](wiki:Prophecy), we would forget them. She said that a forgotten prophecy couldn't come true.(wiki:Maggy_the_Frog.cite_ref-Raffc17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
+> Melara said that if we never spoke about her prophecies, we would forget them. She said that a forgotten prophecy couldn't come true.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-04.md:41`)
 
-> I would never have gone into that tent if not for them. I would never have allowed Maggy the Frog to taste my morrows in a drop of blood.(wiki:Maggy_the_Frog.cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-2)
+> I would never have gone into that tent if not for them. I would never have allowed Maggy the Frog to taste my morrows in a drop of blood.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-07.md:163`)
 
-> Wrapped in roughspun cloaks with their hoods pulled up, the three of them had stolen from their beds and crossed the [tourney](wiki:Tourney) grounds to seek the [sorceress](wiki:Sorcery). [Melara](wiki:Melara_Hetherspoon) had heard the serving girls whispering how she could curse a man or make him fall in love, summon [demons](wiki:Demons) and [foretell the future](wiki:Prophecy).(wiki:Maggy_the_Frog.cite_ref-Raffc36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-29)
+> Wrapped in roughspun cloaks with their hoods pulled up, the three of them had stolen from their beds and crossed the tourney grounds to seek the sorceress. Melara had heard the serving girls whispering how she could curse a man or make him fall in love, summon demons and foretell the future.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-08.md:199`)
 
-> In [Lannisport](wiki:Lannisport) it was said that she had been young and beautiful when her husband had brought her back from [the east](wiki:Essos) with a load of [spices](wiki:Spices), but age and evil had left their marks on her.(wiki:Maggy_the_Frog.cite_ref-Raffc36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-30)
+> In Lannisport it was said that she had been young and beautiful when her husband had brought her back from the east with a load of spices, but age and evil had left their marks on her.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-08.md:211`)
 
-> You're a liar and a warty frog and a smelly old savage, and I don't believe a word of what you say. Come away, [Melara](wiki:Melara_Hetherspoon). She is not worth hearing.(wiki:Maggy_the_Frog.cite_ref-Raffc36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-31)
+> You're a liar and a warty frog and a smelly old savage, and I don't believe a word of what you say. Come away, Melara. She is not worth hearing.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister), in her dream
+> —Cersei Lannister, in her dream, AFFC (`sources/chapters/affc/affc-cersei-08.md:253`)
 
 > **Cersei:** I don't recall the woman's name. Something long and [eastern](wiki:Essos) and outlandish. The [smallfolk](wiki:Smallfolk) used to call her Maggy.
 >
@@ -128,18 +128,18 @@ Cersei, imprisoned by the [Faith of the Seven](wiki:Faith_of_the_Seven) in the [
 >
 > —[Cersei Lannister](wiki:Cersei_Lannister), to [Qyburn](wiki:Qyburn)
 
-> It was a pity that Maggy the Frog was dead. Piss on your [prophecy](wiki:Prophecy), old woman. [The little queen](wiki:Margaery_Tyrell) may be younger than I, but she has never been more beautiful, and soon she will be dead.(wiki:Maggy_the_Frog.cite_ref-Raffc39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-7)
+> It was a pity that Maggy the Frog was dead. Piss on your prophecy, old woman. The little queen may be younger than I, but she has never been more beautiful, and soon she will be dead.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-09.md:223`)
 
-> This was a hateful woman, old and sick and ugly. You were young and beautiful, full of life and pride. She lived in [Lannisport](wiki:Lannisport), you said, so she would have known of [the dwarf](wiki:Tyrion_Lannister) and how he killed [your lady mother](wiki:Joanna_Lannister). This creature dared not strike you, because of who you were, so she sought to wound you with her [viper](wiki:Viper)'s tongue.(wiki:Maggy_the_Frog.cite_ref-Raffc39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-8)
+> This was a hateful woman, old and sick and ugly. You were young and beautiful, full of life and pride. She lived in Lannisport, you said, so she would have known of the dwarf and how he killed your lady mother. This creature dared not strike you, because of who you were, so she sought to wound you with her viper's tongue.
 >
-> —[Taena of Myr](wiki:Taena_of_Myr), to [Cersei Lannister](wiki:Cersei_Lannister)
+> —Taena of Myr, to Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-09.md:269`)
 
 > Maggy the Frog should have been [in motley](wiki:Fool) too, for all she knew about the morrow. Cersei prayed the old fraud was screaming down in [hell](wiki:Seven_hells). [The younger queen](wiki:Margaery_Tyrell) whose coming she'd foretold was finished, and if that [prophecy](wiki:Prophecy) could fail, so could the rest. No [golden](wiki:Gold) shrouds, no *[valonqar](wiki:Valonqar)*, I am free of your croaking malice at last.(wiki:Maggy_the_Frog.cite_ref-Raffc43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-2)
 >
 > —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
 
-> And suddenly the hag was there, standing in the crowd with her pendulous teats and her warty greenish skin, [leering with the rest](wiki:Walk_of_atonement), with malice shining from her crusty yellow eyes.(wiki:Maggy_the_Frog.cite_ref-Radwd65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> And suddenly the hag was there, standing in the crowd with her pendulous teats and her warty greenish skin, leering with the rest, with malice shining from her crusty yellow eyes.
 >
-> —hallucination of [Cersei Lannister](wiki:Cersei_Lannister)
+> —hallucination of Cersei Lannister, ADWD (`sources/chapters/adwd/adwd-cersei-02.md:171`)

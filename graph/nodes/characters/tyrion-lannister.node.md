@@ -191,17 +191,17 @@ While in the Second Sons, Tyrion attempts to sway Brown Ben Plumm's mind over a 
 >
 > —[Varys](wiki:Varys) and Tyrion
 
-> When you tear out a man’s tongue, you are not proving him a liar, you're only telling the world that you fear what he might say.(wiki:Tyrion_Lannister.cite_ref-Racok15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_55-2)
+> When you tear out a man’s tongue, you are not proving him a liar, you're only telling the world that you fear what he might say.
 >
-> —Tyrion to [Cersei Lannister](wiki:Cersei_Lannister)
+> —Tyrion to Cersei Lannister, ACOK (`sources/chapters/acok/acok-tyrion-03.md:41`)
 
 > **Tyrion**: Next? **Bronn**: A lordling down from the Trident, says your father's men burned his keep, raped his wife, and killed all his peasants.**Tyrion**: I believe they call that war. (wiki:Tyrion_Lannister.cite_ref-Racok15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_55-3)
 >
 > —Tyrion to [Cersei Lannister](wiki:Cersei_Lannister)
 
-> I have never liked you, Cersei, but you were my own sister, so I never did you harm. You've ended that. I will hurt you for this. I don't know how yet, but give me time. A day will come when you think yourself safe and happy, and suddenly your joy will turn to ashes in your mouth, and you'll know the debt is paid.(wiki:Tyrion_Lannister.cite_ref-Racok56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_81-0)
+> I have never liked you, Cersei, but you were my own sister, so I never did you harm. You've ended that. I will hurt you for this. I don't know how yet, but give me time. A day will come when you think yourself safe and happy, and suddenly your joy will turn to ashes in your mouth, and you'll know the debt is paid.
 >
-> —Tyrion to [Cersei Lannister](wiki:Cersei_Lannister)
+> —Tyrion to Cersei Lannister, ACOK (`sources/chapters/acok/acok-tyrion-12.md:197`)
 
 > It all goes back and back. To our mothers and fathers and theirs before them. We are puppets dancing on the strings of those who came before us, and one day our own children will take up our strings and dance on in our steads.(wiki:Tyrion_Lannister.cite_ref-Rasos66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_68-1)
 >
@@ -229,9 +229,9 @@ While in the Second Sons, Tyrion attempts to sway Brown Ben Plumm's mind over a 
 >
 > —[Bowen Marsh](wiki:Bowen_Marsh) and [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I))
 
-> He is a bigger man than he seems, I think.(wiki:Tyrion_Lannister.cite_ref-Rasos28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_63-1)
+> He is a bigger man than he seems, I think.
 >
-> —[Garlan Tyrell](wiki:Garlan_Tyrell) to [Sansa Stark](wiki:Sansa_Stark)
+> —Garlan Tyrell to Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-03.md:135`)
 
 > Jaime, sweetling, I have known you since you were a babe at Joanna's breast. You smile like [Gerion](wiki:Gerion_Lannister) and fight like [Tyg](wiki:Tygett_Lannister) and there's some of [Kevan](wiki:Kevan_Lannister) in you, else you would not wear that cloak... but **Tyrion** is [Tywin](wiki:Tywin_Lannister)'s son, not you. I said so once to your father's face, and he would not speak to me for half a year.(wiki:Tyrion_Lannister.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_82-0)
 >

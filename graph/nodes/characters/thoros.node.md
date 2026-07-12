@@ -75,9 +75,9 @@ After fighting [Rorge](wiki:Rorge) and [Biter](wiki:Biter) at the [crossroads in
 >
 > —[Sandor Clegane](wiki:Sandor_Clegane) and Thoros
 
-> Yet I am not the false priest you knew. The [Lord of Light](wiki:R'hllor) has woken in my heart. Many powers long asleep are waking, and there are forces moving in the land. I have seen them in my flames.(wiki:Thoros.cite_ref-Rasos34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-9)
+> Yet I am not the false priest you knew. The Lord of Light has woken in my heart. Many powers long asleep are waking, and there are forces moving in the land. I have seen them in my flames.
 >
-> —Thoros to [Sandor Clegane](wiki:Sandor_Clegane)
+> —Thoros to Sandor Clegane, ASOS (`sources/chapters/asos/asos-arya-06.md:43`)
 
 > **Beric:** Thoros, how many times have you brought me back now? **Thoros:** It is [R'hllor](wiki:R'hllor) who brings you back, my lord. The Lord of Light. I am only his instrument.(wiki:Thoros.cite_ref-Rasos39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-2)
 >
@@ -97,9 +97,9 @@ After fighting [Rorge](wiki:Rorge) and [Biter](wiki:Biter) at the [crossroads in
 
 ### Quotes about Thoros
 
-> The red wizard. I've heard tell he has strange powers.(wiki:Thoros.cite_ref-Rasos11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> The red wizard. I've heard tell he has strange powers.
 >
-> —[Sharna](wiki:Sharna) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Sharna to Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-02.md:115`)
 
 > **Anguy:** Thoros herding sheep? **Ravella:** I grant you it was an odd sight, but Thoros claimed that as a priest he knew how to tend a flock.(wiki:Thoros.cite_ref-Rasos22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-6)
 >
@@ -109,9 +109,9 @@ After fighting [Rorge](wiki:Rorge) and [Biter](wiki:Biter) at the [crossroads in
 >
 > —[Arya Stark](wiki:Arya_Stark) and [Gendry](wiki:Gendry)
 
-> A grievous wound, aye, but Thoros healed it. There's never been no better healer.(wiki:Thoros.cite_ref-Rasos39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-3)
+> A grievous wound, aye, but Thoros healed it. There's never been no better healer.
 >
-> —[Lem](wiki:Lem) to [Arya Stark](wiki:Arya_Stark)
+> —Lem to Arya Stark, ASOS (`sources/chapters/asos/asos-arya-07.md:69`)
 
 > He'd just dip some cheap sword in wildfire and set it alight. It was only an alchemist's trick, my master said, but it scared the horses and some of the greener knights.
 >

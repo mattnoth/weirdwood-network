@@ -36,6 +36,6 @@ Penny tells [Tyrion Lannister](wiki:Tyrion_Lannister) of her father and that he 
 
 ## Quotes
 
-> You have to be careful around big people. Be jolly and playful with them, keep them smiling, make them laugh, that's what my father always said.(wiki:Hop-Bean.cite_ref-Radwd40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+> You have to be careful around big people. Be jolly and playful with them, keep them smiling, make them laugh, that's what my father always said.
 >
-> —[Penny](wiki:Penny)’s advice to [Tyrion Lannister](wiki:Tyrion_Lannister) aboard the *[Selaesori Qhoran](wiki:Selaesori_Qhoran)*
+> —Penny’s advice to Tyrion Lannister aboard the *Selaesori Qhoran*, ADWD (`sources/chapters/adwd/adwd-tyrion-09.md:93`)

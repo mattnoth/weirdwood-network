@@ -116,13 +116,13 @@ Arianne and company travel through the [rainwood](wiki:Rainwood), and they explo
 >
 > —Arianne and [Arys Oakheart](wiki:Arys_Oakheart)
 
-> She leaned her back against a fluted pillar and wondered if her brother was looking at the same stars tonight, wherever he might be. Do you see the white one, [Quentyn](wiki:Quentyn_Martell)? That is [Nymeria](wiki:Nymeria)'s star, burning bright, and that milky band behind her, those are [ten thousand ships](wiki:Ten_thousand_ships). She burned as bright as any man, and so shall I. You will not rob me of [my birthright](wiki:Dorne)!(wiki:Arianne_Martell.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-17)
+> She leaned her back against a fluted pillar and wondered if her brother was looking at the same stars tonight, wherever he might be. Do you see the white one, Quentyn? That is Nymeria's star, burning bright, and that milky band behind her, those are ten thousand ships. She burned as bright as any man, and so shall I. You will not rob me of my birthright!
 >
-> —thoughts of Arianne
+> —thoughts of Arianne, AFFC (`sources/chapters/affc/affc-the-queenmaker-01.md:63`)
 
-> Anger was better than tears, better than grief, better than guilt. Someone told, someone she had trusted. [Arys Oakheart](wiki:Arys_Oakheart) had died because of that, slain by the traitor's whisper as much as by [the captain](wiki:Areo_Hotah)'s axe. The blood that had streamed down [Myrcella's](wiki:Myrcella_Baratheon) face, that was the betrayer's work as well. Someone told, someone she had loved. That was the cruelest cut of all.(wiki:Arianne_Martell.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-23)
+> Anger was better than tears, better than grief, better than guilt. Someone told, someone she had trusted. Arys Oakheart had died because of that, slain by the traitor's whisper as much as by the captain's axe. The blood that had streamed down Myrcella's face, that was the betrayer's work as well. Someone told, someone she had loved. That was the cruelest cut of all.
 >
-> —thoughts of Arianne
+> —thoughts of Arianne, AFFC (`sources/chapters/affc/affc-the-princess-in-the-tower-01.md:43`)
 
 > **Doran**: Why? Tell me that, Arianne. Tell me why. **Arianne**: For the honor of [our House](wiki:House_Martell).(wiki:Arianne_Martell.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-24)
 >
@@ -148,25 +148,25 @@ Arianne and company travel through the [rainwood](wiki:Rainwood), and they explo
 
 ### Quotes about Arianne
 
-> She had a husky voice, a wide mouth made for whispers, full lips ripe for kissing.(wiki:Arianne_Martell.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-22)
+> She had a husky voice, a wide mouth made for whispers, full lips ripe for kissing.
 >
-> —thoughts of [Arys Oakheart](wiki:Arys_Oakheart)
+> —thoughts of Arys Oakheart, AFFC (`sources/chapters/affc/affc-the-soiled-knight-01.md:79`)
 
-> Remember, she is [Dornish](wiki:Dorne). In the [Reach](wiki:Reach) men said it was the food that made [Dornishmen](wiki:Dornishmen) so hot-tempered and their women so wild and wanton. Fiery peppers and strange [spices](wiki:Spices) heat the blood, she cannot help herself.(wiki:Arianne_Martell.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-23)
+> Remember, she is Dornish. In the Reach men said it was the food that made Dornishmen so hot-tempered and their women so wild and wanton. Fiery peppers and strange spices heat the blood, she cannot help herself.
 >
-> —thoughts of [Arys Oakheart](wiki:Arys_Oakheart)
+> —thoughts of Arys Oakheart, AFFC (`sources/chapters/affc/affc-the-soiled-knight-01.md:93`)
 
 > [Myrcella](wiki:Myrcella_Baratheon) is the elder, and better suited to [the crown](wiki:Iron_Throne). Who will defend her rights if not her [Kingsguard](wiki:Kingsguard)? My sword, my life, my honor, all belong to her ... and to you, my heart's delight. I swear, no man will steal your birthright whilst I still have the strength to lift a sword. I am yours.(wiki:Arianne_Martell.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-24)
 >
 > —[Arys Oakheart](wiki:Arys_Oakheart) to Arianne
 
-> [Dorne](wiki:Dorne) will be yours. You have my word on that, if my word still has any meaning for you.(wiki:Arianne_Martell.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-26)
+> Dorne will be yours. You have my word on that, if my word still has any meaning for you.
 >
-> —[Doran Martell](wiki:Doran_Martell) to Arianne
+> —Doran Martell to Arianne, AFFC (`sources/chapters/affc/affc-the-princess-in-the-tower-01.md:309`)
 
-> My little princess, Hotah thought, but Arianne was a woman now. The scarlet silks she wore left no doubt of that. Of late she had changed in other ways as well. Her plot to crown [Myrcella](wiki:Myrcella_Baratheon) had been betrayed and smashed, [her white knight](wiki:Arys_Oakheart) had perished bloodily at Hotah's hand, and she herself had been confined to the [Spear Tower](wiki:Spear_Tower), condemned to solitude and silence. All of that had chastened her. There was something else as well, though, some secret [her father](wiki:Doran_Martell) had confided in her before releasing her from her confinement. [What that was](wiki:Secret_marriage_pact), the captain did not know.(wiki:Arianne_Martell.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-5)
+> My little princess, Hotah thought, but Arianne was a woman now. The scarlet silks she wore left no doubt of that. Of late she had changed in other ways as well. Her plot to crown Myrcella had been betrayed and smashed, her white knight had perished bloodily at Hotah's hand, and she herself had been confined to the Spear Tower, condemned to solitude and silence. All of that had chastened her. There was something else as well, though, some secret her father had confided in her before releasing her from her confinement. What that was, the captain did not know.
 >
-> —thoughts of [Areo Hotah](wiki:Areo_Hotah)
+> —thoughts of Areo Hotah, ADWD (`sources/chapters/adwd/adwd-the-watcher-01.md:53`)
 
 ## Edges
 

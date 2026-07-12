@@ -46,10 +46,10 @@ At [Darry](wiki:Darry), Jaime explains how Ser [Arthur Dayne](wiki:Arthur_Dayne)
 
 ## Quotes
 
-> When he was young, [His Grace](wiki:Rhaegar_Targaryen) rode brilliantly in a [tourney at Storm's End](wiki:Tourney_at_Storm's_End), defeating Lord [Steffon Baratheon](wiki:Steffon_Baratheon), Lord [Jason Mallister](wiki:Jason_Mallister), the [Red Viper](wiki:Oberyn_Martell) of [Dorne](wiki:Dorne), and a [mystery knight](wiki:Mystery_knight) who proved to be the infamous Simon Toyne, chief of the [kingswood outlaws](wiki:Kingswood_Brotherhood).(wiki:Simon_Toyne.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+> When he was young, His Grace rode brilliantly in a tourney at Storm's End, defeating Lord Steffon Baratheon, Lord Jason Mallister, the Red Viper of Dorne, and a mystery knight who proved to be the infamous Simon Toyne, chief of the kingswood outlaws.
 >
-> —[Arstan Whitebeard](wiki:Barristan_Selmy) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Arstan Whitebeard to Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-04.md:317`)
 
-> The world was simpler in those days, Jaime thought, and men as well as swords were made of finer steel. Or was it only that he had been fifteen? They were all in their graves now, the [Sword of the Morning](wiki:Arthur_Dayne) and the [Smiling Knight](wiki:Smiling_Knight), the [White Bull](wiki:Gerold_Hightower) and Prince [Lewyn](wiki:Lewyn_Martell), Ser [Oswell Whent](wiki:Oswell_Whent) with his black humor, earnest [Jon Darry](wiki:Jon_Darry), Simon Toyne and his [Kingswood Brotherhood](wiki:Kingswood_Brotherhood), bluff old [Sumner Crakehall](wiki:Sumner_Crakehall).(wiki:Simon_Toyne.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> The world was simpler in those days, Jaime thought, and men as well as swords were made of finer steel. Or was it only that he had been fifteen? They were all in their graves now, the Sword of the Morning and the Smiling Knight, the White Bull and Prince Lewyn, Ser Oswell Whent with his black humor, earnest Jon Darry, Simon Toyne and his Kingswood Brotherhood, bluff old Sumner Crakehall.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-08.md:43`)

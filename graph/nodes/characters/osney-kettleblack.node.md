@@ -93,9 +93,9 @@ Osney remains a prisoner of the [Faith of the Seven](wiki:Faith_of_the_Seven). H
 >
 > —Osney, to [Cersei Lannister](wiki:Cersei_Lannister)
 
-> You can keep the [crown](wiki:Crown) on. I like you in the crown.(wiki:Osney_Kettleblack.cite_ref-Raffc39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-3)
+> You can keep the crown on. I like you in the crown.
 >
-> —Osney, to [Cersei Lannister](wiki:Cersei_Lannister)
+> —Osney, to Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-09.md:339`)
 
 > **High Sparrow**: Ser Osney, did you have carnal knowledge of [the queen](wiki:Margaery_Tyrell)? **Osney**: Aye. [That one there](wiki:Cersei_Lannister). She's the queen I fucked, the one sent me to kill [the old High Septon](wiki:High_Septon_(Tyrion's)).(wiki:Osney_Kettleblack.cite_ref-Raffc43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-3)
 >
@@ -103,9 +103,9 @@ Osney remains a prisoner of the [Faith of the Seven](wiki:Faith_of_the_Seven). H
 
 ### Quotes about Osney
 
-> Amiable rogues all three, [the brothers](wiki:House_Kettleblack) were in truth much more skilled at deceit than they'd ever been at bloodletting. [Cersei](wiki:Cersei_Lannister) had managed to buy herself three hollow [drums](wiki:Drum); they would make all the fierce booming sounds she required, but there was nothing inside.(wiki:Osney_Kettleblack.cite_ref-Racok41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
+> Amiable rogues all three, the brothers were in truth much more skilled at deceit than they'd ever been at bloodletting. Cersei had managed to buy herself three hollow drums; they would make all the fierce booming sounds she required, but there was nothing inside.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-09.md:39`)
 
 > **Tyrion**: The [Kettleblacks](wiki:House_Kettleblack) were supposed to be ours. **Bronn**: They were, so long as I could give them two of your [pennies](wiki:Pennies) for every one they had from [the queen](wiki:Cersei_Lannister), but now she's raised the stakes. Osney and [Osfryd](wiki:Osfryd_Kettleblack) were made [knights](wiki:Knight) after [the battle](wiki:Battle_of_the_Blackwater), same as me. [Gods](wiki:Gods) know what for, no one saw them do any fighting.(wiki:Osney_Kettleblack.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 >

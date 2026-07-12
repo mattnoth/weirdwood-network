@@ -57,10 +57,10 @@ Although Cersei expects that Bronn will suffer a mortal hunting mishap, the chiv
 
 ### Quotes about Balman
 
-> As a catspaw he leaves much to be desired, she reflected. Still, he should serve.(wiki:Balman_Byrch.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
+> As a catspaw he leaves much to be desired, she reflected. Still, he should serve.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-05.md:329`)
 
-> [Your](wiki:Falyse_Stokeworth) cretin of a husband wrote his own death warrant.(wiki:Balman_Byrch.cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+> Your cretin of a husband wrote his own death warrant.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-07.md:203`)

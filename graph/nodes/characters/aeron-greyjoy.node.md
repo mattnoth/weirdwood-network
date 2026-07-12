@@ -78,9 +78,9 @@ Aeron is later taken to a captured island castle located near the [Arbor](wiki:A
 
 ### Quotes by Aeron
 
-> What is dead may never die, but rises again, harder and stronger.(wiki:Aeron_Greyjoy.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+> What is dead may never die, but rises again, harder and stronger.
 >
-> —Aeron to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Aeron to Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-01.md:97`)
 
 > Young I was, and vain, but the sea washed my follies and my vanities away. That man drowned, nephew. His lungs filled with seawater, and the fish ate the scales off his eyes. When I rose again, I saw clearly.(wiki:Aeron_Greyjoy.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7)
 >
@@ -92,21 +92,21 @@ Aeron is later taken to a captured island castle located near the [Arbor](wiki:A
 >
 > —[Balon Greyjoy](wiki:Balon_Greyjoy), Aeron, and [Victarion Greyjoy](wiki:Victarion_Greyjoy)
 
-> Aeron Greyjoy was a prophet. He did not suffer petty [lords](wiki:Lord) ordering him about like some [thrall](wiki:Thrall).(wiki:Aeron_Greyjoy.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-13)
+> Aeron Greyjoy was a prophet. He did not suffer petty lords ordering him about like some thrall.
 >
-> —thoughts of Aeron
+> —thoughts of Aeron, AFFC (`sources/chapters/affc/affc-the-prophet-01.md:51`)
 
-> The sound of a door opening, the scream of a rusted iron hinge. [Euron](wiki:Euron_Greyjoy) has come again.(wiki:Aeron_Greyjoy.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-14)
+> The sound of a door opening, the scream of a rusted iron hinge. Euron has come again.
 >
-> —memory of Aeron
+> —memory of Aeron, AFFC (`sources/chapters/affc/affc-the-prophet-01.md:165`)
 
 > [The god](wiki:Drowned_God) took me deep beneath the waves and drowned the worthless thing I was. When he cast me forth again he gave me eyes to see, ears to hear, and a voice to spread his word, that I might be his prophet and teach his truth to those who have forgotten. I was not made to sit upon the [Seastone Chair](wiki:Seastone_Chair) ... no more than [Euron Crow's Eye](wiki:Euron_Greyjoy). For I have heard the god, who says, No godless man may sit my Seastone Chair!(wiki:Aeron_Greyjoy.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-15)
 >
 > —Aeron to his [drowned men](wiki:Drowned_men)
 
-> I was reborn from the sea, a harder man and stronger.(wiki:Aeron_Greyjoy.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-5)
+> I was reborn from the sea, a harder man and stronger.
 >
-> —thoughts of Aeron
+> —thoughts of Aeron, AFFC (`sources/chapters/affc/affc-the-drowned-man-01.md:13`)
 
 > I have my voice, and [the god](wiki:Drowned_God) is with me. Mine is the strength of the sea, a strength the [Crow's Eye](wiki:Euron_Greyjoy) cannot hope to withstand. The waves may break upon the mountain, yet still they come, wave upon wave, and in the end only pebbles remain where once the mountain stood. And soon even the pebbles are swept away, to be ground beneath the sea for all eternity.(wiki:Aeron_Greyjoy.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-2)
 >
@@ -144,13 +144,13 @@ Aeron is later taken to a captured island castle located near the [Arbor](wiki:A
 >
 > —[Baelor Blacktyde](wiki:Baelor_Blacktyde) to [Victarion Greyjoy](wiki:Victarion_Greyjoy)
 
-> I am more devout than even you, Aeron. Perhaps it should be you who kneels to me for blessing.(wiki:Aeron_Greyjoy.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-5)
+> I am more devout than even you, Aeron. Perhaps it should be you who kneels to me for blessing.
 >
-> —[Euron Greyjoy](wiki:Euron_Greyjoy) to Aeron
+> —Euron Greyjoy to Aeron, AFFC (`sources/chapters/affc/affc-the-iron-captain-01.md:149`)
 
-> I think the Damphair's dead. I think the [Crow's Eye](wiki:Euron_Greyjoy) slit his throat for him. [Ironmaker's](wiki:Erik_Ironmaker) search is just to make us believe the priest escaped. Euron is afraid to be seen as a [kinslayer](wiki:Kinslayer).(wiki:Aeron_Greyjoy.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1)
+> I think the Damphair's dead. I think the Crow's Eye slit his throat for him. Ironmaker's search is just to make us believe the priest escaped. Euron is afraid to be seen as a kinslayer.
 >
-> —[Tristifer Botley](wiki:Tristifer_Botley) to [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —Tristifer Botley to Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-wayward-bride-01.md:183`)
 
 ## Edges
 

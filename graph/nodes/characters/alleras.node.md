@@ -72,6 +72,6 @@ Via a glass candle, Archmaester Marwyn [foresees](wiki:Prophecy) the arrival in 
 >
 > —thoughts of [Pate](wiki:Pate_(novice))
 
-> The Sphinx was always smiling, as if he knew some secret jape.(wiki:Alleras.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-17)
+> The Sphinx was always smiling, as if he knew some secret jape.
 >
-> —thoughts of [Pate](wiki:Pate_(novice))
+> —thoughts of Pate), AFFC (`sources/chapters/affc/affc-prologue.md:75`)

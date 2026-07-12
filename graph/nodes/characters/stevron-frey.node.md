@@ -72,14 +72,14 @@ During the [Red Wedding](wiki:Red_Wedding), Catelyn offers to exchange Stevron's
 
 ### Quotes about Stevron
 
-> The [Freys](wiki:House_Frey) all looked like weasels; Ser Stevron, past sixty with grandchildren of his own, looked like an especially old and tired weasel, yet he was polite enough.(wiki:Stevron_Frey.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)
+> The Freys all looked like weasels; Ser Stevron, past sixty with grandchildren of his own, looked like an especially old and tired weasel, yet he was polite enough.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-09.md:107`)
 
-> They're all waiting for me to die. Stevron's been waiting for forty years, but I keep disappointing him. Heh. Why should I die just so he can be a [lord](wiki:Lord_of_the_Crossing)? I ask you. I won't do it.(wiki:Stevron_Frey.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-6)
+> They're all waiting for me to die. Stevron's been waiting for forty years, but I keep disappointing him. Heh. Why should I die just so he can be a lord? I ask you. I won't do it.
 >
-> —[Walder Frey](wiki:Walder_Frey) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Walder Frey to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-09.md:171`)
 
-> When Ser Stevron had been heir, that was one thing. [The old man](wiki:Walder_Frey) had been grooming Stevron for sixty years, and had pounded it into his head that blood was blood. But Stevron [had died](wiki:Battle_of_Oxcross) whilst campaigning with [the Young Wolf](wiki:Robb_Stark) in [the west](wiki:Westerlands)—"of waiting, no doubt," [Lame Lothar](wiki:Lothar_Frey) had quipped when the [raven](wiki:Raven) brought them the news—and his sons and grandsons were a different sort of [Frey](wiki:House_Frey).(wiki:Stevron_Frey.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+> When Ser Stevron had been heir, that was one thing. The old man had been grooming Stevron for sixty years, and had pounded it into his head that blood was blood. But Stevron had died whilst campaigning with the Young Wolf in the west—"of waiting, no doubt," Lame Lothar had quipped when the raven brought them the news—and his sons and grandsons were a different sort of Frey.
 >
-> —thoughts of [Merrett Frey](wiki:Merrett_Frey)
+> —thoughts of Merrett Frey, ASOS (`sources/chapters/asos/asos-epilogue.md:29`)

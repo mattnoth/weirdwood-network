@@ -46,6 +46,6 @@ Barba was buxom(wiki:Barba_Bracken.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4
 
 ## Quotes
 
-> [Missy's Teats](wiki:Teats), the [Blackwoods](wiki:House_Blackwood) call them, but they were Barba's first.(wiki:Barba_Bracken.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+> Missy's Teats, the Blackwoods call them, but they were Barba's first.
 >
-> —[Jonos Bracken](wiki:Jonos_Bracken)
+> —Jonos Bracken, ADWD (`sources/chapters/adwd/adwd-jaime-01.md:103`)

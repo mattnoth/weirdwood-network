@@ -73,9 +73,9 @@ Euron sends [Victarion Greyjoy](wiki:Victarion_Greyjoy) to retrieve [Daenerys Ta
 >
 > —writings of [Haereg](wiki:Haereg)
 
-> War was an ironman's proper trade. The [Drowned God](wiki:Drowned_God) had made them to reave and rape, to carve out kingdoms and write their names in fire and blood and song.(wiki:Ironborn.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+> War was an ironman's proper trade. The Drowned God had made them to reave and rape, to carve out kingdoms and write their names in fire and blood and song.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-01.md:71`)
 
 > It was said that the ironmen of old had oft been blood-drunk in battle, so berserk that they felt no pain and feared no foe.(wiki:Ironborn.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-5)
 >
@@ -89,10 +89,10 @@ Euron sends [Victarion Greyjoy](wiki:Victarion_Greyjoy) to retrieve [Daenerys Ta
 >
 > —[Aeron Greyjoy](wiki:Aeron_Greyjoy) to [Victarion Greyjoy](wiki:Victarion_Greyjoy)
 
-> I had forgotten what a small and noisy folk they are, my ironborn.(wiki:Ironborn.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-6)
+> I had forgotten what a small and noisy folk they are, my ironborn.
 >
-> —[Euron Greyjoy](wiki:Euron_Greyjoy) to [Victarion Greyjoy](wiki:Victarion_Greyjoy)
+> —Euron Greyjoy to Victarion Greyjoy, AFFC (`sources/chapters/affc/affc-the-reaver-01.md:239`)
 
-> The ironmen live their whole lives at sea.(wiki:Ironborn.cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-1)
+> The ironmen live their whole lives at sea.
 >
-> —[Aurane Waters](wiki:Aurane_Waters) to [Harys Swyft](wiki:Harys_Swyft)
+> —Aurane Waters to Harys Swyft, AFFC (`sources/chapters/affc/affc-cersei-07.md:25`)

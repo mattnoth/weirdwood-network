@@ -46,6 +46,6 @@ While in [Volantis](wiki:Volantis) he spreads many false stories about Daenerys,
 >
 > —Grazdan, to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> You shall rue this arrogance, whore. These [little lizards](wiki:Dragon) will not keep you safe, I promise you. We will fill the air with arrows if they come within a league of [Yunkai](wiki:Yunkai). Do you think it is so hard to kill a [dragon](wiki:Dragon)?(wiki:Grazdan_mo_Eraz.cite_ref-Rasos42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+> You shall rue this arrogance, whore. These little lizards will not keep you safe, I promise you. We will fill the air with arrows if they come within a league of Yunkai. Do you think it is so hard to kill a dragon?
 >
-> —Grazdan, to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Grazdan, to Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-04.md:187`)

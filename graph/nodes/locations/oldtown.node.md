@@ -163,17 +163,17 @@ Stories of [Daenerys Targaryen](wiki:Daenerys_Targaryen) and her [dragons](wiki:
 
 ## Quotes
 
-> There are truths in [this world](wiki:Known_world) that are not taught at Oldtown.(wiki:Oldtown.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_47-1)
+> There are truths in this world that are not taught at Oldtown.
 >
-> —[Melisandre](wiki:Melisandre) to [Cressen](wiki:Cressen)
+> —Melisandre to Cressen, ACOK (`sources/chapters/acok/acok-prologue.md:307`)
 
-> Oldtown was a veritable labyrinth of a city, all wynds and crisscrossing alleys and narrow crookback streets.(wiki:Oldtown.cite_ref-Raffc0.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_62-0)
+> Oldtown was a veritable labyrinth of a city, all wynds and crisscrossing alleys and narrow crookback streets.
 >
-> —thoughts of [Pate](wiki:Pate_(novice))
+> —thoughts of Pate), AFFC (`sources/chapters/affc/affc-prologue.md:207`)
 
-> The city was never more beautiful than at break of day.(wiki:Oldtown.cite_ref-Raffc0.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_62-1)
+> The city was never more beautiful than at break of day.
 >
-> —thoughts of [Pate](wiki:Pate_(novice))
+> —thoughts of Pate), AFFC (`sources/chapters/affc/affc-prologue.md:235`)
 
 > **Doran**: [Obara](wiki:Obara_Sand) would have me go to war. **Nymeria**: Yes, she wants to set the torch to Oldtown. She hates that city as much as [our little sister](wiki:Sarella_Sand) loves it.(wiki:Oldtown.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_44-2)
 >

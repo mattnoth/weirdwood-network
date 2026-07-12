@@ -47,12 +47,12 @@ Like [Bowen Marsh](wiki:Bowen_Marsh), Septon Cellador is opposed to many of the 
 >
 > —[Jon Snow](wiki:Jon_Snow) and Cellador
 
-> Salvation can be found only through [the Seven](wiki:Faith_of_the_Seven).(wiki:Cellador.cite_ref-Radwd39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
+> Salvation can be found only through the Seven.
 >
-> —Cellador to [Jon Snow](wiki:Jon_Snow)
+> —Cellador to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-08.md:217`)
 
 ### Quotes about Cellador
 
-> Hungry was not the word Jon would have used. Septon Cellador appeared confused and groggy and in dire need of some scales from [the dragon](wiki:Alcoholism) that had flamed him, whilst First Builder [Othell Yarwyck](wiki:Othell_Yarwyck) looked as if he had swallowed something he could not quite digest.(wiki:Cellador.cite_ref-Radwd39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-3)
+> Hungry was not the word Jon would have used. Septon Cellador appeared confused and groggy and in dire need of some scales from the dragon that had flamed him, whilst First Builder Othell Yarwyck looked as if he had swallowed something he could not quite digest.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-08.md:103`)

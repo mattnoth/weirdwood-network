@@ -66,10 +66,10 @@ After the [Battle of the Blackwater](wiki:Battle_of_the_Blackwater), Chella retu
 
 ### Quotes about Chella
 
-> Chella was a small hard woman, flat as a boy, and no [fool](wiki:Fool).(wiki:Chella.cite_ref-Ragot56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+> Chella was a small hard woman, flat as a boy, and no fool.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Vylarr](wiki:Vylarr)
+> —Tyrion Lannister to Vylarr, AGOT (`sources/chapters/agot/agot-tyrion-07.md:23`)
 
-> One is never quite safe when Chella daughter of [Cheyk](wiki:Cheyk) is about.(wiki:Chella.cite_ref-Racok3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
+> One is never quite safe when Chella daughter of Cheyk is about.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Vylarr](wiki:Vylarr)
+> —Tyrion Lannister to Vylarr, ACOK (`sources/chapters/acok/acok-tyrion-01.md:261`)

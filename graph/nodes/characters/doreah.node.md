@@ -56,19 +56,19 @@ Daenerys, now [Queen of Meereen](wiki:Queen_of_Meereen), uses Doreah's lessons w
 
 ### Quotes by Doreah
 
-> Once there were two [moons](wiki:Moon) in the sky, but one wandered too close to the [sun](wiki:Sun) and cracked from the heat. A thousand thousand [dragons](wiki:Dragon) poured forth, and drank the fire of the sun. That is why dragons [breathe flame](wiki:Dragonflame).(wiki:Doreah.cite_ref-Ragot23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
+> Once there were two moons in the sky, but one wandered too close to the sun and cracked from the heat. A thousand thousand dragons poured forth, and drank the fire of the sun. That is why dragons breathe flame.
 >
-> —Doreah to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Doreah to Daenerys Targaryen, AGOT (`sources/chapters/agot/agot-daenerys-03.md:167`)
 
 ### Quotes about Doreah
 
-> She's very good, [Illyrio](wiki:Illyrio_Mopatis) and I can both swear to that.(wiki:Doreah.cite_ref-Ragot11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> She's very good, Illyrio and I can both swear to that.
 >
-> —[Viserys Targaryen](wiki:Viserys_Targaryen) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Viserys Targaryen to Daenerys Targaryen, AGOT (`sources/chapters/agot/agot-daenerys-02.md:69`)
 
-> The [Lysene](wiki:Lys) girl had hair the color of [honey](wiki:Honey), and eyes like the summer sky.(wiki:Doreah.cite_ref-Ragot23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4)
+> The Lysene girl had hair the color of honey, and eyes like the summer sky.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, AGOT (`sources/chapters/agot/agot-daenerys-03.md:175`)
 
 ## Edges
 

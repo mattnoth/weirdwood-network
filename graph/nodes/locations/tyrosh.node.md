@@ -145,10 +145,10 @@ Queen [Daenerys Targaryen](wiki:Daenerys_Targaryen) takes a Tyroshi sellsword, [
 >
 > —thoughts of [Duncan the Tall](wiki:Duncan_the_Tall)
 
-> The Tyroshi loved bright colors, even in their facial hair.(wiki:Tyrosh.cite_ref-Ragot18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3)
+> The Tyroshi loved bright colors, even in their facial hair.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-04.md:25`)
 
-> Cat liked [it](wiki:Purple_Harbor) best of any place in [Braavos](wiki:Braavos). She liked the noise and the strange smells, and seeing what ships had come in on the evening tide and what ships had departed. She liked the sailors too; the boisterous Tyroshi with their booming voices and dyed whiskers; the fair-haired [Lyseni](wiki:Lys), always trying to niggle down her prices; the [squat, hairy sailors](wiki:Ibbenese) from the [Port of Ibben](wiki:Port_of_Ibben), growling curses in low, raspy voices.(wiki:Tyrosh.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+> Cat liked it best of any place in Braavos. She liked the noise and the strange smells, and seeing what ships had come in on the evening tide and what ships had departed. She liked the sailors too; the boisterous Tyroshi with their booming voices and dyed whiskers; the fair-haired Lyseni, always trying to niggle down her prices; the squat, hairy sailors from the Port of Ibben, growling curses in low, raspy voices.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, AFFC (`sources/chapters/affc/affc-cat-of-the-canals-01.md:61`)

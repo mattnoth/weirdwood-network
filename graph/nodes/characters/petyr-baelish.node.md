@@ -201,17 +201,17 @@ After Sansa makes the suggestions, Petyr arranges for a tourney to be held at th
 
 — Petyr to Sansa aboard the Merling King — his obsession with Catelyn Tully projected onto Sansa, delivered as comfort immediately after the Purple Wedding, ASOS Sansa V (`sources/chapters/asos/asos-sansa-05.md:171`) [q678]
 
-> Everyone wants something, Alayne. And when you know what a man wants you know who he is, and how to move him.(wiki:Petyr_Baelish.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-21)
+> Everyone wants something, Alayne. And when you know what a man wants you know who he is, and how to move him.
 >
-> —Petyr to [Sansa Stark](wiki:Sansa_Stark)
+> —Petyr to Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-06.md:141`)
 
-> You could turn [King's Landing](wiki:King's_Landing) upside down and not find a single man with a [mockingbird](wiki:Mockingbird) sewn over his heart, but that does not mean I am friendless.(wiki:Petyr_Baelish.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-22)
+> You could turn King's Landing upside down and not find a single man with a mockingbird sewn over his heart, but that does not mean I am friendless.
 >
-> —Petyr to [Sansa Stark](wiki:Sansa_Stark)
+> —Petyr to Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-06.md:149`)
 
-> Clean hands, Sansa. Whatever you do, make certain your hands are clean.(wiki:Petyr_Baelish.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-23)
+> Clean hands, Sansa. Whatever you do, make certain your hands are clean.
 >
-> —Petyr to [Sansa Stark](wiki:Sansa_Stark)
+> —Petyr to Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-06.md:175`)
 
 > **Petyr**: My sweet silly jealous wife. I've only loved one woman, I promise you.
 >
@@ -219,13 +219,13 @@ After Sansa makes the suggestions, Petyr arranges for a tourney to be held at th
 >
 > —[Lysa Arryn](wiki:Lysa_Arryn) and Petyr
 
-> Men of honor will do things for their children that they would never consider doing for themselves.(wiki:Petyr_Baelish.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-3)
+> Men of honor will do things for their children that they would never consider doing for themselves.
 >
-> —Petyr to [Sansa Stark](wiki:Sansa_Stark)
+> —Petyr to Sansa Stark, AFFC (`sources/chapters/affc/affc-sansa-01.md:253`)
 
-> In the game of thrones, even the humblest pieces can have wills of their own. Sometimes they refuse to make the moves you've planned for them. Mark that well, Alayne. It's a lesson that [Cersei Lannister](wiki:Cersei_Lannister) still has yet to learn.(wiki:Petyr_Baelish.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-5)
+> In the game of thrones, even the humblest pieces can have wills of their own. Sometimes they refuse to make the moves you've planned for them. Mark that well, Alayne. It's a lesson that Cersei Lannister still has yet to learn.
 >
-> —Petyr to [Sansa Stark](wiki:Sansa_Stark)
+> —Petyr to Sansa Stark, AFFC (`sources/chapters/affc/affc-alayne-01.md:149`)
 
 > "You wear your honor like a suit of armor, Stark. You think it keeps you safe, but all it does is weigh you down and make it hard for you to move. Look at you now. You know why you summoned me here. You know what you want to ask me to do. You know it has to be done … but it's not honorable, so the words stick in your throat."
 
@@ -237,9 +237,9 @@ After Sansa makes the suggestions, Petyr arranges for a tourney to be held at th
 >
 > —[Rodrik Cassel](wiki:Rodrik_Cassel) and [Catelyn Stark](wiki:Catelyn_Stark)
 
-> He had grey-green eyes that did not smile when his mouth did.(wiki:Petyr_Baelish.cite_ref-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-7)
+> He had grey-green eyes that did not smile when his mouth did.
 >
-> —[Sansa Stark](wiki:Sansa_Stark)'s thoughts
+> —Sansa Stark's thoughts, AGOT (`sources/chapters/agot/agot-sansa-02.md:45`)
 
 > **Catelyn**: Why would Petyr lie to me?
 >
@@ -251,17 +251,17 @@ After Sansa makes the suggestions, Petyr arranges for a tourney to be held at th
 >
 > —[Varys](wiki:Varys) to [Illyrio Mopatis](wiki:Illyrio_Mopatis)
 
-> Something about the way the small man looked at her made Sansa feel as though she had no clothes on.(wiki:Petyr_Baelish.cite_ref-Ragot51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_54-1)
+> Something about the way the small man looked at her made Sansa feel as though she had no clothes on.
 >
-> —[Sansa Stark](wiki:Sansa_Stark)'s thoughts
+> —Sansa Stark's thoughts, AGOT (`sources/chapters/agot/agot-sansa-04.md:85`)
 
-> Littlefinger is the second most devious man in the [Seven Kingdoms](wiki:Seven_Kingdoms).(wiki:Petyr_Baelish.cite_ref-Ragot58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-2)
+> Littlefinger is the second most devious man in the Seven Kingdoms.
 >
-> —[Varys](wiki:Varys) to [Eddard Stark](wiki:Eddard_Stark)
+> —Varys to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-15.md:139`)
 
-> Littlefinger was no threat to anyone. A clever, smiling, genial man, everyone's friend, always able to find whatever gold [the king](wiki:Robert_I_Baratheon) or [his Hand](wiki:Jon_Arryn) required, and yet of such undistinguished birth, one step up from a [hedge knight](wiki:Hedge_knight), he was not a man to fear. He had no banners to call, no army of retainers, no great stronghold, no holdings to speak of, no prospects of a great marriage.(wiki:Petyr_Baelish.cite_ref-Racok17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-18)
+> Littlefinger was no threat to anyone. A clever, smiling, genial man, everyone's friend, always able to find whatever gold the king or his Hand required, and yet of such undistinguished birth, one step up from a hedge knight, he was not a man to fear. He had no banners to call, no army of retainers, no great stronghold, no holdings to speak of, no prospects of a great marriage.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
+> —Tyrion Lannister's thoughts, ACOK (`sources/chapters/acok/acok-tyrion-04.md:227`)
 
 > Littlefinger's [gold](wiki:Gold) is made from thin air, with a snap from his fingers.(wiki:Petyr_Baelish.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-4)
 >
@@ -275,6 +275,6 @@ After Sansa makes the suggestions, Petyr arranges for a tourney to be held at th
 >
 > —[Sansa Stark](wiki:Sansa_Stark)'s thoughts
 
-> Littlefinger was as amiable as he was clever, but too lowborn to threaten any of the great lords, with no swords of his own. The perfect [Hand](wiki:Hand_of_the_King).(wiki:Petyr_Baelish.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-4)
+> Littlefinger was as amiable as he was clever, but too lowborn to threaten any of the great lords, with no swords of his own. The perfect Hand.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister)'s thoughts
+> —Jaime Lannister's thoughts, AFFC (`sources/chapters/affc/affc-jaime-07.md:205`)

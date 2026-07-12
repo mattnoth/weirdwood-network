@@ -112,17 +112,17 @@ Following the fall of Cersei, Grand Maester Pycelle successfully seizes control 
 >
 > —[Jon Snow](wiki:Jon_Snow) and [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I))
 
-> All the world knew that a maester forged his [silver](wiki:Silver) link when he learned the art of healing—but the world preferred to forget that men who knew how to heal also [knew how to kill](wiki:Poison).(wiki:Maesters.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_82-0)
+> All the world knew that a maester forged his silver link when he learned the art of healing—but the world preferred to forget that men who knew how to heal also knew how to kill.
 >
-> —thoughts of [Cressen](wiki:Cressen)
+> —thoughts of Cressen, ACOK (`sources/chapters/acok/acok-prologue.md:269`)
 
-> No proper man would choose a life of [thralldom](wiki:Thrall), nor forge a chain of servitude to wear about his throat.(wiki:Maesters.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-1)
+> No proper man would choose a life of thralldom, nor forge a chain of servitude to wear about his throat.
 >
-> —thoughts of [Aeron Greyjoy](wiki:Aeron_Greyjoy)
+> —thoughts of Aeron Greyjoy, AFFC (`sources/chapters/affc/affc-the-prophet-01.md:105`)
 
-> The archmaesters are all craven at heart. The grey sheep, [Marwyn](wiki:Marwyn) calls them.(wiki:Maesters.cite_ref-Raffc7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_43-3)
+> The archmaesters are all craven at heart. The grey sheep, Marwyn calls them.
 >
-> —[Qyburn](wiki:Qyburn)
+> —Qyburn, AFFC (`sources/chapters/affc/affc-cersei-02.md:217`)
 
 > **Barbrey**: If I were queen, the first thing I would do would be to kill all those grey rats. They scurry everywhere, living on the leavings of the [lords](wiki:Lord), chittering to one another, whispering in the ears of their masters. But who are the masters and who are the servants, truly? Every great lord has his maester, every lesser lord aspires to one. If you do not have a maester, it is taken to mean that you are of little consequence. The grey rats read and write our letters, even for such lords as cannot read themselves, and who can say for a certainty that they are not twisting the words for their own ends? What good are they, I ask you?
 >

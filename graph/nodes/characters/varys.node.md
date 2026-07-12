@@ -127,9 +127,9 @@ Varys employs the secret passages of the [Red Keep](wiki:Red_Keep) to enter the 
 >
 > —Varys to [Illyrio Mopatis](wiki:Illyrio_Mopatis), in the tunnels beneath the Red Keep ([Arya](wiki:Arya_Stark) overhears) — the AGOT conspiracy seed of the AEGON / Targaryen-restoration thread (`sources/chapters/agot/agot-arya-03.md:79`, Evidence for the `varys CONSPIRES_WITH illyrio-mopatis` dyad)
 
-> A [eunuch](wiki:Eunuch) has no honor, and a spider does not enjoy the luxury of scruples, my lord.(wiki:Varys.cite_ref-Ragot58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-3)
+> A eunuch has no honor, and a spider does not enjoy the luxury of scruples, my lord.
 >
-> —Varys to [Eddard Stark](wiki:Eddard_Stark)
+> —Varys to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-15.md:95`)
 
 > **Varys**: I begin to comprehend why the queen fears you so much. Oh, yes I do.
 >
@@ -148,13 +148,13 @@ Varys employs the secret passages of the [Red Keep](wiki:Red_Keep) to enter the 
 >
 > —Varys to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> The storms come and go, the waves crash overhead, the big fish eat the little fish, and I keep on paddling.(wiki:Varys.cite_ref-Racok8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-7)
+> The storms come and go, the waves crash overhead, the big fish eat the little fish, and I keep on paddling.
 >
-> —Varys to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Varys to Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-02.md:149`)
 
-> Power resides where men believe it resides. No more and no less.(wiki:Varys.cite_ref-Racok8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-8)
+> Power resides where men believe it resides. No more and no less.
 >
-> —Varys to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Varys to Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-02.md:215`)
 
 > **Tyrion**: Lord Varys, sometimes I feel as though you are the best friend I have in [King's Landing](wiki:King's_Landing), and sometimes I feel you are my worst enemy. **Varys**: How odd. I think quite the same of you.(wiki:Varys.cite_ref-Racok15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_40-3)
 >
@@ -172,9 +172,9 @@ Varys employs the secret passages of the [Red Keep](wiki:Red_Keep) to enter the 
 
 ### Quotes about Varys
 
-> Nothing happens in [this city](wiki:King's_Landing) without Varys knowing. Ofttimes he knows about it before it happens. He has informants everywhere. His [little birds](wiki:Little_birds), he calls them.(wiki:Varys.cite_ref-Ragot18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> Nothing happens in this city without Varys knowing. Ofttimes he knows about it before it happens. He has informants everywhere. His little birds, he calls them.
 >
-> —[Petyr Baelish](wiki:Petyr_Baelish) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Petyr Baelish to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-04.md:133`)
 
 > **Eddard Stark**: You spoke of Varys. Does the [eunuch](wiki:Eunuch) know all of it?" **Catelyn**: Not from my lips. You did not wed a fool, Eddard Stark. But Varys has ways of learning things that no man could know. He has some [dark art](wiki:Magic), Ned, I swear it.(wiki:Varys.cite_ref-Ragot20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
 >
@@ -188,9 +188,9 @@ Varys employs the secret passages of the [Red Keep](wiki:Red_Keep) to enter the 
 >
 > — [Eddard Stark](wiki:Eddard_Stark) and [Pycelle](wiki:Pycelle)
 
-> For all his protestations of loyalty, the eunuch knew too much and did too little.(wiki:Varys.cite_ref-Ragot45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+> For all his protestations of loyalty, the eunuch knew too much and did too little.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-12.md:61`)
 
 > Birds are lost, messages stolen or sold ... there are things I might tell you of that eunuch that would chill your blood ...(wiki:Varys.cite_ref-Racok25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
 >
@@ -212,9 +212,9 @@ Varys employs the secret passages of the [Red Keep](wiki:Red_Keep) to enter the 
 >
 > —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Davos Seaworth](wiki:Davos_Seaworth)
 
-> In [Myr](wiki:Myr) he was a prince of thieves, until a rival thief informed on him. In [Pentos](wiki:Pentos) his accent marked him, and once he was known for a [eunuch](wiki:Eunuch) he was despised and beaten. Why he chose me to protect him I may never know, but we came to an arrangement. Varys spied on lesser thieves and took their takings. I offered my help to their victims, promising to recover their valuables for a fee. Soon every man who had suffered a loss knew to come to me, whilst city's footpads and cutpurses sought out Varys ... half to slit his throat, the other half to sell him what they'd stolen. We both grew rich, and richer still when Varys trained [his mice](wiki:Little_birds).(wiki:Varys.cite_ref-Radwd5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-6)
+> In Myr he was a prince of thieves, until a rival thief informed on him. In Pentos his accent marked him, and once he was known for a eunuch he was despised and beaten. Why he chose me to protect him I may never know, but we came to an arrangement. Varys spied on lesser thieves and took their takings. I offered my help to their victims, promising to recover their valuables for a fee. Soon every man who had suffered a loss knew to come to me, whilst city's footpads and cutpurses sought out Varys ... half to slit his throat, the other half to sell him what they'd stolen. We both grew rich, and richer still when Varys trained his mice.
 >
-> —[Illyrio Mopatis](wiki:Illyrio_Mopatis) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Illyrio Mopatis to Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-02.md:87`)
 
 ## Edges
 

@@ -99,9 +99,9 @@ Robert succeeded Aerys on the [Iron Throne](wiki:Iron_Throne),(wiki:Battle_of_th
 >
 > —writings of [Yandel](wiki:Yandel)
 
-> They had come together at [the ford](wiki:Ruby_ford) of the [Trident](wiki:Trident) while the battle crashed around them, [Robert](wiki:Robert_I_Baratheon) with [his warhammer](wiki:Robert's_warhammer) and his great antlered helm, the Targaryen prince armored all in black. On his breastplate was the three-headed [dragon](wiki:Dragon) of [his House](wiki:House_Targaryen), wrought all in [rubies](wiki:Rubies) that flashed like fire in the sunlight. The waters of the Trident ran red around the hooves of their destriers as they circled and clashed, again and again, until at last a crushing blow from Robert's hammer stove in the dragon and the chest beneath it. When Ned had finally come on the scene, [Rhaegar](wiki:Rhaegar_Targaryen) lay dead in the stream, while men of both armies scrabbled in the swirling waters for rubies knocked free of his armor.(wiki:Battle_of_the_Trident.cite_ref-Ragot4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-3)
+> They had come together at the ford of the Trident while the battle crashed around them, Robert with his warhammer and his great antlered helm, the Targaryen prince armored all in black. On his breastplate was the three-headed dragon of his House, wrought all in rubies that flashed like fire in the sunlight. The waters of the Trident ran red around the hooves of their destriers as they circled and clashed, again and again, until at last a crushing blow from Robert's hammer stove in the dragon and the chest beneath it. When Ned had finally come on the scene, Rhaegar lay dead in the stream, while men of both armies scrabbled in the swirling waters for rubies knocked free of his armor.
 >
-> —thoughts of [Eddard Stark](wiki:Eddard_Stark)
+> —thoughts of Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-01.md:79`)
 
 > **Eddard**: Do you remember the [Trident](wiki:Trident), Your Grace? **Robert**: I won my [crown](wiki:Crown) there. How should I forget it?(wiki:Battle_of_the_Trident.cite_ref-Ragot12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-2)
 >
@@ -123,18 +123,18 @@ Robert succeeded Aerys on the [Iron Throne](wiki:Iron_Throne),(wiki:Battle_of_th
 
 — Daenerys Targaryen's received memory (Viserys's stories), AGOT Daenerys I (`sources/chapters/agot/agot-daenerys-01.md:37`) — The realm-narrative of the Trident as Dany inherited it
 
-> It is time to cross the Trident, Dany thought, as she wheeled and rode [her silver](wiki:Silver_mare) back.(wiki:Battle_of_the_Trident.cite_ref-Rasos27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-1)
+> It is time to cross the Trident, Dany thought, as she wheeled and rode her silver back.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen) before the [fall of Astapor](wiki:Fall_of_Astapor)
+> —thoughts of Daenerys Targaryen before the fall of Astapor, ASOS (`sources/chapters/asos/asos-daenerys-03.md:249`)
 
-> [My father](wiki:Tywin_Lannister) had held back from [the war](wiki:Robert's_Rebellion), brooding on all the wrongs [Aerys](wiki:Aerys_II_Targaryen) had done him and determined that [House Lannister](wiki:House_Lannister) should be on the winning side. The [Trident](wiki:Trident) decided him.(wiki:Battle_of_the_Trident.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> My father had held back from the war, brooding on all the wrongs Aerys had done him and determined that House Lannister should be on the winning side. The Trident decided him.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister) to [Brienne Tarth](wiki:Brienne_Tarth)
+> —Jaime Lannister to Brienne Tarth, ASOS (`sources/chapters/asos/asos-jaime-05.md:59`)
 
 > [Robert](wiki:Robert_I_Baratheon) won the [tourney](wiki:Tourney) of the [Trident](wiki:Trident). He overthrew Prince [Rhaegar](wiki:Rhaegar_Targaryen) and named me his [queen of love and beauty](wiki:Queen_of_love_and_beauty).(wiki:Battle_of_the_Trident.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_43-0)
 >
 > —[Cersei Lannister](wiki:Cersei_Lannister) to [Margaery Tyrell](wiki:Margaery_Tyrell)
 
-> The battle was a bloody thing. The singers would have us believe it was all [Rhaegar](wiki:Rhaegar_Targaryen) and [Robert](wiki:Robert_I_Baratheon) struggling in [the stream](wiki:Ruby_ford) for [a woman](wiki:Lyanna_Stark) both of them claimed to love, but I assure you, other men were fighting too, and I was one.(wiki:Battle_of_the_Trident.cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_38-1)
+> The battle was a bloody thing. The singers would have us believe it was all Rhaegar and Robert struggling in the stream for a woman both of them claimed to love, but I assure you, other men were fighting too, and I was one.
 >
-> —[Elder Brother](wiki:Elder_Brother_(Quiet_Isle)) to [Brienne Tarth](wiki:Brienne_Tarth)
+> —Elder Brother) to Brienne Tarth, AFFC (`sources/chapters/affc/affc-brienne-06.md:203`)

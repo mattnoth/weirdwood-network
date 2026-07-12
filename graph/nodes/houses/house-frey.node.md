@@ -171,9 +171,9 @@ The Frey force at Winterfell falls prey to a trap set by [Mors Umber](wiki:Mors_
 >
 > —[Daven Lannister](wiki:Daven_Lannister) and [Jaime Lannister](wiki:Jaime_Lannister)
 
-> I say what I mean straight out, like an honest man. But what would you know of the ways of honest men? You're a treacherous lying weasel, like all your kin. I'd sooner drink a pint of piss than take the word of any Frey.(wiki:House_Frey.cite_ref-Raffc38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+> I say what I mean straight out, like an honest man. But what would you know of the ways of honest men? You're a treacherous lying weasel, like all your kin. I'd sooner drink a pint of piss than take the word of any Frey.
 >
-> —[Clement Piper](wiki:Clement_Piper) to [Edwyn Frey](wiki:Edwyn_Frey)
+> —Clement Piper to Edwyn Frey, AFFC (`sources/chapters/affc/affc-jaime-06.md:177`)
 
 > What would a Frey know of honor?(wiki:House_Frey.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_56-1)
 >

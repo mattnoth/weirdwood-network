@@ -49,6 +49,6 @@ Refugees from Bitterbridge fled to [Tumbleton](wiki:Tumbleton). Prince [Daeron T
 >
 > —[Lady Caswell](wiki:Lady_Caswell)
 
-> You shall receive the same terms you gave my nephew [Maelor](wiki:Maelor_Targaryen).(wiki:Sack_of_Bitterbridge.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> You shall receive the same terms you gave my nephew Maelor.
 >
-> —[Daeron Targaryen](wiki:Daeron_Targaryen_(son_of_Viserys_I)) to [Lady Caswell](wiki:Lady_Caswell)
+> —Daeron Targaryen) to Lady Caswell, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:93`)

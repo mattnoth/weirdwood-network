@@ -38,6 +38,6 @@ When Bran emerges from the [crypt of Winterfell](wiki:Crypt_of_Winterfell) after
 
 ## Quotes
 
-> She was two years old, and [Joseth](wiki:Joseth) said she was smarter than any horse had a right to be.(wiki:Dancer.cite_ref-Ragot37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> She was two years old, and Joseth said she was smarter than any horse had a right to be.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, AGOT (`sources/chapters/agot/agot-bran-05.md:19`)

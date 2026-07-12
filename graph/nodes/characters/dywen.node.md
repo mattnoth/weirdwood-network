@@ -83,6 +83,6 @@ When the decapitated heads of the group led by [Black Jack Bulwer](wiki:Black_Ja
 >
 > —[Jon Snow](wiki:Jon_Snow) and [Jeor Mormont](wiki:Jeor_Mormont)
 
-> No man in [Castle Black](wiki:Castle_Black) knew [the woods](wiki:Haunted_forest) as well as Dywen did, the trees and streams, the plants that could be eaten, the ways of predator and prey.(wiki:Dywen.cite_ref-Radwd28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-3)
+> No man in Castle Black knew the woods as well as Dywen did, the trees and streams, the plants that could be eaten, the ways of predator and prey.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-06.md:29`)

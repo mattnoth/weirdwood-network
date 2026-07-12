@@ -31,6 +31,6 @@ Kella is among Lord [Petyr Baelish](wiki:Petyr_Baelish)'s attendants who meet hi
 
 ## Quotes
 
-> I don’t know the child. Another of Kella’s bastards, I suppose. She pops one out every few years.(wiki:Kella.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> I don’t know the child. Another of Kella’s bastards, I suppose. She pops one out every few years.
 >
-> —Petyr Baelish to [Sansa Stark](wiki:Sansa_Stark)
+> —Petyr Baelish to Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-06.md:53`)

@@ -59,9 +59,9 @@ A common racial characteristic among Valyrians appears to have been [purple eyes
 >
 > —[Moqorro](wiki:Moqorro) and [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> At its apex Valyria was the greatest city in the [known world](wiki:Known_world), the center of civilization. Within its shining walls, twoscore rival houses vied for power and glory in court and council, rising and falling in an endless, subtle, oft savage struggle for dominance.(wiki:Valyria.cite_ref-Rtwoiaf_the_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+> At its apex Valyria was the greatest city in the known world, the center of civilization. Within its shining walls, twoscore rival houses vied for power and glory in court and council, rising and falling in an endless, subtle, oft savage struggle for dominance.
 >
-> —writings of [Yandel](wiki:Yandel)
+> —writings of Yandel, F&B (`sources/chapters/fab/fab-aegons-conquest-03.md:27`)
 
 > It's safe to say that the [Targaryens](wiki:House_Targaryen) were the only nobles with [dragons](wiki:Dragon) who escaped the [destruction of Valyria](wiki:Doom_of_Valyria).(wiki:Valyria.cite_ref-19)
 >

@@ -75,9 +75,9 @@ Bryce's [bastard](wiki:Bastard) half-brother, Ser [Rolland Storm](wiki:Rolland_S
 >
 > —[Jon Fossoway](wiki:Jon_Fossoway), Bryce, and [Stannis Baratheon](wiki:Stannis_Baratheon)
 
-> Your Grace, if [the sorceress](wiki:Melisandre) is with us, afterward men will say it was [her victory](wiki:Battle_of_the_Blackwater), not yours. They will say you owe your [crown](wiki:Crown) to her [spells](wiki:Magic).(wiki:Bryce_Caron.cite_ref-Racok58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-1)
+> Your Grace, if the sorceress is with us, afterward men will say it was her victory, not yours. They will say you owe your crown to her spells.
 >
-> —Bryce to [Stannis Baratheon](wiki:Stannis_Baratheon)
+> —Bryce to Stannis Baratheon, ACOK (`sources/chapters/acok/acok-davos-03.md:83`)
 
 ### Quotes about Bryce
 
@@ -87,10 +87,10 @@ Bryce's [bastard](wiki:Bastard) half-brother, Ser [Rolland Storm](wiki:Rolland_S
 >
 > —[Davos Seaworth](wiki:Davos_Seaworth) and [Cressen](wiki:Cressen)
 
-> You wear your [cloak of many colors](wiki:Rainbow_Guard), I see. The one [Renly](wiki:Renly_Baratheon) gave you when you swore your oath to protect him. If he is dead, how is it you are not?(wiki:Bryce_Caron.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-10)
+> You wear your cloak of many colors, I see. The one Renly gave you when you swore your oath to protect him. If he is dead, how is it you are not?
 >
-> —[Cortnay Penrose](wiki:Cortnay_Penrose) to Bryce
+> —Cortnay Penrose to Bryce, ACOK (`sources/chapters/acok/acok-davos-02.md:73`)
 
-> And Lord Caron and the others who like to kick will want to take up Ser [Cortnay's](wiki:Cortnay_Penrose) gauntlet and hazard all upon a single combat. Each one imagining he will be my champion and win undying fame.(wiki:Bryce_Caron.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-11)
+> And Lord Caron and the others who like to kick will want to take up Ser Cortnay's gauntlet and hazard all upon a single combat. Each one imagining he will be my champion and win undying fame.
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Stannis Baratheon to Davos Seaworth, ACOK (`sources/chapters/acok/acok-davos-02.md:211`)

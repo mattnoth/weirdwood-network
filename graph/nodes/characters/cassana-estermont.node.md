@@ -62,6 +62,6 @@ Stannis tells Davos that since his loss at the [battle of the Blackwater](wiki:B
 >
 > —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Davos Seaworth](wiki:Davos_Seaworth)
 
-> [The Estermonts](wiki:House_Estermont) were her good-kin through [Robert](wiki:Robert_Baratheon), whose [father](wiki:Steffon_Baratheon) had taken one of them to wife in what must have been a fit of lust or madness.(wiki:Cassana_Estermont.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
+> The Estermonts were her good-kin through Robert, whose father had taken one of them to wife in what must have been a fit of lust or madness.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-05.md:193`)

@@ -60,17 +60,17 @@ Tom jokes he will make a song called "Talking to the Fish" about Lord [Emmon Fre
 
 ### Quotes by Tom
 
-> There are worse things than dying with a song on your lips.(wiki:Tom_of_Sevenstreams.cite_ref-Rasos13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+> There are worse things than dying with a song on your lips.
 >
-> —Tom to [Arya Stark](wiki:Arya_Stark)
+> —Tom to Arya Stark, ASOS (`sources/chapters/asos/asos-arya-02.md:187`)
 
-> Sometimes a man knows more than he says.(wiki:Tom_of_Sevenstreams.cite_ref-Rasos13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+> Sometimes a man knows more than he says.
 >
-> —Tom to [Gendry](wiki:Gendry)
+> —Tom to Gendry, ASOS (`sources/chapters/asos/asos-arya-02.md:193`)
 
-> If a song makes a [maid](wiki:Maid) want to slip off her clothes and feel the good warm sun kiss her skin, why, is that the singer's fault?(wiki:Tom_of_Sevenstreams.cite_ref-Rasos13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
+> If a song makes a maid want to slip off her clothes and feel the good warm sun kiss her skin, why, is that the singer's fault?
 >
-> —Tom to [Husband](wiki:Husband)
+> —Tom to Husband, ASOS (`sources/chapters/asos/asos-arya-02.md:291`)
 
 > **Thoros**: We are brothers here. Holy brothers, sworn to [the realm](wiki:Seven_Kingdoms), to [our god](wiki:R'hllor), and to each other.
 >
@@ -86,19 +86,18 @@ Tom jokes he will make a song called "Talking to the Fish" about Lord [Emmon Fre
 
 ### Quotes about Tom
 
-> The [riverlands](wiki:Riverlands) are full of [maids](wiki:Maid) you've pleased, all drinking [tansy tea](wiki:Tansy_tea). You'd think a man as old as you would know to spill his seed on their bellies. Men will be calling you Tom Sevensons before much longer.(wiki:Tom_of_Sevenstreams.cite_ref-Rasos22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-7)
+> The riverlands are full of maids you've pleased, all drinking tansy tea. You'd think a man as old as you would know to spill his seed on their bellies. Men will be calling you Tom Sevensons before much longer.
 >
-> —[Ravella Smallwood](wiki:Ravella_Smallwood) to Tom
+> —Ravella Smallwood to Tom, ASOS (`sources/chapters/asos/asos-arya-04.md:149`)
 
-> We're [outlaws](wiki:Outlaw). Outlaws steal. It's in the songs, if you ask nice Tom may sing you one.(wiki:Tom_of_Sevenstreams.cite_ref-Rasos39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
+> We're outlaws. Outlaws steal. It's in the songs, if you ask nice Tom may sing you one.
 >
-> —[Anguy](wiki:Anguy) to [Sandor Clegane](wiki:Sandor_Clegane)
+> —Anguy to Sandor Clegane, ASOS (`sources/chapters/asos/asos-arya-07.md:207`)
 
-> Fifty if he's a day, thought Jaime, a hedge harp, and hard used by life.(wiki:Tom_of_Sevenstreams.cite_ref-Raffc44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-4)
+> Fifty if he's a day, thought Jaime, a hedge harp, and hard used by life.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-07.md:227`)
 
 > “Tom of Sevenstreams, if it please my lord.” The singer doffed his hat. “Most call me Tom o’ Sevens, though.”
 >
 > — sources/chapters/affc/affc-jaime-07.md:245 · Tom of Sevenstreams introduces himself by name to Jaime at Riverrun — only book-text scene where he is named on-page outside a Brotherhood context.  _(capture: chapter-quote sweep, other)_
-

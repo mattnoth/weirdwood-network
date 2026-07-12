@@ -71,9 +71,9 @@ The Second Sons are ordered by [Malazza](wiki:Malazza), the Girl General, to def
 
 ## Quotes
 
-> The Second Sons are an old company, and not without valor, but under [Mero](wiki:Mero) they've turned near as bad as the [Brave Companions](wiki:Brave_Companions). The man is as dangerous to his employers as to his foes. That's why you find him [out here](wiki:Slaver's_Bay). None of the [Free Cities](wiki:Free_Cities) will hire him any longer.(wiki:Second_Sons.cite_ref-Rasos42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> The Second Sons are an old company, and not without valor, but under Mero they've turned near as bad as the Brave Companions. The man is as dangerous to his employers as to his foes. That's why you find him out here. None of the Free Cities will hire him any longer.
 >
-> —[Jorah Mormont](wiki:Jorah_Mormont) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Jorah Mormont to Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-04.md:153`)
 
 > **Ben**: We went over to the winning side, is all. Same as we done before. It weren't all me, neither. I put it to my men.
 >
@@ -85,9 +85,9 @@ The Second Sons are ordered by [Malazza](wiki:Malazza), the Girl General, to def
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) and [Kasporio](wiki:Kasporio)
 
-> I have signed their book. The old way, in blood. I am now a Second Son.(wiki:Second_Sons.cite_ref-Radwd66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-12)
+> I have signed their book. The old way, in blood. I am now a Second Son.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Penny](wiki:Penny)
+> —Tyrion Lannister to Penny, ADWD (`sources/chapters/adwd/adwd-tyrion-12.md:121`)
 
 > **Tyrion**: In [Westeros](wiki:Westeros), the word of a [Lannister](wiki:House_Lannister) is considered good as [gold](wiki:Gold). **Tybero**: This is not Westeros. [On this side](wiki:Essos) of the [narrow sea](wiki:Narrow_sea), we put our promises on paper. Debts written on the wind tend to be ... forgotten, shall we say?(wiki:Second_Sons.cite_ref-Radwd66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-13)
 >

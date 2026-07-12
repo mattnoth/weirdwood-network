@@ -75,9 +75,9 @@ The death of Lysa Arryn leads to her second husband, Lord [Petyr Baelish](wiki:P
 >
 > —[Lancel Lannister](wiki:Lancel_Lannister), to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> Sentiment may be forgiven in a mother, but not in a regent, and never in a king.(wiki:Regent.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
+> Sentiment may be forgiven in a mother, but not in a regent, and never in a king.
 >
-> —[Rogar Baratheon](wiki:Rogar_Baratheon), to [Alyssa Velaryon](wiki:Alyssa_Velaryon)
+> —Rogar Baratheon, to Alyssa Velaryon, F&B (`sources/chapters/fab/fab-surfeit-of-rulers-08-p02.md:149`)
 
 > I am the Queen Regent. Until [my son](wiki:Jaehaerys_I_Targaryen) shall come of age, all of you serve at my pleasure. Including the [Hand of the King](wiki:Rogar_Baratheon).(wiki:Regent.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-3)
 >

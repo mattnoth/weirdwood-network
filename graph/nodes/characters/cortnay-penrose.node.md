@@ -51,13 +51,13 @@ After the parley, Stannis tells Ser [Davos Seaworth](wiki:Davos_Seaworth) that [
 
 ### Quotes by Cortnay
 
-> A man who changes kings and gods the way I change my boots. As do these other turncloaks I see before me.(wiki:Cortnay_Penrose.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-7)
+> A man who changes kings and gods the way I change my boots. As do these other turncloaks I see before me.
 >
-> —Cortnay to [Alester Florent](wiki:Alester_Florent)
+> —Cortnay to Alester Florent, ACOK (`sources/chapters/acok/acok-davos-02.md:57`)
 
-> Is it the justice of your cause you doubt, my lord, or the strength of your arm? Are you afraid I’ll piss on your [burning sword](wiki:Lightbringer) and put it out?(wiki:Cortnay_Penrose.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-8)
+> Is it the justice of your cause you doubt, my lord, or the strength of your arm? Are you afraid I’ll piss on your burning sword and put it out?
 >
-> —Cortnay to [Stannis Baratheon](wiki:Stannis_Baratheon)
+> —Cortnay to Stannis Baratheon, ACOK (`sources/chapters/acok/acok-davos-02.md:89`)
 
 > May the Others bugger your Lord of Light, and wipe his arse with that rag you bear.(wiki:Cortnay_Penrose.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-9)
 >

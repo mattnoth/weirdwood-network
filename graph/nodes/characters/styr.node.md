@@ -75,9 +75,9 @@ Jon, now the new [Lord Commander of the Night's Watch](wiki:Lord_Commander_of_th
 
 ### Quotes about Styr
 
-> He was straight as a spear, all long wiry muscle, clean-shaved, bald, with a strong straight nose and deepset grey eyes. He might even have been comely if he'd had ears, but he had lost both along the way, whether to frostbite or some enemy's knife Jon could not tell. Their lack made the man's head seem narrow and pointed.(wiki:Styr.cite_ref-Rasos7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> He was straight as a spear, all long wiry muscle, clean-shaved, bald, with a strong straight nose and deepset grey eyes. He might even have been comely if he'd had ears, but he had lost both along the way, whether to frostbite or some enemy's knife Jon could not tell. Their lack made the man's head seem narrow and pointed.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ASOS (`sources/chapters/asos/asos-jon-01.md:101`)
 
 > The [Magnar](wiki:Magnar_of_Thenn) claimed to be the last of the [First Men](wiki:First_Men), and ruled with an iron hand. His little land of [Thenn](wiki:Thenn_(valley)) was a high mountain valley hidden amongst the northernmost peaks of the [Frostfangs](wiki:Frostfangs), surrounded by [cave dwellers](wiki:Cave_dwellers), [Hornfoot](wiki:Hornfoot) men, [giants](wiki:Giants), and the [cannibal clans of the ice rivers](wiki:Ice-river_clans). [Ygritte](wiki:Ygritte) said the [Thenns](wiki:Thenns) were savage fighters, and that their Magnar was a [god](wiki:God) to them. Jon could believe that. Unlike [Jarl](wiki:Jarl) and [Harma](wiki:Harma) and [Rattleshirt](wiki:Rattleshirt), Styr commanded absolute obedience from his men, and that discipline was no doubt part of why [Mance](wiki:Mance_Rayder) had chosen him to go over the [Wall](wiki:Wall).(wiki:Styr.cite_ref-Rasos26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
 >
@@ -87,9 +87,9 @@ Jon, now the new [Lord Commander of the Night's Watch](wiki:Lord_Commander_of_th
 >
 > —thoughts of [Jon Snow](wiki:Jon_Snow)
 
-> Give me one clean shot at the [Magnar of Thenn](wiki:Magnar_of_Thenn), he prayed to [his father's gods](wiki:Old_gods). The Magnar at least was a foe that he could hate. Give me Styr.(wiki:Styr.cite_ref-Rasos55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> Give me one clean shot at the Magnar of Thenn, he prayed to his father's gods. The Magnar at least was a foe that he could hate. Give me Styr.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ASOS (`sources/chapters/asos/asos-jon-07.md:127`)
 
 > **Tormund**: The [Magnar of Thenn](wiki:Magnar_of_Thenn) swore t'us that he'd have [the gate](wiki:Castle_Black) wide open, so all we'd need to do was stroll through singing. He was going to bring the whole [Wall](wiki:Wall) down.
 >

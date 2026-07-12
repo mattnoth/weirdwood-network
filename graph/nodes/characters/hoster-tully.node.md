@@ -124,17 +124,17 @@ Following the resolution of the [siege of Riverrun](wiki:Siege_of_Riverrun), Jai
 
 ### Quotes about Hoster
 
-> Your lord father did not come to [the wedding](wiki:Joyeuse_Erenford). An insult, as I see it. Even if he is dying. He never came to [my last wedding either](wiki:Annara_Farring). He calls me the Late Lord Frey, you know. Does he think I'm dead? I'm not dead, and I promise you, I'll outlive him as I outlived his father. [Your family](wiki:House_Tully) has always pissed on me, don't deny it, don't lie, you know it's true.(wiki:Hoster_Tully.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-3)
+> Your lord father did not come to the wedding. An insult, as I see it. Even if he is dying. He never came to my last wedding either. He calls me the Late Lord Frey, you know. Does he think I'm dead? I'm not dead, and I promise you, I'll outlive him as I outlived his father. Your family has always pissed on me, don't deny it, don't lie, you know it's true.
 >
-> —[Walder Frey](wiki:Walder_Frey) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Walder Frey to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-09.md:199`)
 
 > **Catelyn**: He says he is too sick to fight. **Brynden**: I am too old a soldier to believe that. Hoster will be chiding me about [the Redwyne girl](wiki:Bethany_Redwyne) even as we light his funeral pyre, damn his bones.(wiki:Hoster_Tully.cite_ref-Ragot71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-12)
 >
 > —[Catelyn Stark](wiki:Catelyn_Stark) and [Brynden Tully](wiki:Brynden_Tully)
 
-> I have always done my duty, she thought. Perhaps that was why her lord father had always cherished her best of all his children. Her two older brothers had both died in infancy, so she had been son as well as daughter to Lord Hoster until [Edmure](wiki:Edmure_Tully) was born. Then [her mother](wiki:Minisa_Whent) had died and her father had told her that she must be the lady of [Riverrun](wiki:Riverrun) now, and she had done that too. And when Lord Hoster promised her to [Brandon Stark](wiki:Brandon_Stark), she had thanked him for making her such a splendid match.(wiki:Hoster_Tully.cite_ref-Racok45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-2)
+> I have always done my duty, she thought. Perhaps that was why her lord father had always cherished her best of all his children. Her two older brothers had both died in infancy, so she had been son as well as daughter to Lord Hoster until Edmure was born. Then her mother had died and her father had told her that she must be the lady of Riverrun now, and she had done that too. And when Lord Hoster promised her to Brandon Stark, she had thanked him for making her such a splendid match.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-06.md:23`)
 
 > **Vyman**: His last strength is going, though still he tries to fight.
 >
@@ -142,9 +142,9 @@ Following the resolution of the [siege of Riverrun](wiki:Siege_of_Riverrun), Jai
 >
 > —[Vyman](wiki:Vyman) and [Catelyn Stark](wiki:Catelyn_Stark)
 
-> You're a young fool, Archer. If we go to [Riverrun](wiki:Riverrun) it will only be to collect [her ransom](wiki:Arya_Stark), won't be no time for you to sit about making bows. Be thankful if you get out with your hide. Lord Hoster was hanging outlaws before you were shaving.(wiki:Hoster_Tully.cite_ref-Rasos22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_42-0)
+> You're a young fool, Archer. If we go to Riverrun it will only be to collect her ransom, won't be no time for you to sit about making bows. Be thankful if you get out with your hide. Lord Hoster was hanging outlaws before you were shaving.
 >
-> —[Tom of Sevenstreams](wiki:Tom_of_Sevenstreams) to [Anguy](wiki:Anguy)
+> —Tom of Sevenstreams to Anguy, ASOS (`sources/chapters/asos/asos-arya-04.md:59`)
 
 > Catelyn reached out blindly, groping for her brother's hand, but [Edmure](wiki:Edmure_Tully) had moved away, to stand alone on the highest point of the battlements. Her uncle [Brynden](wiki:Brynden_Tully) took her hand instead, twining his strong fingers through hers. Together they watched the little fire grow smaller as the burning boat receded in the distance. And then it was gone ... drifting downriver still, perhaps, or broken up and sinking. The weight of his armor would carry Lord Hoster down to rest in the soft mud of [the riverbed](wiki:Red_Fork), in the watery halls where [the Tullys](wiki:House_Tully) held eternal court, with schools of fish their last attendants.(wiki:Hoster_Tully.cite_ref-Rasos35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-7)
 >
@@ -154,9 +154,9 @@ Following the resolution of the [siege of Riverrun](wiki:Siege_of_Riverrun), Jai
 >
 > —[Jeyne Westerling](wiki:Jeyne_Westerling) to [Catelyn Stark](wiki:Catelyn_Stark)
 
-> When [Riverrun](wiki:Riverrun) declared for [Robert](wiki:Robert_I_Baratheon), [Goodbrook](wiki:House_Goodbrook) stayed loyal to [the king](wiki:Aerys_II_Targaryen), so Lord Tully came down on him with fire and sword. After the [Trident](wiki:Battle_of_the_Trident), Goodbrook's son made his peace with Robert and Lord Hoster, but that didn't help the dead none.(wiki:Hoster_Tully.cite_ref-Rasos43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-2)
+> When Riverrun declared for Robert, Goodbrook stayed loyal to the king, so Lord Tully came down on him with fire and sword. After the Trident, Goodbrook's son made his peace with Robert and Lord Hoster, but that didn't help the dead none.
 >
-> —[Notch](wiki:Notch) to [Gendry](wiki:Gendry)
+> —Notch to Gendry, ASOS (`sources/chapters/asos/asos-arya-08.md:215`)
 
 > Hoster Tully had always been a big man; tall and broad in his youth, portly as he grew older. Now he seemed shrunken, the muscle and meat melted off his bones. Even his face sagged. The last time Catelyn had seen him, his hair and beard had been brown, well streaked with grey. Now they had gone white as snow.
 >

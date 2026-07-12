@@ -93,21 +93,21 @@ According to the [High Sparrow](wiki:High_Sparrow), the new [High Septon](wiki:H
 >
 > —[Melisandre](wiki:Melisandre) to [Davos Seaworth](wiki:Davos_Seaworth)
 
-> It was not me who raised [him](wiki:Beric_Dondarrion), my lady. It was the Lord. R'hllor is not done with him yet. Life is warmth, and warmth is fire, and fire is God's and God's alone.(wiki:R'hllor.cite_ref-Rasos39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_38-4)
+> It was not me who raised him, my lady. It was the Lord. R'hllor is not done with him yet. Life is warmth, and warmth is fire, and fire is God's and God's alone.
 >
-> —[Thoros](wiki:Thoros) to [Arya Stark](wiki:Arya_Stark)
+> —Thoros to Arya Stark, ASOS (`sources/chapters/asos/asos-arya-07.md:97`)
 
 > R'hllor chooses such instruments as he requires. His ways are mysterious, but no man may withstand his fiery will.(wiki:R'hllor.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-6)
 >
 > —[Melisandre](wiki:Melisandre) to [Stannis Baratheon](wiki:Stannis_Baratheon)
 
-> The Lord of Light in his wisdom made us male and female, two parts of a greater whole. In our joining there is power. Power to make life. Power to make light. Power to cast [shadows](wiki:Shadow_child).(wiki:R'hllor.cite_ref-Radwd28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_63-0)
+> The Lord of Light in his wisdom made us male and female, two parts of a greater whole. In our joining there is power. Power to make life. Power to make light. Power to cast shadows.
 >
-> —[Melisandre](wiki:Melisandre) to [Jon Snow](wiki:Jon_Snow)
+> —Melisandre to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-06.md:189`)
 
-> R'hllor spoke to his chosen ones through blessed fire, in a language of ash and cinder and twisting flame that only a [god](wiki:God) could truly grasp.(wiki:R'hllor.cite_ref-Radwd31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_40-5)
+> R'hllor spoke to his chosen ones through blessed fire, in a language of ash and cinder and twisting flame that only a god could truly grasp.
 >
-> —[Melisandre](wiki:Melisandre)'s thoughts
+> —Melisandre's thoughts, ADWD (`sources/chapters/adwd/adwd-melisandre-01.md:35`)
 
 > **Victarion**: Your red god will have his due, but the seas are ruled by the [Drowned God](wiki:Drowned_God). **Moqorro**: There are no gods but R'hllor and [the Other](wiki:Great_Other), whose name may not be said.(wiki:R'hllor.cite_ref-Radwd63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-2)
 >

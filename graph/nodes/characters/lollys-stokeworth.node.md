@@ -91,17 +91,17 @@ Before Cersei begins her [walk of atonement](wiki:Walk_of_atonement), she fears 
 
 ### Quotes about Lollys
 
-> You must forgive my daughter, she has not been well.(wiki:Lollys_Stokeworth.cite_ref-Racok57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> You must forgive my daughter, she has not been well.
 >
-> —[Tanda Stokeworth](wiki:Tanda_Stokeworth) to [Sansa Stark](wiki:Sansa_Stark)
+> —Tanda Stokeworth to Sansa Stark, ACOK (`sources/chapters/acok/acok-sansa-05.md:85`)
 
-> Lollys gaped at her, mouth open. She had dull brown eyes that always seemed to be wet with tears.(wiki:Lollys_Stokeworth.cite_ref-Racok57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
+> Lollys gaped at her, mouth open. She had dull brown eyes that always seemed to be wet with tears.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, ACOK (`sources/chapters/acok/acok-sansa-05.md:91`)
 
-> Can I come to [the king's](wiki:Joffrey_Baratheon) [wedding feast](wiki:Purple_Wedding)? Lollys won't go. I told her no one's like to rape her in the king's own [throne room](wiki:Throne_room), but she's so stupid.(wiki:Lollys_Stokeworth.cite_ref-Rasos12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-1)
+> Can I come to the king's wedding feast? Lollys won't go. I told her no one's like to rape her in the king's own throne room, but she's so stupid.
 >
-> —[Shae](wiki:Shae) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Shae to Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-02.md:195`)
 
 > **Tyrion**: [My bitch sister](wiki:Cersei_Lannister) has sold you a lame [horse](wiki:Horse). The girl's [dim-witted](wiki:Lackwit).
 >
@@ -109,9 +109,9 @@ Before Cersei begins her [walk of atonement](wiki:Walk_of_atonement), she fears 
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) and [Bronn](wiki:Bronn)
 
-> The [Seven Kingdoms](wiki:Seven_Kingdoms) were full of [highborn](wiki:Highborn) [maidens](wiki:Maiden), but even the oldest, poorest, and ugliest spinster in the realm would balk at [wedding](wiki:Wedding) such [lowborn](wiki:Lowborn) scum as [Bronn](wiki:Bronn). Unless she was soft of body and [soft of head](wiki:Lackwit), with a [fatherless child](wiki:Bastard) in her belly from having been raped half a hundred times.(wiki:Lollys_Stokeworth.cite_ref-Rasos66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-3)
+> The Seven Kingdoms were full of highborn maidens, but even the oldest, poorest, and ugliest spinster in the realm would balk at wedding such lowborn scum as Bronn. Unless she was soft of body and soft of head, with a fatherless child in her belly from having been raped half a hundred times.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-09.md:117`)
 
 > On the day [Myrcella](wiki:Myrcella_Baratheon) sailed for [Dorne](wiki:Dorne), the day of the [bread riots](wiki:Riot_of_King's_Landing), [gold cloaks](wiki:Gold_cloaks) had been posted all along the route of the procession, but the mob had broken through their lines to tear [the old fat High Septon](wiki:High_Septon_(fat_one)) into pieces and rape Lollys Stokeworth half a hundred times. And if that pale soft stupid creature could incite the animals when fully clothed, how much more lust would a queen inspire?(wiki:Lollys_Stokeworth.cite_ref-Radwd65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-1)
 >

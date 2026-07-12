@@ -45,6 +45,6 @@ After the [Doom of Valyria](wiki:Doom_of_Valyria), the [Slaver Cities](wiki:Slav
 >
 > —[Kraznys mo Nakloz](wiki:Kraznys_mo_Nakloz) to [Missandei](wiki:Missandei)
 
-> Ours is the blood of [ancient Ghis](wiki:Old_Ghis), whose empire was old when [Valyria](wiki:Valyria) was yet a squalling child.(wiki:Old_Empire_of_Ghis.cite_ref-Rasos42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)
+> Ours is the blood of ancient Ghis, whose empire was old when Valyria was yet a squalling child.
 >
-> —[Grazdan mo Eraz](wiki:Grazdan_mo_Eraz) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Grazdan mo Eraz to Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-04.md:163`)

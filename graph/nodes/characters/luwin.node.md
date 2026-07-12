@@ -64,9 +64,9 @@ At Winterfell for the marriage of Ramsay to "[Arya Stark](wiki:Jeyne_Poole)", Th
 >
 > —Luwin and [Bran Stark](wiki:Bran_Stark)
 
-> Take a lesson, Bran. The man who trusts in [spells](wiki:Magic) is dueling with a glass sword. As the [children](wiki:Children_of_the_forest) did.(wiki:Luwin.cite_ref-Ragot66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> Take a lesson, Bran. The man who trusts in spells is dueling with a glass sword. As the children did.
 >
-> —Luwin to [Bran Stark](wiki:Bran_Stark)
+> —Luwin to Bran Stark, AGOT (`sources/chapters/agot/agot-bran-07.md:145`)
 
 > A good [lord](wiki:Lord) comforts and protects the weak and helpless.(wiki:Luwin.cite_ref-Racok16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-2)
 >
@@ -92,25 +92,25 @@ At Winterfell for the marriage of Ramsay to "[Arya Stark](wiki:Jeyne_Poole)", Th
 
 ### Quotes about Luwin
 
-> The maester was a small grey man. His eyes were grey, and quick, and saw much. His hair was grey, what little the years had left him. His robe was grey wool, trimmed with white fur, the [Stark](wiki:House_Stark) colors. Its great floppy sleeves had pockets hidden inside. Luwin was always tucking things into those sleeves and producing other things from them: books, messages, strange artifacts, toys for the children. With all he kept hidden in his sleeves, Catelyn was surprised that Maester Luwin could lift his arms at all.(wiki:Luwin.cite_ref-Ragot6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
+> The maester was a small grey man. His eyes were grey, and quick, and saw much. His hair was grey, what little the years had left him. His robe was grey wool, trimmed with white fur, the Stark colors. Its great floppy sleeves had pockets hidden inside. Luwin was always tucking things into those sleeves and producing other things from them: books, messages, strange artifacts, toys for the children. With all he kept hidden in his sleeves, Catelyn was surprised that Maester Luwin could lift his arms at all.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-02.md:65`)
 
-> Maester Luwin, I trust you as I would my own blood. Give [my wife](wiki:Catelyn_Stark) your voice in all things great and small. Teach [my son](wiki:Robb_Stark) the things he needs to know. Winter is coming.(wiki:Luwin.cite_ref-Ragot6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)
+> Maester Luwin, I trust you as I would my own blood. Give my wife your voice in all things great and small. Teach my son the things he needs to know. Winter is coming.
 >
-> —[Eddard Stark](wiki:Eddard_Stark) to Luwin
+> —Eddard Stark to Luwin, AGOT (`sources/chapters/agot/agot-catelyn-02.md:157`)
 
 > The maester is timid as an old woman.(wiki:Luwin.cite_ref-Ragot37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-2)
 >
 > —[Theon Greyjoy](wiki:Theon_Greyjoy) to [Bran Stark](wiki:Bran_Stark)
 
-> Maester Luwin is a wise counsellor, but unskilled in the arts of war.(wiki:Luwin.cite_ref-Ragot55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-1)
+> Maester Luwin is a wise counsellor, but unskilled in the arts of war.
 >
-> —[Catelyn Stark](wiki:Catelyn_Stark) to [Robb Stark](wiki:Robb_Stark)
+> —Catelyn Stark to Robb Stark, AGOT (`sources/chapters/agot/agot-catelyn-08.md:53`)
 
-> Maester Luwin would have helped anyone who came to him, she was certain.(wiki:Luwin.cite_ref-Racok19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-0)
+> Maester Luwin would have helped anyone who came to him, she was certain.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ACOK (`sources/chapters/acok/acok-arya-05.md:145`)
 
 ## Edges
 

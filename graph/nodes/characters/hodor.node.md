@@ -117,13 +117,13 @@ The giant [Wun Weg Wun Dar Wun](wiki:Wun_Weg_Wun_Dar_Wun) reminds [Jon Snow](wik
 
 ### Quotes about Hodor
 
-> [Theon Greyjoy](wiki:Theon_Greyjoy) had once commented that Hodor did not know much, but no one could doubt that he knew his name. [Old Nan](wiki:Old_Nan) had cackled like a hen when Bran told her that, and confessed that Hodor's real name was Walder. No one knew where "Hodor" had come from, she said, but when he started saying it, they started calling him by it. It was the only word he had.(wiki:Hodor.cite_ref-Ragot24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
+> Theon Greyjoy had once commented that Hodor did not know much, but no one could doubt that he knew his name. Old Nan had cackled like a hen when Bran told her that, and confessed that Hodor's real name was Walder. No one knew where "Hodor" had come from, she said, but when he started saying it, they started calling him by it. It was the only word he had.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, AGOT (`sources/chapters/agot/agot-bran-04.md:69`)
 
-> If I had a poleaxe with a big long haft, Hodor could be my legs. We could be a [knight](wiki:Knight) together.(wiki:Hodor.cite_ref-Ragot66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-1)
+> If I had a poleaxe with a big long haft, Hodor could be my legs. We could be a knight together.
 >
-> —[Bran Stark](wiki:Bran_Stark) to [Luwin](wiki:Luwin)
+> —Bran Stark to Luwin, AGOT (`sources/chapters/agot/agot-bran-07.md:19`)
 
 > **Bran**: It made me so mad I almost gave him a swat in the head, like [Old Nan](wiki:Old_Nan) is always doing. I didn't, though. **Luwin**: Good. Hodor is a man, not a [mule](wiki:Mule) to be beaten.(wiki:Hodor.cite_ref-Ragot66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-2)
 >
@@ -137,13 +137,13 @@ The giant [Wun Weg Wun Dar Wun](wiki:Wun_Weg_Wun_Dar_Wun) reminds [Jon Snow](wik
 >
 > —[Luwin](wiki:Luwin) and [Theon Greyjoy](wiki:Theon_Greyjoy)
 
-> Sometimes he liked to do this, just saying his name different ways, over and over and over. Other times, he would stay so quiet you forgot he was there. There was never any knowing with Hodor.(wiki:Hodor.cite_ref-Rasos9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-4)
+> Sometimes he liked to do this, just saying his name different ways, over and over and over. Other times, he would stay so quiet you forgot he was there. There was never any knowing with Hodor.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, ASOS (`sources/chapters/asos/asos-bran-01.md:173`)
 
-> The big stableboy no longer fought him as he had the first time, back in the [lake tower](wiki:Queenscrown) during the storm. Like a [dog](wiki:Dog) who has had all the fight whipped out of him, Hodor would curl up and hide whenever Bran [reached out for him](wiki:Skinchanger). His hiding place was somewhere deep within him, a pit where not even Bran could touch him.(wiki:Hodor.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-1)
+> The big stableboy no longer fought him as he had the first time, back in the lake tower during the storm. Like a dog who has had all the fight whipped out of him, Hodor would curl up and hide whenever Bran reached out for him. His hiding place was somewhere deep within him, a pit where not even Bran could touch him.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, ADWD (`sources/chapters/adwd/adwd-bran-03.md:107`)
 
 > [Under the hill](wiki:Cave_of_the_three-eyed_crow), [Jojen](wiki:Jojen_Reed) brooded, [Meera](wiki:Meera_Reed) fretted, and Hodor wandered through dark tunnels with a sword in his right hand and a torch in his left. Or was it Bran wandering? *No one must ever know*.(wiki:Hodor.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-2)
 >

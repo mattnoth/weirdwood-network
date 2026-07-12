@@ -42,29 +42,29 @@ Recalling his father's mistress, Kevan tells himself he has no reason to feel gu
 
 ## Quotes
 
-> [Our own father](wiki:Tytos_Lannister) was gentle and amiable, but so weak his [bannermen](wiki:Bannermen) mocked him in their cups. Some saw fit to defy him openly. Other [lords](wiki:Lord) borrowed our [gold](wiki:Currency) and never troubled to repay it. At court they japed of toothless lions. Even his mistress stole from him. A woman scarcely one step above a whore, and she helped herself to [my mother's](wiki:Jeyne_Marbrand) jewels!(wiki:Tytos_Lannister's_second_mistress.cite_ref-Rasos66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+> Our own father was gentle and amiable, but so weak his bannermen mocked him in their cups. Some saw fit to defy him openly. Other lords borrowed our gold and never troubled to repay it. At court they japed of toothless lions. Even his mistress stole from him. A woman scarcely one step above a whore, and she helped herself to my mother's jewels!
 >
-> —[Kevan Lannister](wiki:Kevan_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Kevan Lannister to Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-09.md:309`)
 
 > When Lord Tywin's father died he returned to Casterly Rock to find a ... a woman of this sort ... bedecked in his lady mother's jewels, wearing one of her gowns. He stripped them off her, and all else as well. For a fortnight she was paraded naked through the streets of [Lannisport](wiki:Lannisport), to confess to every man she met that she was a thief and a harlot. That was how Lord Tywin Lannister dealt with whores.(wiki:Tytos_Lannister's_second_mistress.cite_ref-Raffc3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
 >
 > —[Cersei Lannister](wiki:Cersei_Lannister), to [Shortear](wiki:Shortear)
 
-> Cersei had been a year old when her grandfather died. The first thing [her father](wiki:Cersei_Lannister) had done on his ascension was to expel his own father's grasping, lowborn mistress from [Casterly Rock](wiki:Casterly_Rock). The silks and velvets Lord [Tytos](wiki:Tytos_Lannister) had lavished on her and the [jewelry](wiki:Jewelry) she had taken for herself had been stripped from her, and she had been sent forth naked to walk through the streets of [Lannisport](wiki:Lannisport), so [the west](wiki:Westerlands) could see her for [what she was](wiki:Prostitution).(wiki:Tytos_Lannister's_second_mistress.cite_ref-Radwd65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+> Cersei had been a year old when her grandfather died. The first thing her father had done on his ascension was to expel his own father's grasping, lowborn mistress from Casterly Rock. The silks and velvets Lord Tytos had lavished on her and the jewelry she had taken for herself had been stripped from her, and she had been sent forth naked to walk through the streets of Lannisport, so the west could see her for what she was.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, ADWD (`sources/chapters/adwd/adwd-cersei-02.md:95`)
 
 > Vain and proud she was, before ... so haughty you'd think she'd forgot she came from dirt. Once we got her clothes off her, though, she was just another [whore](wiki:Whore).(wiki:Tytos_Lannister's_second_mistress.cite_ref-Radwd65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
 >
 > —a [House Lannister guard](wiki:House_Lannister_guards)
 
-> She grew so influential that it was said about [Lannisport](wiki:Lannisport) that any man who wished for his petition to be heard should kneel before her and speak loudly to her lap ... for [Tytos Lannister](wiki:Tytos_Lannister)'s ear was between his lady's legs.(wiki:Tytos_Lannister's_second_mistress.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> She grew so influential that it was said about Lannisport that any man who wished for his petition to be heard should kneel before her and speak loudly to her lap ... for Tytos Lannister's ear was between his lady's legs.
 >
-> — thoughts of [Kevan Lannister](wiki:Kevan_Lannister)
+> — thoughts of Kevan Lannister, ADWD (`sources/chapters/adwd/adwd-epilogue.md:169`)
 
-> All the self-seekers who had named themselves her friends and cultivated her favor had abandoned her quickly enough when [Tywin](wiki:Tywin_Lannister) had her stripped naked and paraded through [Lannisport](wiki:Lannisport) to the docks, like a common whore. Though no man laid a hand on her, that walk spelled the end of her power. Surely Tywin would never have dreamed that same fate awaited [his own golden daughter](wiki:Cersei_Lannister).(wiki:Tytos_Lannister's_second_mistress.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> All the self-seekers who had named themselves her friends and cultivated her favor had abandoned her quickly enough when Tywin had her stripped naked and paraded through Lannisport to the docks, like a common whore. Though no man laid a hand on her, that walk spelled the end of her power. Surely Tywin would never have dreamed that same fate awaited his own golden daughter.
 >
-> —thoughts of [Kevan Lannister](wiki:Kevan_Lannister)
+> —thoughts of Kevan Lannister, ADWD (`sources/chapters/adwd/adwd-epilogue.md:171`)
 
 ## Edges
 

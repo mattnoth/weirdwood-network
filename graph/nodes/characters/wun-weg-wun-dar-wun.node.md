@@ -54,18 +54,18 @@ Wun Wun dismembering Ser Patrek (Jon POV, ADWD Jon XIII): "Wun Weg Wun Dar Wun w
 
 ### Quotes about Wun Wun
 
-> His name is Wun Weg Wun Dar Wun, [Leathers](wiki:Leathers) tells me. A lot to wrap a tongue around, I know. Leathers calls him Wun Wun, and that seems to serve.(wiki:Wun_Weg_Wun_Dar_Wun.cite_ref-Radwd39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+> His name is Wun Weg Wun Dar Wun, Leathers tells me. A lot to wrap a tongue around, I know. Leathers calls him Wun Wun, and that seems to serve.
 >
-> —[Jon Snow](wiki:Jon_Snow) to [Othell Yarwyck](wiki:Othell_Yarwyck)
+> —Jon Snow to Othell Yarwyck, ADWD (`sources/chapters/adwd/adwd-jon-08.md:125`)
 
-> He reminded Jon of [Hodor](wiki:Hodor). Hodor twice as big, twice as strong, and half as clever.(wiki:Wun_Weg_Wun_Dar_Wun.cite_ref-Radwd39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+> He reminded Jon of Hodor. Hodor twice as big, twice as strong, and half as clever.
 >
-> —[Jon Snow](wiki:Jon_Snow)'s thoughts
+> —Jon Snow's thoughts, ADWD (`sources/chapters/adwd/adwd-jon-08.md:131`)
 
-> I had been given to understand that the [Night's Watch](wiki:Night's_Watch) defended [the realm](wiki:Seven_Kingdoms) against such monsters. No one mentioned keeping them as pets.(wiki:Wun_Weg_Wun_Dar_Wun.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-6)
+> I had been given to understand that the Night's Watch defended the realm against such monsters. No one mentioned keeping them as pets.
 >
-> —[Patrek of King's Mountain](wiki:Patrek_of_King's_Mountain) to [Jon Snow](wiki:Jon_Snow)
+> —Patrek of King's Mountain to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-09.md:93`)
 
-> A [giant](wiki:Giants) as protector? Even [Dalla](wiki:Dalla) could not boast of that.(wiki:Wun_Weg_Wun_Dar_Wun.cite_ref-Radwd53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+> A giant as protector? Even Dalla could not boast of that.
 >
-> —[Val](wiki:Val) to [Jon Snow](wiki:Jon_Snow)
+> —Val to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-11.md:93`)

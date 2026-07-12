@@ -68,9 +68,9 @@ Ser [Jaime Lannister](wiki:Jaime_Lannister) recalls that he stood by and did not
 >
 > —[Barbrey Dustin](wiki:Barbrey_Dustin) to [Theon Greyjoy](wiki:Theon_Greyjoy)
 
-> The day I learned that [Brandon](wiki:Brandon_Stark) was to marry [Catelyn Tully](wiki:Catelyn_Stark), though ... there was nothing sweet about that pain. He never wanted her, I promise you that. He told me so, on our last night together ... but Rickard Stark had great ambitions too. [Southron](wiki:Southron) ambitions that would not be served by having his heir marry the daughter of [one of his own vassals](wiki:Rodrik_Ryswell).(wiki:Rickard_Stark.cite_ref-Radwd41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> The day I learned that Brandon was to marry Catelyn Tully, though ... there was nothing sweet about that pain. He never wanted her, I promise you that. He told me so, on our last night together ... but Rickard Stark had great ambitions too. Southron ambitions that would not be served by having his heir marry the daughter of one of his own vassals.
 >
-> —[Barbrey Dustin](wiki:Barbrey_Dustin) to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Barbrey Dustin to Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-turncloak-01.md:221`)
 
 ## Edges
 

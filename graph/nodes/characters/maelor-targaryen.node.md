@@ -58,13 +58,12 @@ Maelor possessed a [dragon egg](wiki:Dragon_egg), that was pale green with sworl
 >
 > —[Lady Caswell](wiki:Lady_Caswell), in response to Maelor's death
 
-> You shall receive the same terms you gave my nephew Maelor.(wiki:Maelor_Targaryen.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7)
+> You shall receive the same terms you gave my nephew Maelor.
 >
-> —[Daeron Targaryen](wiki:Daeron_Targaryen_(son_of_Viserys_I)), to [Lady Caswell](wiki:Lady_Caswell)
+> —Daeron Targaryen), to Lady Caswell, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:93`)
 
 > With so many present on the bridge, it is not surprising that we have many differing accounts of what befell Maelor Targaryen. Mushroom tells us that Willow Pound-Stone clutched the boy so tightly that she broke his back and crushed him to death.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:81`)
-
 
 ## Edges
 

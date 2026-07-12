@@ -59,6 +59,6 @@ After Jon is informed of [the letter](wiki:Bastard_Letter) from [Ramsay Bolton](
 >
 > —Mully and [Donal Noye](wiki:Donal_Noye)
 
-> My old grandmother always used to say, Summer friends will melt away like summer snows, but winter friends are friends forever.(wiki:Mully.cite_ref-Radwd69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-2)
+> My old grandmother always used to say, Summer friends will melt away like summer snows, but winter friends are friends forever.
 >
-> —Mully to [Jon Snow](wiki:Jon_Snow)
+> —Mully to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-13.md:221`)

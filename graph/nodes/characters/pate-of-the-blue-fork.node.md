@@ -44,18 +44,18 @@ When [Jaime Lannister](wiki:Jaime_Lannister) visits [Castle Darry](wiki:Darry), 
 
 ## Quotes
 
-> I married [Ami](wiki:Amerei_Frey) to Ser Pate of Sevenstreams, but the [Mountain](wiki:Gregor_Clegane) killed the oaf so I got her back.(wiki:Pate_of_the_Blue_Fork.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> I married Ami to Ser Pate of Sevenstreams, but the Mountain killed the oaf so I got her back.
 >
-> —[Walder Frey](wiki:Walder_Frey), to [Robb Stark](wiki:Robb_Stark)
+> —Walder Frey, to Robb Stark, ASOS (`sources/chapters/asos/asos-catelyn-06.md:119`)
 
 > When [Ami](wiki:Amerei_Frey) was caught in the stables with no fewer than three grooms, he'd been forced to marry her off to a bloody [hedge knight](wiki:Hedge_knight). That situation could not possibly get any worse, he'd thought... until Ser Pate decided he could win renown by defeating Ser [Gregor Clegane](wiki:Gregor_Clegane). Ami had come running back a widow, to Merrett's dismay and the undoubted delight of every stablehand in the [Twins](wiki:Twins).(wiki:Pate_of_the_Blue_Fork.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-5)
 >
 > —thoughts of [Merrett Frey](wiki:Merrett_Frey)
 
-> I sang at [your daughter's](wiki:Amerei_Frey) wedding. And passing well, I thought. That Pate she married was a cousin. We're all cousins in [Sevenstreams](wiki:Sevenstreams). Didn't stop him from turning niggard when it was time to pay me.(wiki:Pate_of_the_Blue_Fork.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
+> I sang at your daughter's wedding. And passing well, I thought. That Pate she married was a cousin. We're all cousins in Sevenstreams. Didn't stop him from turning niggard when it was time to pay me.
 >
-> —[Tom of Sevenstreams](wiki:Tom_of_Sevenstreams), to [Merrett Frey](wiki:Merrett_Frey)
+> —Tom of Sevenstreams, to Merrett Frey, ASOS (`sources/chapters/asos/asos-epilogue.md:67`)
 
-> I begged him not to go, but my Pate was oh so very brave, and swore he was the man to slay [that monster](wiki:Gregor_Clegane). He wanted to make a great name for himself.(wiki:Pate_of_the_Blue_Fork.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+> I begged him not to go, but my Pate was oh so very brave, and swore he was the man to slay that monster. He wanted to make a great name for himself.
 >
-> —[Amerei Frey](wiki:Amerei_Frey), to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Amerei Frey, to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-04.md:111`)

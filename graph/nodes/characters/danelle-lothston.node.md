@@ -49,6 +49,6 @@ Upon returning to Harrenhal, Ser [Jaime Lannister](wiki:Jaime_Lannister) recalls
 >
 > —thoughts of [Duncan the Tall](wiki:Duncan_the_Tall)
 
-> My old ma used to say that giant [bats](wiki:Bat) flew out from [Harrenhal](wiki:Harrenhal) on [moonless](wiki:Moon) nights, to carry bad children to Mad Danelle for her cookpots. Sometimes I'd hear them scrabbling at the shutters.(wiki:Danelle_Lothston.cite_ref-Raffc9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> My old ma used to say that giant bats flew out from Harrenhal on moonless nights, to carry bad children to Mad Danelle for her cookpots. Sometimes I'd hear them scrabbling at the shutters.
 >
-> —The [sister of the captain of the guards](wiki:Captain's_sister) at [Duskendale](wiki:Duskendale), to [Brienne of Tarth](wiki:Brienne_of_Tarth)
+> —The sister of the captain of the guards at Duskendale, to Brienne of Tarth, AFFC (`sources/chapters/affc/affc-brienne-02.md:45`)

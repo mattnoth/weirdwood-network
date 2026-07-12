@@ -55,6 +55,6 @@ A devout and holy man with an iron will, the High Sparrow has much of the Faith'
 >
 > —[Taena Merryweather](wiki:Taena_Merryweather) and [Cersei Lannister](wiki:Cersei_Lannister)
 
-> [The High Septon](wiki:High_Sparrow) speaks for [the Seven](wiki:Faith_of_the_Seven) here on earth. Strike at him, and you are striking at the gods themselves.(wiki:High_Septon.cite_ref-Radwd54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-0)
+> The High Septon speaks for the Seven here on earth. Strike at him, and you are striking at the gods themselves.
 >
-> —[Kevan Lannister](wiki:Kevan_Lannister) to [Cersei Lannister](wiki:Cersei_Lannister)
+> —Kevan Lannister to Cersei Lannister, ADWD (`sources/chapters/adwd/adwd-cersei-01.md:229`)

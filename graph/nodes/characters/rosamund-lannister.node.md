@@ -39,6 +39,6 @@ Rosamund is enlisted by Ser [Arys Oakheart](wiki:Arys_Oakheart), Myrcella's [Kin
 >
 > —[Arys Oakheart](wiki:Arys_Oakheart), to [Arianne Martell](wiki:Arianne_Martell)
 
-> Rosamund doesn't truly favor me, but when she dresses up in my clothes people who don't know us think she's me.(wiki:Rosamund_Lannister.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> Rosamund doesn't truly favor me, but when she dresses up in my clothes people who don't know us think she's me.
 >
-> —[Myrcella Baratheon](wiki:Myrcella_Baratheon), to [Sylva Santagar](wiki:Sylva_Santagar)
+> —Myrcella Baratheon, to Sylva Santagar, AFFC (`sources/chapters/affc/affc-the-queenmaker-01.md:233`)

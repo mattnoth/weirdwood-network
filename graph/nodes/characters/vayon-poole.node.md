@@ -66,6 +66,6 @@ During the [harvest feast](wiki:Harvest_feast) at [Winterfell](wiki:Winterfell),
 
 ### Quotes about Vayon
 
-> She knew there had been [fighting](wiki:Arrest_of_Eddard_Stark), but surely no one would harm a [steward](wiki:Steward). Vayon Poole did not even wear a [sword](wiki:Sword).(wiki:Vayon_Poole.cite_ref-Ragot51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3)
+> She knew there had been fighting, but surely no one would harm a steward. Vayon Poole did not even wear a sword.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, AGOT (`sources/chapters/agot/agot-sansa-04.md:67`)

@@ -93,17 +93,17 @@ When [Arya Stark](wiki:Arya_Stark) and the [kindly man](wiki:Kindly_man) devise 
 
 ### Quotes about Nymeria
 
-> That is Nymeria's star, burning bright, and that milky band behind her, those are [ten thousand ships](wiki:Ten_thousand_ships). She burned as bright as any man, and so shall I.(wiki:Nymeria.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
+> That is Nymeria's star, burning bright, and that milky band behind her, those are ten thousand ships. She burned as bright as any man, and so shall I.
 >
-> —[Arianne Martell](wiki:Arianne_Martell)'s thoughts
+> —Arianne Martell's thoughts, AFFC (`sources/chapters/affc/affc-the-queenmaker-01.md:63`)
 
 > **Myrcella**: I thought you were the [Rhoynar](wiki:Rhoynar). You [Dornishmen](wiki:Dornishmen), I mean. **Arianne**: We are in part, Your Grace. Nymeria's blood is in me, along with that of [Mors Martell](wiki:Mors_Martell), the Dornish lord she married. On the day they wed, Nymeria fired her ships, so her people would understand that there could be no going back.(wiki:Nymeria.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3)
 >
 > —[Myrcella Baratheon](wiki:Myrcella_Baratheon) and [Arianne Martell](wiki:Arianne_Martell)
 
-> We will build [ten thousand ships](wiki:Ten_thousand_ships) as Nymeria once did and take sail with [all our people](wiki:Ironborn) to the land beyond [the sunset](wiki:Sunset_Sea).(wiki:Nymeria.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
+> We will build ten thousand ships as Nymeria once did and take sail with all our people to the land beyond the sunset.
 >
-> —[Gylbert Farwynd](wiki:Gylbert_Farwynd) at the [kingsmoot on Old Wyk](wiki:Kingsmoot_on_Old_Wyk)
+> —Gylbert Farwynd at the kingsmoot on Old Wyk, AFFC (`sources/chapters/affc/affc-the-drowned-man-01.md:61`)
 
 ## Edges
 

@@ -67,9 +67,9 @@ The dying Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) now believes t
 >
 > —[Haldon](wiki:Haldon) and [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> I pray for a glimpse of Azor Ahai, and [R'hllor](wiki:R'hllor) shows me only [Snow](wiki:Jon_Snow).(wiki:Azor_Ahai.cite_ref-Radwd31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)
+> I pray for a glimpse of Azor Ahai, and R'hllor shows me only Snow.
 >
-> —[Melisandre](wiki:Melisandre)'s thoughts
+> —Melisandre's thoughts, ADWD (`sources/chapters/adwd/adwd-melisandre-01.md:37`)
 
 > When the [red star](wiki:Red_comet) bleeds and the darkness gathers, Azor Ahai shall be born again amidst smoke and salt to wake [dragons out of stone](wiki:Stone_dragon).(wiki:Azor_Ahai.cite_ref-Radwd49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)
 >

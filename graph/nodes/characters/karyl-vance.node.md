@@ -57,9 +57,9 @@ Lord Karyl bent the knee after the [Red Wedding](wiki:Red_Wedding). He is one of
 
 ### Quotes by Karyl
 
-> I was attending [my lord father](wiki:Lord_Vance) in the pass below the [Golden Tooth](wiki:Golden_Tooth), as was Ser [Marq](wiki:Marq_Piper). When the word of these outrages reached Ser [Edmure Tully](wiki:Edmure_Tully), he sent word that we should take a small force of men to find what survivors we could and bring them to [the king](wiki:Robert_I_Baratheon).(wiki:Karyl_Vance.cite_ref-Ragot43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> I was attending my lord father in the pass below the Golden Tooth, as was Ser Marq. When the word of these outrages reached Ser Edmure Tully, he sent word that we should take a small force of men to find what survivors we could and bring them to the king.
 >
-> —Karyl to [Eddard Stark](wiki:Eddard_Stark)
+> —Karyl to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-11.md:95`)
 
 > **Edwyn**: His helm bears a black trout on its crest that makes him easy to pick out from afar. I propose that we move our siege towers close, fill them full of bowmen, and feign an attack upon the gates. That will bring Ser [Brynden](wiki:Brynden_Tully) to the battlements, crest and all. Let every archer smear his shafts with night soil, and make that crest his mark. Once Ser Brynden dies, [Riverrun](wiki:Siege_of_Riverrun) is ours. **Emmon**: Mine. Riverrun is mine. **Karyl**: Will the night soil be your own contribution, Edwyn? A mortal poison, I don't doubt.(wiki:Karyl_Vance.cite_ref-Raffc38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
 >

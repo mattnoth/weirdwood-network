@@ -70,10 +70,10 @@ While returning to the Twins, Ryman is hanged near [Fairmarket](wiki:Fairmarket)
 >
 > —thoughts of [Merrett Frey](wiki:Merrett_Frey)
 
-> [Tully](wiki:Brynden_Tully) ought to make a sortie, to remind us all we're [still at war](wiki:Siege_of_Riverrun). Be nice if he culled some [Freys](wiki:House_Frey) too. [Ryman](wiki:Ryman_Frey), for a start. The man's drunk more oft than not. Oh, and Edwyn. Not as thick as his father, but as full of hate as a boil's full of pus.(wiki:Edwyn_Frey.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+> Tully ought to make a sortie, to remind us all we're still at war. Be nice if he culled some Freys too. Ryman, for a start. The man's drunk more oft than not. Oh, and Edwyn. Not as thick as his father, but as full of hate as a boil's full of pus.
 >
-> —[Daven Lannister](wiki:Daven_Lannister) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Daven Lannister to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-05.md:47`)
 
-> I say what I mean straight out, like an honest man. But what would you know of the ways of honest men? You're a treacherous lying weasel, like all your kin. I'd sooner drink a pint of piss than take the word of any [Frey](wiki:House_Frey).(wiki:Edwyn_Frey.cite_ref-Raffc38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-7)
+> I say what I mean straight out, like an honest man. But what would you know of the ways of honest men? You're a treacherous lying weasel, like all your kin. I'd sooner drink a pint of piss than take the word of any Frey.
 >
-> —[Clement Piper](wiki:Clement_Piper) to Edwyn
+> —Clement Piper to Edwyn, AFFC (`sources/chapters/affc/affc-jaime-06.md:177`)

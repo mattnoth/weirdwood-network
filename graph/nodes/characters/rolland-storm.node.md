@@ -54,10 +54,10 @@ Rolland is considered the pretender [Lord of Nightsong](wiki:Lord_of_Nightsong),
 
 ## Quotes
 
-> The Bastard of Nightsong had a pox-ravaged face and an air of tattered chivalry; Ser [Gerald Gower](wiki:Gerald_Gower) was broad, bluff, and blond; Ser [Andrew Estermont](wiki:Andrew_Estermont) stood a head taller, with a spade-shaped beard and shaggy brown eye-brows. They were all good men in their own ways, Davos thought.(wiki:Rolland_Storm.cite_ref-Rasos63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
+> The Bastard of Nightsong had a pox-ravaged face and an air of tattered chivalry; Ser Gerald Gower was broad, bluff, and blond; Ser Andrew Estermont stood a head taller, with a spade-shaped beard and shaggy brown eye-brows. They were all good men in their own ways, Davos thought.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-06.md:37`)
 
-> The pox-scarred bastard that [Stannis](wiki:Stannis_Baratheon) had left to hold [his castle](wiki:Dragonstone) was no callow [tourney](wiki:Tourney) champion but a seasoned killer. If [the gods](wiki:Faith_of_the_Seven) were good, he would give Ser [Loras](wiki:Loras_Tyrell) the glorious end he seemed to want.(wiki:Rolland_Storm.cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
+> The pox-scarred bastard that Stannis had left to hold his castle was no callow tourney champion but a seasoned killer. If the gods were good, he would give Ser Loras the glorious end he seemed to want.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-07.md:109`)

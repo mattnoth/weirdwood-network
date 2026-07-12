@@ -73,21 +73,21 @@ Jhaqo's*khalasar* discovers Daenerys and Drogon in the Dothraki sea.(wiki:Dothra
 >
 > —[Illyrio Mopatis](wiki:Illyrio_Mopatis) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> I shall fear the Dothraki the day they teach their [horses](wiki:Horse) to run on water.(wiki:Dothraki.cite_ref-Ragot33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_45-0)
+> I shall fear the Dothraki the day they teach their horses to run on water.
 >
-> —[Eddard Stark](wiki:Eddard_Stark) to [Robert I Baratheon](wiki:Robert_I_Baratheon)
+> —Eddard Stark to Robert I Baratheon, AGOT (`sources/chapters/agot/agot-eddard-08.md:31`)
 
-> The Dothraki did not truly comprehend this business of [buying and selling](wiki:Currency).(wiki:Dothraki.cite_ref-Ragot54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-8)
+> The Dothraki did not truly comprehend this business of buying and selling.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, AGOT (`sources/chapters/agot/agot-daenerys-06.md:53`)
 
 > The Dothraki follow only the strong.(wiki:Dothraki.cite_ref-Ragot68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-4)
 >
 > —[Jorah Mormont](wiki:Jorah_Mormont) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> Dothraki were not accustomed to staying long in one place. They were a warrior people, not made for cities.(wiki:Dothraki.cite_ref-Racok63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-5)
+> Dothraki were not accustomed to staying long in one place. They were a warrior people, not made for cities.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ACOK (`sources/chapters/acok/acok-daenerys-05.md:37`)
 
 > **Theon**: The Dothraki believe the stars are spirits of the valiant dead.
 >
@@ -99,10 +99,10 @@ Jhaqo's*khalasar* discovers Daenerys and Drogon in the Dothraki sea.(wiki:Dothra
 >
 > —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> The Dothraki are not fond of towns, you will know this even in [Westeros](wiki:Westeros).(wiki:Dothraki.cite_ref-Radwd5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-1)
+> The Dothraki are not fond of towns, you will know this even in Westeros.
 >
-> —[Illyrio Mopatis](wiki:Illyrio_Mopatis) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Illyrio Mopatis to Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-02.md:181`)
 
-> The horselords come, we give them gifts, the horselords go.(wiki:Dothraki.cite_ref-Radwd22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+> The horselords come, we give them gifts, the horselords go.
 >
-> —[Qavo Nogarys](wiki:Qavo_Nogarys) to [Haldon](wiki:Haldon)
+> —Qavo Nogarys to Haldon, ADWD (`sources/chapters/adwd/adwd-tyrion-06.md:301`)

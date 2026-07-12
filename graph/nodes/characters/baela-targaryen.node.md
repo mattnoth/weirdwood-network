@@ -104,9 +104,9 @@ Baela enjoyed dancing, [hawking](wiki:Hawk), riding, and especially flying on [M
 >
 > —Baela and [Alyn Velaryon](wiki:Alyn_Velaryon), about her first pregnancy
 
-> [His Grace my brother](wiki:Aegon_III_Targaryen) can command me. You cannot.(wiki:Baela_Targaryen.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> His Grace my brother can command me. You cannot.
 >
-> —Baela to [Marston Waters](wiki:Marston_Waters)
+> —Baela to Marston Waters, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p02.md:167`)
 
 ### Quotes about Baela
 
@@ -114,9 +114,9 @@ Baela enjoyed dancing, [hawking](wiki:Hawk), riding, and especially flying on [M
 >
 > —[Robert Quince](wiki:Robert_Quince) writing to [Daemon Targaryen](wiki:Daemon_Targaryen)
 
-> Even more than boys, however, Lady Baela loved to fly.(wiki:Baela_Targaryen.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-11)
+> Even more than boys, however, Lady Baela loved to fly.
 >
-> —writings of [Gyldayn](wiki:Gyldayn)
+> —writings of Gyldayn, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p04.md:65`)
 
 > So it came to pass when King [Aegon II](wiki:Aegon_II_Targaryen) flew [Sunfyre](wiki:Sunfyre) over [Dragonmont](wiki:Dragonmont)'s smoking peak and made his descent [...] up to meet him rose Baela Targaryen, Prince [Daemon](wiki:Daemon_Targaryen)'s daughter by the Lady [Laena](wiki:Laena_Velaryon), as fearless as her father.(wiki:Baela_Targaryen.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-1)
 >

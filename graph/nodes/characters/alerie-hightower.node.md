@@ -57,6 +57,6 @@ After the wedding, Alerie leaves King's Landing for the Reach with Olenna and he
 >
 > —Alerie and [Olenna Tyrell](wiki:Olenna_Tyrell)
 
-> [He](wiki:Joffrey_Baratheon) choked, sweetling. He [choked on the pie](wiki:Purple_Wedding). It was naught to do with you. He choked. We all saw.(wiki:Alerie_Hightower.cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+> He choked, sweetling. He choked on the pie. It was naught to do with you. He choked. We all saw.
 >
-> —Alerie to [Margaery Tyrell](wiki:Margaery_Tyrell)
+> —Alerie to Margaery Tyrell, ASOS (`sources/chapters/asos/asos-tyrion-08.md:317`)

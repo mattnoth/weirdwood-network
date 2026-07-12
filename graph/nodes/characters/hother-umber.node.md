@@ -59,10 +59,10 @@ Hother is present at [the wedding](wiki:Wedding_of_Ramsay_Bolton_and_Arya_Stark)
 
 ## Quotes
 
-> The [Cerwyns](wiki:House_Cerwyn) and the [Tallharts](wiki:House_Tallhart) are not to be relied on, my fat friend Lord [Wyman](wiki:Wyman_Manderly) plots betrayal, and Whoresbane ... the [Umbers](wiki:House_Umber) may seem simple, but they are not without a certain low cunning.(wiki:Hother_Umber.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1)
+> The Cerwyns and the Tallharts are not to be relied on, my fat friend Lord Wyman plots betrayal, and Whoresbane ... the Umbers may seem simple, but they are not without a certain low cunning.
 >
-> —[Roose Bolton](wiki:Roose_Bolton) to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Roose Bolton to Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-03.md:239`)
 
-> And Lord [Wyman](wiki:Wyman_Manderly) is not the only man who lost kin at your [Red Wedding](wiki:Red_Wedding), Frey. Do you imagine Whoresbane loves you any better? If you did not hold the [Greatjon](wiki:Jon_Umber), he would pull out your entrails and make you eat them, as [Lady Hornwood](wiki:Donella_Hornwood) ate her fingers.(wiki:Hother_Umber.cite_ref-Radwd46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1)
+> And Lord Wyman is not the only man who lost kin at your Red Wedding, Frey. Do you imagine Whoresbane loves you any better? If you did not hold the Greatjon, he would pull out your entrails and make you eat them, as Lady Hornwood ate her fingers.
 >
-> —[Barbrey Dustin](wiki:Barbrey_Dustin) to [Aenys Frey](wiki:Aenys_Frey)
+> —Barbrey Dustin to Aenys Frey, ADWD (`sources/chapters/adwd/adwd-a-ghost-in-winterfell-01.md:199`)

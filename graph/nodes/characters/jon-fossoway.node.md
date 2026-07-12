@@ -46,6 +46,6 @@ Jon's wife, [Janna Fossoway](wiki:Janna_Fossoway), [hawks](wiki:Hawk) with [Marg
 
 ## Quotes
 
-> I would gladly take this challenge myself, though I'm not half the swordsman Lord [Caron](wiki:Bryce_Caron) is, or Ser [Guyard](wiki:Guyard_Morrigen). [Renly](wiki:Renly_Baratheon) left no notable knights at [Storm's End](wiki:Storm's_End). Garrison duty is for old men and green boys.(wiki:Jon_Fossoway.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+> I would gladly take this challenge myself, though I'm not half the swordsman Lord Caron is, or Ser Guyard. Renly left no notable knights at Storm's End. Garrison duty is for old men and green boys.
 >
-> —Jon
+> —Jon, ACOK (`sources/chapters/acok/acok-davos-02.md:99`)

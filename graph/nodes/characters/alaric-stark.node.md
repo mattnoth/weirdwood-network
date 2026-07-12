@@ -50,9 +50,9 @@ According to Archmaester [Gyldayn](wiki:Gyldayn), after spending some time at Wi
 
 ### Quotes about Alaric
 
-> Methinks Lord Alaric has not moved his bowels since he was twelve.(wiki:Alaric_Stark.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-12)
+> Methinks Lord Alaric has not moved his bowels since he was twelve.
 >
-> —[fool](wiki:Fool) of [Theomore Manderly](wiki:Theomore_Manderly)
+> —fool of Theomore Manderly, F&B (`sources/chapters/fab/fab-jaehaerys-and-alysanne-triumphs-12-p02.md:153`)
 
 ## Edges
 

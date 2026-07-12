@@ -133,9 +133,9 @@ Aegon is not considered to have been particularly pious.(wiki:Aegon_I_Targaryen.
 >
 > —writings of [Gyldayn](wiki:Gyldayn)
 
-> Aegon the Conqueror brought fire and blood to [Westeros](wiki:Westeros), but afterward he gave them peace, prosperity, and justice.(wiki:Aegon_I_Targaryen.cite_ref-Rasos71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-0)
+> Aegon the Conqueror brought fire and blood to Westeros, but afterward he gave them peace, prosperity, and justice.
 >
-> —[Daenerys Targaryen](wiki:Daenerys_Targaryen) to her supporters
+> —Daenerys Targaryen to her supporters, ASOS (`sources/chapters/asos/asos-daenerys-06.md:309`)
 
 > Aegon once stood here as I do, looking down on [this table](wiki:Painted_Table). Do you think we would name him Aegon the Conqueror today if he had not had **[dragons](wiki:Dragon)**?(wiki:Aegon_I_Targaryen.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_35-0)
 >
@@ -146,7 +146,6 @@ Aegon is not considered to have been particularly pious.(wiki:Aegon_I_Targaryen.
 
 > “The first law of the land shall be the King’s Peace,” King Aegon decreed, “and any lord who goes to war without my leave shall be considered a rebel and an enemy of the Iron Throne.”
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-reign-of-the-dragon-04.md:205`)
-
 
 ## Fire & Blood
 

@@ -40,9 +40,9 @@ After meeting Olenna Tyrell at the [royal wedding](wiki:Purple_Wedding) of King 
 
 ## Quotes
 
-> Oh, I loved him well enough, don't mistake me. A kind man, and not unskilled in the bedchamber, but an appalling oaf all the same.(wiki:Luthor_Tyrell.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-15)
+> Oh, I loved him well enough, don't mistake me. A kind man, and not unskilled in the bedchamber, but an appalling oaf all the same.
 >
-> —[Olenna Tyrell](wiki:Olenna_Tyrell) to [Sansa Stark](wiki:Sansa_Stark)
+> —Olenna Tyrell to Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-01.md:159`)
 
 ## Edges
 

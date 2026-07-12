@@ -71,13 +71,13 @@ The final straw for Bowen is when Jon reads aloud [a letter](wiki:Bastard_Letter
 >
 > —Bowen to the [Night's Watch](wiki:Night's_Watch)
 
-> We need to conserve what strength remains us. Every death diminishes us, and we are stretched so thin ... Take the high ground and win the battle, my uncle used to say. No ground is higher than the [Wall](wiki:Wall), Lord Commander.(wiki:Bowen_Marsh.cite_ref-Radwd10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-3)
+> We need to conserve what strength remains us. Every death diminishes us, and we are stretched so thin ... Take the high ground and win the battle, my uncle used to say. No ground is higher than the Wall, Lord Commander.
 >
-> —Bowen to [Jon Snow](wiki:Jon_Snow)
+> —Bowen to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-03.md:141`)
 
-> The lord commander must pardon my bluntness, but I have no softer way to say this. What you propose is nothing less than treason. For eight thousand years the men of the [Night's Watch](wiki:Night's_Watch) have stood upon the [Wall](wiki:Wall) and fought these [wildlings](wiki:Wildlings). Now you mean to let them pass, to shelter them in our castles, to feed them and clothe them and teach them how to fight. Lord Snow, must I remind you? You swore an oath.(wiki:Bowen_Marsh.cite_ref-Radwd53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4)
+> The lord commander must pardon my bluntness, but I have no softer way to say this. What you propose is nothing less than treason. For eight thousand years the men of the Night's Watch have stood upon the Wall and fought these wildlings. Now you mean to let them pass, to shelter them in our castles, to feed them and clothe them and teach them how to fight. Lord Snow, must I remind you? You swore an oath.
 >
-> —Bowen to [Jon Snow](wiki:Jon_Snow)
+> —Bowen to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-11.md:379`)
 
 > For the [Watch](wiki:Night's_Watch).(wiki:Bowen_Marsh.cite_ref-Radwd69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-3)
 >
@@ -99,10 +99,10 @@ The final straw for Bowen is when Jon reads aloud [a letter](wiki:Bastard_Letter
 >
 > —[Samwell Tarly](wiki:Samwell_Tarly) and [Cotter Pyke](wiki:Cotter_Pyke)
 
-> So long as the [Night's Watch](wiki:Night's_Watch) remains in good hands, I am content. But Bowen Marsh is not equal to the task, no more than [Othell Yarwyck](wiki:Othell_Yarwyck).(wiki:Bowen_Marsh.cite_ref-Rasos78.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-4)
+> So long as the Night's Watch remains in good hands, I am content. But Bowen Marsh is not equal to the task, no more than Othell Yarwyck.
 >
-> —[Denys Mallister](wiki:Denys_Mallister) to [Samwell Tarly](wiki:Samwell_Tarly)
+> —Denys Mallister to Samwell Tarly, ASOS (`sources/chapters/asos/asos-samwell-05.md:213`)
 
-> Bowen was a good man in his way, but the wound he had taken at the [Bridge of Skulls](wiki:Fight_at_the_Bridge_of_Skulls) had hardened his attitudes, and the only song he ever sang now was his familiar refrain about sealing the gates.(wiki:Bowen_Marsh.cite_ref-Radwd21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-1)
+> Bowen was a good man in his way, but the wound he had taken at the Bridge of Skulls had hardened his attitudes, and the only song he ever sang now was his familiar refrain about sealing the gates.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-05.md:33`)

@@ -97,11 +97,10 @@ Emmon continues to demand the death of Edmure and to avoid any damage to Riverru
 >
 > —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
 
-> [Genna](wiki:Genna_Lannister) has played her part as well. Jaime remembered many a feast where Emmon sat poking at his food sullenly whilst his wife made ribald jests with whatever household knight had been seated to her left, their conversations punctuated by loud bursts of laughter. She gave Frey four sons, to be sure. At least she says they are his. No one in [Casterly Rock](wiki:Casterly_Rock) had the courage to suggest otherwise, least of all Ser Emmon.(wiki:Emmon_Frey.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-14)
+> Genna has played her part as well. Jaime remembered many a feast where Emmon sat poking at his food sullenly whilst his wife made ribald jests with whatever household knight had been seated to her left, their conversations punctuated by loud bursts of laughter. She gave Frey four sons, to be sure. At least she says they are his. No one in Casterly Rock had the courage to suggest otherwise, least of all Ser Emmon.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-05.md:235`)
 
 > Emmon Frey was a fretful man with nervous hands. He might have weighed ten stone . . . but only wet, and clad in mail. He was a weed in wool, with no chin to speak of, a flaw that the prominence of the apple in his throat made even more absurd. Half his hair had been gone before he turned thirty. Now he was sixty and only a few white wisps remained.
 >
 > — sources/chapters/affc/affc-jaime-05.md:197 · Primary physical description of Emmon Frey: distinctive no-chin, prominent throat-apple, near-bald at sixty.  _(capture: chapter-quote sweep, physical)_
-

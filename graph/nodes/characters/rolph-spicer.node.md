@@ -48,9 +48,9 @@ After resolving the [siege of Riverrun](wiki:Siege_of_Riverrun), Ser [Jaime Lann
 
 ## Quotes
 
-> A square-built man with a broken nose and a close-cropped grey beard, he looked doughty enough.(wiki:Rolph_Spicer.cite_ref-Rasos14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> A square-built man with a broken nose and a close-cropped grey beard, he looked doughty enough.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-02.md:95`)
 
 > **Robb**: [Grey Wind](wiki:Grey_Wind) doesn't like her uncle either. He bares his teeth every time Ser Rolph comes near him.
 >
@@ -58,6 +58,6 @@ After resolving the [siege of Riverrun](wiki:Siege_of_Riverrun), Ser [Jaime Lann
 >
 > —[Robb Stark](wiki:Robb_Stark) and [Catelyn Stark](wiki:Catelyn_Stark)
 
-> This grants Ser Rolph Spicer title to the castle [Castamere](wiki:Castamere) and raises him to the rank of [lord](wiki:Lord_of_Castamere).(wiki:Rolph_Spicer.cite_ref-Rasos72.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)
+> This grants Ser Rolph Spicer title to the castle Castamere and raises him to the rank of lord.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister) to [Tommen I Baratheon](wiki:Tommen_Baratheon)
+> —Jaime Lannister to Tommen I Baratheon, ASOS (`sources/chapters/asos/asos-jaime-09.md:21`)

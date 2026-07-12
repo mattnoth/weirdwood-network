@@ -45,6 +45,6 @@ The *[Goddess](wiki:Goddess)* and the *[Fawn](wiki:Fawn)* sail from [Volantis](w
 >
 > —[Gerris Drinkwater](wiki:Gerris_Drinkwater) and [Quentyn Martell](wiki:Quentyn_Martell)
 
-> Farther on, two [legions](wiki:Legions) from New Ghis were facing off shield wall to shield wall whilst serjeants in [iron](wiki:Iron) halfhelms with [horsehair](wiki:Horse) crests screamed commands in their own incomprehensible dialect. To the naked eye the [Ghiscari](wiki:Ghiscari) looked more formidable than the [Yunkish](wiki:Yunkai) [slave](wiki:Slave) soldiers, but Tyrion nursed doubts. The legionaries might be armed and organized in the same manner as [Unsullied](wiki:Unsullied) ... but the [eunuchs](wiki:Eunuch) knew no other life, whereas the Ghiscari were free citizens who served for three-year terms.(wiki:New_Ghis.cite_ref-Radwd57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
+> Farther on, two legions from New Ghis were facing off shield wall to shield wall whilst serjeants in iron halfhelms with horsehair crests screamed commands in their own incomprehensible dialect. To the naked eye the Ghiscari looked more formidable than the Yunkish slave soldiers, but Tyrion nursed doubts. The legionaries might be armed and organized in the same manner as Unsullied ... but the eunuchs knew no other life, whereas the Ghiscari were free citizens who served for three-year terms.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-11.md:147`)

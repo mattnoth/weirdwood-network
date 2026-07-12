@@ -83,18 +83,18 @@ Half a year earlier, Archmaester [Walgrave](wiki:Walgrave) was found weeping in 
 
 ## Quotes
 
-> The Citadel is the greatest repository of knowledge in the [known world](wiki:Known_world).(wiki:Citadel.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne_-_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+> The Citadel is the greatest repository of knowledge in the known world.
 >
-> —[Elysar](wiki:Elysar), to [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen)
+> —Elysar, to Jaehaerys I Targaryen, F&B (`sources/chapters/fab/fab-the-long-reign-cont-14-p02.md:163`)
 
-> The healers of the Citadel are the best in the [Seven Kingdoms](wiki:Seven_Kingdoms).(wiki:Citadel.cite_ref-Raffc35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-1)
+> The healers of the Citadel are the best in the Seven Kingdoms.
 >
-> —[Samwell Tarly](wiki:Samwell_Tarly), to [Gilly](wiki:Gilly)
+> —Samwell Tarly, to Gilly, AFFC (`sources/chapters/affc/affc-samwell-04.md:19`)
 
 > The Citadel is not what it was. They will take anything these days. [Dusky dogs and Dornishmen](wiki:Alleras), [pig boys](wiki:Pate_(novice)), [cripples](wiki:Mollander), cretins, and now a [black-clad](wiki:Night's_Watch) [whale](wiki:Whale). And here I thought [leviathans](wiki:Leviathan) were grey.(wiki:Citadel.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
 >
 > —[Leo Tyrell](wiki:Leo_Tyrell_(son_of_Moryn)), to [Samwell Tarly](wiki:Samwell_Tarly)
 
-> The world the Citadel is building has no place in it for [sorcery](wiki:Sorcery) or [prophecy](wiki:Prophecy) or [glass candles](wiki:Glass_candle), much less for [dragons](wiki:Dragon).(wiki:Citadel.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
+> The world the Citadel is building has no place in it for sorcery or prophecy or glass candles, much less for dragons.
 >
-> —[Marwyn](wiki:Marwyn), to [Samwell Tarly](wiki:Samwell_Tarly)
+> —Marwyn, to Samwell Tarly, AFFC (`sources/chapters/affc/affc-samwell-05.md:217`)

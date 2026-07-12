@@ -75,9 +75,9 @@ Melisandre tasks Rattleshirt with rescuing a girl she believes to be Jon's siste
 >
 > —Lord of Bones and [Ygritte](wiki:Ygritte)
 
-> Might be you fooled these others, crow, but don't think you'll be fooling Mance. He'll take one look a' you and know you're false. And when he does, I'll make a cloak o' [your wolf](wiki:Ghost) there, and open your soft boy's belly and sew a weasel up inside.(wiki:Lord_of_Bones.cite_ref-Rasos7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-7)
+> Might be you fooled these others, crow, but don't think you'll be fooling Mance. He'll take one look a' you and know you're false. And when he does, I'll make a cloak o' your wolf there, and open your soft boy's belly and sew a weasel up inside.
 >
-> —Lord of Bones to [Jon Snow](wiki:Jon_Snow)
+> —Lord of Bones to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-01.md:25`)
 
 > I want me some [crow](wiki:Night's_Watch) [bones](wiki:Bone).(wiki:Lord_of_Bones.cite_ref-Rasos15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
 >
@@ -93,14 +93,14 @@ Melisandre tasks Rattleshirt with rescuing a girl she believes to be Jon's siste
 >
 > —[Jon Snow](wiki:Jon_Snow) to [Stannis Baratheon](wiki:Stannis_Baratheon)
 
-> A small, malicious, treacherous man, as stupid as he is cruel. Jon did not believe for a moment that he would keep faith.(wiki:Lord_of_Bones.cite_ref-Radwd10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-7)
+> A small, malicious, treacherous man, as stupid as he is cruel. Jon did not believe for a moment that he would keep faith.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-03.md:93`)
 
 > The Lord o' Bones? No one ever trusted Rattleshirt but fools.(wiki:Lord_of_Bones.cite_ref-Radwd31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
 >
 > —[Mance Rayder](wiki:Mance_Rayder) to [Melisandre](wiki:Melisandre)
 
-> Rattleshirt could wash his hands a hundred times a day and he'd still have blood beneath his nails.(wiki:Lord_of_Bones.cite_ref-Radwd31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> Rattleshirt could wash his hands a hundred times a day and he'd still have blood beneath his nails.
 >
-> —[Jon Snow](wiki:Jon_Snow) to [Melisandre](wiki:Melisandre)
+> —Jon Snow to Melisandre, ADWD (`sources/chapters/adwd/adwd-melisandre-01.md:241`)

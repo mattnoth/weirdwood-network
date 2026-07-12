@@ -61,13 +61,13 @@ Lord Nestor hosts a [tourney](wiki:Tourney) at the Gates of the Moon. The winner
 
 ## Quotes
 
-> I will not say I had not hoped for this. Whilst Lord [Jon](wiki:Jon_Arryn) ruled the realm as [Hand](wiki:Hand_of_the_King), it fell to me to rule the [Vale](wiki:Vale) for him. I did all that he required of me and asked nothing for myself. But by the gods, I earned this!(wiki:Nestor_Royce.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-11)
+> I will not say I had not hoped for this. Whilst Lord Jon ruled the realm as Hand, it fell to me to rule the Vale for him. I did all that he required of me and asked nothing for myself. But by the gods, I earned this!
 >
-> —Nestor Royce, to [Petyr Baelish](wiki:Petyr_Baelish)
+> —Nestor Royce, to Petyr Baelish, AFFC (`sources/chapters/affc/affc-sansa-01.md:239`)
 
-> [Lysa](wiki:Lysa_Arryn) often called Lord Nestor a rock, though I do not think she meant it as a compliment. She called [his son](wiki:Albar_Royce) a clod.(wiki:Nestor_Royce.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-12)
+> Lysa often called Lord Nestor a rock, though I do not think she meant it as a compliment. She called his son a clod.
 >
-> —[Petyr Baelish](wiki:Petyr_Baelish), to [Sansa Stark](wiki:Sansa_Stark)
+> —Petyr Baelish, to Sansa Stark, AFFC (`sources/chapters/affc/affc-sansa-01.md:249`)
 
 > Our rock is a Royce, which is to say he is overproud and prickly. Had I asked him his price, he would have swelled up like an angry toad at the slight upon his honor. But this way... the man is not utterly stupid, but the lies I served him were sweeter than the truth. He wants to believe that [Lysa](wiki:Lysa_Arryn) valued him above her other bannermen. One of those others is [Bronze Yohn](wiki:Yohn_Royce), after all, and Nestor is very much aware that he was born of the [lesser branch](wiki:House_Royce_of_the_Gates_of_the_Moon) of [House Royce](wiki:House_Royce). He wants more for [his son](wiki:Albar_Royce). Men of honor will do things for their children that they would never consider doing for themselves.(wiki:Nestor_Royce.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-13)
 >

@@ -52,14 +52,14 @@ Joyeuse is pregnant.(wiki:Joyeuse_Erenford.cite_ref-Raffcappendix.7B.7B.7B3.7D.7
 
 ### Quotes about Joyeuse
 
-> Lord [Walder](wiki:Walder_Frey) was ninety, a wizened pink weasel with a bald spotted head, too gouty to stand unassisted. His newest wife, a pale frail girl of sixteen years, walked beside his litter when they carried him in. She was the eighth Lady Frey.(wiki:Joyeuse_Erenford.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> Lord Walder was ninety, a wizened pink weasel with a bald spotted head, too gouty to stand unassisted. His newest wife, a pale frail girl of sixteen years, walked beside his litter when they carried him in. She was the eighth Lady Frey.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-09.md:139`)
 
-> Did you see her? Sixteen she is, a little flower, and her honey's only for me. I wager she gives me a son by this time next year.(wiki:Joyeuse_Erenford.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> Did you see her? Sixteen she is, a little flower, and her honey's only for me. I wager she gives me a son by this time next year.
 >
-> —[Walder Frey](wiki:Walder_Frey) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Walder Frey to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-09.md:195`)
 
-> I remember what to do with a woman too. That wife of mine will give me a son before this time next year, I'll wager. Or a daughter, that can't be helped. Boy or girl, it will be red, wrinkled, and squalling, and like as not she'll want to name it Walder or Walda.(wiki:Joyeuse_Erenford.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+> I remember what to do with a woman too. That wife of mine will give me a son before this time next year, I'll wager. Or a daughter, that can't be helped. Boy or girl, it will be red, wrinkled, and squalling, and like as not she'll want to name it Walder or Walda.
 >
-> —[Walder Frey](wiki:Walder_Frey) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Walder Frey to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-09.md:207`)

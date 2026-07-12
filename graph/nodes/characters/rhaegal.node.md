@@ -70,22 +70,22 @@ As the [second siege of Meereen](wiki:Second_siege_of_Meereen) begins, Rhaegal a
 
 ## Quotes
 
-> The green one shall be Rhaegal, for [my valiant brother](wiki:Rhaegar_Targaryen) who died on the green banks of the [Trident](wiki:Trident).(wiki:Rhaegal.cite_ref-Racok12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> The green one shall be Rhaegal, for my valiant brother who died on the green banks of the Trident.
 >
-> —[Daenerys Targaryen](wiki:Daenerys_Targaryen) to [Aggo](wiki:Aggo)
+> —Daenerys Targaryen to Aggo, ACOK (`sources/chapters/acok/acok-daenerys-01.md:57`)
 
-> If I had wings, I would want to fly too, Dany thought.(wiki:Rhaegal.cite_ref-Racok12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> If I had wings, I would want to fly too, Dany thought.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ACOK (`sources/chapters/acok/acok-daenerys-01.md:109`)
 
 > Your dragon has a good nose.(wiki:Rhaegal.cite_ref-Racok40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
 >
 > —[Xaro Xhoan Daxos](wiki:Xaro_Xhoan_Daxos) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> Rhaegal was made of the green of summer and the bronze of fall.(wiki:Rhaegal.cite_ref-Rasos8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
+> Rhaegal was made of the green of summer and the bronze of fall.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-01.md:29`)
 
-> The light of Quentyn's torch washed over scales of dark green, the green of moss in the deep woods at dusk, just before the last light fades. Then the [dragon](wiki:Dragon) opened its mouth, and light and heat washed over them. Behind a fence of sharp black teeth he glimpsed the furnace glow, the shimmer of a [sleeping fire](wiki:Dragonflame) a hundred times brighter than his torch. The dragon's head was larger than a [horse](wiki:Horse)'s, and the neck stretched on and on, uncoiling like some great green serpent as the head rose, until those two glowing bronze eyes were staring down at him.(wiki:Rhaegal.cite_ref-Radwd68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-7)
+> The light of Quentyn's torch washed over scales of dark green, the green of moss in the deep woods at dusk, just before the last light fades. Then the dragon opened its mouth, and light and heat washed over them. Behind a fence of sharp black teeth he glimpsed the furnace glow, the shimmer of a sleeping fire a hundred times brighter than his torch. The dragon's head was larger than a horse's, and the neck stretched on and on, uncoiling like some great green serpent as the head rose, until those two glowing bronze eyes were staring down at him.
 >
-> —thoughts of [Quentyn Martell](wiki:Quentyn_Martell)
+> —thoughts of Quentyn Martell, ADWD (`sources/chapters/adwd/adwd-the-dragontamer-01.md:213`)

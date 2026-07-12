@@ -35,6 +35,6 @@ Her older brother, Ser [Cletus](wiki:Cletus_Yronwood), has recently passed while
 
 ## Quotes
 
-> I want to go back to [Yronwood](wiki:Yronwood) and kiss both of [your sisters](wiki:House_Drinkwater), marry Gwyneth Yronwood, watch her flower into beauty, have a child by her.(wiki:Gwyneth_Yronwood.cite_ref-Radwd68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+> I want to go back to Yronwood and kiss both of your sisters, marry Gwyneth Yronwood, watch her flower into beauty, have a child by her.
 >
-> —[Quentyn Martell](wiki:Quentyn_Martell)'s thoughts in [Meereen](wiki:Meereen)
+> —Quentyn Martell's thoughts in Meereen, ADWD (`sources/chapters/adwd/adwd-the-dragontamer-01.md:43`)

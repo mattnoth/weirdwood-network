@@ -128,21 +128,21 @@ Wyman travels to [Barrowton](wiki:Barrowton) and then Winterfell for the [weddin
 
 ## Quotes
 
-> White Harbor is to [King's Landing](wiki:King's_Landing) as my brother [Tyrion](wiki:Tyrion_Lannister) is to Ser [Gregor Clegane](wiki:Gregor_Clegane).(wiki:White_Harbor.cite_ref-Rasos62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_38-0)
+> White Harbor is to King's Landing as my brother Tyrion is to Ser Gregor Clegane.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister) to [Brienne of Tarth](wiki:Brienne_of_Tarth)
+> —Jaime Lannister to Brienne of Tarth, ASOS (`sources/chapters/asos/asos-jaime-07.md:33`)
 
-> If [Winterfell](wiki:Winterfell) was the heart of the [north](wiki:North), White Harbor was its mouth.(wiki:White_Harbor.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+> If Winterfell was the heart of the north, White Harbor was its mouth.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-01.md:133`)
 
-> [Roro Uhoris](wiki:Roro_Uhoris), the [Cobblecat](wiki:Cobblecat)'s cranky old master, used to claim that he could tell one port from another just by the way they smelled. Cities were like women, he insisted; each one had its own unique scent. [Oldtown](wiki:Oldtown) was as flowery as a perfumed dowager. [Lannisport](wiki:Lannisport) was a milkmaid, fresh and earthy, with woodsmoke in her hair. [King's Landing](wiki:King's_Landing) reeked like some unwashed whore. But White Harbor's scent was sharp and salty, and a little fishy too. "She smells the way a [mermaid](wiki:Mermaid) ought to smell," [Roro](wiki:Roro_Uhoris) said. "She smells of the sea."(wiki:White_Harbor.cite_ref-Radwd15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-27)
+> Roro Uhoris, the Cobblecat's cranky old master, used to claim that he could tell one port from another just by the way they smelled. Cities were like women, he insisted; each one had its own unique scent. Oldtown was as flowery as a perfumed dowager. Lannisport was a milkmaid, fresh and earthy, with woodsmoke in her hair. King's Landing reeked like some unwashed whore. But White Harbor's scent was sharp and salty, and a little fishy too. "She smells the way a mermaid ought to smell," Roro said. "She smells of the sea."
 >
-> —recollection of [Davos Seaworth](wiki:Davos_Seaworth)
+> —recollection of Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-02.md:21`)
 
-> We are good people in White Harbor, lawful, loyal people.(wiki:White_Harbor.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-6)
+> We are good people in White Harbor, lawful, loyal people.
 >
-> —[Leona Woolfield](wiki:Leona_Woolfield) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Leona Woolfield to Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-03.md:105`)
 
 > **Ramsay**: Lord Pig must have brought half the food in White Harbor with him. **Roose**: Forty wayns full of foodstuffs. Casks of [wine](wiki:Wine) and [hippocras](wiki:Hippocras), barrels of fresh-caught [lampreys](wiki:Lamprey), a herd of goats, a hundred pigs, crates of [crabs](wiki:Crab) and oysters, a monstrous [codfish](wiki:Cod) ... Lord [Wyman](wiki:Wyman_Manderly) likes to eat. You may have noticed.(wiki:White_Harbor.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-2)
 >

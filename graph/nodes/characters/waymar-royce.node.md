@@ -59,9 +59,9 @@ As [Tormund](wiki:Tormund)'s free folk pass through the Wall at [Castle Black](w
 
 ### Quotes by Waymar
 
-> I am not going back to [Castle Black](wiki:Castle_Black) a failure on my first [ranging](wiki:Rangers).(wiki:Waymar_Royce.cite_ref-Ragotprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+> I am not going back to Castle Black a failure on my first ranging.
 >
-> —Waymar to [Will](wiki:Will)
+> —Waymar to Will, AGOT (`sources/chapters/agot/agot-prologue.md:167`)
 
 > Dance with me then.(wiki:Waymar_Royce.cite_ref-Ragotprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7)
 >
@@ -69,14 +69,14 @@ As [Tormund](wiki:Tormund)'s free folk pass through the Wall at [Castle Black](w
 
 ### Quotes about Waymar
 
-> Ser Waymar had been a [Sworn Brother](wiki:Sworn_Brother) of the [Night's Watch](wiki:Night's_Watch) for less than half a year, but no one could say he had not prepared for his vocation. At least insofar as his wardrobe was concerned.(wiki:Waymar_Royce.cite_ref-Ragotprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-8)
+> Ser Waymar had been a Sworn Brother of the Night's Watch for less than half a year, but no one could say he had not prepared for his vocation. At least insofar as his wardrobe was concerned.
 >
-> —thoughts of [Will](wiki:Will)
+> —thoughts of Will, AGOT (`sources/chapters/agot/agot-prologue.md:39`)
 
-> He lifted his sword high over his head, defiant. His hands trembled from the weight of it, or perhaps from the cold. Yet in that moment, Will thought, he was a boy no longer, but a man of the [Night's Watch](wiki:Night's_Watch).(wiki:Waymar_Royce.cite_ref-Ragotprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-9)
+> He lifted his sword high over his head, defiant. His hands trembled from the weight of it, or perhaps from the cold. Yet in that moment, Will thought, he was a boy no longer, but a man of the Night's Watch.
 >
-> —thoughts of [Will](wiki:Will)
+> —thoughts of Will, AGOT (`sources/chapters/agot/agot-prologue.md:189`)
 
-> Too proud to sleep under my roof, him in his [sable](wiki:Sable) cloak and black [steel](wiki:Steel). [My wives](wiki:Craster's_wives) give him big cow eyes all the same.(wiki:Waymar_Royce.cite_ref-Racok23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+> Too proud to sleep under my roof, him in his sable cloak and black steel. My wives give him big cow eyes all the same.
 >
-> —[Craster](wiki:Craster) to [Jeor Mormont](wiki:Jeor_Mormont)
+> —Craster to Jeor Mormont, ACOK (`sources/chapters/acok/acok-jon-03.md:97`)

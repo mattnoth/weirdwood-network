@@ -46,6 +46,6 @@ The Liddle departs before Bran and his companions wake in the morning, but he le
 >
 > —The Liddle and [Jojen Reed](wiki:Jojen_Reed)
 
-> One day there would be [Starks](wiki:House_Stark) in [Winterfell](wiki:Winterfell) again, he told himself, and then he'd send for [the Liddles](wiki:House_Liddle) and pay them back a hundredfold for every nut and berry.(wiki:The_Liddle.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> One day there would be Starks in Winterfell again, he told himself, and then he'd send for the Liddles and pay them back a hundredfold for every nut and berry.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, ASOS (`sources/chapters/asos/asos-bran-02.md:85`)

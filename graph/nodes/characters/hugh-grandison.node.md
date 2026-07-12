@@ -31,6 +31,6 @@ Hugh is an older man whose once-grey beard has become white as snow.(wiki:Hugh_G
 
 ## Quotes
 
-> Grandison had seemed a pleasant fellow, less querulous than [Estermont](wiki:Elden_Estermont) and more robust than [Rosby](wiki:Gyles_Rosby). She would never marry him, however. Not even if [Hotah](wiki:Areo_Hotah) stands behind me with his axe.(wiki:Hugh_Grandison.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+> Grandison had seemed a pleasant fellow, less querulous than Estermont and more robust than Rosby. She would never marry him, however. Not even if Hotah stands behind me with his axe.
 >
-> —thoughts of [Arianne Martell](wiki:Arianne_Martell)
+> —thoughts of Arianne Martell, AFFC (`sources/chapters/affc/affc-the-princess-in-the-tower-01.md:119`)

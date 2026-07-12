@@ -172,29 +172,29 @@ With Tywin dead and the [Seven Kingdoms](wiki:Seven_Kingdoms) in disarray, the [
 
 ### Quotes by Tywin
 
-> Unleash Ser [Gregor](wiki:Gregor_Clegane) and send him before us with his [reavers](wiki:Mountain's_men). Send forth [Vargo Hoat](wiki:Vargo_Hoat) and his [freeriders](wiki:Freerider) as well, and Ser [Amory Lorch](wiki:Amory_Lorch). Each is to have three hundred horse. Tell them I want to see the [riverlands](wiki:Riverlands) afire from the [Gods Eye](wiki:Gods_Eye) to the [Red Fork](wiki:Red_Fork).(wiki:Tywin_Lannister.cite_ref-Ragot69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-5)
+> Unleash Ser Gregor and send him before us with his reavers. Send forth Vargo Hoat and his freeriders as well, and Ser Amory Lorch. Each is to have three hundred horse. Tell them I want to see the riverlands afire from the Gods Eye to the Red Fork.
 >
-> —Tywin to [Kevan Lannister](wiki:Kevan_Lannister)
+> —Tywin to Kevan Lannister, AGOT (`sources/chapters/agot/agot-tyrion-09.md:141`)
 
-> Tell [them](wiki:Vale_mountain_clans) they may ride with Vargo Hoat and plunder as they like—goods, stock, women, they may take what they want and burn the rest.(wiki:Tywin_Lannister.cite_ref-Ragot69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-6)
+> Tell them they may ride with Vargo Hoat and plunder as they like—goods, stock, women, they may take what they want and burn the rest.
 >
-> —Tywin to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Tywin to Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-09.md:145`)
 
-> Some battles are won with swords and spears, others with quills and [ravens](wiki:Raven).(wiki:Tywin_Lannister.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-6)
+> Some battles are won with swords and spears, others with quills and ravens.
 >
-> —Tywin to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Tywin to Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-01.md:197`)
 
 > The greatest [fools](wiki:Fool) are ofttimes more clever than the men who laugh at them.(wiki:Tywin_Lannister.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-5)
 >
 > —Tywin to [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> There is a tool for every task, and a task for every tool.(wiki:Tywin_Lannister.cite_ref-Rasos32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-4)
+> There is a tool for every task, and a task for every tool.
 >
-> —Tywin to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Tywin to Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-04.md:291`)
 
-> Joffrey, when your enemies defy you, you must serve them steel and fire. When they go to their knees, however, you must help them back to their feet. Elsewise no man will ever bend the knee to you. And any man who must say 'I am the king' is no true king at all. [Aerys](wiki:Aerys_II_Targaryen) never understood that, but you will. When I've won [your war](wiki:War_of_the_Five_Kings) for you, we will restore the king's peace and the king's justice.(wiki:Tywin_Lannister.cite_ref-Rasos53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_45-4)
+> Joffrey, when your enemies defy you, you must serve them steel and fire. When they go to their knees, however, you must help them back to their feet. Elsewise no man will ever bend the knee to you. And any man who must say 'I am the king' is no true king at all. Aerys never understood that, but you will. When I've won your war for you, we will restore the king's peace and the king's justice.
 >
-> —Tywin to [Joffrey I Baratheon](wiki:Joffrey_Baratheon)
+> —Tywin to Joffrey I Baratheon, ASOS (`sources/chapters/asos/asos-tyrion-06.md:83`)
 
 > **Tyrion**: [Tysha](wiki:Tysha). What did you do with her, after my little lesson?
 >
@@ -206,9 +206,9 @@ With Tywin dead and the [Seven Kingdoms](wiki:Seven_Kingdoms) in disarray, the [
 >
 > —Tywin and [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> No man is free. Only children and [fools](wiki:Fool) think elsewise.(wiki:Tywin_Lannister.cite_ref-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-2)
+> No man is free. Only children and fools think elsewise.
 >
-> —Tywin to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Tywin to Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-03.md:165`)
 
 ### Quotes about Tywin
 
@@ -216,17 +216,17 @@ With Tywin dead and the [Seven Kingdoms](wiki:Seven_Kingdoms) in disarray, the [
 >
 > —[Eddard Stark](wiki:Eddard_Stark)'s thoughts
 
-> Tywin Lannister was as much [fox](wiki:Fox) as [lion](wiki:Lion).(wiki:Tywin_Lannister.cite_ref-Ragot43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_57-1)
+> Tywin Lannister was as much fox as lion.
 >
-> —[Eddard Stark](wiki:Eddard_Stark)'s thoughts
+> —Eddard Stark's thoughts, AGOT (`sources/chapters/agot/agot-eddard-11.md:113`)
 
-> A fool more foolish than most had once jested that even Lord Tywin's shit was flecked with gold. Some said the man was still alive, deep in the bowels of [Casterly Rock](wiki:Casterly_Rock).(wiki:Tywin_Lannister.cite_ref-Ragot56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-7)
+> A fool more foolish than most had once jested that even Lord Tywin's shit was flecked with gold. Some said the man was still alive, deep in the bowels of Casterly Rock.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
+> —Tyrion Lannister's thoughts, AGOT (`sources/chapters/agot/agot-tyrion-07.md:71`)
 
-> Every once in a very long while, Lord Tywin Lannister would actually threaten to smile; he never did, but the threat alone was terrible to behold.(wiki:Tywin_Lannister.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-6)
+> Every once in a very long while, Lord Tywin Lannister would actually threaten to smile; he never did, but the threat alone was terrible to behold.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
+> —Tyrion Lannister's thoughts, ASOS (`sources/chapters/asos/asos-tyrion-03.md:373`)
 
 > **Oberyn**: Lord Tywin had made himself greater than King [Aerys](wiki:Aerys_II_Targaryen), I heard one [begging brother](wiki:Begging_brother) preach, but only a god is meant to stand above a king. You were his curse, a punishment sent by the gods to teach him that he was no better than any other man. **Tyrion**: I try, but he refuses to learn.(wiki:Tywin_Lannister.cite_ref-Rasos38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_35-1)
 >
@@ -242,21 +242,21 @@ With Tywin dead and the [Seven Kingdoms](wiki:Seven_Kingdoms) in disarray, the [
 >
 > —[Kevan Lannister](wiki:Kevan_Lannister) and [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> Lord Tywin Lannister did not, in the end, shit [gold](wiki:Gold).(wiki:Tywin_Lannister.cite_ref-Rasos77.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-4)
+> Lord Tywin Lannister did not, in the end, shit gold.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
+> —Tyrion Lannister's thoughts, ASOS (`sources/chapters/asos/asos-tyrion-11.md:269`)
 
-> It is not fitting for Tywin Lannister to die alone. Such a man deserves a retinue to attend his needs in hell.(wiki:Tywin_Lannister.cite_ref-Raffc3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-3)
+> It is not fitting for Tywin Lannister to die alone. Such a man deserves a retinue to attend his needs in hell.
 >
-> —[Cersei Lannister](wiki:Cersei_Lannister)'s thoughts
+> —Cersei Lannister's thoughts, AFFC (`sources/chapters/affc/affc-cersei-01.md:55`)
 
 > Father, it was you who told me that tears were a mark of weakness in a man, so you cannot that I should cry for you.(wiki:Tywin_Lannister.cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-4)
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) to Tywin Lannister's corpse
 
-> Even in the [west](wiki:Westerlands), Lord Tywin had been more respected than beloved, and [King's Landing](wiki:King's_Landing) still remembered the [Sack](wiki:Sack_of_King's_Landing).(wiki:Tywin_Lannister.cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-5)
+> Even in the west, Lord Tywin had been more respected than beloved, and King's Landing still remembered the Sack.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister)'s thoughts
+> —Jaime Lannister's thoughts, AFFC (`sources/chapters/affc/affc-jaime-01.md:71`)
 
 > I have served six kings, but here before us lies the greatest man I ever knew. Lord Tywin wore no crown, yet he was all a king should be.(wiki:Tywin_Lannister.cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-6)
 >

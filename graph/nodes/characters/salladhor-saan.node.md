@@ -95,18 +95,18 @@ Queen [Selyse Florent](wiki:Selyse_Florent) feasts Salladhor at Eastwatch.(wiki:
 
 ### Quotes about Salladhor
 
-> The [Lyseni](wiki:Lys) was a sleek, smiling man whose flamboyance was a byword on both sides of the [narrow sea](wiki:Narrow_sea).(wiki:Salladhor_Saan.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-9)
+> The Lyseni was a sleek, smiling man whose flamboyance was a byword on both sides of the narrow sea.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ACOK (`sources/chapters/acok/acok-davos-01.md:91`)
 
-> When a [pirate](wiki:Pirate) grows rich enough, they make him a prince.(wiki:Salladhor_Saan.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-10)
+> When a pirate grows rich enough, they make him a prince.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ACOK (`sources/chapters/acok/acok-davos-01.md:93`)
 
 > Salladhor Saan thinks only of gold! His head is full of dreams of the treasure he fancies lies under the [Red Keep](wiki:Red_Keep), so let us hear no more of Salladhor Saan. The day I need military counsel from a [Lysene](wiki:Lys) brigand is the day I put off my crown and [take the black](wiki:Night's_Watch).(wiki:Salladhor_Saan.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
 >
 > —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Davos Seaworth](wiki:Davos_Seaworth)
 
-> You are a treacherous old rogue, Salladhor Saan, but a good friend all the same.(wiki:Salladhor_Saan.cite_ref-Rasos10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+> You are a treacherous old rogue, Salladhor Saan, but a good friend all the same.
 >
-> —[Davos Seaworth](wiki:Davos_Seaworth) to Salladhor
+> —Davos Seaworth to Salladhor, ASOS (`sources/chapters/asos/asos-davos-02.md:111`)

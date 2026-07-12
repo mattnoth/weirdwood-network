@@ -253,9 +253,9 @@ On the [Rhoyne](wiki:Rhoyne), [Jon Connington](wiki:Jon_Connington), a friend of
 
 ## Quotes
 
-> A man had only to look at them to know that they were not like other men; their eyes, their hair, their very bearing, all proclaimed their differences. And they flew [dragons](wiki:Dragon).(wiki:House_Targaryen.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-1)
+> A man had only to look at them to know that they were not like other men; their eyes, their hair, their very bearing, all proclaimed their differences. And they flew dragons.
 >
-> —[Gyldayn](wiki:Gyldayn) writing about the [Doctrine of Exceptionalism](wiki:Doctrine_of_Exceptionalism)
+> —Gyldayn writing about the Doctrine of Exceptionalism, F&B (`sources/chapters/fab/fab-time-of-testing-09.md:177`)
 
 > Other [great houses](wiki:Great_houses) might choose to bury their dead in the dark earth or sink them in the cold green sea, but the Targaryens were the blood of the dragon, and their ends were writ in flame.(wiki:House_Targaryen.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-8)
 >
@@ -265,17 +265,17 @@ On the [Rhoyne](wiki:Rhoyne), [Jon Connington](wiki:Jon_Connington), a friend of
 >
 > —[Viserys Targaryen](wiki:Viserys_Targaryen) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> I will kill every [Targaryen](wiki:Targaryen) I can get my hands on, until they are as dead as their [dragons](wiki:Dragon), and then I will piss on their graves.(wiki:House_Targaryen.cite_ref-Ragot12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_83-4)
+> I will kill every Targaryen I can get my hands on, until they are as dead as their dragons, and then I will piss on their graves.
 >
-> —[Robert I Baratheon](wiki:Robert_I_Baratheon) to [Eddard Stark](wiki:Eddard_Stark)
+> —Robert I Baratheon to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-02.md:79`)
 
-> What did any Targaryen ever know of honor? Go down into [your crypt](wiki:Crypt_of_Winterfell) and ask [Lyanna](wiki:Lyanna_Stark) about [the dragon's](wiki:Rhaegar_Targaryen) honor!(wiki:House_Targaryen.cite_ref-Ragot12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_83-5)
+> What did any Targaryen ever know of honor? Go down into your crypt and ask Lyanna about the dragon's honor!
 >
-> —[Robert I Baratheon](wiki:Robert_I_Baratheon) to [Eddard Stark](wiki:Eddard_Stark)
+> —Robert I Baratheon to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-02.md:145`)
 
-> The dragon kings had [wed brother to sister](wiki:Incest), but they were the blood of old [Valyria](wiki:Valyria) where such practices had been common, and like their [dragons](wiki:Dragon) the Targaryens answered to neither gods nor men.(wiki:House_Targaryen.cite_ref-Racok33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_152-0)
+> The dragon kings had wed brother to sister, but they were the blood of old Valyria where such practices had been common, and like their dragons the Targaryens answered to neither gods nor men.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-04.md:33`)
 
 > I am no maester to quote history at you, Your Grace. Swords have been my life, not books. But every child knows that the Targaryens have always danced too close to [madness](wiki:Targaryen_madness). [Your father](wiki:Aerys_II_Targaryen) was not the first. King [Jaehaerys](wiki:Jaehaerys_II_Targaryen) once told me that madness and greatness are two sides of the same coin. Every time a new Targaryen is born, he said, the gods toss the coin in the air and [the world](wiki:Known_world) holds its breath to see how it will land.".(wiki:House_Targaryen.cite_ref-Rasos71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-3)
 >
@@ -289,4 +289,3 @@ On the [Rhoyne](wiki:Rhoyne), [Jon Connington](wiki:Jon_Connington), a friend of
 
 > Here, brides thus blessed upon their wedding nights were envied, and the children born of such unions were esteemed above all others, for the Lords of Dragonstone oft celebrated the birth of such with lavish gifts of gold and silk and land to the mother. These happy bastards were said to have been “born of dragonseed,” and in time became known simply as “seeds.”
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:201`)
-

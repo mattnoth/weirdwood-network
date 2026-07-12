@@ -168,13 +168,13 @@ The Yunkish threat in the [second siege of Meereen](wiki:Second_siege_of_Meereen
 >
 > —thoughts of Barristan
 
-> You kill men for the wrongs they have done, not the wrongs that they may do someday.(wiki:Barristan_Selmy.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-13)
+> You kill men for the wrongs they have done, not the wrongs that they may do someday.
 >
-> —Barristan to [Skahaz mo Kandaq](wiki:Skahaz_mo_Kandaq)
+> —Barristan to Skahaz mo Kandaq, ADWD (`sources/chapters/adwd/adwd-the-kingbreaker-01.md:115`)
 
-> I am no [Hand](wiki:Hand_of_the_King), a part of him wanted to cry out. I am only a simple [knight](wiki:Knight), [the queen's](wiki:Daenerys_Targaryen) protector. I never wanted this. But with the queen gone and [the king](wiki:Hizdahr_zo_Loraq) in chains, someone had to rule, and Ser Barristan did not trust the [Shavepate](wiki:Skahaz_mo_Kandaq).(wiki:Barristan_Selmy.cite_ref-Radwd70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-5)
+> I am no Hand, a part of him wanted to cry out. I am only a simple knight, the queen's protector. I never wanted this. But with the queen gone and the king in chains, someone had to rule, and Ser Barristan did not trust the Shavepate.
 >
-> —thoughts of Barristan
+> —thoughts of Barristan, ADWD (`sources/chapters/adwd/adwd-the-queens-hand-01.md:49`)
 
 > I am an old man, an old [knight](wiki:Knight), and I have seen more battles than most of you have years. Nothing is more terrible upon this earth, nothing more glorious, nothing more absurd. You may retch. You will not be the first. You may drop your sword, your shield, your lance. Others have done the same. Pick it up and go on fighting. You may foul your breeches. I did, in my first battle. No one will care. All battlefields smell of shit. You may cry out for your mother, pray to gods you thought you had forgotten, howl obscenities that you never dreamed could pass your lips. All this has happened too.(wiki:Barristan_Selmy.cite_ref-BarristanI_59-1)
 >
@@ -198,9 +198,9 @@ The Yunkish threat in the [second siege of Meereen](wiki:Second_siege_of_Meereen
 >
 > —[Varys](wiki:Varys) to [Eddard Stark](wiki:Eddard_Stark) regarding [Robert I Baratheon](wiki:Robert_I_Baratheon)'s [Kingsguard](wiki:Kingsguard)
 
-> And dismissing Selmy, where was the sense in that? Yes, the man was old, but the name of Barristan the Bold still has meaning in [the realm](wiki:Seven_Kingdoms). He lent honor to any man he served. Can anyone say the same of the [Hound](wiki:Sandor_Clegane)?(wiki:Barristan_Selmy.cite_ref-Ragot69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_47-1)
+> And dismissing Selmy, where was the sense in that? Yes, the man was old, but the name of Barristan the Bold still has meaning in the realm. He lent honor to any man he served. Can anyone say the same of the Hound?
 >
-> —[Tywin Lannister](wiki:Tywin_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister) after learning of Barristan's dismissal from the [Kingsguard](wiki:Kingsguard)
+> —Tywin Lannister to Tyrion Lannister after learning of Barristan's dismissal from the Kingsguard, AGOT (`sources/chapters/agot/agot-tyrion-09.md:161`)
 
 > The [smallfolk](wiki:Smallfolk) talk of him the same way they talk of [Serwyn of the Mirror Shield](wiki:Serwyn_of_the_Mirror_Shield) and Prince [Aemon the Dragonknight](wiki:Aemon_Targaryen_(son_of_Viserys_II)).(wiki:Barristan_Selmy.cite_ref-Racok3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_46-4)
 >
@@ -218,13 +218,13 @@ The Yunkish threat in the [second siege of Meereen](wiki:Second_siege_of_Meereen
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) to [Boros Blount](wiki:Boros_Blount), [Osmund Kettleblack](wiki:Osmund_Kettleblack), [Balon Swann](wiki:Balon_Swann), [Meryn Trant](wiki:Meryn_Trant), and [Loras Tyrell](wiki:Loras_Tyrell)
 
-> Ser Barristan is a [valiant knight and true](wiki:True_knight); but none, I think, has ever called him cunning.(wiki:Barristan_Selmy.cite_ref-Radwd14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_61-0)
+> Ser Barristan is a valiant knight and true; but none, I think, has ever called him cunning.
 >
-> —[Illyrio Mopatis](wiki:Illyrio_Mopatis) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Illyrio Mopatis to Tyrion Lannister, ADWD (`sources/chapters/adwd/adwd-tyrion-02.md:109`)
 
-> We should be heeding Selmy. When Barristan the Bold tells you to run, a wise man laces up his boots.(wiki:Barristan_Selmy.cite_ref-Radwd60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_57-1)
+> We should be heeding Selmy. When Barristan the Bold tells you to run, a wise man laces up his boots.
 >
-> —[Gerris Drinkwater](wiki:Gerris_Drinkwater) to [Quentyn Martell](wiki:Quentyn_Martell)
+> —Gerris Drinkwater to Quentyn Martell, ADWD (`sources/chapters/adwd/adwd-the-spurned-suitor-01.md:17`)
 
 > [Queen's Hand](wiki:Hand_of_the_King). An old woman's hand, I am thinking, wrinkled and feeble.(wiki:Barristan_Selmy.cite_ref-Radwd70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-6)
 >

@@ -84,17 +84,17 @@ Stannis orders Ser [Justin Massey](wiki:Justin_Massey) to travel from the [croft
 
 ### Quotes about Shireen
 
-> Her name was Shireen. She would be ten on her next [name day](wiki:Name_day), and she was the saddest child that Maester Cressen had ever known.(wiki:Shireen_Baratheon.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-8)
+> Her name was Shireen. She would be ten on her next name day, and she was the saddest child that Maester Cressen had ever known.
 >
-> —thoughts of [Cressen](wiki:Cressen)
+> —thoughts of Cressen, ACOK (`sources/chapters/acok/acok-prologue.md:35`)
 
-> This is [the king's](wiki:Stannis_Baratheon) true heir. Shireen will one day sit the [Iron Throne](wiki:Iron_Throne) and rule the [Seven Kingdoms](wiki:Seven_Kingdoms).(wiki:Shireen_Baratheon.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-2)
+> This is the king's true heir. Shireen will one day sit the Iron Throne and rule the Seven Kingdoms.
 >
-> —[Selyse Florent](wiki:Selyse_Florent) to [Jon Snow](wiki:Jon_Snow)
+> —Selyse Florent to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-09.md:57`)
 
-> The [maesters](wiki:Maesters) may believe what they wish. Ask a [woods witch](wiki:Woods_witch) if you would know the truth. The [grey death](wiki:Greyscale) sleeps, only to wake again. The child is not clean!(wiki:Shireen_Baratheon.cite_ref-Radwd53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-1)
+> The maesters may believe what they wish. Ask a woods witch if you would know the truth. The grey death sleeps, only to wake again. The child is not clean!
 >
-> —Val to [Jon Snow](wiki:Jon_Snow)
+> —Val to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-11.md:231`)
 
 > **Justin**: Your Grace, if you are dead —
 >

@@ -144,9 +144,9 @@ However, as the play is about to begin, Arya notices that one of Harys's guards 
 
 ### Quotes by Arya
 
-> I'm the ghost in [Harrenhal](wiki:Harrenhal), she thought. And that night, there was one less name to hate.(wiki:Arya_Stark.cite_ref-Racok30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-6)
+> I'm the ghost in Harrenhal, she thought. And that night, there was one less name to hate.
 >
-> —Arya after the killing of [Chiswyck](wiki:Chiswyck)
+> —Arya after the killing of Chiswyck, ACOK (`sources/chapters/acok/acok-arya-07.md:145`)
 
 > Yes, it's you who ought to run, you and Lord [Tywin](wiki:Tywin_Lannister) and [the Mountain](wiki:Gregor_Clegane) and Ser [Addam](wiki:Addam_Marbrand) and Ser [Amory](wiki:Amory_Lorch) and stupid Ser [Lyonel](wiki:Lyonel_(knight)) whoever he is, all of you better run or [my brother](wiki:Robb_Stark) will kill you, he’s a [Stark](wiki:House_Stark), he’s more wolf than man, and so am I.(wiki:Arya_Stark.cite_ref-Racok38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_46-5)
 >

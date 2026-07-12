@@ -94,17 +94,17 @@ The Frey vanguard falls into a pit trap set by [Mors Umber](wiki:Mors_Umber). Ho
 
 ### Quotes about Hosteen
 
-> Why did I need to ride all that way to see Hosteen knocked off his horse by [that Tyrell whelp](wiki:Loras_Tyrell)? I ask you. The boy's half his age, Ser Daisy they call him, something like that.(wiki:Hosteen_Frey.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-2)
+> Why did I need to ride all that way to see Hosteen knocked off his horse by that Tyrell whelp? I ask you. The boy's half his age, Ser Daisy they call him, something like that.
 >
-> —[Walder Frey](wiki:Walder_Frey) to [Catelyn Stark](wiki:Catelyn_Stark)
+> —Walder Frey to Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-09.md:201`)
 
-> Hosteen and [Aenys](wiki:Aenys_Frey). He remembered them from before he knew his name. Hosteen was a bull, slow to anger but implacable once roused, and by repute the fiercest fighter of Lord [Walder's](wiki:Walder_Frey) get. Aenys was older, crueler, and more clever—a commander, not a swordsman. Both were seasoned soldiers.(wiki:Hosteen_Frey.cite_ref-Radwd20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4)
+> Hosteen and Aenys. He remembered them from before he knew his name. Hosteen was a bull, slow to anger but implacable once roused, and by repute the fiercest fighter of Lord Walder's get. Aenys was older, crueler, and more clever—a commander, not a swordsman. Both were seasoned soldiers.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-02.md:209`)
 
-> They are strangers here as well, he thought, watching Ser [Aenys Frey](wiki:Aenys_Frey) and his half-brother Ser Hosteen. Born and bred in the [riverlands](wiki:Riverlands), the [Freys](wiki:House_Frey) had never seen a snow like this.(wiki:Hosteen_Frey.cite_ref-Radwd41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
+> They are strangers here as well, he thought, watching Ser Aenys Frey and his half-brother Ser Hosteen. Born and bred in the riverlands, the Freys had never seen a snow like this.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-turncloak-01.md:17`)
 
 > **Theon**: [Aenys](wiki:Aenys_Frey) broke his neck, I heard, but Ser Hosteen only lost a horse, more's the pity. He will be angry now. **Stannis**: Angry foes do not concern me. Anger makes men stupid, and Hosteen Frey was stupid to begin with, if half of what I have heard of him is true. Let him come.(wiki:Hosteen_Frey.cite_ref-TheonI_9-2)
 >

@@ -106,9 +106,9 @@ Theon recalls Rodrik and his teachings after returning to Winterfell for the [we
 >
 > —[Sandor Clegane](wiki:Sandor_Clegane) and Rodrik
 
-> Never draw your sword unless you mean to use it. How many times must I tell you, foolish boy?(wiki:Rodrik_Cassel.cite_ref-Ragot14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-2)
+> Never draw your sword unless you mean to use it. How many times must I tell you, foolish boy?
 >
-> —Rodrik to [Robb Stark](wiki:Robb_Stark)
+> —Rodrik to Robb Stark, AGOT (`sources/chapters/agot/agot-catelyn-03.md:209`)
 
 > The gods frown on the gambler.(wiki:Rodrik_Cassel.cite_ref-Ragot28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
 >
@@ -118,9 +118,9 @@ Theon recalls Rodrik and his teachings after returning to Winterfell for the [we
 >
 > —Rodrik and [Donella Hornwood](wiki:Donella_Hornwood)
 
-> When we speak of the morrow nothing is ever certain.(wiki:Rodrik_Cassel.cite_ref-Racok16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-4)
+> When we speak of the morrow nothing is ever certain.
 >
-> —Rodrik to [Bran Stark](wiki:Bran_Stark)
+> —Rodrik to Bran Stark, ACOK (`sources/chapters/acok/acok-bran-02.md:241`)
 
 > **Theon**: It grieves me that we must meet as foes. **Rodrik**: My own grief is that I must wait a while to hang you. Theon Turncloak.(wiki:Rodrik_Cassel.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-5)
 >
@@ -128,18 +128,18 @@ Theon recalls Rodrik and his teachings after returning to Winterfell for the [we
 
 ### Quotes about Rodrik
 
-> Know your foe, Ser Rodrik had taught him once; Jon knew [Halder](wiki:Halder), brutally strong but short of patience, with no taste for defense.(wiki:Rodrik_Cassel.cite_ref-Ragot26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_40-0)
+> Know your foe, Ser Rodrik had taught him once; Jon knew Halder, brutally strong but short of patience, with no taste for defense.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, AGOT (`sources/chapters/agot/agot-jon-04.md:57`)
 
-> The [castellan](wiki:Castellan) at [Winterfell](wiki:Winterfell) is a brave man, but age has stiffened his wits as well as his limbs. When he learns that one of his king's bannermen is under attack by the fearsome Dagmer Cleftjaw, he will summon his strength and ride to [Tallhart's](wiki:Leobald_Tallhart) aid. It is his duty. Ser Rodrik is nothing if not dutiful.(wiki:Rodrik_Cassel.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-1)
+> The castellan at Winterfell is a brave man, but age has stiffened his wits as well as his limbs. When he learns that one of his king's bannermen is under attack by the fearsome Dagmer Cleftjaw, he will summon his strength and ride to Tallhart's aid. It is his duty. Ser Rodrik is nothing if not dutiful.
 >
-> —[Theon Greyjoy](wiki:Theon_Greyjoy) to [Dagmer](wiki:Dagmer)
+> —Theon Greyjoy to Dagmer, ACOK (`sources/chapters/acok/acok-theon-03.md:157`)
 
-> That dear brave loyal old soul. She could almost see him, tugging on his fierce white whiskers.(wiki:Rodrik_Cassel.cite_ref-Rasos35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
+> That dear brave loyal old soul. She could almost see him, tugging on his fierce white whiskers.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-04.md:173`)
 
-> There is always someone quicker and stronger, Ser Rodrik had once told Jon and [Robb](wiki:Robb_Stark). He's the man you want to face in the yard before you need to face his like upon a battlefield.(wiki:Rodrik_Cassel.cite_ref-Radwd28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-2)
+> There is always someone quicker and stronger, Ser Rodrik had once told Jon and Robb. He's the man you want to face in the yard before you need to face his like upon a battlefield.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-06.md:101`)

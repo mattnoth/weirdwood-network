@@ -61,9 +61,9 @@ Shaken by the loss of her [dragon](wiki:Dragon) and her son [Joffrey Velaryon](w
 
 ## Quotes
 
-> Drunks they may be, but a drunken man knows not fear. Fools, aye, but a fool can kill a king. Rats, that too, but a thousand rats can bring down a bear.(wiki:Storming_of_the_Dragonpit.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> Drunks they may be, but a drunken man knows not fear. Fools, aye, but a fool can kill a king. Rats, that too, but a thousand rats can bring down a bear.
 >
-> —[Mushroom](wiki:Mushroom)
+> —Mushroom, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p01.md:141`)
 
 > When the [dragons](wiki:Dragon) come, your flesh will burn and blister and turn to ash. Your wives will dance in gowns of fire, shrieking as they burn, lewd and naked underneath the flames. And you shall see your little children weeping, weeping till their eyes do melt and slide like jelly down their faces, till their pink flesh falls black and crackling from their bones. The [Stranger](wiki:Stranger_(the_Seven)) comes, he comes, he comes, to scourge us for our sins. Prayers cannot stay his wroth, no more than tears can quench the flame of dragons. Only blood can do that. Your blood, my blood, their blood. [There](wiki:Dragonpit) [the demons](wiki:Dragon) dwell, up there. Fire and blood, blood and fire. This is their city. If you would make it yours, first you must destroy them. If you would cleanse yourself of sin, first must you bathe in dragon’s blood. For only blood can quench the fires of hell.(wiki:Storming_of_the_Dragonpit.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-10)
 >

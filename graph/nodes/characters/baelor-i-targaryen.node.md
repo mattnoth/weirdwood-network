@@ -127,9 +127,9 @@ Cersei Lannister, during her [walk of atonement](wiki:Walk_of_atonement) from th
 
 ## Quotes
 
-> [The gods](wiki:Faith_of_the_Seven) are just, yet Blessed Baelor taught us that they are also merciful.(wiki:Baelor_I_Targaryen.cite_ref-Ragot65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+> The gods are just, yet Blessed Baelor taught us that they are also merciful.
 >
-> —[High Septon](wiki:High_Septon_(fat_one))
+> —High Septon), AGOT (`sources/chapters/agot/agot-arya-05.md:159`)
 
 > **Tyrion**: Baelor starved himself to death, fasting. His uncle served him loyally as [Hand](wiki:Hand), as he had served the Young Dragon before him. [Viserys](wiki:Viserys_II_Targaryen) might only have reigned a year, but he ruled for fifteen, while [Daeron](wiki:Daeron_I_Targaryen) warred and Baelor prayed. And if he did [remove](wiki:Poison) his nephew, can you blame him? Someone had to save [the realm](wiki:Seven_Kingdoms) from Baelor's follies.
 >
@@ -155,13 +155,13 @@ Cersei Lannister, during her [walk of atonement](wiki:Walk_of_atonement) from th
 >
 > —[Barristan Selmy](wiki:Barristan_Selmy), to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> Their path took them past the statue of Baelor the Blessed, standing tall and serene upon his plinth, his face a study in benevolence. To look at him, you would never guess what a fool he'd been.(wiki:Baelor_I_Targaryen.cite_ref-Radwd63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-0)
+> Their path took them past the statue of Baelor the Blessed, standing tall and serene upon his plinth, his face a study in benevolence. To look at him, you would never guess what a fool he'd been.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, ADWD (`sources/chapters/adwd/adwd-cersei-02.md:115`)
 
-> The [Targaryen dynasty](wiki:House_Targaryen) had produced kings both bad and good, but none as beloved as Baelor, that pious gentle [septon](wiki:Septon)-king who loved the [smallfolk](wiki:Smallfolk) and [the gods](wiki:Faith_of_the_Seven) in equal parts, yet [imprisoned his own sisters](wiki:Maidenvault). It was a wonder that his statue did not crumble at the sight of [her bare breasts](wiki:Walk_of_atonement).(wiki:Baelor_I_Targaryen.cite_ref-Radwd63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-1)
+> The Targaryen dynasty had produced kings both bad and good, but none as beloved as Baelor, that pious gentle septon-king who loved the smallfolk and the gods in equal parts, yet imprisoned his own sisters. It was a wonder that his statue did not crumble at the sight of her bare breasts.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, ADWD (`sources/chapters/adwd/adwd-cersei-02.md:115`)
 
 > There's sometimes a fine line between [madness](wiki:Targaryen_madness) and greatness. [Daeron I](wiki:Daeron_I_Targaryen), the boy king who led a [war of conquest](wiki:Conquest_of_Dorne), and even the saintly Baelor I could also be considered "mad," if seen in a different light.(wiki:Baelor_I_Targaryen.cite_ref-Rssm945.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-0)
 >

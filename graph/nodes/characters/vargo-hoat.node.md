@@ -110,9 +110,9 @@ When Ser [Jaime Lannister](wiki:Jaime_Lannister) returns to Harrenhal on his way
 >
 > —[Petyr Baelish](wiki:Petyr_Baelish) to the [small council](wiki:Small_council)
 
-> He will be pleased to see you, I have no doubt, but I would not call him a goat to his face. Lord Vargo grows prickly about his dignity.(wiki:Vargo_Hoat.cite_ref-Rasos21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-3)
+> He will be pleased to see you, I have no doubt, but I would not call him a goat to his face. Lord Vargo grows prickly about his dignity.
 >
-> —[Urswyck](wiki:Urswyck) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Urswyck to Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-03.md:161`)
 
 > **Roose**: Do you know why Hoat cut off your hand?
 >
@@ -126,6 +126,6 @@ When Ser [Jaime Lannister](wiki:Jaime_Lannister) returns to Harrenhal on his way
 >
 > —[Roose Bolton](wiki:Roose_Bolton) and [Brienne of Tarth](wiki:Brienne_of_Tarth)
 
-> The goat is [Lord of Harrenhal](wiki:Lord_of_Harrenhal), and the Lord of Harrenhal does not haggle.(wiki:Vargo_Hoat.cite_ref-Rasos44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-3)
+> The goat is Lord of Harrenhal, and the Lord of Harrenhal does not haggle.
 >
-> —[Qyburn](wiki:Qyburn) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Qyburn to Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-06.md:83`)

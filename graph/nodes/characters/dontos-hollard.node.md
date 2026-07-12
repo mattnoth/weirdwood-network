@@ -100,9 +100,9 @@ Pretending to be Alayne Stone at the [Eyrie](wiki:Eyrie), Sansa remembers Dontos
 >
 > —Dontos and [Sansa Stark](wiki:Sansa_Stark)
 
-> My life is a poor thing, but it is yours.(wiki:Dontos_Hollard.cite_ref-Racok18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
+> My life is a poor thing, but it is yours.
 >
-> —Dontos to [Sansa Stark](wiki:Sansa_Stark)
+> —Dontos to Sansa Stark, ACOK (`sources/chapters/acok/acok-sansa-02.md:101`)
 
 > **Sansa**: What stones are these?
 >
@@ -112,14 +112,14 @@ Pretending to be Alayne Stone at the [Eyrie](wiki:Eyrie), Sansa remembers Dontos
 
 ### Quotes about Dontos
 
-> A [fool](wiki:Fool). You're so clever, to see it. He's better fitted to be a fool than a [knight](wiki:Knight), isn't he? You ought to dress him in motley and make him clown for you.(wiki:Dontos_Hollard.cite_ref-Racok2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> A fool. You're so clever, to see it. He's better fitted to be a fool than a knight, isn't he? You ought to dress him in motley and make him clown for you.
 >
-> —[Sansa Stark](wiki:Sansa_Stark) to [Joffrey I Baratheon](wiki:Joffrey_Baratheon)
+> —Sansa Stark to Joffrey I Baratheon, ACOK (`sources/chapters/acok/acok-sansa-01.md:131`)
 
 > **Sansa**: You killed him. **Petyr**: My lady, your grief is wasted on such a man as that. He was a sot, and no man's friend.(wiki:Dontos_Hollard.cite_ref-Rasos61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-7)
 >
 > —[Sansa Stark](wiki:Sansa_Stark) and [Petyr Baelish](wiki:Petyr_Baelish)
 
-> Ser Dontos the Red was a skin of [wine](wiki:Wine) with legs.(wiki:Dontos_Hollard.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-1)
+> Ser Dontos the Red was a skin of wine with legs.
 >
-> —[Petyr Baelish](wiki:Petyr_Baelish) to [Sansa Stark](wiki:Sansa_Stark)
+> —Petyr Baelish to Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-06.md:145`)

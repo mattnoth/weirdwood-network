@@ -127,25 +127,25 @@ At the House of Black and White, [plague face](wiki:Plague_face) explains to Ary
 
 ### Quotes about Jaqen
 
-> Something about the way he talked reminded her of [Syrio](wiki:Syrio_Forel); it was the same, yet different too.(wiki:Jaqen_H'ghar.cite_ref-Racok5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
+> Something about the way he talked reminded her of Syrio; it was the same, yet different too.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ACOK (`sources/chapters/acok/acok-arya-02.md:89`)
 
-> Jaqen made me brave again. He made me a ghost instead of a mouse.(wiki:Jaqen_H'ghar.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-12)
+> Jaqen made me brave again. He made me a ghost instead of a mouse.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ACOK (`sources/chapters/acok/acok-arya-09.md:117`)
 
-> She had been avoiding the [Lorathi](wiki:Lorath) since [Weese](wiki:Weese)'s death. [Chiswyck](wiki:Chiswyck) had been easy, anyone could push a man off the wallwalk, but Weese had raised that ugly [spotted dog](wiki:Spotted_dog) from a pup, and only some [dark magic](wiki:Sorcery) could have turned the animal against him. [Yoren](wiki:Yoren) found Jaqen in a [black cell](wiki:Black_cells), the same as [Rorge](wiki:Rorge) and [Biter](wiki:Biter), she remembered. Jaqen did something horrible and Yoren knew, that's why he kept him in chains. If the [Lorathi](wiki:Lorath) was a [wizard](wiki:Wizard), Rorge and Biter could be [demons](wiki:Demons) he called up from some [hell](wiki:Seven_hells), not men at all.(wiki:Jaqen_H'ghar.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-13)
+> She had been avoiding the Lorathi since Weese's death. Chiswyck had been easy, anyone could push a man off the wallwalk, but Weese had raised that ugly spotted dog from a pup, and only some dark magic could have turned the animal against him. Yoren found Jaqen in a black cell, the same as Rorge and Biter, she remembered. Jaqen did something horrible and Yoren knew, that's why he kept him in chains. If the Lorathi was a wizard, Rorge and Biter could be demons he called up from some hell, not men at all.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ACOK (`sources/chapters/acok/acok-arya-09.md:119`)
 
 > Jaqen still owed her one death. In [Old Nan](wiki:Old_Nan)'s stories about men who were given [magic](wiki:Magic) wishes by a [grumkin](wiki:Grumkin), you had to be especially careful with the third wish, because it was the last. […] So long as she could kill with a whisper, Arya need not be afraid of anyone... but once she used up the last death, she would only be a mouse again.(wiki:Jaqen_H'ghar.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-14)
 >
 > —thoughts of [Arya Stark](wiki:Arya_Stark)
 
-> Sometimes she wished she had gone off across the [narrow sea](wiki:Narrow_sea) with Jaqen H'ghar. She still had the stupid [coin](wiki:Currency) he'd given her, a piece of [iron](wiki:Iron) no larger than a penny and rusted along the rim. One side had writing on it, queer words she could not read. The other showed a man's head, but so worn that all his features had rubbed off. He said it was of great value, but that was probably a lie too, like his name and even his face.(wiki:Jaqen_H'ghar.cite_ref-Racok64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-2)
+> Sometimes she wished she had gone off across the narrow sea with Jaqen H'ghar. She still had the stupid coin he'd given her, a piece of iron no larger than a penny and rusted along the rim. One side had writing on it, queer words she could not read. The other showed a man's head, but so worn that all his features had rubbed off. He said it was of great value, but that was probably a lie too, like his name and even his face.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ACOK (`sources/chapters/acok/acok-arya-10.md:53`)
 
 > **Arya**: Is Jaqen H'ghar a priest too? Do you know if Jaqen will be coming back to [Braavos](wiki:Braavos)?
 >

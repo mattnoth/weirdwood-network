@@ -69,9 +69,9 @@ Men from the Bloody Gate travel to the Gates of the Moon to compete in the tourn
 
 ## Quotes
 
-> Many and more have broken themselves against my Bloody Gate, and the [Eyrie](wiki:Eyrie) is known to be impregnable.(wiki:Bloody_Gate.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
+> Many and more have broken themselves against my Bloody Gate, and the Eyrie is known to be impregnable.
 >
-> —[Jeyne Arryn](wiki:Jeyne_Arryn) to [Jacaerys Velaryon](wiki:Jacaerys_Velaryon)
+> —Jeyne Arryn to Jacaerys Velaryon, F&B (`sources/chapters/fab/fab-the-blacks-and-the-greens-16-p02.md:115`)
 
 > **Donnel**: May we enter the [Vale](wiki:Vale_of_Arryn_(valley))? **Brynden**: In the name of [Robert Arryn](wiki:Robert_Arryn), [Lord of the Eyrie](wiki:Lord_of_the_Eyrie), [Defender of the Vale](wiki:Defender_of_the_Vale), [True Warden of the East](wiki:True_Warden_of_the_East), I bid you enter freely, and charge you to keep his peace.(wiki:Bloody_Gate.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
 >
@@ -81,6 +81,6 @@ Men from the Bloody Gate travel to the Gates of the Moon to compete in the tourn
 >
 > —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
 
-> Lady [Lysa](wiki:Lysa_Arryn) is too fearful to admit an army to [the Vale](wiki:Vale_of_Arryn). Any army. The Bloody Gate will remain closed.(wiki:Bloody_Gate.cite_ref-Rasos20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1)
+> Lady Lysa is too fearful to admit an army to the Vale. Any army. The Bloody Gate will remain closed.
 >
-> —[Brynden Tully](wiki:Brynden_Tully) to [Robb Stark](wiki:Robb_Stark)
+> —Brynden Tully to Robb Stark, ASOS (`sources/chapters/asos/asos-catelyn-03.md:143`)

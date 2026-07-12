@@ -98,21 +98,21 @@ Prior to the [tourney](wiki:Tourney) for the [Brotherhood of Winged Knights](wik
 
 ### Quotes about Lyn
 
-> Ser Lyn was a different sort of folly; lean and handsome, heir to [an ancient but impoverished house](wiki:House_Corbray), but vain, reckless, hot-tempered ... and, it was whispered, notoriously uninterested in the intimate charms of women.(wiki:Lyn_Corbray.cite_ref-Ragot40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-8)
+> Ser Lyn was a different sort of folly; lean and handsome, heir to an ancient but impoverished house, but vain, reckless, hot-tempered ... and, it was whispered, notoriously uninterested in the intimate charms of women.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-07.md:57`)
 
 > **Petyr**: Ser Lyn mislikes me, for some reason. **Nestor**: Lyn Corbray is a dangerous man.(wiki:Lyn_Corbray.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
 >
 > —[Petyr Baelish](wiki:Petyr_Baelish) and [Nestor Royce](wiki:Nestor_Royce)
 
-> If even half of what she had heard from [Lord Robert's guards](wiki:House_Arryn_guards) was true, Lyn Corbray was more dangerous than all six of the [Lords Declarant](wiki:Lords_Declarant) put together.(wiki:Lyn_Corbray.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-20)
+> If even half of what she had heard from Lord Robert's guards was true, Lyn Corbray was more dangerous than all six of the Lords Declarant put together.
 >
-> —thoughts of [Alayne Stone](wiki:Sansa_Stark)
+> —thoughts of Alayne Stone, AFFC (`sources/chapters/affc/affc-alayne-01.md:65`)
 
-> Ser Lyn is very handsome, for an older man, she thought, but I do not like the way he smiles.(wiki:Lyn_Corbray.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-21)
+> Ser Lyn is very handsome, for an older man, she thought, but I do not like the way he smiles.
 >
-> —thoughts of [Alayne Stone](wiki:Sansa_Stark)
+> —thoughts of Alayne Stone, AFFC (`sources/chapters/affc/affc-alayne-01.md:195`)
 
 > **Petyr**: Ser Lyn will remain my implacable enemy. He will speak of me with scorn and loathing to every man he meets, and lend his sword to every secret plot to bring me down.
 >

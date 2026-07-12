@@ -74,9 +74,9 @@ Thousands of [sparrows](wiki:Sparrow) in [King's Landing](wiki:King's_Landing) a
 >
 > —the [ghost of High Heart](wiki:Ghost_of_High_Heart) to [Beric Dondarrion](wiki:Beric_Dondarrion), [Lem](wiki:Lem), and [Thoros of Myr](wiki:Thoros_of_Myr)
 
-> We'll have music, such sweet music, and [wine](wiki:Wine), heh, the red will run, and we'll put some wrongs aright.(wiki:Red_Wedding.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-7)
+> We'll have music, such sweet music, and wine, heh, the red will run, and we'll put some wrongs aright.
 >
-> —[Walder Frey](wiki:Walder_Frey) to [Robb Stark](wiki:Robb_Stark)
+> —Walder Frey to Robb Stark, ASOS (`sources/chapters/asos/asos-catelyn-06.md:155`)
 
 > Was there ever a wedding less joyful?(wiki:Red_Wedding.cite_ref-Rasos51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-21)
 >
@@ -86,13 +86,13 @@ Thousands of [sparrows](wiki:Sparrow) in [King's Landing](wiki:King's_Landing) a
 >
 > —[Walder Frey](wiki:Walder_Frey) to [Robb Stark](wiki:Robb_Stark)
 
-> In the midst of slaughter, the [Lord of the Crossing](wiki:Lord_of_the_Crossing) sat on his carved oaken throne, watching greedily.(wiki:Red_Wedding.cite_ref-Rasos51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-23)
+> In the midst of slaughter, the Lord of the Crossing sat on his carved oaken throne, watching greedily.
 >
-> —[Catelyn Stark](wiki:Catelyn_Stark)'s thoughts
+> —Catelyn Stark's thoughts, ASOS (`sources/chapters/asos/asos-catelyn-07.md:109`)
 
-> The camp had become a battlefield. No, a butcher's den.(wiki:Red_Wedding.cite_ref-Rasos52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> The camp had become a battlefield. No, a butcher's den.
 >
-> —[Arya Stark](wiki:Arya_Stark)'s thoughts
+> —Arya Stark's thoughts, ASOS (`sources/chapters/asos/asos-arya-11.md:47`)
 
 > [Roslin](wiki:Roslin_Frey) caught a [fine fat trout](wiki:Edmure_Tully). [Her brothers](wiki:House_Frey) gave her a pair of [wolf pelts](wiki:House_Stark) for her wedding.(wiki:Red_Wedding.cite_ref-Rasos53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-3)
 >

@@ -141,6 +141,6 @@ When Queen [Margaery Tyrell](wiki:Margaery_Tyrell) is accused of adultery, Auran
 >
 > —writings of [Yandel](wiki:Yandel)
 
-> Tonight I am to sup with my [lords](wiki:Lord) bannermen, such as they are. [Celtigar](wiki:Ardrian_Celtigar), [Velaryon](wiki:Monford_Velaryon), [Bar Emmon](wiki:Duram_Bar_Emmon), the whole paltry lot of them. A poor crop, if truth be told, but they are what [my brothers](wiki:House_Baratheon) have left me.(wiki:House_Velaryon.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-2)
+> Tonight I am to sup with my lords bannermen, such as they are. Celtigar, Velaryon, Bar Emmon, the whole paltry lot of them. A poor crop, if truth be told, but they are what my brothers have left me.
 >
-> —[Stannis Baratheon](wiki:Stannis_Baratheon) to [Cressen](wiki:Cressen)
+> —Stannis Baratheon to Cressen, ACOK (`sources/chapters/acok/acok-prologue.md:199`)

@@ -35,6 +35,6 @@ Ronald is made a captive when [Griffin's Roost](wiki:Griffin's_Roost) is taken b
 >
 > —Ronald, to [Jon Connington](wiki:Jon_Connington)
 
-> No harm will come to any of you unless [Red Ronnet](wiki:Ronnet_Connington) proves an utter fool.(wiki:Ronald_Storm.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+> No harm will come to any of you unless Red Ronnet proves an utter fool.
 >
-> —[Jon Connington](wiki:Jon_Connington), to Ronald, [Raymund Connington](wiki:Raymund_Connington), and [Alynne Connington](wiki:Alynne_Connington)
+> —Jon Connington, to Ronald, Raymund Connington, and Alynne Connington, ADWD (`sources/chapters/adwd/adwd-the-griffin-reborn-01.md:73`)

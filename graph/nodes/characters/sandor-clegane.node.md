@@ -124,13 +124,13 @@ With the [siege of Riverrun](wiki:Siege_of_Riverrun) ended, Lyle Crakehall tells
 >
 > —Sandor and [Eddard Stark](wiki:Eddard_Stark) regarding [Mycah](wiki:Mycah)
 
-> Spare me your empty little compliments, girl ... and your ser's. I am no [knight](wiki:Knight). I spit on them and their vows. [My brother](wiki:Gregor_Clegane) is a knight.(wiki:Sandor_Clegane.cite_ref-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-19)
+> Spare me your empty little compliments, girl ... and your ser's. I am no knight. I spit on them and their vows. My brother is a knight.
 >
-> —Sandor to [Sansa Stark](wiki:Sansa_Stark)
+> —Sandor to Sansa Stark, AGOT (`sources/chapters/agot/agot-sansa-02.md:101`)
 
-> The [septons](wiki:Septon) preach about the [seven hells](wiki:Faith_of_the_Seven). What do they know? Only a man who's been burned knows what hell is truly like.(wiki:Sandor_Clegane.cite_ref-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-20)
+> The septons preach about the seven hells. What do they know? Only a man who's been burned knows what hell is truly like.
 >
-> —Sandor to [Sansa Stark](wiki:Sansa_Stark)
+> —Sandor to Sansa Stark, AGOT (`sources/chapters/agot/agot-sansa-02.md:121`)
 
 > **Sansa**: Why do you let people call you a dog? You won't let anyone call you a [knight](wiki:Knight). **Sandor**: I like dogs better than knights... A hound will die for you, but never lie to you. And he'll look you straight in the face.(wiki:Sandor_Clegane.cite_ref-Racok18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-2)
 >
@@ -154,9 +154,9 @@ With the [siege of Riverrun](wiki:Siege_of_Riverrun) ended, Lyle Crakehall tells
 >
 > —Sandor to [Sansa Stark](wiki:Sansa_Stark)
 
-> I've killed a lot more than him, I promise you. You think that makes me some monster. Well, maybe it does, but I saved [your sister's](wiki:Sansa_Stark) life too. [The day the mob pulled her off her horse](wiki:Riot_of_King's_Landing), I cut through them and brought her back to the [castle](wiki:Red_Keep), else she would have gotten what [Lollys Stokeworth](wiki:Lollys_Stokeworth) got. And she sang for me. You didn't know that, did you? Your sister sang me a sweet little song.(wiki:Sandor_Clegane.cite_ref-Rasos47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-6)
+> I've killed a lot more than him, I promise you. You think that makes me some monster. Well, maybe it does, but I saved your sister's life too. The day the mob pulled her off her horse, I cut through them and brought her back to the castle, else she would have gotten what Lollys Stokeworth got. And she sang for me. You didn't know that, did you? Your sister sang me a sweet little song.
 >
-> —Sandor to [Arya Stark](wiki:Arya_Stark)
+> —Sandor to Arya Stark, ASOS (`sources/chapters/asos/asos-arya-09.md:145`)
 
 > Even a dog gets tired of being kicked.(wiki:Sandor_Clegane.cite_ref-Rasos47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-7)
 >
@@ -176,13 +176,13 @@ With the [siege of Riverrun](wiki:Siege_of_Riverrun) ended, Lyle Crakehall tells
 
 ### Quotes about Sandor
 
-> And dismissing [Selmy](wiki:Barristan_Selmy), where was the sense in that? Yes, the man was old, but the name of Barristan the Bold still has meaning in [the realm](wiki:Seven_Kingdoms). He lent honor to any man he served. Can anyone say the same of the [Hound](wiki:Hound)? You feed your dog bones under the table, you do not seat him beside you on the high bench.(wiki:Sandor_Clegane.cite_ref-Ragot69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_42-1)
+> And dismissing Selmy, where was the sense in that? Yes, the man was old, but the name of Barristan the Bold still has meaning in the realm. He lent honor to any man he served. Can anyone say the same of the Hound? You feed your dog bones under the table, you do not seat him beside you on the high bench.
 >
-> —[Tywin Lannister](wiki:Tywin_Lannister), to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Tywin Lannister, to Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-09.md:161`)
 
-> He is a dog, just as he says. A half-wild, mean-tempered dog that bites any hand that tries to pet him, and yet will savage any man who tries to hurt his masters.(wiki:Sandor_Clegane.cite_ref-Racok52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-7)
+> He is a dog, just as he says. A half-wild, mean-tempered dog that bites any hand that tries to pet him, and yet will savage any man who tries to hurt his masters.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, ACOK (`sources/chapters/acok/acok-sansa-04.md:103`)
 
 > He is no [true knight](wiki:True_knight), but he saved me all the same. Save him if you can, and gentle the rage inside him.(wiki:Sandor_Clegane.cite_ref-Racok57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_65-0)
 >
@@ -192,21 +192,21 @@ With the [siege of Riverrun](wiki:Siege_of_Riverrun) ended, Lyle Crakehall tells
 >
 > —thoughts of [Sansa Stark](wiki:Sansa_Stark)
 
-> Sandor Clegane would kill us all gladly, but not in our sleep.(wiki:Sandor_Clegane.cite_ref-Rasos39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2)
+> Sandor Clegane would kill us all gladly, but not in our sleep.
 >
-> —[Beric Dondarrion](wiki:Beric_Dondarrion), to [Watty](wiki:Watty)
+> —Beric Dondarrion, to Watty, ASOS (`sources/chapters/asos/asos-arya-07.md:273`)
 
 > When a dog goes bad, the fault lies with his master.(wiki:Sandor_Clegane.cite_ref-Raffc12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_60-1)
 >
 > —[Kevan Lannister](wiki:Kevan_Lannister), to [Cersei Lannister](wiki:Cersei_Lannister)
 
-> Sandor had been hard and brutal, yes, but it was [his big brother](wiki:Gregor_Clegane) who was the real monster in [House Clegane](wiki:House_Clegane).(wiki:Sandor_Clegane.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
+> Sandor had been hard and brutal, yes, but it was his big brother who was the real monster in House Clegane.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-04.md:193`)
 
-> Both men were large and powerful, but Sandor Clegane was much quicker, and fought with a savagery that [Lyle Crakehall](wiki:Lyle_Crakehall) could not hope to match.(wiki:Sandor_Clegane.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-3)
+> Both men were large and powerful, but Sandor Clegane was much quicker, and fought with a savagery that Lyle Crakehall could not hope to match.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-04.md:203`)
 
 > I know a little of this man, Sandor Clegane. He was Prince [Joffrey's](wiki:Joffrey_Baratheon) [sworn shield](wiki:Sworn_shield) for many a year, and even [here](wiki:Quiet_Isle) we would hear tell of his deeds, both good and ill. If even half of what we heard was true, this was a bitter, tormented soul, a sinner who mocked both [gods](wiki:Gods) and men. He served, but found no pride in service. He fought, but took no joy in victory. He drank, to drown his pain in a sea of [wine](wiki:Wine). He did not love, nor was he loved himself. It was hate that drove him. Though he committed many sins, he never sought forgiveness. Where other men dream of love, or wealth, or glory, this man Sandor Clegane dreamed of [slaying his own brother](wiki:Kinslaying), a sin so terrible it makes me shudder just to speak of it. Yet that was the bread that nourished him, the fuel that kept his fires burning. Ignoble as it was, the hope of seeing his brother's blood upon his blade was all this sad and angry creature lived for... and even that was taken from him, when Prince [Oberyn](wiki:Oberyn_Martell) of [Dorne](wiki:Dorne) stabbed Ser [Gregor](wiki:Gregor_Clegane) with a [poisoned](wiki:Poison) [spear](wiki:Spear).(wiki:Sandor_Clegane.cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-3)
 
@@ -224,9 +224,9 @@ With the [siege of Riverrun](wiki:Siege_of_Riverrun) ended, Lyle Crakehall tells
 >
 > —[Brienne of Tarth](wiki:Brienne_of_Tarth) and the [Elder Brother](wiki:Elder_Brother_(Quiet_Isle))
 
-> As [the boy's](wiki:Robert_Arryn) lips touched her own she found herself thinking of [another kiss](wiki:UnKiss). She could still remember how it felt, when his cruel mouth pressed down on her own. He had come to Sansa in the darkness as [green fire](wiki:Wildfire) [filled the sky](wiki:Battle_of_the_Blackwater). He took a song and a kiss, and left me nothing but a bloody cloak.(wiki:Sandor_Clegane.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_66-0)
+> As the boy's lips touched her own she found herself thinking of another kiss. She could still remember how it felt, when his cruel mouth pressed down on her own. He had come to Sansa in the darkness as green fire filled the sky. He took a song and a kiss, and left me nothing but a bloody cloak.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, AFFC (`sources/chapters/affc/affc-alayne-02.md:101`)
 
 > Sandor Clegane was a man in torment.(wiki:Sandor_Clegane.cite_ref-Raffc42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_63-1)
 >

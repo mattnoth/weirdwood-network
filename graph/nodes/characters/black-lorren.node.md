@@ -46,21 +46,21 @@ After the [sack of Winterfell](wiki:Sack_of_Winterfell) by the Boltons, Bran Sta
 
 ### Quotes about Lorren
 
-> The singers call [Andrik](wiki:Andrik_the_Unsmiling) best now. Andrik the Unsmiling, they name him. A giant of a man. He serves [Lord Drumm](wiki:Dunstan_Drumm) of [Old Wyk](wiki:Old_Wyk). And Black Lorren and [Qarl the Maid](wiki:Qarl_the_Maid) are near as dread.(wiki:Black_Lorren.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> The singers call Andrik best now. Andrik the Unsmiling, they name him. A giant of a man. He serves Lord Drumm of Old Wyk. And Black Lorren and Qarl the Maid are near as dread.
 >
-> —[Dagmer Cleftjaw](wiki:Dagmer_Cleftjaw) to [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —Dagmer Cleftjaw to Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-03.md:97`)
 
-> [Winterfell](wiki:Winterfell) is yours in my absence. If we do not return, do with it as you will.(wiki:Black_Lorren.cite_ref-Racok50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+> Winterfell is yours in my absence. If we do not return, do with it as you will.
 >
-> —[Theon Greyjoy](wiki:Theon_Greyjoy) to Lorren
+> —Theon Greyjoy to Lorren, ACOK (`sources/chapters/acok/acok-theon-04.md:129`)
 
-> He means to die, thought Theon. It's not victory he wants, it's an end worthy of a song.(wiki:Black_Lorren.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+> He means to die, thought Theon. It's not victory he wants, it's an end worthy of a song.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-06.md:71`)
 
-> He had been hacked and cut so badly that his beard looked a reddish-brown now.(wiki:Black_Lorren.cite_ref-Racok69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+> He had been hacked and cut so badly that his beard looked a reddish-brown now.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, ACOK (`sources/chapters/acok/acok-bran-07.md:139`)
 
 ## Edges
 

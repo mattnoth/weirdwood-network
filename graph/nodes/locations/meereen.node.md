@@ -157,34 +157,34 @@ Barristan rallies Meereen's defenses against the Yunkish host.(wiki:Meereen.cite
 
 ## Quotes
 
-> Meereen was as large as [Astapor](wiki:Astapor) and [Yunkai](wiki:Yunkai) combined. Like her sister cities she was built of brick, but where Astapor had been red and Yunkai yellow, Meereen was made with bricks of many colors. Her walls were higher than Yunkai's and in better repair, studded with bastions and anchored by great defensive towers at every angle. Behind them, huge against the sky, could be seen the top of the [Great Pyramid](wiki:Great_Pyramid), a monstrous thing eight hundred feet tall with a towering [bronze](wiki:Bronze) [harpy](wiki:Harpies) at its top.(wiki:Meereen.cite_ref-Rasos57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-20)
+> Meereen was as large as Astapor and Yunkai combined. Like her sister cities she was built of brick, but where Astapor had been red and Yunkai yellow, Meereen was made with bricks of many colors. Her walls were higher than Yunkai's and in better repair, studded with bastions and anchored by great defensive towers at every angle. Behind them, huge against the sky, could be seen the top of the Great Pyramid, a monstrous thing eight hundred feet tall with a towering bronze harpy at its top.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-05.md:11`)
 
-> The [Great Masters](wiki:Great_Masters), what a ripe lot o' maggots. The women weren't so bad, though it was worth your life to look at the wrong one the wrong way.(wiki:Meereen.cite_ref-Rasos57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-21)
+> The Great Masters, what a ripe lot o' maggots. The women weren't so bad, though it was worth your life to look at the wrong one the wrong way.
 >
-> —[Ben Plumm](wiki:Ben_Plumm) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Ben Plumm to Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-05.md:37`)
 
 > Meereen had been rich beyond imagining.(wiki:Meereen.cite_ref-Rasos71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-12)
 >
 > —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> A child departed [Qarth](wiki:Qarth), as lost as she was lovely. I feared she was sailing to her doom, yet now I find her here enthroned, mistress of an ancient city, surrounded by a mighty host that she raised up out of dreams.(wiki:Meereen.cite_ref-Radwd16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-11)
+> A child departed Qarth, as lost as she was lovely. I feared she was sailing to her doom, yet now I find her here enthroned, mistress of an ancient city, surrounded by a mighty host that she raised up out of dreams.
 >
-> —[Xaro Xhoan Daxos](wiki:Xaro_Xhoan_Daxos) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Xaro Xhoan Daxos to Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-03.md:33`)
 
 > **Daenerys**: Meereen is a free city of [free men](wiki:Freedmen). **Xaro**: A poor city that once was rich. A hungry city that once was fat. A bloody city that once was peaceful.(wiki:Meereen.cite_ref-Radwd16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-12)
 >
 > —[Daenerys Targaryen](wiki:Daenerys_Targaryen) and [Xaro Xhoan Daxos](wiki:Xaro_Xhoan_Daxos)
 
-> You will not make Meereen rich and fat and peaceful. You will only bring it to destruction, as you did [Astapor](wiki:Fall_of_Astapor).(wiki:Meereen.cite_ref-Radwd16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-13)
+> You will not make Meereen rich and fat and peaceful. You will only bring it to destruction, as you did Astapor.
 >
-> —[Xaro Xhoan Daxos](wiki:Xaro_Xhoan_Daxos) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Xaro Xhoan Daxos to Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-03.md:139`)
 
-> Before you came Meereen was dying. Our rulers were old men with withered cocks and crones whose puckered cunts were dry as dust. They sat atop their [pyramids](wiki:Pyramid) sipping apricot [wine](wiki:Wine) and talking of the glories of the [Old Empire](wiki:Old_Empire_of_Ghis) whilst the centuries slipped by and the very bricks of the city crumbled all around them. Custom and caution had an iron grip upon us till you awakened us with fire and blood. A new time has come, and new things are possible.(wiki:Meereen.cite_ref-Radwd23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-2)
+> Before you came Meereen was dying. Our rulers were old men with withered cocks and crones whose puckered cunts were dry as dust. They sat atop their pyramids sipping apricot wine and talking of the glories of the Old Empire whilst the centuries slipped by and the very bricks of the city crumbled all around them. Custom and caution had an iron grip upon us till you awakened us with fire and blood. A new time has come, and new things are possible.
 >
-> —[Hizdahr zo Loraq](wiki:Hizdahr_zo_Loraq) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Hizdahr zo Loraq to Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-04.md:117`)
 
-> Meereen was not her home, and never would be. It was a city of strange men with strange gods and stranger hair, of [slavers](wiki:Slavers) wrapped in fringed [tokars](wiki:Tokar), where grace was earned through [whoring](wiki:Prostitution), butchery was art, and [dog](wiki:Dog) was a delicacy. Meereen would always be the [Harpy](wiki:Harpy)'s city, and Daenerys could not be a [harpy](wiki:Harpies).(wiki:Meereen.cite_ref-Radwd71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_35-0)
+> Meereen was not her home, and never would be. It was a city of strange men with strange gods and stranger hair, of slavers wrapped in fringed tokars, where grace was earned through whoring, butchery was art, and dog was a delicacy. Meereen would always be the Harpy's city, and Daenerys could not be a harpy.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-10.md:167`)

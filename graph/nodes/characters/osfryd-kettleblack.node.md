@@ -77,9 +77,9 @@ Cersei falsely(wiki:Osfryd_Kettleblack.cite_ref-Rawoiafosfryd_kettleblack.7B.7B.
 
 ## Quotes
 
-> Amiable rogues all three, [the brothers](wiki:House_Kettleblack) were in truth much more skilled at deceit than they'd ever been at bloodletting. [Cersei](wiki:Cersei_Lannister) had managed to buy herself three hollow [drums](wiki:Drum); they would make all the fierce booming sounds she required, but there was nothing inside.(wiki:Osfryd_Kettleblack.cite_ref-Racok41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+> Amiable rogues all three, the brothers were in truth much more skilled at deceit than they'd ever been at bloodletting. Cersei had managed to buy herself three hollow drums; they would make all the fierce booming sounds she required, but there was nothing inside.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-09.md:39`)
 
 > **Sansa**: Won't [your guards](wiki:House_Lannister_guards) protect us? **Cersei**: And who will protect us from my guards? Loyal [sellswords](wiki:Sellswords) are rare as [virgin](wiki:Virgin) [whores](wiki:Whores).(wiki:Osfryd_Kettleblack.cite_ref-Racok57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1)
 >
@@ -93,6 +93,6 @@ Cersei falsely(wiki:Osfryd_Kettleblack.cite_ref-Rawoiafosfryd_kettleblack.7B.7B.
 >
 > —[Petyr Baelish](wiki:Petyr_Baelish), to [Sansa Stark](wiki:Sansa_Stark)
 
-> Osfryd was the middle [Kettleblack](wiki:House_Kettleblack), quieter than his siblings, more apt to scowl than smile. And crueler as well, if the tales are true.(wiki:Osfryd_Kettleblack.cite_ref-Raffc28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3)
+> Osfryd was the middle Kettleblack, quieter than his siblings, more apt to scowl than smile. And crueler as well, if the tales are true.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-06.md:113`)

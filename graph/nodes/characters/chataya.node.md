@@ -50,9 +50,9 @@ Obeying the orders of Queen [Cersei Lannister](wiki:Cersei_Lannister) to kill Ki
 
 ### Quotes by Chataya
 
-> My people hold that there is no shame to be found in the [pillow house](wiki:Pillow_house). In the [Summer Isles](wiki:Summer_Isles), those who are skilled at giving pleasure are greatly esteemed. Many [highborn](wiki:Highborn) youths and [maidens](wiki:Maiden) serve for a few years after their [flowerings](wiki:Flowering), to honor the [gods](wiki:Gods).(wiki:Chataya.cite_ref-Racok15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-9)
+> My people hold that there is no shame to be found in the pillow house. In the Summer Isles, those who are skilled at giving pleasure are greatly esteemed. Many highborn youths and maidens serve for a few years after their flowerings, to honor the gods.
 >
-> —Chataya, to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Chataya, to Tyrion Lannister, ACOK (`sources/chapters/acok/acok-tyrion-03.md:193`)
 
 > The [gods](wiki:Gods) made our bodies as well as our souls, is it not so? They gave us voices, so we might worship them with song. They gave us hands, so we might build them temples. And they gave us desire, so we might mate and worship them in that way.(wiki:Chataya.cite_ref-Racok15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-10)
 >

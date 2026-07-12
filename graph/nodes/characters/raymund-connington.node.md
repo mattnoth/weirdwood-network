@@ -27,6 +27,6 @@ Raymund is made a captive when [Griffin's Roost](wiki:Griffin's_Roost) is taken 
 
 ## Quotes
 
-> No harm will come to any of you unless [Red Ronnet](wiki:Ronnet_Connington) proves an utter fool.(wiki:Raymund_Connington.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+> No harm will come to any of you unless Red Ronnet proves an utter fool.
 >
-> —[Jon Connington](wiki:Jon_Connington), to Raymund, [Alynne Connington](wiki:Alynne_Connington), and [Ronard Storm](wiki:Ronard_Storm)
+> —Jon Connington, to Raymund, Alynne Connington, and Ronard Storm, ADWD (`sources/chapters/adwd/adwd-the-griffin-reborn-01.md:73`)

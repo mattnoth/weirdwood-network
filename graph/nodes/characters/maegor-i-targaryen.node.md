@@ -137,25 +137,25 @@ Maegor wore his father's [Valyrian steel](wiki:Valyrian_steel)-and-ruby [crown](
 >
 > —writings of [Yandel](wiki:Yandel)
 
-> [Aegon the Conqueror](wiki:Aegon_I_Targaryen) had commanded [it built](wiki:Red_Keep). His son Maegor the Cruel had seen it completed. Afterward he had taken the heads of every stonemason, woodworker, and builder who had labored on it. Only the blood of the [dragon](wiki:Dragon) would ever know the secrets of the fortress the [Dragonlords](wiki:Dragonlord) had built, he vowed.(wiki:Maegor_I_Targaryen.cite_ref-Ragot18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+> Aegon the Conqueror had commanded it built. His son Maegor the Cruel had seen it completed. Afterward he had taken the heads of every stonemason, woodworker, and builder who had labored on it. Only the blood of the dragon would ever know the secrets of the fortress the Dragonlords had built, he vowed.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-04.md:61`)
 
-> King Maegor wanted no rats in [his own walls](wiki:Maegor's_Holdfast), if you take my meaning. He did require a means of secret egress, should he ever be trapped by his enemies, but that door does not connect with any other passages.(wiki:Maegor_I_Targaryen.cite_ref-Rasos12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
+> King Maegor wanted no rats in his own walls, if you take my meaning. He did require a means of secret egress, should he ever be trapped by his enemies, but that door does not connect with any other passages.
 >
-> —[Varys](wiki:Varys) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Varys to Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-02.md:101`)
 
-> What did she care what Maegor the Cruel had decreed three hundred years ago? Instead of taking [the swords](wiki:Faith_Militant) out of the hands of the [faithful](wiki:Faith_of_the_Seven), he should have used them for his own ends.(wiki:Maegor_I_Targaryen.cite_ref-Raffc28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_35-0)
+> What did she care what Maegor the Cruel had decreed three hundred years ago? Instead of taking the swords out of the hands of the faithful, he should have used them for his own ends.
 >
-> —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
+> —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-06.md:255`)
 
 > Brother, you need never kneel to me again. We shall rule this realm together, you and I. You are more fit to bear this blade than me. Wield it in my service, and I shall be content.(wiki:Maegor_I_Targaryen.cite_ref-Rfab4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-1)
 >
 > —[Aenys I Targaryen](wiki:Aenys_I_Targaryen) to Maegor
 
-> A true king, blood of Aegon the Conqueror, who was my brother, my husband, and my love. If any man questions my son’s right to the Iron Throne, let him prove his claim with his body.(wiki:Maegor_I_Targaryen.cite_ref-Rfab4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-2)
+> A true king, blood of Aegon the Conqueror, who was my brother, my husband, and my love. If any man questions my son’s right to the Iron Throne, let him prove his claim with his body.
 >
-> —[Visenya Targaryen](wiki:Visenya_Targaryen)
+> —Visenya Targaryen, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p02.md:97`)
 
 > Queen Visenya put a sword into her son's hand when he was three. Supposedly the first thing he did with the blade was butcher one of the castle cats, men said...though more like this tale was a calumny devised by his enemies many years later.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p01.md:35`)

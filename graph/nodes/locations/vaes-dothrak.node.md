@@ -71,17 +71,17 @@ Following the [siege of Meereen](wiki:Siege_of_Meereen), the envoy [Ghael](wiki:
 
 ## Quotes
 
-> Vaes Dothrak was at once the largest city and the smallest that she had ever known. She thought it must be ten times as large as [Pentos](wiki:Pentos), a vastness without walls or limits, its broad windswept streets paved in grass and mud and carpeted with wildflowers. In the [Free Cities](wiki:Free_Cities) of the west, towers and manses and hovels and bridges and shops and halls all crowded in on one another, but Vaes Dothrak sprawled languorously, baking in the warm sun, ancient, arrogant, and empty.(wiki:Vaes_Dothrak.cite_ref-Ragot36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
+> Vaes Dothrak was at once the largest city and the smallest that she had ever known. She thought it must be ten times as large as Pentos, a vastness without walls or limits, its broad windswept streets paved in grass and mud and carpeted with wildflowers. In the Free Cities of the west, towers and manses and hovels and bridges and shops and halls all crowded in on one another, but Vaes Dothrak sprawled languorously, baking in the warm sun, ancient, arrogant, and empty.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, AGOT (`sources/chapters/agot/agot-daenerys-04.md:75`)
 
 > Only the crones of the [dosh khaleen](wiki:Dosh_khaleen) dwell permanently in the sacred city, them and their [slaves](wiki:Slaves) and servants, yet Vaes Dothrak is large enough to house every man of every [khalasar](wiki:Khalasar), should all the [khals](wiki:Khal) return to [the Mother](wiki:Mother_of_Mountains) at once. The crones have [prophesied](wiki:Prophecy) that one day that will come to pass, and so Vaes Dothrak must be ready to embrace all its children.(wiki:Vaes_Dothrak.cite_ref-Ragot36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
 >
 > —[Jorah Mormont](wiki:Jorah_Mormont) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> In this place, the crones of the [dosh khaleen](wiki:Dosh_khaleen) had decreed, all [Dothraki](wiki:Dothraki) were one blood, one [khalasar](wiki:Khalasar), one herd.(wiki:Vaes_Dothrak.cite_ref-Ragot36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13)
+> In this place, the crones of the dosh khaleen had decreed, all Dothraki were one blood, one khalasar, one herd.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, AGOT (`sources/chapters/agot/agot-daenerys-04.md:87`)
 
 > We are in Vaes Dothrak. No one may carry a blade here or shed a man's blood.(wiki:Vaes_Dothrak.cite_ref-Ragot46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
 >
@@ -91,6 +91,6 @@ Following the [siege of Meereen](wiki:Siege_of_Meereen), the envoy [Ghael](wiki:
 >
 > —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> Only the birth of her [dragons](wiki:Dragon) amidst the fire and smoke of Khal [Drogo](wiki:Drogo)'s funeral pyre had spared Dany herself from being dragged back to Vaes Dothrak to live out the remainder of her days amongst the crones of the [dosh khaleen](wiki:Dosh_khaleen).(wiki:Vaes_Dothrak.cite_ref-Radwd71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
+> Only the birth of her dragons amidst the fire and smoke of Khal Drogo's funeral pyre had spared Dany herself from being dragged back to Vaes Dothrak to live out the remainder of her days amongst the crones of the dosh khaleen.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-10.md:49`)

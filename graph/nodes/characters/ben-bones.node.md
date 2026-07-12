@@ -33,6 +33,6 @@ Ben is present in the great hall of [the Dreadfort](wiki:The_Dreadfort) when [Li
 
 ### Quotes about Ben
 
-> Even if we do escape, [Lord Ramsay](wiki:Ramsay_Snow) will hunt us down, him and Ben Bones and [the girls](wiki:Bastard's_girls).(wiki:Ben_Bones.cite_ref-Radwd51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+> Even if we do escape, Lord Ramsay will hunt us down, him and Ben Bones and the girls.
 >
-> —"[Reek](wiki:Theon_Greyjoy)", to "[Abel](wiki:Mance_Rayder)"
+> —"Reek", to "Abel", ADWD (`sources/chapters/adwd/adwd-theon-01.md:23`)

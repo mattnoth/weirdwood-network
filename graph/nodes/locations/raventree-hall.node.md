@@ -74,6 +74,6 @@ In the wake of the Red Wedding and the submissions of [Riverrun](wiki:Siege_of_R
 >
 > —thoughts of [Jaime Lannister](wiki:Jaime_Lannister) (`sources/chapters/adwd/adwd-jaime-01.md:15`)
 
-> My hall might lack for food, but never for courtesy.(wiki:Raventree_Hall.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+> My hall might lack for food, but never for courtesy.
 >
-> —[Tytos Blackwood](wiki:Tytos_Blackwood) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Tytos Blackwood to Jaime Lannister, ADWD (`sources/chapters/adwd/adwd-jaime-01.md:157`)

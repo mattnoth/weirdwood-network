@@ -90,9 +90,9 @@ The deaths of [Elia Martell](wiki:Elia_Martell) and her children infuriated [Hou
 >
 > —[Pycelle](wiki:Pycelle) and [Tyrion Lannister](wiki:Tyrion_Lannister)
 
-> I saw [King's Landing](wiki:King's_Landing) after the Sack. Babes were butchered that day as well, and old men, and children at play. More women were raped than you can count.(wiki:Sack_of_King's_Landing.cite_ref-Rasos23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1)
+> I saw King's Landing after the Sack. Babes were butchered that day as well, and old men, and children at play. More women were raped than you can count.
 >
-> —[Jorah Mormont](wiki:Jorah_Mormont) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Jorah Mormont to Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-02.md:317`)
 
 > Do you think the noble [Lord of Winterfell](wiki:Eddard_Stark) wanted to hear my feeble explanations? Such an honorable man. He only had to look at me to judge me guilty. By what right does [the wolf](wiki:House_Stark) judge [the lion](wiki:House_Lannister)? By what right?(wiki:Sack_of_King's_Landing.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-13)
 >

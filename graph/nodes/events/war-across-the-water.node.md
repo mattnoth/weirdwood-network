@@ -52,6 +52,6 @@ Rule by the triumphant [Arryns](wiki:House_Arryn) over the [Three Sisters](wiki:
 >
 > —[Perestan](wiki:Perestan) in [A Consideration of History](wiki:A_Consideration_of_History)
 
-> [The wolf](wiki:House_Stark) and [the falcon](wiki:House_Arryn) fought over us for a thousand years, till between the two of them they had gnawed all the fat and flesh off the bones of [these poor islands](wiki:Three_Sisters).(wiki:War_Across_the_Water.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> The wolf and the falcon fought over us for a thousand years, till between the two of them they had gnawed all the fat and flesh off the bones of these poor islands.
 >
-> —[Godric Borrell](wiki:Godric_Borrell) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Godric Borrell to Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-01.md:135`)

@@ -33,6 +33,6 @@ Beans is part of the [siege of Astapor](wiki:Siege_of_Astapor). Beans plays [dic
 
 ## Quotes
 
-> That [dragon](wiki:Dragon) queen's got the real item, the kind that don't break and run when you fart in their general direction.(wiki:Beans.cite_ref-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+> That dragon queen's got the real item, the kind that don't break and run when you fart in their general direction.
 >
-> —Beans on the mettle of [Daenerys Targaryen](wiki:Daenerys_Targaryen)'s [Unsullied](wiki:Unsullied)
+> —Beans on the mettle of Daenerys Targaryen's Unsullied, ADWD (`sources/chapters/adwd/adwd-the-windblown-01.md:81`)

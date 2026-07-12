@@ -42,6 +42,6 @@ Caggo, [Denzo D'han](wiki:Denzo_D'han), and [Meris](wiki:Meris) are present when
 
 ## Quotes
 
-> Caggo Corpsekiller the men were calling him now, though not to his face; he was quick to anger, and that curved black sword of his was as nasty as its owner.(wiki:Caggo.cite_ref-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+> Caggo Corpsekiller the men were calling him now, though not to his face; he was quick to anger, and that curved black sword of his was as nasty as its owner.
 >
-> —thoughts of [Quentyn Martell](wiki:Quentyn_Martell)
+> —thoughts of Quentyn Martell, ADWD (`sources/chapters/adwd/adwd-the-windblown-01.md:149`)

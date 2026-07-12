@@ -45,9 +45,9 @@ Selyse attires Gerrick in clothes which once belonged to her husband, [Stannis B
 
 ## Quotes
 
-> Scrubbed and groomed, clad in green velvets and an ermine half-cape, with his long red hair freshly washed and his fiery beard shaped and trimmed, the [wildling](wiki:Wildling) looked every inch a [southron](wiki:Southron) [lord](wiki:Lord).(wiki:Gerrick_Kingsblood.cite_ref-Radwd69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+> Scrubbed and groomed, clad in green velvets and an ermine half-cape, with his long red hair freshly washed and his fiery beard shaped and trimmed, the wildling looked every inch a southron lord.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-13.md:47`)
 
 > Gerrick of [House Redbeard](wiki:House_Redbeard), King of the Wildlings.(wiki:Gerrick_Kingsblood.cite_ref-Radwd69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
 >

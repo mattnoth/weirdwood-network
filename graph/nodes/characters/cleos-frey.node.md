@@ -81,17 +81,17 @@ During the [siege of Riverrun](wiki:Siege_of_Riverrun), Jaime speaks of Cleos's 
 >
 > —[Catelyn Stark](wiki:Catelyn_Stark)'s thoughts
 
-> Your grandfather Lord [Walder](wiki:Walder_Frey) pledged me his support and that of [House Frey](wiki:House_Frey). Many of your cousins and uncles rode with us in the [Whispering Wood](wiki:Battle_in_the_Whispering_Wood), but you chose to fight beneath the lion banner. That makes you a [Lannister](wiki:House_Lannister), not a Frey.(wiki:Cleos_Frey.cite_ref-Racok7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-5)
+> Your grandfather Lord Walder pledged me his support and that of House Frey. Many of your cousins and uncles rode with us in the Whispering Wood, but you chose to fight beneath the lion banner. That makes you a Lannister, not a Frey.
 >
-> —[Robb Stark](wiki:Robb_Stark)
+> —Robb Stark, ACOK (`sources/chapters/acok/acok-catelyn-01.md:39`)
 
-> Ser Cleos looked like a [weasel](wiki:Weasel), fought like a goose, and had the courage of an especially brave ewe.(wiki:Cleos_Frey.cite_ref-Rasos1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-6)
+> Ser Cleos looked like a weasel, fought like a goose, and had the courage of an especially brave ewe.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister)'s thoughts
+> —Jaime Lannister's thoughts, ASOS (`sources/chapters/asos/asos-jaime-01.md:35`)
 
-> What do we have here, an honest muttonhead or a lickspittle?(wiki:Cleos_Frey.cite_ref-Rasos1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-7)
+> What do we have here, an honest muttonhead or a lickspittle?
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister)'s thoughts
+> —Jaime Lannister's thoughts, ASOS (`sources/chapters/asos/asos-jaime-01.md:83`)
 
 > **Jaime**: We were set upon by outlaws. Ser Cleos scattered them, but it cost his life.
 >

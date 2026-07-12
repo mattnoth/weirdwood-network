@@ -51,6 +51,6 @@ While at the [House of Black and White](wiki:House_of_Black_and_White) in [Braav
 
 ### Quotes about the stableboy
 
-> Arya stood over the body, still and frightened in the face of death. Blood had gushed from the boy's mouth as he collapsed, and more was seeping from the slit in his belly, pooling beneath his body. His palms were cut where he'd grabbed at the blade. She backed away slowly, [Needle](wiki:Needle) red in her hand. She had to get away, someplace far from here, someplace safe away from the stableboy's accusing eyes.(wiki:Stableboy_at_King's_Landing.cite_ref-Ragot50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> Arya stood over the body, still and frightened in the face of death. Blood had gushed from the boy's mouth as he collapsed, and more was seeping from the slit in his belly, pooling beneath his body. His palms were cut where he'd grabbed at the blade. She backed away slowly, Needle red in her hand. She had to get away, someplace far from here, someplace safe away from the stableboy's accusing eyes.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, AGOT (`sources/chapters/agot/agot-arya-04.md:175`)

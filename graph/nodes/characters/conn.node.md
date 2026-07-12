@@ -54,6 +54,6 @@ During the [battle on the Green Fork](wiki:Battle_on_the_Green_Fork), Tyrion see
 
 ### Quotes about Conn
 
-> Conn might have been handsome if you washed him.(wiki:Conn.cite_ref-Ragot56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> Conn might have been handsome if you washed him.
 >
-> —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —thoughts of Tyrion Lannister, AGOT (`sources/chapters/agot/agot-tyrion-07.md:139`)

@@ -52,12 +52,12 @@ Torghen later journeys to [Castle Black](wiki:Castle_Black) to attend [the weddi
 >
 > —Torghen to [Jon Snow](wiki:Jon_Snow)
 
-> You want [them](wiki:Free_folk) in the [Gift](wiki:Gift), that's your folly, but see they don't wander off or I'll send you back their heads. [Winter](wiki:Winter) is nigh, I want no more mouths to feed.(wiki:Torghen_Flint.cite_ref-Radwd53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-7)
+> You want them in the Gift, that's your folly, but see they don't wander off or I'll send you back their heads. Winter is nigh, I want no more mouths to feed.
 >
-> —Torghen to [Jon Snow](wiki:Jon_Snow)
+> —Torghen to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-11.md:311`)
 
 ### Quotes about Torghen
 
-> [Flint](wiki:House_Flint_of_the_mountains), [Wull](wiki:House_Wull), [Norrey](wiki:House_Norrey), [Liddle](wiki:House_Liddle) ... win Old Flint and [Big Bucket](wiki:Hugo_Wull), [the rest](wiki:Northern_mountain_clans) will follow.(wiki:Torghen_Flint.cite_ref-Radwd17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+> Flint, Wull, Norrey, Liddle ... win Old Flint and Big Bucket, the rest will follow.
 >
-> —[Jon Snow](wiki:Jon_Snow) to [Stannis Baratheon](wiki:Stannis_Baratheon)
+> —Jon Snow to Stannis Baratheon, ADWD (`sources/chapters/adwd/adwd-jon-04.md:297`)

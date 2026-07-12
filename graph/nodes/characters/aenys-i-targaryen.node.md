@@ -100,20 +100,19 @@ A diligent student who did not lack for courage, Aenys was an adequate fighter. 
 >
 > —[lords](wiki:Lord) on Aenys's rule and his relationship with [Maegor](wiki:Maegor_I_Targaryen)
 
-> You are a fool and a weakling, nephew. Do you think any man would ever have dared speak so to your [father](wiki:Aegon_I_Targaryen)?(wiki:Aenys_I_Targaryen.cite_ref-Rtsotd.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-34)
+> You are a fool and a weakling, nephew. Do you think any man would ever have dared speak so to your father?
 >
-> —[Visenya Targaryen](wiki:Visenya_Targaryen) to Aenys
+> —Visenya Targaryen to Aenys, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p02.md:65`)
 
-> I am descended from [Aegon](wiki:Aegon_I_Targaryen) and [Rhaenys](wiki:Rhaenys_Targaryen) through their son Aenys and their grandson Jaehaerys.(wiki:Aenys_I_Targaryen.cite_ref-Racok63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)
+> I am descended from Aegon and Rhaenys through their son Aenys and their grandson Jaehaerys.
 >
-> —[Daenerys Targaryen](wiki:Daenerys_Targaryen) to [Jorah Mormont](wiki:Jorah_Mormont)
+> —Daenerys Targaryen to Jorah Mormont, ACOK (`sources/chapters/acok/acok-daenerys-05.md:99`)
 
 > So unlike King Aegon was he that a few even dared suggest that His Grace was not the boy’s true sire, that Aenys was some bastard born of one of Queen Rhaenys’s many handsome favorites, the son of a singer or a mummer or a mime.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p01.md:19`)
 
 > Its building had become the king’s obsession. “My descendants shall rule from here for a thousand years,” His Grace declared.
 > — Aenys I Targaryen, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p02.md:19`)
-
 
 ## Fire & Blood
 

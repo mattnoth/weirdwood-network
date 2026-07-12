@@ -61,6 +61,6 @@ The garrison of the Shadow Tower spot multiple fires in the night north of the G
 
 ## Quotes
 
-> It was not long until the first of the brothers from the Shadow Tower began wending their way up [the slope](wiki:Fist_of_the_First_Men). All in leather and fur they were, with here and there a bit of [steel](wiki:Steel) or [bronze](wiki:Bronze); heavy beards covered hard lean faces, and made them look as shaggy as their garrons.(wiki:Shadow_Tower.cite_ref-Racok43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+> It was not long until the first of the brothers from the Shadow Tower began wending their way up the slope. All in leather and fur they were, with here and there a bit of steel or bronze; heavy beards covered hard lean faces, and made them look as shaggy as their garrons.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ACOK (`sources/chapters/acok/acok-jon-05.md:41`)

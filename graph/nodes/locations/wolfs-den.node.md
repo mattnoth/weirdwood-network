@@ -53,6 +53,6 @@ After Ser [Wylis Manderly](wiki:Wylis_Manderly) is safely returned to [White Har
 
 ## Quotes
 
-> All the days were much the same inside the Wolf's Den, and any change was usually for the worse.(wiki:Wolf's_Den.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
+> All the days were much the same inside the Wolf's Den, and any change was usually for the worse.
 >
-> —thoughts of [Davos Seaworth](wiki:Davos_Seaworth)
+> —thoughts of Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-04.md:13`)

@@ -88,17 +88,17 @@ The deaths of Princess [Elia Martell](wiki:Elia_Martell) and her two young child
 
 ## Quotes
 
-> There are still those in the [Seven Kingdoms](wiki:Seven_Kingdoms) who call me [Usurper](wiki:Usurper). Do you forget how many houses fought for [Targaryen](wiki:Aerys_II_Targaryen) in the war? They bide their time for now, but give them half a chance, they will murder me in my bed, and my sons with me.(wiki:Robert's_Rebellion.cite_ref-Ragot12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-13)
+> There are still those in the Seven Kingdoms who call me Usurper. Do you forget how many houses fought for Targaryen in the war? They bide their time for now, but give them half a chance, they will murder me in my bed, and my sons with me.
 >
-> —[Robert I Baratheon](wiki:Robert_I_Baratheon) to [Eddard Stark](wiki:Eddard_Stark)
+> —Robert I Baratheon to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-02.md:91`)
 
 > [Robert](wiki:Robert_I_Baratheon) was betrothed to marry her, but Prince [Rhaegar](wiki:Rhaegar_Targaryen) carried her off and raped her. Robert fought a war to win her back. He killed Rhaegar on the [Trident](wiki:Battle_of_the_Trident) with his hammer, but [Lyanna](wiki:Lyanna_Stark) died and he never got her back at all.(wiki:Robert's_Rebellion.cite_ref-Ragot66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_62-0)
 >
 > —[Bran Stark](wiki:Bran_Stark) to [Osha](wiki:Osha)
 
-> [Robert Baratheon](wiki:Robert_I_Baratheon) led the rebellion. All commands came from him, in the end.(wiki:Robert's_Rebellion.cite_ref-Racok17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_63-0)
+> Robert Baratheon led the rebellion. All commands came from him, in the end.
 >
-> —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Varys](wiki:Varys)
+> —Tyrion Lannister to Varys, ACOK (`sources/chapters/acok/acok-tyrion-04.md:347`)
 
 > Once [Rhaegar](wiki:Rhaegar_Targaryen) died, the war was done.(wiki:Robert's_Rebellion.cite_ref-Racok25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_64-0)
 >

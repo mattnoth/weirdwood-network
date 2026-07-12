@@ -93,9 +93,9 @@ Ser Barristan recalls the [tourney at Harrenhal](wiki:Tourney_at_Harrenhal), and
 >
 > —[Daenerys Targaryen](wiki:Daenerys_Targaryen) and [Barristan Selmy](wiki:Barristan_Selmy)
 
-> I grant you, it was done too brutally. Elia need not have been harmed at all, that was sheer folly.(wiki:Elia_Martell.cite_ref-Rasos53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-4)
+> I grant you, it was done too brutally. Elia need not have been harmed at all, that was sheer folly.
 >
-> —[Tywin Lannister](wiki:Tywin_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Tywin Lannister to Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-06.md:187`)
 
 > Justice is in short supply [this side](wiki:King's_Landing) of [the mountains](wiki:Red_Mountains). There has been none for Elia, [Aegon](wiki:Aegon_Targaryen_(son_of_Rhaegar)) or [Rhaenys](wiki:Rhaenys_Targaryen_(daughter_of_Rhaegar)).(wiki:Elia_Martell.cite_ref-Rasos66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-1)
 >
@@ -113,9 +113,9 @@ Ser Barristan recalls the [tourney at Harrenhal](wiki:Tourney_at_Harrenhal), and
 >
 > —thoughts of [Cersei Lannister](wiki:Cersei_Lannister)
 
-> Princess Elia was a good woman, Your Grace. She was kind and clever, with a gentle heart and a sweet wit. I know [the prince](wiki:Rhaegar_Targaryen) was very fond of her.(wiki:Elia_Martell.cite_ref-Radwd23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-2)
+> Princess Elia was a good woman, Your Grace. She was kind and clever, with a gentle heart and a sweet wit. I know the prince was very fond of her.
 >
-> —[Barristan Selmy](wiki:Barristan_Selmy) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Barristan Selmy to Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-04.md:185`)
 
 ## Edges
 

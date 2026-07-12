@@ -84,13 +84,13 @@ During the feast for the [Brotherhood of Winged Knights](wiki:Brotherhood_of_Win
 >
 > —[Eddard Stark](wiki:Eddard_Stark) and [Pycelle](wiki:Pycelle)
 
-> Maester Colemon put something vile in my milk last night, I could taste it. I told him I wanted [sweetmilk](wiki:Sweetmilk), but he wouldn't bring me any. Not even when I commanded him. I am the lord, he should do what I say. No one does what I say.(wiki:Colemon.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> Maester Colemon put something vile in my milk last night, I could taste it. I told him I wanted sweetmilk, but he wouldn't bring me any. Not even when I commanded him. I am the lord, he should do what I say. No one does what I say.
 >
-> —[Robert Arryn](wiki:Robert_Arryn) to [Sansa Stark](wiki:Sansa_Stark)
+> —Robert Arryn to Sansa Stark, AFFC (`sources/chapters/affc/affc-alayne-02.md:65`)
 
-> Colemon only wanted the best for his charge, Alayne knew, but what was best for [Robert the boy](wiki:Robert_Arryn) and what was best for [Lord Arryn](wiki:Lord_of_the_Eyrie) were not always the same. [Petyr](wiki:Petyr_Baelish) had said as much, and it was true. Maester Colemon cares only for the boy, though. Father and I have larger concerns.(wiki:Colemon.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)
+> Colemon only wanted the best for his charge, Alayne knew, but what was best for Robert the boy and what was best for Lord Arryn were not always the same. Petyr had said as much, and it was true. Maester Colemon cares only for the boy, though. Father and I have larger concerns.
 >
-> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+> —thoughts of Sansa Stark, AFFC (`sources/chapters/affc/affc-alayne-02.md:151`)
 
 ## Edges
 

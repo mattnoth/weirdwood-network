@@ -38,6 +38,6 @@ Leonette and Garlan attend Sansa's wedding to [Tyrion Lannister](wiki:Tyrion_Lan
 
 ### Quotes by Leonette
 
-> Perhaps you should be a singer, my [lord](wiki:Lord). You rhyme as well as this [Galyeon](wiki:Galyeon_of_Cuy).(wiki:Leonette_Fossoway.cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+> Perhaps you should be a singer, my lord. You rhyme as well as this Galyeon.
 >
-> —Leonette to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Leonette to Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-08.md:193`)

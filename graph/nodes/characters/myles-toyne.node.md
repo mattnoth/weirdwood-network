@@ -58,10 +58,10 @@ Later, following the [taking of Griffin's Roost](wiki:Taking_of_Griffin's_Roost)
 
 ### Quotes about Myles
 
-> In life, Ser Myles Toyne had been ugly as sin. His famous forebear, the dark and dashing [Terrence Toyne](wiki:Terrence_Toyne) of whom the singers sang, had been so fair of face that even [the king's](wiki:Aegon_IV_Targaryen) [mistress](wiki:Bethany_Bracken) could not resist him; but Myles had been possessed of jug ears, a crooked jaw, and the biggest nose that Jon Connington had ever seen. When he smiled at you, though, none of that mattered.(wiki:Myles_Toyne.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+> In life, Ser Myles Toyne had been ugly as sin. His famous forebear, the dark and dashing Terrence Toyne of whom the singers sang, had been so fair of face that even the king's mistress could not resist him; but Myles had been possessed of jug ears, a crooked jaw, and the biggest nose that Jon Connington had ever seen. When he smiled at you, though, none of that mattered.
 >
-> —thoughts of [Jon Connington](wiki:Jon_Connington)
+> —thoughts of Jon Connington, ADWD (`sources/chapters/adwd/adwd-the-lost-lord-01.md:95`)
 
-> Soldier to the bone, Toyne was fierce but always fair, a father to his men and always generous to the exile lord [Jon Connington](wiki:Jon_Connington).(wiki:Myles_Toyne.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
+> Soldier to the bone, Toyne was fierce but always fair, a father to his men and always generous to the exile lord Jon Connington.
 >
-> —thoughts of [Jon Connington](wiki:Jon_Connington)
+> —thoughts of Jon Connington, ADWD (`sources/chapters/adwd/adwd-the-lost-lord-01.md:95`)

@@ -51,6 +51,6 @@ After Riverrun surrenders, Jaime grants Clement leave to return to his own lands
 
 ## Quotes
 
-> I say what I mean straight out, like an honest man. But what would you know of the ways of honest men? You're a treacherous lying weasel, like all your kin. I'd sooner drink a pint of piss than take the word of any [Frey](wiki:House_Frey).(wiki:Clement_Piper.cite_ref-Raffc38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
+> I say what I mean straight out, like an honest man. But what would you know of the ways of honest men? You're a treacherous lying weasel, like all your kin. I'd sooner drink a pint of piss than take the word of any Frey.
 >
-> —Clement to [Edwyn Frey](wiki:Edwyn_Frey)
+> —Clement to Edwyn Frey, AFFC (`sources/chapters/affc/affc-jaime-06.md:177`)

@@ -95,6 +95,6 @@ As punishment for his part in the conspiracy to crown [Myrcella Baratheon](wiki:
 >
 > —writings of [Yandel](wiki:Yandel)
 
-> As he honed the axe, Hotah thought of Norvos, the high city on the hill and the low beside [the river](wiki:Noyne). He could still recall the sounds of the [three bells](wiki:Three_bells), the way that Noom's deep peals set his very bones to shuddering, the proud strong voice of Narrah, sweet Nyel's silvery laughter. The taste of wintercake filled his mouth again, rich with ginger and [pine](wiki:Pine) nuts and bits of cherry, with [nahsa](wiki:Nahsa) to wash it down, fermented goat's milk served in an iron cup and laced with [honey](wiki:Honey). He saw his mother in her dress with the squirrel collar, the one she wore but once each year, when they went to see the bears dance down the [Sinner's Steps](wiki:Sinner's_Steps).(wiki:Norvos.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-9)
+> As he honed the axe, Hotah thought of Norvos, the high city on the hill and the low beside the river. He could still recall the sounds of the three bells, the way that Noom's deep peals set his very bones to shuddering, the proud strong voice of Narrah, sweet Nyel's silvery laughter. The taste of wintercake filled his mouth again, rich with ginger and pine nuts and bits of cherry, with nahsa to wash it down, fermented goat's milk served in an iron cup and laced with honey. He saw his mother in her dress with the squirrel collar, the one she wore but once each year, when they went to see the bears dance down the Sinner's Steps.
 >
-> —thoughts of [Areo Hotah](wiki:Areo_Hotah)
+> —thoughts of Areo Hotah, AFFC (`sources/chapters/affc/affc-the-captain-of-guards-01.md:157`)

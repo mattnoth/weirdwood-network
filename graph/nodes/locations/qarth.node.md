@@ -135,21 +135,21 @@ As the [second siege of Meereen](wiki:Second_siege_of_Meereen) resumes, [Tyrion 
 >
 > —[Pyat Pree](wiki:Pyat_Pree) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
 
-> All the colors that had been missing from [Vaes Tolorro](wiki:Vaes_Tolorro) had found their way to Qarth; buildings crowded about her fantastical as a fever dream in shades of rose, violet, and umber. She passed under a [bronze](wiki:Bronze) arch fashioned in the likeness of two [snakes](wiki:Snake) mating, their scales delicate flakes of [jade](wiki:Jade), [obsidian](wiki:Obsidian), and [lapis lazuli](wiki:Lapis_lazuli). Slim towers stood taller than any Dany had ever seen, and elaborate fountains filled every square, wrought in the shapes of [griffins](wiki:Griffin) and [dragons](wiki:Dragon) and [manticores](wiki:Manticore).(wiki:Qarth.cite_ref-Racok27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-21)
+> All the colors that had been missing from Vaes Tolorro had found their way to Qarth; buildings crowded about her fantastical as a fever dream in shades of rose, violet, and umber. She passed under a bronze arch fashioned in the likeness of two snakes mating, their scales delicate flakes of jade, obsidian, and lapis lazuli. Slim towers stood taller than any Dany had ever seen, and elaborate fountains filled every square, wrought in the shapes of griffins and dragons and manticores.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ACOK (`sources/chapters/acok/acok-daenerys-02.md:19`)
 
-> These are strange times in Qarth. And strange times are bad for trade.(wiki:Qarth.cite_ref-Racok63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-6)
+> These are strange times in Qarth. And strange times are bad for trade.
 >
-> —[Xaro Xhoan Daxos](wiki:Xaro_Xhoan_Daxos) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Xaro Xhoan Daxos to Daenerys Targaryen, ACOK (`sources/chapters/acok/acok-daenerys-05.md:27`)
 
-> Consider Qarth. In art, music, [magic](wiki:Magic), trade, all that makes us more than beasts, Qarth sits above the rest of mankind as you sit at the summit of [this pyramid](wiki:Great_Pyramid) ... but below, in place of bricks, the magnificence that is the Queen of Cities rests upon the backs of [slaves](wiki:Slavery).(wiki:Qarth.cite_ref-Radwd16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+> Consider Qarth. In art, music, magic, trade, all that makes us more than beasts, Qarth sits above the rest of mankind as you sit at the summit of this pyramid ... but below, in place of bricks, the magnificence that is the Queen of Cities rests upon the backs of slaves.
 >
-> —[Xaro Xhoan Daxos](wiki:Xaro_Xhoan_Daxos) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Xaro Xhoan Daxos to Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-03.md:97`)
 
-> Qarth is a city of merchants, and they love the clink of [silver](wiki:Silver) coins, the gleam of yellow [gold](wiki:Gold). When you [smashed the slave trade](wiki:Targaryen_campaign_in_Slaver's_Bay), the blow was felt from [Westeros](wiki:Westeros) to [Asshai](wiki:Asshai). Qarth depends upon its [slaves](wiki:Slavery).(wiki:Qarth.cite_ref-Radwd23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-3)
+> Qarth is a city of merchants, and they love the clink of silver coins, the gleam of yellow gold. When you smashed the slave trade, the blow was felt from Westeros to Asshai. Qarth depends upon its slaves.
 >
-> —[Hizdahr zo Loraq](wiki:Hizdahr_zo_Loraq) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —Hizdahr zo Loraq to Daenerys Targaryen, ADWD (`sources/chapters/adwd/adwd-daenerys-04.md:105`)
 
 > We could sail to Qarth. The streets are paved with [jade](wiki:Jade) there, [my brother](wiki:Oppo) always said. [The city walls](wiki:Walls_of_Qarth) are one of the [wonders of the world](wiki:Wonders_Made_by_Man). When we perform in Qarth, [gold](wiki:Gold) and [silver](wiki:Silver) will rain down on us, you'll see.(wiki:Qarth.cite_ref-Radwd57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-2)
 >

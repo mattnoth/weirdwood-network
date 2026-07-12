@@ -88,9 +88,9 @@ Rakharo and Aggo depart Meereen and lead search parties across the Skahazadhan t
 
 ### Quotes about Rakharo
 
-> [Aggo](wiki:Aggo), [Jhogo](wiki:Jhogo), and Rakharo were brave warriors, but they were young, and too valuable to risk. They kept her [khalasar](wiki:Khalasar) together, and were her best scouts too.(wiki:Rakharo.cite_ref-Rasos57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
+> Aggo, Jhogo, and Rakharo were brave warriors, but they were young, and too valuable to risk. They kept her khalasar together, and were her best scouts too.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-05.md:17`)
 
 > **Jhiqui**: You are too skinny for him. You are almost a boy. Rakharo does not bed with boys. This is known.
 >

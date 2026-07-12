@@ -70,9 +70,9 @@ They find safety in the cave, staying there for months, while Bran learns about 
 >
 > —Meera and [Bran Stark](wiki:Bran_Stark)
 
-> Remember [Old Nan](wiki:Old_Nan)'s stories, Bran. Remember the way she told them, the sound of her voice. So long as you do that, part of her will always be alive in you.(wiki:Meera_Reed.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-4)
+> Remember Old Nan's stories, Bran. Remember the way she told them, the sound of her voice. So long as you do that, part of her will always be alive in you.
 >
-> —Meera to [Bran Stark](wiki:Bran_Stark)
+> —Meera to Bran Stark, ASOS (`sources/chapters/asos/asos-bran-02.md:105`)
 
 ### Quotes about Meera
 
@@ -80,6 +80,6 @@ They find safety in the cave, staying there for months, while Bran learns about 
 >
 > —thoughts of [Bran Stark](wiki:Bran_Stark)
 
-> [The woods](wiki:Haunted_forest) were full of frozen streams and cold black lakes, and Meera was as good a fisher with her three-pronged frog spear as most men were with hook and line.(wiki:Meera_Reed.cite_ref-Radwd4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1)
+> The woods were full of frozen streams and cold black lakes, and Meera was as good a fisher with her three-pronged frog spear as most men were with hook and line.
 >
-> —thoughts of [Bran Stark](wiki:Bran_Stark)
+> —thoughts of Bran Stark, ADWD (`sources/chapters/adwd/adwd-bran-01.md:141`)

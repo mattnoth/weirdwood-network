@@ -141,9 +141,9 @@ While Commander of the [City Watch of King's Landing](wiki:City_Watch_of_King's_
 >
 > —Daemon to [Corlys Velaryon](wiki:Corlys_Velaryon)
 
-> [The war](wiki:Dance_of_the_Dragons) will end when the heads of [the traitors](wiki:Greens) are mounted on spikes above the [King's Gate](wiki:King's_Gate), and not before.(wiki:Daemon_Targaryen.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-5)
+> The war will end when the heads of the traitors are mounted on spikes above the King's Gate, and not before.
 >
-> —Daemon to [Corlys Velaryon](wiki:Corlys_Velaryon)
+> —Daemon to Corlys Velaryon, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:173`)
 
 > **Aemond**: You were a fool to come alone.
 >

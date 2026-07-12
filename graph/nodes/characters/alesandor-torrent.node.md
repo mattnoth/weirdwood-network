@@ -27,6 +27,6 @@ Lord [Godric Borrell](wiki:Godric_Borrell) informed [Davos Seaworth](wiki:Davos_
 
 ## Quotes
 
-> The [Lyseni](wiki:Lys). Torrent spied their sails from [Littlesister](wiki:Littlesister), and before him the [Flints](wiki:House_Flint_of_Widow's_Watch) from [Widow's Watch](wiki:Widow's_Watch). Orange sails, and green, and pink. [Salladhor Saan](wiki:Salladhor_Saan). Where is he?(wiki:Alesandor_Torrent.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+> The Lyseni. Torrent spied their sails from Littlesister, and before him the Flints from Widow's Watch. Orange sails, and green, and pink. Salladhor Saan. Where is he?
 >
-> —[Godric Borrell](wiki:Godric_Borrell) to [Davos Seaworth](wiki:Davos_Seaworth)
+> —Godric Borrell to Davos Seaworth, ADWD (`sources/chapters/adwd/adwd-davos-01.md:77`)

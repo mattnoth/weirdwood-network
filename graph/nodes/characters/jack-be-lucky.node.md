@@ -56,9 +56,9 @@ Jack is part of [Lady Stoneheart's](wiki:Catelyn_Stark) band of outlaws(wiki:Jac
 >
 > —[Lem](wiki:Lem) and Jack
 
-> The [crows](wiki:Crow) await us all. M'lord, [the boy](wiki:Gendry) seems brave enough, and we do have need of what he brings us. Take him, says Jack.(wiki:Jack-Be-Lucky.cite_ref-Rasos39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
+> The crows await us all. M'lord, the boy seems brave enough, and we do have need of what he brings us. Take him, says Jack.
 >
-> —Jack to [Beric Dondarrion](wiki:Beric_Dondarrion)
+> —Jack to Beric Dondarrion, ASOS (`sources/chapters/asos/asos-arya-07.md:179`)
 
 > **Jack**: You ought t'have bought some land and made one o' them [roast swan girls](wiki:Chataya's_brothel) an honest woman. Raised yourself a crop o' turnips and a crop o' sons.
 >

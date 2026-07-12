@@ -42,6 +42,6 @@ During a discussion among Stannis's lords and knights in the longhall of the [cr
 
 ### Quotes about Ormund
 
-> Asha had heard rumors that some of the [men-at-arms](wiki:Men-at-arms) were wagering on which of the great [knights](wiki:Knight) and [lords](wiki:Lord) would be the next to die. Ser Ormund had emerged as a clear favorite.(wiki:Ormund_Wylde.cite_ref-Radwd62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+> Asha had heard rumors that some of the men-at-arms were wagering on which of the great knights and lords would be the next to die. Ser Ormund had emerged as a clear favorite.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-sacrifice-01.md:169`)

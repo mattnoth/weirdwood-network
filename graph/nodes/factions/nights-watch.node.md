@@ -151,13 +151,13 @@ Many of the brothers are disconcerted by Jon allowing wildlings like [Tormund](w
 
 ## Quotes
 
-> The Night's Watch is a shadow of what it once was.(wiki:Night's_Watch.cite_ref-Ragot4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_98-0)
+> The Night's Watch is a shadow of what it once was.
 >
-> —[Eddard Stark](wiki:Eddard_Stark) to [Robert I Baratheon](wiki:Robert_I_Baratheon)
+> —Eddard Stark to Robert I Baratheon, AGOT (`sources/chapters/agot/agot-eddard-01.md:109`)
 
-> On the [Wall](wiki:Wall), a man gets only what he earns.(wiki:Night's_Watch.cite_ref-Ragot19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-7)
+> On the Wall, a man gets only what he earns.
 >
-> —[Benjen Stark](wiki:Benjen_Stark) to [Jon Snow](wiki:Jon_Snow)
+> —Benjen Stark to Jon Snow, AGOT (`sources/chapters/agot/agot-jon-03.md:51`)
 
 > Any man of the Night’s Watch is welcome here at [Winterfell](wiki:Winterfell) for as long as he wishes to stay.(wiki:Night's_Watch.cite_ref-Ragot24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_52-2)
 >
@@ -171,9 +171,9 @@ Many of the brothers are disconcerted by Jon allowing wildlings like [Tormund](w
 >
 > —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
 
-> The men of the Night's Watch dressed in black, Ser [Denys Mallister](wiki:Denys_Mallister) reminded me sternly, as if I had forgotten.(wiki:Night's_Watch.cite_ref-Rasos7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-3)
+> The men of the Night's Watch dressed in black, Ser Denys Mallister reminded me sternly, as if I had forgotten.
 >
-> —[Mance Rayder](wiki:Mance_Rayder) to [Jon Snow](wiki:Jon_Snow)
+> —Mance Rayder to Jon Snow, ASOS (`sources/chapters/asos/asos-jon-01.md:275`)
 
 > The Night's Watch is a pack of thieves, killers, and baseborn churls.(wiki:Night's_Watch.cite_ref-Rasos32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_76-1)
 >

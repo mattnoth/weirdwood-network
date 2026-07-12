@@ -80,13 +80,13 @@ Aggo later accompanies Daenerys to [Daznak's Pit](wiki:Daznak's_Pit) as part of 
 
 ### Quotes about Aggo
 
-> Aggo and [Jhogo](wiki:Jhogo) fell in to either side of them, walking with the bowlegged swagger all the [horselords](wiki:Horselords) affected when forced to dismount and stride the earth like common mortals.(wiki:Aggo.cite_ref-Rasos23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-2)
+> Aggo and Jhogo fell in to either side of them, walking with the bowlegged swagger all the horselords affected when forced to dismount and stride the earth like common mortals.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-02.md:209`)
 
-> Aggo, [Jhogo](wiki:Jhogo), and [Rakharo](wiki:Rakharo) were brave warriors, but they were young, and too valuable to risk. They kept her [khalasar](wiki:Khalasar) together, and were her best scouts too.(wiki:Aggo.cite_ref-Rasos57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+> Aggo, Jhogo, and Rakharo were brave warriors, but they were young, and too valuable to risk. They kept her khalasar together, and were her best scouts too.
 >
-> —thoughts of [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+> —thoughts of Daenerys Targaryen, ASOS (`sources/chapters/asos/asos-daenerys-05.md:17`)
 
 ## Edges
 

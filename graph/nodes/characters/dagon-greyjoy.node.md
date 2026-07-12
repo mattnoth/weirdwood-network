@@ -51,9 +51,9 @@ By [211 AC](wiki:211_AC), Lord Dagon and his [ironborn](wiki:Ironborn) were rai
 >
 > —[Duncan the Tall](wiki:Duncan_the_Tall) and [Maynard Plumm](wiki:Maynard_Plumm)
 
-> Old women on [Fair Isle](wiki:Fair_Isle) still frightened their grandchildren with tales of Lord Dagon and his men.(wiki:Dagon_Greyjoy.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+> Old women on Fair Isle still frightened their grandchildren with tales of Lord Dagon and his men.
 >
-> —thoughts of [Asha Greyjoy](wiki:Asha_Greyjoy)
+> —thoughts of Asha Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-wayward-bride-01.md:121`)
 
 > In Dagon's day [a weak king](wiki:Aerys_I_Targaryen) sat the [Iron Throne](wiki:Iron_Throne), his rheumy eyes fixed across the [narrow sea](wiki:Narrow_sea) where bastards and exiles plotted [rebellion](wiki:Blackfyre_Rebellions). So forth from [Pyke](wiki:Pyke) Lord Dagon sailed, to make the [Sunset Sea](wiki:Sunset_Sea) his own. He bearded [the lion](wiki:House_Lannister) in his den and tied [the direwolf's](wiki:House_Stark) tail in knots, but even Dagon could not defeat [the dragons](wiki:House_Targaryen).(wiki:Dagon_Greyjoy.cite_ref-Radwd63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
 >

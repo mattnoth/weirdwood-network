@@ -97,9 +97,9 @@ At [Raventree Hall](wiki:Siege_of_Raventree), Jaime mentions to Lord [Tytos Blac
 >
 > —[Edmure Tully](wiki:Edmure_Tully), to [Catelyn Stark](wiki:Catelyn_Stark)
 
-> Look at this little thing! No meat on her at all!(wiki:Roslin_Frey.cite_ref-Rasos51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-4)
+> Look at this little thing! No meat on her at all!
 >
-> —[Jon Umber](wiki:Jon_Umber)
+> —Jon Umber, ASOS (`sources/chapters/asos/asos-catelyn-07.md:89`)
 
 > Roslin caught [a fine fat trout](wiki:Edmure_Tully). Her brothers gave her [a](wiki:Robb_Stark) [pair](wiki:Catelyn_Stark) of [wolf pelts](wiki:House_Stark) for [her wedding](wiki:Red_Wedding).(wiki:Roslin_Frey.cite_ref-Rasos53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
 >

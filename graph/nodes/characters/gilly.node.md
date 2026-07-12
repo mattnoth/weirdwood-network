@@ -126,36 +126,36 @@ Jon has nightmares about Gilly,(wiki:Gilly.cite_ref-Radwd7.7B.7B.7B3.7D.7D.7D.7B
 >
 > —[Samwell Tarly](wiki:Samwell_Tarly) and Gilly
 
-> A mother can't leave her son, or else she's cursed forever. Not a son. We saved [him](wiki:Monster), [Sam](wiki:Samwell_Tarly) and me. Please. Please, m'lord. We saved him from the cold.(wiki:Gilly.cite_ref-Radwd7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)
+> A mother can't leave her son, or else she's cursed forever. Not a son. We saved him, Sam and me. Please. Please, m'lord. We saved him from the cold.
 >
-> —Gilly to [Jon Snow](wiki:Jon_Snow)
+> —Gilly to Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-02.md:45`)
 
 ### Quotes about Gilly
 
-> She was younger than he'd thought at first. A girl of fifteen or sixteen years, he judged, dark hair plastered across a gaunt face by the falling rain, her bare feet muddy to the ankles.(wiki:Gilly.cite_ref-Racok23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+> She was younger than he'd thought at first. A girl of fifteen or sixteen years, he judged, dark hair plastered across a gaunt face by the falling rain, her bare feet muddy to the ankles.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ACOK (`sources/chapters/acok/acok-jon-03.md:175`)
 
-> Damn her, he thought resentfully, and damn [Sam](wiki:Samwell_Tarly) twice for sending her to me. What did he think I could do for her? [We're](wiki:Great_ranging) here to fight [wildlings](wiki:Free_folk), not save them.(wiki:Gilly.cite_ref-Racok23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+> Damn her, he thought resentfully, and damn Sam twice for sending her to me. What did he think I could do for her? We're here to fight wildlings, not save them.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ACOK (`sources/chapters/acok/acok-jon-03.md:313`)
 
 > **Jon**: You're more than fond of Gilly, aren't you? **Samwell**: Gilly's good. She's good and kind. She ... she made me braver, Jon. Not brave, but ... braver.(wiki:Gilly.cite_ref-Rasos75.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-7)
 >
 > —[Jon Snow](wiki:Jon_Snow) and [Samwell Tarly](wiki:Samwell_Tarly)
 
-> If my [wet nurse](wiki:Wet_nurse) had looked like her, I'd still be on the teat.(wiki:Gilly.cite_ref-Raffc5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-10)
+> If my wet nurse had looked like her, I'd still be on the teat.
 >
-> —[Eddison Tollett](wiki:Eddison_Tollett) to [Samwell Tarly](wiki:Samwell_Tarly)
+> —Eddison Tollett to Samwell Tarly, AFFC (`sources/chapters/affc/affc-samwell-01.md:43`)
 
-> Gilly was dark-haired and slim, with the big brown eyes of a [doe](wiki:Doe).(wiki:Gilly.cite_ref-Raffc5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-11)
+> Gilly was dark-haired and slim, with the big brown eyes of a doe.
 >
-> —thoughts of [Samwell Tarly](wiki:Samwell_Tarly)
+> —thoughts of Samwell Tarly, AFFC (`sources/chapters/affc/affc-samwell-01.md:93`)
 
 > **Samwell**: I took a vow. I will take no wife, and father no children. I said the words. **Kojja**: She knows the words you said. She is a child in some ways, but she is not blind. She knows why you [wear the black](wiki:Night's_Watch), why you go to [Oldtown](wiki:Oldtown). She knows she cannot keep you. She wants you for a little while, is all. She lost [her father](wiki:Craster) and her husband, [her mother](wiki:Gilly's_mother) and [her sisters](wiki:Craster's_wives), [her home](wiki:Craster's_Keep), her world. All she has is you, and [the babe](wiki:Aemon_Steelsong). So you go to her, or swim.(wiki:Gilly.cite_ref-Raffc35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-7)
 >
 > —[Samwell Tarly](wiki:Samwell_Tarly) and [Kojja Mo](wiki:Kojja_Mo)
 
-> She will curse me with her dying breath, but I saw no other way.(wiki:Gilly.cite_ref-Radwd10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-2)
+> She will curse me with her dying breath, but I saw no other way.
 >
-> —thoughts of [Jon Snow](wiki:Jon_Snow)
+> —thoughts of Jon Snow, ADWD (`sources/chapters/adwd/adwd-jon-03.md:63`)

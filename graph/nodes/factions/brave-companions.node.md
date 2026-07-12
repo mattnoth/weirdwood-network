@@ -57,9 +57,9 @@ Qyburn rises to the position of [master of whisperers](wiki:Master_of_whisperers
 
 ## Quotes
 
-> Arya did not know who Bloody Mummers were until a fortnight later, when the queerest company of men she'd ever seen arrived at [Harrenhal](wiki:Harrenhal). Beneath the standard of a black [goat](wiki:Goat) with bloody horns rode [copper men](wiki:Dothraki) with bells in their braids; lancers astride [striped black-and-white horses](wiki:Zorse); bowmen with powdered cheeks; [squat hairy men](wiki:Ibbenese) with shaggy shields; [brown-skinned men](wiki:Summer_Islands) in feathered cloaks; [a wispy fool](wiki:Shagwell) in green-and-pink motley; swordsmen with fantastic forked beards [dyed green and purple and silver](wiki:Tyrosh); [spearmen with colored scars](wiki:Volantis) that covered their cheeks; [a slender](wiki:Utt) man in [septon](wiki:Septon)'s robes, [a fatherly one](wiki:Qyburn) in [maester](wiki:Maester)'s grey, and [a sickly one](wiki:Urswyck) whose leather cloak was fringed with long blond hair.(wiki:Brave_Companions.cite_ref-Racok30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-12)
+> Arya did not know who Bloody Mummers were until a fortnight later, when the queerest company of men she'd ever seen arrived at Harrenhal. Beneath the standard of a black goat with bloody horns rode copper men with bells in their braids; lancers astride striped black-and-white horses; bowmen with powdered cheeks; squat hairy men with shaggy shields; brown-skinned men in feathered cloaks; a wispy fool in green-and-pink motley; swordsmen with fantastic forked beards dyed green and purple and silver; spearmen with colored scars that covered their cheeks; a slender man in septon's robes, a fatherly one in maester's grey, and a sickly one whose leather cloak was fringed with long blond hair.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ACOK (`sources/chapters/acok/acok-arya-07.md:37`)
 
 > **Arya**: Who are they?
 >
@@ -67,13 +67,13 @@ Qyburn rises to the position of [master of whisperers](wiki:Master_of_whisperers
 >
 > —[Arya Stark](wiki:Arya_Stark), a Lannister soldier, and [Weese](wiki:Weese)
 
-> I hate this lot worse. Ser [Amory](wiki:Amory_Lorch) was fighting for [his lord](wiki:Tywin_Lannister), but the Mummers are [sellswords](wiki:Sellsword) and [turncloaks](wiki:Turncloak). Half of them can't even speak the [Common Tongue](wiki:Common_Tongue). Septon [Utt](wiki:Utt) likes little boys, [Qyburn](wiki:Qyburn) does [black magic](wiki:Magic), and your friend [Biter](wiki:Biter) [eats people](wiki:Cannibalism).(wiki:Brave_Companions.cite_ref-Racok64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-4)
+> I hate this lot worse. Ser Amory was fighting for his lord, but the Mummers are sellswords and turncloaks. Half of them can't even speak the Common Tongue. Septon Utt likes little boys, Qyburn does black magic, and your friend Biter eats people.
 >
-> —[Gendry](wiki:Gendry) to [Arya Stark](wiki:Arya_Stark)
+> —Gendry to Arya Stark, ACOK (`sources/chapters/acok/acok-arya-10.md:43`)
 
-> The scum of the earth surrounded them: swarthy [Dornishmen](wiki:Dornishmen) and blond [Lyseni](wiki:Lys), [Dothraki](wiki:Dothraki) with bells in their braids, hairy [Ibbenese](wiki:Ibbenese), coal-black [Summer Islanders](wiki:Summer_Islanders) in feathered cloaks. He knew them. The Brave Companions.(wiki:Brave_Companions.cite_ref-Rasos21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-1)
+> The scum of the earth surrounded them: swarthy Dornishmen and blond Lyseni, Dothraki with bells in their braids, hairy Ibbenese, coal-black Summer Islanders in feathered cloaks. He knew them. The Brave Companions.
 >
-> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+> —thoughts of Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-03.md:135`)
 
 > **Timeon**: You and [your father](wiki:Tywin_Lannister) lost too many battles. We had to trade our lion pelts for wolfskins.
 >
@@ -81,14 +81,14 @@ Qyburn rises to the position of [master of whisperers](wiki:Master_of_whisperers
 >
 > —[Timeon](wiki:Timeon), [Urswyck](wiki:Urswyck), and [Jaime Lannister](wiki:Jaime_Lannister)
 
-> The Brave Companions did not fight in the [Battle of the Blackwater](wiki:Battle_of_the_Blackwater), yet they died there all the same.(wiki:Brave_Companions.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-0)
+> The Brave Companions did not fight in the Battle of the Blackwater, yet they died there all the same.
 >
-> —[Roose Bolton](wiki:Roose_Bolton) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Roose Bolton to Jaime Lannister, ASOS (`sources/chapters/asos/asos-jaime-05.md:219`)
 
-> Bringing the Brave Companions across the [narrow sea](wiki:Narrow_sea) was not one of [Father's](wiki:Tywin_Lannister) better notions.(wiki:Brave_Companions.cite_ref-Rasos77.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+> Bringing the Brave Companions across the narrow sea was not one of Father's better notions.
 >
-> —[Jaime Lannister](wiki:Jaime_Lannister) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Jaime Lannister to Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-11.md:25`)
 
-> I told [your father](wiki:Tywin_Lannister) I would forage for him, but he refused me. Some tasks are fit for [lions](wiki:House_Lannister), he said, but foraging is best left for [goats](wiki:Vargo_Hoat) and [dogs](wiki:Gregor_Clegane).(wiki:Brave_Companions.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-0)
+> I told your father I would forage for him, but he refused me. Some tasks are fit for lions, he said, but foraging is best left for goats and dogs.
 >
-> —[Daven Lannister](wiki:Daven_Lannister) to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Daven Lannister to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-05.md:31`)

@@ -105,35 +105,35 @@ On her way to [Griffin's Roost](wiki:Griffin's_Roost), Princess [Arianne Martell
 >
 > —Quentyn's thoughts
 
-> Quentyn had never felt so much a boy as when he'd stood before [Daenerys Targaryen](wiki:Daenerys_Targaryen), pleading for her hand. The thought of bedding her terrified him almost as much as her [dragons](wiki:Dragon) had.(wiki:Quentyn_Martell.cite_ref-Radwd68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-6)
+> Quentyn had never felt so much a boy as when he'd stood before Daenerys Targaryen, pleading for her hand. The thought of bedding her terrified him almost as much as her dragons had.
 >
-> —Quentyn's thoughts
+> —Quentyn's thoughts, ADWD (`sources/chapters/adwd/adwd-the-dragontamer-01.md:47`)
 
 > **Quentyn**: This will be my grand adventure. **Gerris**: Men die on grand adventures.(wiki:Quentyn_Martell.cite_ref-Radwd68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-7)
 >
 > —Quentyn and [Gerris Drinkwater](wiki:Gerris_Drinkwater)
 
-> The hero sets out with his friends and companions, faces dangers, comes home triumphant. Only some of his companions don't return at all. The hero never dies, though. I must be the hero.(wiki:Quentyn_Martell.cite_ref-Radwd68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-8)
+> The hero sets out with his friends and companions, faces dangers, comes home triumphant. Only some of his companions don't return at all. The hero never dies, though. I must be the hero.
 >
-> —Quentyn's thoughts
+> —Quentyn's thoughts, ADWD (`sources/chapters/adwd/adwd-the-dragontamer-01.md:59`)
 
 ### Quotes about Quentyn
 
-> She leaned her back against a [fluted pillar](wiki:Shandystone) and wondered if her brother was looking at the same stars tonight, wherever he might be. Do you see the white one, Quentyn? That is [Nymeria](wiki:Nymeria)'s star, burning bright, and that milky band behind her, those are [ten thousand ships](wiki:Ten_thousand_ships). She burned as bright as any man, and so shall I. You will not rob me of my birthright!(wiki:Quentyn_Martell.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-5)
+> She leaned her back against a fluted pillar and wondered if her brother was looking at the same stars tonight, wherever he might be. Do you see the white one, Quentyn? That is Nymeria's star, burning bright, and that milky band behind her, those are ten thousand ships. She burned as bright as any man, and so shall I. You will not rob me of my birthright!
 >
-> —[Arianne Martell](wiki:Arianne_Martell)'s thoughts
+> —Arianne Martell's thoughts, AFFC (`sources/chapters/affc/affc-the-queenmaker-01.md:63`)
 
-> [Dorne](wiki:Dorne) will be yours. You have my word on that, if my word still has any meaning for you. Your brother Quentyn has a harder road to walk.(wiki:Quentyn_Martell.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-3)
+> Dorne will be yours. You have my word on that, if my word still has any meaning for you. Your brother Quentyn has a harder road to walk.
 >
-> —[Doran Martell](wiki:Doran_Martell) to [Arianne Martell](wiki:Arianne_Martell)
+> —Doran Martell to Arianne Martell, AFFC (`sources/chapters/affc/affc-the-princess-in-the-tower-01.md:309`)
 
 > That one is [his father's](wiki:Doran_Martell) son. Short and stocky, plain-faced, he seemed a decent lad, sober, sensible, dutiful ... but not the sort to make a young girl's heart beat faster. And [Daenerys Targaryen](wiki:Daenerys_Targaryen), whatever else she might be, was still a young girl, as she herself would claim when it pleased her to play the innocent. Like all good queens she put her people first—else she would never have wed [Hizdahr zo Loraq](wiki:Hizdahr_zo_Loraq)—but the girl in her still yearned for poetry, passion, and laughter. She wants fire, and [Dorne](wiki:Dorne) sent her mud. You could make a poultice out of mud to cool a fever. You could plant seeds in mud and grow a crop to feed your children. Mud would nourish you, where fire would only consume you, but fools and children and young girls would choose fire every time.(wiki:Quentyn_Martell.cite_ref-Radwd59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-7)
 >
 > —[Barristan Selmy](wiki:Barristan_Selmy)'s thoughts
 
-> He should have stayed in [Dorne](wiki:Dorne). He should have stayed a frog. Not all men are meant to dance with [dragons](wiki:Dragon).(wiki:Quentyn_Martell.cite_ref-Radwd70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4)
+> He should have stayed in Dorne. He should have stayed a frog. Not all men are meant to dance with dragons.
 >
-> —[Barristan Selmy](wiki:Barristan_Selmy)'s thoughts
+> —Barristan Selmy's thoughts, ADWD (`sources/chapters/adwd/adwd-the-queens-hand-01.md:39`)
 
 > **Barristan**: Prince Quentyn's death was his own doing, and yours. **Gerris**: Ours? How are we at fault, ser? Quentyn was our friend, yes. A bit of a [fool](wiki:Fool), you might say, but all dreamers are fools. But first and last he was our prince. We owed him our obedience.(wiki:Quentyn_Martell.cite_ref-Radwd70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-5)
 >

@@ -37,13 +37,13 @@ Tytos was a fat man,(wiki:Tytos_Lannister.cite_ref-Rtwoiafthe_targaryen_kings:_a
 >
 > —[Beldon](wiki:Beldon) in a letter to the [Citadel](wiki:Citadel)
 
-> Our own father was gentle and amiable, but so weak his bannermen mocked him in their cups. Some saw fit to defy him openly. Other [lords](wiki:Lord) borrowed our [gold](wiki:Gold) and never troubled to repay it. At court they japed of toothless [lions](wiki:Lion). Even his [mistress](wiki:Tytos_Lannister's_second_mistress) stole from him. A woman scarcely one step above a [whore](wiki:Whore), and she helped herself to [my mother's](wiki:Jeyne_Marbrand) jewels!(wiki:Tytos_Lannister.cite_ref-Rasos66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> Our own father was gentle and amiable, but so weak his bannermen mocked him in their cups. Some saw fit to defy him openly. Other lords borrowed our gold and never troubled to repay it. At court they japed of toothless lions. Even his mistress stole from him. A woman scarcely one step above a whore, and she helped herself to my mother's jewels!
 >
-> —[Kevan Lannister](wiki:Kevan_Lannister), to [Tyrion Lannister](wiki:Tyrion_Lannister)
+> —Kevan Lannister, to Tyrion Lannister, ASOS (`sources/chapters/asos/asos-tyrion-09.md:309`)
 
-> [Tywin](wiki:Tywin_Lannister) mistrusted laughter. He heard too many people laughing at your grandsire.(wiki:Tytos_Lannister.cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+> Tywin mistrusted laughter. He heard too many people laughing at your grandsire.
 >
-> —[Genna Lannister](wiki:Genna_Lannister), to [Jaime Lannister](wiki:Jaime_Lannister)
+> —Genna Lannister, to Jaime Lannister, AFFC (`sources/chapters/affc/affc-jaime-05.md:277`)
 
 ## Edges
 

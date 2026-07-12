@@ -40,6 +40,6 @@ Someone betrayed the plan to the ironborn, however, so Dalton's longships were w
 
 ## Quotes
 
-> Payment for my uncle, though in truth he was a glutton and a drunkard, and [the islands](wiki:Iron_Islands) are well rid of him.(wiki:Ambush_at_Fair_Isle.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+> Payment for my uncle, though in truth he was a glutton and a drunkard, and the islands are well rid of him.
 >
-> —[Dalton Greyjoy](wiki:Dalton_Greyjoy)
+> —Dalton Greyjoy, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p02.md:27`)

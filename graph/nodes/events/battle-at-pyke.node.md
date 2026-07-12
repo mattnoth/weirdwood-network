@@ -62,9 +62,9 @@ Age and grief led Balon to become bitter.(wiki:Battle_at_Pyke.cite_ref-Raffc1.7B
 >
 > —[Balon Greyjoy](wiki:Balon_Greyjoy) and [Robert I Baratheon](wiki:Robert_I_Baratheon)
 
-> Theon could still make out the scars left by the stones of [Robert Baratheon's](wiki:Robert_I_Baratheon) [catapults](wiki:Catapult). A new south tower had risen from the ruins of the old, its stone a paler shade of grey, and as yet unmarred by patches of lichen. That was where Robert had made his breach, swarming in over the rubble and corpses with [his warhammer](wiki:Robert's_warhammer) in hand and [Ned Stark](wiki:Eddard_Stark) at his side. Theon had watched from the safety of the [Sea Tower](wiki:Sea_Tower), and sometimes he still saw the torches in his dreams, and heard the dull thunder of the collapse.(wiki:Battle_at_Pyke.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
+> Theon could still make out the scars left by the stones of Robert Baratheon's catapults. A new south tower had risen from the ruins of the old, its stone a paler shade of grey, and as yet unmarred by patches of lichen. That was where Robert had made his breach, swarming in over the rubble and corpses with his warhammer in hand and Ned Stark at his side. Theon had watched from the safety of the Sea Tower, and sometimes he still saw the torches in his dreams, and heard the dull thunder of the collapse.
 >
-> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+> —thoughts of Theon Greyjoy, ACOK (`sources/chapters/acok/acok-theon-01.md:243`)
 
 > The final battle was on [Pyke](wiki:Pyke_(island)). When [Robert's](wiki:Robert_I_Baratheon) stonethrowers opened a breach in King [Balon's](wiki:Balon_Greyjoy) wall, [a priest](wiki:Thoros_of_Myr) from [Myr](wiki:Myr) was the first man through, but I was not far behind. For that I won my [knighthood](wiki:Knight).(wiki:Battle_at_Pyke.cite_ref-Racok12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
 >

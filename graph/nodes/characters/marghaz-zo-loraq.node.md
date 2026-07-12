@@ -40,6 +40,6 @@ When Skahaz and Ser [Barristan Selmy](wiki:Barristan_Selmy) plot against Hizdahr
 >
 > —[Barristan Selmy](wiki:Barristan_Selmy) and [Skahaz mo Kandaq](wiki:Skahaz_mo_Kandaq)
 
-> Selmy had already formed a healthy contempt for the man. He had known his sort in [King's Landing](wiki:King's_Landing)—fawning to his superiors, harsh to his inferiors, as blind as he was boastful and too proud by half.(wiki:Marghaz_zo_Loraq.cite_ref-Radwd59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+> Selmy had already formed a healthy contempt for the man. He had known his sort in King's Landing—fawning to his superiors, harsh to his inferiors, as blind as he was boastful and too proud by half.
 >
-> —thoughts of [Barristan Selmy](wiki:Barristan_Selmy)
+> —thoughts of Barristan Selmy, ADWD (`sources/chapters/adwd/adwd-the-discarded-knight-01.md:23`)

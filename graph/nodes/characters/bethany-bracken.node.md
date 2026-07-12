@@ -37,6 +37,6 @@ In [177 AC](wiki:Years_after_Aegon's_Conquest), Bethany caught Aegon's eye when
 >
 > —[Jaime Lannister](wiki:Jaime_Lannister) and [Loras Tyrell](wiki:Loras_Tyrell)
 
-> Wasn't there some [Kingsguard](wiki:Kingsguard) who lost his head for bedding the [king's](wiki:Aegon_IV_Targaryen) wife?(wiki:Bethany_Bracken.cite_ref-Raffc17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+> Wasn't there some Kingsguard who lost his head for bedding the king's wife?
 >
-> —[Osney Kettleblack](wiki:Osney_Kettleblack)
+> —Osney Kettleblack, AFFC (`sources/chapters/affc/affc-cersei-04.md:359`)

@@ -82,14 +82,14 @@ At Winterfell, [Barbrey Dustin](wiki:Barbrey_Dustin), [Lady of Barrowton](wiki:L
 
 ### Quotes about Hallis
 
-> He had asked for the honor of protecting her in [the battle](wiki:Battle_in_the_Whispering_Wood) to come; it was his right, as [Winterfell's captain of guards](wiki:House_Stark_guards), and [Robb](wiki:Robb_Stark) had not refused it to him.(wiki:Hallis_Mollen.cite_ref-Ragot63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+> He had asked for the honor of protecting her in the battle to come; it was his right, as Winterfell's captain of guards, and Robb had not refused it to him.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, AGOT (`sources/chapters/agot/agot-catelyn-10.md:15`)
 
-> He had a penchant for loudly announcing the obvious.(wiki:Hallis_Mollen.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+> He had a penchant for loudly announcing the obvious.
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ACOK (`sources/chapters/acok/acok-catelyn-02.md:85`)
 
-> It made her wonder where [Ned](wiki:Eddard_Stark) had come to rest. The [silent sisters](wiki:Silent_sisters) had taken his bones north, escorted by Hallis Mollen and a small [honor guard](wiki:House_Stark_guards). Had Ned ever reached [Winterfell](wiki:Winterfell), to be interred beside his brother [Brandon](wiki:Brandon_Stark) in the [dark crypts](wiki:Crypt_of_Winterfell) beneath the castle? Or did the door slam shut at [Moat Cailin](wiki:Moat_Cailin) before Hal and the sisters could pass?(wiki:Hallis_Mollen.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-1)
+> It made her wonder where Ned had come to rest. The silent sisters had taken his bones north, escorted by Hallis Mollen and a small honor guard. Had Ned ever reached Winterfell, to be interred beside his brother Brandon in the dark crypts beneath the castle? Or did the door slam shut at Moat Cailin before Hal and the sisters could pass?
 >
-> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+> —thoughts of Catelyn Stark, ASOS (`sources/chapters/asos/asos-catelyn-05.md:65`)

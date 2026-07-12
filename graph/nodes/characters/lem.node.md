@@ -83,13 +83,13 @@ While Lem is away, [Brienne of Tarth](wiki:Brienne_of_Tarth) and her companions 
 
 ### Quotes about Lem
 
-> Thick and heavy, stained here with grass and there with blood, frayed along the bottom and patched with deerskin on the right shoulder, the greatcloak gave the big man the look of some huge yellow bird.(wiki:Lem.cite_ref-Rasos13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+> Thick and heavy, stained here with grass and there with blood, frayed along the bottom and patched with deerskin on the right shoulder, the greatcloak gave the big man the look of some huge yellow bird.
 >
-> —thoughts of [Arya Stark](wiki:Arya_Stark)
+> —thoughts of Arya Stark, ASOS (`sources/chapters/asos/asos-arya-02.md:71`)
 
-> This great lout with the brown teeth is Lem, short for Lemoncloak. It's yellow, you see, and Lem's a sour sort.(wiki:Lem.cite_ref-Rasos13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+> This great lout with the brown teeth is Lem, short for Lemoncloak. It's yellow, you see, and Lem's a sour sort.
 >
-> —[Tom of Sevenstreams](wiki:Tom_of_Sevenstreams) to [Arya Stark](wiki:Arya_Stark)
+> —Tom of Sevenstreams to Arya Stark, ASOS (`sources/chapters/asos/asos-arya-02.md:103`)
 
 > Lem, is that you? Still wearing that same ratty cloak, are you? I know why you never wash it, I do. You're afraid all the piss will wash out and we'll see you're really a [knight](wiki:Knight) o' the [Kingsguard](wiki:Kingsguard)!(wiki:Lem.cite_ref-Rasos29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
 >

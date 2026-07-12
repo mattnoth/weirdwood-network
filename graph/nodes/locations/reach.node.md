@@ -71,14 +71,14 @@ With the Reach preoccupied with the ironborn, [Obara Sand](wiki:Obara_Sand) want
 >
 > —[Robert I Baratheon](wiki:Robert_I_Baratheon) to [Eddard Stark](wiki:Eddard_Stark)
 
-> He was a man of the Reach, and the [Dornish](wiki:Dornishmen) were his ancient foes, as the tapestries at [Old Oak](wiki:Old_Oak) bore witness.(wiki:Reach.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_47-0)
+> He was a man of the Reach, and the Dornish were his ancient foes, as the tapestries at Old Oak bore witness.
 >
-> —thoughts of [Arys Oakheart](wiki:Arys_Oakheart)
+> —thoughts of Arys Oakheart, AFFC (`sources/chapters/affc/affc-the-soiled-knight-01.md:13`)
 
 > **Nute**: What [rose](wiki:House_Tyrell) can harm the [krakens of the deep](wiki:Ironborn)? We have [taken their shields](wiki:Taking_of_the_Shields) from them, and smashed them all to pieces. Who will protect them now? **Rodrik**: [Highgarden](wiki:Highgarden). Soon enough all the power of the Reach will be marshaled against us, Barber, and then you may learn that some roses have [steel](wiki:Steel) thorns.(wiki:Reach.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-2)
 >
 > —[Nute the Barber](wiki:Nute_the_Barber) and [Rodrik Harlaw](wiki:Rodrik_Harlaw)
 
-> Even after a century, [some of us](wiki:Golden_Company) still have friends in the Reach. The power of [Highgarden](wiki:Highgarden) may not be what [Mace Tyrell](wiki:Mace_Tyrell) imagines.(wiki:Reach.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-0)
+> Even after a century, some of us still have friends in the Reach. The power of Highgarden may not be what Mace Tyrell imagines.
 >
-> —[Laswell Peake](wiki:Laswell_Peake) to [Harry Strickland](wiki:Harry_Strickland)
+> —Laswell Peake to Harry Strickland, ADWD (`sources/chapters/adwd/adwd-the-lost-lord-01.md:213`)
