@@ -1321,7 +1321,7 @@ let busy = false;
 const inputEl = $("#input");
 const sendBtn = $("#send");
 const noteEl = $("#composer-note");
-const saveBtn = $("#save-toggle"); // hidden until the first completed assistant turn (see ask())
+const saveBtn = $("#save-toggle"); // always visible; disabled until the first completed assistant turn (see ask())
 
 function ingestReceipt({ tool, input, result }) {
   switch (tool) {
@@ -1469,11 +1469,11 @@ async function ask(question) {
       history.push({ role: "assistant", content: finalProse });
       while (history.length > MAX_HISTORY) history.shift();
       transcript.push({ role: "assistant", content: finalProse, persona });
-      if (saveBtn) saveBtn.hidden = false; // ≥1 completed assistant turn → save becomes reachable
     }
     busy = false;
     sendBtn.disabled = false;
-    if (saveBtn) saveBtn.disabled = false;
+    // Always visible (Matt, S212 phone testing); enabled once anything is saveable.
+    if (saveBtn) saveBtn.disabled = !transcript.some((e) => e.role === "assistant");
     inputEl.focus();
   }
 }
