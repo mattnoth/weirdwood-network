@@ -60,10 +60,17 @@ if bad:
     raise SystemExit(1)
 
 (OUT / "candidates.json").write_text(json.dumps({
-    "_meta": {"slice": "roles round 2 (S213)", "source": "4 Sonnet proposer chunks, "
-              "Haiku fresh-verified, adjudicated per ADJUDICATION-s213.md",
-              "candidates": len(candidates)},
-    "candidates": candidates,
+    "_meta": {
+        "unit": "roles-slice round 2 (frozen ranks 51-74, early-stop cut)",
+        "session": "S213",
+        "run_id": "roles-slice-s213",
+        "new_node_slugs": [],
+        "note": "Role edges for the next ranked zero-role event hubs; 4 Sonnet "
+                "proposers, 4 Haiku fresh-verifiers (94C/5A/4P incl. 2 verifier "
+                "false-positives), orchestrator adjudication dropped 2 "
+                "(ADJUDICATION-s213.md).",
+    },
+    "edges": candidates,
 }, indent=1))
 (OUT / "parked.json").write_text(json.dumps({
     "parked_wiki_only": wiki_only,
