@@ -6,7 +6,7 @@
   <title>The Weirwood Network — ASOIAF Knowledge Graph Interface</title>
   <meta name="description" content="An ASOIAF knowledge-graph interface: a book-grounded researcher for A Song of Ice and Fire, with citations from the books and live graph receipts." />
   <link rel="stylesheet" href="/theme/tokens.css?v=194" />
-  <link rel="stylesheet" href="/app.css?v=194" />
+  <link rel="stylesheet" href="/app.css?v=195" />
 </head>
 <body class="landing">
   <!-- Weirwood backdrop tree removed for now (Matt preferred an earlier look);
@@ -21,9 +21,14 @@
           <p class="site-desc">an ASOIAF knowledge-graph interface</p>
         </div>
       </div>
-      <button class="about-toggle" id="about-toggle" aria-expanded="false" aria-controls="about-view">
-        About
-      </button>
+      <div class="head-actions">
+        <button class="save-toggle" id="save-toggle" type="button" hidden>
+          Save
+        </button>
+        <button class="about-toggle" id="about-toggle" aria-expanded="false" aria-controls="about-view">
+          About
+        </button>
+      </div>
     </div>
   </header>
 
@@ -122,6 +127,6 @@
        same descendant chart here, full-size. Hidden until opened. -->
   <div class="dossier-overlay ft-modal-overlay" id="tree-modal" hidden></div>
 
-  <script src="/app.js?v=194" type="module"></script>
+  <script src="/app.js?v=195" type="module"></script>
 </body>
 </html>

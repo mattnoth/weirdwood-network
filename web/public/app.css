@@ -85,7 +85,9 @@ body {
 @media (max-width: 640px) {
   .site-desc { display: none; }
 }
-.about-toggle {
+.head-actions { display: flex; align-items: center; gap: var(--sp-2); }
+.about-toggle,
+.save-toggle {
   font-family: var(--font-ui);
   font-size: var(--fs-small);
   color: var(--c-text-dim);
@@ -96,7 +98,10 @@ body {
   cursor: pointer;
   transition: var(--transition);
 }
-.about-toggle:hover { color: var(--c-text); }
+.about-toggle:hover,
+.save-toggle:hover:not(:disabled) { color: var(--c-text); }
+.save-toggle:disabled { opacity: 0.5; cursor: not-allowed; }
+.save-toggle[hidden] { display: none; }
 
 /* ---- About view (toggled; the page itself opens straight to the chat) ----- */
 .about-view {

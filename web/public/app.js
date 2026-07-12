@@ -1116,6 +1116,10 @@ function renderReceipts() {
 const threadEl = $("#thread");
 const history = [];
 const MAX_HISTORY = 8;
+// Uncapped, export-only log of the full conversation — `history` is capped and
+// shifts (MAX_HISTORY above), so it can't serve as the save/export source once
+// a thread runs long. Never trimmed; never sent to the API.
+const transcript = [];
 
 function addUserBubble(text) {
   document.body.classList.remove("landing"); // first question → composer sticks to the bottom
@@ -1293,6 +1297,7 @@ let busy = false;
 const inputEl = $("#input");
 const sendBtn = $("#send");
 const noteEl = $("#composer-note");
+const saveBtn = $("#save-toggle"); // hidden until the first completed assistant turn (see ask())
 
 function ingestReceipt({ tool, input, result }) {
   switch (tool) {
@@ -1372,11 +1377,13 @@ async function ask(question) {
   if (busy || !question.trim()) return;
   busy = true;
   sendBtn.disabled = true;
+  if (saveBtn) saveBtn.disabled = true;
   noteEl.textContent = "";
 
   addUserBubble(question);
   history.push({ role: "user", content: question });
   while (history.length > MAX_HISTORY) history.shift();
+  transcript.push({ role: "user", content: question });
 
   turn = freshTurn();
   walking = true;
@@ -1437,11 +1444,91 @@ async function ask(question) {
     if (answered && finalProse.trim()) {
       history.push({ role: "assistant", content: finalProse });
       while (history.length > MAX_HISTORY) history.shift();
+      transcript.push({ role: "assistant", content: finalProse, persona });
+      if (saveBtn) saveBtn.hidden = false; // ≥1 completed assistant turn → save becomes reachable
     }
     busy = false;
     sendBtn.disabled = false;
+    if (saveBtn) saveBtn.disabled = false;
     inputEl.focus();
   }
+}
+
+// ---- Save / export (Phase 1: client-side Markdown download) ---------------
+//
+// Pure string transform — no DOM access — so it's unit-testable and can't
+// break on render state. Reuses QUOTE_MARK_RE + parseQuoteFields (the same
+// marker parser the live thread uses) plus cleanQuote/prettyCite/
+// stripEdgeQuotes so a saved quote reads identically to the on-screen one.
+
+/** One `[[q|…]]` marker's inner text → a Markdown blockquote, mirroring
+ *  bookQuote()'s attribution logic (speaker + short chapter cite, deduped
+ *  when the cite is already folded into the speaker string). */
+function quoteMarkerToMarkdown(inner) {
+  const { text, speaker, cite } = parseQuoteFields(inner);
+  const spk = speaker ? cleanQuote(speaker) : "";
+  const src = prettyCite(cite);
+  const attr = (src && !spk.includes(src) ? [spk, src] : [spk]).filter(Boolean).join(", ");
+  const body = cleanQuote(text);
+  if (attr) return `> “${stripEdgeQuotes(body)}”\n> — ${attr}`;
+  return `> ${body}`;
+}
+
+/** One turn's raw prose (with [[q|…]] markers intact) → Markdown: plain text
+ *  passes through, each marker becomes a blockquote on its own lines. */
+function proseToMarkdown(buf) {
+  const out = [];
+  let last = 0, m;
+  QUOTE_MARK_RE.lastIndex = 0;
+  while ((m = QUOTE_MARK_RE.exec(buf)) !== null) {
+    if (m.index > last) out.push(buf.slice(last, m.index));
+    out.push(`\n\n${quoteMarkerToMarkdown(m[1])}\n\n`);
+    last = m.index + m[0].length;
+  }
+  out.push(buf.slice(last));
+  return out.join("").replace(/\n{3,}/g, "\n\n").trim();
+}
+
+const SITE_URL = "https://weirwood-network.netlify.app";
+const FOOTER_LINE = "a fan project · quotes © George R.R. Martin, used for commentary · questions may be logged to improve the graph";
+
+/** entries: [{role: "user"|"assistant", content, persona?}] → a full Markdown
+ *  document. Pure function of its argument — no DOM, no globals besides the
+ *  quote-marker helpers above. */
+function buildTranscriptMarkdown(entries) {
+  const lines = [
+    "# The Weirwood Network — saved conversation",
+    "",
+    "*a thousand eyes, and one*",
+    "",
+    `Exported ${new Date().toISOString().slice(0, 10)} · ${SITE_URL}`,
+    "",
+    "---",
+    "",
+  ];
+  for (const { role, content, persona: turnPersona } of entries) {
+    const who = role === "user" ? "You"
+      : turnPersona === "bloodraven" ? "The Three-Eyed Raven" : "The Loremaster";
+    lines.push(`**${who}:**`, "", proseToMarkdown(content), "");
+  }
+  lines.push("---", "", FOOTER_LINE);
+  return lines.join("\n");
+}
+
+/** Serialize `transcript` and trigger a browser download — Blob + object URL
+ *  + a throwaway <a download>, zero dependencies. */
+function saveTranscript() {
+  if (!transcript.length) return;
+  const md = buildTranscriptMarkdown(transcript);
+  const blob = new Blob([md], { type: "text/markdown" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `weirwood-chat-${new Date().toISOString().slice(0, 10)}.md`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
 }
 
 // ---- Wiring ----------------------------------------------------------------
@@ -1478,6 +1565,11 @@ function setAbout(open) {
 }
 aboutToggle.addEventListener("click", () => setAbout(!document.body.classList.contains("about-open")));
 $("#about-back").addEventListener("click", () => setAbout(false));
+
+// Save: hidden until the first completed assistant turn, disabled mid-stream
+// (both toggled in ask() above). Serializes the uncapped `transcript`, not the
+// capped `history`.
+saveBtn?.addEventListener("click", saveTranscript);
 
 // Persona switch: pick the answer voice (loremaster default / bloodraven). Sticky in
 // localStorage; the choice rides on the next /api/chat request. Only new answers change
