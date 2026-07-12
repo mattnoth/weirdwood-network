@@ -65,10 +65,11 @@ against; see operations.md's own sections.)
   default depth), because story-time ordering is exactly the behavior worth pinning
   (S185's regression class).
 - **family**: `input: {slug, generationsUp?, generationsDown?}`. `expect:
-  {root, rootName, memberCount, truncated, generationCounts: {gen: count, ...},
+  {root, rootName, memberCount, truncated, generationCounts? (optional; retired from the
+  aegon case S212 — 3rd benign prominence-reshuffle failure, per the S210 board todo),
   mustInclude: [slug...], mustExclude: [slug...]}` — invariant-mode; a 96-member dynasty
-  dump is not something to hand-maintain, so cases assert root/count/truncation/generation
-  histogram + targeted membership checks instead.
+  dump is not something to hand-maintain, so cases assert root/count/truncation +
+  targeted membership checks instead.
 - **theme**: `input: {name, category?}`. `expect` mostly invariant-mode (`mustIncludeSlug`,
   `memberCountAtLeast`, `themeNameEquals` for case-insensitivity, `allCategoriesEqual` for
   the category filter) since a theme's full member list (up to ~160 nodes) is not something

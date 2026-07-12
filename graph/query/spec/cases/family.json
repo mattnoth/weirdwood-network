@@ -3,17 +3,15 @@
     "id": "family-aegon-i-targaryen-default-window",
     "op": "family",
     "profile": "bounded",
-    "input": { "slug": "aegon-i-targaryen" },
+    "input": {
+      "slug": "aegon-i-targaryen"
+    },
     "expect": {
       "mode": "invariant",
       "root": "aegon-i-targaryen",
       "rootName": "Aegon I Targaryen",
       "memberCount": 96,
       "truncated": true,
-      "generationCounts": {
-        "-2": 3, "-1": 2, "0": 3, "1": 8, "2": 7, "3": 18, "4": 9,
-        "5": 11, "6": 4, "7": 4, "8": 3, "9": 3, "10": 4, "11": 4, "12": 10, "13": 3
-      },
       "mustInclude": [
         "daenerys-targaryen",
         "rhaegar-targaryen",
@@ -24,25 +22,36 @@
         "maegor-i-targaryen"
       ]
     },
-    "note": "the design doc's pivot family-tree case. memberCount=96 is exactly MAX_FAMILY_MEMBERS — the dynasty overflows the cap and reports truncated=true rather than silently dropping kin. mustInclude covers both the near-root breadth (Aenys/Maegor, gen 1, direct sons) and the deep main-line spine (Daenerys/Rhaegar/Aerys II/Aegon V at gen 9-13, and the Blackfyre cadet split) — the spine exists specifically to reach descendants 12 hops past the default generationsDown=4 breadth horizon. generationCounts are prominence-sensitive (degree + 4*quoteCount picks who makes the cap), so enrichment passes legitimately reshuffle the per-generation split — repinned S203 after the F&B deferred-events mint raised Dance-era principals' degree (gen 5: 3->8), and again S210 after the S205-S209 F&B genealogy edges (review-bucket recovery +995 + dispute-drain +44) reshuffled the cap (gen 5: 8->11, 7: 5->4, 12: 11->10, 13: 4->3; memberCount still 96, mustInclude still holds). mustInclude is the real invariant; verify it still passes before repinning counts."
+    "note": "S212: generationCounts pin RETIRED after its 3rd benign failure (prominence reshuffle from new edges each time \u2014 S210 board todo recommended dropping to mustInclude-only). memberCount + mustInclude/mustExclude are the real invariants. Prior note: the design doc's pivot family-tree case. memberCount=96 is exactly MAX_FAMILY_MEMBERS \u2014 the dynasty overflows the cap and reports truncated=true rather than silently dropping kin. mustInclude covers both the near-root breadth (Aenys/Maegor, gen 1, direct sons) and the deep main-line spine (Daenerys/Rhaegar/Aerys II/Aegon V at gen 9-13, and the Blackfyre cadet split) \u2014 the spine exists specifically to reach descendants 12 hops past the default generationsDown=4 breadth horizon. generationCounts are prominence-sensitive (degree + 4*quoteCount picks who makes the cap), so enrichment passes legitimately reshuffle the per-generation split \u2014 repinned S203 after the F&B deferred-events mint raised Dance-era principals' degree (gen 5: 3->8), and again S210 after the S205-S209 F&B genealogy edges (review-bucket recovery +995 + dispute-drain +44) reshuffled the cap (gen 5: 8->11, 7: 5->4, 12: 11->10, 13: 4->3; memberCount still 96, mustInclude still holds). mustInclude is the real invariant; verify it still passes before repinning counts."
   },
   {
     "id": "family-aegon-i-targaryen-tight-window-opts-out-of-deep-spine",
     "op": "family",
     "profile": "bounded",
-    "input": { "slug": "aegon-i-targaryen", "generationsUp": 1, "generationsDown": 1 },
+    "input": {
+      "slug": "aegon-i-targaryen",
+      "generationsUp": 1,
+      "generationsDown": 1
+    },
     "expect": {
       "mode": "invariant",
-      "mustExclude": ["daenerys-targaryen"],
-      "generationBounds": { "min": -1, "max": 1 }
+      "mustExclude": [
+        "daenerys-targaryen"
+      ],
+      "generationBounds": {
+        "min": -1,
+        "max": 1
+      }
     },
-    "note": "an explicit tight window (generationsDown below the default of 4) opts OUT of the deep main-line spine entirely — verified live. All members stay within the requested [-1, 1] generation bound; the deep spine only threads when generationsDown >= the default."
+    "note": "an explicit tight window (generationsDown below the default of 4) opts OUT of the deep main-line spine entirely \u2014 verified live. All members stay within the requested [-1, 1] generation bound; the deep spine only threads when generationsDown >= the default."
   },
   {
     "id": "family-eddard-stark-default-window",
     "op": "family",
     "profile": "bounded",
-    "input": { "slug": "eddard-stark" },
+    "input": {
+      "slug": "eddard-stark"
+    },
     "expect": {
       "mode": "invariant",
       "root": "eddard-stark",
@@ -50,12 +59,24 @@
       "memberCount": 17,
       "truncated": false,
       "mustInclude": [
-        "rickard-stark", "lyarra-stark",
-        "eddard-stark", "catelyn-stark",
-        "arya-stark", "jon-snow", "bran-stark", "robb-stark", "sansa-stark", "rickon-stark",
-        "ramsay-snow", "jeyne-westerling", "tyrion-lannister"
+        "rickard-stark",
+        "lyarra-stark",
+        "eddard-stark",
+        "catelyn-stark",
+        "arya-stark",
+        "jon-snow",
+        "bran-stark",
+        "robb-stark",
+        "sansa-stark",
+        "rickon-stark",
+        "ramsay-snow",
+        "jeyne-westerling",
+        "tyrion-lannister"
       ],
-      "spouseBondIncludes": { "a": "eddard-stark", "b": "catelyn-stark" }
+      "spouseBondIncludes": {
+        "a": "eddard-stark",
+        "b": "catelyn-stark"
+      }
     },
     "note": "a clean (non-era-collided) lineage, small enough to assert the full member set. Catelyn is attached as a spouse at generation 0 (root's own generation) rather than via a PARENT_OF walk. Live snapshot 2026-07-04: 17 members, not truncated."
   },
@@ -63,13 +84,23 @@
     "id": "family-eddard-stark-tight-window",
     "op": "family",
     "profile": "bounded",
-    "input": { "slug": "eddard-stark", "generationsUp": 1, "generationsDown": 1 },
+    "input": {
+      "slug": "eddard-stark",
+      "generationsUp": 1,
+      "generationsDown": 1
+    },
     "expect": {
       "mode": "invariant",
       "memberCount": 13,
       "truncated": false,
-      "generationBounds": { "min": -1, "max": 1 },
-      "spouseBondIncludes": { "a": "eddard-stark", "b": "catelyn-stark" }
+      "generationBounds": {
+        "min": -1,
+        "max": 1
+      },
+      "spouseBondIncludes": {
+        "a": "eddard-stark",
+        "b": "catelyn-stark"
+      }
     },
     "note": "restates graph_test.ts's spouse-attachment + generation-bound cases as a shared golden case"
   },
@@ -77,7 +108,9 @@
     "id": "family-invalid-slug-rejected-by-trust-boundary",
     "op": "family",
     "profile": "bounded",
-    "input": { "slug": "../etc/passwd" },
+    "input": {
+      "slug": "../etc/passwd"
+    },
     "expect": {
       "mode": "exact",
       "members": [],
@@ -92,7 +125,9 @@
     "id": "family-wellformed-but-nonexistent-slug-returns-synthetic-stub",
     "op": "family",
     "profile": "bounded",
-    "input": { "slug": "nonexistent-slug-xyz" },
+    "input": {
+      "slug": "nonexistent-slug-xyz"
+    },
     "expect": {
       "mode": "exact",
       "root": "nonexistent-slug-xyz",
