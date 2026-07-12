@@ -322,8 +322,8 @@ Deno.test("outcomeFor: S191 full coverage — every tool call logs an outcome", 
 // ---- Invariants pinned per the S190 handoff: don't let a routing/persona ----
 // ---- edit silently regress the safety block or the loop-bound backstop. ----
 
-Deno.test("MAX_TOOL_ITERATIONS stays 6 (hard gate — never change without explicit sign-off)", () => {
-  assert.equal(MAX_TOOL_ITERATIONS, 6);
+Deno.test("MAX_TOOL_ITERATIONS stays 10 (hard gate — never change without explicit sign-off; 6→10 Matt-signed 2026-07-12, S212 loop-bound review, Matt monitoring cost)", () => {
+  assert.equal(MAX_TOOL_ITERATIONS, 10);
 });
 
 Deno.test("SHARED_RULES text is unchanged (pinned invariant) — theory-gate, cite rules, quote floor", () => {

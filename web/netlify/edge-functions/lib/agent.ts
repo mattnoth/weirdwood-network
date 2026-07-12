@@ -54,7 +54,7 @@ export type SseEvent = "status" | "token" | "receipt" | "cite-check" | "error" |
 // ---- Tuning constants ----
 
 /** Hard ceiling on tool round-trips per question — a runaway-loop backstop. */
-export const MAX_TOOL_ITERATIONS = 6;
+export const MAX_TOOL_ITERATIONS = 10;
 
 /** Per-1M-token pricing by model (USD). Used for the daily spend estimate. */
 export const PRICING: Record<string, { input: number; output: number }> = {
