@@ -79,3 +79,20 @@ Roles round 2 (262 ranked, thinning) vs next enrichment vs remaining board items
 filed in todos §S212: reyne-tarbeck Tytos/Tywin book-vs-wiki conflict · Tommard Heddle
 sub-event candidate · riots-in-KL `event.battle` typing · aemond citation-upgrade ·
 thin-chip bundle flag.
+
+## Addendum — Matt's phone-testing round (post-endsession, 2026-07-11/12)
+
+Matt tested on his phone and flagged two things + one fix. (1) *"What is the most vile
+meal…"* hit the loop bound — the pulled log (`log/2026-07-12/1cf79a22…`, 9 tool calls,
+$0.27) showed a GOOD walk spent inefficiently: two noisy broad searches, a
+`resolve("Frey pie at Winterfell")` miss (aliases are article-prefixed plurals), then the
+correct Frey-pies → Rat Cook trail bound-out just before composing. The sharper finding:
+the agent never called the S190 `theme` tool — the tool built for exactly this question
+shape. (2) The Save button wasn't visible on his phone even after a completed turn — the
+hide-until-first-turn gate was suspect on `loop-bound-hit` turns; replaced with
+always-visible + disabled-until-saveable (v197), verified at 375px. (3) Matt signed the
+`MAX_TOOL_ITERATIONS` raise — first 7, then revised to **10** before execution — guard
+test repinned with the sign-off recorded; he monitors spend (the $50/day cap backstops).
+Open follow-ups live in todos §MATT-FLAGGED S212: the theme-routing SHARED_RULES row
+(likely the higher-leverage fix), Frey-pie bare aliases, receipts dup-quote dedupe, and a
+standing weird-walks log sweep.
