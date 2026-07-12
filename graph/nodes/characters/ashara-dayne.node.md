@@ -79,3 +79,7 @@ Ser [Barristan Selmy](wiki:Barristan_Selmy) recalls the [tourney at Harrenhal](w
 > She died never knowing that Ser Barristan had loved her. How could she? He was a knight of the [Kingsguard](wiki:Kingsguard), sworn to celibacy. No good could have come from telling her his feelings. No good came from silence either. If I had unhorsed [Rhaegar](wiki:Rhaegar_Targaryen) and crowned Ashara [queen of love and beauty](wiki:Queen_of_love_and_beauty), might she have looked to me instead of [Stark](wiki:House_Stark)?(wiki:Ashara_Dayne.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-11)
 >
 > —thoughts of [Barristan Selmy](wiki:Barristan_Selmy)
+
+> But Ashara's daughter had been stillborn, and his fair lady had thrown herself from a tower soon after, mad with grief for the child she had lost, and perhaps for the man who had dishonored her at Harrenhal as well.
+>
+> —thoughts of [Barristan Selmy](wiki:Barristan_Selmy), the sentence immediately preceding the "She died never knowing..." quote above, in the same memory (book cite: `sources/chapters/adwd/adwd-the-kingbreaker-01.md:155`)

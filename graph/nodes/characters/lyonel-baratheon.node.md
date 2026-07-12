@@ -55,6 +55,10 @@ According to Maester [Yandel](wiki:Yandel), Lyonel brought glory to [House Barat
 >
 > —Lyonel to [Raymun Fossoway](wiki:Raymun_Fossoway)
 
+> "Raymun of House Fossoway," he began solemnly, touching the blade to the squire's right shoulder, "in the name of the Warrior I charge you to be brave." The sword moved from his right shoulder to his left. "In the name of the Father I charge you to be just." Back to the right. "In the name of the Mother I charge you to defend the young and innocent." The left. "In the name of the Maid I charge you to protect all women."
+>
+> —Lyonel knighting Raymun Fossoway just before the trial of seven, book-verbatim version of the ceremony (book cite: `sources/chapters/thk/thk-dunk-01.md:1277`)
+
 ### Quotes about Lyonel
 
 > Ser Lyonel Baratheon also fought several notable matches. Against lesser foes, he would often break into booming laughter the moment they touched his shield, and laugh all the time he was mounting and charging and knocking them from their stirrups. If his challengers wore any sort of crest on their helm, Ser Lyonel would strike it off and fling it into the crowd.(wiki:Lyonel_Baratheon.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)

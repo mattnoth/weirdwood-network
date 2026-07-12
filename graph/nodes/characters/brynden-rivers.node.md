@@ -134,7 +134,15 @@ Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) tells [Samwell Tarly](wi
 > “The strongest trees are rooted in the dark places of the earth. Darkness will be your cloak, your shield, your mother’s milk. Darkness will make you strong.”
 > —Brynden tutoring [Bran](bran-stark) on the weirwood throne, ADWD Bran III (book cite: `sources/chapters/adwd/adwd-bran-03.md:45`). *The signature mentorship line; anchors `brynden-rivers TUTORS bran-stark`.*
 
+> "Dead, young Daemon is a hero. Alive, he is an obstacle in my half brother's path. He can hardly make a third Blackfyre king whilst the second remains so inconveniently alive."
+>
+> —Brynden (as Hand of the King) to Ser Kyle the Cat, explaining why he spares Daemon II Blackfyre after the Second Blackfyre Rebellion (book cite: `sources/chapters/tmk/tmk-dunk-01.md:2063`)
+
 ### Quotes about Brynden
+
+> If they were wise, though, they did not say it loudly. How many eyes does Lord Bloodraven have? ran the riddle Egg had heard in Oldtown. A thousand eyes, and one.
+>
+> —Dunk's narration, recalling the riddle Egg had heard in Oldtown (book cite: `sources/chapters/tss/tss-dunk-01.md:49`). A second, distinct book-cited occurrence of the riddle from TSS, alongside the TMK occurrence below.
 
 > [The Mother](wiki:Mother_(the_Seven)) marked Lord Rivers on the day that he was born, and [Bittersteel](wiki:Aegor_Rivers) marked him once again upon the [Redgrass Field](wiki:Redgrass_Field).(wiki:Brynden_Rivers.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-17)
 >

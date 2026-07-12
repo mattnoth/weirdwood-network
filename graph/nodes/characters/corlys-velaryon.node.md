@@ -120,7 +120,13 @@ During his elder years, Corlys liked to say that he was clinging to life "like a
 >
 > —Corlys setting his terms to the [green council](wiki:Green_council) at the end of [Dance of the Dragons](wiki:Dance_of_the_Dragons)
 
+> Lord Velaryon did not attempt to deny his guilt. “What | did, | did for the good of the realm,” the old man said. “I would do the same again. The madness had to end.”
+> — Corlys Velaryon, at trial before Cregan Stark for his role in Aegon II's poisoning, F&B (`sources/chapters/fab/fab-hour-of-the-wolf-20.md:199`)
+
 ### Quotes about Corlys
+
+> “Is that why you poisoned him, my lord?” asked the Lord of Winterfell.
+> — Cregan Stark to Corlys Velaryon, F&B (`sources/chapters/fab/fab-hour-of-the-wolf-20.md:93`)
 
 > He likes his boats better than he likes me.(wiki:Corlys_Velaryon.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-4)
 >

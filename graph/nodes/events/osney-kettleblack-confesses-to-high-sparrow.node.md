@@ -40,7 +40,7 @@ To destroy Queen [Margaery Tyrell](margaery-tyrell), [Cersei Lannister](cersei-l
 
 — Septa Moelle presenting the scripted confession Cersei intended against Margaery, AFFC Cersei X (`sources/chapters/affc/affc-cersei-10.md:27`)
 
-> "No, you must take yourself to the Great Sept of Baelor this very night and speak with the High Septon … Tell him how you bedded Margaery and her cousins."
+> No, you must take yourself to the Great Sept of Baelor this very night and speak with the High Septon. When a man’s sins are so black, only His High Holiness himself can save him from hell’s torments. Tell him how you bedded Margaery and her cousins.
 
 — Cersei scripting [Osney Kettleblack](osney-kettleblack)'s false confession: the scheme that will ultimately backfire on her, AFFC Cersei IX (`sources/chapters/affc/affc-cersei-09.md:311`)
 

@@ -140,6 +140,10 @@ Having escaped from [Winterfell](wiki:Winterfell) and been brought to the [croft
 >
 > —[Hosteen Frey](wiki:Hosteen_Frey) and Wyman
 
+> The man was a criminal, if that gives you any solace. His dying may accomplish more good than anything he ever did whilst living. My lord, I bear you no ill will. The rancor I showed you in the Merman's Court was a mummer's farce put on to please our friends of Frey.
+
+— Wyman to Davos, explaining the mechanics of the Winterfell-pies deception, ADWD Davos IV (`sources/chapters/adwd/adwd-davos-04.md:105`)
+
 ### Quotes about Wyman
 
 > “Drowning his fears. He is craven to the bone, that one.”

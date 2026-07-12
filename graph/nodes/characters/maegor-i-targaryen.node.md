@@ -170,6 +170,9 @@ Maegor wore his father's [Valyrian steel](wiki:Valyrian_steel)-and-ruby [crown](
 > Your Grace is welcome to try and take her from me.
 > — Maegor Targaryen, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p01.md:237`)
 
+> Maegor was cursed, men said. He had slain his nephew, made war against the Faith and the High Septon, defied the gods, committed murder and incest, adultery and rape. His privy parts were poisoned, his seed full of worms, the gods would never grant him a living son.
+> — Gyldayn's chronicle, on the smallfolk's curse-talk after Jeyne Westerling's stillbirth, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p03.md:203`)
+
 > Many to this day believe it was the Iron Throne itself that killed him.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p03.md:243`)
 

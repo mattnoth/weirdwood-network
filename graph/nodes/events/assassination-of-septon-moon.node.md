@@ -23,3 +23,5 @@ Throat slit; host disintegrates
 <!-- fab-enriched: fab-prince-into-king-06-2026-07-09 -->
 
 Throat slit; host disintegrates
+
+- The identity of Septon Moon's assassin was never established — his own guards could not even agree on what she had looked like, and she vanished into the night, never to be found (fab-prince-into-king-06:129)

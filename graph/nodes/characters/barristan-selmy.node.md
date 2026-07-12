@@ -180,6 +180,10 @@ The Yunkish threat in the [second siege of Meereen](wiki:Second_siege_of_Meereen
 >
 > —Barristan addressing his men in the [second siege of Meereen](wiki:Second_siege_of_Meereen)
 
+> "No ruler can make a people good," Selmy had told her. "Baelor the Blessed prayed and fasted and built the Seven as splendid a temple as any gods could wish for, yet he could not put an end to war and want."
+>
+> —Barristan to [Daenerys Targaryen](wiki:Daenerys_Targaryen), recalled in her thoughts before the wedding to Hizdahr (book cite: `sources/chapters/adwd/adwd-daenerys-06.md:143`)
+
 ### Quotes about Barristan
 
 > **Sansa**: Even in the far [north](wiki:North), the singers praise the deeds of Barristan the Bold. **Renly:** Barristan the Old, you mean. Don't flatter him too sweetly, child, he thinks overmuch of himself already.(wiki:Barristan_Selmy.cite_ref-Ragot15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-3)

@@ -66,6 +66,10 @@ Brienne and her small band arrive at the inn before the Saltpans marauders. Led 
 
 ## Quotes
 
+> One poor woman had been raped a dozen times, and her breasts . . . my lady, you wear man's mail, so I shall not spare you these horrors . . . her breasts had been torn and chewed and eaten, as if by some . . . cruel beast.
+>
+> — the Elder Brother to Brienne of Tarth (`sources/chapters/affc/affc-brienne-06.md:131`)
+
 > [The man](wiki:Rorge) who raped and killed at [Saltpans](wiki:Saltpans) was not [Sandor Clegane](wiki:Sandor_Clegane), though he may be as dangerous. The [riverlands](wiki:Riverlands) are full of such scavengers. I will not call them wolves. Wolves are nobler than that ... and so are dogs, I think.(wiki:Raid_on_Saltpans.cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7)
 >
 > —the [Elder Brother](wiki:Elder_Brother_(Quiet_Isle)) to [Brienne of Tarth](wiki:Brienne_of_Tarth)

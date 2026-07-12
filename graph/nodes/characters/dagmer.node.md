@@ -36,6 +36,8 @@ Dagmer wears many rings, [gold](wiki:Gold) and [silver](wiki:Silver) and [bronze
 
 Dagmer is proud but not prickly. He often smiles to show approval.(wiki:Dagmer.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2) Dagmer enjoys reaving songs when he drinks, and he is fond of a song written about how his jaw was cracked.(wiki:Dagmer.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
 
+Book-cited overlay on the scar, from Theon's POV: "Under a snowy white mane of hair, Dagmer Cleftjaw had the most gut-churning scar Theon had ever seen, the legacy of the longaxe that had near killed him as a boy. The blow had splintered his jaw, shattered his front teeth, and left him four lips where other men had but two. A shaggy beard covered his cheeks and neck, but the hair would not grow over the scar, so a shiny seam of puckered, twisted flesh divided his face like a crevasse through a snowfield" (`sources/chapters/acok/acok-theon-03.md:67`).
+
 ## Narrative Arc
 
 ### A Clash of Kings

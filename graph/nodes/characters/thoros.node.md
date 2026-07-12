@@ -112,3 +112,7 @@ After fighting [Rorge](wiki:Rorge) and [Biter](wiki:Biter) at the [crossroads in
 > A grievous wound, aye, but Thoros healed it. There's never been no better healer.(wiki:Thoros.cite_ref-Rasos39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-3)
 >
 > —[Lem](wiki:Lem) to [Arya Stark](wiki:Arya_Stark)
+
+> He'd just dip some cheap sword in wildfire and set it alight. It was only an alchemist's trick, my master said, but it scared the horses and some of the greener knights.
+>
+> —[Gendry](wiki:Gendry) to [Arya Stark](wiki:Arya_Stark), recounting what his master Tobho Mott said of Thoros's flaming-sword mêlée trick (book cite: `sources/chapters/asos/asos-arya-04.md:197`)

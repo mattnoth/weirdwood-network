@@ -88,6 +88,10 @@ Ser [Jaime Lannister](wiki:Jaime_Lannister) is prepared to fight Beric and his o
 >
 > —Beric to [Arya Stark](wiki:Arya_Stark)
 
+> He lifted a finger to the raw red pit of his eye. "Here is where the Mountain thrust his dirk through my visor." A weary smile brushed his lips. "That's thrice I have died at the hands of House Clegane. You would think that I might have learned . . ."
+>
+> —Beric to [Thoros of Myr](wiki:Thoros_of_Myr), cataloguing his deaths just before the "Can I dwell on what I scarce remember?" quote below, same scene (book cite: `sources/chapters/asos/asos-arya-07.md:87`; note the queue's cited chapter asos-arya-03 was a cite-drift error — verified at asos-arya-07)
+
 > Can I dwell on what I scarce remember? I held [a castle](wiki:Blackhaven) on [the Marches](wiki:Dornish_Marches) once, and there was [a woman](wiki:Allyria_Dayne) I was pledged to marry, but I could not find that castle today, nor tell you the color of that woman's hair. Who [knighted](wiki:Knight) me, old friend? What were my favorite foods? It all fades. Sometimes I think I was born on the bloody grass in that [grove of ash](wiki:Battle_at_the_Mummer's_Ford), with the [taste of fire](wiki:Last_kiss) in my mouth and a hole in my chest. Are you my mother, Thoros?(wiki:Beric_Dondarrion.cite_ref-Rasos39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-12)
 >
 > —Beric to [Thoros of Myr](wiki:Thoros_of_Myr)

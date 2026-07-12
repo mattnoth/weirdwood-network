@@ -249,6 +249,10 @@ At the [crofters' village](wiki:Crofters'_village), Stannis prepares for the loo
 >
 > —Stannis and [Melisandre](wiki:Melisandre)
 
+> All men know me for the trueborn son of Steffon Baratheon, Lord of Storm's End, by his lady wife Cassana of House Estermont. I declare upon the honor of my House that my beloved brother Robert, our late king, left no trueborn issue of his body, the boy Joffrey, the boy Tommen, and the girl Myrcella being abominations born of incest between Cersei Lannister and her brother Jaime the Kingslayer. By right of birth and blood, I do this day lay claim to the Iron Throne of the Seven Kingdoms of Westeros.
+
+— Stannis's formal proclamation of his claim, read aloud by Maester Pylos, ACOK Davos I (`sources/chapters/acok/acok-davos-01.md:179`)
+
 ### Quotes about Stannis
 
 > [Robert's](wiki:Robert_I_Baratheon) lusts were the subject of ribald drinking songs throughout [the realm](wiki:Seven_Kingdoms), but Stannis was a different sort of man; a bare year younger than the king, yet utterly unlike him, stern, humorless, unforgiving, grim in his sense of duty.(wiki:Stannis_Baratheon.cite_ref-Ragot27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-10)

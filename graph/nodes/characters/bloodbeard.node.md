@@ -27,6 +27,8 @@ Bloodbeard and the [Tattered Prince](wiki:Tattered_Prince), commander of the [Wi
 
 Bloodbeard is a huge man with a great bush of a beard with fiery red whiskers,(wiki:Bloodbeard.cite_ref-Radwd50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) and long braids.(wiki:Bloodbeard.cite_ref-Radwd52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) He is described as a savage commander, with a ferocious appetite for slaughter, and no taste for peace. At table he is raucous, farts loudly, and enjoys both [wine](wiki:Wine) and women abundantly.(wiki:Bloodbeard.cite_ref-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)(wiki:Bloodbeard.cite_ref-Radwd50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
+Book-cited overlay: at the peace envoys' dinner, Bloodbeard of the Company of the Cat "made enough noise for him and a dozen more. A huge man with a great bush of beard and a prodigious appetite for wine and women, he bellowed, belched, farted like a thunderclap, and pinched every serving girl who came within his reach" (`sources/chapters/adwd/adwd-daenerys-08.md:39`).
+
 ## Narrative Arc
 
 ### A Dance with Dragons

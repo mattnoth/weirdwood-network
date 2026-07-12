@@ -201,6 +201,10 @@ Now a mutilated captive of [House Bolton](wiki:House_Bolton) at Winterfell, [The
 
 ### Quotes about Robb
 
+> Maege Mormont stood. “The King of Winter!” she declared, and laid her spiked mace beside the swords. And the river lords were rising too, Blackwood and Bracken and Mallister, houses who had never been ruled from Winterfell, yet Catelyn watched them rise and draw their blades, bending their knees and shouting the old words that had not been heard in the realm for more than three hundred years, since Aegon the Dragon had come to make the Seven Kingdoms one
+>
+> — sources/chapters/agot/agot-catelyn-11.md:215 · Maege Mormont and the river lords rising to acclaim Robb King in the North, from Catelyn's POV — a distinct beat from the Greatjon's "There sits the only king..." line quoted below, part of the same coronation scene.  _(capture: harvest pass, quote)_
+
 > No sword is strong until it's been tempered. The Stark boy is a child. No doubt he likes the sound of warhorns well enough, and the sight of his banners fluttering in the wind, but in the end it comes down to butcher's work. I doubt he has the stomach for it.(wiki:Robb_Stark.cite_ref-Ragot56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)
 >
 > —[Tywin Lannister](wiki:Tywin_Lannister) to [Kevan Lannister](wiki:Kevan_Lannister)
