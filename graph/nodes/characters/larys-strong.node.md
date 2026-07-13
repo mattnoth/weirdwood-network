@@ -73,6 +73,12 @@ When I am dead, hack off my clubfoot with [that great sword](wiki:Ice) of yours.
 > It was Lord Larys Strong the Clubfoot, who spirited the king and his children out of the city when the queen’s dragons first appeared in the skies above King’s Landing. So as not to pass through any of the city gates, where they might be seen and remembered, Lord Larys led them out through some secret passage of Maegor the Cruel, of which only he had knowledge.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-rhaenyra-overthrown-18-p02.md:219`)
 
+> “Give him his betrothal, Your Grace,” he urged the king. “A betrothal is not a wedding.
+> —Larys Strong to Aegon II, F&B (`sources/chapters/fab/fab-short-sad-reign-of-aegon-ii-19.md:171`)
+
+> Next (and last) to die was Lord Larys Strong. When asked if he wished to take the black, he said, “No, my lord. I'll be going to a warmer helll, if it please you...but | do have one last request. When | am dead, hack off my clubfoot with that great sword of yours. | have dragged it with me all through life, let me be free of it in death at least.” This boon Lord Stark granted him.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-hour-of-the-wolf-20.md:275`)
+
 A man who gathers [whispers](wiki:Master_of_whisperers) can spread them just as well.(wiki:Larys_Strong.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
 Was there ever a man as devious as the Clubfoot? Oh, he would have made a splendid [fool](wiki:Fool), that one. The words dripped from his lips like honey from a comb, and never did [poison](wiki:Poison) taste so sweet.(wiki:Larys_Strong.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
 The enigma that is Larys Strong the Clubfoot has vexed students of history for generations, and is not one we can hope to unravel here. Where did his true loyalty lie? What was he about?(wiki:Larys_Strong.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-7)

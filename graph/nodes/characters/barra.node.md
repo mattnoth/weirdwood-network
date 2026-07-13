@@ -50,3 +50,7 @@ Barra and her mother are killed by [Allar Deem](wiki:Allar_Deem), an officer of 
 > **Varys**: There was another [bastard](wiki:Bastard), [a boy](wiki:Gendry), older. I took steps to see him removed from harm's way ... but I confess, I never dreamed the babe would be at risk. A baseborn girl, less than a year old, with a whore for [a mother](wiki:Barra's_mother), what threat could she pose? **Tyrion**: She was [Robert's](wiki:Robert_I_Baratheon). That was enough for [Cersei](wiki:Cersei_Lannister), it would seem.(wiki:Barra.cite_ref-Racok8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
 >
 > —[Varys](wiki:Varys) and [Tyrion Lannister](wiki:Tyrion_Lannister)
+
+> And tell him I've not been with no one else. I swear it, milord, by the old gods and new.
+>
+> —Barra's mother to Eddard Stark, AGOT (`sources/chapters/agot/agot-eddard-09.md:41`)

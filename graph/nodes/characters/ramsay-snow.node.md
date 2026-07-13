@@ -142,6 +142,10 @@ At the crofters' village, a fearful [Theon Greyjoy](wiki:Theon_Greyjoy) tells Ki
 >
 > —[Roose Bolton](wiki:Roose_Bolton) and Ramsay
 
+> You must be starved. Damon, Alyn, see to them. Wine and ale, and all the food that they can eat. Skinner, show their wounded to our maesters.
+>
+> —Ramsay Bolton, false-mercy welcome to the surrendered Moat Cailin garrison (all but Reek were flayed that night), ADWD (`sources/chapters/adwd/adwd-reek-02.md:183`)
+
 ### Quotes about Ramsay
 
 > Tainted blood is ever treacherous, and Ramsay's nature was sly, greedy, and cruel. I count myself well rid of him. The trueborn sons my young wife has promised me would never have been safe while he lived.
@@ -173,3 +177,7 @@ At the crofters' village, a fearful [Theon Greyjoy](wiki:Theon_Greyjoy) tells Ki
 > **Theon**: Never call him that! Ramsay Bolton, not Ramsay Snow, never [Snow](wiki:Bastardy), never, you have to remember his name, or he will hurt you.
 >
 > —[Stannis Baratheon](wiki:Stannis_Baratheon) and [Theon Greyjoy](wiki:Theon_Greyjoy)
+
+> His mantle was stitched together from wolfskins and clasped against the autumn chill by the yellowed teeth of the wolf's head on his right shoulder. On one hip he wore a falchion, its blade as thick and heavy as a cleaver; on the other a long dagger and a small curved flaying knife with a hooked point and a razor-sharp edge.
+>
+> —description of Ramsay at Barrow Hall, ADWD (`sources/chapters/adwd/adwd-reek-03.md:21`)

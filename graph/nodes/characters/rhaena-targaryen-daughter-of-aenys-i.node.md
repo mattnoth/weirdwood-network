@@ -115,9 +115,13 @@ Rhaena had an exquisite singing voice. At eighteen, Rhaena was considered brave,
 >
 > —Rhaena, to the [Poor Fellows](wiki:Poor_Fellows)
 
-> I do not have time for tears.(wiki:Rhaena_Targaryen_(daughter_of_Aenys_I).cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-28)
+> I do not have the time for tears.
 >
-> —Rhaena, after hearing of the death of her husband [Aegon](wiki:Aegon_Targaryen_(son_of_Aenys_I)) in the [Battle Beneath the Gods Eye](wiki:Battle_Beneath_the_Gods_Eye)
+> —Rhaena, after hearing of the death of her husband [Aegon](wiki:Aegon_Targaryen_(son_of_Aenys_I)) in the [Battle Beneath the Gods Eye](wiki:Battle_Beneath_the_Gods_Eye) — F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p03.md:65`)
+
+> I would gladly give up my own life to make you king, but | will not put our girls at risk.
+>
+> —Rhaena, begging Aegon to flee across the narrow sea with their daughters — F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p02.md:173`)
 
 > **Jaehaerys:** Should the [dragons](wiki:Dragon) turn up, anywhere from [here](wiki:King's_Landing) to [Yi Ti](wiki:Yi_Ti), we will demand their return. They were stolen from us, they are ours by right. If that demand should be denied, then we must needs go and get them. Take them back if we can, kill them if not. No hatchlings can hope to stand against [Vermithor](wiki:Vermithor) and [Dreamfyre](wiki:Dreamfyre).
 >

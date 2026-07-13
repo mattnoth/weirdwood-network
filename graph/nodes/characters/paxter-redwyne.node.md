@@ -67,3 +67,9 @@ Lord Redwyne is sent to command Tommen's forces at the [siege of Dragonstone](wi
 ### A Dance with Dragons
 
 After the arrest of Queen Cersei by the [High Sparrow](wiki:High_Sparrow), Lord Paxter is given a seat at the small council and made [master of ships](wiki:Master_of_ships) and [lord admiral](wiki:Lord_admiral) by Ser [Kevan Lannister](wiki:Kevan_Lannister), the new [Lord Regent](wiki:Regent).(wiki:Paxter_Redwyne.cite_ref-Radwd54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0) Paxter and his Redwyne fleet are last reported as passing [Dorne](wiki:Dorne) during their voyage back to the Arbor.(wiki:Paxter_Redwyne.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-0)
+
+## Quotes
+
+> Paxter Redwyne owned two hundred warships, and five times as many merchant carracks, wine cogs, trading galleys, and whalers.
+>
+> —Cersei Lannister's thoughts, AFFC (`sources/chapters/affc/affc-cersei-07.md:79`)

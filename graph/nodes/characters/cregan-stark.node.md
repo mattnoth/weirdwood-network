@@ -118,6 +118,14 @@ While in the [crypt of Winterfell](wiki:Crypt_of_Winterfell), [Bran Stark](wiki:
 >
 > —Cregan to [Gyles Belgrave](wiki:Gyles_Belgrave)
 
+> “Is that why you poisoned him, my lord?” asked the Lord of Winterfell.
+>
+> —Cregan to Corlys Velaryon, F&B (`sources/chapters/fab/fab-hour-of-the-wolf-20.md:93`)
+
+> “Small wonder you are called the Sea Snake,” Lord Stark went on. “You may slither this way and that way but, oh, your fangs are venomous.”
+>
+> —Cregan to Corlys Velaryon, F&B (`sources/chapters/fab/fab-hour-of-the-wolf-20.md:95`)
+
 ### Quotes about Cregan
 
 > Whenever the Wolf of the North stalked into a room, [Bloody Ben](wiki:Benjicot_Blackwood) would recall that he was but three-and-ten, whilst [Lord Tully](wiki:Kermit_Tully) and [his brother](wiki:Oscar_Tully) blustered and stammered and flushed as red as their hair.(wiki:Cregan_Stark.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-17)

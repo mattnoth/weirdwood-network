@@ -180,6 +180,10 @@ The Yunkish threat in the [second siege of Meereen](wiki:Second_siege_of_Meereen
 >
 > —Barristan addressing his men in the [second siege of Meereen](wiki:Second_siege_of_Meereen)
 
+> She died never knowing that Ser Barristan had loved her.
+>
+> —thoughts of Barristan, recalling Ashara Dayne, ADWD The Kingbreaker (`sources/chapters/adwd/adwd-the-kingbreaker-01.md:155`)
+
 > "No ruler can make a people good," Selmy had told her. "Baelor the Blessed prayed and fasted and built the Seven as splendid a temple as any gods could wish for, yet he could not put an end to war and want."
 >
 > —Barristan to [Daenerys Targaryen](wiki:Daenerys_Targaryen), recalled in her thoughts before the wedding to Hizdahr (book cite: `sources/chapters/adwd/adwd-daenerys-06.md:143`)
@@ -229,3 +233,7 @@ The Yunkish threat in the [second siege of Meereen](wiki:Second_siege_of_Meereen
 > [Queen's Hand](wiki:Hand_of_the_King). An old woman's hand, I am thinking, wrinkled and feeble.(wiki:Barristan_Selmy.cite_ref-Radwd70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-6)
 >
 > —[Skahaz mo Kandaq](wiki:Skahaz_mo_Kandaq) to Barristan
+
+> And Barristan the Bold twice donned a mystery knight's armor, the first time when he was only ten.
+>
+> —Bran Stark's thoughts, recalling Meera Reed's Harrenhal tale, ASOS (`sources/chapters/asos/asos-bran-02.md:215`)

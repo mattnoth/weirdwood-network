@@ -100,6 +100,10 @@ Tommen chooses the name *[Lady Olenna](wiki:Lady_Olenna)* for one of the [new dr
 
 — Olenna at the Purple Wedding feast, adjusting Sansa's hairnet — the moment the Strangler crystal was lifted from the net, ASOS Tyrion VIII, `sources/chapters/asos/asos-tyrion-08.md:101`
 
+> “That old thing?” the crone had said. “It looks a bit threadbare to me . . . and dare I say, unlucky?”
+>
+> —Olenna to Cersei Lannister, at Tommen and Margaery's wedding, AFFC (`sources/chapters/affc/affc-cersei-03.md:95`)
+
 ### Quotes about Olenna
 
 > **Sansa**: The Queen of Thorns, she's called. Isn't that right? **Loras**: It is. You'd best not use that name in her presence, though, or you're like to get pricked.(wiki:Olenna_Tyrell.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-23)

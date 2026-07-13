@@ -93,6 +93,10 @@ Queen [Selyse Florent](wiki:Selyse_Florent) feasts Salladhor at Eastwatch.(wiki:
 > Meizo Mahr, be a good eunuch and take my friend Davos to the owner’s cabin. Fetch him some hot wine with cloves, I am misliking the sound of that cough. Squeeze some lime in it as well. And bring white cheese and a bowl of those cracked green olives we counted earlier!
 > —Salladhor Saan, welcoming the cough-stricken Davos aboard the *Bountiful Harvest* with shipboard hospitality — hot wine with cloves and lime, white cheese, cracked green olives, ASOS Davos II (`sources/chapters/asos/asos-davos-02.md:49`)
 
+> “I cut off no man’s fingers, though. What good are bits of fingers?”
+>
+> —Salladhor to Davos Seaworth, ASOS (`sources/chapters/asos/asos-davos-02.md:65`)
+
 ### Quotes about Salladhor
 
 > The Lyseni was a sleek, smiling man whose flamboyance was a byword on both sides of the narrow sea.

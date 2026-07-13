@@ -1,6 +1,7 @@
-# SESSION 215 — Theories staging review: validate the R+L=J cluster, settle the schema, then next builds
+# SESSION 216 — Theories staging review: validate the R+L=J cluster, settle the schema, then next builds
 
-> **This is Session 215.** Stamp your worklog entry `### Session 215` at endsession.
+> **This is Session 216.** Stamp your worklog entry `### Session 216` at endsession.
+> (Renumbered from 215 at S215 endsession — the harvest-drain session took S215; theories is the next session.)
 > **Recommended model:** **Fable orchestrator** (schema/integration adjudication with Matt) +
 > Sonnet proposers + Haiku fresh-verifiers for any new builds.
 > **PRE-REQ:** S214 committed+pushed. If git log disagrees with worklog.md S214, STOP and reconcile.

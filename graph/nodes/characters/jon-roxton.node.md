@@ -44,6 +44,9 @@ We kill [the bastards](wiki:Two_Betrayers) now. Afterward, let the bravest of us
 Jon: Lord Hammer, my condolences.
 Hugh: For what?
 
+> the beautiful Lady Sharis Footly, the wife of the Lord of Tumbleton, and claimed her as a “prize of war.” When her lord husband protested, Ser Jon cut him nigh in two with OrphanMaker, saying, “She can make widows too,” as he tore the gown from the weeping Lady Sharis.
+> — Gyldayn's chronicle, on Bold Jon Roxton, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p04.md:151`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-red-dragon-and-the-gold-17-p04-2026-07-09 -->

@@ -101,6 +101,10 @@ Queen Alicent had soon proved to be as fertile as she was pretty.(wiki:Alicent_H
 The [boy](wiki:Aegon_II_Targaryen) is Alicent's [own blood](wiki:House_Hightower). She wants him on the [throne](wiki:Iron_Throne).(wiki:Alicent_Hightower.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-21)
 And so each of [the conspirators](wiki:Green_council) slashed their palms and clasped hands with one another, swearing brotherhood. Queen Alicent alone amongst them was excused from the oath, on account of her womanhood.(wiki:Alicent_Hightower.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-4)
 
+> “The city is yours, Princess,” she is reported to have said, “but you will not hold it long. The rats play when the cat is gone, but my son Aemond will return with fire and blood.”
+>
+> —Alicent Hightower, surrendering King's Landing to Rhaenyra, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p02.md:137`)
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-heirs-of-the-dragon-15-p01-2026-07-07 -->

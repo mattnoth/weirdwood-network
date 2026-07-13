@@ -99,3 +99,7 @@ Ramsay, Lord of the Hornwood, weds "[Arya Stark](wiki:Arya_Stark)" (actually [Je
 > And do you imagine the Hornwood men have forgotten the Bastard's last marriage, and how his lady wife was left to starve, chewing her own fingers? What do you think passes through their heads when they hear the new bride weeping?
 >
 > —Barbrey Dustin to Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-the-turncloak-01.md:165`)
+
+> Roose Bolton's bastard had started it by seizing Lady Hornwood as she returned from the harvest feast, marrying her that very night even though he was young enough to be her son.
+>
+> —Bran Stark's thoughts, recounting Ser Rodrik's errand, ACOK (`sources/chapters/acok/acok-bran-04.md:49`)

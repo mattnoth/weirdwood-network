@@ -240,6 +240,10 @@ When [Victarion Greyjoy](wiki:Victarion_Greyjoy) and the [Iron Fleet](wiki:Iron_
 >
 > —Catelyn Stark's thoughts, ASOS (`sources/chapters/asos/asos-catelyn-05.md:61`)
 
+> You are blood of my blood, Theon, whatever else you may be. For the sake of the mother who bore us both, return to Deepwood Motte with me.
+>
+> —Asha Greyjoy to Theon, ACOK (`sources/chapters/acok/acok-theon-05.md:105`)
+
 > They can't be dead. Theon would never do that.
 >
 > —Jon Snow's thoughts, after hearing of the murder of Bran and Rickon Stark, ASOS (`sources/chapters/asos/asos-jon-06.md:189`)

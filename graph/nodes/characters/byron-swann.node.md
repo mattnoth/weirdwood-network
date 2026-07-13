@@ -42,6 +42,9 @@ During their voyage on the [Rhoyne](wiki:Rhoyne), [Tyrion Lannister](wiki:Tyrion
 
 ## Quotes
 
+> Legend has it that during the Age of Heroes, Serwyn of the Mirror Shield slew the dragon Urrax by crouching behind a shield so polished that the beast saw only his own reflection.
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:143`)
+
 > But here confusion arises, for Munkun says it was Vhagar that Swann meant to kill, to put an end to Prince Aemond’s raids...but it must be remembered that Munkun draws largely on Grand Maester Orwyle for his version of events, and Orwyle was in the dungeons when these things occurred.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:147`)
 

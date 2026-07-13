@@ -13,3 +13,7 @@ The Two Betrayers were Hugh Hammer (rider of Vermithor) and Ulf the White, also 
 
 ## Edges
 
+## Quotes
+
+> “We are knights now, truly,” Hard Hugh declared. And Ulf laughed and said, “Fie on that. We should be lords.”
+> — Gyldayn's chronicle, on Hugh Hammer and Ulf White drinking on Dragonstone after the Battle of the Gullet, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p02.md:51`)

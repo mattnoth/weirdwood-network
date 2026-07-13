@@ -159,6 +159,10 @@ Although the [stormlands](wiki:Stormlands) are [under attack by the Golden Compa
 >
 > —thoughts of Cersei Lannister, AFFC (`sources/chapters/affc/affc-cersei-03.md:151`)
 
+> The bride was fair and gay and beautiful, the groom still baby-faced and plump.
+>
+> —thoughts of Cersei Lannister, at Margaery's wedding to Tommen, AFFC (`sources/chapters/affc/affc-cersei-03.md:91`)
+
 ## Edges
 
 - SWORN_TO: House Tyrell (cite: track_b: Allegiances)

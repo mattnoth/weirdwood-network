@@ -124,6 +124,9 @@ Rhaenyra always dressed richly, favoring purple and maroon velvets and golden [M
 >
 > —Rhaenyra and [Aegon II Targaryen](wiki:Aegon_II_Targaryen) in the writings of [Gyldayn](wiki:Gyldayn)
 
+> “She is a common thing, with the stink of sorcery upon her,” the queen declared. “My prince would ne’er lay with such a low creature.”
+> — Rhaenyra Targaryen, on Nettles, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p04.md:107`)
+
 ### Quotes about Rhaenyra
 
 > I offered her an honorable peace, and the whore spat in my face. [What happens now](wiki:Dance_of_the_Dragons) is on her own head.(wiki:Rhaenyra_Targaryen.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-15)

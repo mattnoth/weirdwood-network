@@ -112,3 +112,7 @@ In [157 AC](wiki:Years_after_Aegon's_Conquest), King [Daeron I Targaryen](wiki:
 > Yet despite a reign covered in glory, the First Dornish War stood out as [Aegon's](wiki:Aegon_I_Targaryen) one great defeat.(wiki:First_Dornish_War.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 >
 > —writings of [Yandel](wiki:Yandel)
+
+> It was said that the Dornish lords had a wager over who could keep their captive alive the longest whilst dismembering them.
+>
+> —writings of Gyldayn, F&B (`sources/chapters/fab/fab-reign-of-the-dragon-04.md:85`)

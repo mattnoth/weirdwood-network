@@ -46,3 +46,8 @@ Lord [Lorent Caswell](wiki:Lorent_Caswell) is a wispy, young man. He follows his
 ### A Feast for Crows[ ]
 
 While searching for [Sansa Stark](wiki:Sansa_Stark), [Brienne of Tarth](wiki:Brienne_of_Tarth) encounters two guards at the gates of [Maidenpool](wiki:Maidenpool) wearing the livery of House Caswell. This indicates House Caswell followed their liegelords of [House Tyrell](wiki:House_Tyrell) in declaring for King [Joffrey](wiki:Joffrey).(wiki:House_Caswell.cite_ref-Raffc14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+
+## Quotes
+
+> All we know for certain is that by the time Lady Caswell and her knights appeared to chase off the mob, the prince was dead. Her ladyship went pale at the sight of him, Mushroom tells us, saying, “The gods will curse us all for this.”
+> — Gyldayn's chronicle, on the widowed Lady Caswell at the death of Prince Maelor Targaryen in Bitterbridge, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p03.md:83`)

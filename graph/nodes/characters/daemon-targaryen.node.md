@@ -159,6 +159,9 @@ While Commander of the [City Watch of King's Landing](wiki:City_Watch_of_King's_
 
 ### Quotes about Daemon
 
+> No word of farewell was spoken betwixt man and maid, but as Sheepstealer beat his leathery brown wings and climbed into the dawn sky, Caraxes raised his head and gave a scream that shattered every window in Jonquil’s Tower.
+> — Gyldayn's chronicle, on Daemon and Nettles's parting at Maidenpool, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p04.md:205`)
+
 > Over the centuries, [House Targaryen](wiki:House_Targaryen) has produced both great men and monsters. Prince Daemon was both. In his day there was not a man so admired, so beloved, and so reviled in all Westeros. He was made of light and darkness in equal parts. To some he was a hero, to others the blackest of villains.(wiki:Daemon_Targaryen.cite_ref-Rtrp.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 >
 > —writings of [Gyldayn](wiki:Gyldayn)

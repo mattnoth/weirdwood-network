@@ -32,6 +32,10 @@ Prince Jacaerys Velaryon's call for any commoner or dragonseed who could master 
 >
 > — chronicle of Archmaester Gyldayn (casualty roll of the Sowing), F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:219`)
 
+> A man called Silver Denys, whose hair and eyes lent credence to his claim to be descended from a bastard son of Maegor the Cruel, had an arm torn off by Sheepstealer.
+>
+> — chronicle of Archmaester Gyldayn (casualty roll of the Sowing), F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:219`)
+
 > it ends with Mushroom running across the ward of Dragonstone with the seat of his pantaloons on fire, and nigh drowning when he leapt into a well to quench the flames.
 >
 > — Mushroom's Testimony, via Gyldayn, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:215`)

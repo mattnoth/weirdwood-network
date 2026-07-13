@@ -173,6 +173,14 @@ To find a means of meeting her betrothed, Alayne suggests that a personal guard 
 
 — Sansa singing under Sandor's knife, ACOK Sansa VII (`sources/chapters/acok/acok-sansa-07.md:109`)
 
+> Oh, look what they did, look what they did. My poor prince. Don't be afraid. I'll ride to the holdfast and bring help for you.
+>
+> —Sansa to the wounded Joffrey, after the Trident, AGOT Sansa I (`sources/chapters/agot/agot-sansa-01.md:239`)
+
+> And don't touch me.
+>
+> —Joffrey's rebuff to Sansa, after the Trident, AGOT Sansa I (`sources/chapters/agot/agot-sansa-01.md:241`)
+
 > **Petyr**: Can you be my daughter in your heart?
 >
 > **Sansa**: I ... I am Alayne, Father. Who else would I be?

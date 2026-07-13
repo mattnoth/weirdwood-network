@@ -42,6 +42,11 @@ Sigil: A tripartite pale, blue, red, and green on white (wiki:House_Strong). Ser
 
 Lord Lyonel Strong served Viserys I as master of laws and later Hand of the King (wiki:House_Strong). His son Ser Harwin "Breakbones" Strong was widely rumored to have fathered Rhaenyra Targaryen's three eldest sons. Both Lyonel and Harwin died in a fire at Harrenhal — foul play was suspected, with Larys Strong, Lyonel's younger son, believed responsible (wiki:House_Strong). Larys "Clubfoot" Strong served as master of whisperers during the Dance of the Dragons, playing both sides before being executed (wiki:House_Strong). The house went extinct with Larys's death.
 
+## Quotes
+
+> Thus did the flower of House Strong, an ancient line of noble warriors boasting descent from the First Men, come to an ignoble end in the ward at Harrenhal. No trueborn Strong was spared, nor any bastard save... oddly...Alys Rivers.
+> — Gyldayn's chronicle, on Aemond Targaryen's massacre of House Strong at Harrenhal, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p02.md:185`)
+
 ## Edges
 
 - SEAT_OF (reverse): Harrenhal (track_b: Seat)

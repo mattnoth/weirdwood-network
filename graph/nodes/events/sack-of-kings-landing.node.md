@@ -101,3 +101,7 @@ The deaths of [Elia Martell](wiki:Elia_Martell) and her children infuriated [Hou
 > [Justice](wiki:Laws_and_justice_of_the_Seven_Kingdoms) is in short supply this side of [the mountains](wiki:Red_Mountains). There has been none for [Elia](wiki:Elia_Martell), [Aegon](wiki:Aegon_Targaryen_(son_of_Rhaegar)), or [Rhaenys](wiki:Rhaenys_Targaryen_(daughter_of_Rhaegar)).(wiki:Sack_of_King's_Landing.cite_ref-Rasos66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-1)
 >
 > —[Oberyn Martell](wiki:Oberyn_Martell) to [Tyrion Lannister](wiki:Tyrion_Lannister)
+
+> It was said that Rhaegar's little girl had cried as they dragged her from beneath her bed to face the swords. The boy had been no more than a babe in arms, yet Lord Tywin's soldiers had torn him from his mother's breast and dashed his head against a wall.
+>
+> —Eddard Stark's thoughts, AGOT (`sources/chapters/agot/agot-eddard-02.md:73`)

@@ -24,3 +24,6 @@ The corpse of King Aegon II was consigned to the flames, in the hopes that all t
 
 > Inside, as always, was a flagon of sweet Arbor red, Aegon's favorite wine.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-short-sad-reign-of-aegon-ii-19.md:271`)
+
+> Ser Gyles Belgrave threw back the curtains, and found the king dead upon his cushions. “There was blood upon his lips,” the knight said. “Elsewise he might have been sleeping.”
+> — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-short-sad-reign-of-aegon-ii-19.md:275`)
