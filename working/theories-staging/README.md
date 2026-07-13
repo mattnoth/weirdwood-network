@@ -1,8 +1,9 @@
-# Theories staging — deferred track
+# Theories staging — SUPERSEDED (gate opened 2026-07-12, S213)
 
-> **STATUS: DEFERRED / GATED. Do NOT start this unprompted.**
-> **TRIGGER: Matt says "let's start theories" (or equivalent) in a session.** Until then, this folder is
-> a parking lot — orchestrators read this README, note it exists, and move on. It is NOT the active track.
+> **STATUS: the gate OPENED — Matt greenlit theories on 2026-07-12 (S213).**
+> **The ACTIVE workspace is `working/theories/`** (video-transcript-first pipeline, Alt Shift X
+> wave 1). This folder stays as the design record + the eldritch-apocalypse seed; the gating
+> rationale below is historical.
 
 ## What this is
 
