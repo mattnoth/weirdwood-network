@@ -1,0 +1,62 @@
+{
+  "_meta": {
+    "unit": "Theories wave-1 A+J=T cluster",
+    "session": "S216",
+    "run_id": "ajt-cluster-theories-s216",
+    "new_node_slugs": [
+      "a-plus-j-equals-t"
+    ],
+    "typed_by": "curator-theories-wave1-s216",
+    "note": "A+J=T (Tyrion Targaryen) cluster: mint a-plus-j-equals-t (concept.theory). Source: ASX video eqVhKOxmJCw (Tyrion Targaryen: is Tyrion the Mad King's son?). All quotes byte-verified against sources/chapters/*.md at cited lines. Barristan's 'wanted'/kitchen-gossip framing (beats ajt-B01/B04) held out as premise prose per the no-edges-from-self-hedged-rumors rule; only the unhedged wedding-night 'liberties' clause from the same passage is edged (A1). S216 adjudication: A2 DROPPED to premise prose (Tywin's cruelty fits every reading — consistent-with, not evidence-for; T8/B8 precedent); A1 context note appended."
+  },
+  "edges": [
+    {
+      "id": "A1",
+      "type": "SUPPORTS",
+      "source": "barristan-selmy",
+      "target": "a-plus-j-equals-t",
+      "book": "adwd",
+      "chapter": "adwd-daenerys-07",
+      "quote": "Tywin Lannister was not a man to forget such words, or the … the liberties your father took during the bedding.",
+      "tier": "tier-4",
+      "note": "Barristan's account to Dany of Aerys's wedding-night behavior toward Joanna Lannister at her wedding to Tywin — the theory's central circumstantial basis. Secondhand court knowledge from a Kingsguard; tier-4 because the same passage opens with Barristan calling the broader 'wanted' framing 'kitchen gossip' (held out as prose, not edged), and this specific clause is not itself re-hedged. S216 fresh-verify adjudication: kept tier-4 with context acknowledged — the surrounding passage is hedge-saturated (Barristan's own 'kitchen gossip' framing, immediate regret), but the liberties clause itself is Barristan's direct careful assertion, not the gossip layer.",
+      "verify": true
+    },
+    {
+      "id": "A3",
+      "type": "SUPPORTS",
+      "source": "tywin-lannister",
+      "target": "a-plus-j-equals-t",
+      "book": "asos",
+      "chapter": "asos-tyrion-11",
+      "quote": "You . . . you are no . . . no son of mine.",
+      "tier": "tier-4",
+      "note": "Tywin's dying words to Tyrion, read plainly, deny paternity. Tier-4 (not tier-3) because the context is at least as consistent with a dying insult as a literal genealogical claim — Tyrion's own reply ('I believe I'm you writ small') reasserts resemblance rather than denying kinship.",
+      "verify": true
+    },
+    {
+      "id": "A4",
+      "type": "CONTRADICTS",
+      "source": "genna-lannister",
+      "target": "a-plus-j-equals-t",
+      "book": "affc",
+      "chapter": "affc-jaime-05",
+      "quote": "but Tyrion is Tywin’s son, not you.",
+      "tier": "tier-3",
+      "note": "Genna's plain, unhedged statement to Jaime that Tyrion is Tywin's biological son. Stronger and less caveated than the SUPPORTS edges, hence tier-3. The video reframes this as Genna recognizing Tyrion's Tywin-like temperament rather than literal proof of paternity, but the line itself is a flat paternity claim from someone with no evident reason to lie.",
+      "verify": true
+    },
+    {
+      "id": "A5",
+      "type": "CONTRADICTS",
+      "source": "tywin-lannister",
+      "target": "a-plus-j-equals-t",
+      "book": "affc",
+      "chapter": "affc-cersei-01",
+      "quote": "That was how Lord Tywin Lannister dealt with whores.",
+      "tier": "tier-4",
+      "note": "Cersei's memory of young Tywin publicly humiliating his own father Tytos's mistress, mirrored decades later when Tyrion finds Shae wearing Tywin's Hand-of-the-King jewels in Tywin's bed. Supplies a generational, parentage-free explanation for Tywin's severity toward women and the men associated with them, undercutting the theory's need for a secret-Targaryen-parentage motive. Indirect/alternate-explanation edge, hence tier-4.",
+      "verify": true
+    }
+  ]
+}

@@ -90,6 +90,10 @@ As tensions arise in snow-bound Winterfell, Barbrey and her brother, Ser [Roger 
 >
 > —Barbrey and [Roger Ryswell](wiki:Roger_Ryswell) to [Aenys Frey](wiki:Aenys_Frey)
 
+> “Dressing her in grey and white serves no good if the girl is left to sob. The Freys may not care, but the northmen … they fear the Dreadfort, but they love the Starks.”
+
+— Barbrey to Theon Greyjoy, on the northmen's true loyalty during Ramsay's wedding, ADWD The Turncloak I (`sources/chapters/adwd/adwd-the-turncloak-01.md:161`)
+
 ### Quotes about Barbrey
 
 > **Roose**: Lady Barbrey is a woman who knows how to nurse a grievance. Be grateful for that. [Barrowton](wiki:Barrowton) is staunch for Bolton largely because she still holds [Ned Stark](wiki:Eddard_Stark) to blame for [her husband's](wiki:Willam_Dustin) death. **Ramsay**: Staunch? All she does is spit on me. The day will come when I'll set her precious wooden town afire. Let her spit on that, see if it puts out the flames.(wiki:Barbrey_Dustin.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-15)

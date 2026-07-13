@@ -1,0 +1,110 @@
+{
+  "_meta": {
+    "unit": "Theories wave-1 eldritch-apocalypse cluster",
+    "session": "S216",
+    "run_id": "eldritch-cluster-theories-s216",
+    "new_node_slugs": [
+      "eldritch-apocalypse"
+    ],
+    "typed_by": "curator-theories-wave1-s216",
+    "note": "Eldritch Apocalypse cluster: mint eldritch-apocalypse (concept.theory). Source: ASX video sbX_ak0N1EI ('Euron Greyjoy's apocalypse in the Game of Thrones books'). All quotes byte-verified against sources/chapters/*.md at cited lines. Video is structurally single-direction theory-building (per its own extraction note); no CONTRADICTS edge was found groundable to an independent character's textual objection distinct from Euron's own claims, so all edges below are SUPPORTS. The theory's densest evidentiary material (the unpublished TWOW 'Forsaken' sample chapter) is outside the 5-book corpus and could not be grounded to any edge; see the node's Ungrounded material section. S216 adjudication: E6 DROPPED (Victarion repudiates the vision in the same chapter — a SUPPORTS cannot ride a rejected vision; kept as body prose WITH the rejection quoted), E10 DROPPED to prose (speaker self-hedges 'Or not' — rumor-grade), E11 DROPPED (single-word association to TWOIAF-fenced material the cluster itself excludes), E1 retiered tier-4/scoped."
+  },
+  "edges": [
+    {
+      "id": "E1",
+      "type": "SUPPORTS",
+      "source": "euron-greyjoy",
+      "target": "eldritch-apocalypse",
+      "book": "affc",
+      "chapter": "affc-the-iron-captain-01",
+      "quote": "Godless? Why, Aeron, I am the godliest man ever to raise sail! You serve one god, Damphair, but I have served ten thousand. From Ib to Asshai, when men see my sails, they pray.",
+      "tier": "tier-4",
+      "note": "Euron's direct, on-page self-mythologizing as godlike and beyond ordinary morality — the theory's foundational premise for reading him as the eldritch-apocalypse's herald. S216 fresh-verify adjudication: tier-3->tier-4 + scoped — the quote directly evidences the self-mythologized-godhood sub-claim; support for the full apocalypse arc is one interpretive step beyond it.",
+      "verify": true
+    },
+    {
+      "id": "E2",
+      "type": "SUPPORTS",
+      "source": "dragonbinder",
+      "target": "eldritch-apocalypse",
+      "book": "affc",
+      "chapter": "affc-the-drowned-man-01",
+      "quote": "That horn you heard I found amongst the smoking ruins that were Valyria, where no man has dared to walk but me. You heard its call, and felt its power. It is a dragon horn, bound with bands of red gold and Valyrian steel graven with enchantments. The dragonlords of old sounded such horns, before the Doom devoured them. With this horn, ironmen, I can bind dragons to my will.",
+      "tier": "tier-3",
+      "note": "Direct textual claim of a genuine magical artifact recovered from Valyria — the theory's clearest evidence Euron possesses real supernatural power, not just showmanship.",
+      "verify": true
+    },
+    {
+      "id": "E3",
+      "type": "SUPPORTS",
+      "source": "silence",
+      "target": "eldritch-apocalypse",
+      "book": "affc",
+      "chapter": "affc-the-iron-captain-01",
+      "quote": "A windblown mane of black iron hair streamed from her head, and her eyes were mother-of-pearl, but she had no mouth.",
+      "tier": "tier-4",
+      "note": "Euron's flagship is built to be deliberately uncanny (mute crew, mouthless figurehead) — atmospheric/thematic support for the theory's 'silence' motif, not a direct apocalypse-mechanism beat. S216 adjudication: symbolic/atmospheric register only — kept at tier-4 per the per-edge-variance convention.",
+      "verify": true
+    },
+    {
+      "id": "E4",
+      "type": "SUPPORTS",
+      "source": "moqorro",
+      "target": "eldritch-apocalypse",
+      "book": "adwd",
+      "chapter": "adwd-tyrion-08",
+      "quote": "One most of all. A tall and twisted thing with one black eye and ten long arms, sailing on a sea of blood.",
+      "tier": "tier-3",
+      "note": "The theory's single strongest published-book textual anchor for the literal-monster reading: an independent prophetic vision (not drawn from the unpublished 'Forsaken' chapter) of Euron transfigured into a tentacled, inhuman being.",
+      "verify": true
+    },
+    {
+      "id": "E5",
+      "type": "SUPPORTS",
+      "source": "melisandre",
+      "target": "eldritch-apocalypse",
+      "book": "adwd",
+      "chapter": "adwd-melisandre-01",
+      "quote": "I saw towers by the sea, submerged beneath a black and bloody tide. That is where the heaviest blow will fall.",
+      "tier": "tier-4",
+      "note": "A second independent prophetic vision the theory reads as Oldtown/the Hightower under threat; the line itself never names the location, so the Oldtown identification is a theory-side inference. S216 adjudication: kept tier-4 per the T6 (HotU blue flower) precedent — a real published prophetic vision carrying one theory-side location inference (Oldtown is never named).",
+      "verify": true
+    },
+    {
+      "id": "E7",
+      "type": "SUPPORTS",
+      "source": "rodrik-harlaw",
+      "target": "eldritch-apocalypse",
+      "book": "affc",
+      "chapter": "affc-the-krakens-daughter-01",
+      "quote": "history is a wheel, for the nature of man is fundamentally unchanging. What has happened before will perforce happen again, he said. I think of that whenever I contemplate the Crow’s Eye. Euron Greyjoy sounds queerly like Urron Greyiron to these old ears.",
+      "tier": "tier-4",
+      "note": "Rodrik Harlaw explicitly frames Euron as cyclical historical repetition — the theory's textual anchor for its 'Euron repeats an ancient tyrant' structure, though the line names a historical Greyjoy (Urron Greyiron), not the Bloodstone Emperor; the Bloodstone Emperor leg of the parallel is TWOIAF-only (see node Ungrounded material). S216 adjudication: scoped to the cyclical-history sub-claim — the text names Urron Greyiron, not the Bloodstone Emperor; the Bloodstone leg stays fenced as TWOIAF material.",
+      "verify": true
+    },
+    {
+      "id": "E8",
+      "type": "SUPPORTS",
+      "source": "horn-of-winter",
+      "target": "eldritch-apocalypse",
+      "book": "adwd",
+      "chapter": "adwd-jon-12",
+      "quote": "But we never found the true horn, not for all our digging.",
+      "tier": "tier-3",
+      "note": "Confirms Mance's claimed Horn of Winter was a fake and the true horn was never found — keeps the legend's real object unresolved and, per the theory, still in play as Euron's target.",
+      "verify": true
+    },
+    {
+      "id": "E9",
+      "type": "SUPPORTS",
+      "source": "oldtown",
+      "target": "eldritch-apocalypse",
+      "book": "affc",
+      "chapter": "affc-cersei-08",
+      "quote": "And now there were reports that this madman who called himself Euron Crow’s Eye was even sending longships up Whispering Sound toward Oldtown.",
+      "tier": "tier-3",
+      "note": "Direct, unambiguous textual confirmation that Euron's raiding has turned toward Oldtown specifically, independent of any vision or symbolism.",
+      "verify": true
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "unit": "Theories wave-1 Patchface cluster",
+    "session": "S216",
+    "run_id": "patchface-cluster-theories-s216",
+    "new_node_slugs": [],
+    "typed_by": "curator-theories-wave1-s216",
+    "note": "Patchface cluster: pure enrich of the existing dark stub graph/nodes/theories/patchface-theories.node.md (concept.theory, node_version 1->2). No new node minted. Source: ASX video IZQOje3DdMk ('Patchface: the strangest Game of Thrones character?'). All quotes byte-verified against sources/chapters/*.md at cited lines via sed/grep. Layer rule applied: the shipwreck/resurrection origin story (B01-B03, B14-B15, B22) and the Melisandre-quote/mermen-feast-quote text are already fully catalogued on the tier-1 patchface character node's Origins/Quotes sections; those raw facts are premise prose here, not re-edged. The theory's actual added value is the INTERPRETIVE claim (songs = literal predictions; resurrection = the Drowned God's doing for a prophetic purpose), so edges target that interpretive layer: two dated song-predicts-event beats (Red Wedding, Purple Wedding), one Hardhome self-identification beat, one doctrinal-parallel beat (ironborn drowning ritual), one afterlife-lore-echo beat, and two independent in-text 'this thing is dangerous/demonic' character assessments (Melisandre, Moqorro). B10 (the 'smoke rises in bubbles... green and blue and black' song) was investigated as a possible Battle-of-the-Blackwater prediction edge and REJECTED after byte-verification showed its true textual context is the burning-of-the-Seven/Lightbringer-forging scene (acok-davos-01.md:43), not the Blackwater battle -- no textual anchor ties it to that battle; kept as Ungrounded-material prose only. B21 (Aeron's drowning-ritual chapter) was investigated as a CONTRADICTS edge ('Aeron shows no real magic despite being drowned-and-revived') and REJECTED: the specific grounded quote only shows Aeron performing the ritual on a convert, not evidence of his own magical inefficacy -- using it that way would misrepresent the quote's content (R+L=J cherry-pick precedent). Sub-claims 2 (Deep Ones) and 3 (greyscale plague) are held out in full -- the ASX verdict itself calls them 'pretty vague'; no edges minted for either. No CONTRADICTS edge was found groundable to an independent textual objection to the theory's core claim (matches the eldritch-apocalypse cluster's one-directional-evidence precedent) -- all 7 edges are SUPPORTS."
+  },
+  "edges": [
+    {
+      "id": "P1",
+      "type": "SUPPORTS",
+      "source": "patchface",
+      "target": "patchface-theories",
+      "book": "asos",
+      "chapter": "asos-davos-02",
+      "quote": "Fool’s blood, king’s blood, blood on the maiden’s thigh, but chains for the guests and chains for the bridegroom, aye aye aye.",
+      "tier": "tier-3",
+      "note": "Patchface's song, sung to Davos on Dragonstone months before the Red Wedding (asos-davos-02 is ASOS ch.11; the Red Wedding is asos-52). The theory reads it as naming, in order: a fool's death (Aegon 'Jinglebell' Frey), a king's death (Robb Stark), the bride's deflowering (Roslin Frey), and captives in chains (Edmure Tully and other survivors). The strongest and most specific of the song-predicts-event beats.",
+      "verify": true
+    },
+    {
+      "id": "P2",
+      "type": "SUPPORTS",
+      "source": "patchface",
+      "target": "patchface-theories",
+      "book": "acok",
+      "chapter": "acok-prologue",
+      "quote": "The merwives wear nennymoans in their hair and weave gowns of silver seaweed.",
+      "tier": "tier-4",
+      "note": "Sung well before the Purple Wedding. The theory reads the hair ornaments and silver gown as pointing to Sansa Stark's silver hair net (which conceals the poison used to kill Joffrey) and her silver-and-white wedding gown. Tier-4: a looser wordplay/color association than P1, not a close narrative match.",
+      "verify": true
+    },
+    {
+      "id": "P3",
+      "type": "SUPPORTS",
+      "source": "patchface",
+      "target": "patchface-theories",
+      "book": "adwd",
+      "chapter": "adwd-jon-13",
+      "quote": "We will march into the sea and out again. Under the waves we will ride seahorses, and mermaids will blow seashells to announce our coming, oh, oh, oh.",
+      "tier": "tier-3",
+      "note": "Patchface volunteers to lead the Hardhome ranging and speaks of marching into the sea and out again, using 'we'/'our' throughout. The theory reads 'into the sea and out again' as dying and rising, and the first-person-plural as identifying with the side of the dead. Direct textual link between Patchface and the still-unresolved Hardhome catastrophe (node hardhome-catastrophe), though whether he plays any confirmed role there is unresolved in the published books.",
+      "verify": true
+    },
+    {
+      "id": "P4",
+      "type": "SUPPORTS",
+      "source": "patchface",
+      "target": "patchface-theories",
+      "book": "adwd",
+      "chapter": "adwd-jon-10",
+      "quote": "Under the sea the mermen feast on starfish soup, and all the serving men are crabs",
+      "tier": "tier-4",
+      "note": "Patchface's song echoes the ironborn's own description of the Drowned God's watery halls (mermen/merlings feasting eternally) -- afterlife doctrine a Volantis-born fool would have no ordinary route to. Tier-4: thematic/doctrinal echo, not a dated prediction of a specific event.",
+      "verify": true
+    },
+    {
+      "id": "P5",
+      "type": "SUPPORTS",
+      "source": "melisandre",
+      "target": "patchface-theories",
+      "book": "adwd",
+      "chapter": "adwd-jon-10",
+      "quote": "That creature is dangerous. Many a time I have glimpsed him in my flames. Sometimes there are skulls about him, and his lips are red with blood.",
+      "tier": "tier-3",
+      "note": "Melisandre -- a demonstrated seer -- independently and unprompted flags Patchface as dangerous and supernaturally significant. The strongest 'a character in-text treats him as real' beat; anchors the core claim rather than a specific song-prediction.",
+      "verify": true
+    },
+    {
+      "id": "P6",
+      "type": "SUPPORTS",
+      "source": "moqorro",
+      "target": "patchface-theories",
+      "book": "adwd",
+      "chapter": "adwd-victarion-01",
+      "quote": "He is no more than a thrall of the Other, the dark god whose name must not be spoken.",
+      "tier": "tier-4",
+      "note": "Moqorro's fuller characterization, immediately following his 'Your Drowned God is a demon' line (same passage, split across a narration tag so quoted separately here) -- a second red priest independently characterizing the Drowned God, the god the theory holds Patchface serves, as aligned with the side of death. Tier-4: about the god broadly, one inferential step removed from a direct statement about Patchface himself.",
+      "verify": true
+    },
+    {
+      "id": "P7",
+      "type": "SUPPORTS",
+      "source": "aeron-greyjoy",
+      "target": "patchface-theories",
+      "book": "affc",
+      "chapter": "affc-the-prophet-01",
+      "quote": "We came from the sea, and to the sea we must return. Open your mouth and drink deep of god’s blessing. Fill your lungs with water, that you may die and be reborn.",
+      "tier": "tier-4",
+      "note": "Establishes the Drowned God faith's own doctrine: deliberate drowning-then-revival marks rebirth in the god's service. Patchface's shipwreck-drowning-then-revival was accidental, not a performed ritual, so the parallel is analogical rather than literal identity with the rite -- tier-4, not tier-3.",
+      "verify": true
+    }
+  ]
+}

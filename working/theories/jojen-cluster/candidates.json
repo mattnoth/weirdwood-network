@@ -1,0 +1,122 @@
+{
+  "_meta": {
+    "unit": "Theories wave-1 Jojen Paste cluster",
+    "session": "S216",
+    "run_id": "jojen-cluster-theories-s216",
+    "new_node_slugs": [
+      "jojen-paste"
+    ],
+    "typed_by": "curator-theories-wave1-s216",
+    "note": "Jojen Paste cluster: mint jojen-paste (concept.theory). Source: ASX video EhtbVpc8E70 ('Jojen Paste: does Bran eat Jojen?'). All quotes byte-verified against sources/chapters/*.md at cited lines by this session (independent grep re-check on top of the regrounding/regrounding-agent substrate). One source-grounding false positive caught and excluded (affc-cersei-10.md:173 is Kevan Lannister speaking, not the Sansa POV line the video's paraphrase implied) — documented in the node's Ungrounded material, no edge minted from it. S216 adjudication: J5 retiered tier-5 (ambiguous pronoun); J8 absence-vs-death scoping note added; all others confirmed as proposed (8C/1A/0R edges, prose CLEAR)."
+  },
+  "edges": [
+    {
+      "id": "J1",
+      "type": "SUPPORTS",
+      "source": "weirwood-paste",
+      "target": "jojen-paste",
+      "book": "adwd",
+      "chapter": "adwd-bran-03",
+      "quote": "The red veins were only weirwood sap, he supposed, but in the torchlight they looked remarkably like blood.",
+      "tier": "tier-3",
+      "note": "The paste's core physical description — the theory's anchor image. Quote deliberately includes the text's own naturalistic hedge ('he supposed') rather than truncating it out.",
+      "verify": true
+    },
+    {
+      "id": "J2",
+      "type": "SUPPORTS",
+      "source": "jojen-reed",
+      "target": "jojen-paste",
+      "book": "adwd",
+      "chapter": "adwd-bran-03",
+      "quote": "My task was to get you here. My part in this is done.",
+      "tier": "tier-3",
+      "note": "Jojen's own words, in the same chapter as the paste-eating, framing his role as complete — read by the theory as a farewell.",
+      "verify": true
+    },
+    {
+      "id": "J3",
+      "type": "SUPPORTS",
+      "source": "meera-reed",
+      "target": "jojen-paste",
+      "book": "adwd",
+      "chapter": "adwd-bran-03",
+      "quote": "He will not even try and fight his fate. He says the greendreams do not lie.",
+      "tier": "tier-3",
+      "note": "Independent corroboration (Meera, not Jojen himself) that Jojen has foreseen and resigned himself to an unstated fate via his prophetic greendreams.",
+      "verify": true
+    },
+    {
+      "id": "J4",
+      "type": "SUPPORTS",
+      "source": "jojen-reed",
+      "target": "jojen-paste",
+      "book": "adwd",
+      "chapter": "adwd-bran-03",
+      "quote": "Jojen Reed grew ever more sullen and solitary, to his sister’s distress.",
+      "tier": "tier-4",
+      "note": "Behavioral/mood evidence rather than a direct statement — weaker than J2/J3, tiered down accordingly.",
+      "verify": true
+    },
+    {
+      "id": "J5",
+      "type": "SUPPORTS",
+      "source": "bran-stark",
+      "target": "jojen-paste",
+      "book": "asos",
+      "chapter": "asos-bran-01",
+      "quote": "Except he dreamed me dead, and I’m not. Only he was, in a way.",
+      "tier": "tier-5",
+      "note": "Earlier-book foreshadowing the theory reads as pointing at Jojen's eventual death. Tier-4: the second 'he' is genuinely ambiguous in the prose (could refer to Jojen or to a metaphorical death of Bran's former self) and the text does not disambiguate. S216 fresh-verify adjudication: tier-4->tier-5 — the pronoun is genuinely ambiguous and sits two books before the key scene; kept only as the weakest-grade foreshadowing marker.",
+      "verify": true
+    },
+    {
+      "id": "J6",
+      "type": "CONTRADICTS",
+      "source": "brynden-rivers",
+      "target": "jojen-paste",
+      "book": "adwd",
+      "chapter": "adwd-bran-03",
+      "quote": "“Your blood makes you a greenseer,” said Lord Brynden. “This will help awaken your gifts and wed you to the trees.”",
+      "tier": "tier-3",
+      "note": "The text's own stated explanation for the paste's function attributes 'blood' to Bran's own bloodline/gift, not to an added ingredient — complicates (without disproving) the specific inference that the red veins are Jojen's blood. Brynden is established elsewhere as withholding information, so this is not treated as dispositive.",
+      "verify": true
+    },
+    {
+      "id": "J7",
+      "type": "SUPPORTS",
+      "source": "bran-stark",
+      "target": "jojen-paste",
+      "book": "adwd",
+      "chapter": "adwd-bran-03",
+      "quote": "but as his life flowed out of him in a red tide, Brandon Stark could taste the blood.",
+      "tier": "tier-3",
+      "note": "Bran's final vision in the SAME chapter as the paste-eating: an ancient human sacrifice to a heart tree, with Bran tasting real blood through the weirwood roots. Strong same-chapter juxtaposition; the vision itself depicts a different sacrifice/captive/era, not Jojen's death on-page, so the Jojen-specific mapping remains the theory's inference.",
+      "verify": true
+    },
+    {
+      "id": "J8",
+      "type": "SUPPORTS",
+      "source": "jojen-reed",
+      "target": "jojen-paste",
+      "book": "adwd",
+      "chapter": "adwd-bran-03",
+      "quote": "He had hoped that Meera and Jojen would be there, so he could tell them what he had seen, but their snug alcove in the rock was cold and empty.",
+      "tier": "tier-3",
+      "note": "Jojen (and Meera) are conspicuously absent immediately after Bran eats the paste; this chapter is the last on-page appearance of Bran (and of Jojen/Meera) in the published books — the theory's circumstantial-timing anchor. S216 adjudication note: the text confirms ABSENCE only, not death — the absence-equals-death step is the theory's inference, not the passage's.",
+      "verify": true
+    },
+    {
+      "id": "J9",
+      "type": "SUPPORTS",
+      "source": "rat-cook",
+      "target": "jojen-paste",
+      "book": "asos",
+      "chapter": "asos-bran-04",
+      "quote": "Afterward the gods transformed the cook into a monstrous white rat who could only eat his own young. He had roamed the Nightfort ever since, devouring his children, but still his hunger was not sated.",
+      "tier": "tier-4",
+      "note": "A specific in-world precedent Bran himself recalls (at the Nightfort, earlier in the journey) for unknowing/betrayed cannibalism and its curse — thematic precedent within Bran's own arc, not evidence about the paste itself; tiered down accordingly.",
+      "verify": true
+    }
+  ]
+}

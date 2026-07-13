@@ -113,9 +113,9 @@ Just as the [second siege of Meereen](wiki:Second_siege_of_Meereen) resumes, Vic
 >
 > —Victarion to [Asha Greyjoy](wiki:Asha_Greyjoy)
 
-> Wizards may be well and good, but blood and steel win wars.
+> “All fell out as Euron said it would,” Victarion told the dusky woman as she bound up his hand with linen. “His wizards must have seen it.” He had three aboard the Silence, Quellon Humble had confided in a whisper. Queer men and terrible, they were, but the Crow’s Eye had made them slaves. “He still needs me to fight his battles, though,” Victarion insisted. “Wizards may be well and good, but blood and steel win wars.” The vinegar made his wound hurt worse than ever. He shoved the woman away and closed his fist, glowering. “Bring me wine.”
 >
-> —Victarion to the dusky woman, AFFC (`sources/chapters/affc/affc-the-reaver-01.md:71`)
+> —Victarion to the dusky woman, tending his rotting hand with vinegar and linen, AFFC (`sources/chapters/affc/affc-the-reaver-01.md:71`)
 
 > There is no wine so sweet as wine taken from a foe. Someone had told him that once. His father, or his brother Balon. One day I shall drink your wine, Crow's Eye, and take from you all that you hold dear.
 >

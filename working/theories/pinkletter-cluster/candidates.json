@@ -1,0 +1,144 @@
+{
+  "_meta": {
+    "unit": "Theories wave-1 Pink Letter authorship cluster",
+    "session": "S216",
+    "run_id": "pinkletter-cluster-theories-s216",
+    "new_node_slugs": [],
+    "typed_by": "curator-theories-wave1-s216",
+    "note": "Pink Letter authorship cluster: ONE enrich of the existing bastard-letter-theories stub, covering five authorship candidates (Ramsay/Mance/Stannis/Melisandre/Barbrey Dustin-Wyman Manderly) plus the tightly interwoven 'is Stannis really dead' sub-question, per the source video's own claim framing. Source: ASX video T-j01uhSdGo ('Pink Letter: who will win Winterfell in the Game of Thrones books?'). All quotes byte-verified against sources/chapters/*.md at cited lines (curly-vs-straight-quote transcription errors in the upstream regrounding-agent JSONL corrected against source before use -- 11 of the 22 candidate rows needed this fix; none were content mismatches). Substrate-integrity finding: two 'grounded' rows for the Stannis-letter-faker candidate (Roose Bolton's war-council speech) were independently re-checked and found NOT to confirm the specific claim (Stannis capturing a Bolton maester) they were graded against -- excluded, candidate carried premise-only. See PROPOSAL.md."
+  },
+  "edges": [
+    {
+      "id": "PL1",
+      "type": "CONTRADICTS",
+      "source": "ramsay-snow",
+      "target": "bastard-letter-theories",
+      "book": "adwd",
+      "chapter": "adwd-the-wayward-bride-01",
+      "quote": "It was tightly rolled and sealed with a button of hard pink wax.",
+      "tier": "tier-3",
+      "note": "An earlier, confirmed Ramsay letter is sealed with 'a button' of hard pink wax -- the baseline the Pink Letter itself breaks (see PL2). Scoped against the plain-Ramsay-wrote-it-exactly-as-usual sub-claim only, not against Ramsay's authorship in general.",
+      "verify": true
+    },
+    {
+      "id": "PL2",
+      "type": "CONTRADICTS",
+      "source": "bastard-letter",
+      "target": "bastard-letter-theories",
+      "book": "adwd",
+      "chapter": "adwd-jon-13",
+      "quote": "And the letter was sealed with a smear of hard pink wax.",
+      "tier": "tier-3",
+      "note": "The Pink Letter's own physical description: a mere 'smear' of wax, breaking the button-seal pattern PL1 establishes for confirmed Ramsay letters -- the theory's strongest physical-evidence hook for a rushed, careless, or non-Ramsay hand. Quote also lives on the live event node pink-letter-delivered's own Quotes block; reused here for a distinct theory-layer (style-comparison) purpose, matching the GNC/Hooded precedent for edge reuse across layers.",
+      "verify": true
+    },
+    {
+      "id": "PL3",
+      "type": "CONTRADICTS",
+      "source": "bastard-letter",
+      "target": "bastard-letter-theories",
+      "book": "adwd",
+      "chapter": "adwd-jon-13",
+      "quote": "I want his wildling princess. I want his little prince, the wildling babe.",
+      "tier": "tier-4",
+      "note": "The letter demands wildling hostages (Val and her infant nephew) who carry no obvious strategic or personal value to a Bolton household specifically -- the theory reads this as evidence someone with wildling-specific motive shaped the letter's contents, cutting against the simplest single-author-Ramsay reading. Does not by itself identify the alternate hand.",
+      "verify": true
+    },
+    {
+      "id": "PL4",
+      "type": "SUPPORTS",
+      "source": "mance-rayder",
+      "target": "bastard-letter-theories",
+      "book": "asos",
+      "chapter": "asos-jon-10",
+      "quote": "Did you think only crows could lie? I liked you well enough, for a bastard . . . but I never trusted you. A man needs to earn my trust.",
+      "tier": "tier-3",
+      "note": "Mance's own admission of deceiving Jon (over the fake Horn of Winter claim) establishes an independently confirmed pattern of manipulation-for-advantage the theory transfers to the letter.",
+      "verify": true
+    },
+    {
+      "id": "PL5",
+      "type": "SUPPORTS",
+      "source": "mance-rayder",
+      "target": "bastard-letter-theories",
+      "book": "adwd",
+      "chapter": "adwd-theon-01",
+      "quote": "“Lord Stannis is outside the walls, and not far by the sound of it. All we need do is reach him.” Abel’s fingers danced across the strings of his lute. The singer’s beard was brown, though his long hair had largely gone to grey. “If the Bastard does come after us, he might live long enough to rue it.”",
+      "tier": "tier-4",
+      "note": "Mance, disguised as 'Abel' inside occupied Winterfell, discusses Stannis's position and hostility toward the Boltons with Theon -- circumstantial opportunity/motive grounding for the impersonation candidate. 'Abel' is a confirmed alias of mance-rayder (node frontmatter).",
+      "verify": true
+    },
+    {
+      "id": "PL6",
+      "type": "CONTRADICTS",
+      "source": "mance-rayder",
+      "target": "bastard-letter-theories",
+      "book": "asos",
+      "chapter": "asos-jon-10",
+      "quote": "“Blood,” said Mance Rayder. “I’d win in the end, yes, but you’d bleed me, and my people have bled enough.”",
+      "tier": "tier-3",
+      "note": "Mance's own stated reluctance to spend more wildling lives on Stannis's war sits uneasily against a scheme whose whole point is provoking Jon to lead wildlings south into that same war -- a genuine, unresolved motive problem for the Mance candidate.",
+      "verify": true
+    },
+    {
+      "id": "PL7",
+      "type": "SUPPORTS",
+      "source": "melisandre",
+      "target": "bastard-letter-theories",
+      "book": "adwd",
+      "chapter": "adwd-melisandre-01",
+      "quote": "“Your sister.” Melisandre put her hand on his arm. “You cannot help her, but he can.”",
+      "tier": "tier-4",
+      "note": "Confirms Melisandre orchestrated Mance's Winterfell infiltration in general (framed to Mance as rescuing Jon's 'sister'). The theory's extension -- that she also orchestrated or foresaw the Pink Letter specifically -- is not independently confirmed by this passage alone; edge scoped to the general-orchestration claim.",
+      "verify": true
+    },
+    {
+      "id": "PL8",
+      "type": "SUPPORTS",
+      "source": "barbrey-dustin",
+      "target": "bastard-letter-theories",
+      "book": "adwd",
+      "chapter": "adwd-the-turncloak-01",
+      "quote": "They went single file—the serjeant with the lantern, then Theon and Lady Dustin, her other man behind them.",
+      "tier": "tier-4",
+      "note": "Barbrey Dustin personally leads Theon into the Winterfell crypts -- circumstantial grounding for the Dustin/Manderly candidate's crypt-focused secret agenda. The 'same time as Mance' synchronicity the theory reads into this is not independently confirmed (Mance/Abel investigating the crypts is not established in this pass's substrate).",
+      "verify": true
+    },
+    {
+      "id": "PL9",
+      "type": "SUPPORTS",
+      "source": "davos-seaworth",
+      "target": "bastard-letter-theories",
+      "book": "adwd",
+      "chapter": "adwd-davos-01",
+      "quote": "on stormy nights and foggy ones, some Sistermen would use false lights to draw unwary captains to their doom.",
+      "tier": "tier-4",
+      "note": "Established, working false-beacon precedent within the book's own world -- the mechanism the theory's Stannis-is-alive prediction relies on. Distinct sub-question from authorship (whether the letter's claim that Stannis is dead is itself true).",
+      "verify": true
+    },
+    {
+      "id": "PL10",
+      "type": "SUPPORTS",
+      "source": "stannis-s-army-stalls-at-crofters-village",
+      "target": "bastard-letter-theories",
+      "book": "adwd",
+      "chapter": "adwd-the-sacrifice-01",
+      "quote": "His Grace was glimpsed upon the tower roof, outlined against the beacon fire that burned there night and day.",
+      "tier": "tier-4",
+      "note": "Stannis's own stalled camp (live tier-1 event node) is independently described with a continuously-burning watchtower beacon -- one of the two ingredients (with PL11's frozen lake) the theory combines into a predicted false-beacon trap. Subject-link reuse of the confirmed event node's own scene detail for a forward-looking theory-layer claim.",
+      "verify": true
+    },
+    {
+      "id": "PL11",
+      "type": "SUPPORTS",
+      "source": "stannis-s-army-stalls-at-crofters-village",
+      "target": "bastard-letter-theories",
+      "book": "adwd",
+      "chapter": "adwd-the-sacrifice-01",
+      "quote": "shivering beside a pair of holes they’d cut in the smaller of the frozen lakes, with fishing lines clutched in mitten-clumsy hands.",
+      "tier": "tier-4",
+      "note": "Confirms frozen lakes with cut ice holes exist immediately by Stannis's stalled camp -- the second ingredient (with PL10) of the theory's predicted false-beacon/frozen-lake trap. Same chapter independently confirms the ice is already dangerous ('a bloody wonder more haven't fallen through,' line 172) -- verified in this pass but carried as premise detail, not its own edge, since it wasn't a formally graded substrate row.",
+      "verify": true
+    }
+  ]
+}

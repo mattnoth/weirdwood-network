@@ -19,10 +19,10 @@ pass_origin: theories-wave1-s214
 
 ## Claim
 
-Jon Snow is not Eddard Stark's bastard son. He is the son of Rhaegar Targaryen and
-Lyanna Stark, born at the Tower of Joy in the final days of Robert's Rebellion and
-raised by Ned as his own to hide him from Robert Baratheon, who would have had a
-Targaryen infant killed. A secondary, more speculative extension holds that Rhaegar
+The theory holds that Jon Snow is not Eddard Stark's bastard son but the son of
+Rhaegar Targaryen and Lyanna Stark, born at the Tower of Joy in the final days of
+Robert's Rebellion and raised by Ned as his own to hide him from Robert Baratheon,
+who would have had a Targaryen infant killed. A secondary, more speculative extension holds that Rhaegar
 and Lyanna were secretly married, which — if true — would give Jon a claim to the
 Iron Throne; if they were not married, he remains baseborn (a claim the theory treats
 as weaker and more contested than the parentage claim itself).
@@ -30,7 +30,8 @@ as weaker and more contested than the parentage claim itself).
 ## Evidence For
 
 **Ned's fourteen-year lie.** In conversation with Robert about the Rebellion, Ned
-reflects that he has carried a secret for exactly as long as Jon has been alive.
+reflects on lies he has lived with for fourteen years — a span the theory notes
+matches Jon's age exactly.
 
 > "You were not there," Ned said, bitterness in his voice. Troubled sleep was no
 > stranger to him. He had lived his lies for fourteen years, yet they still haunted
@@ -43,11 +44,10 @@ the sight of gods and men" (agot-eddard-02.md:39) while refusing to explain furt
 and narration twice stresses that "Ned Stark kept his vows" even as "Robert would
 swear undying love and forget them before evenfall" (agot-eddard-09.md:39) — vow-
 keeping the theory reads as inconsistent with fathering a bastard outside his
-marriage to Catelyn. Elsewhere Ned privately lists his children as "Robb and Sansa
-and Arya and Bran and Rickon" (agot-eddard-12.md:127) — a list that excludes Jon.
+marriage to Catelyn.
 
-**A pattern of protecting Targaryen children.** Ned's willingness to keep Jon's true
-identity secret is framed against a broader pattern: he refuses Robert's order to
+**A pattern of protecting Targaryen children.** Ned's willingness to conceal the
+parentage the theory proposes is framed against a broader pattern: he refuses Robert's order to
 have the pregnant Daenerys assassinated ("Your Grace, the girl is scarcely more than
 a child. You are no Tywin Lannister, to slaughter innocents," agot-eddard-02.md:73),
 and he is shown to have been outraged rather than complicit when Tywin Lannister's
@@ -89,8 +89,8 @@ corroborates the same choice and its cost:
 
 Lyanna stays associated with the blue winter roses ever after — her statue in the
 Winterfell crypt is described the same way: "Promise me, Ned," Lyanna's statue
-whispered. "She wore a garland of pale blue roses, and her eyes wept blood."
-(agot-eddard-13.md:11).
+whispered. She wore a garland of pale blue roses, and her eyes wept blood
+(agot-eddard-13.md:11; the garland sentence is narration, not the statue's speech).
 
 Daenerys's House of the Undying vision echoes the same color/flower pairing at "a
 wall of ice":
@@ -170,17 +170,20 @@ path to a claim would be legitimization by a king — itself unconfirmed in the 
   sub-claim 1) are explicitly hedged by the source video itself ("it's been
   suggested," "unclear") and were not grounded to specific passages; they overlap
   with the same held-out Azor Ahai territory.
+- **GRRM-interview** — GRRM has publicly acknowledged the fan theory is
+  fundamentally on the right track regarding parentage. An out-of-book author
+  statement: not a textual beat, never an edge, and not book confirmation — the
+  marriage/legitimacy question specifically remains open pending future volumes.
 
 ## Status Notes
 
-**Show outcome:** Game of Thrones Season 7 (2017) depicted Jon's parentage — Rhaegar
-Targaryen and Lyanna Stark, with a secret marriage implied — as settled fact via
-Bran's visions and the Gilly/High Septon scene. **Show ≠ book canon.** The published
-books (through *A Dance with Dragons*) have not depicted the Tower of Joy birth, any
-marriage record, or a direct on-page confirmation of parentage; GRRM has publicly
-acknowledged the fan theory is fundamentally on the right track regarding parentage,
-but the books' own confirmation (and the marriage/legitimacy question specifically)
-remains open pending future volumes.
+**Show outcome** (basis for `status: show-confirmed`): Game of Thrones Season 7
+(2017) depicted Jon's parentage — Rhaegar Targaryen and Lyanna Stark, with a secret
+marriage implied — as settled fact (details under the **show** entries in Ungrounded
+material). **Show ≠ book canon.** The published books (through *A Dance with
+Dragons*) have not depicted the Tower of Joy birth, any marriage record, or a direct
+on-page confirmation of parentage; the books' own confirmation (and the
+marriage/legitimacy question specifically) remains open pending future volumes.
 
 **ASX verdict:** kHqzFwodZqQ concludes the accumulated textual hints make it "very
 likely" Jon is Rhaegar and Lyanna's son, while treating the throne-claim and prophecy

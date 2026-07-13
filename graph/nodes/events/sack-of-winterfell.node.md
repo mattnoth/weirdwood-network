@@ -62,6 +62,10 @@ After being tortured by Ramsay at the Dreadfort,(wiki:Sack_of_Winterfell.cite_re
 >
 > —thoughts of Bran Stark while in the mind of Summer, ACOK (`sources/chapters/acok/acok-bran-07.md:17`)
 
+> "And Lord Bolton has brought us further word of Winterfell," Robb added. "Ser Rodrik was not the only good man to die. Cley Cerwyn and Leobald Tallhart were slain as well."
+
+— Robb Stark to Catelyn Stark, relaying Roose Bolton's report of the aftermath, ASOS Catelyn VI (`sources/chapters/asos/asos-catelyn-06.md:247`)
+
 > Winterfell. It was Winterfell. It was all on fire. There were horse smells, and steel, and blood. They killed everyone, Meera.(wiki:Sack_of_Winterfell.cite_ref-Racok69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-6)
 >
 > —[Bran Stark](wiki:Bran_Stark) to [Meera Reed](wiki:Meera_Reed)

@@ -1,0 +1,72 @@
+{
+  "_meta": {
+    "unit": "Theories wave-1 Bolt-On cluster",
+    "session": "S216",
+    "run_id": "bolton-cluster-theories-s216",
+    "new_node_slugs": [],
+    "typed_by": "curator-theories-wave1-s216",
+    "note": "Bolt-On cluster: enrich existing roose-bolton-theories stub only (no new node minted). Source: ASX video 8MO2Yb2OJ6Q ('Bolt-On: is Roose Bolton a skin-stealing immortal?'). All quotes byte-verified against sources/chapters/*.md at cited lines. Substrate is small (12 agent-grounded rows + 6 deterministic 'matched' rows in working/theories/regrounding/8MO2Yb2OJ6Q.jsonl); 8 edges drawn from 6 distinct source nodes (old-nan and roose-bolton each carry two edges on independently distinct quotes/points, mirroring the eddard-stark reuse precedent in the ratified rlj-cluster). GRAPH MUTATION: NONE — staging only, at the mint gate pending Matt's go per the theories-track STAGING-ONLY decision (2026-07-13). S216 adjudication: B4 DROPPED (cherry-picked — passage grotesques every wedding guest, context kept as Evidence Against prose), B6 DROPPED (wight-physiology passage has zero Roose connection — stays as labelled imported-analogy prose), B8 DROPPED to prose (thematic flaying-culture scaffolding is premise, not evidence — T8 precedent), B3 retiered tier-4."
+  },
+  "edges": [
+    {
+      "id": "B1",
+      "type": "SUPPORTS",
+      "source": "old-nan",
+      "target": "roose-bolton-theories",
+      "book": "asos",
+      "chapter": "asos-bran-04",
+      "quote": "A woman was his downfall; a woman glimpsed from atop the Wall, with skin as white as the moon and eyes like blue stars. Fearing nothing, he chased her and caught her and loved her, though her skin was cold as ice, and when he gave his seed to her he gave his soul as well.",
+      "tier": "tier-4",
+      "note": "Old Nan's Night's King tale is the theory's origin point for a human/Other union producing an heir; the theory reads this as the seed of Bolton-adjacent Other blood, though the same passage's punchline (edge B2) does not itself name a Bolton.",
+      "verify": true
+    },
+    {
+      "id": "B2",
+      "type": "CONTRADICTS",
+      "source": "old-nan",
+      "target": "roose-bolton-theories",
+      "book": "asos",
+      "chapter": "asos-bran-04",
+      "quote": "“Some say he was a Bolton,” Old Nan would always end. “Some say a Magnar out of Skagos, some say Umber, Flint, or Norrey. Some would have you think he was a Woodfoot, from them who ruled Bear Island before the ironmen came. He never was. He was a Stark, the brother of the man who brought him down.”",
+      "tier": "tier-3",
+      "note": "In the same story the theory builds from, Old Nan explicitly lists 'a Bolton' among several wrong folk guesses and then names the Night's King a Stark instead. A direct, undealt-with textual complication for the theory's Bolton-ancestry sub-claim, not raised by the source video.",
+      "verify": true
+    },
+    {
+      "id": "B3",
+      "type": "SUPPORTS",
+      "source": "roose-bolton",
+      "target": "roose-bolton-theories",
+      "book": "acok",
+      "chapter": "acok-arya-09",
+      "quote": "My squire could take a lesson from you, it would seem. Frequent leechings are the secret of a long life. A man must purge himself of bad blood.",
+      "tier": "tier-4",
+      "note": "The theory's strongest single anchor: Roose's own words directly linking his leeching habit to extending life, not merely humoral medical superstition per the theory's reading. S216 fresh-verify adjudication: tier-3->tier-4 — reading 'secret of a long life' as supernatural longevity is an interpretive step, not a straightforward beat.",
+      "verify": true
+    },
+    {
+      "id": "B5",
+      "type": "SUPPORTS",
+      "source": "ramsay-snow",
+      "target": "roose-bolton-theories",
+      "book": "adwd",
+      "chapter": "adwd-reek-01",
+      "quote": "He had his lord father’s eyes—small, close-set, queerly pale. Ghost grey, some men called the shade, but in truth his eyes were all but colorless, like two chips of dirty ice.",
+      "tier": "tier-4",
+      "note": "Ramsay's eyes already match Roose's distinctive pale/icy eyes; the theory reads this as functionally useful cover for an eventual body-swap (no visible eye-color change to notice), though ordinary paternal resemblance explains it just as well.",
+      "verify": true
+    },
+    {
+      "id": "B7",
+      "type": "SUPPORTS",
+      "source": "domeric-bolton",
+      "target": "roose-bolton-theories",
+      "book": "adwd",
+      "chapter": "adwd-reek-03",
+      "quote": "Now his bones lie beneath the Dreadfort with the bones of his brothers, who died still in the cradle, and I am left with Ramsay. Tell me, my lord … if the kinslayer is accursed, what is a father to do when one son slays another?",
+      "tier": "tier-4",
+      "note": "Roose's own account of Domeric's death and his stated (kinslaying) reason for tolerating Ramsay reads, per the theory, as evasive rhetoric covering an unstated ulterior motive for retaining Ramsay as heir.",
+      "verify": true
+    }
+  ]
+}

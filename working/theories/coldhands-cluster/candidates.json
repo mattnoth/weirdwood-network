@@ -1,0 +1,96 @@
+{
+  "_meta": {
+    "unit": "Theories wave-1 Coldhands cluster",
+    "session": "S216",
+    "run_id": "coldhands-cluster-theories-s216",
+    "new_node_slugs": [],
+    "typed_by": "curator-theories-wave1-s216",
+    "note": "Coldhands cluster: enrich existing stub graph/nodes/theories/coldhands-theories.node.md (concept.theory) with the ASX 'Who is Coldhands?' video (Ge6VduBUJFo) -- two linked strands: (1) what animates Coldhands (nature magic, likely Bloodraven-directed, distinct from the Others' ice-magic wights) and (2) who he was before he died (Benjen Stark, Will/Waymar Royce, Ser Duncan the Tall, the Night's King, a Night's King/Other hybrid -- none confirmed). All quotes byte-verified against sources/chapters/*.md at cited lines via direct line read. KNOWN GAP: substrate beats coldhands-B30 and coldhands-B35 have no grounded quote on disk -- the S214 regrounding-agent pass died at a spend wall before appending rows for either beat; neither is represented as an edge or asserted as fact. Most 'what is Coldhands' physical/behavioral facts (black hands, ravens, wight-comparison basics) are already tier-1/tier-2 on the existing coldhands character node and are treated as premise, not re-edged here (layer rule, per gnc-cluster/eldritch-cluster S216 precedent)."
+  },
+  "edges": [
+    {
+      "id": "C1",
+      "type": "SUPPORTS",
+      "source": "coldhands",
+      "target": "coldhands-theories",
+      "book": "adwd",
+      "chapter": "adwd-bran-01",
+      "quote": "Coldhands was the name that the fat boy Sam had given him, for though the ranger’s face was pale, his hands were black and hard as iron, and cold as iron too.",
+      "tier": "tier-3",
+      "note": "Coldhands never gives his own name; the name itself is a nickname coined from the one detail he cannot hide. The textual seed of the whole identity mystery this theory investigates.",
+      "verify": true
+    },
+    {
+      "id": "C2",
+      "type": "SUPPORTS",
+      "source": "coldhands",
+      "target": "coldhands-theories",
+      "book": "adwd",
+      "chapter": "adwd-bran-01",
+      "quote": "Some would fly to the ranger and mutter at him, and it seemed to Bran that he understood their quorks and squawks. They are his eyes and ears. They scout for him, and whisper to him of dangers ahead and behind.",
+      "tier": "tier-4",
+      "note": "Coldhands commands and understands the raven flock; the theory reads this as a greenseer-adjacent power, part of the nature-magic reanimation reading. The fact (raven command) is solid text; the greenseer-power framing is the theory's own comparison.",
+      "verify": true
+    },
+    {
+      "id": "C3",
+      "type": "SUPPORTS",
+      "source": "coldhands",
+      "target": "coldhands-theories",
+      "book": "adwd",
+      "chapter": "adwd-bran-02",
+      "quote": "Coldhands had knelt beside it in the snowbank and murmured a blessing in some strange tongue as he slit its throat.",
+      "tier": "tier-4",
+      "note": "The elk's death ritual, performed in an unnamed 'strange tongue' -- read by the theory as evidence of a connection to the old gods / True Tongue rather than a standard Common Tongue prayer. The ritual itself is textual; the old-gods reading is interpretive.",
+      "verify": true
+    },
+    {
+      "id": "C4",
+      "type": "SUPPORTS",
+      "source": "wights",
+      "target": "coldhands-theories",
+      "book": "adwd",
+      "chapter": "adwd-bran-02",
+      "quote": "All of them had pale flesh and black hands. Their eyes glowed like pale blue stars.",
+      "tier": "tier-4",
+      "note": "Establishes what an ordinary Other-raised wight actually looks like (glowing blue eyes) in direct textual contrast to Coldhands's own black eyes (already recorded on the coldhands node, not re-quoted here) -- the theory's core 'distinct kind of undead' argument.",
+      "verify": true
+    },
+    {
+      "id": "C5",
+      "type": "SUPPORTS",
+      "source": "coldhands",
+      "target": "coldhands-theories",
+      "book": "adwd",
+      "chapter": "adwd-bran-01",
+      "quote": "Reflections from the flames glittered off four black eyes. He does not eat, Bran remembered, and he fears the flames.",
+      "tier": "tier-4",
+      "note": "Coldhands's visible aversion to fire, paralleling the one weakness wights are known to share -- Bran's own inference ('Bran remembered ... he fears the flames'), not narrated as stated fact, hence tier-4.",
+      "verify": true
+    },
+    {
+      "id": "C6",
+      "type": "SUPPORTS",
+      "source": "coldhands",
+      "target": "coldhands-theories",
+      "book": "adwd",
+      "chapter": "adwd-bran-01",
+      "quote": "“Once the heart has ceased to beat, a man’s blood runs down into his extremities, where it thickens and congeals.”",
+      "tier": "tier-3",
+      "note": "Coldhands's own calm, clinical, self-aware explanation of his own undeath -- direct textual support for the theory's 'still a person, not a mindless wight' distinction.",
+      "verify": true
+    },
+    {
+      "id": "C7",
+      "type": "CONTRADICTS",
+      "source": "waymar-royce",
+      "target": "coldhands-theories",
+      "book": "agot",
+      "chapter": "agot-prologue",
+      "quote": "The watchers moved forward together, as if some signal had been given. Swords rose and fell, all in a deathly silence. It was cold butchery.",
+      "tier": "tier-4",
+      "note": "Waymar Royce's death at the Others' hands in the Prologue -- the ordinary Other-kill process, followed (per the character's known text, not re-quoted here) by a standard blue-eyed wight transformation. Cited against the Will/Waymar-Royce-is-Coldhands candidate: the passage shows only the standard kill-and-raise, with no restoration of mind or self ever depicted anywhere in the corpus searched this pass -- the absence the theory leans on, not a stated textual argument.",
+      "verify": true
+    }
+  ]
+}

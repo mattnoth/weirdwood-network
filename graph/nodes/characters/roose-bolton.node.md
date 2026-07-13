@@ -139,6 +139,10 @@ Having escaped Winterfell with [Jeyne Poole](wiki:Jeyne_Poole), [Theon Greyjoy](
 >
 > —Roose to Ramsay Bolton, ADWD (`sources/chapters/adwd/adwd-reek-03.md:175`)
 
+> “A year later this same wench had the impudence to turn up at the Dreadfort with a squalling, red-faced monster that she claimed was my own get. I should’ve had the mother whipped and thrown her child down a well … but the babe did have my eyes. She told me that when her dead husband’s brother saw those eyes, he beat her bloody and drove her from the mill. That annoyed me, so I gave her the mill and had the brother’s tongue cut out, to make certain he did not go running to Winterfell with tales that might disturb Lord Rickard. Each year I sent the woman some piglets and chickens and a bag of stars, on the understanding that she was never to tell the boy who had fathered him. A peaceful land, a quiet people, that has always been my rule.”
+
+— Roose Bolton to Theon Greyjoy ("Reek"), recounting how he fathered Ramsay on the miller's wife, ADWD Reek III (`sources/chapters/adwd/adwd-reek-03.md:227`)
+
 > Fear is what keeps a man alive in this world of treachery and deceit.
 >
 > —Roose to Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-03.md:239`)

@@ -197,3 +197,7 @@ Euron has Aeron bound to the prow of the *Silence*, where he is joined by Falia,
 > **Tyrion**: Have you seen these others in your fires?
 >
 > —[Moqorro](wiki:Moqorro) and [Tyrion Lannister](wiki:Tyrion_Lannister)
+
+> Euron had seduced them with his glib tongue and smiling eye and bound them to his cause with the plunder of half a hundred distant lands; gold and silver, ornate armor, curved swords with gilded pommels, daggers of Valyrian steel, striped tiger pelts and the skins of spotted cats, jade manticores and ancient Valyrian sphinxes, chests of nutmeg, cloves, and saffron, ivory tusks and the horns of unicorns, green and orange and yellow feathers from the Summer Sea, bolts of fine silk and shimmering samite . . .
+
+— thoughts of Victarion Greyjoy, on Euron's plunder buying ironborn loyalty, AFFC The Reaver I, `sources/chapters/affc/affc-the-reaver-01.md:57`

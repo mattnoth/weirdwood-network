@@ -88,6 +88,10 @@ Arya observes a meeting of eleven Faceless Men in the House of Black and White, 
 >
 > —Plague face to Arya Stark, ADWD (`sources/chapters/adwd/adwd-the-ugly-little-girl-01.md:51`)
 
+> The waif and kindly man were not the only servants of the Many-Faced God. From time to time others would visit the House of Black and White. The fat fellow had fierce black eyes, a hook nose, and a wide mouth full of yellow teeth. The stern face never smiled; his eyes were pale, his lips full and dark. The handsome man had a beard of a different color every time she saw him, and a different nose, but he was never less than comely. Those three came most often, but there were others: the squinter, the lordling, the starved man.
+
+— narration, Arya Stark's catalogue of the House of Black and White's recurring visitors, AFFC Arya II (`sources/chapters/affc/affc-arya-02.md:245`)
+
 > **Plague face**: Can you pay the price?
 >
 > **Arya**: What price?

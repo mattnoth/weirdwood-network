@@ -1,0 +1,110 @@
+{
+  "_meta": {
+    "unit": "Theories wave-1 Bloodraven cluster",
+    "session": "S216",
+    "run_id": "bloodraven-cluster-theories-s216",
+    "new_node_slugs": [
+      "bloodravens-grand-plan"
+    ],
+    "typed_by": "curator-theories-wave1-s216",
+    "note": "Bloodraven cluster: mint bloodravens-grand-plan (concept.theory) absorbing three of the source video's five named sub-theories ('Bloodraven is secretly a villain' + 'Bloodraven's grand plan (Azor Ahai bloodline + Bran/Jon)' + 'Bloodraven trained (and traumatized) Euron Greyjoy' -- the Euron thread stayed edge-less/ungrounded and lives only as fenced Ungrounded material) + enrich existing maynard-plumm-theories stub ('Maynard Plumm is Bloodraven'). 'Quaithe is Shiera Seastar' did NOT clear the 3-edge mint bar (only 1 of 5 source beats byte-verified, and that one beat does not itself evidence the identity claim) -- folded as a domain-labelled deferred-future-unit note inside bloodravens-grand-plan's Ungrounded material, no node minted, no edge. Source: ASX video 1oEqnDAbCfE ('Bloodraven: what's the three-eyed raven's secret plan?'). All quotes byte-verified against sources/chapters/*.md at cited lines via direct python line-read (not just quotecheck grep) given curly/straight-quote variance between AWDW (curly) and TMK/TSS (straight) source files. Two mis-grounded regrounding-agent rows (bloodraven-B22 acok-jon-01.md:13, a Castle Black library description mistakenly matched to an Aerys/Shiera paraphrase; bloodraven-B45 adwd-bran-03.md:73, a 'thousand eyes, a hundred skins' greenseer-teaching quote mistakenly matched to a Hand-of-the-King spymaster-network paraphrase) were verified as false positives and dropped entirely -- not used as evidence, not edges, not prose. S216 adjudication (edges 2C/8A/1R, the wave's heaviest): G2 DROPPED (raven 'Snow' has no Brynden anchor), G5 DROPPED (Jaehaerys II marriage is dynasty premise with no Bloodraven anchor — near-duplicates the azor cluster's Z12 beat family), G8 DROPPED (disillusionment = appearance, not plan); G1/G4/G9/P2 retiered tier-4, G7/P1 tier-5; BOTH node tiers tier-3->tier-4; means/mystery-vs-orchestration boundary enforced."
+  },
+  "edges": [
+    {
+      "id": "G1",
+      "type": "SUPPORTS",
+      "source": "brynden-rivers",
+      "target": "bloodravens-grand-plan",
+      "book": "adwd",
+      "chapter": "adwd-bran-03",
+      "quote": "He has lived beyond his mortal span, and yet he lingers. For us, for you, for the realms of men.",
+      "tier": "tier-4",
+      "note": "Leaf explains Brynden's purpose and stake in the world to Bran on first meeting him in the cave -- the theory's seed for reading Brynden as serving a stated purpose beyond mere survival. S216 fresh-verify adjudication: tier-3->tier-4 — a stated stake ('for the realms of men') supports the agenda reading one step short of orchestration.",
+      "verify": true
+    },
+    {
+      "id": "G3",
+      "type": "SUPPORTS",
+      "source": "jon-snow",
+      "target": "bloodravens-grand-plan",
+      "book": "adwd",
+      "chapter": "adwd-jon-12",
+      "quote": "“Corn,” the bird said, and, “King,” and, “Snow, Jon Snow, Jon Snow.” That was queer. The bird had never said his full name before, as best Jon could recall.",
+      "tier": "tier-3",
+      "note": "Narration itself flags the raven's use of Jon's full name as anomalous ('queer') -- the strongest in-text hook for the raven-as-remote-influence reading.",
+      "verify": true
+    },
+    {
+      "id": "G4",
+      "type": "SUPPORTS",
+      "source": "brynden-rivers",
+      "target": "bloodravens-grand-plan",
+      "book": "tmk",
+      "chapter": "tmk-dunk-01",
+      "quote": "\"There have always been Targaryens who dreamed of things to come, since long before the Conquest,\" Bloodraven said, \"so we should not be surprised if from time to time a Blackfyre displays the gift as well. Daemon dreamed that a dragon would be born at Whitewalls, and it was. The fool just got the color wrong.\"",
+      "tier": "tier-4",
+      "note": "Extends brynden-rivers.node.md's existing (wiki-only, no book cite) quote of the opening clause with the Whitewalls/Daemon material -- the theory's anchor for prophetic dreaming running in the wider Targaryen/Blackfyre bloodline, not just the direct royal line. S216 adjudication (orchestrator override of the verifier's drop recommendation): KEPT tier-4 — the quote is Bloodraven HIMSELF analyzing Daemon's prophetic dream, direct evidence of his personal engagement with bloodline prophecy, one step short of steering it.",
+      "verify": true
+    },
+    {
+      "id": "G6",
+      "type": "SUPPORTS",
+      "source": "brynden-rivers",
+      "target": "bloodravens-grand-plan",
+      "book": "tss",
+      "chapter": "tss-dunk-01",
+      "quote": "\"Make no mistake, 'tis Lord Rivers who rules us, with his spells and spies. There is no one to oppose him.",
+      "tier": "tier-3",
+      "note": "Septon Sefton's rant to Dunk describing Brynden's total, unchecked control of the realm as Hand of the King -- the clearest textual anchor for the 'secretly a villain' strand. Same line as the already-owned Mother/Bittersteel/Redgrass-Field sentence on brynden-rivers.node.md, but this is a distinct sentence from the same passage, not a duplicate quote.",
+      "verify": true
+    },
+    {
+      "id": "G7",
+      "type": "SUPPORTS",
+      "source": "melisandre",
+      "target": "bloodravens-grand-plan",
+      "book": "adwd",
+      "chapter": "adwd-melisandre-01",
+      "quote": "A wooden face, corpse white. Was this the enemy? A thousand red eyes floated in the rising flames. He sees me. Beside him, a boy with a wolf’s face threw back his head and howled.",
+      "tier": "tier-5",
+      "note": "Melisandre's fire vision while seeking Stannis; her own POV frames this as an open question ('Was this the enemy?'), not a confirmed identification. Corpse-white wooden face matches Brynden's ADWD description; 'boy with a wolf's face' readable as Bran. S216 fresh-verify adjudication: tier-4->tier-5 — the vision is self-questioned in text ('Was this the enemy?') and both identifications are symbolic reads; kept as the canonical enemy-in-the-flames beat at honest crackpot grade.",
+      "verify": true
+    },
+    {
+      "id": "G9",
+      "type": "SUPPORTS",
+      "source": "bran-stark",
+      "target": "bloodravens-grand-plan",
+      "book": "agot",
+      "chapter": "agot-bran-03",
+      "quote": "He saw the bones of a thousand other dreamers impaled upon their points. He was desperately afraid.",
+      "tier": "tier-4",
+      "note": "Bran's earliest three-eyed-crow dream (AGOT), long before he ever reaches the cave. Theory reads 'a thousand other dreamers' as evidence Bran was not Brynden's only candidate. The same image underlies the separate, independently-ungrounded eldritch-apocalypse Euron-as-rejected-dreamer sub-claim -- not double-minted; that connection stays edge-less in both clusters. S216 fresh-verify adjudication: tier-3->tier-4 — the bones-of-a-thousand-dreamers image is suggestive nightmare symbolism; the selection-process reading is the theory's inference.",
+      "verify": true
+    },
+    {
+      "id": "P1",
+      "type": "SUPPORTS",
+      "source": "maynard-plumm",
+      "target": "maynard-plumm-theories",
+      "book": "tmk",
+      "chapter": "tmk-dunk-01",
+      "quote": "\"Distantly,\" confessed Ser Maynard, a tall, thin, stoop-shouldered man with long straight flaxen hair, \"though I doubt that His Lordship would admit to it.",
+      "tier": "tier-5",
+      "note": "Plumm's evasive non-answer about his own kinship to Lord Viserys Plumm -- read by the theory as consistent with a false identity. S216 fresh-verify adjudication: tier-4->tier-5 — kinship evasion admits many mundane readings; kept as part of the canonical Plumm case at honest grade.",
+      "verify": true
+    },
+    {
+      "id": "P2",
+      "type": "SUPPORTS",
+      "source": "maynard-plumm",
+      "target": "maynard-plumm-theories",
+      "book": "tmk",
+      "chapter": "tmk-dunk-01",
+      "quote": "Dunk whirled. Through the rain, all he could make out was a hooded shape and a single pale white eye. It was only when the man came forward that the shadowed face beneath the cowl took on the familiar features of Ser Maynard Plumm, the pale eye no more than the moonstone brooch that pinned his cloak at the shoulder.",
+      "tier": "tier-4",
+      "note": "The specific startle-beat where Dunk briefly sees what looks exactly like Bloodraven's signature single remaining eye before recognizing Plumm's brooch -- the theory's strongest textual hook, distinct from the character node's general wiki-sourced physical-description mention of the same brooch. S216 adjudication: tier-3->tier-4 — the text itself resolves the pale-eye moment to the moonstone brooch; the glamour read is a deliberate-authorial-echo interpretation.",
+      "verify": true
+    }
+  ]
+}

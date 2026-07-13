@@ -1,0 +1,134 @@
+{
+  "_meta": {
+    "unit": "Theories wave-1 Grand Maester Conspiracy cluster",
+    "session": "S216",
+    "run_id": "gmc-cluster-theories-s216",
+    "new_node_slugs": [
+      "grand-maester-conspiracy"
+    ],
+    "typed_by": "curator-theories-wave1-s216",
+    "note": "Grand Maester Conspiracy cluster: mint grand-maester-conspiracy (concept.theory). Source: ASX video svPOe0OrGAg (The Grand Maester Conspiracy: what are the maesters up to?). All quotes byte-verified against sources/chapters/*.md at cited lines via sed/grep; substrate = working/theories/extractions|regrounding|regrounding-agent/svPOe0OrGAg.jsonl, grounded rows only. S216 adjudication: M4 merged into M3 (same-sentence co-dependent testimony); M1/M2/M5 retiered tier-4; M6 retiered tier-5; double-edged Pycelle/Cressen case-study pairs adjudicated coherent (B1/B2 precedent)."
+  },
+  "edges": [
+    {
+      "id": "M1",
+      "type": "SUPPORTS",
+      "source": "barbrey-dustin",
+      "target": "grand-maester-conspiracy",
+      "book": "adwd",
+      "chapter": "adwd-the-prince-of-winterfell-01",
+      "quote": "If I were queen, the first thing I would do would be to kill all those grey rats. They scurry everywhere, living on the leavings of the lords, chittering to one another, whispering in the ears of their masters.",
+      "tier": "tier-4",
+      "note": "Dustin's general thesis on how maesters exert hidden influence over their lords (beat maester-B01) — the theory's mechanism claim, stated by its clearest in-world proponent. S216 fresh-verify adjudication: tier-3->tier-4 — Dustin evidences institutional maester INFLUENCE, one interpretive step short of coordination.",
+      "verify": true
+    },
+    {
+      "id": "M2",
+      "type": "SUPPORTS",
+      "source": "walys-flowers",
+      "target": "grand-maester-conspiracy",
+      "book": "adwd",
+      "chapter": "adwd-the-prince-of-winterfell-01",
+      "quote": "Once he forged his chain, his secret father and his friends wasted no time dispatching him to Winterfell to fill Lord Rickard’s ears with poisoned words as sweet as honey. The Tully marriage was his notion, never doubt it, he—",
+      "tier": "tier-4",
+      "note": "Dustin names the specific agent (beat maester-B06/B03) for sub-claim 0 (Robert's Rebellion angle): Maester Walys steering Rickard Stark toward the Tully marriage. Walys's own node records only the neutral biographical facts (parentage, posting) in prose — this claim about his machinations lives only in Dustin's quote, so it stays available as theory evidence rather than premise (layer-rule check performed). S216 fresh-verify adjudication: tier-3->tier-4 — a named character's uncorroborated allegation (Walys parentage 'rumored'; Dustin carries a personal grudge).",
+      "verify": true
+    },
+    {
+      "id": "M3",
+      "type": "SUPPORTS",
+      "source": "marwyn",
+      "target": "grand-maester-conspiracy",
+      "book": "affc",
+      "chapter": "affc-samwell-05",
+      "quote": "Who do you think killed all the dragons the last time around? Gallant dragonslayers armed with swords?",
+      "tier": "tier-3",
+      "note": "Marwyn's direct claim (beat maester-B09) that the maesters, not dragonslayers, killed the last Targaryen dragons — sub-claim 1, the theory's strongest single line on this thread (strength_as_presented: strong in source extraction). S216 adjudication: M4 MERGED into this edge — both claims (the Citadel killed the dragons; the Citadel wages an anti-magic project) come from the same Marwyn sentence and are co-dependent testimony, one edge not two. Framed as Marwyn's in-world allegation, not established fact.",
+      "verify": true
+    },
+    {
+      "id": "M5",
+      "type": "SUPPORTS",
+      "source": "pycelle",
+      "target": "grand-maester-conspiracy",
+      "book": "acok",
+      "chapter": "acok-tyrion-06",
+      "quote": "’twas I who bid Aerys open his gates . . .",
+      "tier": "tier-4",
+      "note": "Pycelle's own confession (beat maester-B35) that he convinced the Mad King to open the gates to Tywin's army — a maester's direct hand in ending Targaryen rule, independent of Dustin's/Marwyn's testimony. Effect stands regardless of the motive contradiction at M8. S216 fresh-verify adjudication: tier-3->tier-4 for the CONSPIRACY reading — the act (gates opened) is tier-3 fact, but M8 (Pycelle's own stated Lannister motive) makes the institutional reading an inference.",
+      "verify": true
+    },
+    {
+      "id": "M6",
+      "type": "SUPPORTS",
+      "source": "cressen",
+      "target": "grand-maester-conspiracy",
+      "book": "acok",
+      "chapter": "acok-prologue",
+      "quote": "It was made from a certain plant that grew only on the islands of the Jade Sea, half a world away. The leaves had to be aged, and soaked in a wash of limes and sugar water and certain rare spices from the Summer Isles.",
+      "tier": "tier-5",
+      "note": "Cressen procures a fatal poison specifically intended for Melisandre (beat maester-B41) — a maester independently taking concrete action against a magic-user, unprompted by Oldtown. Tier-4: the theory's own third case study, and Evidence Against (M9) documents a fully sufficient personal counter-motive. S216 fresh-verify adjudication: tier-4->tier-5 — 'unprompted by Oldtown' is an absence-inference, and M9 (fatherly motive) fully explains the act; kept only as the case-study pairing the source video itself constructs.",
+      "verify": true
+    },
+    {
+      "id": "M7",
+      "type": "SUPPORTS",
+      "source": "quaithe",
+      "target": "grand-maester-conspiracy",
+      "book": "adwd",
+      "chapter": "adwd-daenerys-02",
+      "quote": "Hear me, Daenerys Targaryen. The glass candles are burning.",
+      "tier": "tier-4",
+      "note": "Independent corroboration (beat maester-B31) that magic is returning at the same time Marwyn reaches the same conclusion from his own candle — read by the theory as evidence the Citadel's anti-magic project is failing, not evidence of the conspiracy's mechanics directly. Tier-4: one inferential step from 'magic returns' to 'therefore the suppression project exists and is failing.'",
+      "verify": true
+    },
+    {
+      "id": "M8",
+      "type": "CONTRADICTS",
+      "source": "pycelle",
+      "target": "grand-maester-conspiracy",
+      "book": "acok",
+      "chapter": "acok-tyrion-06",
+      "quote": "All I did, I did for House Lannister.",
+      "tier": "tier-3",
+      "note": "Pycelle's own confession (beat maester-B36) reframes his motive for M5 as personal loyalty to Tywin Lannister, not an organized anti-Targaryen maester agenda. Scoped: contradicts reading M5 as conspiracy evidence, not the fact of the act itself.",
+      "verify": true
+    },
+    {
+      "id": "M9",
+      "type": "CONTRADICTS",
+      "source": "cressen",
+      "target": "grand-maester-conspiracy",
+      "book": "acok",
+      "chapter": "acok-prologue",
+      "quote": "When a maester donned his collar, he put aside the hope of children, yet Cressen had oft felt a father nonetheless. Robert, Stannis, Renly . . . three sons he had raised after the angry sea claimed Lord Steffon.",
+      "tier": "tier-3",
+      "note": "Cressen's own interior motive for M6 (beat maester-B45) is explicitly fatherly protectiveness of Stannis, not doctrinal opposition to magic — the same tension the source video raises by testing Cressen as a case study and finding personal motive sufficient.",
+      "verify": true
+    },
+    {
+      "id": "M10",
+      "type": "CONTRADICTS",
+      "source": "luwin",
+      "target": "grand-maester-conspiracy",
+      "book": "acok",
+      "chapter": "acok-bran-04",
+      "quote": "Perhaps magic was once a mighty force in the world, but no longer. What little remains is no more than the wisp of smoke that lingers in the air after a great fire has burned out, and even that is fading.",
+      "tier": "tier-3",
+      "note": "Luwin states the Citadel's ordinary official position on magic (beat maester-B29): skepticism that it is real or potent anymore, not secret fear of it. Cuts against sub-claim 2 (an active suppression campaign implies the suppressors believe the thing works); the theory can read this as the party line itself, which is why it stays a contradiction of degree.",
+      "verify": true
+    },
+    {
+      "id": "M11",
+      "type": "CONTRADICTS",
+      "source": "daenerys-targaryen",
+      "target": "grand-maester-conspiracy",
+      "book": "agot",
+      "chapter": "agot-daenerys-03",
+      "quote": "Magic had died in the west when the Doom fell on Valyria and the Lands of the Long Summer, and neither spell-forged steel nor stormsingers nor dragons could hold it back",
+      "tier": "tier-4",
+      "note": "Dany's own understanding (beat maester-B27) locates magic's original decline at the Doom of Valyria, centuries before any maester conspiracy targeting the Targaryens specifically could have organized. Scoped: complicates only the 'maesters caused magic's decline' strand of sub-claim 2, not the narrower claim that maesters are hostile to whatever magic remains.",
+      "verify": true
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-07-13 (refreshed at S215 endsession; **harvest drain 46→0 DONE S215** [44 attaches / 2 parked / 0 dropped; whole-graph quote-verify 3073/3073] → prompt archived. The sole live graph track is now the **theories staging review** [fires as S216 — renumbered from 215 since harvest took S215]; theories wave-1 pipeline COMPLETE + R+L=J cluster STAGED at the mint gate, Matt: ALL theory nodes stay on STAGING pending validation)  
+**Generated:** 2026-07-13 (refreshed at S216 endsession; **staging review PASSED + the WHOLE wave-1 build-out STAGED S216** — 13 clusters / 105 edges / 8 new nodes + 6 enriches, all validated at the mint gate; "The real Jon Snow" ingested as the wave-2 opener. The live PRIMARY is now the **theories MINT-GATE review** [fires as S217 — Matt's mint decision + open-question adjudication]; secondary parallel-safe harvest drain 37→0)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,7 +12,8 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-07-13-theories-staging-review.md` | 2026-07-13 | **Theories staging review + next builds** (validate R+L=J cluster, settle schema, next theories — STAGED only) | **LIVE — PRIMARY** (fires as S216) | **Fable** orchestrator + Sonnet proposers + Haiku verifiers | Matt S214: ALL theory nodes stay on STAGING — validation review before any mint. Wave-1 substrate ready (406 byte-verified cites); R+L=J cluster dry-run-green in `working/theories/rlj-cluster/`. Open Matt questions: CITED_BY source type · umbrella stubs · chat exposure · KotLT name. |
+| `2026-07-13-theories-mint-gate.md` | 2026-07-13 | **Theories MINT-GATE review** (Matt's mint decision over the 13 staged clusters + open-question adjudication + architecture.md sync on any go) | **LIVE — PRIMARY** (fires as S217) | **Fable** orchestrator | All 13 wave-1 clusters STAGED + validated (105 edges; per-cluster `ADJUDICATION-s216.md`). Open Matt questions: mint some/all/none · whodunit question-form names · fab-in-theories · novel source-node classes. Chat exposure stays DEFERRED. |
+| `2026-07-13-harvest-drain.md` | 2026-07-13 | **Harvest drain 37→0** (S216 pointers; 30 raw-merged rows need normalization at triage) | **LIVE — secondary, parallel-safe** | **Sonnet** + Haiku verify sample | Quote attaches onto existing nodes only; skips refresh (S205 note); does NOT touch `working/theories/`. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 > *S198 note:* `2026-07-06-fire-and-blood-build-smoke.md` archived (build + Stage-1 smoke DONE, superseded by the reconciler-fix prompt above). The `2026-07-06-wiki-prose-disambiguation-composer.md` row was DONE S197 (composer built + applied 477 nodes; prompt archived).
@@ -20,7 +21,9 @@
 
 ---
 
-## Archive (`archive/` subfolder — 125 files)
+## Archive (`archive/` subfolder — 126 files)
+
+> **`2026-07-13-theories-staging-review.md`** — archived S216. **DONE (S216): the staging review PASSED and the session grew (Matt: "keep on staging") into the COMPLETE wave-1 build-out.** All 5 S214 questions adjudicated (conventions RATIFIED · CITED_BY deferred · KotLT display-renamed · chat exposure DEFERRED/open); R+L=J pressure-test BLOCK→7 repairs→re-verified CLEAR-WITH-NOTES (`rlj-cluster/REVIEW-s216.md`); then 12 more clusters through the full machine → **13 clusters / 105 edges / 8 new nodes + 6 enriches ALL STAGED at the mint gate** (per-cluster `ADJUDICATION-s216.md`; GNC layer finding + subject-link pattern; tier floor enforced; 7 substrate-integrity catches). PLUS Matt-directed: mid-session harvest drain 15→0 (verifier 3083/3083) and the **"Real Jon Snow" ingest** (205 beats / 8 headers / ~57 byte-verified cites; p2 blanket-giveup → anti-giveup redo; p1's false byte-verified claim exposed, 32/54 fails → residue). Detail: `history/session-details/session-216.md`. Superseded as live by `2026-07-13-theories-mint-gate.md`.
 
 > **`2026-07-12-harvest-drain.md`** — archived S215. **DONE (S215): harvest drain 46→0.** Routed 46 open rows → 4 node-disjoint batches → 4 parallel Sonnet attachers (dedup-first → line-verify byte-exact → attach to existing-node `## Quotes`) → orchestrator central queue-flip (agents never touched the shared queue file) → Haiku fresh-verify 8/8. **44 done / 2 parked / 0 dropped**; ~13 already-present (dedup caught the S206–S214 fab/dance-arc attaches — corlys "If this be victory", aegon-iii "Both broken", etc.). 29 node files +136/−2 (1 wiki-paraphrase upgraded in place to a byte-exact book cite). Multiple cite-corrections caught (p01→p02, disambiguation-hub stubs→real nodes) — logged in worklog S215. Gate: whole-graph `verify_node_quotes.py` 3073/3073 · `weirwood-refresh` 5/5 · pytest 1458 · deno clean. Superseded as live by `2026-07-13-theories-staging-review.md` (theories staging review).
 

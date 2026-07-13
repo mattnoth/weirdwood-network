@@ -1,0 +1,134 @@
+{
+  "_meta": {
+    "unit": "Theories wave-1 GNC cluster",
+    "session": "S216",
+    "run_id": "gnc-cluster-theories-s216",
+    "new_node_slugs": [
+      "grand-northern-conspiracy-theory"
+    ],
+    "typed_by": "curator-theories-wave1-s216",
+    "note": "Grand Northern Conspiracy cluster: mint grand-northern-conspiracy-theory (concept.theory), the out-of-world fan-synthesis reading that the Manderly plot, the Robb's-will/Jon-Snow succession thread, and the Stannis's-army mountain-clan thread are one coordinated conspiracy. Distinct slug from the existing tier-1 event.conspiracy node graph/nodes/events/grand-northern-conspiracy.node.md, which records the on-page Manderly-plot facts only. Source: ASX video ayYb4gk308M (\"'The north remembers': is there a Grand Northern Conspiracy?\"). All quotes byte-verified against sources/chapters/*.md at cited lines via grep. S216 adjudication: G2/G3 DROPPED to premise prose (event-layer facts owned by the tier-1 grand-northern-conspiracy event node — T8 precedent), G1 RETARGETED to the event node (layer fix + de-facto subject link), G4/G5 retiered tier-4."
+  },
+  "edges": [
+    {
+      "id": "G1",
+      "type": "SUPPORTS",
+      "source": "grand-northern-conspiracy",
+      "target": "grand-northern-conspiracy-theory",
+      "book": "adwd",
+      "chapter": "adwd-davos-04",
+      "quote": "The north remembers, Lord Davos. The north remembers, and the mummer’s farce is almost done. My son is home.",
+      "tier": "tier-3",
+      "note": "The confirmed on-page Manderly plot — recorded by the tier-1 event node grand-northern-conspiracy — is the theory's anchor thread; Wyman's declaration that the feigned Bolton/Frey loyalty is a mask is the strongest single support for the claim that a wider coordinated restoration effort exists. S216 adjudication: RETARGETED from wyman-manderly to the event node itself (fresh-verify layer finding) — the event-layer facts support the theory as a whole, and this edge doubles as the theory<->event subject link.",
+      "verify": true
+    },
+    {
+      "id": "G4",
+      "type": "SUPPORTS",
+      "source": "roose-bolton",
+      "target": "grand-northern-conspiracy-theory",
+      "book": "adwd",
+      "chapter": "adwd-reek-03",
+      "quote": "The Cerwyns and the Tallharts are not to be relied on, my fat friend Lord Wyman plots betrayal, and Whoresbane … the Umbers may seem simple, but they are not without a certain low cunning.",
+      "tier": "tier-4",
+      "note": "The Bolton regime's own head names Manderly, the Umbers, and the Cerwyns/Tallharts as suspected plotters — antagonist-side corroboration of a network of disloyal northern lords (though Roose never ties them into one plot). S216 fresh-verify adjudication: tier-3->tier-4 — Roose names the plotters as separate suspected plots, never one coordinated whole; the quote supports northern disloyalty while cutting against the unification claim specifically (double-edged, noted honestly).",
+      "verify": true
+    },
+    {
+      "id": "G5",
+      "type": "SUPPORTS",
+      "source": "barbrey-dustin",
+      "target": "grand-northern-conspiracy-theory",
+      "book": "adwd",
+      "chapter": "adwd-the-turncloak-01",
+      "quote": "Old Whoresbane is only here because the Freys hold the Greatjon captive. And do you imagine the Hornwood men have forgotten the Bastard’s last marriage, and how his lady wife was left to starve, chewing her own fingers?",
+      "tier": "tier-4",
+      "note": "Barbrey Dustin's own private roster of which houses (Umber, Hornwood) are only nominally loyal to the Boltons — the theory's basis for reading her as tracking, not just sympathizing with, the wider disloyalty. S216 fresh-verify adjudication: tier-3->tier-4 — the passage shows Dustin observing loyalties, not tracking a coordinated plot; the earlier 'tracking' framing was overstated.",
+      "verify": true
+    },
+    {
+      "id": "G6",
+      "type": "SUPPORTS",
+      "source": "barbrey-dustin",
+      "target": "grand-northern-conspiracy-theory",
+      "book": "adwd",
+      "chapter": "adwd-a-ghost-in-winterfell-01",
+      "quote": "Even Dustins out of Barrowton.” Lady Dustin parted her lips in a thin, feral smile. “The north remembers, Frey.",
+      "tier": "tier-4",
+      "note": "Dustin uses Wyman's own watchword in front of the Freys. Tier-4: the fact of her hostility to the Freys is solid; the theory's reading of the shared phrase as a coded signal between plotters (rather than two grieving houses independently reaching for the same sentiment) is the weaker, inferential half.",
+      "verify": true
+    },
+    {
+      "id": "G7",
+      "type": "SUPPORTS",
+      "source": "house-norrey",
+      "target": "grand-northern-conspiracy-theory",
+      "book": "adwd",
+      "chapter": "adwd-jon-07",
+      "quote": "Stannis had taken Deepwood Motte, and the mountain clans had joined him. Flint, Norrey, Wull, Liddle, all.",
+      "tier": "tier-4",
+      "note": "Establishes the mountain clans as a distinct northern bloc inside Stannis's army — the substrate for the theory's third, most speculative thread. Tier-4: the bloc's existence is textual; any secret coordination within it is not.",
+      "verify": true
+    },
+    {
+      "id": "G8",
+      "type": "SUPPORTS",
+      "source": "torghen-flint",
+      "target": "grand-northern-conspiracy-theory",
+      "book": "adwd",
+      "chapter": "adwd-jon-11",
+      "quote": "First to make the ascent were the clan chiefs Flint and Norrey, clad in fur and iron. The Norrey looked like some old fox—wrinkled and slight of build, but sly-eyed and spry. Torghen Flint was half a head shorter but must weigh twice as much—a stout gruff man with gnarled, red-knuckled hands as big as hams, leaning heavily on a blackthorn cane as he limped across the ice.",
+      "tier": "tier-4",
+      "note": "The clan chiefs' in-person visit to Jon at the Wall is textually verified; the video's reading that they came for a special (vetting) reason is not stated in the passage. Tier-4 for the unstated motive.",
+      "verify": true
+    },
+    {
+      "id": "G9",
+      "type": "SUPPORTS",
+      "source": "jon-snow",
+      "target": "grand-northern-conspiracy-theory",
+      "book": "adwd",
+      "chapter": "adwd-jon-11",
+      "quote": "Tormund Giantsbane knows better than to try me. I may seem a green boy in your eyes, Lord Norrey, but I am still a son of Eddard Stark.",
+      "tier": "tier-4",
+      "note": "Jon volunteers his Stark lineage unprompted in front of the visiting clan chiefs. Tier-4: the line is verified dialogue; reading it as a deliberate signal to a watching northern faction (rather than an offhand rebuttal to Tormund) is the theory's interpretive layer.",
+      "verify": true
+    },
+    {
+      "id": "G10",
+      "type": "SUPPORTS",
+      "source": "alys-karstark",
+      "target": "grand-northern-conspiracy-theory",
+      "book": "adwd",
+      "chapter": "adwd-jon-09",
+      "quote": "I did not know where else to turn but to the last son of Eddard Stark.",
+      "tier": "tier-3",
+      "note": "Alys's flight to Jon establishes broad northern perception of him as Ned's true heir — the emotional substrate the Robb's-will/crown-Jon sub-plot draws on. Nothing in the text suggests Alys herself knows of any conspiracy; the leap from perception to plot is the theory's own.",
+      "verify": true
+    },
+    {
+      "id": "G11",
+      "type": "SUPPORTS",
+      "source": "desmond-grell",
+      "target": "grand-northern-conspiracy-theory",
+      "book": "affc",
+      "chapter": "affc-jaime-07",
+      "quote": "Two men did not choose to depart with the others. Ser Desmond Grell, Lord Hoster’s old master-at-arms, preferred to take the black. So did Ser Robin Ryger, Riverrun’s captain of guards.",
+      "tier": "tier-4",
+      "note": "Two trusted Tully men choose the Wall (where Jon serves) over every other post-siege option after Robb's will was reportedly witnessed at Riverrun. Tier-4: the choice is textual; the video's own framing flags the reading that Edmure sent them deliberately as fan speculation, not stated motive.",
+      "verify": true
+    },
+    {
+      "id": "G12",
+      "type": "CONTRADICTS",
+      "source": "wyman-manderly",
+      "target": "grand-northern-conspiracy-theory",
+      "book": "adwd",
+      "chapter": "adwd-davos-04",
+      "quote": "If Stannis wonders that my letters say so little, it is because I dare not even trust my maester.",
+      "tier": "tier-3",
+      "note": "Wyman's own admission he cannot safely write a letter within his own city cuts directly against the 'Grand' (unified, coordinated) version of the theory: a lord this communications-constrained is poorly positioned to run reliable secret coordination with the Neck, Riverrun, and Stannis's marching column at once.",
+      "verify": true
+    }
+  ]
+}

@@ -128,3 +128,7 @@ Bran: It was [Harrenhal](wiki:Harrenhal)! Meera: Was it? Beneath its walls he sa
 [Harrenhal](wiki:Harrenhal) was where they gave me the [white cloak](wiki:Kingsguard). [Whent's](wiki:Walter_Whent) great tourney. He wanted to show us all his big castle and his fine sons. I wanted to show them too. I was only fifteen, but no one could have beaten me that day. [Aerys](wiki:Aerys_II_Targaryen) never let me joust.(wiki:Tourney_at_Harrenhal.cite_ref-Rasos31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 Daenerys: But what tourneys did [my brother](wiki:Rhaegar_Targaryen) win? Arstan: Your Grace. He won the greatest tourney of them all.(wiki:Tourney_at_Harrenhal.cite_ref-Rasos42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)
 Arstan: The greatest [lords](wiki:Lord) and mightiest champions of the [Seven Kingdoms](wiki:Seven_Kingdoms) rode in that tourney, and the [Prince of Dragonstone](wiki:Rhaegar_Targaryen) bested them all. Daenerys: But that was the tourney when he crowned [Lyanna Stark](wiki:Lyanna_Stark) as [queen of love and beauty](wiki:Queen_of_love_and_beauty)!(wiki:Tourney_at_Harrenhal.cite_ref-Rasos42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4)
+
+> Under Harren’s roof he ate and drank with the wolves, and many of their sworn swords besides, barrowdown men and moose and bears and mermen. The dragon prince sang a song so sad it made the wolf maid sniffle, but when her pup brother teased her for crying she poured wine over his head.
+
+— Meera Reed to Bran Stark, recounting the Harrenhal feast, ASOS Bran II, `sources/chapters/asos/asos-bran-02.md:191`

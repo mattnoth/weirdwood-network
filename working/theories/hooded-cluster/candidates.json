@@ -1,0 +1,156 @@
+{
+  "_meta": {
+    "unit": "Theories wave-1 Hooded Man cluster",
+    "session": "S216",
+    "run_id": "hooded-cluster-theories-s216",
+    "new_node_slugs": [],
+    "typed_by": "curator-theories-wave1-s216",
+    "note": "Hooded Man cluster: ONE enrich of the existing hooded-man-theories stub, covering both theory headers carried by the source video (Hooded Man identity + Winterfell murderer identity) as a single node with two claim threads. No new node minted — see PROPOSAL.md for the one-node-vs-two justification. Source: ASX video 36Ntv75CfqE ('Hooded Man: who is the Ghost in Winterfell?'). All quotes byte-verified against sources/chapters/*.md at cited lines (independently re-checked with sed against the grounded/regrounding-agent substrate; 3 regrounding-agent 'grounded' rows for the Harwin candidate — B33/B34/B35 — were found to be MISLOCATED on independent verification and are excluded; see PROPOSAL.md). S216 pre-verify fixes: H8 re-byte-copied; H11 tier-2->tier-3 (theory-layer tier floor)."
+  },
+  "edges": [
+    {
+      "id": "H1",
+      "type": "SUPPORTS",
+      "source": "theon-greyjoy",
+      "target": "hooded-man-theories",
+      "book": "adwd",
+      "chapter": "adwd-a-ghost-in-winterfell-01",
+      "quote": "Farther on, he came upon a man striding in the opposite direction, a hooded cloak flapping behind him. When they found themselves face-to-face their eyes met briefly. The man put a hand on his dagger. \"Theon Turncloak. Theon Kinslayer.\"",
+      "tier": "tier-3",
+      "note": "The core incident: Theon's face-to-face encounter with the hooded, cloaked man alone at night in occupied Winterfell, who names him Turncloak and Kinslayer. The entire theory is built on identifying this one figure.",
+      "verify": true
+    },
+    {
+      "id": "H2",
+      "type": "SUPPORTS",
+      "source": "rowan",
+      "target": "hooded-man-theories",
+      "book": "adwd",
+      "chapter": "adwd-theon-01",
+      "quote": "\"Not us.\" Rowan grabbed him by the throat and shoved him back against the barracks wall, her face an inch from his. \"Say it again and I will rip your lying tongue out, kinslayer.\"",
+      "tier": "tier-3",
+      "note": "Rowan uses the same 'kinslayer' epithet as the Hooded Man. The theory notes only three characters in the whole series call Theon 'kinslayer' -- the Hooded Man, Rowan, and Crowfood Umber -- reading the shared vocabulary as evidence the three are connected (conspiracy or shared knowledge), not proof any one of them IS the Hooded Man.",
+      "verify": true
+    },
+    {
+      "id": "H3",
+      "type": "SUPPORTS",
+      "source": "rowan",
+      "target": "hooded-man-theories",
+      "book": "adwd",
+      "chapter": "adwd-theon-01",
+      "quote": "Rowan gave him a hard look. \"You have no right to mouth Lord Eddard's words. Not you. Not ever. After what you did—\"",
+      "tier": "tier-4",
+      "note": "Unusual for a wildling (traditional Stark enemies) to speak with reverence of 'Lord Eddard's words.' Tier-4: suggestive of a hidden Stark-loyalist backstory (feeds the Rowan-is-Crowfood's-daughter chain in H4) but not itself proof of any specific identity.",
+      "verify": true
+    },
+    {
+      "id": "H4",
+      "type": "SUPPORTS",
+      "source": "mors-umber",
+      "target": "hooded-man-theories",
+      "book": "adwd",
+      "chapter": "adwd-jon-04",
+      "quote": "His sons died on the Trident, his wife in childbed. His only daughter was carried off by wildlings thirty years ago.",
+      "tier": "tier-4",
+      "note": "Crowfood Umber (Mors Umber) is established to have a daughter taken by wildlings ~30 years before ADWD. The theory chains this to Rowan (age-plausible, Stark-sympathetic per H3) to explain both her hatred of Theon and her willingness to risk her life for 'Lord Eddard's daughter,' and ties Crowfood generally into the conspiracy the Hooded Man may belong to. Tier-4: one link in a stacked, unconfirmed inference (age/timing/identity all assumed), same class as the R+L=J T6 HotU-vision edge.",
+      "verify": true
+    },
+    {
+      "id": "H5",
+      "type": "SUPPORTS",
+      "source": "robett-glover",
+      "target": "hooded-man-theories",
+      "book": "adwd",
+      "chapter": "adwd-davos-04",
+      "quote": "Robett Glover broke in to add, \"Your loyalty does you honor, my lord, but Stannis Baratheon remains your king, not our own.\"",
+      "tier": "tier-3",
+      "note": "Grounds candidate #1: Robett Glover is confirmed present and speaking inside Wyman Manderly's secret anti-Bolton conclave with Davos at White Harbor -- placing him genuinely within the conspiracy circle the theory needs him embedded in to plausibly have traveled north and become the Hooded Man.",
+      "verify": true
+    },
+    {
+      "id": "H6",
+      "type": "SUPPORTS",
+      "source": "hallis-mollen",
+      "target": "hooded-man-theories",
+      "book": "acok",
+      "chapter": "acok-catelyn-05",
+      "quote": "\"Hal Mollen will escort them back to Winterfell, it is his place as captain of guards.\"",
+      "tier": "tier-4",
+      "note": "Grounds candidate #3: Catelyn confirms Hal Mollen's real mission escorting Eddard Stark's bones north. The theory extends this confirmed assignment into an unconfirmed claim -- that Hal reached occupied Winterfell and became the Hooded Man -- which the text never depicts or resolves. Tier-4: the assignment is real: the arrival is not.",
+      "verify": true
+    },
+    {
+      "id": "H7",
+      "type": "CONTRADICTS",
+      "source": "hallis-mollen",
+      "target": "hooded-man-theories",
+      "book": "acok",
+      "chapter": "acok-catelyn-03",
+      "quote": "\"Hal has the truth of it,\" she answered. And a loose tongue as well, it would seem.",
+      "tier": "tier-3",
+      "note": "Catelyn's own characterization of Hal as loose-tongued cuts against him plausibly running a silent, secret hooded operation inside enemy-held Winterfell for weeks without detection.",
+      "verify": true
+    },
+    {
+      "id": "H8",
+      "type": "SUPPORTS",
+      "source": "ygritte",
+      "target": "hooded-man-theories",
+      "book": "acok",
+      "chapter": "acok-jon-06",
+      "quote": "“Aye,” she said, “but the gods hate kinslayers, even when they kill unknowing.",
+      "tier": "tier-4",
+      "note": "Ygritte's in-world parable about unknowing kinslaying is the thematic anchor the theory leans on for its 'the Kinslayer charge is literally true' reading -- that Theon may have unknowingly killed his own sons among the miller's boys (see H9). Tier-4: a thematic echo elsewhere in the text, not evidence about the miller's boys themselves. S216: quote re-byte-copied from the source line (proposer had straight quote marks; source is curly — the S213 byte-check class).",
+      "verify": true
+    },
+    {
+      "id": "H9",
+      "type": "SUPPORTS",
+      "source": "theon-greyjoy",
+      "target": "hooded-man-theories",
+      "book": "acok",
+      "chapter": "acok-theon-05",
+      "quote": "The miller's boys had been of an age with Bran and Rickon, alike in size and coloring, and once Reek had flayed the skin from their faces and dipped their heads in tar, it was easy to see familiar features in those misshapen lumps of rotting flesh.",
+      "tier": "tier-3",
+      "note": "The confirmed textual basis of the 'Kinslayer' charge: Theon really did kill and disfigure two other boys and pass them off as Bran and Rickon. This is settled; whether the boys were literally Theon's own sons by the miller's wife is NOT settled and is not asserted by this edge (see Ungrounded material).",
+      "verify": true
+    },
+    {
+      "id": "H10",
+      "type": "SUPPORTS",
+      "source": "theon-greyjoy",
+      "target": "hooded-man-theories",
+      "book": "adwd",
+      "chapter": "adwd-a-ghost-in-winterfell-01",
+      "quote": "\"The gods are not done with me,\" Theon answered, wondering if this could be the killer, the night walker who had stuffed Yellow Dick's cock into his mouth and pushed Roger Ryswell's groom off the battlements. Oddly, he was not afraid.",
+      "tier": "tier-3",
+      "note": "Theon himself, in the same scene, wonders whether the Hooded Man is the murderer -- the text voicing the very question the theory investigates -- and his own uncharacteristic lack of fear feeds the symbolic/Stranger (death) reading, which he defies by choosing to live and escape.",
+      "verify": true
+    },
+    {
+      "id": "H11",
+      "type": "CONTRADICTS",
+      "source": "the-winterfell-murders",
+      "target": "hooded-man-theories",
+      "book": "adwd",
+      "chapter": "adwd-a-ghost-in-winterfell-01",
+      "quote": "Do me, the way you did the others. Yellow Dick and the rest. It was you.",
+      "tier": "tier-3",
+      "note": "LAYER RULE (S216 GNC precedent): the live event node `the-winterfell-murders` (tier-1, S149) already establishes the killings as Mance/Abel's spearwives' covert work (SUSPECTED_OF: mance-rayder, rowan, tier-2), independent of and prior to this theory unit. That confirmed fact CONTRADICTS only the narrow sub-claim that the Hooded Man himself is the Winterfell murderer -- and is exactly the pivot the video uses to move from 'who is the killer' to 'who/what is the Hooded Man.' This edge is the subject-link between the two node layers; it does not contradict the Hooded Man's identity claim itself. Quote reused verbatim from the already-verified live edge (mance-rayder SUSPECTED_OF the-winterfell-murders, candidate_id W2). S216 adjudication: tier-2->tier-3 — THEORY-LAYER EDGES ARE TIER 3-5 ALWAYS (Matt S213 Active Decision); no event-anchored exception exists; the event node's own tier-1 status is unaffected.",
+      "verify": true
+    },
+    {
+      "id": "H12",
+      "type": "SUPPORTS",
+      "source": "walder-frey-son-of-jammos",
+      "target": "hooded-man-theories",
+      "book": "adwd",
+      "chapter": "adwd-theon-01",
+      "quote": "\"Under that ruined keep, my lord,\" replied Big Walder. \"The one with the old gargoyles.\" The boy's gloves were caked with his cousin's blood. \"I told him not to go out alone, but he said he had to find a man who owed him silver.\"",
+      "tier": "tier-3",
+      "note": "The one Winterfell-murders identity claim NOT already owned by the live event node -- `the-winterfell-murders` explicitly leaves Little Walder's death as 'a genuine open mystery' since the spearwives disclaim it. This is genuinely additive theory-layer content: Big Walder (Walder Frey son of Jammos) is found with his cousin's blood caked on his gloves, and Theon separately notes the killing was 'cunning' for driving the Freys and Manderlys to blows -- exactly the kind of calculated benefit Big Walder's own ambition for the Frey succession would explain.",
+      "verify": true
+    }
+  ]
+}

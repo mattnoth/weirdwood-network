@@ -144,6 +144,14 @@ Having escaped from [Winterfell](wiki:Winterfell) and been brought to the [croft
 
 — Wyman to Davos, explaining the mechanics of the Winterfell-pies deception, ADWD Davos IV (`sources/chapters/adwd/adwd-davos-04.md:105`)
 
+> “I have just come from the high table,” Lord Wyman went on. “I have eaten too much, as ever, and all White Harbor knows my bowels are bad. My friends of Frey will not question a lengthy visit to the privy, we hope.”
+
+— Wyman to Davos, explaining his privy-visit cover story for their secret meeting, ADWD Davos IV (`sources/chapters/adwd/adwd-davos-04.md:97`)
+
+> “Wylla.” Lord Wyman smiled. “Did you see how brave she was? Even when I threatened to have her tongue out, she reminded me of the debt White Harbor owes to the Starks of Winterfell, a debt that can never be repaid.
+
+— Wyman to Davos, on his granddaughter Wylla's defiance during the mummer's-farce arrest, ADWD Davos IV (`sources/chapters/adwd/adwd-davos-04.md:109`)
+
 ### Quotes about Wyman
 
 > “Drowning his fears. He is craven to the bone, that one.”

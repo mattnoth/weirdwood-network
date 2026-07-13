@@ -1,9 +1,10 @@
 ---
-name: "Knight of the Laughing Tree/Theories"
+name: "Lyanna was the Knight of the Laughing Tree"
 type: concept.theory
 slug: knight-of-the-laughing-tree-theories
 aliases:
   - "Knight of the Laughing Tree"
+  - "Knight of the Laughing Tree theory"
   - "KotLT"
   - "mystery knight at Harrenhal"
 claim: "The mystery knight at the tourney at Harrenhal (281 AC) — the Knight of the Laughing Tree — was Lyanna Stark in disguise."
@@ -92,11 +93,10 @@ on, whether or not Ned himself is a candidate for the knight.
 ## Evidence Against
 
 Within the story itself, Bran concludes the knight was probably Howland — the plain,
-textually "obvious" reading. Fan counter-argument (from the source video, not a
-grounded textual beat) holds that ASOIAF mysteries typically present an appealing
-obvious answer that later proves incomplete or wrong (paralleling how Jon himself was
-long believed to be Ned's bastard). No book passage confirms or denies any candidate's
-identity outright; the mystery is deliberately left open in the text as published.
+textually "obvious" reading. (The community counter-argument to that reading is
+video-sourced, not textual — see Ungrounded material.) No book passage confirms or
+denies any candidate's identity outright; the mystery is deliberately left open in
+the text as published.
 
 Physical/characterization arguments raised by the source video against the other
 named candidates (Howland himself, Brandon, Ned, Benjen) were not independently
@@ -105,6 +105,10 @@ Ungrounded material below.
 
 ## Ungrounded material (outside the corpus)
 
+- **community** — Counter-argument to the plain Howland reading: ASOIAF mysteries
+  typically present an appealing obvious answer that later proves incomplete or
+  wrong (paralleling how Jon himself was long believed to be Ned's bastard). Genre
+  reasoning from the source video, not a grounded textual beat.
 - **book-interpretive** — Detailed case-by-case elimination of the other four named
   candidates (Howland via the plain textual reading; Brandon as "tall" and already
   jousting openly under his own name; Ned as "solemn"/distaste for tourney pageantry;

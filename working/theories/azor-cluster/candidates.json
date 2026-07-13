@@ -1,0 +1,180 @@
+{
+  "_meta": {
+    "unit": "Theories wave-1 Azor Ahai / Prince That Was Promised cluster",
+    "session": "S216",
+    "run_id": "azor-cluster-theories-s216",
+    "new_node_slugs": [],
+    "typed_by": "curator-theories-wave1-s216",
+    "note": "Azor Ahai / TPTWP cluster: enrich existing azor-ahai-theories stub (concept.theory) to become the canonical node for the AA-reborn/prince-that-was-promised identity theory. Sources: ASX video O3o2LqFZcGU ('Who is Azor Ahai?') for the main candidate-testing structure, plus the held-out 'Rhaegar is Azor Ahai (Lightbringer three-swords theory)' beats from UrhqmMRv1gQ ('Rhaegar: was Jon's father the true hero of Game of Thrones?') that S214's R+L=J build deliberately excluded. the-prince-that-was-promised-theories and lightbringer-theories stubs stay dark (aliased into this node instead). All quotes byte-verified against sources/chapters/*.md at cited lines. S216 adjudication: 13C/1A/0R; Z1 dup-quote kept with note; Z14 tier-3 condition encoded; node-tier stratification sentence added to ## Claim (prophecy-existence t3 / Dany candidacy t3 / Jon+Rhaegar readings t4)."
+  },
+  "edges": [
+    {
+      "id": "Z1",
+      "type": "SUPPORTS",
+      "source": "azor-ahai",
+      "target": "azor-ahai-theories",
+      "book": "acok",
+      "chapter": "acok-davos-01",
+      "quote": "In ancient books of Asshai it is written that there will come a day after a long summer when the stars bleed and the cold breath of darkness falls heavy on the world. In this dread hour a warrior shall draw from the fire a burning sword. And that sword shall be Lightbringer, the Red Sword of Heroes, and he who clasps it shall be Azor Ahai come again, and the darkness shall flee before him.",
+      "tier": "tier-3",
+      "note": "Candidate-neutral subject-link: the legendary Azor Ahai's prophecy sets the seven-sign test the theory applies to every candidate. Sourced from the tier-1 azor-ahai character/legend node per the layer rule (its confirmed textual content anchors the whole theory). S216 adjudication: the same prophecy passage also sits in the azor-ahai node's ## Quotes — KEPT deliberately (the canonical prophecy text IS the correct evidence for the legend-node subject-link; every edge carries its own quote per convention, and node-quote overlap is a render-dedup concern, not a validity one).",
+      "verify": true
+    },
+    {
+      "id": "Z2",
+      "type": "SUPPORTS",
+      "source": "melisandre",
+      "target": "azor-ahai-theories",
+      "book": "asos",
+      "chapter": "asos-samwell-05",
+      "quote": "Stannis Baratheon is Azor Ahai come again, the warrior of fire. In him the prophecies are fulfilled. The red comet blazed across the sky to herald his coming, and he bears Lightbringer, the red sword of heroes.",
+      "tier": "tier-3",
+      "note": "Melisandre's strongest in-world claim for the Stannis candidacy; the text goes on to undermine it (see Z3/Z4).",
+      "verify": true
+    },
+    {
+      "id": "Z3",
+      "type": "CONTRADICTS",
+      "source": "salladhor-saan",
+      "target": "azor-ahai-theories",
+      "book": "acok",
+      "chapter": "acok-davos-01",
+      "quote": "That sword was not Lightbringer, my friend.",
+      "tier": "tier-3",
+      "note": "Salladhor's doubt about Stannis's drawn sword, told to Davos in the same book Melisandre proclaims Stannis Azor Ahai.",
+      "verify": true
+    },
+    {
+      "id": "Z4",
+      "type": "CONTRADICTS",
+      "source": "aemon-targaryen",
+      "target": "azor-ahai-theories",
+      "book": "affc",
+      "chapter": "affc-samwell-04",
+      "quote": "The sword is wrong, she has to know that . . . light without heat . . . an empty glamor . . . the sword is wrong, and the false light can only lead us deeper into darkness, Sam.",
+      "tier": "tier-3",
+      "note": "Aemon's dying repudiation of Melisandre's Stannis reading -- the sharpest textual pushback on the Stannis candidacy.",
+      "verify": true
+    },
+    {
+      "id": "Z5",
+      "type": "SUPPORTS",
+      "source": "aemon-targaryen",
+      "target": "azor-ahai-theories",
+      "book": "affc",
+      "chapter": "affc-samwell-04",
+      "quote": "Daenerys is the one, born amidst salt and smoke. The dragons prove it.",
+      "tier": "tier-3",
+      "note": "Aemon reverses his lifelong Rhaegar/Aegon belief and names Daenerys as the prophesied hero.",
+      "verify": true
+    },
+    {
+      "id": "Z6",
+      "type": "SUPPORTS",
+      "source": "rhaegar-targaryen",
+      "target": "azor-ahai-theories",
+      "book": "affc",
+      "chapter": "affc-samwell-04",
+      "quote": "Rhaegar, I thought . . . the smoke was from the fire that devoured Summerhall on the day of his birth, the salt from the tears shed for those who died. He shared my belief when he was young, but later he became persuaded that it was his own son who fulfilled the prophecy",
+      "tier": "tier-3",
+      "note": "Aemon's direct testimony that Rhaegar himself, then Rhaegar's son Aegon, were both once believed to be the prophesied hero -- the textual anchor for the held-out Rhaegar-as-candidate extension.",
+      "verify": true
+    },
+    {
+      "id": "Z7",
+      "type": "SUPPORTS",
+      "source": "melisandre",
+      "target": "azor-ahai-theories",
+      "book": "adwd",
+      "chapter": "adwd-melisandre-01",
+      "quote": "I pray for a glimpse of Azor Ahai, and R’hllor shows me only Snow.",
+      "tier": "tier-4",
+      "note": "Melisandre's own admitted uncertainty -- a repeated 'Snow' vision she cannot resolve -- reads toward Jon Snow while simultaneously undercutting her own Stannis proclamation (Z2). Single ambiguous vision; tier-4.",
+      "verify": true
+    },
+    {
+      "id": "Z8",
+      "type": "SUPPORTS",
+      "source": "jon-snow",
+      "target": "azor-ahai-theories",
+      "book": "adwd",
+      "chapter": "adwd-jon-13",
+      "quote": "A grey girl on a dying horse. Daggers in the dark. A promised prince, born in smoke and salt. It seems to me that you make nothing but mistakes, my lady.",
+      "tier": "tier-4",
+      "note": "Jon throws Melisandre's prophecy language back at her in frustration, in the same chapter he is fatally stabbed; the theory reads the placement (smoke/salt/star signs cluster at his death) as the hint, not the tone. Interpretive placement-reading; tier-4.",
+      "verify": true
+    },
+    {
+      "id": "Z9",
+      "type": "SUPPORTS",
+      "source": "jon-snow",
+      "target": "azor-ahai-theories",
+      "book": "agot",
+      "chapter": "agot-jon-06",
+      "quote": "I am the sword in the darkness. I am the watcher on the walls. I am the fire that burns against the cold, the light that brings the dawn",
+      "tier": "tier-4",
+      "note": "The Night's Watch vow read as Jon's fiery weapon substituting for a literal Lightbringer. Interpretive stretch; tier-4.",
+      "verify": true
+    },
+    {
+      "id": "Z10",
+      "type": "SUPPORTS",
+      "source": "rhaegar-targaryen",
+      "target": "azor-ahai-theories",
+      "book": "acok",
+      "chapter": "acok-daenerys-05",
+      "quote": "His is the song of ice and fire, my brother said. I’m certain it was my brother. Not Viserys, Rhaegar. He had a harp with silver strings.",
+      "tier": "tier-4",
+      "note": "Vision-relayed line connecting Rhaegar's prophecy fixation to 'ice and fire'; the source video itself treats it as vague and outside any formal prophecy text. Tier-4.",
+      "verify": true
+    },
+    {
+      "id": "Z11",
+      "type": "SUPPORTS",
+      "source": "rhaegar-targaryen",
+      "target": "azor-ahai-theories",
+      "book": "asos",
+      "chapter": "asos-daenerys-01",
+      "quote": "He walked up to Ser Willem Darry, the master-at-arms, and said, ‘I will require sword and armor. It seems I must be a warrior.’",
+      "tier": "tier-4",
+      "note": "Rhaegar's boyhood transformation after reading something unnamed in his scrolls -- the theory's textual anchor for when his Azor Ahai belief began, though the book never names what he read. Tier-4 (inference bridges an unstated cause).",
+      "verify": true
+    },
+    {
+      "id": "Z12",
+      "type": "SUPPORTS",
+      "source": "barristan-selmy",
+      "target": "azor-ahai-theories",
+      "book": "adwd",
+      "chapter": "adwd-daenerys-04",
+      "quote": "Your grandsire commanded it. A woods witch had told him that the prince was promised would be born of their line.",
+      "tier": "tier-3",
+      "note": "Candidate-neutral mechanism: the prophecy's in-world origin, explaining how Aerys and Rhaella (and thus their bloodline) became bound up in it.",
+      "verify": true
+    },
+    {
+      "id": "Z13",
+      "type": "SUPPORTS",
+      "source": "aemon-targaryen",
+      "target": "azor-ahai-theories",
+      "book": "affc",
+      "chapter": "affc-samwell-04",
+      "quote": "The dragon must have three heads,” he wailed, “but I am too old and frail to be one of them. I should be with her, showing her the way, but my body has betrayed me.",
+      "tier": "tier-4",
+      "note": "Aemon's dying words tie the 'three heads of the dragon' language to the identity question; his own qualifier cuts against reading it as naming one specific heir, feeding the theory's multi-candidate (Dany + Jon) reading. Tier-4.",
+      "verify": true
+    },
+    {
+      "id": "Z14",
+      "type": "SUPPORTS",
+      "source": "dragon-hatching-on-drogo-pyre",
+      "target": "azor-ahai-theories",
+      "book": "agot",
+      "chapter": "agot-daenerys-10",
+      "quote": "I will,” Dany said, “but it is not your screams I want, only your life. I remember what you told me. Only death can pay for life.",
+      "tier": "tier-3",
+      "note": "Dany's own words at the pyre where she wakes three dragons from stone -- the theory reads this as satisfying the prophecy's sacrifice and stone-dragon signs directly. Sourced from the tier-1 event node per the layer rule. S216 fresh-verify adjudication: tier-3 kept ON THE CONDITION the load-bearing fact is Dany's own stated sacrifice framing ('only death can pay for life') plus the on-page outcome; the prophecy-sign FIT reading alone would be tier-4.",
+      "verify": true
+    }
+  ]
+}

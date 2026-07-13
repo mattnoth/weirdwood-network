@@ -37,3 +37,9 @@ When Aeron is held captive by his brother, King [Euron Crow's Eye](wiki:Euron_Gr
 - PARENT_OF (reverse): Quellon Greyjoy (cite: track_b: Father)
 - PARENT_OF (reverse): Lady Stonetree (cite: track_b: Mother)
 - DIED_AT: Pyke (cite: track_b: Died)
+
+## Quotes
+
+> Harlon he recalled but dimly, sitting grey-faced and still in a windowless tower room and speaking in whispers that grew fainter every day as the greyscale turned his tongue and lips to stone. One day we shall feast on fish together in the Drowned God’s watery halls, the four of us and Urri too.
+
+— thoughts of Aeron Greyjoy, AFFC, `sources/chapters/affc/affc-the-prophet-01.md:91`

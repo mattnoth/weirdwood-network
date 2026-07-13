@@ -132,6 +132,10 @@ At the crofters' village, a fearful [Theon Greyjoy](wiki:Theon_Greyjoy) tells Ki
 >
 > —Ramsay to [Theon Greyjoy](wiki:Theon_Greyjoy)
 
+> “Ramsay.” There was a smile on his plump lips, but none in those pale pale eyes. “Snow, my wife called me before she ate her fingers, but I say Bolton.” His smile curdled.
+
+— Ramsay to Theon Greyjoy, revealing his identity after the sack of Winterfell, ACOK Theon VI (`sources/chapters/acok/acok-theon-06.md:251`)
+
 > You're not a man, Reek. You're just my creature.
 >
 > —Ramsay to Theon Greyjoy, ADWD (`sources/chapters/adwd/adwd-reek-02.md:199`)
