@@ -81,6 +81,15 @@ TYPE_DIR_MAP = {
     "prophecy": "prophecies",
     "theory": "theories",
     "concept": "concepts",
+    # concept.* subtypes with their own top-level dirs (S214 fix: the bare keys
+    # above never match a dotted type, so these routed to concepts/ by prefix —
+    # wrong per the shipped convention, e.g. all 45 concept.theory nodes live
+    # in theories/).
+    "concept.theory": "theories",
+    "concept.prophecy": "prophecies",
+    "concept.language": "languages",
+    "concept.custom": "customs",
+    "concept.medical": "medical",
     "custom": "customs",
     "language": "languages",
     "religion": "religions",

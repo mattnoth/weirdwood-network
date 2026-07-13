@@ -1,6 +1,6 @@
-# SESSION 215 — Harvest drain: 42 open rows → 0 (parallel-safe with theories wave 1)
+# SESSION 216 — Harvest drain: 46 open rows → 0 (parallel-safe with theories wave 1)
 
-> **This is Session 215.** Stamp your worklog entry `### Session 215` at endsession.
+> **This is Session 216.** Stamp your worklog entry `### Session 215` at endsession.
 > (If theories wave 1 hasn't run yet, this can also fire as S214 — whichever fires
 > second takes the higher number; coordinate via worklog.)
 > **Recommended model:** any orchestrator + **Sonnet 4.6** attachers + one Haiku
@@ -11,13 +11,13 @@
 
 ## Why
 
-S213's two dips landed **42 open rows** in `working/harvest-queue.md` (merged at
+S213's two dips landed 42 open rows + S214's R+L=J proposer added 4 = **46 open rows** in `working/harvest-queue.md` (merged at
 endsession from the per-agent harvest files) — over the ~30 bar. Endsession rule: drain
 or stage; Matt directed session close, so this is the staged drain.
 
 ## Machine (proven S139/S152/S157 — see `working/arc-enrichment-backlog.md` harvest section)
 
-1. Route the 42 open rows by target node-dir into DISJOINT batches (quotes/appearance/
+1. Route the 46 open rows by target node-dir into DISJOINT batches (quotes/appearance/
    food/hospitality; ~3 batches).
 2. Parallel Sonnet attachers, one per batch: open each `chapter:line`, verify the text is
    really there (S121 line-check), attach to the graph (node `## Quotes` / description

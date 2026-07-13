@@ -1,0 +1,168 @@
+{
+  "_meta": {
+    "unit": "Theories wave-1 R+L=J cluster",
+    "session": "S214",
+    "run_id": "rlj-cluster-theories-s214",
+    "new_node_slugs": ["r-plus-l-equals-j"],
+    "typed_by": "curator-theories-wave1-s214",
+    "note": "R+L=J cluster: mint r-plus-l-equals-j (concept.theory) + enrich existing knight-of-the-laughing-tree-theories stub. Sources: ASX videos kHqzFwodZqQ (R+L=J) + UrhqmMRv1gQ (Rhaegar, R+L=J-cluster beats only, Azor-Ahai beats held) for the first theory; eUVr_lUxYf8 (Knight of the Laughing Tree) for the second. All quotes byte-verified against sources/chapters/*.md at cited lines."
+  },
+  "edges": [
+    {
+      "id": "T1",
+      "type": "SUPPORTS",
+      "source": "eddard-stark",
+      "target": "r-plus-l-equals-j",
+      "book": "agot",
+      "chapter": "agot-eddard-02",
+      "quote": "He had lived his lies for fourteen years, yet they still haunted him at night.",
+      "tier": "tier-3",
+      "note": "Ned's fourteen-year-old lie (Jon is fourteen at AGOT's start) — the theory reads this as the concealed truth of Jon's parentage.",
+      "verify": true
+    },
+    {
+      "id": "T2",
+      "type": "SUPPORTS",
+      "source": "lyanna-stark",
+      "target": "r-plus-l-equals-j",
+      "book": "agot",
+      "chapter": "agot-eddard-10",
+      "quote": "He dreamt an old dream, of three knights in white cloaks, and a tower long fallen, and Lyanna in her bed of blood.",
+      "tier": "tier-3",
+      "note": "Ned's Tower of Joy dream; the theory reads Lyanna's 'bed of blood' as childbirth, not a death-from-violence bed.",
+      "verify": true
+    },
+    {
+      "id": "T3",
+      "type": "SUPPORTS",
+      "source": "combat-at-the-tower-of-joy",
+      "target": "r-plus-l-equals-j",
+      "book": "agot",
+      "chapter": "agot-eddard-10",
+      "quote": "A storm of rose petals blew across a blood-streaked sky, as blue as the eyes of death.",
+      "tier": "tier-3",
+      "note": "The ToJ dream fuses blue-rose (Lyanna) imagery with the fight over her; ties the event to the recurring blue-flower/Lyanna motif the theory leans on.",
+      "verify": true
+    },
+    {
+      "id": "T4",
+      "type": "SUPPORTS",
+      "source": "rhaegar-targaryen",
+      "target": "r-plus-l-equals-j",
+      "book": "agot",
+      "chapter": "agot-eddard-15",
+      "quote": "Prince Rhaegar Targaryen urged his horse past his own wife, the Dornish princess Elia Martell, to lay the queen of beauty’s laurel in Lyanna’s lap.",
+      "tier": "tier-3",
+      "note": "Rhaegar publicly choosing Lyanna over his wife Elia at Harrenhal — the theory's starting point for the Rhaegar/Lyanna relationship.",
+      "verify": true
+    },
+    {
+      "id": "T5",
+      "type": "SUPPORTS",
+      "source": "tourney-at-harrenhal",
+      "target": "r-plus-l-equals-j",
+      "book": "adwd",
+      "chapter": "adwd-the-kingbreaker-01",
+      "quote": "Rhaegar had chosen Lyanna Stark of Winterfell. Barristan Selmy would have made a different choice.",
+      "tier": "tier-3",
+      "note": "Cross-book (Barristan POV, ADWD) corroboration of the Harrenhal choice, independent of Ned's account.",
+      "verify": true
+    },
+    {
+      "id": "T6",
+      "type": "SUPPORTS",
+      "source": "daenerys-targaryen",
+      "target": "r-plus-l-equals-j",
+      "book": "acok",
+      "chapter": "acok-daenerys-04",
+      "quote": "A blue flower grew from a chink in a wall of ice, and filled the air with sweetness.",
+      "tier": "tier-4",
+      "note": "House of the Undying vision; the theory reads the blue flower (Lyanna's flower) at 'a wall of ice' as pointing to something of Lyanna's at the Wall — read as Jon. Tier-4 (S214 adjudication, fresh-verify concurring): stacked prophetic-vision symbolism — a canonical fandom hint but interpretive at every step, weaker than the tier-3 edges.",
+      "verify": true
+    },
+    {
+      "id": "T7",
+      "type": "CONTRADICTS",
+      "source": "jon-snow",
+      "target": "r-plus-l-equals-j",
+      "book": "agot",
+      "chapter": "agot-jon-06",
+      "quote": "I shall take no wife, hold no lands, father no children. I shall wear no crowns and win no glory.",
+      "tier": "tier-3",
+      "note": "Complicates the theory's throne-claim extension (not the base parentage claim): Jon's Night's Watch vow forecloses any crown even if he is Rhaegar's trueborn son.",
+      "verify": true
+    },
+    {
+      "id": "T9",
+      "type": "SUPPORTS",
+      "source": "crowning-of-lyanna-at-harrenhal",
+      "target": "r-plus-l-equals-j",
+      "book": "agot",
+      "chapter": "agot-eddard-15",
+      "quote": "He could see it still: a crown of winter roses, blue as frost.",
+      "tier": "tier-3",
+      "note": "The crowning itself plants the blue-winter-rose motif on Lyanna — the symbol the theory tracks through Ned's dreams, her crypt statue, and Dany's wall-of-ice vision. (S214 adjudication: requoted from the crypt-statue line to the crowning's own line so the quote matches the source event node; the statue quote stays in the theory node body.)",
+      "verify": true
+    },
+    {
+      "id": "T10",
+      "type": "SUPPORTS",
+      "source": "lyanna-stark",
+      "target": "knight-of-the-laughing-tree-theories",
+      "book": "asos",
+      "chapter": "asos-bran-02",
+      "quote": "‘That’s my father’s man you’re kicking,’ howled the she-wolf.",
+      "tier": "tier-3",
+      "note": "Lyanna ('the she-wolf') is the one who rescues Howland Reed from the squires, establishing her motive to avenge his honor — the theory's basis for identifying her as the mystery knight.",
+      "verify": true
+    },
+    {
+      "id": "T11",
+      "type": "SUPPORTS",
+      "source": "howland-reed",
+      "target": "knight-of-the-laughing-tree-theories",
+      "book": "asos",
+      "chapter": "asos-bran-02",
+      "quote": "the Knight of the Laughing Tree spoke in a booming voice through his helm, saying, ‘Teach your squires honor, that shall be ransom enough.’",
+      "tier": "tier-3",
+      "note": "The core incident: an anonymous knight avenges Howland Reed's mistreatment at Harrenhal by defeating his attackers' knights and demanding they teach their squires honor.",
+      "verify": true
+    },
+    {
+      "id": "T12",
+      "type": "SUPPORTS",
+      "source": "rhaegar-targaryen",
+      "target": "knight-of-the-laughing-tree-theories",
+      "book": "asos",
+      "chapter": "asos-bran-02",
+      "quote": "The king was wroth, and even sent his son the dragon prince to seek the man, but all they ever found was his painted shield, hanging abandoned in a tree.",
+      "tier": "tier-3",
+      "note": "Aerys sends Rhaegar himself to unmask the mystery knight; the theory reads this as the likely start of Rhaegar and Lyanna's secret relationship, since Rhaegar would have been well-placed to identify her.",
+      "verify": true
+    },
+    {
+      "id": "T13",
+      "type": "SUPPORTS",
+      "source": "tourney-at-harrenhal",
+      "target": "knight-of-the-laughing-tree-theories",
+      "book": "asos",
+      "chapter": "asos-bran-02",
+      "quote": "“She was,” said Meera, “but that’s a sadder story.”",
+      "tier": "tier-3",
+      "note": "Meera confirms — in response to Bran's guess that the mystery knight should crown 'the wolf maid' queen of love and beauty — that the wolf maid (Lyanna) WAS later crowned queen of love and beauty, textually tying the Knight of the Laughing Tree episode to Rhaegar's later, better-known crowning of Lyanna at the same tourney.",
+      "verify": true
+    },
+    {
+      "id": "T14",
+      "type": "SUPPORTS",
+      "source": "eddard-stark",
+      "target": "knight-of-the-laughing-tree-theories",
+      "book": "asos",
+      "chapter": "asos-bran-02",
+      "quote": "“Are you certain you never heard this tale before, Bran?” asked Jojen. “Your lord father never told it to you?”",
+      "tier": "tier-3",
+      "note": "Jojen's surprise that Ned never told Bran this story is the textual hook for the sub-theories that Ned himself was close to (or was) the mystery knight; weak/suggestive, not conclusive.",
+      "verify": true
+    }
+  ]
+}

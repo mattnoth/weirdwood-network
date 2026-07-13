@@ -84,6 +84,10 @@ Deliberately NOT wave 1: joke theories (Ser Pounce=AA, Tormund's bear, Hodor),
 character-study epics (The real Jon Snow 128m, The real Tyrion 75m — background, not
 theory), deep-lore Tier B (Summerhall / Blackfyres / Doom of Valyria — arc-enrichment
 food), Daario=Euron + HS=HR + Bolt-On-adjacent micro-theories can be wave 2.
+**Matt (S214, mid-session): the "The real X" character epics are "all great" — bump
+them to the FRONT of the wave-2 queue** (they're evidence-dense; treat as enrichment
+substrate feeding character nodes + whichever theories they adjudicate, not as one
+theory node each).
 
 ## Vocabulary
 
