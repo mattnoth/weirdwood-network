@@ -370,10 +370,49 @@ Deno.test("SHARED_RULES text is unchanged (pinned invariant) — theory-gate, ci
   // its whole step budget on broad quote-search guesses (log 2026-07-12/1cf79a22, then
   // a 10/10-step re-test 2026-07-12 that succeeded with zero headroom and still no
   // theme call). Theory-gate/cite/floor text unchanged.
-  assert.equal(sharedRules.length, 13747, "SHARED_RULES length changed — confirm intentional");
+  // Updated S213 (second pass, show-watcher UX) for: (1) the path tool line + the
+  // rewritten connection routing row (path() is now a real tool — the old row
+  // apologized for its absence); (2) the why-did-a-WAR-happen routing row (war
+  // umbrellas carry no causal edges by design — walk the constituent spark event,
+  // never remark on the empty chain; live probe showed the model narrating "the
+  // causal chain panel is empty" into an answer); (3) the no-process-narration rule
+  // in Answering — general (same probe). Theory-gate/cite/floor text unchanged.
+  assert.equal(sharedRules.length, 15020, "SHARED_RULES length changed — confirm intentional");
 });
 
 // ---- list_nodes / theme tools (query-layer wiring pass 2) ----
+
+Deno.test("TOOL_DEFS: path schema present with slug_a + slug_b required (S213 show-watcher wiring)", () => {
+  const def = TOOL_DEFS.find((t) => t.name === "path");
+  assert.ok(def, "path must be registered in TOOL_DEFS");
+  const props = def!.input_schema.properties as Record<string, unknown>;
+  assert.ok("slug_a" in props, "path must accept slug_a");
+  assert.ok("slug_b" in props, "path must accept slug_b");
+  assert.deepEqual(def!.input_schema.required, ["slug_a", "slug_b"]);
+});
+
+Deno.test("dispatchTool: path routes to tools.path and caps bridges at 10", () => {
+  let called: [string, string] | null = null;
+  const fakeTools = {
+    path: (a: string, b: string) => {
+      called = [a, b];
+      return {
+        slugA: a, slugB: b, directEdges: [],
+        totalBridges: 30, bridgesShown: 30,
+        bridges: Array.from({ length: 30 }, (_, i) => ({
+          bridge: `b${i}`, aTypes: [], bTypes: [], aDir: "out", bDir: "in",
+          aEdgeCount: 1, bEdgeCount: 1,
+        })),
+      };
+    },
+  } as unknown as Parameters<typeof dispatchTool>[2];
+  const out = dispatchTool("path", { slug_a: "ned-stark", slug_b: "rat-cook" }, fakeTools) as {
+    bridges: unknown[]; totalBridges: number;
+  };
+  assert.deepEqual(called, ["ned-stark", "rat-cook"]);
+  assert.equal(out.bridges.length, 10, "wire payload caps bridges at 10");
+  assert.equal(out.totalBridges, 30, "untruncated total still reported");
+});
 
 Deno.test("TOOL_DEFS: list_nodes schema present with type (required) + has_quotes/limit/offset (optional)", () => {
   const def = TOOL_DEFS.find((t) => t.name === "list_nodes");

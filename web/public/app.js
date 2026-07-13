@@ -211,7 +211,7 @@ function freshTurn() {
   return {
     chainLinks: [], upstream: [], downstream: [], enables: [],
     nodes: new Map(), resolves: [], neighbors: [], familyTrees: [],
-    searches: [], lists: [], themes: [],
+    searches: [], lists: [], themes: [], paths: [],
     entities: new Map(),
     title: "", querySlug: null,
   };
@@ -252,10 +252,13 @@ function stripEdgeQuotes(s) {
 }
 
 function bookQuote(text, speaker, cite) {
-  const spk = speaker ? cleanQuote(speaker) : "";
+  let spk = speaker ? cleanQuote(speaker) : "";
   const src = prettyCite(cite);
   // Some curated quotes bake the chapter into BOTH the attribution and the cite;
-  // don't print the source twice.
+  // don't print the source twice. Also drop a trailing bare book label from the
+  // attribution when a real cite follows — "Gyldayn's chronicle, F&B" + the cite's
+  // "FAB Rhaenyra Overthrown 18" was rendering as "F&B FAB …" (S213 phone find).
+  if (src) spk = spk.replace(/,?\s*(?:F&B|AGOT|ACOK|ASOS|AFFC|ADWD|TWOIAF)\s*$/i, "");
   const attr = (src && !spk.includes(src) ? [spk, src] : [spk]).filter(Boolean).join(", ");
   const body = cleanQuote(text);
   if (attr) {
@@ -623,27 +626,33 @@ async function openDossier(slug, fallbackName) {
       // the generic "no quotes" line with more emptiness, a fully-thin node
       // gets ONE quiet explanatory line instead.
       const isThin = !overviewIdentity && !hasQuotes && !proseSections.length && !arcSection;
-      // Card order (Matt, S213 phone testing): description FIRST — overview, then
-      // the node's prose sections — and the curated quotes UNDERNEATH as one
-      // labelled group. Leading with bare quotes read as "random quotes" on
-      // mobile whenever the overview was empty. Arc stays last (longest).
+      // Card order v2 (Matt, S213 second phone pass): QUOTES FIRST under a small
+      // "Directly from the text" label — they're the crown jewels, not a footer —
+      // then the description block under ONE small "From the ASOIAF wiki" credit
+      // (overview + body sections; provenance is mixed but the wiki deserves the
+      // credit line), arc last. Labels stay dossier-sub small — sectioning, not
+      // highlights.
+      const description = [];
+      if (overviewIdentity || proseSections.length) {
+        description.push(el("div", { class: "dossier-sub" }, "From the ASOIAF wiki"));
+        if (overviewIdentity) {
+          description.push(el("div", { class: "dossier-wiki" }, [
+            el("p", { class: "dossier-identity" }, overviewIdentity),
+          ]));
+        }
+        description.push(...proseSections);
+      }
       children = [
         el("div", { class: "dossier-head" }, [
           el("h3", {}, node.name || label),
           node.type ? el("span", { class: "dossier-type" }, prettyType(node.type)) : false,
         ]),
-        overviewIdentity
-          ? el("div", { class: "dossier-wiki" }, [
-              el("div", { class: "dossier-sub" }, "Overview"),
-              el("p", { class: "dossier-identity" }, overviewIdentity),
-            ])
-          : false,
-        ...proseSections,
         isThin
           ? el("p", { class: "dossier-empty" }, "No prose recorded for this entry — it appears in the graph through its connections.")
           : (hasQuotes
-            ? el("div", { class: "dossier-quotes" }, [el("div", { class: "dossier-sub" }, "From the books"), quoteList(node.quotes)])
-            : el("p", { class: "dossier-empty" }, "No curated book quotes on this node yet.")),
+            ? el("div", { class: "dossier-quotes" }, [el("div", { class: "dossier-sub" }, "Directly from the text"), quoteList(node.quotes)])
+            : false),
+        ...description,
         arcSection,
       ];
     }
@@ -727,6 +736,41 @@ function searchCard(s) {
     s.query ? el("div", { class: "resolve-line resolve-phrase" }, `“${s.query}”`) : false,
     rows.length ? rows : el("div", { class: "resolve-line" }, "nothing matched in the quote layer"),
     more > 0 ? el("div", { class: "card-more" }, `+${more} more shown to the answerer`) : false,
+  ]);
+}
+
+/** The connection between two entities — path()'s receipt card: the two
+ *  endpoints, every direct edge (typed pill + evidence quote), then the
+ *  shared-neighbor bridges as chips with their leg types (S213). */
+function pathCard(p) {
+  const direct = (p.directEdges || []).map((e) =>
+    el("div", { class: "search-hit" }, [
+      el("div", { class: "search-hit-head" }, [
+        nodeChip(e.source, bestName(e.source)),
+        edgePill(e.edge_type),
+        nodeChip(e.target, bestName(e.target)),
+      ]),
+      e.evidence_quote ? bookQuote(e.evidence_quote, null, e.ref) : false,
+    ]));
+  const bridges = (p.bridges || []).map((b) =>
+    el("div", { class: "resolve-line" }, [
+      nodeChip(b.bridge, bestName(b.bridge)),
+      el("span", { class: "resolve-meta" },
+        ` ${(b.aTypes || []).join("/").toLowerCase() || "linked"} · ${(b.bTypes || []).join("/").toLowerCase() || "linked"}`),
+    ]));
+  const more = (p.totalBridges || 0) - (p.bridges || []).length;
+  return el("div", { class: "card" }, [
+    cardKind("↔", "connection", p.directEdges?.length
+      ? `${p.directEdges.length} direct`
+      : `${(p.bridges || []).length} bridge${(p.bridges || []).length === 1 ? "" : "s"}`),
+    el("div", { class: "resolve-line resolve-phrase" },
+      `${bestName(p.slugA)} ↔ ${bestName(p.slugB)}`),
+    direct.length ? direct : false,
+    bridges.length ? [el("div", { class: "dossier-sub" }, "through"), ...bridges] : false,
+    !direct.length && !bridges.length
+      ? el("div", { class: "resolve-line" }, "no recorded connection in the graph")
+      : false,
+    more > 0 ? el("div", { class: "card-more" }, `+${more} more shared connections`) : false,
   ]);
 }
 
@@ -1140,6 +1184,7 @@ function renderReceipts() {
   // Evidence-rich cards first (passages), then the browse cards (theme/list),
   // then connections; the thin name-lookup traces close the rail.
   const supporting = [
+    ...turn.paths.map((p) => pathCard(p)),
     ...turn.searches.map((s) => searchCard(s)),
     ...turn.themes.map((t) => themeCard(t)),
     ...turn.lists.map((l) => listCard(l)),
@@ -1433,6 +1478,14 @@ function ingestReceipt({ tool, input, result }) {
       if (result && Array.isArray(result.members) && result.members.length) {
         turn.familyTrees.push(result);
         for (const m of result.members) if (m.hasNode) addEntity(m.slug, m.name);
+      }
+      break;
+    case "path":
+      if (result) {
+        turn.paths.push(result);
+        addEntity(result.slugA);
+        addEntity(result.slugB);
+        for (const b of result.bridges || []) addEntity(b.bridge);
       }
       break;
     case "search_quotes": {

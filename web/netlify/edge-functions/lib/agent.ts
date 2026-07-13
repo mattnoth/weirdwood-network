@@ -122,6 +122,7 @@ const SHARED_RULES = `# Answering — general
 - Answer the question directly: no greeting, no preamble. If a visitor sends only a greeting with no real question, reply with the bare "Ask your questions…" and nothing more — and NEVER prepend "Ask your questions…", or any greeting, to a real answer.
 - NO markdown formatting of any kind — no bold, no headers, no bullet or numbered lists. Flowing plain paragraphs only. The ONLY special syntax you ever emit is the quote marker [[q|...]].
 - Never use the words "chain" or "link" to name the events in your answer — those label the interface's panel beside you, not your prose. Speak of causes, consequences, and sequence instead.
+- Never narrate your process or a tool's outcome mid-answer — no "the causal chain panel is empty", no "let me pull the relationships", no thinking out loud between sentences. If a lookup comes back empty, silently take the next step; the reader sees only the finished answer (an honest "the books do not reveal it" conclusion is fine — a play-by-play of your searching is not).
 
 # Stay within the revealed text — do NOT introduce theories
 - You answer ONLY to what the books and this graph actually establish. Do NOT assert, allude to, hint at, or foreshadow unconfirmed fan theories, unrevealed secrets, or a character's hidden "true" identity or parentage — e.g. whose child Jon Snow "really" is, who Azor Ahai or the prince that was promised "is", the face behind a disguise the books have not confirmed.
@@ -139,6 +140,7 @@ You have read-only tools over the graph. Use them; do not answer from memory whe
 - read_node(slug): a node's name, type, a short identity summary, and its curated book quotes (each with a chapter:line citation). Call this to get real book lines and the gist of an entity or event.
 - walk_chain(slug): the causal chain through an event — what led to it (upstream) and what it caused (downstream), as typed links (CAUSES / TRIGGERS / MOTIVATES), each with its own evidence quote and citation. It returns a tight, depth-bounded spine — that is what you narrate. It ALSO returns a separate list of ENABLES preconditions; the interface shows those behind a toggle, so do NOT fold them into your prose unless the visitor explicitly asks what made the event possible.
 - neighbors(slug): everything directly connected to a node, grouped by typed relationship — this is where relationship FACTS live (knightings, killings, marriages, commands, betrayals, suspicions), and each link carries its own evidence quote and citation. read_node does NOT show these; the dossier has no edges.
+- path(slug_a, slug_b): how TWO entities are connected — every direct edge between them (with evidence quotes and citations) plus shared-neighbor bridges (nodes linked to both, with the edge types on each leg). One call answers "how are X and Y connected".
 - family_tree(slug): the LINEAGE around a person — ancestors and descendants through parentage, with spouses — returned as a bounded tree in ONE call. Do NOT try to build a family tree by fanning out with neighbors — that spends your steps on titles and succession and never assembles the line.
 - search_quotes(query, type?): keyword search over curated book quotes and node identity blurbs — content-first, not slug-first. Returns ranked hits, each a quote or identity blurb with its node slug, type, text, and citation.
 - list_nodes(type, has_quotes?): browse every node of one category (e.g. "foods", "customs") — a plain listing, not a search. Returns up to 25 rows at a time ({slug, type, name}), plus the total count when there are more than that. Use this to survey a whole category when the visitor's question names a KIND of thing rather than one entity.
@@ -151,7 +153,8 @@ Use this table to pick your first move; then work in steps (resolve the phrase, 
 - **Why did X happen / what did X cause / consequences, ramifications** (an event's causes or effects): resolve → read_node → walk_chain. **MANDATORY** — this is the one case where a tool call is not optional: when the visitor asks why an event happened, what led to it, what caused it, or what it caused, you MUST call walk_chain on the event's node before answering. Never answer a causal question about an event from memory alone — the walked chain is the evidence the interface shows beside your answer; skip it and the panel is empty and the answer is unproven.
 - **Lineage, dynasty, bloodline, descendants, ancestry, family tree** ("the Targaryen family tree from Aegon the Conqueror", "who are Ned Stark's children", "trace the descent of House X"): resolve, then family_tree on the rooted person — one call builds the whole tree the interface renders beside you. Do not reconstruct a lineage from memory, and do not use neighbors for it.
 - **Describe, thematic, quotes, food, customs, hospitality, songs, dress** — anything better answered by finding the passages than by resolving one entity ("describe some meals", "what do we know about guest right"): search_quotes directly. You don't need to resolve first — search_quotes takes a keyword phrase, not a slug.
-- **Connection between X and Y** ("how are X and Y connected", "what links X to Y"): resolve both, then neighbors on the more specific one. (A dedicated path op is not yet available — use neighbors as the substitute for now.)
+- **Connection between X and Y** ("how are X and Y connected", "what links X to Y", "did X and Y ever meet"): resolve both, then **path(slug_a, slug_b)** — one call returns the direct edges and the bridge nodes linking them. Narrate the strongest direct edge first (quote it), then the most telling bridges; do not fan out with neighbors on both ends.
+- **Why did a WAR happen** ("why did the Dance of the Dragons happen", "what caused the War of the Five Kings"): war nodes are umbrellas — their causes chain through their CONSTITUENT events, so walk_chain on the war node itself often returns nothing. Do not remark on that. Go to the war's opening spark instead: resolve the triggering event the war's own description names (a king's death, a usurpation, a secession) and walk_chain THAT event; neighbors on the war node gives who led each side (COMMANDS_IN).
 - **Describe some / what kinds of X exist / survey a category** — a broad, aggregative ask with no single entity to resolve ("describe some detailed meals in the books", "what kinds of hospitality customs are there", "survey the songs sung in the books"): call list_nodes or theme FIRST to browse the category or theme's members, then follow up with search_quotes or read_node on the specific members that look interesting for depth and quotable lines. Do not try to guess individual node names from memory and resolve them one at a time — that is exactly the loop this pair of tools exists to short-circuit.
 - **Superlative or comparative across a category** ("the most vile meal", "the grandest feast", "the saddest song", "the worst betrayal"): this is a category survey wearing a superlative — same first move as the row above. Call theme (when a named theme fits, e.g. meals & feasts) or list_nodes FIRST to get the field of candidates, then read_node or search_quotes on the strongest few and compare. Do NOT open with broad search_quotes guesses or try to resolve a winner from memory — the member list is what the comparison stands on.
 - **Resilience rule:** after 2 consecutive failed or ambiguous resolve() calls on the same underlying question, stop trying more resolve phrasings and call search_quotes instead — a keyword search over the quote/identity layer will usually surface the right passage even when the entity name won't resolve.
@@ -246,6 +249,19 @@ export const TOOL_DEFS = [
         slug: { type: "string", description: "The node slug." },
       },
       required: ["slug"],
+    },
+  },
+  {
+    name: "path",
+    description:
+      'Find how TWO entities are connected: every direct edge between them (each with its evidence quote and citation) plus shared-neighbor bridges — nodes linked to BOTH, with the edge types on each leg. Call this for "how are X and Y connected / what links X to Y / is there a connection between X and Y" questions: resolve both names first, then call this ONCE. Not for causal chains (walk_chain) and not for one node\'s full connection list (neighbors).',
+    input_schema: {
+      type: "object",
+      properties: {
+        slug_a: { type: "string", description: "The first node slug (from resolve())." },
+        slug_b: { type: "string", description: "The second node slug (from resolve())." },
+      },
+      required: ["slug_a", "slug_b"],
     },
   },
   {
@@ -358,6 +374,21 @@ export function dispatchTool(
       return tools.walkChain(slug);
     case "neighbors":
       return tools.neighbors(slug);
+    case "path": {
+      const a = typeof input.slug_a === "string" ? input.slug_a : "";
+      const b = typeof input.slug_b === "string" ? input.slug_b : "";
+      const r = tools.path(a, b);
+      // Payload guard: the op caps bridges at 50; the model needs far fewer to
+      // narrate a connection. Direct edges pass through whole (they carry the
+      // quotes/refs the cite gate harvests).
+      return {
+        slugA: r.slugA,
+        slugB: r.slugB,
+        directEdges: r.directEdges,
+        totalBridges: r.totalBridges,
+        bridges: r.bridges.slice(0, 10),
+      };
+    }
     case "family_tree":
       return tools.familyTree(slug);
     case "search_quotes": {
@@ -472,6 +503,17 @@ export function harvestResult(
       }
     }
   }
+
+  // path → { directEdges: [{ ref, evidence_quote }], bridges: [...] } (S213).
+  // Direct edges carry citable evidence; bridges ground a connection answer the
+  // same way list/theme rows ground a survey (no citable line, still evidence).
+  if (Array.isArray(r.directEdges)) {
+    for (const e of r.directEdges as Array<Record<string, unknown>>) {
+      if (typeof e.ref === "string" && e.ref) validCites.add(e.ref);
+      grounding++;
+    }
+  }
+  if (Array.isArray(r.bridges)) grounding += (r.bridges as unknown[]).length;
 
   // family_tree → { parentBonds: [{ ref }], spouseBonds: [{ ref }] }
   for (const key of ["parentBonds", "spouseBonds"] as const) {
