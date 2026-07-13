@@ -1,6 +1,6 @@
 # Continue-Prompts Triage Manifest
 
-**Generated:** 2026-07-11 (refreshed at S211 endsession; **edge-vocab retrofit Part B DONE** [+30 edges → 26,382; SUSPECTED_OF 23→41, knighting 16→26] **+ node-type promotion sweep DONE** [12 retypes / 5 holds] **+ the relationship-routing fix live** — the one live graph track is now the **roles slice** [313 zero-role events → ranked top-~50 round])  
+**Generated:** 2026-07-12 (refreshed at S213 endsession; **roles slice DONE** [rounds 1+2 = 337 edges, tail documented] · **Dance/HotD dip minted** [+21 edges, 57 quotes] · **1,836-quote cite upgrade** · **path tool live** · **THEORIES GATE OPENED** — the PRIMARY live track is **theories wave 1**; the harvest drain [42 rows, rule-mandated stage] rides as the one parallel-safe secondary)  
 **Rule:** `worklog.md` is the authoritative state file. When a prompt's claims contradict it, the prompt is marked STALE or DONE — the prompt's *content* is left unchanged per the hard rule above.  
 **Status vocabulary:** LIVE | DONE | STALE-superseded-by-\<what\> | MERGED-into-worklog | HALTED-gated-on-\<what\>
 
@@ -12,7 +12,8 @@
 
 | Filename | Date | Track | Status | Recommended Model | Note |
 |----------|------|-------|--------|-------------------|------|
-| `2026-07-11-roles-slice-round2.md` | 2026-07-11 | Roles slice ROUND 2 (ranks 51–~100) | **LIVE** (fires as S213) | Sonnet 4.6 + Haiku verify | Next ~50 of the ranked zero-role remainder (262 saved in `working/roles-slice-s212/ranked-all.json` — NO re-rank); S212 machine verbatim + NEW early-stop rule (cut thin-stub packets honestly) + the standing deterministic VICTIM_IN-subtype audit (caught what Haiku missed in S212); mint/deploy gated on Matt's go (the S212 autonomous grant was session-scoped). Expected outcome: slice DECLARED DONE after this round. |
+| `2026-07-12-theories-wave1.md` | 2026-07-12 | **Theories wave 1** (ASX transcripts → re-ground → first mints) | **LIVE — PRIMARY** (fires as S214) | **Fable** orchestrator + Sonnet extract/propose + Haiku verify | Gate opened by Matt S213. 15 transcripts on disk (`working/theories/videos/transcripts/`); pipeline+schema `working/theories/README.md`. Start with the R+L=J cluster. ASX = map, books = truth; Tier 3–5 always; chat guardrail untouched; mint/deploy on Matt's go. |
+| `2026-07-12-harvest-drain.md` | 2026-07-12 | Harvest drain 42→0 | **LIVE — secondary, parallel-safe** (rule-mandated stage, endsession step 0) | Sonnet attachers + Haiku sample-verify | S213's two dips landed 42 open rows (> ~30 bar); endsession rule requires drain-or-stage — this is the stage. Disjoint from theories except the final apply (serialize mints). NOT a co-equal "next" — theories is the pick; this exists so the queue can't balloon silently. |
 | `2026-06-29-dunk-egg-pass1-smoke.md` | 2026-06-29 | Dunk & Egg Pass-1 — v4 prompt smoke test | **PARKED** (D&E, Matt 2026-06-23) | Opus 4.8 | **PARKED by Matt 2026-06-23** (running it concurrently with enrichment was too confusing — revisit when fresh). Smoke still un-run. Harness + v4 prompt DESIGNED S131 (`working/dunk-egg-pass1/`). NEXT when un-parked: smoke v4 on THK from a logged-in iTerm → fresh-judge → promote or iterate to v4b. **Confirm before any extraction incl. smoke** (`feedback_no_extraction_without_asking`). State: `worklog-dunk-egg.md`. |
 
 > *S198 note:* `2026-07-06-fire-and-blood-build-smoke.md` archived (build + Stage-1 smoke DONE, superseded by the reconciler-fix prompt above). The `2026-07-06-wiki-prose-disambiguation-composer.md` row was DONE S197 (composer built + applied 477 nodes; prompt archived).
@@ -20,7 +21,9 @@
 
 ---
 
-## Archive (`archive/` subfolder — 122 files)
+## Archive (`archive/` subfolder — 123 files)
+
+> **`2026-07-11-roles-slice-round2.md`** — archived S213. **DONE (S213): roles round 2 executed end-to-end, slice DECLARED DONE.** Frozen ranks 51–100 (round-1 leftovers correctly excluded — still-zero-role top-50 events had adjudicated to 0 roles); early-stop tripped (median deg 3.0 < 4) → cut at score-50 knee, 24 events; 4 Sonnet proposers 103 candidates → 4 Haiku verifiers 94C/5A/4P (2 quote-PROBLEMs were verifier FALSE POSITIVES, overridden by the deterministic byte-check) → adjudication 101 kept → Matt-signed mint → edges.jsonl **26,719**. Rounds 1+2 = 337 role edges on 74 events; ~185-event tail = quote-zero stubs, documented not-worth-it. Records: `working/roles-slice-s213/`. Detail: `history/session-details/session-213.md`. Superseded as live by `2026-07-12-theories-wave1.md`.
 
 > **`2026-07-11-roles-slice.md`** — archived S212. **DONE (S212): roles slice ROUND 1 executed end-to-end** (+236 role edges → edges.jsonl **26,618**; top-50 ranked zero-role events; 4 Sonnet proposers 244 candidates → 4 Haiku verifiers 233C/5A/6P → adjudication 8 drops incl. the lyanna VICTIM_IN harm-gate catch → fresh pressure-test CLEAR → mint, Matt-authorized autonomous [session-scoped grant]; all five kings now COMMANDS_IN wo5k, live-probed 10/10 cites). Remainder 262 ranked in `working/roles-slice-s212/ranked-all.json`. Records: `working/roles-slice-s212/`. Detail: `history/session-details/session-212.md`. Superseded as live by `2026-07-11-roles-slice-round2.md`.
 
