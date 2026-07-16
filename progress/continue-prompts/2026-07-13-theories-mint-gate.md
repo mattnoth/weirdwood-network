@@ -1,6 +1,8 @@
-# SESSION 217 — Theories MINT-GATE review: Matt's mint decision over the 13 staged wave-1 clusters
+# SESSION 218 — Theories MINT-GATE review: Matt's mint decision over the 13 staged wave-1 clusters
 
-> **This is Session 217.** Stamp your worklog entry `### Session 217` at endsession.
+> **This is Session 218.** Stamp your worklog entry `### Session 218` at endsession.
+> (Renumbered 217→218 at the S217 endsession: S217 was a docs/deploy meta session that
+> changed NO graph state. Everything in the State section below still holds verbatim.)
 > **Recommended model:** **Fable orchestrator** (this is an adjudication + potential first-mint session with Matt; any new builds spawn Sonnet proposers + Haiku fresh-verifiers).
 > **PRE-REQ:** S216 committed+pushed. If git log disagrees with worklog.md S216, STOP and reconcile.
 

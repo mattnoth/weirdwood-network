@@ -1,248 +1,160 @@
 # The Weirwood Network
 
-A structured knowledge graph for A Song of Ice and Fire (ASOIAF). Extracts characters, locations, events, relationships, and more from the source texts into a queryable graph with spoiler gating.
+A structured knowledge graph for A Song of Ice and Fire (ASOIAF). Characters, locations,
+events, relationships, and more are extracted from the source texts and the AWOIAF wiki into
+a queryable graph of typed, cited edges — **9,225 nodes and 26,740 edges** — with a deployed
+chat-UI on top of it.
 
-## Live Chat Demo — Ask Bloodraven
+*(Spoiler gating via `first_available` is designed but **deferred** — the field is optional
+in v1 nodes and existing values may be wrong. Don't rely on it yet.)*
+
+## Live Chat Demo — the Loremaster
 
 **→ https://weirwood-network.netlify.app**
 
-A deployed, book-grounded loremaster chat built on top of the graph. Ask a question
-and **Bloodraven** answers in character, grounded in the Weirwood Network: he resolves
-your query to real graph nodes, walks the typed-edge relationships, quotes the books with
-citations, and shows you the **chain of edges he walked** as receipts. Ask for a lineage
-(*"the Targaryen line from Aegon the Conqueror down to Daenerys"*) and he renders the
-family tree; ask a causal question (*"why did Robert's Rebellion start?"*) and he narrates
-the CAUSES/TRIGGERS/MOTIVATES chain.
+A deployed, book-grounded ASOIAF chat built on top of the graph. Ask a question and the
+**loremaster** answers in a flat, factual researcher's register, grounded in the Weirwood
+Network: it resolves your query to real graph nodes, walks the typed-edge relationships,
+quotes the books with citations, and shows you the **chain of edges it walked** as receipts.
+Ask for a lineage (*"the Targaryen line from Aegon the Conqueror down to Daenerys"*) and it
+renders the family tree; ask a causal question (*"why did Robert's Rebellion start?"*) and it
+narrates the CAUSES/TRIGGERS/MOTIVATES chain.
+
+A second in-character **Bloodraven** persona exists in the code but is **parked** — the
+toggle is not exposed in the UI, and the loremaster is the only live voice.
 
 **Stack:** static front-end + **Netlify Edge Functions** (Deno/TypeScript) running a Claude
-tool-use loop on **Sonnet 4.6**. The ~8.7 MB curated-graph bundle is generated from `graph/`
-at build time (`scripts/build-chat-export.py`) and compiled into the edge function; the
-Anthropic API key lives server-side in the function (the browser never sees it), behind a
-daily spend cap. Full details and local-dev instructions: [`web/README.md`](web/README.md).
+tool-use loop. Production runs **Opus 4.8**, set via the `WEIRWOOD_MODEL` env var (which
+overrides the code default). The ~13 MB curated-graph bundle is generated from `graph/` at
+build time and compiled into the edge function; the Anthropic API key lives server-side in
+the function (the browser never sees it), behind a daily spend cap. Full details and
+local-dev instructions: [`web/README.md`](web/README.md). Deploy procedure (there is no
+git-CD — pushing ships nothing): [`DEPLOY.md`](DEPLOY.md).
 
 Run it locally:
 
 ```bash
-python3 scripts/build-chat-export.py   # (re)generate the web/data/ bundle
-cd web && deno task test               # 36 tests over the retrieval core
+# (re)generate the web/data/ bundle — three separate builders, all three needed
+python3 graph/query/build/build_chat_bundle.py
+python3 graph/query/build/build_search_index.py
+python3 graph/query/build/build_theme_index.py
+
+cd web && deno task test   # 102 tests over the retrieval core
 # live end-to-end: `netlify dev` (needs the Netlify CLI + an ANTHROPIC_API_KEY in web/.env)
 ```
 
-## Getting Started
+## Explore the Graph Locally
 
-### Prerequisites
-
-- **iTerm2** (the extraction launcher opens tabs automatically)
-- **`claude` CLI** installed and authenticated ([claude.ai/code](https://claude.ai/code))
-- **Python 3** (for the chapter splitter and stats)
-- **Source text files** — plain `.txt` files of the five ASOIAF novels (you provide these)
-
-### 1. Clone and set up the shell function
+The graph is **already built and committed** — 9,225 nodes and 26,740 typed edges under
+`graph/`. Nothing needs extracting or fetching to query it. Set up the shell function once:
 
 ```bash
-git clone <repo-url> ~/source/asoiaf-chat
-cd ~/source/asoiaf-chat
-
-# Add the weirwood function to your shell
 echo 'source ~/source/asoiaf-chat/scripts/weirwood.zsh' >> ~/.zshrc
 source ~/.zshrc
 ```
 
-If the repo isn't at `~/source/asoiaf-chat`:
+If the repo isn't at `~/source/asoiaf-chat`, point `WEIRWOOD_PROJECT_DIR` at it first:
 
 ```bash
 export WEIRWOOD_PROJECT_DIR="/path/to/asoiaf-chat"
 source "$WEIRWOOD_PROJECT_DIR/scripts/weirwood.zsh"
 ```
 
-### 2. Place your source files
-
-> **Already have `sources/raw/`, `sources/chapters/`, and `sources/wiki/` populated?** Skip to step 4 (`weirwood check`).
-
-Put your plain-text `.txt` source files in `sources/raw/`:
-
-| File | Book |
-|------|------|
-| `GoT.txt` | A Game of Thrones |
-| `ACOK.txt` | A Clash of Kings |
-| `ASOS.txt` | A Storm of Swords |
-| `AFFC.txt` | A Feast for Crows |
-| `ADWD.txt` | A Dance with Dragons |
-
-These are `.txt` files converted from EPUB. The chapter splitter expects them.
-
-> **Don't have .txt files?** Tell Claude Code where your source files are (EPUB, PDF, whatever) and it can help convert and place them. Just say: *"My books are at /path/to/files, help me get them set up."*
-
-> **Important:** Source files are gitignored and must never be committed. The `sources/raw/` and `sources/chapters/` directories are protected by `.gitignore`.
-
-### 3. Split chapters
-
-The chapter splitter breaks each book into individual chapter files with YAML frontmatter:
+`weirwood query` is the front door to the traversal engine (`graph/query/weirwood_query/`).
+Every command takes a **slug** (`eddard-stark`, `house-stark`) — use `resolve` to turn a
+natural phrase into one:
 
 ```bash
-python3 scripts/chapter-splitter.py sources/raw/GoT.txt agot
-python3 scripts/chapter-splitter.py sources/raw/ACOK.txt acok
-python3 scripts/chapter-splitter.py sources/raw/ASOS.txt asos
-python3 scripts/chapter-splitter.py sources/raw/AFFC.txt affc
-python3 scripts/chapter-splitter.py sources/raw/ADWD.txt adwd
+weirwood query resolve "the Red Wedding"     # phrase → slug
+weirwood query read eddard-stark             # node: frontmatter, prose, edges
+weirwood query neighbors house-stark         # all edges touching a node, grouped by type
+weirwood query path jaime-lannister brienne-of-tarth   # direct edges + 2-hop bridges
+weirwood query chain roberts-rebellion       # walk CAUSES/TRIGGERS/MOTIVATES transitively
+weirwood query family aegon-i-targaryen      # lineage tree
+weirwood query health                        # graph-wide stats
 ```
 
-This creates files like `sources/chapters/agot/agot-bran-01.md`, one per chapter.
+| Command | What it walks |
+|---------|---------------|
+| `weirwood query resolve <phrase>` | Natural phrase → node slug |
+| `weirwood query read <slug>` | One node: header, prose, outbound + inbound edges |
+| `weirwood query neighbors <slug>` | Every edge touching a node, split outgoing/incoming |
+| `weirwood query path <a> <b>` | Direct edges between two nodes, plus 2-hop bridges |
+| `weirwood query chain <slug>` | Causal chain — CAUSES/TRIGGERS/MOTIVATES, both directions |
+| `weirwood query full-chain <slug>` | Follows ENABLES as well; `--expand-beats` expands sub-beats |
+| `weirwood query participants <hub>` | Union of role edges across an event hub's sub-beats |
+| `weirwood query container <name>` | Bag-retrieval for a container tag (`essos`, `wo5k`, `north`, …) |
+| `weirwood query family <slug>` | Family tree rooted at a character |
+| `weirwood query health` | Node/edge counts and graph-wide stats |
 
-### 4. Verify everything is in place
+Add `--json` to any of them for machine-readable output. `weirwood graph …` is a permanent
+short alias for the same engine. Full flag surface: `weirwood query --help`. Contract and
+parity cases: `graph/query/spec/`.
+
+After any mutation that **adds or renames nodes**, rebuild the derived artifacts (indexes +
+alias table) or the new nodes won't resolve:
 
 ```bash
-weirwood check
+weirwood refresh            # rebuild all derived artifacts
+weirwood refresh --check    # warn if artifacts are stale vs graph/nodes/
 ```
 
-This checks raw source files, split chapters, extraction progress, and prerequisites. If anything is missing, it tells you exactly what to do.
+## How the Graph Got Built
 
-### 5. Run extractions
+The graph came out of a sequence of extraction passes over the books and the wiki cache.
+Those passes are **history, not a setup step** — the ones that have run are done, and their
+outputs are committed. You don't run them to work on this project, and they aren't yours to
+launch: they cost real money and need the raw book text, which is gitignored and not
+distributed.
 
-```bash
-# See what's done across all books
-weirwood
+- Pipeline sequence and pass-by-pass status → [`CLAUDE.md`](CLAUDE.md)
+- Extraction machinery, if a re-run is ever deliberately required → [`working/runbooks/mechanical-extraction-howto.md`](working/runbooks/mechanical-extraction-howto.md)
+- Every script, indexed → [`scripts/README.md`](scripts/README.md)
 
-# Detailed status for one book (wave table, costs, suggested command)
-weirwood acok
-
-# Launch extraction: 2 terminals, 3 waves each
-weirwood acok 2 3
-
-# Launch with a specific model (default: claude-opus-4-6)
-weirwood acok 2 3 claude-sonnet-4-6
-
-# Auto-advance mode: 2 terminals, 1 wave each, auto-launch next batch after 2h wait
-weirwood acok 2 1 --delay 2h --chain
-```
-
-The script finds incomplete waves, opens iTerm tabs, and each tab runs its assigned waves. When you come back later, run the same command — it picks up where it left off.
-
-**Auto-advance mode** (`--delay` + `--chain`): Useful for long multi-batch runs across API usage windows. After each batch completes, waits for the specified delay, then automatically launches the next batch. Spreads token usage across multiple sessions without manual re-launching.
-
-## How Extraction Works
-
-Chapters are grouped into **waves** of 5. When you launch, the script distributes incomplete waves across iTerm tabs. Each tab runs its waves one at a time.
-
-```
-weirwood acok 3 2
-```
-
-This finds the next 6 incomplete waves and assigns 2 to each of 3 iTerm tabs. Each tab runs its 2 waves sequentially — so you have 3 chapters extracting concurrently at any moment.
-
-### Resuming
-
-The script checks which extractions already exist on disk. Run the same command again and it skips completed chapters automatically. You never need to track where you left off.
-
-### Soft Stop
-
-```bash
-weirwood stop
-```
-
-Creates a marker file that running terminals check between waves. It never interrupts mid-chapter — the current wave finishes, then the terminal exits instead of starting the next wave. Run it from any terminal. The marker is cleared automatically on the next launch.
-
-### Rate Limits
-
-If the API rate limit is hit mid-wave, the script detects it, halts immediately, and reports the reset time. No wasted attempts on chapters that would fail instantly.
-
-### Validation
-
-A chapter extraction is considered complete when:
-- The output file has at least 100 lines
-- It contains all required sections (`## Characters`, `## Events`, `## Locations`, `## Relationships`)
-
-Incomplete extractions are automatically re-extracted on the next launch.
-
-### Stats & Cost Tracking
-
-Every extraction logs to `working/extraction-stats/` with per-chapter timing, token usage (including cache hits), and cost. View aggregate stats with `weirwood <book>`.
-
-## Command Reference
-
-| Command | What it does |
-|---------|-------------|
-| `weirwood` | Help + overview across all books |
-| `weirwood check` | Verify source files, chapters, and prerequisites |
-| `weirwood <book>` | Detailed status: wave table, costs, suggested next command |
-| `weirwood <book> <t> <w>` | Launch iTerm tabs to run extractions |
-| `weirwood <book> <t> <w> <model>` | Launch with a specific Claude model |
-| `weirwood <book> <t> <w> --delay 2h --chain` | Auto-advance mode: wait 2h between batches, re-launch automatically |
-| `weirwood stop` | Soft stop — halt after current wave finishes |
-
-### Flags
-
-| Flag | Use |
-|------|-----|
-| `--delay <duration>` | Wait time between batches (e.g., `2h`, `30m`, `120s`). Only meaningful with `--chain`. |
-| `--chain` or `-c` | Auto-advance mode: after each batch completes, wait for `--delay`, then launch next batch. Requires `--delay`. |
-
-### Books
-
-| Code | Book | Chapters |
-|------|------|----------|
-| `agot` | A Game of Thrones | 73 |
-| `acok` | A Clash of Kings | 70 |
-| `asos` | A Storm of Swords | 82 |
-| `affc` | A Feast for Crows | 46 |
-| `adwd` | A Dance with Dragons | 73 |
-
-## Extraction Pipeline
-
-The project builds the knowledge graph through a sequence of extraction passes, each layering on top of the last.
-
-| Pass | Agent | What it does |
-|------|-------|-------------|
-| 1 | **Mechanical Extractor** | Raw facts from the text — characters, locations, events, relationships, food/hospitality, physical descriptions, spatial layout. No interpretation. One extraction per chapter. |
-| 2 | **Wiki Ingester** | Structures AWOIAF wiki pages into entity nodes. Enriches the graph with canonical details the text doesn't state explicitly (birth years, house words, etc.). |
-| 3 | **Voice Analyzer** | POV character voice profiles and cross-POV perception mappings. |
-| 4 | **Foreshadowing Scanner** | Scans extractions for textual hints that foreshadow known future events. |
-| 5 | **Theory Extractor** | Finds textual evidence for and against known fan theories. |
-| 6 | **Discovery Agent** | Open-ended pattern finding across the full extraction corpus. |
-
-Pass 1 is the foundation — everything else reads from its outputs. Currently: Pass 1 complete for AGOT (73/73), remaining books ready to run.
-
-> **The pipeline is not set in stone.** Passes 2–6 are the current plan, but their scope, ordering, and even existence are open while Pass 1 is still in progress. As we learn what Pass 1 outputs actually support (and what they're missing), later passes will be redesigned, merged, split, or dropped. Treat the table above as a working sketch, not a contract.
+Day-to-day work has since moved past the numbered-pass sweeps into **enrichment dips** —
+targeted, arc-by-arc deepening of the built graph. `worklog.md` has the live state.
 
 ## Project Structure
 
 ```
 asoiaf-chat/
+├── graph/
+│   ├── nodes/                       Entity files (characters, locations, events, …)
+│   ├── edges/                       edges.jsonl — the typed-edge layer
+│   ├── query/                       THE query layer: weirwood_query/ engine + build/ + spec/
+│   └── index/                       Derived entity + chapter indexes (weirwood refresh)
+├── web/                             The deployed chat-UI — see web/README.md
+│   ├── public/                      Static site (chat page, theme tokens)
+│   ├── src/lib/                     Retrieval tools (TS port of the query engine)
+│   └── netlify/edge-functions/      chat.ts (Claude tool-loop) + node.ts (dossier lookup)
 ├── sources/
 │   ├── raw/                         Source .txt files (GITIGNORED)
-│   └── chapters/{book}/             Split chapter files (GITIGNORED)
+│   ├── chapters/{book}/             Split chapter files (tracked)
+│   └── wiki/_raw/                   17,657-page AWOIAF cache (tracked; never re-fetch)
 ├── extractions/
-│   ├── mechanical/{book}/           Pass 1 extraction outputs
+│   ├── mechanical/{book}/           Pass 1 extraction outputs (344 chapters)
 │   └── archives/                    Prior-version extractions
-├── graph/
-│   ├── nodes/                       Entity files (characters, locations, etc.)
-│   └── edges/                       Relationship files
-├── scripts/
-│   ├── extract.sh                   Extraction runner (waves, stats, rate-limit detection)
-│   ├── weirwood.zsh                 Shell function wrapper
+├── scripts/                         Python + shell tooling — README.md is the index
+│   ├── weirwood.zsh                 Front-door CLI (query, refresh, run, wiki, extraction)
 │   └── chapter-splitter.py          Splits .txt into per-chapter markdown
 ├── reference/
 │   ├── architecture.md              Data model: entity types, edge types, confidence tiers
+│   ├── glossary.md                  Canonical vocabulary (Pass / Track / Tier)
 │   ├── pov-characters.md            POV lookup table + expected chapter counts
 │   └── foreshadowing-events.md      26 events + 15 Chekhov's guns
-├── working/                         Stats, session details, TODOs, runbooks
+├── curation/                        Agent-proposed findings awaiting Matt's decision
+├── working/                         Active scratchpad: TODOs, runbooks, stats, audits
 ├── progress/                        Wave logs, continue prompts
-└── CLAUDE.md                        Full architecture and agent system documentation
+├── history/                         Frozen records: session details, worklog archives
+├── worklog.md                       Living project state — the authoritative status file
+└── CLAUDE.md                        Full orchestrator guide + agent system documentation
 ```
 
-### Continue Prompts and `/continue`
+## Where State Lives
 
-`progress/continue-prompts/` holds self-contained resumption context for specific work tracks that span multiple sessions. Each prompt is a markdown file with everything a fresh agent needs to pick up the work without reading session history — goal, current state, files involved, next concrete step.
-
-Use the `/continue` slash command to resume a track:
-
-- `/continue` — lists active continue prompts (linked from `working/todos.md` via `→ continue:` lines), ranked by todo priority, and asks which one to run.
-- `/continue <substring>` — substring-matches a prompt filename (e.g., `/continue backfill` → `2026-04-24-backfill-session-details.md`).
-
-The `/endsession` checklist creates new continue prompts for any work that's mid-flight at session end and deletes prompts whose work has been completed. Continue prompts referenced from `todos.md` are linked back via a `→ continue: progress/continue-prompts/...` line under the relevant todo item.
-
-### `/endsession`
-
-The `/endsession` slash command runs the end-of-session checklist defined in `.claude/commands/endsession.md`: writes a full narrative to `history/session-details/session-NNN.md`, adds a concise entry to `worklog.md`, manages continue prompts and todos, updates progress logs, archives old worklog entries if needed. Run it at the end of every working session.
-
-See `CLAUDE.md` for the complete orchestrator guide, agent definitions, and project conventions.
+- **`worklog.md`** — the authoritative state file: current state, active decisions, backlog,
+  and the last five session entries. When anything else disagrees with it, trust the worklog.
+  (`worklog-dunk-egg.md` is authoritative for the separate Dunk & Egg track.)
+- **`CLAUDE.md`** — the orchestrator guide: conventions, hard rules, agent roster.
+- **`reference/architecture.md`** — the data model. Must stay in sync with agent schemas.
+- **`DEPLOY.md`** — how the chat-UI actually ships. There is no git-CD; pushing ships nothing.

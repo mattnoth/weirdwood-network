@@ -1,8 +1,8 @@
 # SESSION — Harvest drain 37→0 (parallel-safe secondary; runs in any window)
 
 > **Session number:** take the next free S-number at YOUR endsession (this is the
-> secondary track; the theories mint-gate session is the primary and may claim S217
-> first — check worklog.md before stamping).
+> secondary track; the theories mint-gate session is the primary and is stamped to
+> fire as **S218** — S217 was a docs/deploy meta session. Check worklog.md before stamping).
 > **Recommended model:** **Sonnet** orchestrator + 2 disjoint-dir Sonnet attachers +
 > a Haiku fresh-verify sample. Cheapest-viable; no Fable needed.
 > **Parallel-safe:** touches ONLY `graph/nodes/` quote sections + `working/harvest-queue.md`

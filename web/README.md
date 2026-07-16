@@ -1,10 +1,20 @@
-# The Weirwood Network — chat-UI alpha (`web/`)
+# The Weirwood Network — chat-UI (`web/`)
 
-A deployable, book-grounded ASOIAF loremaster chat. Visitor asks a question →
-**Bloodraven** answers in-character, grounded in the Weirwood Network graph,
-dropping real book quotes with chapter citations and showing the **typed-edge
-chain it walked** as receipts. Lives co-located in this private repo; deploys to
-Netlify. Full design: [`working/chat-ui/alpha-design.md`](../working/chat-ui/alpha-design.md).
+A deployed, book-grounded ASOIAF chat. Visitor asks a question → the **loremaster**
+answers in a flat, factual researcher's register, grounded in the Weirwood Network graph,
+dropping real book quotes with chapter citations and showing the **typed-edge chain it
+walked** as receipts. Lives co-located in this private repo; deploys to Netlify.
+
+**Live:** https://weirwood-network.netlify.app · **Deploy procedure:** [`DEPLOY.md`](../DEPLOY.md)
+(there is no git-CD — pushing ships nothing) · **Full design:**
+[`working/chat-ui/alpha-design.md`](../working/chat-ui/alpha-design.md).
+
+> **Personas.** `agent.ts` defines two: `loremaster` (the default, and the only one
+> reachable) and `bloodraven` (in-character). **Bloodraven is PARKED as of S213** — the
+> toggle is not exposed in the UI and the code path is kept intact but unused. The quote
+> machinery and the scope guardrail live in `SHARED_RULES`, so the parking is a routing
+> decision, not a capability loss. Don't reintroduce Bloodraven framing into user-facing
+> copy without a decision in `worklog.md`.
 
 ## Layout
 
@@ -26,19 +36,22 @@ netlify.toml                    # publish=web/public, edge_functions=web/netlify
                                  #   /api/chat → chat, /api/node → node
 ```
 
-## Status (S171 — Foundation chunk done)
+## Status (live since S183; rows below carry their own session stamps)
+
+> The site is **deployed and live** — this table tracks per-component state, not a
+> pre-launch checklist. `worklog.md` is the authoritative status file; when it disagrees
+> with a row here, trust the worklog.
 
 | Component | Status | File |
 |---|---|---|
 | Build-time graph export | ✅ done | `graph/query/build/build_chat_bundle.py` (S191: the old `scripts/build-chat-export.py` shim is retired) |
-| Data bundle (8.8 MB) | ✅ generated | `web/data/*.json` |
+| Data bundle | ✅ generated (~13 MB; `cat web/data/manifest.json` for live sizes) | `web/data/*.json` |
 | Theme tokens (dark / soft / dusty-red) | ✅ done | `web/public/theme/tokens.css` |
-| Landing placeholder | ✅ done | `web/public/index.html` |
 | `netlify.toml` (Edge runtime) | ✅ done | `netlify.toml` |
 | Retrieval tools (resolve/walk_chain/read_node/neighbors) | ✅ done (S172) | `web/src/lib/` — see its own README.md for the full op table + live test count |
-| Edge function (tool-loop + Bloodraven prompt + streaming + spend cap + cite-gate) | ✅ done (S173) | `web/netlify/edge-functions/chat.ts` + `lib/agent.ts` (note: `agent.ts` now lives under `lib/`, moved after this row was written) — `check:fn` clean; **live `netlify dev` proof gated on Matt** |
+| Edge function (tool-loop + persona prompt + streaming + spend cap + cite-gate) | ✅ done (S173) | `web/netlify/edge-functions/chat.ts` + `lib/agent.ts` (note: `agent.ts` now lives under `lib/`, moved after this row was written) — `check:fn` clean |
 | Front-end (chat thread, live SSE, typed-edge receipts) | ✅ done (S174) | `web/public/index.html` + `app.css` + `app.js` — clean landing → live answers; SSE client + failure-mode UX; dry-validated (preview render + simulated SSE), **no API spend** |
-| Deploy (private repo → Netlify, `ANTHROPIC_API_KEY` env) | ✅ **LIVE (S183)** | **https://weirwood-network.netlify.app** — `ANTHROPIC_API_KEY` (secret) + `WEIRWOOD_MODEL=claude-sonnet-4-6` set as Netlify env vars; smoke-tested (streaming, receipts, family tree, `/api/node`, no key leak) |
+| Deploy (private repo → Netlify, `ANTHROPIC_API_KEY` env) | ✅ **LIVE (S183)** | **https://weirwood-network.netlify.app** — `ANTHROPIC_API_KEY` (secret) + `WEIRWOOD_MODEL` set as Netlify env vars; smoke-tested (streaming, receipts, family tree, `/api/node`, no key leak). **Production model is `claude-opus-4-8`**, set via `WEIRWOOD_MODEL`, which overrides the code default in `chat.ts` — changing it needs a redeploy. See [`DEPLOY.md`](../DEPLOY.md) |
 | Public demo = captured REAL transcript | ⏳ **gated on Matt** | landing now starts clean (Tywin placeholder removed). Capture a real recorded conversation (e.g. multi-turn Red Wedding) and wire it as the demo before public deploy — no mocked AI prose |
 | live `search_chapters` / `read_passage` | ⏳ fast-follow | — |
 | Chat tools registered in `TOOL_DEFS` | ✅ **8, not the original 4-5** (query-layer Track step 2–8) | `resolve`, `read_node`, `walk_chain`, `neighbors`, `family_tree`, `search_quotes`, `list_nodes`, `theme` — `web/netlify/edge-functions/lib/agent.ts`. `container`/`path`/`participants` exist in `src/lib/` but are **not yet wired as chat tools** (see that dir's README.md) |
@@ -78,9 +91,9 @@ A query resolves by normalizing it the same way and looking it up; on a miss,
 the retrieval-core chunk adds the resolver's fuzzy/substring fallback.
 
 Causal-chain edge types (the "chain walked"): **CAUSES / TRIGGERS / MOTIVATES**
-(and ENABLES for `--full-chain`). The retrieval-core chunk ports the same causal
-walk (`graph-query.py --causal-chain`) to TS so live queries build the typed-edge
-chain on the fly — no pre-rendered exchange is shipped.
+(and ENABLES for full-chain). The retrieval-core chunk ports the same causal walk as
+`weirwood query chain <slug>` (the `scripts/graph-query.py` shim was retired in S191) to TS,
+so live queries build the typed-edge chain on the fly — no pre-rendered exchange is shipped.
 
 ## Build / run
 

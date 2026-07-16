@@ -1,5 +1,13 @@
 # Pass 1 Mechanical Extraction — How To
 
+> **STATUS: Pass 1 is COMPLETE — 344/344 chapters across all five books.** Nothing here
+> needs re-running; the outputs are committed under `extractions/mechanical/{book}/`.
+> This runbook documents the machinery in case a re-extraction is ever *deliberately*
+> required (a prompt-version bump, a corrupted source). **Launching one is a decision, not
+> a setup step** — extraction runs cost real money and burn usage windows, so per
+> `CLAUDE.md` they are never kicked off without asking Matt first. If you just want to work
+> with the graph, you want `weirwood query` (root [`README.md`](../../README.md)), not this file.
+
 ## What This Does
 
 Runs a Claude agent against every chapter file to produce a structured extraction (characters, locations, food, hospitality, physical descriptions, spatial layout, etc.). One extraction per chapter, written to `extractions/mechanical/{book}/`.
@@ -7,74 +15,81 @@ Runs a Claude agent against every chapter file to produce a structured extractio
 ## Prerequisites
 
 - Chapter files exist in `sources/chapters/{book}/` (run the splitter first if they don't)
+- Raw book text in `sources/raw/` (gitignored, not distributed)
 - iTerm2 installed
 - `claude` CLI available in your PATH
 
 ## Commands
 
-### Shell function (preferred)
+The launcher is the `weirwood` shell function (`scripts/weirwood.zsh`, wrapping
+`scripts/extract.sh`). Source it once:
 
 ```bash
-# Source it (auto-sourced if terminal-collection is set up)
-source ~/source/terminal-collection/functions/weirwood-mechanical.zsh
+echo 'source ~/source/asoiaf-chat/scripts/weirwood.zsh' >> ~/.zshrc
+source ~/.zshrc
 ```
+
+If the repo isn't at `~/source/asoiaf-chat`, set `WEIRWOOD_PROJECT_DIR` to its path first.
 
 | Command | What it does |
 |---------|-------------|
-| `weirwood-mechanical agot 4` | Waves 1-4, one per terminal, then stops |
-| `weirwood-mechanical agot 4 9` | Waves 9-12, one per terminal |
-| `weirwood-mechanical --chain agot 4` | All remaining waves, chained across 4 terminals |
-| `weirwood-mechanical --chain agot 4 9` | Chain from wave 9 |
-| `weirwood-mechanical --stop` | Stop chained run after current wave finishes |
+| `weirwood` | Help + overview across all books |
+| `weirwood check` | Verify source files, chapters, and prerequisites |
+| `weirwood <book>` | Detailed status: wave table, costs, suggested next command |
+| `weirwood <book> <terminals> <waves>` | Launch iTerm tabs to run extractions |
+| `weirwood <book> <t> <w> <model>` | Launch with a specific model (default: `claude-opus-4-6`) |
+| `weirwood <book> <t> <w> --delay 2h --chain` | Auto-advance: wait 2h between batches, re-launch automatically |
+| `weirwood stop` | Soft stop — halt after the current wave finishes |
 
-### Direct script (same args)
+Books: `agot` · `acok` · `asos` · `affc` · `adwd`.
 
-```bash
-./scripts/launch-extraction.sh agot 4
-./scripts/launch-extraction.sh --chain agot 4
-```
+## Waves
 
-## Default workflow
-
-Run one batch at a time, check results, then continue:
-
-```bash
-# Batch 1: waves 1-4
-weirwood-mechanical agot 4
-
-# ... wait ~12 min, check results ...
-
-# Batch 2: waves 5-8
-weirwood-mechanical agot 4 5
-
-# Batch 3: waves 9-12
-weirwood-mechanical agot 4 9
-
-# Batch 4: waves 13-15 (only 3 waves left, 4th terminal is idle)
-weirwood-mechanical agot 4 13
-```
-
-## Chained workflow
-
-Fire and forget, with a kill switch:
+Chapters are grouped into **waves** of 5, distributed across iTerm tabs. `weirwood acok 3 2`
+finds the next 6 incomplete waves and assigns 2 to each of 3 tabs — each tab runs its waves
+sequentially, so 3 chapters extract concurrently at any moment.
 
 ```bash
-# Launch everything
-weirwood-mechanical --chain agot 4
+# Batch: 2 terminals, 3 waves each
+weirwood acok 2 3
 
-# Changed your mind? Stop after current wave:
-weirwood-mechanical --stop
-
-# Or equivalently:
-touch $HOME/source/claude-cwd/tmp/extraction-stop
+# Auto-advance across usage windows: next batch launches after a 2h wait
+weirwood acok 2 1 --delay 2h --chain
 ```
+
+**Auto-advance** (`--delay` + `--chain`) spreads a long multi-batch run across API usage
+windows without manual re-launching. Details: [`pass1-auto-advance-mode.md`](pass1-auto-advance-mode.md).
+
+## Resuming
+
+The script checks which extractions already exist on disk and skips completed chapters. Run
+the same command again and it picks up where it left off — you never track your place
+manually.
+
+An extraction counts as complete when the output file has at least 100 lines and contains
+all required sections (`## Characters`, `## Events`, `## Locations`, `## Relationships`).
+Incomplete extractions are automatically re-extracted on the next launch.
+
+## Soft stop
+
+```bash
+weirwood stop
+```
+
+Writes a marker file that running terminals check *between* waves — the current wave always
+finishes, then the terminal exits instead of starting the next. Run it from any terminal;
+it's cleared automatically on the next launch.
+
+## Rate limits
+
+If the API rate limit is hit mid-wave, the script halts immediately and reports the reset
+time rather than burning attempts on chapters that would fail instantly.
 
 ## Tuning the terminal count
 
-- **4 terminals** worked well for the AGOT v1 run without hitting usage limits
-- More terminals = faster but more API calls in parallel = higher chance of hitting limits
+- More terminals = faster, but more parallel API calls = higher chance of hitting limits
 - Fewer terminals = slower but safer
-- Start with 4, adjust from there
+- 4 terminals worked well for the AGOT v1 run without hitting usage limits
 
 ## Timing
 
@@ -82,32 +97,17 @@ touch $HOME/source/claude-cwd/tmp/extraction-stop
 - ~10-12 minutes per wave (5 chapters)
 - With 4 terminals: ~3 hours per book
 
-## If Something Crashes
-
-If a terminal dies mid-wave or you hit a usage limit:
-
-1. Note which waves finished (each terminal prints its wave number)
-2. Check progress: `tail -20 history/worklog-archives/extraction-progress.md`
-3. Re-launch from where you left off:
-
-```bash
-# Resume AGOT from wave 9 (waves 1-8 already done)
-weirwood-mechanical agot 4 9
-```
-
-The script overwrites existing extractions, so re-running a wave that partially completed is fine.
-
 ## Checking Results
 
 ```bash
 # How many extractions exist?
 ls extractions/mechanical/agot/ | wc -l
 
-# Check the stats log
-cat working/extraction-stats.csv
+# Per-chapter timing, token usage (incl. cache hits), and cost
+ls working/extraction-stats/
 
-# Look at progress notes
-tail -20 history/worklog-archives/extraction-progress.md
+# Aggregate stats for a book
+weirwood agot
 ```
 
 ## Book Order
