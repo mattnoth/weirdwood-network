@@ -28,7 +28,7 @@ sort_keys:
 
 ## Identity
 
-In ADWD Jon XIII, the steward Clydas delivers a scroll addressed only to "Bastard," sealed in hard pink wax — the so-called Pink Letter, authored by [Ramsay Bolton](ramsay-bolton) (the [bastard-letter](bastard-letter) artifact). It declares [Stannis Baratheon](stannis-baratheon) dead, taunts Jon over [Mance Rayder](mance-rayder) caged at [Winterfell](winterfell), demands hostages, and threatens to cut out Jon's heart. Reading it transforms Jon's plans: at the Shieldhall he announces he will ride south on Winterfell — "I ride to Winterfell alone, unless …" — and the free folk roar to follow him. This open breach of the Watch's neutrality is the spark; within minutes [Bowen Marsh](bowen-marsh) and the conspirators fall on him. This event is the receiving/reading beat at Castle Black, distinct from the `bastard-letter` artifact (the letter object itself).
+In ADWD Jon XIII, the steward Clydas delivers a scroll addressed only to "Bastard," sealed in hard pink wax — the so-called Pink Letter, authored by [Ramsay Bolton](ramsay-snow) (the [bastard-letter](bastard-letter) artifact). It declares [Stannis Baratheon](stannis-baratheon) dead, taunts Jon over [Mance Rayder](mance-rayder) caged at [Winterfell](winterfell), demands hostages, and threatens to cut out Jon's heart. Reading it transforms Jon's plans: at the Shieldhall he announces he will ride south on Winterfell — "I ride to Winterfell alone, unless …" — and the free folk roar to follow him. This open breach of the Watch's neutrality is the spark; within minutes [Bowen Marsh](bowen-marsh) and the conspirators fall on him. This event is the receiving/reading beat at Castle Black, distinct from the `bastard-letter` artifact (the letter object itself).
 
 ## Edges
 

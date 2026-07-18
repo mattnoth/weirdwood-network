@@ -1,14 +1,23 @@
 {
-  "generated_at": "2026-07-12T22:38:12.090909+00:00",
+  "generated_at": "2026-07-16T20:57:17.244279+00:00",
   "entity_type": "theories",
   "dry_run": false,
-  "entity_count": 45,
+  "entity_count": 52,
   "type_counts": {
-    "concept.theory": 45
+    "concept.theory": 52
   },
-  "entities_with_zero_mentions": 45,
+  "entities_with_zero_mentions": 52,
   "mention_inverse_slugs": 0,
   "top_by_appearances": [
+    {
+      "slug": "r-plus-l-equals-j",
+      "name": "R+L=J",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
     {
       "slug": "theories",
       "name": "Theories",
@@ -20,7 +29,7 @@
     },
     {
       "slug": "roose-bolton-theories",
-      "name": "Roose Bolton/Theories",
+      "name": "Roose Bolton is a skin-stealing immortal",
       "type": "concept.theory",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
@@ -57,6 +66,24 @@
     {
       "slug": "lightbringer-theories",
       "name": "Lightbringer/Theories",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "a-plus-j-equals-t",
+      "name": "A+J=T",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "jojen-paste",
+      "name": "Bran's weirwood paste contains Jojen",
       "type": "concept.theory",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
@@ -127,6 +154,15 @@
       "out_edge_count": 0
     },
     {
+      "slug": "grand-maester-conspiracy",
+      "name": "Grand Maester Conspiracy",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
       "slug": "nights-king-theories",
       "name": "Night's King/Theories",
       "type": "concept.theory",
@@ -146,43 +182,7 @@
     },
     {
       "slug": "maynard-plumm-theories",
-      "name": "Maynard Plumm/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "harpy-theories",
-      "name": "Harpy/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "sansa-stark-theories",
-      "name": "Sansa Stark/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "brienne-of-tarth-theories",
-      "name": "Brienne of Tarth/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "gravedigger-theories",
-      "name": "Gravedigger/Theories",
+      "name": "Maynard Plumm is Bloodraven",
       "type": "concept.theory",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
@@ -220,7 +220,7 @@
     },
     {
       "slug": "patchface-theories",
-      "name": "Patchface/Theories",
+      "name": "Patchface is a resurrected prophet of the Drowned God",
       "type": "concept.theory",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
@@ -237,6 +237,15 @@
       "out_edge_count": 0
     },
     {
+      "slug": "r-plus-l-equals-j",
+      "name": "R+L=J",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
       "slug": "theories",
       "name": "Theories",
       "type": "concept.theory",
@@ -247,7 +256,7 @@
     },
     {
       "slug": "roose-bolton-theories",
-      "name": "Roose Bolton/Theories",
+      "name": "Roose Bolton is a skin-stealing immortal",
       "type": "concept.theory",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
@@ -284,6 +293,24 @@
     {
       "slug": "lightbringer-theories",
       "name": "Lightbringer/Theories",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "a-plus-j-equals-t",
+      "name": "A+J=T",
+      "type": "concept.theory",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "jojen-paste",
+      "name": "Bran's weirwood paste contains Jojen",
       "type": "concept.theory",
       "appearances_total": 0,
       "chapters_referenced_in": 0,
@@ -336,35 +363,8 @@
       "out_edge_count": 0
     },
     {
-      "slug": "nights-king-theories",
-      "name": "Night's King/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "valonqar-theories",
-      "name": "Valonqar/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "maynard-plumm-theories",
-      "name": "Maynard Plumm/Theories",
-      "type": "concept.theory",
-      "appearances_total": 0,
-      "chapters_referenced_in": 0,
-      "in_edge_count": 0,
-      "out_edge_count": 0
-    },
-    {
-      "slug": "harpy-theories",
-      "name": "Harpy/Theories",
+      "slug": "grand-maester-conspiracy",
+      "name": "Grand Maester Conspiracy",
       "type": "concept.theory",
       "appearances_total": 0,
       "chapters_referenced_in": 0,

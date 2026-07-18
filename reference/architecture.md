@@ -99,7 +99,7 @@ Entity
 | `concept.culture` | Concept | Ethnic or regional cultural group | customs, language, appearance_norms, marriage_practices, warfare_style | Dothraki, Ironborn, Free Folk, Braavosi |
 | `concept.magic` | Concept | Magical system, ability, or phenomenon | rules, practitioners, costs, limitations | Warging, greensight, shadowbinding, glass candles |
 | `concept.prophecy` | Concept | Prophetic statement or vision | prophet, text, candidates, status | Azor Ahai, Maggy the Frog, House of the Undying |
-| `concept.theory` | Concept | Interpretive framework (community or textual) | evidence_for, evidence_against, confidence_tier | R+L=J, Grand Northern Conspiracy |
+| `concept.theory` | Concept | Fan/community theory as an object — never an assertion of truth (S217 mint conventions: tier 3–5 ALWAYS; body prose always attributed "The theory holds that…"; evidence rides SUPPORTS/CONTRADICTS edges only) | claim, status (open \| show-confirmed \| jossed), origin, video_sources, pass_origin, confidence_tier (3–5) | R+L=J, Grand Northern Conspiracy, Jojen Paste |
 | `concept.language` | Concept | Spoken or written in-world language | speakers, regions, script, status | Common Tongue, High Valyrian, Old Tongue, Dothraki, Skroth |
 | `concept.medical` | Concept | Disease, poison, treatment, or medical condition | effects, regions, treatment, mortality | Greyscale, the bloody flux, the strangler, milk of the poppy |
 | `concept.custom` | Concept | Cultural practice, tradition, or ceremony (NOT ethnic group — that's concept.culture) | regions, cultures, status_in_law | Bedding, Guest right, Fosterage, Heraldry, Dowry, Kingsmoot |
@@ -409,9 +409,21 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 
 | Edge Type | Description | Directionality | Wiki Source |
 |-----------|-------------|---------------|-------------|
-| `SUPPORTS` | Textual passage supports a theory | Evidence → Theory | — |
-| `CONTRADICTS` | Textual passage undermines a theory | Evidence → Theory | — |
-| `CITED_BY` | Theory attributed to source theorist or community | Theory → Source | — |
+| `SUPPORTS` | A real passage the theory community reads as evidence FOR a theory — the edge asserts the reading exists, not that the theory is true. Every edge carries its own byte-verified verbatim quote + chapter:line ref | Evidence node → Theory | — |
+| `CONTRADICTS` | A real passage that undermines a theory (or one scoped sub-claim — scope lives in the edge `note`) | Evidence node → Theory | — |
+| `CITED_BY` | DEFERRED (S216) — no out-of-world source node type; provenance lives in theory-node frontmatter (`video_sources`, `origin`) | Theory → Source | — |
+
+**Theory-layer conventions (ratified S216–S217, Matt):**
+
+- **Tier floor is absolute:** theory nodes and SUPPORTS/CONTRADICTS edges are **tier 3–5 ALWAYS** — no "event-anchored" or other exceptions. Per-edge tier variance under a node is allowed (a tier-3 node may carry tier-4/5 edges).
+- **Layer rule:** facts already owned by tier-1/2 nodes are the theory's *premise* (prose), not theory evidence — don't re-mint them as edges. An existing node CAN source an edge where its confirmed reality bears directly on the claim (the subject-link pattern).
+- **Subject-link pattern:** a theory may link to the event/artifact node it is *about* via a scoped evidence edge (GNC G1 precedent: the confirmed event node sources a SUPPORTS into the theory that generalizes it).
+- **Parallel-FORESHADOWS (S217):** when a theory-evidence quote foreshadows an event that actually occurs on the page, the factual layer gets a `FORESHADOWS` edge to that event node (canon-visible; tier 2–4 by mapping strength, typically 2–3) alongside the theory-layer SUPPORTS edge. Both edges may carry the same quote — different layers, different claims.
+- **Naming:** display names are claim-style ("Roose Bolton is a skin-stealing immortal"); genuinely unresolved multi-candidate whodunits use question-form ("Who is Coldhands?", "Who Wrote the Pink Letter?", "Who is the Hooded Man of Winterfell?").
+- **One node per canonical named theory;** umbrella wiki "X/Theories" stubs stay dark unless they ARE the canonical theory.
+- **Evidence sources:** any node class whose entity the quote is about may source an evidence edge — including `object.food` (weirwood-paste), legend/`object.text` (rat-cook), and `concept` nodes (wights). From wave 2 onward, theory edges may cite `fab-*` (Fire & Blood) chapters — same quotecheck machinery; chronicler unreliability handled by tier + `in_universe_source`.
+- **Ungrounded material** (show-only, TWOW/TWOIAF-fenced, GRRM interviews, community reasoning) is domain-labelled in the node body — never edges.
+- **Chat exposure:** theories are invisible to the chat persona (SHARED_RULES guardrail). Plan of record (S217): an off-by-default UI toggle — OFF = runtime tool-layer filter strips theory nodes/edges; ON = labeled-speculation prompt contract. Build is a separate gated session.
 
 ### Causal & Plot
 

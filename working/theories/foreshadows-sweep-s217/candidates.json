@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "unit": "Parallel-FORESHADOWS sweep (theories wave-1)",
+    "session": "S217",
+    "run_id": "foreshadows-sweep-s217",
+    "new_node_slugs": [],
+    "typed_by": "curator-foreshadows-sweep-s217",
+    "note": "S217 Matt-ratified parallel-FORESHADOWS convention: when a theory-evidence quote foreshadows an event that actually occurs on the page, the factual layer gets a FORESHADOWS edge (tier 2-3, canon-visible) alongside the theory-layer SUPPORTS edge. Sweep of all 13 wave-1 evidence sheets found exactly three candidates (the Patchface songs P1/P2/P3). P3 (the 'march into the sea and out again' Hardhome song, adwd-jon-13) was EXCLUDED by the convention's own test: it foreshadows the Hardhome ranging, which never departs on the page (TWOW territory); the confirmed hardhome-catastrophe node covers the wildling disaster, not the ranging. All other prediction-flavored beats across the 13 sheets predict unresolved material (pinkletter PL10/PL11 false-beacon trap = TWOW; jojen J5 = the theory's own unconfirmed claim) or are already-modeled prophecy content (azor cluster). Quotes are byte-identical to the minted theory-layer SUPPORTS edges (same passages, different layer/claim per the convention). Both edges Haiku-adversarially fresh-verified before mint (verdicts in working/theories/foreshadows-sweep-s217/verify.md)."
+  },
+  "edges": [
+    {
+      "id": "F1",
+      "type": "FORESHADOWS",
+      "source": "patchface",
+      "target": "red-wedding",
+      "book": "asos",
+      "chapter": "asos-davos-02",
+      "quote": "Fool’s blood, king’s blood, blood on the maiden’s thigh, but chains for the guests and chains for the bridegroom, aye aye aye.",
+      "tier": "tier-3",
+      "note": "Sung to Davos on Dragonstone (ASOS ch.11), dozens of chapters before the Red Wedding (ASOS ch.51). The four elements map to the event in order: a fool's death (Aegon 'Jinglebell' Frey), a king's death (Robb Stark), the bedding of Roslin Frey, and captivity for the wedding guests and the bridegroom Edmure Tully. Reader-facing narrative-craft edge (FORESHADOWS), distinct from the theory-layer SUPPORTS edge carrying the same quote: this edge asserts only that the song prefigures the on-page event, not any claim about Patchface's nature. Tier-3: the mapping is element-by-element tight and widely read as deliberate, but the song names no one.",
+      "verify": true
+    },
+    {
+      "id": "F2",
+      "type": "FORESHADOWS",
+      "source": "patchface",
+      "target": "purple-wedding",
+      "book": "acok",
+      "chapter": "acok-prologue",
+      "quote": "The merwives wear nennymoans in their hair and weave gowns of silver seaweed.",
+      "tier": "tier-4",
+      "note": "Sung in the ACOK prologue, a full book before the Purple Wedding (ASOS ch.60). The theory-community reading maps the hair ornaments to Sansa Stark's silver hair net (which carries the strangler poison used to kill Joffrey) and the woven silver gown to her wedding attire. Reader-facing narrative-craft edge, same-quote sibling of the theory-layer SUPPORTS edge per the S217 parallel-FORESHADOWS convention. Tier-4 (S217 Haiku fresh-verify ADJUST from proposed tier-3): a word-image match (hair ornament + silver weave) requiring a looser metaphorical reading than the Red Wedding song's element-by-element sequence; kept because the image pair is specific to the murder mechanism.",
+      "verify": true
+    }
+  ]
+}

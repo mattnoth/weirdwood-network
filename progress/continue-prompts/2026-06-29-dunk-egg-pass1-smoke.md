@@ -1,10 +1,10 @@
-# SESSION DE-2 — Dunk & Egg Pass-1 v4 SMOKE: judge THK output, then promote or iterate
+# SESSION DE-3 — Dunk & Egg Pass-1 v4 SMOKE: judge THK output, then promote or iterate
 
 > **This is the Dunk & Egg track** (Pass-1 extraction of the THK/TSS/TMK novellas). It is
 > **parallel-safe** with the graph-enrichment track — they touch different files and run in different windows.
 > **Track state file:** this track logs to its OWN worklog → **`worklog-dunk-egg.md`** (read it for the D&E
 > Current State; `worklog.md` holds the shared Active Decisions / Principles).
-> **Session number:** stamp your entry **`### Session DE-2`** in **`worklog-dunk-egg.md`**, NOT `worklog.md`
+> **Session number:** stamp your entry **`### Session DE-3`** in **`worklog-dunk-egg.md`**, NOT `worklog.md`
 > — independent of the global S-number, no cross-track write-order race.
 >
 > **STATE (after DE-1):** queue **already built** (`queue.jsonl`, 3 units; canonical dirs exist). The v4/THK
