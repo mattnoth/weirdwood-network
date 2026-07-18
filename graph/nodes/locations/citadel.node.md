@@ -98,3 +98,7 @@ Half a year earlier, Archmaester [Walgrave](wiki:Walgrave) was found weeping in 
 > The world the Citadel is building has no place in it for sorcery or prophecy or glass candles, much less for dragons.
 >
 > —Marwyn, to Samwell Tarly, AFFC (`sources/chapters/affc/affc-samwell-05.md:217`)
+
+> “Samwell. A new novice, come to see the Mage.”
+>
+> —Alleras, introducing Sam at the top of the Ravenry steps — the first line of Sam's arrival scene at the Citadel, AFFC (`sources/chapters/affc/affc-samwell-05.md:175`)

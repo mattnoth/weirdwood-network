@@ -192,3 +192,7 @@ When Jon plans to send men to [Hardhome](wiki:Hardhome) on a rescue mission, Mel
 > Skulls. A thousand skulls, and the bastard boy again. Jon Snow.
 
 — Melisandre's repeated fire-vision of Jon Snow surrounded by skulls before his assassination — the skulls carry death-imagery she saw but could not decode in time, ADWD Melisandre I (`sources/chapters/adwd/adwd-melisandre-01.md:29`) [q608] — potential FORESHADOWS edge target: jon-snow-assassination
+
+> Then the towers by the sea, crumbling as the dark tide came sweeping over them, rising from the depths. Shadows in the shape of skulls, skulls that turned to mist, bodies locked together in lust, writhing and rolling and clawing.
+
+— the opening vision sequence of the chapter, immediately preceding her "towers by the sea" reading later given to Jon (see Narrative Arc); a separate skull-image beat from the q608 vision above, ADWD Melisandre I (`sources/chapters/adwd/adwd-melisandre-01.md:17`)

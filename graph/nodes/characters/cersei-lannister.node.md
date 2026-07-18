@@ -291,6 +291,10 @@ In the [Vale](wiki:Vale), Petyr Baelish reports to Sansa Stark that Cersei has c
 >
 > —[Tyrion Lannister](wiki:Tyrion_Lannister) to [Ben Plumm](wiki:Ben_Plumm)
 
+> "To help me to my grave. I asked for you to leave. Will you make me call my gaolers and have you dragged away, you vile, scheming, evil bitch?"
+>
+> —Margaery Tyrell to Cersei, during Cersei's visit to Margaery's tower cell at the Great Sept of Baelor, AFFC (`sources/chapters/affc/affc-cersei-10.md:173`)
+
 ## Foreshadowing
 
 > If he dares mention gold, I will deal with this one as I did the last and find a pious eight-year-old to wear the crystal crown.

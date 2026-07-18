@@ -3,7 +3,7 @@
   "name": "Beef",
   "type": "object.food",
   "node_path": "graph/nodes/foods/beef.node.md",
-  "generated_at": "2026-07-12T22:38:11.743467+00:00",
+  "generated_at": "2026-07-18T18:33:29.621783+00:00",
   "stats": {
     "appearances_total": 1,
     "chapters_referenced_in": 1,

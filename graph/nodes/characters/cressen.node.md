@@ -80,6 +80,14 @@ In [Oldtown](wiki:Oldtown), the elderly [Archmaester](wiki:Archmaester) [Walgrav
 >
 > —[Melisandre](wiki:Melisandre) and Cressen
 
+> “Fratricide . . . my lord, this is evil, unthinkable . . . please, listen to me.”
+>
+> —Cressen, horrorstruck, urging Stannis against kinslaying, ACOK (`sources/chapters/acok/acok-prologue.md:253`)
+
+> Melisandre, whose madness must not be allowed to spread beyond Dragonstone.
+>
+> —Cressen's thoughts on Melisandre, contagion/institutional-fear framing, ACOK (`sources/chapters/acok/acok-prologue.md:265`)
+
 ### Quotes about Cressen
 
 > **Davos**: My liege, [Pylos](wiki:Pylos) is pleasant enough, but I cannot see the chain about his neck without mourning for Maester Cressen. **Stannis**: Is it his fault the old man died? I never wanted Cressen at that feast. He'd angered me, yes, he'd given me bad counsel, but I did not want him dead. I'd hoped he might be granted a few years of ease and comfort. He had earned that much, at least, but— but he died. And Pylos serves me ably.(wiki:Cressen.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)

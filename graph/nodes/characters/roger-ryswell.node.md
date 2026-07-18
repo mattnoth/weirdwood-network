@@ -44,3 +44,7 @@ When Stannis's vanguard reaches Winterfell, Roger accompanies Lord Bolton in the
 > **Roose**: I am inclined to agree. Strength aside, he does not have it in him to betray [my son](wiki:Ramsay_Snow).
 >
 > —Roger and [Roose Bolton](wiki:Roose_Bolton)
+
+> If not him, who? Stannis has some man inside the castle, that's plain.
+>
+> —Roger Ryswell, dismissing Aenys Frey's suspicion of Theon and pointing instead to a Stannis spy inside Winterfell, ADWD A Ghost in Winterfell (`sources/chapters/adwd/adwd-a-ghost-in-winterfell-01.md:189`)

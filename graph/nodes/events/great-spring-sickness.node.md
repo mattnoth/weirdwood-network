@@ -42,3 +42,7 @@ Many hostages of the [Iron Throne](wiki:Iron_Throne), taken from [Daemon I Black
 
 ... oh, it was a dreadful time. By the end, half [the city](wiki:King's_Landing) was praying to the [Stranger](wiki:Stranger_(the_Seven)).(wiki:Great_Spring_Sickness.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
 The drought wasn't [Lord Bloodraven's](wiki:Brynden_Rivers) fault, nor the Great Spring Sickness either.(wiki:Great_Spring_Sickness.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+
+> "Bittersteel and the sons of Daemon Blackfyre are hatching plots in Tyrosh, and Dagon Greyjoy's krakens prowl the sunset sea like wolves, raiding as far south as the Arbor. They carried off half the wealth of Fair Isle, it's said, and a hundred women, too. Lord Farman is repairing his defenses, though that strikes me as akin to the man who claps his pregnant daughter in a chastity belt when her belly's big as mine. Lord Bracken is dying slowly on the Trident, and his eldest son perished in the spring. That means Ser Otho must succeed. The Blackwoods will never stomach the Brute of Bracken as a neighbor. It will mean war."
+>
+> —Septon Sefton to Dunk, cataloguing the drought-era political texture of the realm (Blackfyre plots, Greyjoy raids, the Bracken/Blackwood feud) in the same breath as the Great Spring Sickness's aftermath, TSS The Sworn Sword (`sources/chapters/tss/tss-dunk-01.md:933`)

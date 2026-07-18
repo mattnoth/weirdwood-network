@@ -145,6 +145,10 @@ Ser [Addam Whitehead](wiki:Addam_Whitehead) is among a group of men from the [We
 >
 > —Jon's thoughts
 
+> Elia was never worthy of him. She was frail and sickly from the first, and childbirth only left her weaker.
+>
+> —Jon Connington's thoughts, recalling Prince Rhaegar's wife Elia Martell, ADWD The Griffin Reborn (`sources/chapters/adwd/adwd-the-griffin-reborn-01.md:121`)
+
 ### Quotes about Jon
 
 > Too soon. Connington is too young, too bold, too eager for glory.(wiki:Jon_Connington.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-7)

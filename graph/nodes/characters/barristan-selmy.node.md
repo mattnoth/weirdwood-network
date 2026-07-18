@@ -188,6 +188,10 @@ The Yunkish threat in the [second siege of Meereen](wiki:Second_siege_of_Meereen
 >
 > —Barristan to [Daenerys Targaryen](wiki:Daenerys_Targaryen), recalled in her thoughts before the wedding to Hizdahr (book cite: `sources/chapters/adwd/adwd-daenerys-06.md:143`)
 
+> “He put away his lance the day your lady mother wed your father. Afterward he became most pious, and was heard to say that only the Maiden could replace Queen Rhaella in his heart. His passion was impossible, of course. A landed knight is no fit consort for a princess of royal blood.”
+>
+> —Barristan Selmy to Daenerys Targaryen, confessing his own unspoken youthful love for Queen Rhaella, ADWD (`sources/chapters/adwd/adwd-daenerys-07.md:331`)
+
 ### Quotes about Barristan
 
 > **Sansa**: Even in the far [north](wiki:North), the singers praise the deeds of Barristan the Bold. **Renly:** Barristan the Old, you mean. Don't flatter him too sweetly, child, he thinks overmuch of himself already.(wiki:Barristan_Selmy.cite_ref-Ragot15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-3)

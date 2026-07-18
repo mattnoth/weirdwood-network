@@ -1,7 +1,7 @@
 {
   "version": "v1",
-  "computed_at": "2026-07-09T16:24:33+00:00",
-  "graph_nodes_scanned": 8485,
+  "computed_at": "2026-07-18T18:27:11+00:00",
+  "graph_nodes_scanned": 8978,
   "canonical_type_count": 170,
   "populated_type_count": 59,
   "unpopulated_type_count": 111,
@@ -296,8 +296,8 @@
       "infobox": 3447,
       "prose_derived": 0,
       "by_node_type": {
-        "characters": 3441,
-        "events": 2,
+        "characters": 3442,
+        "events": 1,
         "houses": 1,
         "religions": 2,
         "texts": 1
@@ -530,8 +530,8 @@
       "infobox": 3931,
       "prose_derived": 0,
       "by_node_type": {
-        "characters": 3571,
-        "events": 2,
+        "characters": 3572,
+        "events": 1,
         "houses": 341,
         "religions": 2,
         "species": 1,
@@ -992,8 +992,7 @@
       "infobox": 663,
       "prose_derived": 0,
       "by_node_type": {
-        "characters": 661,
-        "events": 1,
+        "characters": 662,
         "religions": 1
       }
     },

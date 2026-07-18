@@ -1,0 +1,120 @@
+{
+  "_meta": {
+    "unit": "Theories wave-2 Jon Snow cluster ENRICH (R+L=J / Bloodraven's hidden hand)",
+    "session": "S219",
+    "run_id": "jonsnow-enrich-theories-s219",
+    "new_node_slugs": [],
+    "typed_by": "curator-theories-wave2-s219",
+    "note": "Enrich-only pass against two EXISTING wave-1 theory nodes (r-plus-l-equals-j, minted S214; bloodravens-grand-plan, minted S216) from the ASX 'The real Jon Snow' video (qSy2uaJ7ecU). No new nodes. Substrate: working/theories/jonsnow-cluster/substrate.jsonl, rows tagged theory R+L=J (13 beats), Bloodraven's hidden hand (4 beats), and Grand Northern Conspiracy (1 beat, dedup-check only). Heavy dedup against both the existing minted edges (grep graph/edges/edges.jsonl) AND the theory nodes' own prose bodies (which quote several passages inline without a dedicated edge) surfaced 5 of 13 R+L=J beats and 1 of 4 Bloodraven beats as duplicates or off-target; full log in PROPOSAL.md. All quotes byte-verified against sources/chapters/*.md at the cited lines during this pass (see PROPOSAL.md verification table). ADJUDICATED S219: JE1 dropped (reading requires a factual mismatch with Rhaegar's canon appearance -- below the t5 coherence bar); JE2 dropped (dramatic irony presupposes the theory, carries no evidence); JE9/JE10/JE11 demoted to tier-5 with mechanism-assumed notes. Final: 9 edges (6 r-plus-l-equals-j, 3 bloodravens-grand-plan)."
+  },
+  "edges": [
+    {
+      "id": "JE3",
+      "type": "SUPPORTS",
+      "source": "bael-the-bard",
+      "target": "r-plus-l-equals-j",
+      "book": "acok",
+      "chapter": "acok-jon-06",
+      "quote": "“Now as it happened the winter roses had only then come into bloom, and no flower is so rare nor precious. So the Stark sent to his glass gardens and commanded that the most beautiful o’ the winter roses be plucked for the singer’s payment. And so it was done. But when morning come, the singer had vanished . . . and so had Lord Brandon’s maiden daughter. Her bed they found empty, but for the pale blue rose that Bael had left on the pillow where her head had lain.”",
+      "tier": "tier-4",
+      "note": "Ygritte's telling of the Bael the Bard legend (a wildling king who fathered a child in secret on a Stark maiden, leaving a blue winter rose on her pillow) is read as an in-world precursor/parallel legend to Rhaegar and Lyanna -- same blue-rose motif the node already tracks (edges T6/T9) applied to a named legendary antecedent. Genuinely new: no wave-1 edge cites this passage or the Bael parallel.",
+      "verify": true
+    },
+    {
+      "id": "JE4",
+      "type": "SUPPORTS",
+      "source": "jon-snow",
+      "target": "r-plus-l-equals-j",
+      "book": "agot",
+      "chapter": "agot-jon-07",
+      "quote": "Last night he had dreamt the Winterfell dream again. He was wandering the empty castle, searching for his father, descending into the crypts. Only this time the dream had gone further than before. In the dark he’d heard the scrape of stone on stone. When he turned he saw that the vaults were opening, one after the other. As the dead kings came stumbling from their cold black graves, Jon had woken in pitch-dark, his heart hammering.",
+      "tier": "tier-4",
+      "note": "Jon's OWN recurring dream of searching the Winterfell crypts for his father, distinct from Ned's Tower of Joy dream (T2) already on this node. The theory reads the crypt setting as foreshadowing that Jon will eventually learn his parentage there. New to this node.",
+      "verify": true
+    },
+    {
+      "id": "JE5",
+      "type": "SUPPORTS",
+      "source": "jon-snow",
+      "target": "r-plus-l-equals-j",
+      "book": "adwd",
+      "chapter": "adwd-jon-02",
+      "quote": "Maester Aemon was seated in the back of it, huddled in a bearskin that made him look as small as a child. Sam and Gilly stood nearby. Her eyes were red and puffy, but the boy was in her arms, bundled tight. Whether it was her boy or Dalla’s he could not be sure. He had only seen the two together a few times. Gilly’s boy was older, Dalla’s more robust, but they were close enough in age and size so that no one who did not know them well would be able to easily tell one from the other.",
+      "tier": "tier-3",
+      "note": "Jon's deliberate swap of Gilly's baby for Mance and Dalla's son (king's blood) to hide it from Melisandre is a textually explicit, structurally clean echo of Ned concealing Lyanna's son -- a direct in-universe repetition of the theory's own central mechanism, not stacked symbolism. New to this node; strongest of the wave-2 R+L=J adds.",
+      "verify": true
+    },
+    {
+      "id": "JE6",
+      "type": "SUPPORTS",
+      "source": "howland-reed",
+      "target": "r-plus-l-equals-j",
+      "book": "agot",
+      "chapter": "agot-eddard-10",
+      "quote": "It would have to be his grandfather, for Jory’s father was buried far to the south. Martyn Cassel had perished with the rest. Ned had pulled the tower down afterward, and used its bloody stones to build eight cairns upon the ridge. It was said that Rhaegar had named that place the tower of joy, but for Ned it was a bitter memory. They had been seven against three, yet only two had lived to ride away; Eddard Stark himself and the little crannogman, Howland Reed.",
+      "tier": "tier-3",
+      "note": "Confirms Howland Reed's presence and survival at the Tower of Joy -- the theory's basis for treating him as a living witness who could eventually confirm Jon's parentage. Same chapter as T3 (rose-petal dream, line 45) but a distinct line/point: T3 is dream imagery, this is the plain survivor-count fact naming Howland Reed specifically. Not a duplicate.",
+      "verify": true
+    },
+    {
+      "id": "JE7",
+      "type": "SUPPORTS",
+      "source": "eddard-stark",
+      "target": "r-plus-l-equals-j",
+      "book": "acok",
+      "chapter": "acok-bran-03",
+      "quote": "“The finest knight I ever saw was Ser Arthur Dayne, who fought with a blade called Dawn, forged from the heart of a fallen star. They called him the Sword of the Morning, and he would have killed me but for Howland Reed.” Father had gotten sad then, and he would say no more. Bran wished he had asked him what he meant.",
+      "tier": "tier-4",
+      "note": "Ned's uncharacteristic emotional shutdown -- 'gotten sad,' 'would say no more,' Bran's own frustration at not pressing -- is the theory's textual hook that Ned is suppressing something bigger than a battle story. Distinct point from JE6 (which is about Howland Reed as witness/survivor): this beat is about Ned's own visible evasiveness as a tell. Judgment call: thematically adjacent to JE6 (both ToJ/Howland Reed material from different books) but not a same-passage duplicate -- kept as a separate, narrower angle.",
+      "verify": true
+    },
+    {
+      "id": "JE8",
+      "type": "SUPPORTS",
+      "source": "aemon-targaryen-son-of-maekar-i",
+      "target": "r-plus-l-equals-j",
+      "book": "acok",
+      "chapter": "acok-jon-01",
+      "quote": "“So he was. Some say Prince Aemon was King Daeron’s true father, not Aegon the Unworthy. Be that as it may, our Aemon lacked the Dragonknight’s martial nature. He likes to say he had a slow sword but quick wits. Small wonder his grandfather packed him off to the Citadel. He was nine or ten, I believe . . . and ninth or tenth in the line of succession as well.”",
+      "tier": "tier-4",
+      "note": "Establishes Maester Aemon's own backstory: a Targaryen prince, ninth or tenth in line to the throne, removed from succession and sent away (to the Citadel, later the Wall) as a boy. The theory reads this as a structural parallel to Jon: a Targaryen-blooded figure quietly diverted from a throne claim into the Night's Watch. New to this node -- the Aemon/Wall parallel is not covered by any wave-1 edge.",
+      "verify": true
+    },
+    {
+      "id": "JE9",
+      "type": "SUPPORTS",
+      "source": "ghost",
+      "target": "bloodravens-grand-plan",
+      "book": "agot",
+      "chapter": "agot-jon-08",
+      "quote": "Ghost sniffed at his carved stone likeness and tried a lick. Jon smiled. “You’re the one deserves an honor,” he told the wolf … and suddenly he found himself remembering how he’d found him, that day in the late summer snow. They had been riding off with the other pups, but Jon had heard a noise and turned back, and there he was, white fur almost invisible against the drifts.",
+      "tier": "tier-5",
+      "note": "The noise that turns Jon back toward the abandoned Ghost -- the ASX Bloodraven-hidden-hand reading's first named steering beat. ADJUDICATED S219: the text shows only an unexplained noise; the Bloodraven-controls-Ghost mechanism is ASSUMED BY THE THEORY, not shown in any passage. Kept as a tier-5 recorded community reading (the video explicitly catalogues this beat), not as evidence of an established mechanism.",
+      "verify": true
+    },
+    {
+      "id": "JE10",
+      "type": "SUPPORTS",
+      "source": "ghost",
+      "target": "bloodravens-grand-plan",
+      "book": "agot",
+      "chapter": "agot-jon-01",
+      "quote": "Something rubbed against his leg beneath the table. Jon saw red eyes staring up at him. “Hungry again?” he asked. There was still half a honeyed chicken in the center of the table. Jon reached out to tear off a leg, then had a better idea. He knifed the bird whole and let the carcass slide to the floor between his legs. Ghost ripped into it in savage silence.",
+      "tier": "tier-5",
+      "note": "Ghost's weirwood coloring (white fur, red eyes) mirrors Bloodraven's albinism and the heart-tree palette. ADJUDICATED S219: a symbolic parallel, not evidence of active orchestration -- demoted to tier-5 (the theory reads the coloring as a marker of Bloodraven's link; the text asserts no such link).",
+      "verify": true
+    },
+    {
+      "id": "JE11",
+      "type": "SUPPORTS",
+      "source": "ghost",
+      "target": "bloodravens-grand-plan",
+      "book": "asos",
+      "chapter": "asos-jon-11",
+      "quote": "“Ghost found it. The blade was wrapped in a ranger’s cloak and buried beneath the Fist of the First Men. There were other blades as well . . . spearheads, arrowheads, all dragonglass.”",
+      "tier": "tier-5",
+      "note": "Ghost leading Jon to the dragonglass cache at the Fist -- the second of the video's named steering beats. ADJUDICATED S219: the passage shows a wolf finding a buried cache; the Bloodraven-guidance mechanism is ASSUMED BY THE THEORY, not shown. Kept as a tier-5 recorded community reading per the video's explicit catalogue.",
+      "verify": true
+    }
+  ]
+}

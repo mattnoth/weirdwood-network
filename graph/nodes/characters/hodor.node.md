@@ -153,6 +153,10 @@ The giant [Wun Weg Wun Dar Wun](wiki:Wun_Weg_Wun_Dar_Wun) reminds [Jon Snow](wik
 >
 > —thoughts of [Bran Stark](wiki:Bran_Stark)
 
+> One was full of singers, enthroned like Brynden in nests of weirwood roots that wove under and through and around their bodies. Most of them looked dead to him, but as he crossed in front of them their eyes would open and follow the light of his torch, and one of them opened and closed a wrinkled mouth as if he were trying to speak. “Hodor,” Bran said to him, and he felt the real Hodor stir down in his pit.
+>
+> —Bran, wearing Hodor's skin without Hodor's consent to explore the cave alone, ADWD Bran III (`sources/chapters/adwd/adwd-bran-03.md:113`)
+
 ## Edges
 
 - SWORN_TO: House Stark (cite: track_b_row.relationships.allegiance)

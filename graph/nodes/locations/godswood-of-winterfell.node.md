@@ -33,6 +33,8 @@ Across the godswood from the heart tree, beneath the windows of the [Guest House
 
 The godswood is enclosed by walls, and is accessed by a main iron gate,(wiki:Godswood_of_Winterfell.cite_ref-Racok46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2) wooden doors,(wiki:Godswood_of_Winterfell.cite_ref-Racok46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3) and an arched stone door.(wiki:Godswood_of_Winterfell.cite_ref-Radwd37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5) There is a tall sentinel near the armory wall.(wiki:Godswood_of_Winterfell.cite_ref-Ragot8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
 
+On the night of the Bolton-"Arya" wedding the godswood is nearly unrecognizable to Theon, who "had never seen the godswood like this... grey and ghostly, filled with warm mists and floating lights and whispered voices that seemed to come from everywhere and nowhere," the hot springs shrouding the trees in steam and drawing "grey curtains across the watching windows" (Theon POV, adwd-the-prince-of-winterfell-01 — `sources/chapters/adwd/adwd-the-prince-of-winterfell-01.md:55`).
+
 ## Narrative Arc
 
 ### A Game of Thrones

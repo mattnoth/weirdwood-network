@@ -138,3 +138,7 @@ Now [Queen of Meereen](wiki:Queen_of_Meereen), Daenerys continues to wear the li
 > Do you know what it is like to be sold, squire? I do. [My brother](wiki:Viserys_Targaryen) sold me to Khal Drogo for the promise of a golden crown. Well, Drogo crowned him in [gold](wiki:Gold), though not as he had wished, and I ... my sun-and-stars made [a queen](wiki:Khaleesi) of me, but if he had been a different man, it might have been much otherwise.(wiki:Drogo.cite_ref-Rasos23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0)
 >
 > —[Daenerys Targaryen](wiki:Daenerys_Targaryen) to [Arstan Whitebeard](wiki:Barristan_Selmy)
+
+> She buried her face in it and inhaled the dark fragrance of the oils. He smelled like grass and warm earth, like smoke and semen and horses. He smelled like Drogo.
+>
+> —thoughts of Daenerys Targaryen, preparing Drogo's body for his funeral pyre, AGOT (`sources/chapters/agot/agot-daenerys-10.md:69`)

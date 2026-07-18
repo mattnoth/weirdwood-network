@@ -63,6 +63,12 @@ Coldhands leads Bran and his companions to the [cave of the three-eyed crow](wik
 >
 > —[Bran Stark](wiki:Bran_Stark) and Coldhands
 
+> “Who sent you? Who is this three-eyed crow?”
+>
+> “A friend. Dreamer, wizard, call him what you will. The last greenseer.” The longhall’s wooden door banged open. Outside, the night wind howled, bleak and black. The trees were full of ravens, screaming. Coldhands did not move.
+>
+> —[Meera Reed](wiki:Meera_Reed) and Coldhands, ADWD Bran I (`sources/chapters/adwd/adwd-bran-01.md:209`, answer at `:211`)
+
 ### Quotes about Coldhands
 
 > **Jojen**: This ... Coldhands? **Gilly**: That wasn't his true name. We only called him that, [Sam](wiki:Samwell_Tarly) and me. His hands were cold as ice, but he saved us from the [dead men](wiki:Wights), him and his [ravens](wiki:Raven), and he brought us here on his elk.(wiki:Coldhands.cite_ref-Rasos56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)

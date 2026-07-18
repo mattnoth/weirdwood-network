@@ -137,6 +137,10 @@ Jon reads about [Azor Ahai](wiki:Azor_Ahai) and [Lightbringer](wiki:Lightbringer
 >
 > —Aemon to [Jon Snow](wiki:Jon_Snow)
 
+> He said the sphinx was the riddle, not the riddler, whatever that meant.
+>
+> —Aemon, dying and rambling aboard the Cinnamon Wind, to Samwell Tarly, AFFC (`sources/chapters/affc/affc-samwell-04.md:37`)
+
 ### Quotes about Aemon
 
 > Blind he may be, but Aemon knows what he's about. I pray the gods let us keep him another twenty years. Do you know that he might have been king?(wiki:Aemon_Targaryen_(son_of_Maekar_I).cite_ref-Racok6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)

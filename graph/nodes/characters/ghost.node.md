@@ -24,6 +24,8 @@ Ghost is an albino,(wiki:Ghost.cite_ref-Ragot1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7
 
 Ghost enjoys tugging Jon's hand back and forth as a game,(wiki:Ghost.cite_ref-Racok51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0) and also enjoys rolling in fresh snow.(wiki:Ghost.cite_ref-Radwd35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)
 
+At the Robert-visit feast, Jon knifes a honeyed chicken carcass to the floor and "Ghost ripped into it in savage silence," then faces down a much larger mongrel bitch without a sound — he "stood over his prize and opened his mouth, baring his fangs" until she "thought better of this fight" and slunk away, a small early display of the pup's silent, outsized menace (Jon POV, agot-jon-01 — `sources/chapters/agot/agot-jon-01.md:39`).
+
 ## Narrative Arc
 
 ### A Game of Thrones

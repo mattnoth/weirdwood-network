@@ -86,6 +86,10 @@ Jon, now [Lord Commander of the Night's Watch](wiki:Lord_Commander_of_the_Night'
 >
 > —Ygritte to [Jon Snow](wiki:Jon_Snow)
 
+> The gods made the earth for all men t' share. Only when the kings come with their crowns and steel swords, they claimed it was all theirs. My trees, they said, you can't eat them apples. My stream, you can't fish here. My wood, you're not t' hunt. My earth, my water, my castle, my daughter, keep your hands away or I'll chop 'em off, but maybe if you kneel t' me I'll let you have a sniff. You call us thieves, but at least a thief has t' be brave and clever and quick. A kneeler only has t' kneel.
+>
+> —Ygritte to Jon Snow, on why the free folk call the Wall theft, ASOS Jon V (`sources/chapters/asos/asos-jon-05.md:49`)
+
 > You're mine. Mine, as I'm yours. And if we die, we die. All men must die, Jon Snow. But first we'll live.(wiki:Ygritte.cite_ref-Rasos41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-8)
 >
 > —Ygritte to [Jon Snow](wiki:Jon_Snow)

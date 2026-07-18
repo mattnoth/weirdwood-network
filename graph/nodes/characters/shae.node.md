@@ -88,3 +88,7 @@ Tyrion: Pardon me if I do not weep for you.
 Varys: I shall, but you must pardon me if I do not weep for Shae. I confess, I do not understand what there is in her to make a clever man like you act such a fool.
 She did all that was asked of her, but sometimes she gave Sansa the most insolent looks.(wiki:Shae.cite_ref-Rasos59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4)
 You knew what [she was](wiki:Prostitution).(wiki:Shae.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-1)
+
+> there she was, naked, cold, and pink . . . save for her face, which had turned as black as Joff’s had at his wedding feast.
+>
+> —narration, Cersei Lannister discovering Shae's strangled corpse in Tywin's bed, AFFC (`sources/chapters/affc/affc-cersei-01.md:101`)

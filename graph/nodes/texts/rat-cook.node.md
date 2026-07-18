@@ -39,5 +39,9 @@ At the [wedding of Ramsay Bolton and Arya Stark](wiki:Wedding_of_Ramsay_Bolton_a
 
 — Old Nan, ASOS (Bran IV), `sources/chapters/asos/asos-bran-04.md:129`
 
+> The Rat Cook had cooked the son of the Andal king in a big pie with onions, carrots, mushrooms, lots of pepper and salt, a rasher of bacon, and a dark red Dornish wine. Then he served him to his father, who praised the taste and had a second slice.
+>
+> —Bran's recollection of Old Nan's tale, ASOS Bran IV (`sources/chapters/asos/asos-bran-04.md:129`)
+
 Once [the direwolf](wiki:Summer) bolted through a dark door and returned a moment later with a grey [rat](wiki:Rat) between his teeth. The Rat Cook, Bran thought, but it was the wrong color, and only as big as a [cat](wiki:Cat). The Rat Cook was white, and almost as huge as a sow ...(wiki:Rat_Cook.cite_ref-Rasos56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 It was not for murder that the gods cursed him, nor for serving the [Andal](wiki:Andal) king his son in a pie. A man has a right to vengeance. But he slew a guest beneath his roof, and that the gods cannot forgive.(wiki:Rat_Cook.cite_ref-Rasos56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)

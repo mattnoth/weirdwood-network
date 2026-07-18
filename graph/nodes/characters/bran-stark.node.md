@@ -140,6 +140,12 @@ A mutilated Theon is brought back to Winterfell by [Roose](wiki:Roose_Bolton) an
 >
 > —Bran and the [three-eyed crow](wiki:Three-eyed_crow)
 
+> “Do you like to read books, Bran?” Jojen asked him.
+>
+> “Some books. I like the fighting stories. My sister Sansa likes the kissing stories, but those are stupid.”
+>
+> —[Jojen Reed](wiki:Jojen_Reed) and Bran, ADWD Bran III (`sources/chapters/adwd/adwd-bran-03.md:75`)
+
 ### Quotes about Bran
 
 > **Eddard**: [The man](wiki:Gared) died well, I'll give him that. I was glad for Bran's sake. You would have been proud of him. **Catelyn**: I am always proud of Bran.(wiki:Bran_Stark.cite_ref-Ragot2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_47-0)

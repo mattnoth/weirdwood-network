@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "unit": "Theories wave-2 Jon Snow cluster — Night's King parallel",
+    "session": "S219",
+    "run_id": "jonsnow-nightsking-theories-s219",
+    "new_node_slugs": [],
+    "typed_by": "curator-theories-wave2-s219",
+    "note": "Night's King parallel: enrich existing nights-king-theories stub (concept.theory) — the ASX video 'The real Jon Snow' (qSy2uaJ7ecU) theory that Jon may be tempted/pressured into repeating the Night's King's legendary pact with the Others (marriage to a corpse-queen figure, possibly Val; sacrificing lives to broker a peace). Of the 9 header-theory beats (jonsnow-B89..B97), only jonsnow-B92 (Craster's sacrifice of his sons, book-domain) survived byte-verification across two grounding passes; jonsnow-B91 (Patrek's 'hospitality' joke) was attempted and explicitly failed to ground; the remaining 6 beats are grrm-interview or community-speculation domain and were never sent to grounding by design. Two additional legend-text edges (NK1 subject-link, NK2 Stark-brother variant) were independently sourced from the nights-king node's own Bran-POV legend passage (asos-bran-04.md), which the existing node's Origins section already summarizes but had not fully quoted at line 101/103. All quotes byte-verified against sources/chapters/*.md at cited lines (curly apostrophes preserved). No CONTRADICTS edges: the only contradicts-stance beats (B96/B97) are community/grrm commentary with no book-domain grounding available."
+  },
+  "edges": [
+    {
+      "id": "NK1",
+      "type": "SUPPORTS",
+      "source": "nights-king",
+      "target": "nights-king-theories",
+      "book": "asos",
+      "chapter": "asos-bran-04",
+      "quote": "He brought her back to the Nightfort and proclaimed her a queen and himself her king, and with strange sorceries he bound his Sworn Brothers to his will. For thirteen years they had ruled, Night’s King and his corpse queen, till finally the Stark of Winterfell and Joramun of the wildlings had joined to free the Watch from bondage. After his fall, when it was found he had been sacrificing to the Others, all records of Night’s King had been destroyed, his very name forbidden.",
+      "tier": "tier-3",
+      "note": "Subject-link (layer rule): the legend itself is the premise the whole theory tests against Jon -- a Lord Commander who married a corpse-queen figure, sacrificed to the Others, and was erased from record afterward. Sourced from the tier-1 nights-king character/legend node, which already summarizes this passage in prose but had not quoted it directly. Tier capped at 3 by the theory-edge floor even though the legend's existence as an in-world tale is itself tier-1 fact -- what the edge supports is the theory's premise, not merely 'Old Nan tells this story.'",
+      "verify": true
+    },
+    {
+      "id": "NK2",
+      "type": "SUPPORTS",
+      "source": "nights-king",
+      "target": "nights-king-theories",
+      "book": "asos",
+      "chapter": "asos-bran-04",
+      "quote": "He never was. He was a Stark, the brother of the man who brought him down.",
+      "tier": "tier-4",
+      "note": "One folk variant of the legend -- Old Nan's own preferred ending, among several rival identities she lists -- makes the Night's King himself a STARK Lord Commander (\"brother of the man who brought him down\"). ADJUDICATED S219 (verifier split): this edge asserts the Stark-Lord-Commander-precedent reading, which is the textual basis for the theory's core Jon-parallel claim (Jon, a Stark Lord Commander, repeating the pattern) -- NOT the separate 'Starks descended from the union' sub-claim, which remains ungrounded and lives only as domain-labelled body prose. Tier-4: one telling among several, hedged by Old Nan herself.",
+      "verify": true
+    },
+    {
+      "id": "NK3",
+      "type": "SUPPORTS",
+      "source": "craster",
+      "target": "nights-king-theories",
+      "book": "acok",
+      "chapter": "acok-jon-03",
+      "quote": "He gives his sons to the wood.",
+      "tier": "tier-4",
+      "note": "The theory's only substrate beat to survive grounding (jonsnow-B92, redo-s219-worker-2). Jon's line to Mormont, confirmed true by Mormont's 'Yes' and later gloss ('These boys are Craster's offerings. His prayers, if you will.'). An on-page, confirmed precedent for a Watch-adjacent figure trading children to the Others for safety, textually paralleling the Night's King legend's own sacrifice-for-safety pattern (sub_claim 0's 'paralleling Craster's arrangement'). Tier-4, not 3: the underlying Craster fact is rock-solid, but using it as evidence FOR a theory about Jon specifically requires one more inferential step (precedent-as-plausibility, not direct evidence about Jon).",
+      "verify": true
+    }
+  ]
+}

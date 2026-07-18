@@ -51,6 +51,40 @@ show memories, ASX misattributions). Never force a weak match — a wrong cite i
 worse than none. For `ungrounded` rows include a one-line `note` saying what you
 tried.
 
+## Anti-giveup contract (MANDATORY — added S219; the S216 jonsnow-p2 lesson)
+
+Residue grounding has TWO recorded failure modes, and only one is machine-catchable:
+
+1. **Invent** (S214): quoting from memory instead of the file. The deterministic
+   byte-check (`scripts/theories-reground-repair.py`) catches every instance.
+2. **Blanket-giveup** (S216 jonsnow-p2): the agent grounds its first few rows,
+   then returns `ungrounded` for everything after. The byte-check CANNOT catch
+   this — an ungrounded row has no quote to check. Only an orchestrator
+   smell-test on the sequential-give-up pattern caught it.
+
+Because mode 2 is invisible to the gates, these rules are part of the contract,
+not advice:
+
+- **≥2 logged grep attempts per `ungrounded` row.** The `note` must show the
+  actual search patterns you ran (e.g. `note: "tried 'blue rose', 'wall of ice
+  chink'; no hit"`). An `ungrounded` row without logged attempts is a contract
+  violation and gets redone.
+- **Famous-line calibration.** Iconic series lines ("You know nothing, Jon
+  Snow", "Kill the boy…", "daggers in the dark") are near-certainly in the
+  corpus. An `ungrounded` verdict on a famous line means YOUR SEARCH failed —
+  retry with curly-vs-straight apostrophe variants, shorter sub-phrases, and
+  rare-word anchors before giving up. (The S216 redo rescued 11 famous lines a
+  giveup pass had marked ungrounded.)
+- **Event-vs-interpretation distinction.** Ground the EVENT/PASSAGE the beat
+  points at, not ASX's interpretation of it. If a beat is interpretive framing
+  over an on-page scene, find and cite the scene; `ungrounded` is reserved for
+  material with NO corpus referent (show-only, TWOW, community lore, GRRM
+  interviews) — not for beats whose framing is speculative but whose underlying
+  scene is right there in the text.
+
+The deterministic byte-check outranks every agent verdict: a "grounded" row
+whose quote fails the byte-check is a fail, whatever the agent claimed.
+
 ## Harvest rule (standing, applies while you're in chapter text)
 
 If you stumble on a notable OFF-TASK find (a load-bearing quote, food/meal,

@@ -218,6 +218,10 @@ When [Victarion Greyjoy](wiki:Victarion_Greyjoy) and the [Iron Fleet](wiki:Iron_
 >
 > —Theon, to [Stannis Baratheon](wiki:Stannis_Baratheon)
 
+> Dead is dead. Better dead than Reek.
+>
+> —Theon's thoughts, awaiting Abel's escape attempt with Jeyne, ADWD Theon I (`sources/chapters/adwd/adwd-theon-01.md:33`)
+
 ### Quotes about Theon
 
 > He smiled a lot, as if the world were a secret joke that only he was clever enough to understand.

@@ -43,3 +43,7 @@ In ADWD Jon XIII, the steward Clydas delivers a scroll addressed only to "Bastar
 > "The Night's Watch will make for Hardhome. I ride to Winterfell alone, unless …"
 
 — Jon's Shieldhall march announcement, his response to the Pink Letter. Jon POV, ADWD Jon XIII (`sources/chapters/adwd/adwd-jon-13.md:295`)
+
+> "You were right to come at once," Jon said. You were right to be afraid.
+
+— Jon's dread on seeing the letter addressed only to "Bastard" and sealed in pink wax, moments before he reads it. Jon POV, ADWD Jon XIII (`sources/chapters/adwd/adwd-jon-13.md:227`)
