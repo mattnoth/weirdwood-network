@@ -43,11 +43,11 @@ const tools = createTools(graph);
 
 // System prompt as a cacheable block, per persona (stable prefix → prompt caching).
 // Each persona's text is a fixed string, so it still caches as a prefix.
-function systemBlocks(persona: Persona) {
+function systemBlocks(persona: Persona, includeTheories: boolean) {
   return [
     {
       type: "text" as const,
-      text: systemPromptFor(persona),
+      text: systemPromptFor(persona, includeTheories),
       cache_control: { type: "ephemeral" as const },
     },
   ];
@@ -113,6 +113,8 @@ interface TurnLog {
   stopState: string;
   model: string;
   persona: string;
+  /** Whether the visitor opted in to the theory layer this turn (S220 toggle). */
+  theories: boolean;
   timestamp: string;
 }
 
@@ -140,7 +142,12 @@ async function logTurn(rec: TurnLog): Promise<void> {
 /** A refused or failed turn carries no usage — record the question + why it ended,
  *  zeros elsewhere, so cost-cap trips and api-errors are countable in the logs (not
  *  just a bare console.error). Cost of these turns is ~nil; the value is observability. */
-function failedTurn(question: string, stopState: string, persona: Persona): TurnLog {
+function failedTurn(
+  question: string,
+  stopState: string,
+  persona: Persona,
+  includeTheories: boolean,
+): TurnLog {
   return {
     question,
     prose: "",
@@ -153,6 +160,7 @@ function failedTurn(question: string, stopState: string, persona: Persona): Turn
     stopState,
     model: MODEL,
     persona,
+    theories: includeTheories,
     timestamp: new Date().toISOString(),
   };
 }
@@ -221,10 +229,12 @@ export default async function handler(request: Request, _context: Context): Prom
 
   let messages: ChatMessage[] | null;
   let persona: Persona = "loremaster"; // default voice; "bloodraven" is the toggle
+  let includeTheories = false; // OFF by default — the S220 theory toggle opts in
   try {
     const raw = await request.json();
     messages = parseMessages(raw);
     if (raw?.persona === "bloodraven") persona = "bloodraven";
+    if (raw?.theories === true) includeTheories = true;
   } catch {
     messages = null;
   }
@@ -241,7 +251,7 @@ export default async function handler(request: Request, _context: Context): Prom
 
   // Cost guard: pre-check the global daily ceiling before spending a token.
   if ((await readDailySpend()) >= DAILY_SPEND_CAP_USD) {
-    await logTurn(failedTurn(question, "cost-cap-tripped", persona));
+    await logTurn(failedTurn(question, "cost-cap-tripped", persona, includeTheories));
     const stream = new ReadableStream({
       start(controller) {
         controller.enqueue(sseFrame("status", { state: "cost-cap-tripped" }));
@@ -259,7 +269,7 @@ export default async function handler(request: Request, _context: Context): Prom
     const stream = client.messages.stream({
       model: MODEL,
       max_tokens: MAX_TOKENS,
-      system: systemBlocks(persona),
+      system: systemBlocks(persona, includeTheories),
       thinking: { type: "adaptive" },
       // TOOL_DEFS are plain objects in the SDK-free agent.ts; the cast lands them
       // on the SDK's Tool type at this one boundary.
@@ -290,7 +300,7 @@ export default async function handler(request: Request, _context: Context): Prom
         }
       };
       try {
-        const result = await runAgent(messages!, tools, runTurn, emit);
+        const result = await runAgent(messages!, tools, runTurn, emit, includeTheories);
         const costUsd = estimateCostUsd(result.usage, MODEL);
         await addDailySpend(costUsd);
         // Usage logging (S186): network I/O, off the 50ms CPU budget, never fails a turn.
@@ -306,6 +316,7 @@ export default async function handler(request: Request, _context: Context): Prom
           stopState: result.stopState,
           model: MODEL,
           persona,
+          theories: includeTheories,
           timestamp: new Date().toISOString(),
         });
         emit("done", {
@@ -323,7 +334,7 @@ export default async function handler(request: Request, _context: Context): Prom
         emit("status", { state: "api-error" });
         emit("done", { ok: false });
         console.error("chat.ts turn failed:", err);
-        await logTurn(failedTurn(question, "api-error", persona));
+        await logTurn(failedTurn(question, "api-error", persona, includeTheories));
       } finally {
         try {
           controller.close();

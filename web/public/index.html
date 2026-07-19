@@ -56,8 +56,9 @@
     <div class="intro-body">
       <p>
         The Weirwood Network is a hand-built knowledge graph of the ASOIAF books:
-        <strong>~8,700 typed nodes</strong> (characters, events, places, houses,
-        artifacts, foods, songs) joined by <strong>~23,300 typed edges</strong>
+        <strong><span data-stat="nodes_shipped">8,971</span> typed nodes</strong>
+        (characters, events, places, houses, artifacts, foods, songs) joined by
+        <strong><span data-stat="edges">26,740</span> typed edges</strong>
         (<span class="et et-causes">CAUSES</span>,
         <span class="et et-triggers">TRIGGERS</span>,
         <span class="et et-motivates">MOTIVATES</span>,
@@ -67,8 +68,9 @@
         Every node and edge carries a confidence tier: Tier&nbsp;1 is a verbatim
         book line with a <code>chapter:line</code> citation, verified against the
         source text; Tier&nbsp;2 is sourced from the wiki; higher tiers are
-        interpretive. More than 1,600 nodes carry curated book quotes, each one
-        extracted verbatim from the chapter it cites.
+        interpretive. <span data-stat="nodes_with_quotes">1,805</span> nodes carry
+        curated book quotes — <span data-stat="quotes_total">6,570</span> in all,
+        each one extracted verbatim from the chapter it cites.
       </p>
       <p>
         When you ask a question, an agent works the graph with typed tools. It
@@ -104,6 +106,17 @@
           <span class="persona-label">voice</span>
           <button type="button" class="persona-opt is-active" data-persona="loremaster" aria-pressed="true">Loremaster</button>
           <button type="button" class="persona-opt" data-persona="bloodraven" aria-pressed="false">Bloodraven</button>
+        </div>
+        <!-- Theory toggle (S220): OFF by default. OFF is a hard guarantee — the
+             backend strips every theory node/edge from the tools before the model
+             sees them. ON opts into labeled-speculation answers. Sticky in
+             localStorage; the choice rides on the next /api/chat request. -->
+        <div class="theory-switch" id="theory-switch">
+          <button type="button" class="theory-toggle" id="theory-toggle" role="switch" aria-checked="false">
+            <span class="theory-track" aria-hidden="true"><span class="theory-knob"></span></span>
+            <span class="theory-label">Include fan theories</span>
+          </button>
+          <span class="theory-note">may reference show outcomes</span>
         </div>
         <div class="composer-row">
           <textarea id="input" class="input" rows="1" placeholder="Ask your questions…"

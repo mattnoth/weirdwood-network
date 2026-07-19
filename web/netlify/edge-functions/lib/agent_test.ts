@@ -15,7 +15,11 @@ import {
   MAX_TOOL_ITERATIONS,
   outcomeFor,
   runAgent,
+  stripTheories,
   systemPromptFor,
+  THEORY_CATEGORY,
+  THEORY_EDGE_TYPES,
+  THEORY_NODE_TYPE,
   TOOL_DEFS,
   type TurnResult,
   verifyCites,
@@ -378,6 +382,245 @@ Deno.test("SHARED_RULES text is unchanged (pinned invariant) — theory-gate, ci
   // causal chain panel is empty" into an answer); (3) the no-process-narration rule
   // in Answering — general (same probe). Theory-gate/cite/floor text unchanged.
   assert.equal(sharedRules.length, 15020, "SHARED_RULES length changed — confirm intentional");
+});
+
+// ---- Theory toggle (S220): OFF-mode filter + ON-mode prompt contract ----
+
+Deno.test("systemPromptFor: theory toggle swaps ONLY the theory-scope block", () => {
+  const off = systemPromptFor("loremaster"); // default = OFF
+  const on = systemPromptFor("loremaster", true);
+
+  // OFF carries the S218 no-theories guardrail; ON drops it for the contract.
+  assert.ok(off.includes("do NOT introduce theories"), "OFF keeps the no-theories guardrail");
+  assert.ok(!on.includes("do NOT introduce theories"), "ON drops the no-theories guardrail");
+  assert.ok(
+    on.includes("Fan theories are IN SCOPE this turn"),
+    "ON carries the labeled-speculation contract",
+  );
+  assert.ok(on.includes("never as fact"), "ON insists theories are framed as speculation");
+
+  // Everything else is shared — the swap is one block, not a diverged rules copy.
+  for (const shared of ["AT LEAST TWO", "NEVER invent a chapter:line citation", "[[q|"]) {
+    assert.ok(off.includes(shared) && on.includes(shared), `both modes keep: ${shared}`);
+  }
+  // bloodraven composes the SAME theory-scope swap (persona-independent).
+  assert.ok(systemPromptFor("bloodraven", true).includes("Fan theories are IN SCOPE this turn"));
+  assert.ok(!systemPromptFor("bloodraven", true).includes("do NOT introduce theories"));
+});
+
+Deno.test("stripTheories: resolve drops theory-category candidates", () => {
+  const cands = [
+    { slug: "jon-snow", category: "characters", score: 1, matchType: "exact" },
+    { slug: "r-plus-l-equals-j", category: THEORY_CATEGORY, score: 1, matchType: "exact" },
+  ];
+  assert.deepEqual(stripTheories("resolve", cands), [cands[0]]);
+});
+
+Deno.test("stripTheories: read_node on a theory node reads as null", () => {
+  assert.equal(stripTheories("read_node", { slug: "rlj", type: THEORY_NODE_TYPE, name: "R+L=J" }), null);
+  const real = { slug: "ned", type: "character.human", name: "Ned" };
+  assert.equal(stripTheories("read_node", real), real); // non-theory passes through
+});
+
+Deno.test("stripTheories: search_quotes drops theory-category hits", () => {
+  const hits = [
+    { slug: "ned-stark", type: "characters", text: "…", cite: "x.md:1", score: 2 },
+    { slug: "rlj", type: THEORY_CATEGORY, text: "…", cite: null, score: 1 },
+  ];
+  assert.deepEqual(stripTheories("search_quotes", hits), [hits[0]]);
+});
+
+Deno.test("stripTheories: walk_chain drops theory-typed links + theory-node endpoints", () => {
+  const chain = {
+    slug: "e",
+    upstream: [
+      { edge_type: "CAUSES", source: "a", target: "e", source_type: "event", target_type: "event" },
+      { edge_type: "SUPPORTS", source: "e", target: "rlj", target_type: THEORY_NODE_TYPE },
+    ],
+    downstream: [
+      { edge_type: "TRIGGERS", source: "e", target: "b", target_type: "event" },
+    ],
+    enables: [
+      { edge_type: "ENABLES", source: "rlj", target: "e", source_type: THEORY_NODE_TYPE },
+    ],
+  };
+  const out = stripTheories("walk_chain", chain) as typeof chain;
+  assert.equal(out.upstream.length, 1);
+  assert.equal(out.upstream[0].edge_type, "CAUSES");
+  assert.equal(out.downstream.length, 1);
+  assert.equal(out.enables.length, 0); // dropped: touches a theory node
+});
+
+Deno.test("stripTheories: neighbors drops SUPPORTS/CONTRADICTS groups + recounts", () => {
+  const nb = {
+    slug: "azor-ahai",
+    outgoingCount: 3,
+    incomingCount: 1,
+    outgoing: {
+      KILLS: [{ edge_type: "KILLS", source: "azor-ahai", target: "x", target_type: "character.human" }],
+      SUPPORTS: [
+        { edge_type: "SUPPORTS", source: "azor-ahai", target: "aa-theory", target_type: THEORY_NODE_TYPE },
+        { edge_type: "SUPPORTS", source: "azor-ahai", target: "aa2", target_type: THEORY_NODE_TYPE },
+      ],
+    },
+    incoming: {
+      CONTRADICTS: [{ edge_type: "CONTRADICTS", source: "y", target: "azor-ahai", source_type: THEORY_NODE_TYPE }],
+    },
+  };
+  const out = stripTheories("neighbors", nb) as typeof nb;
+  assert.deepEqual(Object.keys(out.outgoing), ["KILLS"]);
+  assert.deepEqual(Object.keys(out.incoming), []);
+  assert.equal(out.outgoingCount, 1);
+  assert.equal(out.incomingCount, 0);
+});
+
+Deno.test("stripTheories: path drops theory direct edges + theory-node bridges", () => {
+  const p = {
+    slugA: "barristan-selmy",
+    slugB: "tywin-lannister",
+    directEdges: [
+      { edge_type: "SERVES", source: "barristan-selmy", target: "tywin-lannister", ref: null },
+      { edge_type: "SUPPORTS", source: "barristan-selmy", target: "ajt", ref: null },
+    ],
+    totalBridges: 2,
+    bridges: [
+      { bridge: "kings-landing", aTypes: ["AT"], bTypes: ["AT"], aDir: "out", bDir: "out" },
+      { bridge: "ajt-theory", aTypes: ["SUPPORTS"], bTypes: ["SUPPORTS"], aDir: "out", bDir: "out" },
+    ],
+  };
+  const out = stripTheories("path", p) as typeof p;
+  assert.equal(out.directEdges.length, 1);
+  assert.equal(out.directEdges[0].edge_type, "SERVES");
+  assert.equal(out.bridges.length, 1); // the theory-node bridge collapsed to empty legs
+  assert.equal(out.bridges[0].bridge, "kings-landing");
+  assert.equal(out.totalBridges, 1);
+});
+
+Deno.test("stripTheories: path keeps bridges whose legs were never typed (no over-drop)", () => {
+  // A bridge with empty type arrays (some fixtures/edge cases) must survive — only
+  // legs that WERE typed and became empty after removing theory edges are dropped.
+  const p = {
+    slugA: "a", slugB: "b", directEdges: [], totalBridges: 1,
+    bridges: [{ bridge: "c", aTypes: [], bTypes: [], aDir: "out", bDir: "in" }],
+  };
+  const out = stripTheories("path", p) as typeof p;
+  assert.equal(out.bridges.length, 1);
+});
+
+Deno.test("stripTheories: list_nodes on the theories shelf comes back empty", () => {
+  const empty = stripTheories("list_nodes", {
+    category: THEORY_CATEGORY, total: 12, offset: 0,
+    items: [{ slug: "rlj", type: THEORY_CATEGORY, name: "R+L=J" }], truncated: false,
+  }) as { total: number; items: unknown[] };
+  assert.equal(empty.total, 0);
+  assert.equal(empty.items.length, 0);
+  // Any other category passes through untouched (holds no theory nodes).
+  const foods = { category: "foods", total: 1, offset: 0, items: [{ slug: "x", type: "foods", name: "X" }], truncated: false };
+  assert.equal(stripTheories("list_nodes", foods), foods);
+});
+
+Deno.test("stripTheories: theme drops theory members + adjusts total", () => {
+  const t = {
+    theme: "meals & feasts", total: 3,
+    items: [
+      { slug: "lemon-cakes", type: "foods", name: "Lemon cakes" },
+      { slug: "rlj", type: THEORY_CATEGORY, name: "R+L=J" },
+    ],
+    truncated: true,
+  };
+  const out = stripTheories("theme", t) as { total: number; items: unknown[]; truncated: boolean };
+  assert.equal(out.items.length, 1);
+  assert.equal(out.total, 2); // 3 − 1 theory member dropped
+  assert.equal(out.truncated, true); // still more members than the page shows
+});
+
+Deno.test("stripTheories: family_tree + unknown tools pass through unchanged", () => {
+  const ft = { root: "aegon", members: [], parentBonds: [], spouseBonds: [] };
+  assert.equal(stripTheories("family_tree", ft), ft);
+  const unknown = { x: 1 };
+  assert.equal(stripTheories("not-a-tool", unknown), unknown);
+});
+
+Deno.test("dispatchTool: OFF strips real theory data, ON (includeTheories) passes it through", () => {
+  // Pick a real evidence node off the live bundle so this survives slug churn.
+  const evEdge = data.edges.find(
+    (e) => (e.type === "SUPPORTS" || e.type === "CONTRADICTS") && !!data.nodes[e.source],
+  );
+  assert.ok(evEdge, "bundle should carry at least one SUPPORTS/CONTRADICTS edge from a real node");
+  const src = evEdge!.source;
+
+  const hasTheoryGroup = (r: Record<string, unknown>) =>
+    (["outgoing", "incoming"] as const).some((d) =>
+      Object.keys((r[d] ?? {}) as Record<string, unknown>).some((k) => THEORY_EDGE_TYPES.has(k))
+    );
+
+  const on = dispatchTool("neighbors", { slug: src }, tools, true) as Record<string, unknown>;
+  const off = dispatchTool("neighbors", { slug: src }, tools, false) as Record<string, unknown>;
+  assert.ok(hasTheoryGroup(on), "ON mode surfaces the theory edge group");
+  assert.ok(!hasTheoryGroup(off), "OFF mode strips every theory edge group");
+  assert.ok(
+    ((off.outgoingCount as number) + (off.incomingCount as number)) <
+      ((on.outgoingCount as number) + (on.incomingCount as number)),
+    "OFF mode reports a lower connection count",
+  );
+
+  // A real theory node: OFF read_node reads as null, ON returns the record.
+  const theorySlug = Object.keys(data.nodes).find((s) => data.nodes[s].type === THEORY_NODE_TYPE);
+  assert.ok(theorySlug, "bundle should carry at least one concept.theory node");
+  assert.equal(dispatchTool("read_node", { slug: theorySlug! }, tools, false), null);
+  assert.ok(dispatchTool("read_node", { slug: theorySlug! }, tools, true), "ON reveals the theory dossier");
+
+  // Resolving that theory's name never surfaces a theories-category candidate in OFF.
+  const offResolve = dispatchTool(
+    "resolve",
+    { phrase: data.nodes[theorySlug!].name },
+    tools,
+    false,
+  ) as Array<{ category: string }>;
+  assert.ok(offResolve.every((c) => c.category !== THEORY_CATEGORY), "OFF resolve hides theory nodes");
+});
+
+Deno.test("runAgent: the includeTheories flag reaches the receipt — OFF strips, ON keeps", async () => {
+  const evEdge = data.edges.find(
+    (e) => (e.type === "SUPPORTS" || e.type === "CONTRADICTS") && !!data.nodes[e.source],
+  )!;
+  const src = evEdge.source;
+
+  const stubFor = () => {
+    let turn = 0;
+    return (_m: ChatMessage[], onText: (d: string) => void): Promise<TurnResult> => {
+      turn++;
+      if (turn === 1) {
+        return Promise.resolve({
+          stopReason: "tool_use",
+          usage,
+          content: [{ type: "tool_use", id: "n1", name: "neighbors", input: { slug: src } }],
+        });
+      }
+      onText("An answer. ");
+      return Promise.resolve({ stopReason: "end_turn", usage, content: [{ type: "text", text: "…" }] });
+    };
+  };
+  const receiptGroups = (events: Array<{ event: string; data: unknown }>) => {
+    const rc = events.find((e) => e.event === "receipt")!.data as { result: Record<string, unknown> };
+    return (["outgoing", "incoming"] as const).flatMap((d) =>
+      Object.keys((rc.result[d] ?? {}) as Record<string, unknown>)
+    );
+  };
+
+  const offRec = recorder();
+  await runAgent([{ role: "user", content: "q" }], tools, stubFor(), offRec.emit, false);
+  assert.ok(
+    !receiptGroups(offRec.events).some((k) => THEORY_EDGE_TYPES.has(k)),
+    "OFF: the neighbors receipt carries no theory group",
+  );
+
+  const onRec = recorder();
+  await runAgent([{ role: "user", content: "q" }], tools, stubFor(), onRec.emit, true);
+  assert.ok(
+    receiptGroups(onRec.events).some((k) => THEORY_EDGE_TYPES.has(k)),
+    "ON: the neighbors receipt carries the theory group",
+  );
 });
 
 // ---- list_nodes / theme tools (query-layer wiring pass 2) ----

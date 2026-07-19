@@ -408,6 +408,13 @@ let showPre = localStorage.getItem("weirwood-show-pre") === "1";
 let persona = "loremaster";
 const personaLabel = () => (persona === "bloodraven" ? "the three-eyed raven" : "the loremaster");
 
+// Fan-theory layer: OFF by default (S220). OFF is a hard guarantee enforced backend-
+// side (the tool-layer filter strips theory nodes/edges before the model sees them);
+// ON opts into labeled-speculation answers. Sticky across turns; sent to /api/chat so
+// the backend picks the filter + prompt contract. Only new answers change — bubbles
+// already in the thread keep the mode they were written under.
+let includeTheories = localStorage.getItem("weirwood-theories") === "1";
+
 // How many causal-spine links touch each node slug (drives the `·N` degree badge).
 function degreeMap(rawLinks) {
   const d = new Map();
@@ -1535,7 +1542,7 @@ async function ask(question) {
     const res = await fetch("/api/chat", {
       method: "POST",
       headers: { "content-type": "application/json" },
-      body: JSON.stringify({ messages: history, persona }),
+      body: JSON.stringify({ messages: history, persona, theories: includeTheories }),
     });
     if (!res.ok || !res.body) {
       showError(`The model endpoint returned ${res.status}.`);
@@ -1733,6 +1740,23 @@ if (personaSwitch) {
     });
   }
   sync();
+}
+
+// Theory toggle: opt into the fan-theory layer (default OFF). Sticky in localStorage;
+// the choice rides on the next /api/chat request (the backend does the actual
+// filtering + prompt swap). Flipping it never rewrites answers already in the thread.
+const theoryToggle = $("#theory-toggle");
+if (theoryToggle) {
+  const syncTheory = () => {
+    theoryToggle.setAttribute("aria-checked", includeTheories ? "true" : "false");
+    theoryToggle.classList.toggle("is-on", includeTheories);
+  };
+  theoryToggle.addEventListener("click", () => {
+    includeTheories = !includeTheories;
+    localStorage.setItem("weirwood-theories", includeTheories ? "1" : "0");
+    syncTheory();
+  });
+  syncTheory();
 }
 
 // New chat: clear the persisted thread and reload to a clean landing.

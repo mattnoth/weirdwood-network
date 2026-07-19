@@ -116,6 +116,33 @@ const BLOODRAVEN_VOICE =
 - Do not pile on symbolism; one image, then stop.
 - Do not open a causal answer with a counting formula ("Three links in the chain", "Two threads, braided together"). Lead with the substance — name the first cause and let the rest follow. If a single connective image genuinely helps, a "thread" or "strand" of events will serve; use it once, and lightly.`;
 
+// The theory-scope block is the ONE part of SHARED_RULES the theory toggle swaps
+// (S220). OFF (default) embeds THEORY_GUARDRAIL_OFF verbatim — the S218 no-theories
+// guardrail, byte-for-byte unchanged (the pinned-length test in agent_test.ts is the
+// tripwire). ON substitutes THEORY_CONTRACT_ON, the labeled-speculation contract. It
+// is extracted to a named const purely so the ON variant is a precise one-block
+// string-replace, never a hand-diverged copy of the whole 15 KB rules block.
+
+/** OFF-mode (default): theories are out of scope entirely. Verbatim S218 text. */
+const THEORY_GUARDRAIL_OFF =
+  `# Stay within the revealed text — do NOT introduce theories
+- You answer ONLY to what the books and this graph actually establish. Do NOT assert, allude to, hint at, or foreshadow unconfirmed fan theories, unrevealed secrets, or a character's hidden "true" identity or parentage — e.g. whose child Jon Snow "really" is, who Azor Ahai or the prince that was promised "is", the face behind a disguise the books have not confirmed.
+- When a matter is unresolved in the text, either say nothing about it or state plainly that the books do not reveal it. NEVER wink at an answer you cannot cite — a knowing hint toward a theory is exactly the thing to avoid.
+- If you cannot ground a claim in what a tool returned this turn, leave it out. Grounded and cautious beats clever and speculative.`;
+
+/** ON-mode (toggle): theories ARE in scope — but only as labeled speculation, never
+ *  as fact. Substituted for THEORY_GUARDRAIL_OFF when the visitor opts in. The
+ *  runtime tool-layer filter is what actually exposes the theory nodes/edges; this
+ *  contract governs how the model is allowed to talk about them once it can see them. */
+const THEORY_CONTRACT_ON =
+  `# Fan theories are IN SCOPE this turn — but only as labeled speculation, never as fact
+- The visitor has opted in to fan theories. The graph now surfaces them to you as \`concept.theory\` nodes, and the evidence for and against each rides on SUPPORTS / CONTRADICTS edges (each with its own verbatim book quote + citation). You MAY discuss them — as theories, never as settled truth.
+- ALWAYS name the theory and attribute the claim to it: "the R+L=J theory holds that…", "readers who argue this point to…". NEVER state a theory's claim as narration or as something the books establish. A hidden identity, parentage, or prophecy the text has NOT confirmed is a THEORY's claim, not a fact — frame it that way every time.
+- Keep the two layers distinct: separate what the TEXT establishes (the quoted passages the SUPPORTS/CONTRADICTS edges carry — real book lines you can cite) from what the THEORY infers from them (the leap the community makes). Quote the evidence; label the inference.
+- Give both sides when the graph has them: a CONTRADICTS edge is evidence AGAINST a theory — surface it, don't present only the supporting side.
+- Mention the theory's \`status\` when it bears on the answer: open (unresolved in the books), show-confirmed (the TV adaptation resolved it but the books have not — say so, and never treat the show as canon), or jossed (the books have since contradicted it). The node's \`claim\` field is a ready-made one-line summary of what the theory asserts; the per-edge \`tier\` grades evidence strength (3 = community consensus, 4 = plausible, 5 = fringe) — let that confidence show in how you frame it.
+- Every other rule still holds: the quote marker, the ≥2-quote floor, the strict no-fabricated-citation rule, and grounding every claim in what the tools returned THIS turn. A theory discussion is held to the SAME evidence discipline as any other answer — you cite real passages about a theory, you never invent support for it.`;
+
 /** Shared by BOTH personas: the answering contract, the scope guardrail, and every
  *  tool / grounding / quote rule. Composed after whichever voice is selected. */
 const SHARED_RULES = `# Answering — general
@@ -124,10 +151,7 @@ const SHARED_RULES = `# Answering — general
 - Never use the words "chain" or "link" to name the events in your answer — those label the interface's panel beside you, not your prose. Speak of causes, consequences, and sequence instead.
 - Never narrate your process or a tool's outcome mid-answer — no "the causal chain panel is empty", no "let me pull the relationships", no thinking out loud between sentences. If a lookup comes back empty, silently take the next step; the reader sees only the finished answer (an honest "the books do not reveal it" conclusion is fine — a play-by-play of your searching is not).
 
-# Stay within the revealed text — do NOT introduce theories
-- You answer ONLY to what the books and this graph actually establish. Do NOT assert, allude to, hint at, or foreshadow unconfirmed fan theories, unrevealed secrets, or a character's hidden "true" identity or parentage — e.g. whose child Jon Snow "really" is, who Azor Ahai or the prince that was promised "is", the face behind a disguise the books have not confirmed.
-- When a matter is unresolved in the text, either say nothing about it or state plainly that the books do not reveal it. NEVER wink at an answer you cannot cite — a knowing hint toward a theory is exactly the thing to avoid.
-- If you cannot ground a claim in what a tool returned this turn, leave it out. Grounded and cautious beats clever and speculative.
+${THEORY_GUARDRAIL_OFF}
 
 # Show-watchers — questions phrased through the TV adaptations
 - Visitors often arrive from the shows (Game of Thrones, House of the Dragon) and ask through show names, spellings, and events — "did X from the show happen in the books". Understand the reference, map it to the books' entities — the era House of the Dragon depicts is the Dance of the Dragons — and answer from the books and graph as always.
@@ -191,14 +215,22 @@ Example: When Tyrion throws his father's reputation back at him: [[q|I have no d
 # When the text is silent
 If the tools return nothing, or nothing that answers the question, say so plainly in your voice — the graph not holding a scene is the honest answer. Do not invent a moment that is not there.`;
 
+/** SHARED_RULES with the theory-scope block swapped to the ON contract (S220). A
+ *  single string-replace of the extracted block — so ON and OFF share every other
+ *  byte of the rules and can never silently diverge. The replace target is the exact
+ *  substring interpolated into SHARED_RULES above, so it matches once, deterministically. */
+const SHARED_RULES_THEORIES_ON = SHARED_RULES.replace(THEORY_GUARDRAIL_OFF, THEORY_CONTRACT_ON);
+
 export type Persona = "loremaster" | "bloodraven";
 
 /** The system prompt for a persona: its voice, then the shared grounding rules.
- *  `loremaster` is the default; any unrecognized value falls back to it. */
-export function systemPromptFor(persona: Persona): string {
-  return persona === "bloodraven"
-    ? `${BLOODRAVEN_VOICE}\n\n${SHARED_RULES}`
-    : `${LOREMASTER_VOICE}\n\n${SHARED_RULES}`;
+ *  `loremaster` is the default; any unrecognized value falls back to it.
+ *  `includeTheories` (S220) swaps the theory-scope block: false (default) keeps the
+ *  no-theories guardrail; true substitutes the labeled-speculation contract. */
+export function systemPromptFor(persona: Persona, includeTheories = false): string {
+  const voice = persona === "bloodraven" ? BLOODRAVEN_VOICE : LOREMASTER_VOICE;
+  const rules = includeTheories ? SHARED_RULES_THEORIES_ON : SHARED_RULES;
+  return `${voice}\n\n${rules}`;
 }
 
 /** The four tools, in the Anthropic tool-definition shape. Stable (cacheable). */
@@ -339,6 +371,177 @@ export const TOOL_DEFS = [
   },
 ];
 
+// ---- Theory-layer filter: the OFF-mode hard guarantee (S220) ----
+//
+// The theory layer (concept.theory nodes + SUPPORTS/CONTRADICTS evidence edges,
+// minted S218) is exposed to chat ONLY when the visitor opts in via the theory
+// toggle. OFF is the default and a HARD guarantee: this filter strips every theory
+// node and every theory-evidence edge from a tool result BEFORE anything downstream
+// sees it — the model, the cite-verification gate, and the receipts panel all read
+// the already-filtered result (dispatchTool is the single choke point runAgent calls).
+//
+// It filters by EDGE TYPE and NODE TYPE, not by target slug: the 4 legacy
+// interpersonal SUPPORTS/CONTRADICTS edges (luwin↔osha, renly→jon-arryn,
+// haldon→ysilla) are tier-1 factual but collide with the reserved Evidence→Theory
+// semantics — hiding them in OFF mode is acceptable collateral (S218 audit note),
+// and filtering purely by type keeps the guarantee simple and total.
+
+/** Edge types that assert (or undermine) a fan theory. Hidden entirely in OFF mode. */
+export const THEORY_EDGE_TYPES: ReadonlySet<string> = new Set(["SUPPORTS", "CONTRADICTS"]);
+
+/** The frontmatter type scalar carried by a fan-theory node (NodeRecord.type). */
+export const THEORY_NODE_TYPE = "concept.theory";
+
+/** The graph/nodes/ category (type-directory) fan-theory nodes live in — the value
+ *  resolve candidates, search hits, and list/theme rows carry as `category`/wire `type`. */
+export const THEORY_CATEGORY = "theories";
+
+function isTheoryEdgeType(t: unknown): boolean {
+  return typeof t === "string" && THEORY_EDGE_TYPES.has(t);
+}
+
+/** A typed-edge link (ChainLink / NeighborLink) that either IS a theory edge or
+ *  touches a theory node on either end. */
+function linkTouchesTheory(link: Record<string, unknown>): boolean {
+  return isTheoryEdgeType(link.edge_type) ||
+    link.source_type === THEORY_NODE_TYPE ||
+    link.target_type === THEORY_NODE_TYPE;
+}
+
+/** Strip every theory node and theory-evidence edge from one tool's dispatch
+ *  result. Shape-aware, per tool; unknown tools (and family_tree, whose lineage
+ *  can carry no theory content) pass through unchanged. Pure — returns a filtered
+ *  copy, never mutates the input. Called by dispatchTool only when the theory
+ *  toggle is OFF. */
+export function stripTheories(name: string, result: unknown): unknown {
+  switch (name) {
+    case "resolve":
+      return Array.isArray(result)
+        ? result.filter((c) => (c as Record<string, unknown>).category !== THEORY_CATEGORY)
+        : result;
+
+    case "search_quotes":
+      // SearchResult.type is the node's category ("theories" for a theory node).
+      return Array.isArray(result)
+        ? result.filter((h) => (h as Record<string, unknown>).type !== THEORY_CATEGORY)
+        : result;
+
+    case "read_node":
+      return (result && typeof result === "object" &&
+          (result as Record<string, unknown>).type === THEORY_NODE_TYPE)
+        ? null // a theory dossier reads as "no such node" in OFF mode
+        : result;
+
+    case "walk_chain": {
+      if (!result || typeof result !== "object") return result;
+      const r = result as Record<string, unknown>;
+      const clean = (arr: unknown) =>
+        Array.isArray(arr)
+          ? arr.filter((l) => !linkTouchesTheory(l as Record<string, unknown>))
+          : arr;
+      return {
+        ...r,
+        upstream: clean(r.upstream),
+        downstream: clean(r.downstream),
+        enables: clean(r.enables),
+      };
+    }
+
+    case "neighbors": {
+      if (!result || typeof result !== "object") return result;
+      const r = result as Record<string, unknown>;
+      // Drop whole SUPPORTS/CONTRADICTS groups, and any surviving link that still
+      // touches a theory node; recompute the direction counts to match.
+      const cleanGroups = (groups: unknown): [Record<string, unknown[]>, number] => {
+        const out: Record<string, unknown[]> = {};
+        let count = 0;
+        if (groups && typeof groups === "object") {
+          for (const [etype, links] of Object.entries(groups as Record<string, unknown>)) {
+            if (THEORY_EDGE_TYPES.has(etype) || !Array.isArray(links)) continue;
+            const kept = (links as unknown[]).filter(
+              (l) => !linkTouchesTheory(l as Record<string, unknown>),
+            );
+            if (kept.length > 0) {
+              out[etype] = kept;
+              count += kept.length;
+            }
+          }
+        }
+        return [out, count];
+      };
+      const [outgoing, outgoingCount] = cleanGroups(r.outgoing);
+      const [incoming, incomingCount] = cleanGroups(r.incoming);
+      return { ...r, outgoing, incoming, outgoingCount, incomingCount };
+    }
+
+    case "path": {
+      if (!result || typeof result !== "object") return result;
+      const r = result as Record<string, unknown>;
+      const directEdges = Array.isArray(r.directEdges)
+        ? (r.directEdges as Array<Record<string, unknown>>).filter(
+          (e) => !isTheoryEdgeType(e.edge_type),
+        )
+        : r.directEdges;
+      let bridges = r.bridges;
+      let dropped = 0;
+      if (Array.isArray(r.bridges)) {
+        const kept: unknown[] = [];
+        for (const b of r.bridges as Array<Record<string, unknown>>) {
+          const aTypes = Array.isArray(b.aTypes) ? (b.aTypes as unknown[]) : [];
+          const bTypes = Array.isArray(b.bTypes) ? (b.bTypes as unknown[]) : [];
+          const aClean = aTypes.filter((t) => !isTheoryEdgeType(t));
+          const bClean = bTypes.filter((t) => !isTheoryEdgeType(t));
+          // A bridge whose only link to an endpoint was a theory edge collapses to
+          // nothing on that leg — that IS the theory-node-as-bridge case; drop it.
+          if ((aTypes.length > 0 && aClean.length === 0) || (bTypes.length > 0 && bClean.length === 0)) {
+            dropped++;
+            continue;
+          }
+          kept.push({ ...b, aTypes: aClean, bTypes: bClean });
+        }
+        bridges = kept;
+      }
+      const totalBridges = typeof r.totalBridges === "number"
+        ? Math.max(Array.isArray(bridges) ? bridges.length : 0, r.totalBridges - dropped)
+        : r.totalBridges;
+      return { ...r, directEdges, bridges, totalBridges };
+    }
+
+    case "list_nodes": {
+      if (!result || typeof result !== "object") return result;
+      const r = result as Record<string, unknown>;
+      // Theory nodes live only in the "theories" category — an OFF-mode browse of
+      // that shelf comes back empty, not partially filtered. Every other category
+      // holds no theory nodes, so it passes through untouched.
+      if (r.category === THEORY_CATEGORY) {
+        return { category: THEORY_CATEGORY, total: 0, offset: 0, items: [], truncated: false };
+      }
+      return result;
+    }
+
+    case "theme": {
+      if (!result || typeof result !== "object") return result;
+      const r = result as Record<string, unknown>;
+      if (r.error || !Array.isArray(r.items)) return result;
+      const items = (r.items as Array<Record<string, unknown>>).filter(
+        (it) => it.type !== THEORY_CATEGORY,
+      );
+      const dropped = (r.items as unknown[]).length - items.length;
+      const total = typeof r.total === "number" ? Math.max(items.length, r.total - dropped) : r.total;
+      return {
+        ...r,
+        items,
+        total,
+        truncated: typeof total === "number" ? total > items.length : r.truncated,
+      };
+    }
+
+    default:
+      // family_tree (lineage — no theory content possible) + unknown tools.
+      return result;
+  }
+}
+
 // ---- Tool dispatch ----
 
 /** Hard cap on rows a list_nodes/theme tool call hands the model in one turn
@@ -356,10 +559,25 @@ function toRow(item: { slug: string; name: string; category?: string; type?: str
   return { slug: item.slug, type: item.category ?? item.type ?? "", name: item.name };
 }
 
-/** Route one tool_use to the bound retrieval tool. The tools self-validate
- *  (invalid slug/phrase → empty result), so this is the trust boundary's
- *  far side: bad input yields data, never an exception. */
+/** Route one tool_use to the bound retrieval tool, then apply the theory-layer
+ *  filter unless the visitor opted in. `includeTheories` defaults to false — the
+ *  OFF-mode hard guarantee is the safe default, so a caller that forgets the flag
+ *  hides theories rather than leaking them. runAgent is the only real caller; the
+ *  direct callers in tests pass 3 args and get the OFF (filtered) behaviour. */
 export function dispatchTool(
+  name: string,
+  input: Record<string, unknown>,
+  tools: Tools,
+  includeTheories = false,
+): unknown {
+  const out = dispatchToolInner(name, input, tools);
+  return includeTheories ? out : stripTheories(name, out);
+}
+
+/** The raw dispatch: route one tool_use to the bound retrieval tool. The tools
+ *  self-validate (invalid slug/phrase → empty result), so this is the trust
+ *  boundary's far side: bad input yields data, never an exception. */
+function dispatchToolInner(
   name: string,
   input: Record<string, unknown>,
   tools: Tools,
@@ -710,6 +928,7 @@ export async function runAgent(
   tools: Tools,
   runTurn: RunTurn,
   emit: Emit,
+  includeTheories = false,
 ): Promise<AgentResult> {
   const validCites = new Set<string>();
   let prose = "";
@@ -744,7 +963,7 @@ export async function runAgent(
     const results: ContentBlock[] = [];
     for (const tu of toolUses) {
       toolCalls++;
-      const out = dispatchTool(tu.name, tu.input, tools);
+      const out = dispatchTool(tu.name, tu.input, tools, includeTheories);
       const outcome = outcomeFor(tu.name, out);
       toolTrace.push(
         outcome ? { tool: tu.name, input: tu.input, outcome } : { tool: tu.name, input: tu.input },
