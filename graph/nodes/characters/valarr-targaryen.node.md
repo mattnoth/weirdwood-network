@@ -15,6 +15,7 @@ first_available:
   chapter: 5
   source: cite_ref
   pov: "Brienne I"
+aliases: ["The Young Prince", "Young Prince", "Prince Valarr"]
 ---
 
 ## Origins

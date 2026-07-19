@@ -2,7 +2,7 @@
 name: "Daeron II Targaryen"
 type: character.human
 slug: daeron-ii-targaryen
-aliases: ["Daeron the Good", "Daeron the Falseborn", "Good King Daeron"]
+aliases: ["Daeron the Good", "Daeron the Falseborn", "Good King Daeron", "King Daeron"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daeron_II_Targaryen"
 bucket_id: characters-other-c-d

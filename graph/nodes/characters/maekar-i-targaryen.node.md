@@ -2,7 +2,7 @@
 name: "Maekar I Targaryen"
 type: character.human
 slug: maekar-i-targaryen
-aliases: ["The Anvil"]
+aliases: ["The Anvil", "Prince Maekar", "the silver-bearded prince", "silver-bearded prince"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Maekar_I_Targaryen"
 bucket_id: characters-other-l-m

@@ -2,7 +2,7 @@
 name: "Aegon V Targaryen"
 type: character.human
 slug: aegon-v-targaryen
-aliases: ["Aegon the Unlikely", "Aegon the Fortunate", "Egg", "The Prince Who Was An Egg"]
+aliases: ["Aegon the Unlikely", "Aegon the Fortunate", "Egg", "The Prince Who Was An Egg", "Prince Maekar's youngest son", "Prince Aegon", "Prince Aegon Targaryen"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_V_Targaryen"
 bucket_id: houses-major-recovery

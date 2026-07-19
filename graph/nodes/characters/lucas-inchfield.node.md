@@ -2,7 +2,7 @@
 name: "Lucas Inchfield"
 type: character.human
 slug: lucas-inchfield
-aliases: ["Lucas Longinch", "The Longinch"]
+aliases: ["Lucas Longinch", "The Longinch", "\"the Longinch\"", "Ser Lucas Inchfield", "Longinch"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lucas_Inchfield"
 bucket_id: characters-house-inchfield

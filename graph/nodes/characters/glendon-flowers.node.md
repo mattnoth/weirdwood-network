@@ -2,7 +2,7 @@
 name: "Glendon Flowers"
 type: character.human
 slug: glendon-flowers
-aliases: ["Glendon Ball", "The Knight of the Pussywillows", "Glendon the Bastard", "The Bastard of the Pussywillows"]
+aliases: ["Glendon Ball", "The Knight of the Pussywillows", "Glendon the Bastard", "The Bastard of the Pussywillows", "Knight of the Pussywillows", "\"the Bastard of the Pussywillows\"", "Ser Glendon Ball"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Glendon_Flowers"
 bucket_id: characters-other-g

@@ -20,6 +20,7 @@ first_available:
   chapter: 15
   source: cite_ref
   pov: null
+aliases: ["Lord Rivers", "Lord Bloodraven", "Bloodraven", "Lord Brynden Rivers"]
 ---
 
 ## Identity

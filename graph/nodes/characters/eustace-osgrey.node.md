@@ -2,7 +2,7 @@
 name: "Eustace Osgrey"
 type: character.human
 slug: eustace-osgrey
-aliases: ["Ser Useless", "Old Osgrey"]
+aliases: ["Ser Useless", "Old Osgrey", "Ser Eustace Osgrey", "Ser Eustace"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Eustace_Osgrey"
 bucket_id: tier3-characters

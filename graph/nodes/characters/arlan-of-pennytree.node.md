@@ -2,7 +2,7 @@
 name: "Arlan of Pennytree"
 type: character.human
 slug: arlan-of-pennytree
-aliases: []
+aliases: ["Ser Arlan of Pennytree"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Arlan_of_Pennytree"
 bucket_id: tier3-pathb-characters

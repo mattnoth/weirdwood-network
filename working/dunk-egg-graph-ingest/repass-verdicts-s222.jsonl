@@ -1,0 +1,101 @@
+{"source_slug": "otho-bracken", "edge_type": "KILLS", "target_slug": "quentyn-blackwood", "verdict": "CONFIRM"}
+{"source_slug": "aegon-v-targaryen", "edge_type": "SIBLING_OF", "target_slug": "aerion-targaryen", "verdict": "CONFIRM"}
+{"source_slug": "aerion-targaryen", "edge_type": "ATTACKS", "target_slug": "tanselle", "verdict": "CONFIRM"}
+{"source_slug": "duncan-the-tall", "edge_type": "PERCEIVED_AS", "target_slug": "valarr-targaryen", "verdict": "CONFIRM"}
+{"source_slug": "valarr-targaryen", "edge_type": "DEFEATS", "target_slug": "gawen-swann", "verdict": "CONFIRM"}
+{"source_slug": "aegon-v-targaryen", "edge_type": "SIBLING_OF", "target_slug": "aemon-targaryen-son-of-maekar-i", "verdict": "CONFIRM"}
+{"source_slug": "aegon-v-targaryen", "edge_type": "SIBLING_OF", "target_slug": "daeron-targaryen-son-of-maekar-i", "verdict": "CONFIRM"}
+{"source_slug": "aerion-targaryen", "edge_type": "ATTACKS", "target_slug": "aegon-v-targaryen", "verdict": "CONFIRM"}
+{"source_slug": "robyn-rhysling", "edge_type": "DEFEATS", "target_slug": "daeron-targaryen-son-of-maekar-i", "verdict": "CONFIRM"}
+{"source_slug": "lyonel-baratheon", "edge_type": "OPPOSES", "target_slug": "maekar-i-targaryen", "verdict": "CONFIRM"}
+{"source_slug": "duncan-the-tall", "edge_type": "SWORN_TO", "target_slug": "eustace-osgrey", "verdict": "CONFIRM"}
+{"source_slug": "bennis-of-the-brown-shield", "edge_type": "SERVES", "target_slug": "eustace-osgrey", "verdict": "CONFIRM"}
+{"source_slug": "eustace-osgrey", "edge_type": "OPPOSES", "target_slug": "rohanne-webber", "verdict": "CONFIRM"}
+{"source_slug": "eustace-osgrey", "edge_type": "PARENT_OF", "target_slug": "alysanne", "verdict": "FIX", "reason": "Target resolved to 'alysanne' disambiguation-hub stub (wrong candidate listed: daughter of Aegon IV) instead of the specific Osgrey daughter named in the quote.", "fix_target_slug": "alysanne-osgrey"}
+{"source_slug": "rohanne-webber", "edge_type": "KILLS", "target_slug": "her-little-flower", "verdict": "REJECT", "reason": "Target 'her-little-flower' is a song (type object.text), unrelated to the quote; the quote's actual victims ('three of her husbands') are unnamed and not resolvable to a specific node."}
+{"source_slug": "rowans-forced-confession", "edge_type": "SPOUSE_OF", "target_slug": "wendell-webber", "verdict": "REJECT", "reason": "Source 'rowans-forced-confession' is an unrelated Fire & Blood-era event.trial node (false confession unravelled by Viserys); the actual subject ('Lord Rowan's sister') is an unnamed person with no matching node."}
+{"source_slug": "duncan-the-tall", "edge_type": "COMPANION_OF", "target_slug": "aegon-v-targaryen", "verdict": "CONFIRM"}
+{"source_slug": "duncan-the-tall", "edge_type": "PERCEIVED_AS", "target_slug": "aegon-v-targaryen", "verdict": "CONFIRM"}
+{"source_slug": "shiera-seastar", "edge_type": "LOVER_OF", "target_slug": "brynden-rivers", "verdict": "CONFIRM"}
+{"source_slug": "eustace-osgrey", "edge_type": "RESPECTS", "target_slug": "duncan-the-tall", "verdict": "CONFIRM"}
+{"source_slug": "daemon-i-blackfyre", "edge_type": "KILLS", "target_slug": "wild-hares", "verdict": "FIX", "reason": "Target resolved to 'wild-hares' (organization.faction) via stray 'Wild' match; quote names 'Wild Wyl Waynwood', an existing person node with alias 'Wild Wyl'.", "fix_target_slug": "wyl-waynwood"}
+{"source_slug": "daemon-i-blackfyre", "edge_type": "DEFEATS", "target_slug": "lord-arryn-father-of-jeyne", "verdict": "CONFIRM"}
+{"source_slug": "daemon-i-blackfyre", "edge_type": "PARENT_OF", "target_slug": "aemon-targaryen-son-of-maekar-i", "verdict": "FIX", "reason": "Target resolved to Aemon Targaryen (son of Maekar I, i.e. Maester Aemon) instead of Aemon Blackfyre, Daemon I's twin son who died at Redgrass Field carrying his father's sword.", "fix_target_slug": "aemon-blackfyre"}
+{"source_slug": "brynden-rivers", "edge_type": "KILLS", "target_slug": "aemon-targaryen-son-of-maekar-i", "verdict": "FIX", "reason": "Same misresolution as row 22: 'Young Aemon' at Redgrass Field is Aemon Blackfyre, not Aemon Targaryen son of Maekar I.", "fix_target_slug": "aemon-blackfyre"}
+{"source_slug": "lucas-inchfield", "edge_type": "DISTRUSTS", "target_slug": "duncan-the-tall", "verdict": "CONFIRM"}
+{"source_slug": "duncan-the-tall", "edge_type": "RESENTS", "target_slug": "lucas-inchfield", "verdict": "CONFIRM"}
+{"source_slug": "rohanne-webber", "edge_type": "IN_LAW_OF", "target_slug": "helicent-uffering", "verdict": "CONFIRM"}
+{"source_slug": "sefton-staunton", "edge_type": "IN_LAW_OF", "target_slug": "rohanne-webber", "verdict": "CONFIRM"}
+{"source_slug": "aegon-v-targaryen", "edge_type": "PARENT_OF", "target_slug": "brynden-rivers", "verdict": "FIX", "reason": "Source resolved to Aegon V Targaryen (Egg) instead of Aegon IV Targaryen (the Unworthy); quote is about Bloodraven's 'royal father' legitimizing his bastards on his deathbed \u2014 that's Aegon IV.", "fix_source_slug": "aegon-iv-targaryen"}
+{"source_slug": "sefton-staunton", "edge_type": "SIBLING_OF", "target_slug": "simon-leygood", "verdict": "FIX", "reason": "Target resolved to Simon Leygood (a living suitor of Rohanne) instead of Simon Staunton (Sefton's late brother, a previous septon); collision on shared first name 'Simon'.", "fix_target_slug": "simon-staunton"}
+{"source_slug": "simon-leygood", "edge_type": "SPOUSE_OF", "target_slug": "rohanne-webber", "verdict": "FIX", "reason": "Same Simon/Simon collision as row 29: the quote's 'Ser Simon Staunton' (Rohanne's deceased 3rd husband) was resolved to Simon Leygood instead.", "fix_source_slug": "simon-staunton"}
+{"source_slug": "rolland-storm", "edge_type": "SPOUSE_OF", "target_slug": "rohanne-webber", "verdict": "FIX", "reason": "Target resolved to Rolland Storm (Bastard of Nightsong, unrelated character) instead of Rolland Uffering, who the quote names explicitly as Rohanne's 4th husband.", "fix_target_slug": "rolland-uffering"}
+{"source_slug": "helicent-uffering", "edge_type": "SIBLING_OF", "target_slug": "rolland-storm", "verdict": "FIX", "reason": "Same Rolland/Rolland collision as row 31.", "fix_target_slug": "rolland-uffering"}
+{"source_slug": "wyman-webber", "edge_type": "MARRIES_OFF", "target_slug": "rohanne-webber", "verdict": "CONFIRM"}
+{"source_slug": "lucas-inchfield", "edge_type": "PROTECTS", "target_slug": "rohanne-webber", "verdict": "CONFIRM"}
+{"source_slug": "bennis-of-the-brown-shield", "edge_type": "ATTACKS", "target_slug": "wolmer", "verdict": "CONFIRM"}
+{"source_slug": "rohanne-webber", "edge_type": "ATTACKS", "target_slug": "duncan-the-tall", "verdict": "CONFIRM"}
+{"source_slug": "rohanne-webber", "edge_type": "BANISHES", "target_slug": "duncan-the-tall", "verdict": "CONFIRM"}
+{"source_slug": "rohanne-webber", "edge_type": "LOVES", "target_slug": "addam-osgrey", "verdict": "CONFIRM"}
+{"source_slug": "addam-osgrey", "edge_type": "LOVES", "target_slug": "rohanne-webber", "verdict": "CONFIRM"}
+{"source_slug": "rohanne-webber", "edge_type": "MOURNS", "target_slug": "addam-osgrey", "verdict": "CONFIRM"}
+{"source_slug": "rohanne-webber", "edge_type": "RESENTS", "target_slug": "eustace-osgrey", "verdict": "CONFIRM"}
+{"source_slug": "gerold-lannister", "edge_type": "COURTS", "target_slug": "rohanne-webber", "verdict": "CONFIRM"}
+{"source_slug": "cleyton-caswell", "edge_type": "COURTS", "target_slug": "rohanne-webber", "verdict": "CONFIRM"}
+{"source_slug": "simon-leygood", "edge_type": "COURTS", "target_slug": "rohanne-webber", "verdict": "CONFIRM"}
+{"source_slug": "otho-bracken", "edge_type": "HEIR_TO", "target_slug": "bracken", "verdict": "FIX", "reason": "Target resolved to generic 'Bracken' stub instead of the specific 'Lord Bracken (father of Otho)' node that exists and matches the quote (Otho's dying father on the Trident).", "fix_target_slug": "lord-bracken-father-of-otho"}
+{"source_slug": "sefton-staunton", "edge_type": "SERVES", "target_slug": "high-septon", "verdict": "REJECT", "reason": "Target 'high-septon' is the generic title node (type: title), not a person; the text never names a specific contemporary High Septon, so no person-node fix is available."}
+{"source_slug": "aegon-v-targaryen", "edge_type": "PARENT_OF", "target_slug": "aegor-rivers", "verdict": "FIX", "reason": "Same Aegon IV/Aegon V collision as row 28: 'He had legitimized the lot upon his deathbed' refers to Aegon IV (the Unworthy), not Aegon V.", "fix_source_slug": "aegon-iv-targaryen"}
+{"source_slug": "aegon-v-targaryen", "edge_type": "PARENT_OF", "target_slug": "daemon-i-blackfyre", "verdict": "FIX", "reason": "Same Aegon IV/Aegon V collision as rows 28 and 47.", "fix_source_slug": "aegon-iv-targaryen"}
+{"source_slug": "lucas-inchfield", "edge_type": "COURTS", "target_slug": "rohanne-webber", "verdict": "CONFIRM"}
+{"source_slug": "sefton-staunton", "edge_type": "ADVISES", "target_slug": "rohanne-webber", "verdict": "CONFIRM"}
+{"source_slug": "cerrick", "edge_type": "SERVES", "target_slug": "rohanne-webber", "verdict": "CONFIRM"}
+{"source_slug": "lord-stackhouse", "edge_type": "OPPOSES", "target_slug": "rohanne-webber", "verdict": "CONFIRM"}
+{"source_slug": "clifford-conklyn", "edge_type": "OPPOSES", "target_slug": "rohanne-webber", "verdict": "CONFIRM"}
+{"source_slug": "duncan-the-tall", "edge_type": "DECEIVES", "target_slug": "rohanne-webber", "verdict": "CONFIRM"}
+{"source_slug": "duncan-the-tall", "edge_type": "LOVES", "target_slug": "rohanne-webber", "verdict": "CONFIRM"}
+{"source_slug": "rohanne-webber", "edge_type": "DISTRUSTS", "target_slug": "lucas-inchfield", "verdict": "CONFIRM"}
+{"source_slug": "rohanne-webber", "edge_type": "PROTECTS", "target_slug": "duncan-the-tall", "verdict": "CONFIRM"}
+{"source_slug": "duncan-the-tall", "edge_type": "DISTRUSTS", "target_slug": "gormon-peake", "verdict": "CONFIRM"}
+{"source_slug": "gormon-peake", "edge_type": "DISTRUSTS", "target_slug": "duncan-the-tall", "verdict": "CONFIRM"}
+{"source_slug": "alyn-velaryon", "edge_type": "OPPOSES", "target_slug": "duncan-the-tall", "verdict": "FIX", "reason": "Resolved to Alyn Velaryon (Oakenfist, Dance-of-Dragons-era admiral) instead of Alyn Cockshaw, the TMK antagonist who is the only 'Alyn'/'Lord Alyn' referenced anywhere in this chapter.", "fix_source_slug": "alyn-cockshaw"}
+{"source_slug": "gormon-peake", "edge_type": "KILLS", "target_slug": "roger-of-pennytree", "verdict": "CONFIRM"}
+{"source_slug": "kyle-the-cat", "edge_type": "SWORN_TO", "target_slug": "joffrey-caswell", "verdict": "REJECT", "reason": "Quote explicitly says Kyle's sword 'was sworn to his father' (Joffrey Caswell's unnamed father), not to Joffrey Caswell himself; no node exists for the unnamed father."}
+{"source_slug": "duncan-the-tall", "edge_type": "ENCOUNTERS", "target_slug": "maynard-plumm", "verdict": "CONFIRM"}
+{"source_slug": "duncan-the-tall", "edge_type": "ENCOUNTERS", "target_slug": "glendon-flowers", "verdict": "CONFIRM"}
+{"source_slug": "duncan-the-tall", "edge_type": "ENCOUNTERS", "target_slug": "uthor-underleaf", "verdict": "CONFIRM"}
+{"source_slug": "gormon-peake", "edge_type": "CONSPIRES_WITH", "target_slug": "daemon-ii-blackfyre", "verdict": "CONFIRM"}
+{"source_slug": "gormon-peake", "edge_type": "MANIPULATES", "target_slug": "duncan-the-tall", "verdict": "CONFIRM"}
+{"source_slug": "rohanne-webber", "edge_type": "SPOUSE_OF", "target_slug": "eustace-osgrey", "verdict": "CONFIRM"}
+{"source_slug": "uthor-underleaf", "edge_type": "DEFEATS", "target_slug": "duncan-the-tall", "verdict": "CONFIRM"}
+{"source_slug": "uthor-underleaf", "edge_type": "DEFEATS", "target_slug": "addam-frey", "verdict": "CONFIRM"}
+{"source_slug": "glendon-flowers", "edge_type": "DEFEATS", "target_slug": "argrave-the-defiant", "verdict": "CONFIRM"}
+{"source_slug": "glendon-flowers", "edge_type": "DEFEATS", "target_slug": "alyn-velaryon", "verdict": "FIX", "reason": "Same Velaryon/Cockshaw collision as row 60.", "fix_target_slug": "alyn-cockshaw"}
+{"source_slug": "argrave-the-defiant", "edge_type": "SERVES", "target_slug": "ambrose-butterwell", "verdict": "CONFIRM"}
+{"source_slug": "will", "edge_type": "SERVES", "target_slug": "uthor-underleaf", "verdict": "CONFIRM"}
+{"source_slug": "uthor-underleaf", "edge_type": "TUTORS", "target_slug": "will", "verdict": "CONFIRM"}
+{"source_slug": "uthor-underleaf", "edge_type": "ATTACKS", "target_slug": "duncan-the-tall", "verdict": "CONFIRM"}
+{"source_slug": "uthor-underleaf", "edge_type": "MANIPULATES", "target_slug": "cosgrove", "verdict": "CONFIRM"}
+{"source_slug": "duncan-the-tall", "edge_type": "RESENTS", "target_slug": "uthor-underleaf", "verdict": "CONFIRM"}
+{"source_slug": "uthor-underleaf", "edge_type": "DEFEATS", "target_slug": "buford-bulwer", "verdict": "CONFIRM"}
+{"source_slug": "daemon-ii-blackfyre", "edge_type": "DEFEATS", "target_slug": "galtry-the-green", "verdict": "CONFIRM"}
+{"source_slug": "glendon-flowers", "edge_type": "DEFEATS", "target_slug": "lord-costayne-aerys-i", "verdict": "CONFIRM"}
+{"source_slug": "glendon-flowers", "edge_type": "DEFEATS", "target_slug": "mortimer-boggs", "verdict": "CONFIRM"}
+{"source_slug": "alyn-velaryon", "edge_type": "ATTACKS", "target_slug": "duncan-the-tall", "verdict": "FIX", "reason": "Same Velaryon/Cockshaw collision as row 60.", "fix_source_slug": "alyn-cockshaw"}
+{"source_slug": "tommard-heddle", "edge_type": "ATTACKS", "target_slug": "glendon-flowers", "verdict": "CONFIRM"}
+{"source_slug": "gormon-peake", "edge_type": "CONSPIRES_WITH", "target_slug": "tommard-heddle", "verdict": "CONFIRM"}
+{"source_slug": "alyn-velaryon", "edge_type": "CONSPIRES_WITH", "target_slug": "daemon-ii-blackfyre", "verdict": "FIX", "reason": "Same Velaryon/Cockshaw collision as row 60.", "fix_source_slug": "alyn-cockshaw"}
+{"source_slug": "daemon-ii-blackfyre", "edge_type": "SIBLING_OF", "target_slug": "aegon-v-targaryen", "verdict": "FIX", "reason": "Target resolved to Aegon V Targaryen (Egg) instead of Aegon Blackfyre, Daemon I's twin son; quote is Cockshaw recalling being bullied as a child by 'Aegon and Aemon' \u2014 the Blackfyre twins who died at Redgrass Field, not Egg.", "fix_target_slug": "aegon-blackfyre"}
+{"source_slug": "alyn-velaryon", "edge_type": "LOVER_OF", "target_slug": "daemon-ii-blackfyre", "verdict": "FIX", "reason": "Same Velaryon/Cockshaw collision as row 60.", "fix_source_slug": "alyn-cockshaw"}
+{"source_slug": "duncan-the-tall", "edge_type": "COMPANION_OF", "target_slug": "glendon-flowers", "verdict": "CONFIRM"}
+{"source_slug": "alyn-velaryon", "edge_type": "CONTRACTED_WITH", "target_slug": "uthor-underleaf", "verdict": "FIX", "reason": "Same Velaryon/Cockshaw collision as row 60.", "fix_source_slug": "alyn-cockshaw"}
+{"source_slug": "lothar-frey", "edge_type": "REVEALS_TO", "target_slug": "lord-butterwell", "verdict": "CONFIRM"}
+{"source_slug": "gormon-peake", "edge_type": "TORTURES", "target_slug": "glendon-flowers", "verdict": "CONFIRM"}
+{"source_slug": "uthor-underleaf", "edge_type": "RANSOMS", "target_slug": "duncan-the-tall", "verdict": "CONFIRM"}
+{"source_slug": "glendon-flowers", "edge_type": "DEFEATS", "target_slug": "daemon-ii-blackfyre", "verdict": "CONFIRM"}
+{"source_slug": "brynden-rivers", "edge_type": "CAPTURES", "target_slug": "daemon-ii-blackfyre", "verdict": "CONFIRM"}
+{"source_slug": "brynden-rivers", "edge_type": "EXECUTES", "target_slug": "gormon-peake", "verdict": "CONFIRM"}
+{"source_slug": "daemon-ii-blackfyre", "edge_type": "SIBLING_OF", "target_slug": "haegon-i-blackfyre", "verdict": "CONFIRM"}
+{"source_slug": "brynden-rivers", "edge_type": "SIBLING_OF", "target_slug": "aerys-ii-targaryen", "verdict": "FIX", "reason": "Target resolved to Aerys II Targaryen (the Mad King, main-series era) instead of the correct referent; the quote's 'my half brother' is Bittersteel (Aegor Rivers), not any Aerys at all \u2014 both a wrong-era and wrong-person error stacked together.", "fix_target_slug": "aegor-rivers"}
+{"source_slug": "brynden-rivers", "edge_type": "ADVISES", "target_slug": "aerys-ii-targaryen", "verdict": "FIX", "reason": "Target resolved to Aerys II Targaryen (Mad King, ~262-283 AC) instead of Aerys I Targaryen, the reigning king in TMK's setting (~211 AC) whom Bloodraven serves as Hand.", "fix_target_slug": "aerys-i-targaryen"}
+{"source_slug": "daemon-ii-blackfyre", "edge_type": "OPPOSES", "target_slug": "brynden-rivers", "verdict": "CONFIRM"}

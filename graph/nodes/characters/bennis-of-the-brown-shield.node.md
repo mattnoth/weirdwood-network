@@ -2,7 +2,7 @@
 name: "Bennis of the Brown Shield"
 type: character.human
 slug: bennis-of-the-brown-shield
-aliases: ["Bennis of the Brown Shield", "Bennis Brownstench", "The brown knight"]
+aliases: ["Bennis of the Brown Shield", "Bennis Brownstench", "The brown knight", "\"Ser Bennis Brownstench\"", "Ser Bennis of the Brown Shield"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Bennis_of_the_Brown_Shield"
 bucket_id: tier3-pathb-characters

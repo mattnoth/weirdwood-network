@@ -16,6 +16,7 @@ first_available:
   chapter: 6
   source: cite_ref
   pov: "Arya II"
+aliases: ["Baelor Breakspear", "Prince Baelor Targaryen", "Prince Baelor"]
 ---
 
 ## Identity

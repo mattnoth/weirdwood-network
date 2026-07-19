@@ -15,6 +15,7 @@ first_available:
   chapter: 45
   source: cite_ref
   pov: "Sansa III"
+aliases: ["The Laughing Storm", "Laughing Storm", "Ser Lyonel Baratheon", "Ser Lyonel"]
 ---
 
 ## Origins

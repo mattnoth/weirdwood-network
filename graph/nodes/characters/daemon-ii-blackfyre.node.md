@@ -2,7 +2,7 @@
 name: "Daemon II Blackfyre"
 type: character.human
 slug: daemon-ii-blackfyre
-aliases: ["Daemon the Younger", "Young Daemon", "Ser John the Fiddler", "The Brown Dragon"]
+aliases: ["Daemon the Younger", "Young Daemon", "Ser John the Fiddler", "The Brown Dragon", "Daemon of House Blackfyre, the Second of His Name", "Daemon", "Daemon Blackfyre II"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daemon_II_Blackfyre"
 bucket_id: characters-house-blackfyre

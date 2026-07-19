@@ -2,7 +2,7 @@
 name: "Duncan the Tall"
 type: character.human
 slug: duncan-the-tall
-aliases: ["Dunk", "Duncan the Tall", "Dunk the Lunk", "Dunk of Flea Bottom", "Duncan the Dim", "Ser Giant", "The Gallows Knight", "The Hanged Man"]
+aliases: ["Dunk", "Duncan the Tall", "Dunk the Lunk", "Dunk of Flea Bottom", "Duncan the Dim", "Ser Giant", "The Gallows Knight", "The Hanged Man", "Ser Duncan the Tall", "Gallows Knight"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Duncan_the_Tall"
 bucket_id: characters-house-osgrey

@@ -2,7 +2,7 @@
 name: "Joffrey Caswell"
 type: character.human
 slug: joffrey-caswell
-aliases: []
+aliases: ["Ser Jay of House Caswell", "Lord Joffrey Caswell"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Joffrey_Caswell"
 bucket_id: characters-house-caswell

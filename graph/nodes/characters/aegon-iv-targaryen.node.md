@@ -2,7 +2,7 @@
 name: "Aegon IV Targaryen"
 type: character.human
 slug: aegon-iv-targaryen
-aliases: ["Aegon the Unworthy"]
+aliases: ["Aegon the Unworthy", "old King Aegon"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_IV_Targaryen"
 bucket_id: houses-major-recovery

@@ -2,7 +2,7 @@
 name: "Uthor Underleaf"
 type: character.human
 slug: uthor-underleaf
-aliases: ["The Snail"]
+aliases: ["The Snail", "Ser Uthor Underleaf"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Uthor_Underleaf"
 bucket_id: characters-other-u-v

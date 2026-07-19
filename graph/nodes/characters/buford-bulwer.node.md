@@ -2,7 +2,7 @@
 name: "Buford Bulwer"
 type: character.human
 slug: buford-bulwer
-aliases: ["The Old Ox"]
+aliases: ["The Old Ox", "Ser Theomore Bulwer", "Old Ox"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Buford_Bulwer"
 bucket_id: characters-house-bulwer

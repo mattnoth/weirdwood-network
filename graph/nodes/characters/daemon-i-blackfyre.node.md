@@ -2,7 +2,7 @@
 name: "Daemon I Blackfyre"
 type: character.human
 slug: daemon-i-blackfyre
-aliases: ["Daemon Waters", "The Black Dragon", "The King Who Bore the Sword", "Daemon the Pretender"]
+aliases: ["Daemon Waters", "The Black Dragon", "The King Who Bore the Sword", "Daemon the Pretender", "King Who Bore the Sword", "Daemon Blackfyre"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daemon_I_Blackfyre"
 bucket_id: characters-house-blackfyre

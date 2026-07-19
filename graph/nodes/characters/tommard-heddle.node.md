@@ -2,7 +2,7 @@
 name: "Tommard Heddle"
 type: character.human
 slug: tommard-heddle
-aliases: ["Black Tom Heddle"]
+aliases: ["Black Tom Heddle", "Ser Tommard Heddle", "Black Tom"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tommard_Heddle"
 bucket_id: characters-house-butterwell

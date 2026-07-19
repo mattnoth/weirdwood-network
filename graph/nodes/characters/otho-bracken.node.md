@@ -2,7 +2,7 @@
 name: "Otho Bracken"
 type: character.human
 slug: otho-bracken
-aliases: ["The Brute of Bracken"]
+aliases: ["The Brute of Bracken", "Brute of Bracken", "Ser Otho Bracken"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Otho_Bracken"
 bucket_id: characters-house-bracken

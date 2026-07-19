@@ -2,7 +2,7 @@
 name: "Cerrick"
 type: character.human
 slug: cerrick
-aliases: ["The gray pup"]
+aliases: ["The gray pup", "gray pup", "Maester Cerrick"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Cerrick"
 bucket_id: characters-house-webber

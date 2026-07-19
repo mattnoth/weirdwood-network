@@ -2,7 +2,7 @@
 name: "Rohanne Webber"
 type: character.human
 slug: rohanne-webber
-aliases: ["The Red Widow"]
+aliases: ["The Red Widow", "Red Widow", "Lady Webber", "Lady Rohanne Webber", "Lady Rohanne of the Coldmoat", "Lady Rohanne"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rohanne_Webber"
 bucket_id: tier3-characters
