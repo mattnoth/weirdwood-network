@@ -229,16 +229,22 @@ def _do_real_work(unit: dict, out_path: str, version: str) -> dict:
 
     if proc.returncode != 0:
         return {"status": "crash", "usage": usage}
-    if not _validate_output(Path(out_path)):
+    if not _validate_output(Path(out_path), unit):
         return {"status": "invalid", "usage": usage}
     return {"status": "ok", "usage": usage}
 
 
-def _validate_output(out_path: Path) -> bool:
+def _validate_output(out_path: Path, unit: dict | None = None) -> bool:
+    # Line floor scales with unit shape: 250 was calibrated on whole novellas
+    # (THK smoke = 817 lines), but a scene-split part is ~1/7-1/9 of that
+    # (TSS avg ≈ 89 lines/part) — the structural check for parts is the header
+    # set below; the floor only catches truncation/garbage.
+    whole = (unit or {}).get("unit_part", "whole") == "whole"
+    min_lines = 250 if whole else 60
     if not out_path.exists():
         return False
     text = out_path.read_text()
-    if len(text.splitlines()) < 250:
+    if len(text.splitlines()) < min_lines:
         return False
     if not all(h in text for h in ANCHOR_HEADERS):
         return False
@@ -358,6 +364,10 @@ def run_worker(args: argparse.Namespace) -> int:
         _emit(version, "full", run_id, worker_id, uid, started, elapsed, result)
 
         if result["status"] == "wall":
+            # Release the claim — a walled unit is NOT done and must be
+            # re-claimable after the supervisor's wall sleep (DE-4 fix: a held
+            # lock made resume skip the unit forever and exit 0 "drained").
+            (lock_dir / f"{uid}.lock").unlink(missing_ok=True)
             print(f"  {uid}: rate-limit wall. exit(2).")
             _write_next_eligible()
             return 2
@@ -374,6 +384,14 @@ def run_worker(args: argparse.Namespace) -> int:
             print(f"Chunk done ({done_this_chunk}). ~{len(pending) - done_this_chunk} remain. exit(10).")
             return 10
 
+    # Only report drained if the manifest agrees — units skipped on a failed
+    # claim (stale lock) must NOT produce a false exit-0 (DE-4 fix).
+    still_pending = [u["unit_id"] for u in units if u["unit_id"] not in manifest.get("done", [])]
+    if still_pending:
+        print(f"WARNING: {len(still_pending)} unit(s) pending but unclaimable "
+              f"(stale lock?): {still_pending}. exit(10) — supervisor will retry; "
+              f"clear locks-{version}/<unit>.lock if this repeats.")
+        return 10
     print(f"Queue drained ({len(units)} units, {version}). exit(0).")
     return 0
 

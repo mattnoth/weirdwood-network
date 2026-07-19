@@ -687,7 +687,7 @@ All agents working in this project should:
 6. **Propose, don't decide** — analytical findings go to the curation queue as candidates, not as accepted facts
 7. **Cite chapter sources** — every claim traces back to a specific chapter or wiki page
 8. **Direwolves and dragons are characters** — Ghost, Grey Wind, Lady, Nymeria, Summer, Shaggydog, Drogon, Rhaegal, Viserion are characters with agency and narrative arcs, not creatures or fauna
-9. **Edge taxonomy is for the graph layer, not Pass 1** — Pass 1 (mechanical extraction) records relationships in free-text natural language. Pass 2+, wiki ingestion, and graph-building use the controlled edge vocabulary from this file. If you're building graph edges and no type fits, flag it for taxonomy expansion rather than inventing ad-hoc labels
+9. **Every emitter uses the controlled edge vocabulary — including Pass 1 (v4+)** — As of the Dunk & Egg Pass-1 v4 prompt (2026-06-23, promoted DE-3 2026-07-18), Pass 1 mechanical extraction emits exactly one controlled UPPER_CASE type per `## Relationships Observed` row (character-to-character subset), with a `NEEDS_VOCAB:` gap-hatch for genuine non-fits (see the taxonomy-use note above). The earlier five-book extractions (prompts v1–v3) recorded relationships in free-text natural language; those labels are normalized → controlled vocabulary at graph-build time. If you're building graph edges and no type fits, flag it for taxonomy expansion rather than inventing ad-hoc labels
 
 ---
 

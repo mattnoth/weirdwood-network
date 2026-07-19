@@ -262,24 +262,25 @@ only via book-cite overlay).
 
 ## 6. STOP — ready-to-fire checklist (Matt confirms each; nothing launches until then)
 
-- [ ] **Prompt approved** (`prompts/pass1-prompt-v4.md`, + any variants) — the prereq gate. ← primary review
-- [ ] **Smoke-test versions** on the fixed unit (THK), diff, **pick a winner**; pin it in `TRACK_CMD`
-      (`--prompt-version <winner>`) and record in worklog (§3.5).
-- [ ] **Split decision:** A (split, recommended) or B (whole-novella). If A → run the scene-boundary
-      step first.
-- [ ] **Model confirmed:** Opus 4.8.
-- [ ] **Worker graduated** `working/dunk-egg-pass1/dunk-egg-pass1-extraction.py` → `scripts/` (a
-      deliberate `git mv`).
-- [ ] **Track registered** — add the 4-line `READY` entry (section 1) to `scripts/weirwood-run.sh`;
-      confirm with `weirwood run list`.
-- [ ] **architecture.md §161 corrected** (rule #6 paired change) — withdraw/replace the stale "Pass 1
-      records relationships in free-text" sentence to match §687 + v4's locked vocab; log the Active
-      Decision (above) in the worklog. Do this when v4 is approved (not while it's still a draft).
-- [ ] **Output dirs** created via `--build-queue`: `extractions/mechanical/{thk,tss,tmk}/` (canonical,
-      never archive).
-- [ ] **Sequencing** — worklog says D&E runs **after the first enrichment passes**. Confirm we're past
-      that gate, or that Matt wants it concurrent/now.
-- [ ] **Then, and only then:** `weirwood run start dunk-egg-pass1`.
+- [x] **Prompt approved** — **v4 PROMOTED DE-3 (2026-07-18):** THK + TSS smokes both judged 8/8 PASS
+      (`smoke/v4/JUDGE-{thk,tss}.md`).
+- [x] **Smoke-test versions** — THK + TSS smoked (Matt via CLI, 2026-06-23; THK ran twice, file = 2nd
+      run), judged DE-3; **winner v4**, pinned in `TRACK_CMD`.
+- [x] **Split decision: A** — scene-boundary step ran 2026-06-23 (`scripts/dunk-egg-scene-splitter.py`
+      → 7/8/9 parts + `queue-parts.jsonl`, 24 rows); DE-3 verified lossless (delta-0 words ×3).
+      NOTE (DE-3): worker `_validate_output` line floor now scales 250 (whole) / 60 (part).
+- [x] **Model confirmed:** Opus 4.8 (hardcoded in the worker).
+- [x] **Worker graduated** — `git mv` → `scripts/dunk-egg-pass1-extraction.py` (DE-3).
+- [x] **Track registered** — READY entry live in `scripts/weirwood-run.sh` (absolute `$REPO_ROOT`
+      paths; `weirwood run list` confirms).
+- [x] **architecture.md corrected** (rule #6 paired change, DE-3) — agent principle #9 (formerly §161)
+      now states Pass 1 v4+ emits the controlled vocabulary; S131 Active Decision in `worklog.md`
+      updated to LANDED.
+- [x] **Output dirs** created via `--build-queue` (DE-1): `extractions/mechanical/{thk,tss,tmk}/`.
+- [x] **Sequencing** — satisfied: the enrichment phase ran S133–S212 (27 arc dips + F&B) long before
+      this gate.
+- [ ] **Then, and only then** (THE ONE REMAINING GATE — Matt's explicit go):
+      `bash scripts/term-launch.sh 'bash scripts/weirwood-run.sh start dunk-egg-pass1'`
 
 > Per `feedback_no_extraction_without_asking`, the launch is a separate explicit Matt go-ahead. This
 > session ends at the checklist.

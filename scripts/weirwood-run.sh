@@ -68,11 +68,14 @@ TRACK_STATUS+=("PLANNED")
 TRACK_DESC+=("Plate 3 edge reification backfill (scripts/edge-reify-backfill.py) — runner needs exit 10 before migration")
 TRACK_CMD+=("")
 
-# dunk-egg-pass1: worker exists (working/dunk-egg-pass1/dunk-egg-pass1-extraction.py) and already
-# honors the 0/2/10/crash contract, but per its own run-plan.md the registry entry is deliberately
-# NOT added yet — it's bundled with the "graduate the worker to scripts/" step at the fire-gate, so a
-# READY track never points at a working/ scaffold. Not registered here; see run-plan.md section on
-# "The aliasing — weirwood run registry" for the exact 4-line snippet to add once Matt greenlights.
+# dunk-egg-pass1: worker graduated to scripts/ at the DE-3 fire-gate (2026-07-18) after the v4/THK+TSS
+# smoke judges both returned PROMOTE-READY (8/8 checklist PASS each). Prompt pinned v4; queue pinned to
+# the scene-split parts queue (split decision A — parts verified lossless, delta-0 words vs originals).
+# Absolute paths because _launch_track does not cd (--queue resolves cwd-relative in the worker).
+TRACK_NAMES+=("dunk-egg-pass1")
+TRACK_STATUS+=("READY")
+TRACK_DESC+=("Dunk & Egg Pass-1 full extraction (THK/TSS/TMK, 24 scene-split part-units) — scripts/dunk-egg-pass1-extraction.py, prompt v4")
+TRACK_CMD+=("python3 $REPO_ROOT/scripts/dunk-egg-pass1-extraction.py --resume --prompt-version v4 --queue $REPO_ROOT/working/dunk-egg-pass1/queue-parts.jsonl")
 
 # fire-and-blood: worker exists (working/fire-and-blood/fire-and-blood-extraction.py, built S198) and
 # already honors the 0/2/10/crash contract, but mirrors dunk-egg-pass1's convention above — it stays
