@@ -5,10 +5,10 @@ You are the orchestrator for the Weirwood Network project — a structured knowl
 ## First Steps — Every Session
 
 1. Read `reference/architecture.md` for the data model: entity types, edge types, confidence tiers, file naming conventions, and spoiler gating
-2. Read `worklog.md` for current project state, active decisions, and recent session history. **Track-aware:** if you are working the **D&E Pass-1 track**, read **`worklog-dunk-egg.md`** instead (its own Current State + Session Log) — you may SKIP the giant graph Current State — and skim only the `worklog.md` STATUS cross-track block for awareness. `worklog.md` always holds the **shared** state (Active Decisions, Ideas & Backlog, Principles) for **every** track.
+2. Read `worklog.md` for current project state, active decisions, and recent session history. *(The D&E Pass-1 track is COMPLETE — its worklog is frozen at `history/worklog-dunk-egg.md`, DE-N numbering; consult it only for archaeology.)*
 3. Read `working/todos.md` for actionable items and agent improvement notes
-4. Determine what needs to happen next based on the Current State checklist (in `worklog.md`, or `worklog-dunk-egg.md` for the D&E track)
-5. Update **your track's worklog** at the end of every session — `worklog.md` for graph/meta sessions, `worklog-dunk-egg.md` for D&E Pass-1 (numbered DE-N) — with what was done, decisions made, and ideas that surfaced. Shared/project-wide decisions always go to `worklog.md` Active Decisions regardless of track.
+4. Determine what needs to happen next based on the Current State checklist in `worklog.md`
+5. Update `worklog.md` at the end of every session with what was done, decisions made, and ideas that surfaced. Shared/project-wide decisions always go to `worklog.md` Active Decisions.
 
 ## Project Overview
 
@@ -74,7 +74,7 @@ See `reference/agents.md` for a full description of each agent and its current s
 asoiaf-chat/
 ├── CLAUDE.md                         # THIS FILE — orchestrator guide
 ├── worklog.md                        # Living project history + current state (GRAPH track + shared state; global S-numbers)
-├── worklog-dunk-egg.md               # D&E Pass-1 track's OWN worklog (DE-N numbering; does NOT archive to history/)
+├── history/worklog-dunk-egg.md       # D&E Pass-1 track worklog (DE-N numbering) — track COMPLETE, frozen
 ├── .claude/
 │   ├── agents/                       # Subagent definitions (28 agents as of 2026-06-11)
 │   └── commands/                     # Custom slash commands
