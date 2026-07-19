@@ -116,3 +116,8 @@ Japes are one way to keep the fear away. Wine's another.
 > The wine was a deep red, sweet and heavy. It warmed him going down.
 
 — AFFC Jaime VII (`sources/chapters/affc/affc-jaime-07.md:177`)
+
+> He filled two cups with wine and one with water. The third he gave to Egg, who gave it a long dubious look and put it aside. The septon took no notice. "This is an Arbor vintage," he was telling Dunk. "Very fine, and the poison gives it a special piquance."
+>
+> — sources/chapters/tss/tss-dunk-01.md:917 · Arbor wine served to Dunk at Coldmoat under the shadow of the Red Widow's poisoning reputation.  _(capture: chapter-quote sweep, food)_
+

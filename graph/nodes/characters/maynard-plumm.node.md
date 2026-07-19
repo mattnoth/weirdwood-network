@@ -61,3 +61,20 @@ Maynard was knowledgeable about current events in the [Seven Kingdoms](wiki:Seve
 > This close, there was something queer about the cast of Ser Maynard's features. The longer Dunk looked, the less he seemed to see.(wiki:Maynard_Plumm.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-10)
 >
 > —thoughts of [Duncan the Tall](wiki:Duncan_the_Tall)
+
+> "I know that eggs do well to stay out of frying pans," said Plumm. "Whitewalls is not a healthy place for the boy."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1113 · Maynard Plumm's veiled warning shows he knows more about Egg's true importance than he lets on.  _(capture: chapter-quote sweep, cross-identity)_
+
+> "So do I," said Maynard Plumm. "A bad feeling, for any man or boy unwise enough to stand in our Fiddler's way."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1129 · Plumm's "bad feeling" about the Fiddler, echoing the Fiddler's own prophetic dreams.  _(capture: chapter-quote sweep, prophecy)_
+
+> "Would you rather die with honor intact, or live with it besmirched? No, spare me, I know what you will say. Take your boy and flee, gallows knight. Before your arms become your destiny."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1107 · Plumm's warning to Dunk, punning on his borrowed hanged-man ("gallows knight") arms.  _(capture: chapter-quote sweep, foreshadow-hook)_
+
+> Dunk whirled. Through the rain, all he could make out was a hooded shape and a single pale white eye. It was only when the man came forward that the shadowed face beneath the cowl took on the familiar features of Ser Maynard Plumm, the pale eye no more than the moonstone brooch that pinned his cloak at the shoulder.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1579 · Maynard Plumm's uncanny, briefly one-eyed silhouette resolves into his familiar face and moonstone brooch.  _(capture: chapter-quote sweep, description)_
+

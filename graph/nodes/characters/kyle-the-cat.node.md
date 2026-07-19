@@ -56,3 +56,8 @@ Kyle was friendly and generous, and liked to gossip and share boastful stories o
 > You're safe now. There's no one here but [hedge knights](wiki:Hedge_knight), and the [gods](wiki:Gods) know that we're a harmless lot.(wiki:Kyle_the_Cat.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-14)
 >
 > —Kyle, to [Glendon Flowers](wiki:Glendon_Flowers)
+
+> "Ser Maynard has a bag of apples," said Kyle the Cat. "And I have pickled eggs and onions. Why, together we have the makings of a feast!
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:321 · Kyle the Cat welcomes Dunk and Egg by pooling the hedge knights' food into a shared campfire meal.  _(capture: chapter-quote sweep, hospitality)_
+

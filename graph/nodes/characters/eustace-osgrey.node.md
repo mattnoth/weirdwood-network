@@ -81,3 +81,48 @@ Ser Eustace chose [the black dragon](wiki:Daemon_I_Blackfyre) over [the red](wik
 You swore your sword to a [traitor](wiki:Traitor), lunk. You ate a traitor's bread and slept beneath a [rebel's roof](wiki:Standfast).(wiki:Eustace_Osgrey.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-30)
 You'll find Ser Useless in [his chambers](wiki:Standfast), brooding on how great he used to be.(wiki:Eustace_Osgrey.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-31)
 In his heart [the black dragon](wiki:House_Blackfyre) never died, Dunk realized.(wiki:Eustace_Osgrey.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-32)
+
+> Coldmoat . . . Coldmoat was promised me by Daemon, yes, but . . . it was not for gain, no . . .
+>
+> — sources/chapters/tss/tss-dunk-01.md:1267 · Eustace's confused half-denial that he rebelled for Coldmoat's sake.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> You shall have no hospitality from me. No bread and salt, not even shade and water. You come as an intruder. I forbid you to set foot on Osgrey land.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1491 · Ser Eustace formally denies guest right to Rohanne's party at the stream boundary.  _(capture: chapter-quote sweep, hospitality)_
+
+> When you accept a lord's meat and mead, all you do reflects on him, Ser Arlan used to say. Always do more than he expects of you, never less. Never flinch at any task or hardship. And above all, never shame the lord you serve. At Standfast, "meat and mead" meant chicken and ale, but Ser Eustace ate the same plain fare himself.
+>
+> — sources/chapters/tss/tss-dunk-01.md:59 · Sworn-sword's plain board at Standfast; Eustace shares his men's fare rather than living apart.  _(capture: chapter-quote sweep, hospitality)_
+
+> The boys were Eustace Osgrey's sons: Edwyn, Harrold, Addam. Edwyn and Harrold had been knights, Addam a young squire. They had died on the Redgrass Field fifteen years ago, at the end of the Blackfyre Rebellion.
+>
+> — sources/chapters/tss/tss-dunk-01.md:251 · Eustace's three sons, their deaths on the Redgrass Field ending the Blackfyre Rebellion.  _(capture: chapter-quote sweep, description)_
+
+> It comes to me that in days gone by, when the green kings ruled, you could pay a man a blood price if you had slain one of his animals or peasants.
+>
+> — sources/chapters/tss/tss-dunk-01.md:535 · Eustace proposes an archaic green-kings-era blood price to settle the dam dispute.  _(capture: chapter-quote sweep, description)_
+
+> "She struck you?" His mouth opened and closed. "She struck my envoy, who came to her beneath the chequy lion? She dared lay hands upon your person?"
+>
+> — sources/chapters/tss/tss-dunk-01.md:1241 · Ser Eustace invokes envoy protection under the chequy lion sigil after Rohanne slaps Dunk, a breach of the diplomatic norm.  _(capture: chapter-quote sweep, hospitality)_
+
+> "Chiefly he wanted Coldmoat. His sons paid for his treason with their life's blood. When he brought their bones home and delivered his daughter to the king's men for a hostage, his wife threw herself from the top of Standfast tower. Did Ser Eustace tell you that?"
+>
+> — sources/chapters/tss/tss-dunk-01.md:1109 · Rohanne's account of Eustace's Blackfyre allegiance and its cost to his sons.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> "And so they did. The rightful king, Daemon Blackfyre. The King Who Bore the Sword." The old man's mustache quivered. "The men of the red dragon call themselves the loyalists , but we who chose the black were just as loyal, once.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1249 · Eustace openly reveals his sons died for Daemon Blackfyre, not King Daeron.  _(capture: chapter-quote sweep, cross-identity)_
+
+> In his heart the black dragon never died, Dunk realized.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1259 · Dunk recognizes Eustace remains a Blackfyre loyalist decades after the rebellion's end.  _(capture: chapter-quote sweep, cross-identity)_
+
+> I bought my head back with my daughter's life. Alysanne was seven when they took her off to King's Landing and twenty when she died, a silent sister. I went to King's Landing once to see her, and she would not even speak to me, her own father. A king's mercy is a poisoned gift.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1257 · The hostage-price of Eustace's pardon: his daughter Alysanne, sent to King's Landing and later a silent sister.  _(capture: chapter-quote sweep, description)_
+
+> His lordship and my lady were wed this morning, by our good Septon Sefton. Eustace Osgrey is the lord of Coldmoat, and his chequy lion flies beside the Webber spider on every tower and wall.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1699 · The Osgrey-Webber marriage merges the feuding houses; the chequy lion flies beside the spider.  _(capture: chapter-quote sweep, hospitality)_
+

@@ -190,3 +190,52 @@ While in the [cave of the three-eyed crow](wiki:Cave_of_the_three-eyed_crow), [B
 > Think on my offer, ser. The snail may leave a trail of slime behind him, but a little slime will do a man no harm… whilst if you dance with [dragons](wiki:House_Targaryen), you must expect to burn.(wiki:Duncan_the_Tall.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-22)
 >
 > —[Uthor Underleaf](wiki:Uthor_Underleaf) to Duncan
+
+> He frowned for a moment, and then blurted out, "Ser Duncan the Tall." He was tall, no one could dispute that, and it sounded puissant.
+>
+> — sources/chapters/thk/thk-dunk-01.md:263 · Dunk invents his knightly name and identity on the spot, having no house of his own.  _(capture: chapter-quote sweep, cross-identity)_
+
+> "The maesters shaved it off." Suddenly selfconscious, the boy pulled up the hood of his dark brown cloak, covering his head.
+>
+> — sources/chapters/thk/thk-dunk-01.md:253 · Egg's shaved head is the concrete concealment detail hiding his dragon-bright Targaryen hair — the mystery-engine of the novella, here still attached to Dunk's POV before the reveal.  _(capture: chapter-quote sweep, description)_
+
+> Dunk handed it over. "I am called Ser Duncan the Tall."
+>
+> — sources/chapters/thk/thk-dunk-01.md:689 · Dunk states his invented knightly name to Tanselle.  _(capture: chapter-quote sweep, cross-identity)_
+
+> He could vanquish Ser Duncan the Tall, but not Dunk of Flea Bottom.
+>
+> — sources/chapters/thk/thk-dunk-01.md:1409 · Dunk's dual identity stated outright: the knightly persona 'Ser Duncan the Tall' versus the lowborn Flea Bottom alley-fighter underneath.  _(capture: chapter-quote sweep, cross-identity)_
+
+> A falling star brings luck to him who sees it, Dunk thought.
+>
+> — sources/chapters/thk/thk-dunk-01.md:289 · Dunk's own luck-omen belief, seeded the night before the tourney, tied to the green falling star he witnesses.  _(capture: chapter-quote sweep, prophecy)_
+
+> "A knight who remembered his vows," the smith said.
+>
+> — sources/chapters/thk/thk-dunk-01.md:1195 · Steely Pate's answer for why the smallfolk bless and cheer Dunk on his way to the trial of seven.  _(capture: chapter-quote sweep, hospitality)_
+
+> One fell as he was watching, a bright green streak that flashed across the black and then was gone.
+>
+> — sources/chapters/thk/thk-dunk-01.md:287 · A green falling star witnessed by Dunk the first night at Ashford, seeding the tourney's luck-omen thread.  _(capture: chapter-quote sweep, foreshadow-hook)_
+
+> May we share your fire?"
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:301 · Dunk's open request to share the hedge knights' fire -- guest-fire courtesy offered by a stranger on the road.  _(capture: chapter-quote sweep, hospitality)_
+
+> "Why," the Fiddler said, "I dreamed that you were all in white from head to heel, with a long pale cloak flowing from those broad shoulders. You were a White Sword, ser, a Sworn Brother of the Kingsguard, the greatest knight in all the Seven Kingdoms, and you lived for no other purpose but to guard and serve and please your king." He put a hand on Dunk's shoulder.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:767 · The Fiddler's true-dream of Dunk clad in Kingsguard white, told to Dunk directly.  _(capture: chapter-quote sweep, prophecy)_
+
+> The weight of the kite shield was reassuring, though its length made it awkward to handle, and seeing the hanged man once again gave him an uneasy feeling. Those are ill-omened arms.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:995 · Dunk's unease at his borrowed hanged-man shield, the source of his "Gallows Knight" persona at the tourney.  _(capture: chapter-quote sweep, foreshadow-hook)_
+
+> Dunk's head was full of dragons, red and black . . . full of chequy lions, old shields, battered boots . . . full of streams and moats and dams, and papers stamped with the king's great seal that he could not read.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1315 · Dunk's restless dream-inventory folding together the novella's motifs before the trial by battle.  _(capture: chapter-quote sweep, description)_
+
+> "I took something else to remember her by instead. A lock of that red hair." He reached under his cloak, brought out the braid, and smiled.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1791 · Dunk cuts off a lock of Rohanne's braid as a keepsake, refusing her gift horse.  _(capture: chapter-quote sweep, description)_
+

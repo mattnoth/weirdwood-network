@@ -44,3 +44,10 @@ While on his deathbed on a voyage from [Braavos](wiki:Braavos) to [Oldtown](wiki
 ## Notes
 
 Born 201–209 AC (track_b: Born). Also mentioned in TWOIAF and The Sworn Sword. Cite refs: AFFC ch35.
+
+## Quotes
+
+> And once my sister Rhae put a love potion in my drink, so I'd marry her instead of my sister Daella.
+>
+> — sources/chapters/tss/tss-dunk-01.md:621 · Egg recounts his sister Rhae's attempt to secure a Targaryen incestuous match.  _(capture: chapter-quote sweep, targaryen-history)_
+

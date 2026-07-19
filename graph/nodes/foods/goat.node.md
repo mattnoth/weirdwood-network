@@ -103,3 +103,8 @@ Tyrion: Come share our fire, the night is cold. I fear we've no [wine](wiki:Wine
 
 — ADWD Tyrion VI (`sources/chapters/adwd/adwd-tyrion-06.md:295`)
 Jon: We will need to find another [wet nurse](wiki:Wet_nurse) for [his milk brother](wiki:Aemon_Steelsong). Samwell: Goat's milk might serve, until you do. It's better for a babe than [cow](wiki:Cow)'s milk.(wiki:Goat.cite_ref-Raffc5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-0)
+
+> Behind it, two servants were basting a goat with honey and herbs over a small cookfire.
+>
+> — sources/chapters/thk/thk-dunk-01.md:847 · Fossoway pavilion hospitality: a goat basted with honey and herbs over a cookfire.  _(capture: chapter-quote sweep, food)_
+

@@ -157,6 +157,94 @@ Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) tells [Samwell Tarly](wi
 >
 > —[Glendon Flowers](wiki:Glendon_Flowers) to [Maynard Plumm](wiki:Maynard_Plumm)
 
+> The grave has claimed them, every one, yet he endures, this pale bird with bloody beak who perches on King Aerys's shoulder and caws into his ear.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:27 · The hunchbacked septon's treasonous sermon names Bloodraven as Aerys I's ever-present Hand.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> A shadow came at his command to strangle brave Prince Valarr's sons in their mother's womb.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:27 · The septon's public accusation that Bloodraven used sorcery to kill Valarr's unborn sons.  _(capture: chapter-quote sweep, prophecy)_
+
+> Aerys is weak, and when he dies, it will be bloody war between Lord Rivers and Prince Maekar for the crown, the Hand against the heir.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:381 · Kyle the Cat names Bloodraven as "Lord Rivers," the King's Hand, and frames the coming succession war.  _(capture: chapter-quote sweep, cross-identity)_
+
+> "I give you the King's Hand, Brynden Rivers. May the Crone's lamp light his path to wisdom."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:593 · Lord Frey's wedding toast names Bloodraven by his birth name, Brynden Rivers, and his office, the King's Hand.  _(capture: chapter-quote sweep, cross-identity)_
+
+> "Born bastard," Ser Uthor agreed mildly, "but his royal father made him legitimate as he lay dying."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:599 · Ser Uthor confirms Bloodraven's legitimization by Aegon IV on his deathbed.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> How many eyes does Lord Bloodraven have? the riddle went. A thousand eyes, and one.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:599 · The Bloodraven eyes-riddle recalled again at the Whitewalls feast.  _(capture: chapter-quote sweep, foreshadow-hook)_
+
+> "No," Lord Peake allowed, "but no man loves a sorcerer, and kinslayers are accursed in the sight of gods and men. At the first sign of weakness or defeat, Bloodraven's men will melt away like summer snows.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1467 · Lord Peake weighs Bloodraven's standing as a sorcerer and kinslayer as the regime's weak point.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> The banners of the Prince of Summerhall showed four three-headed dragons, two and two, the arms of the fourth-born son of the late King Daeron II Targaryen. A single white dragon announced the presence of the King's Hand, Lord Brynden Rivers.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1945 · Bloodraven's own banner (a single white dragon) announces his arrival at Whitewalls with the king's host.  _(capture: chapter-quote sweep, cross-identity)_
+
+> Alive, he is an obstacle in my half brother's path. He can hardly make a third Blackfyre king whilst the second remains so inconveniently alive. Besides, such a noble captive will be an ornament to our court, and a living testament to the mercy and benevolence of His Grace King Aerys.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:2063 · Bloodraven names Bittersteel as his own half brother while acting as Aerys I's Hand.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> "For a man. A child could do it."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:2075 · Bloodraven's own deduction about how the dragon's egg was stolen -- a clue that the theft, like the tourney's outcome, was never really beyond his sight.  _(capture: chapter-quote sweep, foreshadow-hook)_
+
+> Dunk knew he meant Bloodraven. Brynden Rivers was the Hand's true name. His mother had been a Blackwood, his father King Aegon the Fourth.
+>
+> — sources/chapters/tss/tss-dunk-01.md:939 · In-text reveal of Lord Bloodraven's birth name and parentage.  _(capture: chapter-quote sweep, cross-identity)_
+
+> "Trueborn children are made in a marriage bed and blessed by the Father and the Mother, but bastards are born of lust and weakness, he said. King Aegon decreed that his bastards were not bastards, but he could not change their nature. The High Septon said all bastards are born to betrayal
+>
+> — sources/chapters/tss/tss-dunk-01.md:1193 · The old High Septon's doctrine that bastards, Bloodraven included, are born to betrayal.  _(capture: chapter-quote sweep, prophecy)_
+
+> That was before King Aerys had ascended to the Iron Throne and made him the Hand, but even so he cut a striking figure, garbed in smoke and scarlet with Dark Sister on his hip.
+>
+> — sources/chapters/tss/tss-dunk-01.md:51 · Bloodraven's appointment as Hand, six years before the novella's present.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> He had one eye, and that one red. The other was an empty socket, the gift Bittersteel had given him upon the Redgrass Field.
+>
+> — sources/chapters/tss/tss-dunk-01.md:51 · Bloodraven's missing eye, lost to Bittersteel at the Redgrass Field.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> Lord Bloodraven had commanded them to return to their own lands and lords, but few obeyed. Many blamed Bloodraven and King Aerys for the drought. It was a judgment from the gods, they said, for the kinslayer is accursed.
+>
+> — sources/chapters/tss/tss-dunk-01.md:47 · Smallfolk blame the drought on Bloodraven as a kinslayer's curse.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> How many eyes does Lord Bloodraven have? A thousand eyes, and one.
+>
+> — sources/chapters/tss/tss-dunk-01.md:435 · The riddle recurs as Dunk questions Egg about guarding his identity.  _(capture: chapter-quote sweep, foreshadow-hook)_
+
+> for the Raven's Teeth had gained the top of Weeping Ridge, and Bloodraven saw his half brother's royal standard three hundred yards away, and Daemon and his sons beneath it. He slew Aegon first, the elder of the twins, for he knew that Daemon would never leave the boy whilst warmth lingered in his body, though white shafts fell like rain. Nor did he, though seven arrows pierced him, driven as much by sorcery as by Bloodraven's bow.
+>
+> — sources/chapters/tss/tss-dunk-01.md:703 · Bloodraven's decisive shooting of Daemon and his sons from Weeping Ridge.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> The singers can go on about their hammer and their anvil, ser, but it was the kinslayer who turned the tide with a white arrow and a black spell. He rules us now as well, make no mistake. King Aerys is his creature.
+>
+> — sources/chapters/tss/tss-dunk-01.md:709 · Eustace's claim that Bloodraven's sorcery, not Baelor/Maekar, won the Redgrass Field and now rules Aerys I.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> 'tis Lord Rivers who rules us, with his spells and spies. There is no one to oppose him. Prince Maekar sulks at Summerhall, nursing his grievances against his royal brother.
+>
+> — sources/chapters/tss/tss-dunk-01.md:943 · Septon Sefton names Bloodraven the de facto ruler under the weak King Aerys I.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> He hoped the King's Hand did not have a thousand ears and one as well. Some of what Septon Sefton was saying sounded treasonous. He glanced at Egg, to see how he was taking all of this.
+>
+> — sources/chapters/tss/tss-dunk-01.md:945 · Dunk fears Bloodraven's surveillance reaches even Septon Sefton's treasonous gossip.  _(capture: chapter-quote sweep, foreshadow-hook)_
+
+> Daemon Blackfyre, Bittersteel, even Bloodraven. Lord Rivers was more cunning than the other two, he said, but in the end he would prove himself a traitor, too. The High Septon counseled my father never to put any trust in him, nor in any other bastards, great or small.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1195 · The old High Septon's judgment that Bloodraven, like the other Great Bastards, would prove a traitor.  _(capture: chapter-quote sweep, foreshadow-hook)_
+
+> Though now . . . all the men who marched beside me to seat Prince Daemon on the Iron Throne have melted away like morning dew. Mayhaps I dreamed them. Or more like, Lord Bloodraven and his Raven's Teeth have put the fear in them.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1249 · Eustace credits Bloodraven's Raven's Teeth with terrorizing surviving Blackfyre men into silence.  _(capture: chapter-quote sweep, foreshadow-hook)_
+
 ## Edges
 
 - PARENT_OF: Brynden Rivers ← Aegon IV Targaryen (track_b: Father)

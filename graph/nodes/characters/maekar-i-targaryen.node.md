@@ -145,3 +145,20 @@ During the [second siege of Meereen](wiki:Second_siege_of_Meereen), when [House 
 > And my father ... he never thought [the throne](wiki:Iron_Throne) would pass to him, and yet it did. He used to say that was his punishment for the blow that slew [his brother](wiki:Baelor_Targaryen_(son_of_Daeron_II)). I pray he found the peace in death that he never knew in life.(wiki:Maekar_I_Targaryen.cite_ref-Raffc26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-1)
 >
 > —[Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) to [Samwell Tarly](wiki:Samwell_Tarly)
+
+> He could only be Prince Maekar, the youngest of King Daeron's four sons.
+>
+> — sources/chapters/thk/thk-dunk-01.md:613 · Dunk identifies the pox-scarred, silver-bearded prince as Maekar, Daeron II's youngest son.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> Daeron is a sot, Aerion is vain and cruel, the third son was so unpromising they gave him to the Citadel to make a maester of him, and the youngest
+>
+> — sources/chapters/thk/thk-dunk-01.md:869 · Raymun Fossoway's rundown of Maekar's four sons — Daeron, Aerion, Aemon, and Aegon ("the youngest") — the sentence interrupted by Egg bursting in.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> "To warn you of what you face," Daeron said. "My father has commanded the Kingsguard to fight with him."
+>
+> — sources/chapters/thk/thk-dunk-01.md:1117 · Maekar commands the Kingsguard to fight for Aerion in the trial of seven, escalating the stakes against Dunk.  _(capture: chapter-quote sweep, foreshadow-hook)_
+
+> Dunk went to one knee beside Egg, and put the signet back in the boy's hand; four three-headed dragons, two and two, the arms of Maekar, Prince of Summerhall.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1615 · Maekar's differenced Targaryen arms, borne on the signet ring hidden in Egg's boot.  _(capture: chapter-quote sweep, targaryen-history)_
+

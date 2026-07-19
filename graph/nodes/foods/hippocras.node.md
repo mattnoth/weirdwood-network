@@ -53,3 +53,8 @@ A man may prefer the taste of hippocras, yet if you set a tankard of [ale](wiki:
 — Red Wedding, ASOS Catelyn VII (`sources/chapters/asos/asos-catelyn-07.md:15`)(wiki:Hippocras.cite_ref-Raffc3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
 I could have hired a [Faceless Man](wiki:Faceless_Man) to kill [Bronn](wiki:Bronn) for half of what I've spent on hippocras.(wiki:Hippocras.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
 To the fervor of the [Warrior's Sons](wiki:Warrior's_Sons) and the brilliance of the [Queen Regent](wiki:Regent). To Cersei, the First in Her Name!
+
+> All the while the wine kept flowing. The rich Arbor reds gave way to local vintages, or so the Fiddler said; if truth be told, Dunk could not tell the difference. There was hippocras as well, he had to try a cup of that.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:697 · The wedding-night wines served at Whitewalls, ending in hippocras.  _(capture: chapter-quote sweep, food)_
+

@@ -23,3 +23,8 @@ Salt pork is cured/preserved pork used as traveling and shipboard rations. It ap
 > After the animals had been tended to, the riders shared a simple supper of salt pork and cold white beans, washed down with ale. Tyrion found the plain fare a pleasant change from all the rich food he had eaten with Illyrio.
 
 — ADWD Tyrion III (`sources/chapters/adwd/adwd-tyrion-03.md:147`)
+
+> Suckling pig was served at the high table, a peacock roasted in its plumage, a great pike crusted with crushed almonds. Not a bite of that made it down below the salt. Instead of suckling pig, they got salt pork, soaked in almond milk and peppered pleasantly.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:609 · Below-the-salt fare (salt pork) contrasted with the high table's suckling pig, peacock, and pike.  _(capture: chapter-quote sweep, food)_
+

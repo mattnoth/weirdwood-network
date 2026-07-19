@@ -40,3 +40,8 @@ At the wedding feast the first night of the [Whitewalls tourney](wiki:Whitewalls
 
 All men are fools, and all men are [knights](wiki:Knight).(wiki:Tanselle.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
 Tanselle Too-Tall was her name, but she was not too tall for me.(wiki:Tanselle.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+
+> Even by lantern light, the sunset colors were rich and bright, the tree tall and strong and noble. The falling star was a bright slash of paint across the oaken sky.
+>
+> — sources/chapters/thk/thk-dunk-01.md:1183 · Tanselle's repainted shield sigil for Dunk — an elm on a sunset field with a falling star, replacing Ser Arlan's winged chalice.  _(capture: chapter-quote sweep, description)_
+

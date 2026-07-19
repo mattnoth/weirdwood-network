@@ -105,6 +105,10 @@ When [Arya Stark](wiki:Arya_Stark) and the [kindly man](wiki:Kindly_man) devise 
 >
 > —Gylbert Farwynd at the kingsmoot on Old Wyk, AFFC (`sources/chapters/affc/affc-the-drowned-man-01.md:61`)
 
+> watching a puppet show about Nymeria, the warrior queen with the ten thousand ships
+>
+> — sources/chapters/thk/thk-dunk-01.md:817 · Merchants'-row puppet show depicting Nymeria staged among the tourney entertainments.  _(capture: chapter-quote sweep, description)_
+
 ## Edges
 
 - SWORN_TO: Rhoynar (cite: track_b: Allegiances)

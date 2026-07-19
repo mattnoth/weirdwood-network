@@ -50,3 +50,8 @@ During the rule of Lady [Rohanne Webber](wiki:Rohanne_Webber), Coldmoat's househ
 > I was ten years old when [the black dragon](wiki:Daemon_I_Blackfyre) [rose](wiki:First_Blackfyre_Rebellion). I begged [my father](wiki:Wyman_Webber) not to put himself at risk, or at least to leave my husband. Who would protect me, if both my men were gone? So he took me up onto the ramparts, and pointed out Coldmoat's strong points. 'Keep them strong,' he said, 'and they will keep you safe. If you see to your defenses, no man may do you harm.' The first thing he pointed at was the moat. My first husband perished [on the Redgrass Field](wiki:Battle_of_the_Redgrass_Field). My father found me others, but [the Stranger](wiki:The_Stranger) took them, too. I no longer trust in men, no matter how ample they may seem. I trust in stone and steel and water. I trust in moats, ser, and mine will not go dry.(wiki:Coldmoat.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-15)
 >
 > —[Rohanne Webber](wiki:Rohanne_Webber), to [Duncan the Tall](wiki:Duncan_the_Tall)
+
+> Over the arch of the main gate a row of spider banners drooped in the still air, above the older sigil carved deep into the stone. Centuries of wind and weather had worn it down, but the shape of it was still distinct: a rampant lion made of checkered squares.
+>
+> — sources/chapters/tss/tss-dunk-01.md:769 · The chequy lion carved above Coldmoat's gate, beneath the newer Webber spider banners -- Osgrey's lost-castle backstory.  _(capture: chapter-quote sweep, description)_
+

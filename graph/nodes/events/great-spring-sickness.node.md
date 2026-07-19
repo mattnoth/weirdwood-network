@@ -46,3 +46,24 @@ The drought wasn't [Lord Bloodraven's](wiki:Brynden_Rivers) fault, nor the Great
 > "Bittersteel and the sons of Daemon Blackfyre are hatching plots in Tyrosh, and Dagon Greyjoy's krakens prowl the sunset sea like wolves, raiding as far south as the Arbor. They carried off half the wealth of Fair Isle, it's said, and a hundred women, too. Lord Farman is repairing his defenses, though that strikes me as akin to the man who claps his pregnant daughter in a chastity belt when her belly's big as mine. Lord Bracken is dying slowly on the Trident, and his eldest son perished in the spring. That means Ser Otho must succeed. The Blackwoods will never stomach the Brute of Bracken as a neighbor. It will mean war."
 >
 > —Septon Sefton to Dunk, cataloguing the drought-era political texture of the realm (Blackfyre plots, Greyjoy raids, the Bracken/Blackwood feud) in the same breath as the Great Spring Sickness's aftermath, TSS The Sworn Sword (`sources/chapters/tss/tss-dunk-01.md:933`)
+
+> "No, the old Grey Lion, the one who died in the spring." That was how men spoke of those who had perished during the Great Spring Sickness. He died in the spring. Tens of thousands had died in the spring, among them a king and two young princes.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:615 · The Great Spring Sickness's death toll, including a king and two princes, entered common speech as "died in the spring."  _(capture: chapter-quote sweep, targaryen-history)_
+
+> Many of us had sons and daughters taken to King's Landing to vouchsafe our future loyalty, but most of the hostages perished in the Great Spring Sickness. Our hands are no longer tied. Our time is come.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1461 · Lord Peake explains that the Great Spring Sickness killed the hostages who had bound the conspirators' loyalty.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> Our good High Septon was taken, the gods' own voice on earth, with a third of the Most Devout and near all our silent sisters. His Grace King Daeron, sweet Matarys and bold Valarr, the Hand . . . oh, it was a dreadful time.
+>
+> — sources/chapters/tss/tss-dunk-01.md:929 · Septon Sefton's account of the Great Spring Sickness's royal and religious toll.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> That was what they always said of those who had perished during the Great Spring Sickness two years past. He died in the spring. Many tens of thousands had died in the spring, among them a wise old king and two young princes full of promise.
+>
+> — sources/chapters/tss/tss-dunk-01.md:861 · The Great Spring Sickness claims Rohanne's fourth husband along with the king and two princes.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> They piled them in the Dragonpit instead, and when the corpses were ten feet deep, Lord Rivers commanded the pyromancers to burn them. The light of the fires shone through the windows, as it did of yore when living dragons still nested beneath the dome. By night you could see the glow all through the city, the dark green glow of wildfire.
+>
+> — sources/chapters/tss/tss-dunk-01.md:929 · Septon Sefton's account of the Great Spring Sickness dead burned with wildfire in the Dragonpit.  _(capture: chapter-quote sweep, description)_
+

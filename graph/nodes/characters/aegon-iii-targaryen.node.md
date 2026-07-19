@@ -274,6 +274,10 @@ Daenerys Targaryen remembers the stories her brother [Viserys](wiki:Viserys_Targ
 > Mushroom tells us that King Aegon III reacted to the decisions of his regents with a sullen silence, speaking only once, to protest the dismissal of Massey and Darklyn. “Kingsguard serve for life,” the boy said, to which Lord Peake replied, “Only when they have been properly appointed, Your Grace.”
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-war-and-peace-and-cattle-shows-22-p01.md:31`)
 
+> Some say King Aegon poisoned her," the old man would tell. "The third Aegon that would be, not King Daeron's father, but the one they named Dragonbane, or Aegon the Unlucky.
+>
+> — sources/chapters/thk/thk-dunk-01.md:163 · The rumor that Aegon III (the Dragonbane/the Unlucky) poisoned the last dragon.  _(capture: chapter-quote sweep, targaryen-history)_
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-the-blacks-and-the-greens-16-p01-2026-07-09 -->

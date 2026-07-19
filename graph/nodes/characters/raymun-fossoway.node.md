@@ -46,3 +46,12 @@ I needed to make a small change to my sigil, lest I be mistaken for [my dishonor
 
 Here's an [apple](wiki:Apple) that's not ripe yet.(wiki:Raymun_Fossoway.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13)
 Raymun of [House Fossoway](wiki:House_Fossoway), in the name of [the Warrior](wiki:Warrior_(the_Seven)) I charge you to be brave. In the name of [the Father](wiki:Father_(the_Seven)) I charge you to be just. In the name of [the Mother](wiki:Mother_(the_Seven)) I charge you to defend the young and innocent. In the name of [the Maid](wiki:Maiden_(the_Seven)) I charge you to protect all women.(wiki:Raymun_Fossoway.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-14)
+
+> "There's food as well, if you're hungry," Raymun said negligently as he held the flap for Dunk. A brazier of coals lit the interior and made the air pleasantly warm.
+>
+> — sources/chapters/thk/thk-dunk-01.md:847 · Raymun Fossoway's pavilion hospitality — food and warmth offered to Dunk, which he feels uneasy accepting since he cannot return it.  _(capture: chapter-quote sweep, hospitality)_
+
+> "There, you see, your matter is attended to, and the wine awaits," said Raymun. "It's an Arbor vintage, too. How can you refuse me?"
+>
+> — sources/chapters/thk/thk-dunk-01.md:845 · Raymun Fossoway presses hospitality (an Arbor vintage) on Dunk in Ser Steffon's gold pavilion, which Dunk feels he cannot properly return.  _(capture: chapter-quote sweep, hospitality)_
+

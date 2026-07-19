@@ -42,3 +42,8 @@ Steffon: Vile? Guard your tongue, Raymun. We're both [apples from the same tree]
 I may not be ripe, but my good cousin is rotten to the core. Knock the seeds out of him.(wiki:Steffon_Fossoway.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-9)
 [Knights](wiki:Knight) like Ser Steffon had sharp eyes to find a man's weakness at a glance.(wiki:Steffon_Fossoway.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-10)
 My cousin keeps a sharp watch on every tilt, though. Should any man be wounded on the morrow, or show signs of exhaustion or weakness, Steffon will be quick to knock on his shield, you may count on it. No one has ever accused him of an excess of chivalry.(wiki:Steffon_Fossoway.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-11)
+
+> I shall be more than a knight before this day is done. Lord Fossoway. I like the sound of that.
+>
+> — sources/chapters/thk/thk-dunk-01.md:1257 · Ser Steffon Fossoway betrays Dunk's side for the promised reward of being raised to Lord Fossoway.  _(capture: chapter-quote sweep, foreshadow-hook)_
+

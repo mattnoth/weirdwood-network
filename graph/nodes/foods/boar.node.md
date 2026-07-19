@@ -78,3 +78,8 @@ Serve the boar at my funeral feast. Apple in its mouth, skin seared crisp. Eat t
 
 — AGOT Eddard XIII (`sources/chapters/agot/agot-eddard-13.md:85`)(wiki:Boar.cite_ref-Ragot47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
 When [Lancel](wiki:Lancel_Lannister) saw that [Robert](wiki:Robert_I_Baratheon) was going after boar, he gave him [strongwine](wiki:Strongwine). His favorite sour red, but fortified, three times as potent as he was used to. The great stinking fool loved it. He could have stopped swilling it down anytime he cared to, but no, he drained one skin and told Lancel to fetch another. The boar did the rest. You should have been at the feast, Tyrion. There has never been a boar so delicious. They cooked it with [mushrooms](wiki:Mushroom_(fungi)) and apples, and it tasted like triumph.(wiki:Boar.cite_ref-Racok3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-2)
+
+> "It's wild boar," the woman said, "well peppered, and served with onions, mushrooms, and mashed neeps."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:281 · The inn's roast boar, reserved for lordly guests, contrasted with the hedge knights' hard salt beef.  _(capture: chapter-quote sweep, food)_
+

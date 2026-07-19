@@ -60,3 +60,8 @@ Tyrion: A time or two. [Singer's](wiki:Symon_Silver_Tongue) stew, I call it. Kem
 > "No one ever made a bowl o' brown like them. So thick you could stand your spoon up in the bowl, with chunks of this and that."
 
 — ADWD Tyrion XII (`sources/chapters/adwd/adwd-tyrion-12.md:183`)
+
+> "A bowl o' brown," they called such fare in the pot shops of King's Landing. Ser Kyle had plainly had no stomach for it. Untouched, the stew had grown cold, and a film of grease glistened atop the brown.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1797 · The leftover stew ("bowl of brown") served below the salt at the wedding feast, echoing King's Landing pot-shop fare.  _(capture: chapter-quote sweep, food)_
+

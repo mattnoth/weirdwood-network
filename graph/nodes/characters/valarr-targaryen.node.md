@@ -74,6 +74,18 @@ Discussing both their fathers' objections to them becoming [maesters](wiki:Maest
 >
 > —thoughts of [Duncan the Tall](wiki:Duncan_the_Tall)
 
+> his blood is the blood of Aegon the Conqueror and the Young Dragon and Prince Aemon the Dragonknight
+>
+> — sources/chapters/thk/thk-dunk-01.md:835 · Valarr's storied bloodline enumerated — Aegon the Conqueror, the Young Dragon, and Aemon the Dragonknight — as Dunk weighs challenging him.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> The king is old. When he dies, Valarr will climb the Iron Throne in place of his father.
+>
+> — sources/chapters/thk/thk-dunk-01.md:1511 · With Baelor Breakspear dead, succession shifts to his son Valarr as the aged Daeron II's heir.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> Prince Valarr has the honor to be one of Lady Ashford's champions," explained Ser Roland, "and two of his cousins mean to challenge.
+>
+> — sources/chapters/thk/thk-dunk-01.md:425 · Valarr, eldest son of Baelor Breakspear, named as one of Lady Ashford's tourney champions.  _(capture: chapter-quote sweep, other)_
+
 ## Edges
 
 - HOLDS_TITLE: Prince (cite: track_b: Titles)

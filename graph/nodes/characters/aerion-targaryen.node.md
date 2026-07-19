@@ -135,6 +135,26 @@ Outside [Meereen](wiki:Meereen), [Inkpots](wiki:Inkpots) shows [Tyrion Lannister
 >
 > —Olenna Tyrell to Sansa Stark, ASOS (`sources/chapters/asos/asos-sansa-01.md:181`)
 
+> "Not clever enough?" The speaker wore a black cloak bordered in scarlet satin, but underneath was raiment bright as flame, all reds and yellows and golds. Slim and straight as a dirk, though only of middling height, he was near Dunk's own age. Curls of silver-gold hair framed a face sculpted and imperious; high brow and sharp cheekbones, straight nose, pale smooth skin without blemish. His eyes were a deep violet color.
+>
+> — sources/chapters/thk/thk-dunk-01.md:395 · Arrogant unnamed princeling at the stables (later identified as Aerion Brightflame) described by his Targaryen coloring, identity withheld in this scene.  _(capture: chapter-quote sweep, cross-identity)_
+
+> "I have sent Aerion to Lys," he announced abruptly. "A few years in the Free Cities may change him for the better."
+>
+> — sources/chapters/thk/thk-dunk-01.md:1501 · Prince Maekar banishes his son Aerion Brightflame to the Free Cities after the trial.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> "Prince Aerion Brightflame," a herald called, "of the Red Keep of King's Landing, son of Maekar Prince of Summerhall of House Targaryen, grandson to Daeron the Good, the Second of His Name, King of the Andals, the Rhoynar, and the First Men, and Lord of the Seven Kingdoms."
+>
+> — sources/chapters/thk/thk-dunk-01.md:793 · Herald's formal recitation places Aerion in the line of Maekar and Daeron II.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> I remember, when I was little, he used to come into my bedchamber at night and put his knife between my legs. He had too many brothers, he'd say, maybe one night he'd make me his sister, then he could marry me. He threw my cat in the well too.
+>
+> — sources/chapters/thk/thk-dunk-01.md:1143 · Egg's account of Aerion's childhood cruelty toward him, establishing Aerion as "quite the monster."  _(capture: chapter-quote sweep, description)_
+
+> Surely no one hated him that much but Egg's brother Aerion, and the Bright Prince was in exile across the narrow sea.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1297 · Dunk's private reckoning names Egg's brother Aerion, the Bright Prince, exiled across the narrow sea.  _(capture: chapter-quote sweep, cross-identity)_
+
 ## Edges
 
 - SWORN_TO: House Targaryen (cite: track_b: Allegiances)

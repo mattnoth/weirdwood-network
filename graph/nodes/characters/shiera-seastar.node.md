@@ -61,6 +61,10 @@ Shiera was a great reader, even at an early age, spoke many [languages](wiki:Lan
 >
 > —[George R. R. Martin](wiki:George_R._R._Martin)
 
+> Lady Shiera does. Lord Bloodraven's paramour. She bathes in blood to keep her beauty.
+>
+> — sources/chapters/tss/tss-dunk-01.md:621 · Egg's gossip about Shiera Seastar, Bloodraven's paramour, and her blood-bathing beauty legend.  _(capture: chapter-quote sweep, description)_
+
 ## Edges
 
 - HOLDS_TITLE: Lady (track_b: Title)

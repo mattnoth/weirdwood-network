@@ -64,3 +64,8 @@ Black Tom had a fierce reputation, and he mocked his opponents.(wiki:Tommard_Hed
 > A nasty bit of business, that one.(wiki:Tommard_Heddle.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-17)
 >
 > —[Uthor Underleaf](wiki:Uthor_Underleaf) to [Duncan the Tall](wiki:Duncan_the_Tall)
+
+> His head was broad and bald, his beard black and square. Angry red boils festered on his cheek and neck.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1375 · Ser Tommard ("Black Tom") Heddle's face revealed once he removes his demonic tourney helm.  _(capture: chapter-quote sweep, description)_
+

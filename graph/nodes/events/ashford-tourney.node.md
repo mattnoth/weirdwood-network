@@ -23,3 +23,9 @@ sort_keys:
 
 ## Edges
 
+## Quotes
+
+> Dunk could smell woodsmoke, and bacon as well.
+>
+> — sources/chapters/thk/thk-dunk-01.md:313 · Tourney-ground food atmosphere — woodsmoke and bacon on the morning air among the pavilions.  _(capture: chapter-quote sweep, food)_
+

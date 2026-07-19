@@ -27,3 +27,16 @@ FIGHTS_IN: Maekar Targaryen (inbound — 209 AC trial)
 
 > Dick Bean died first, cut down by Lyle Bracken mere instants after the combat began. Thereafter accounts differ markedly.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p02.md:115`)
+
+> It came across the narrow sea with the Andals and their seven gods. In any trial by combat, the accuser and accused are asking the gods to decide the issue between them.
+>
+> — sources/chapters/thk/thk-dunk-01.md:1045 · Baelor explains the trial of seven's Andal origin and religious logic.  _(capture: chapter-quote sweep, description)_
+
+> There has not been a trial of seven for more than a hundred years, do you know that?
+>
+> — sources/chapters/thk/thk-dunk-01.md:1213 · Ser Lyonel Baratheon notes the rarity of the trial of seven, last held over a century before.  _(capture: chapter-quote sweep, other)_
+
+> I follow tourneys from afar as faithfully as the maesters follow stars. I know how a certain hedge knight became the cause of a Trial of Seven at Ashford Meadow, resulting in the death of Baelor Breakspear at his brother Maekar's hand.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1309 · Ser Uthor names the Ashford Meadow Trial of Seven and Baelor Breakspear's death at Maekar's hand.  _(capture: chapter-quote sweep, targaryen-history)_
+

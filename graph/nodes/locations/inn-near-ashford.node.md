@@ -31,3 +31,8 @@ Daeron's lies and Dunk's confrontation with another princely brother, [Aerion Ta
 
 The warm yellow light spilling from its windows looked so inviting that he could not pass it by.(wiki:Inn_near_Ashford.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
 I'd had enough of that inn.(wiki:Inn_near_Ashford.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+
+> There's good lamb, roasted with a crust of herbs, and some ducks my son shot down. Which will you have?
+>
+> — sources/chapters/thk/thk-dunk-01.md:57 · Commercial inn hospitality — Dunk buys a proper meal and ale, his first in half a year.  _(capture: chapter-quote sweep, hospitality)_
+

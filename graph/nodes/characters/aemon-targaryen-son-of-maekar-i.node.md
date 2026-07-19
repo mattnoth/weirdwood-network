@@ -171,6 +171,10 @@ Jon reads about [Azor Ahai](wiki:Azor_Ahai) and [Lightbringer](wiki:Lightbringer
 >
 > —thoughts of [Jon Snow](wiki:Jon_Snow)
 
+> My brother Aemon named me Egg. He's off at the Citadel now, learning to be a maester.
+>
+> — sources/chapters/thk/thk-dunk-01.md:947 · Establishes that Prince Aemon Targaryen (the future Maester Aemon) has already been sent to the Citadel to train as a maester.  _(capture: chapter-quote sweep, targaryen-history)_
+
 ## Edges
 
 - SWORN_TO: House Targaryen (cite: track_b: Allegiances)

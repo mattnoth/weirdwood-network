@@ -59,6 +59,26 @@ Even sheathed, the blade could be mistaken for no other.(wiki:Blackfyre.cite_ref
 Eustace: Because [Daemon](wiki:Daemon_I_Blackfyre) was the better man. [The old king](wiki:Aegon_IV_Targaryen) saw it, too. He gave the sword to Daemon. Blackfyre, the sword of [Aegon the Conqueror](wiki:Aegon_I_Targaryen), the blade that every [Targaryen](wiki:House_Targaryen) king had wielded since [the Conquest](wiki:Aegon's_Conquest) ... he put that sword in Daemon's hand the day he [knighted](wiki:Knight) him, a boy of twelve.
 Egg: [My father](wiki:Maekar_I_Targaryen) says that was because Daemon was a swordsman, and [Daeron](wiki:Daeron_II_Targaryen) never was. Why give a horse to a man who cannot ride? The sword was not [the kingdom](wiki:Seven_Kingdoms), he says.
 
+> "Daemon Blackfyre was no traitor. The old king gave him the sword. He saw the worthiness in Daemon, even though he was born bastard. Why else would he put Blackfyre into his hand in place of Daeron's?
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:413 · Ser Glendon's defense of Daemon Blackfyre, citing Aegon IV's gift of the ancestral sword Blackfyre over his trueborn heir Daeron.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> He does not bear the sword! If he were his father's son, Bittersteel would have armed him with Blackfyre. And all this talk about a dragon ... madness, madness and folly.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1695 · Butterwell's doubt about the pretender rests on his not bearing the ancestral sword Blackfyre.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> And when Daemon drew his sword and raised it above his head, every man of them could see it was not Blackfyre. "We'll make another Redgrass Field today," the pretender promised.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1951 · Daemon II's drawn sword is visibly not the ancestral Blackfyre, undercutting his claim before the final clash.  _(capture: chapter-quote sweep, description)_
+
+> Some old dead king gave a sword to one son instead of another, that was the start of it.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1983 · Dunk's own summation of the Blackfyre wars' root cause: Aegon IV's gift of the sword Blackfyre to Daemon over Daeron.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> Blackfyre, the sword of Aegon the Conquerer, the blade that every Targaryen king had wielded since the Conquest . . . he put that sword in Daemon's hand the day he knighted him, a boy of twelve.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1289 · Aegon IV gave the ancestral sword Blackfyre to his bastard Daemon rather than his heir Daeron.  _(capture: chapter-quote sweep, targaryen-history)_
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->

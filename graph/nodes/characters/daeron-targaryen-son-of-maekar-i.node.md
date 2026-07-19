@@ -105,6 +105,34 @@ In the twilight of his life, Maester Aemon recalls how all three of his brothers
 >
 > —[Aegon Targaryen](wiki:Aegon_V_Targaryen) to [Duncan the Tall](wiki:Duncan_the_Tall)
 
+> They call him Daeron the Drunken, though not in his father's hearing.
+>
+> — sources/chapters/thk/thk-dunk-01.md:865 · The drunk lordling Dunk meets at the inn is revealed as Prince Daeron, Maekar's heir, concealed under a common nickname.  _(capture: chapter-quote sweep, cross-identity)_
+
+> By which you mean he'd sooner ride a whore than a horse," the first man said.
+>
+> — sources/chapters/thk/thk-dunk-01.md:553 · Baelor and Maekar quarrel over Prince Daeron's fitness for the lists; Daeron (eighteen) is called out as a drunkard.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> I dreamed of you and a dead dragon, you see. A great beast, huge, with wings so large they could cover this meadow. It had fallen on top of you, but you were alive and the dragon was dead.
+>
+> — sources/chapters/thk/thk-dunk-01.md:1159 · Daeron's true, prophetic dream of Dunk beneath a dead dragon — a Targaryen prophetic-dreaming hook that pays off when Baelor (a dragon) dies to save Dunk.  _(capture: chapter-quote sweep, prophecy)_
+
+> His hand trembled as he pointed a finger. "You stay away from me, do you hear? You stay well away."
+>
+> — sources/chapters/thk/thk-dunk-01.md:75 · The drunk lordling (later revealed as Prince Daeron) claims a dream of Dunk and warns him off — the prophetic-dream hook planted at the inn.  _(capture: chapter-quote sweep, prophecy)_
+
+> His dream was wrong, then. The dead dragon. Unless Aerion died. He didn't though, did he?
+>
+> — sources/chapters/thk/thk-dunk-01.md:1441 · Dunk's callback to Daeron's dream after Baelor's death, weighing whether the prophecy pointed to Aerion or to Baelor.  _(capture: chapter-quote sweep, prophecy)_
+
+> "I'm not stupid, ser." Egg lowered his voice. "Someday the dragons will return. My brother Daeron's dreamed of it, and King Aerys read it in a prophecy.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:475 · Egg cites his brother Daeron's dragon-return dream and King Aerys's own prophecy reading.  _(capture: chapter-quote sweep, prophecy)_
+
+> I dreamed of you and a dead dragon, Egg's brother Daeron said to him. A great beast, huge, with wings so large, they could cover this meadow. It had fallen on top of you, but you were alive and the dragon was dead.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:789 · Dunk recalls Daeron's earlier true-dream of him and a dead dragon (Baelor Breakspear).  _(capture: chapter-quote sweep, prophecy)_
+
 ## Edges
 
 - PARENT_OF: Daeron Targaryen ← Maekar I Targaryen (track_b: Father)

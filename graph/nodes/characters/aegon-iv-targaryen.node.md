@@ -148,6 +148,14 @@ Aegon dressed in silk and satin, bright and rich, and wore rings and chains of g
 > Aegon, who was discovered hitting the babe with the dragon’s egg that had been placed inside the cradle.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-lysene-spring-24-p02.md:221`)
 
+> Aegon the Unworthy had bedded half the maidens in the realm and fathered bastards on the lot of them, supposedly. Worse, the old king had legitimized them all upon his deathbed; the baseborn ones born of tavern wenches, whores, and shepherd girls, and the Great Bastards whose mothers had been highborn.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:349 · Origin of the Great Bastards: Aegon IV's deathbed legitimization of his many bastard children.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> He had legitimized the lot upon his deathbed; not only the Great Bastards like Bloodraven, Bittersteel, and Daemon Blackfyre, whose mothers had been ladies, but even the lesser ones he'd fathered on whores and tavern wenches, merchant's daughters, mummer's maidens, and every pretty peasant girl who chanced to catch his eye.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1187 · Aegon IV's deathbed legitimization of all his bastards, root of the Blackfyre wars.  _(capture: chapter-quote sweep, targaryen-history)_
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-lineages-and-family-tree-25-2026-07-10-recovery -->

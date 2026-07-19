@@ -44,3 +44,14 @@ A young boy named [Glendon Flowers](wiki:Glendon_Flowers) believed himself to be
 ## Appearances & Description
 
 Quentyn was red-haired, with a fiery temper, hence the moniker *Fireball*.(wiki:Quentyn_Ball.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4) He was considered to be one of the greatest [knights](wiki:Knight) of his day.(wiki:Quentyn_Ball.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+## Quotes
+
+> Ser Quentyn Ball was the master-at-arms at the Red Keep. He taught my father and my uncles how to fight. The Great Bastards too.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:487 · Fireball's role training the Targaryen princes and the Great Bastards at the Red Keep.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> King Aegon promised to raise him to the Kingsguard, so Fireball made his wife join the silent sisters, only by the time a place came open, King Aegon was dead and King Daeron named Ser Willam Wylde instead.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:487 · Fireball set aside his wife for a promised Kingsguard place that went instead to Ser Willam Wylde after Aegon IV's death.  _(capture: chapter-quote sweep, targaryen-history)_
+

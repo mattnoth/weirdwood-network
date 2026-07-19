@@ -75,3 +75,12 @@ At the Citadel, [Archmaester](wiki:Archmaester) [Marwyn](wiki:Marwyn) tells Samw
 > **Mollander:** The last dragon in [Westeros](wiki:Westeros).
 >
 > —[Armen](wiki:Armen) and [Mollander](wiki:Mollander)
+
+> She'd been a green female, small and stunted, her wings withered. None of her eggs had ever hatched.
+>
+> — sources/chapters/thk/thk-dunk-01.md:161 · Physical description of the last dragon Ser Arlan saw in King's Landing as a boy, the year before it died.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> The summers have been shorter since the last dragon died, and the winters longer and crueler.
+>
+> — sources/chapters/thk/thk-dunk-01.md:163 · Seasonal lore tying the death of the last dragon to shortened summers and lengthened, crueler winters.  _(capture: chapter-quote sweep, prophecy)_
+

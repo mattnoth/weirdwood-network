@@ -55,3 +55,20 @@ Duncan: He always said he meant for me to be a [knight](wiki:Knight), as he was.
 Plummer: Any knight can make a knight, it is true, though it is more customary to stand a vigil and be anointed by a [septon](wiki:Septon) before taking your vows. Were there any witnesses to your dubbing?
 When you accept a [lord](wiki:Lord)'s meat and [mead](wiki:Mead), all you do reflects on him, Ser Arlan used to say. Always do more than he expects of you, never less. Never flinch at any task or hardship.(wiki:Arlan_of_Pennytree.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-10)
 The old hedge knight had done service at so many different keeps and castles through the years that Dunk could not recall the half of them.(wiki:Arlan_of_Pennytree.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
+
+> Ser Arlan had not ridden a tilt since the day he had been unhorsed by the Prince of Dragonstone in a tourney at Storm's End, many years before. "It is not every man who can boast that he broke seven lances against the finest knight in the Seven Kingdoms," he would say.
+>
+> — sources/chapters/thk/thk-dunk-01.md:205 · Ser Arlan's own tourney history: unhorsed by the Prince of Dragonstone at Storm's End, a defeat he wore as a point of pride.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> Ser Arlan, he told me you were the soul of chivalry, and that one day the Seven Kingdoms would be safe in your hands.
+>
+> — sources/chapters/thk/thk-dunk-01.md:605 · Dunk recalls Ser Arlan's praise of Baelor Breakspear as a future king, spoken to Baelor's face.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> an oaken shield with a scarred metal rim, bearing the sigil of Ser Arlan of Pennytree: a winged chalice, silver on brown
+>
+> — sources/chapters/thk/thk-dunk-01.md:29 · Ser Arlan of Pennytree's sigil, inherited by Dunk on the shield he carries to pass as a knight.  _(capture: chapter-quote sweep, description)_
+
+> "A hedge knight is the truest kind of knight, Dunk," the old man had told him, a long long time ago.
+>
+> — sources/chapters/thk/thk-dunk-01.md:927 · Ser Arlan's creed on hedge knighthood and protecting the weak, recalled by Dunk in his cell.  _(capture: chapter-quote sweep, foreshadow-hook)_
+

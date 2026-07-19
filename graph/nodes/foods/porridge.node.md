@@ -45,3 +45,12 @@ Porridge is a plain grain-based breakfast staple, typically served with fruit or
 > A servant brought him porridge and honey to break his fast, but all he could taste was bile at the thought of confession. They will call me kinslayer till the end of my days.
 
 — ASOS Tyrion IX (`sources/chapters/asos/asos-tyrion-09.md:319`)
+
+> There was hot bread and honey, a bowl of pease porridge, a skewer of roast onions and well-charred meat.
+>
+> — sources/chapters/thk/thk-dunk-01.md:937 · The prisoner's meal brought to Dunk's cell — hot bread and honey, pease porridge, and skewered meat.  _(capture: chapter-quote sweep, food)_
+
+> "Cry for quarter and admit your guilt, and perhaps I'll only claim a hand and a foot. Oh, and those teeth, but what are a few teeth? A man like you can live years on pease porridge."
+>
+> — sources/chapters/thk/thk-dunk-01.md:1399 · Aerion's taunt names pease porridge as a cripple's fare, threatening to maim Dunk.  _(capture: chapter-quote sweep, food)_
+

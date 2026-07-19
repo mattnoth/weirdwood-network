@@ -131,3 +131,20 @@ At the [crofters' village](wiki:Crofters'_village), Ser [Justin Massey](wiki:Jus
 > Bittersteel was half-[dragon](wiki:House_Targaryen), and all [bastard](wiki:Bastard).(wiki:Aegor_Rivers.cite_ref-Ar2_22-0)
 >
 > —[Arianne Martell](wiki:Arianne_Martell) to [Lysono Maar](wiki:Lysono_Maar)
+
+> "His eye is fixed on Tyrosh, where Bittersteel sits in exile, plotting with the sons of Daemon Blackfyre. So he keeps the king's ships close at hand, lest they attempt to cross."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:373 · Ser Maynard describes Bittersteel's ongoing exile plotting and Bloodraven's watch on the crossing.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> "Bittersteel be buggered," insisted a familiar voice. "No bastard can be trusted, not even him. A few victories will bring him over the water fast enough."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:677 · A conspirator's dismissive confidence that early victories will draw Bittersteel back from exile.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> "That is for King Aerys to decide ... but Daemon has four younger brothers, and sisters as well. Should I be so foolish as to remove his pretty head, his mother will mourn, his friends will curse me for a kinslayer, and Bittersteel will crown his brother Haegon. Dead, young Daemon is a hero.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:2063 · Bloodraven's calculation for sparing Daemon II: killing him only hands Bittersteel a martyr and a fresh pretender in Haegon.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> Bittersteel and the sons of Daemon Blackfyre are hatching plots in Tyrosh, and Dagon Greyjoy's krakens prowl the sunset sea like wolves, raiding as far south as the Arbor.
+>
+> — sources/chapters/tss/tss-dunk-01.md:933 · Bittersteel and the Blackfyre exiles regrouping in Tyrosh.  _(capture: chapter-quote sweep, targaryen-history)_
+

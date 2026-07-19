@@ -289,3 +289,28 @@ On the [Rhoyne](wiki:Rhoyne), [Jon Connington](wiki:Jon_Connington), a friend of
 
 > Here, brides thus blessed upon their wedding nights were envied, and the children born of such unions were esteemed above all others, for the Lords of Dragonstone oft celebrated the birth of such with lavish gifts of gold and silk and land to the mother. These happy bastards were said to have been “born of dragonseed,” and in time became known simply as “seeds.”
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-the-red-dragon-and-the-gold-17-p01.md:201`)
+
+> We were the masters of dragons once, we Targaryens. Now they are all gone, but we remain.
+>
+> — sources/chapters/thk/thk-dunk-01.md:1163 · Daeron states the Targaryen dynasty's lost dragon-mastery and the family's persistence after the dragons' extinction.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> "Dragons," men called the coins, since they were stamped with the three-headed dragon of House Targaryen on one side. The other bore the likeness of the king. Two of the coins Henly gave him had King Daeron's face; the third was older, well worn, and showed a different man. His name was there under his head, but Dunk could not read the letters.
+>
+> — sources/chapters/thk/thk-dunk-01.md:433 · Targaryen dynastic coinage — 'dragons' stamped with the three-headed dragon and the reigning king's face; Dunk's illiteracy keeps the older king unnamed.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> "The blood of the dragon," Dunk said. "Silver-gold hair and purple eyes, everyone knows that." Thick as a castle wall, Dunk.
+>
+> — sources/chapters/thk/thk-dunk-01.md:959 · Dunk names the canonical Targaryen coloring — silver-gold hair and purple eyes — as common knowledge, moments after learning Egg's true identity.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> the fierce three-headed dragon of House Targaryen seemed to spread its wings, breathing scarlet fire
+>
+> — sources/chapters/thk/thk-dunk-01.md:387 · Royal banner arrival set-piece as the Targaryen party reaches Ashford with a Kingsguard escort.  _(capture: chapter-quote sweep, description)_
+
+> their silver-gold hair and violet eyes set them apart from common men
+>
+> — sources/chapters/thk/thk-dunk-01.md:401 · Targaryen Valyrian features named as the identity marker — the concealed-identity key running through the whole D&E cycle.  _(capture: chapter-quote sweep, description)_
+
+> "There have always been Targaryens who dreamed of things to come, since long before the Conquest," Bloodraven said, "so we should not be surprised if from time to time a Blackfyre displays the gift as well.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:2039 · Bloodraven states the Targaryen (and by extension Blackfyre) lineage of prophetic dreaming.  _(capture: chapter-quote sweep, prophecy)_
+

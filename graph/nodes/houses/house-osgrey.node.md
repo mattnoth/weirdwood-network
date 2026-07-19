@@ -40,3 +40,10 @@ House Osgrey features prominently in the Dunk and Egg novella "The Sworn Sword."
 - HOLDS_TITLE: Lord of Coldmoat (track_b: Titles) [formerly]
 - HOLDS_TITLE: Marshall of the Northmarch (track_b: Titles) [pre-Conquest]
 - OVERLORD_OF (reverse): House Rowan (track_b: Overlord)
+
+## Quotes
+
+> Dunk was known in the villages, if only as Ser Eustace's new knight, but not so much as a cup of water was offered him.
+>
+> — sources/chapters/tss/tss-dunk-01.md:311 · Osgrey smallfolk withhold even water hospitality from their own lord's new knight.  _(capture: chapter-quote sweep, hospitality)_
+

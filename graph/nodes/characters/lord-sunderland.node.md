@@ -32,3 +32,8 @@ In [212 AC](wiki:212_AC), Lord Sunderland came to [Whitewalls](wiki:Whitewalls)
 > **Duncan**: A [Sisterman](wiki:Sisterman)? Truly? He's come a long way. He must be kin to [Butterwell's new bride](wiki:Lady_Butterwell). **Aegon**: He isn't, ser. **Duncan**: Then he's here for [the feast](wiki:Wedding_tourney_at_Whitewalls). They eat fish on the [Three Sisters](wiki:Three_Sisters), don't they? A man gets sick of fish. Did you get enough to eat? I brought you half a capon and some cheese. **Aegon**: They fed us ribs, ser. Lord Sunderland fought for the [Black Dragon](wiki:Daemon_I_Blackfyre), ser. **Duncan**: Like old Ser [Eustace](wiki:Eustace_Osgrey)? He wasn't so bad, was he?
 >
 > —[Aegon Targaryen](wiki:Aegon_V_Targaryen) and [Duncan the Tall](wiki:Duncan_the_Tall)
+
+> "They fed us ribs, ser." Egg's nose was deep in the book. "Lord Sunderland fought for the Black Dragon, ser."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:861 · Egg notes that Lord Sunderland -- present at the wedding -- fought for the Black Dragon in the First Blackfyre Rebellion.  _(capture: chapter-quote sweep, targaryen-history)_
+

@@ -82,3 +82,8 @@ Aboard the *[Selaesori Qhoran](wiki:Selaesori_Qhoran)*, [Tyrion Lannister](wiki:
 > **Sansa:** I ... I know a song about Florian and Jonquil. **Sandor:** Florian and Jonquil? A fool and his cunt. Spare me. But one day I'll have a song from you, whether you will it or no.
 >
 > —[Sandor Clegane](wiki:Sandor_Clegane) and [Sansa Stark](wiki:Sansa_Stark)
+
+> "Sweet lady," said Florian, "all men are fools, and all men are knights, where women are concerned."
+>
+> — sources/chapters/thk/thk-dunk-01.md:651 · Line from the Florian-and-Jonquil puppet play performed at Ashford.  _(capture: chapter-quote sweep, description)_
+

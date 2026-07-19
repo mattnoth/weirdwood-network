@@ -57,3 +57,8 @@ Lucas wore black silk and cloth-of-silver, and his armor was black enameled plat
 > [Sam Stoops](wiki:Sam_Stoops) says the castellan at [Coldmoat](wiki:Coldmoat) is as big as you are. Lucas Inchfield is his name, but he's called the Longinch for his size.(wiki:Lucas_Inchfield.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-15)
 >
 > —[Aegon Targaryen](wiki:Aegon_V_Targaryen) to [Duncan the Tall](wiki:Duncan_the_Tall)
+
+> Every day I wake wondering if this might be the day he marries me by force." Her hand curled tight around her braid, as hard as if it were a rope, and she was dangling over a precipice. "He wants to, I know. He holds back for fear of my wroth, just as Conklyn and Stackhouse and the Durwells tread carefully where the Red Widow is concerned.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1575 · Rohanne's fear that her castellan Lucas Inchfield will marry her by force.  _(capture: chapter-quote sweep, foreshadow-hook)_
+

@@ -48,3 +48,8 @@ Addam was fond of blackberries. According to his father, he was a brave boy. He 
 > I scarce remember Addam any longer. It was more than half my life ago. I remember that I loved him, though. I have not loved any of the others.(wiki:Addam_Osgrey.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
 >
 > —[Rohanne Webber](wiki:Rohanne_Webber), to [Duncan the Tall](wiki:Duncan_the_Tall)
+
+> She loved the boy, and him her. It never went beyond a kiss or two, but . . . it was Addam she wept for after the Redgrass Field, not the husband she hardly knew.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1141 · Rohanne's love for Addam Osgrey, dead at twelve, root of her enmity with Eustace.  _(capture: chapter-quote sweep, description)_
+

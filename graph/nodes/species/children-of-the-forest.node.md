@@ -31,3 +31,8 @@ The children who dwell in the cave beyond the Wall are "small compared to men, a
 > "The First Men named us children," the little woman said. "The giants called us woh dak nag gran, the squirrel people, because we were small and quick and fond of trees, but we are no squirrels, no children. Our name in the True Tongue means those who sing the song of earth."
 
 — [Leaf](leaf) gives the children's three names — the First Men's "children," the giants' *woh dak nag gran* (squirrel people), and their own True Tongue self-name, "those who sing the song of earth." Bran POV, ADWD Bran II (`sources/chapters/adwd/adwd-bran-02.md:141`)
+
+> Before long the trees opened up, and they found themselves in what must once have been a weirwood grove. Only a ring of white stumps and a tangle of bone-pale roots remained to show where the trees had stood, when the children of the forest ruled in Westeros.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:297 · The felled weirwood grove used as a campsite, with narration reaching back to the children of the forest's era.  _(capture: chapter-quote sweep, description)_
+

@@ -64,3 +64,16 @@ Uthor's arms depicted a silver [snail](wiki:Snail) on green. Like his sigil, the
 > I see why you have a [snail](wiki:Snail) on your shield. You are no [true knight](wiki:True_knight).(wiki:Uthor_Underleaf.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-16)
 >
 > —[Duncan the Tall](wiki:Duncan_the_Tall) to Uthor
+
+> Think on my offer, ser. The snail may leave a trail of slime behind him, but a little slime will do a man no harm ... whilst if you dance with dragons, you must expect to burn.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1309 · Ser Uthor's veiled warning to Dunk, tying his danger to Targaryen/Blackfyre politics.  _(capture: chapter-quote sweep, foreshadow-hook)_
+
+> "Half a cup," Underleaf insisted. "You sound in need of it." He filled two cups with wine and handed one to Dunk.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1191 · Ser Uthor receives Dunk with wine in his tent, just before disclosing the murder contract on Dunk's life.  _(capture: chapter-quote sweep, hospitality)_
+
+> The ground beneath his feet was carpeted in woven Myrish rugs, rich with color. An ornate trestle table stood surrounded by camp chairs. The feather bed was covered with soft cushions, and an iron brazier burned perfumed incense.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1163 · The Snail's plain sailcloth tent conceals a merchant's private luxury within.  _(capture: chapter-quote sweep, description)_
+

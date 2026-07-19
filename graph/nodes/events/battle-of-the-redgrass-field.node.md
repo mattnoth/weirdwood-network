@@ -57,3 +57,20 @@ Amongst the dead were Lady [Rohanne Webber](wiki:Rohanne_Webber)'s first husband
 > The singers can go on about [their hammer and their anvil](wiki:The_hammer_and_the_anvil), ser, but it was [the kinslayer](wiki:Brynden_Rivers) who turned the tide with a white arrow and a [black spell](wiki:Magic).(wiki:Battle_of_the_Redgrass_Field.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-13)
 >
 > —[Eustace Osgrey](wiki:Eustace_Osgrey) to [Duncan the Tall](wiki:Duncan_the_Tall)
+
+> His revolt had ended on the Redgrass Field, where Daemon and his twin sons died beneath a rain of Lord Bloodraven's arrows. Those rebels who survived and bent the knee were pardoned, but some lost land, some titles, some gold.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:221 · Narration summarizing the First Blackfyre Rebellion's end and the terms given to surviving rebels.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> Old fools and young malcontents still make pilgrimages to the Redgrass Field to plant flowers on the spot where Daemon Blackfyre fell. I will not suffer Whitewalls to become another monument to the Black Dragon.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1995 · Bloodraven cites the ongoing Blackfyre martyr-cult pilgrimages to the Redgrass Field as reason to raze Whitewalls.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> Young Aemon took up Blackfyre when the blade slipped from his dying father's fingers, so Bloodraven slew him, too, the younger of the twins. Thus perished the black dragon and his sons.
+>
+> — sources/chapters/tss/tss-dunk-01.md:703 · Eustace's detailed account of Daemon and his twin sons' deaths on the Redgrass Field.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> "A great battle is a terrible thing," the old knight said "but in the midst of blood and carnage, there is sometimes also beauty, beauty that could break your heart. I will never forget the way the sun looked when it set upon the Redgrass Field . . . ten thousand men had died, and the air was thick with moans and lamentations, but above us the sky turned gold and red and orange, so beautiful it made me weep to know that my sons would never see it."
+>
+> — sources/chapters/tss/tss-dunk-01.md:699 · Eustace's beauty-in-carnage recollection of the sunset over the Redgrass Field.  _(capture: chapter-quote sweep, description)_
+

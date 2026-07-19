@@ -91,3 +91,32 @@ Daenerys: What are they?
 Illyrio: Dragon's eggs, from the [Shadow Lands](wiki:Shadow_Lands) beyond [Asshai](wiki:Asshai). The eons have turned them to stone, yet still they burn bright with beauty.
 Jorah: Gluttons are greedy men as a rule, and [magisters](wiki:Magisters) are devious. [Illyrio Mopatis](wiki:Illyrio_Mopatis) is both. What do you truly know of him?
 Daenerys: I know that he gave me my dragon eggs.
+
+> "King Aegon presented the egg to his father's father after guesting for a night at his old castle," said Ser Maynard Plumm.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:343 · Plumm relates how the dragon's egg -- the tourney prize -- came into House Butterwell's keeping.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> "The dragon's egg? Is that the champion's prize? Truly?" The last dragon had perished half a century ago.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:341 · Dunk and Egg's astonished reaction on learning the dragon's egg is the tourney's champion prize.  _(capture: chapter-quote sweep, foreshadow-hook)_
+
+> "I'd show you mine, ser, but it's at Summerhall."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:461 · Egg's aside that he too owns a dragon's egg, kept at Summerhall.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> Ser Uthor chuckled. "There's just the joust, I fear, but besides the dragon's egg, Lord Butterwell has promised thirty golden dragons for the loser of the final tilt, and ten each for the knights defeated in the round before."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:569 · The tourney's stakes -- the dragon's egg plus gold prizes -- draw Dunk toward entering.  _(capture: chapter-quote sweep, foreshadow-hook)_
+
+> The scales were smooth beneath his fingers, and the deep, rich red seemed to shimmer as he turned the egg in his hands. Blood and flame, he thought, but there were gold flecks in it as well, and whorls of midnight black.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:733 · Dunk's close description of Butterwell's dragon's egg, the tourney prize the conspirators covet.  _(capture: chapter-quote sweep, description)_
+
+> And now they have taken the egg, the dragon's egg my grandsire had from the king himself as a reward for leal service. It was there this morning when I woke, and my guards swear no one entered or left the bedchamber.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1695 · Butterwell laments the theft of the dragon's egg, a royal gift for his grandsire's loyal service.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> Or else the dragon's hatched, thought Dunk. If a living dragon appeared again in Westeros, the lords and smallfolk alike would flock to whichever prince could lay claim to it.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1699 · Dunk's realization that a living dragon would be an unstoppable kingmaking prize.  _(capture: chapter-quote sweep, prophecy)_
+

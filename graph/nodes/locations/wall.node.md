@@ -197,3 +197,8 @@ Melisandre thinks she is stronger than she has ever been while at the Wall.(wiki
 > Winter is coming, and with it the [white walkers](wiki:Others). The Wall is where we stop them. The Wall was made to stop them ... but the Wall must be manned.(wiki:Wall.cite_ref-Radwd53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-1)
 >
 > —[Jon Snow](wiki:Jon_Snow) to [Bowen Marsh](wiki:Bowen_Marsh)
+
+> "Well," said Egg. "I hear it's tall."
+>
+> — sources/chapters/tss/tss-dunk-01.md:1809 · Closing line turning Dunk and Egg north toward the Wall instead of south to Summerhall.  _(capture: chapter-quote sweep, foreshadow-hook)_
+

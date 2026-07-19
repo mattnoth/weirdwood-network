@@ -15,3 +15,9 @@ Ice dragons are creatures of legend told in Old Nan's stories at Winterfell. The
 
 ## Edges
 
+## Quotes
+
+> Dunk need only lift his eyes to find familiar friends: the Stallion and the Sow, the King's Crown and the Crone's Lantern, the Galley, Ghost, and Moonmaid. But there were clouds to the north, and the blue eye of the Ice Dragon was lost to him, the blue eye that pointed north.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1205 · The Ice Dragon constellation and its north-pointing blue eye, obscured by smoke.  _(capture: chapter-quote sweep, description)_
+

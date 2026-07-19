@@ -23,3 +23,10 @@ first night abolished, taking a bride ruled rape
 <!-- fab-enriched: fab-jaehaerys-and-alysanne-triumphs-12-p02-2026-07-09 -->
 
 first night abolished, taking a bride ruled rape
+
+## Quotes
+
+> how Queen Alysanne convinced King Jaehaerys to abolish the first night
+>
+> — sources/chapters/tss/tss-dunk-01.md:339 · Egg cites Alysanne's persuasion of Jaehaerys I to abolish the lord's right of the first night.  _(capture: chapter-quote sweep, targaryen-history)_
+

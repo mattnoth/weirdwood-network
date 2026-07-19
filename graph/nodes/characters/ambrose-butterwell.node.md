@@ -59,3 +59,12 @@ Either Lord Ambrose Butterwell or his grandfather was renowned for his wit, but 
 > Treason is no less vile because the traitor proves a craven. I have heard your bleatings, Lord Ambrose, and I believe one word in ten. On that account I will allow you to retain a tenth part of your fortune. You may keep [your wife](wiki:Lady_Butterwell) as well. I wish you joy of her.(wiki:Ambrose_Butterwell.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-13)
 >
 > —[Brynden Rivers](wiki:Brynden_Rivers) to Ambrose
+
+> Though uninvited, the three of them had been welcomed to the feast quick enough; it was ill luck to refuse a knight hospitality on your wedding day.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:513 · The custom that a wedding host must not turn away a knight, even uninvited hedge knights.  _(capture: chapter-quote sweep, hospitality)_
+
+> "This ... this was ill done," Butterwell finally managed. He turned to Dunk and Egg. "We must be gone from Whitewalls before those two bring word of this to Gormon Peake. He has more friends amongst the guests than I do. The postern gate in the north wall, we'll slip out there ... come, we must make haste."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1779 · Butterwell abandons his own wedding feast and flees his own castle after the sept killing.  _(capture: chapter-quote sweep, hospitality)_
+

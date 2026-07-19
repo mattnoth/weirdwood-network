@@ -56,3 +56,10 @@ The house's history spans five rebellions against the Targaryens. The First Blac
 ## Notes
 
 The wiki states the male line is extinct as of 260 AC; the female line's status is unaddressed. The potential Blackfyre identity of "Young Griff"/Aegon is a major fan theory but not confirmed canon — that analysis belongs to Pass 5+.
+
+## Quotes
+
+> "Daemon Blackfyre sired seven sons. Two died upon the Redgrass Field, twins. . ."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1569 · Cockshaw enumerates Daemon Blackfyre's seven sons and the twins lost at the Redgrass Field.  _(capture: chapter-quote sweep, targaryen-history)_
+

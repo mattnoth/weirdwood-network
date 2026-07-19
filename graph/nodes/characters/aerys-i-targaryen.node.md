@@ -73,3 +73,24 @@ After learning of the death of Maester Aemon, Aerys's nephew, at the age of 102,
 
 His Grace cares more for old scrolls and dusty prophecies than for [lords](wiki:Lord) and [laws](wiki:Law_and_justice). He will not even bestir himself to sire an heir. Queen [Aelinor](wiki:Aelinor_Penrose) prays daily at the [Great Sept](wiki:Great_Sept_of_Baelor), beseeching the [Mother Above](wiki:Mother_(the_Seven)) to bless her with a child, yet she remains a [maid](wiki:Maiden). Aerys keeps his own apartments, and it is said he would sooner take a book to bed than any woman.(wiki:Aerys_I_Targaryen.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-5)
 In [Dagon](wiki:Dagon_Greyjoy)'s day a weak king sat the [Iron Throne](wiki:Iron_Throne), his rheumy eyes fixed across the [narrow sea](wiki:Narrow_sea) where [bastards](wiki:Aegor_Rivers) and [exiles](wiki:House_Blackfyre) plotted [rebellion](wiki:Blackfyre_Pretenders). So forth from [Pyke](wiki:Pyke) Lord Dagon sailed, to make the [Sunset Sea](wiki:Sunset_Sea) his own.(wiki:Aerys_I_Targaryen.cite_ref-Radwd63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1)
+
+> Bloodraven put King Aerys on the Iron Throne, but for how long?
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:381 · Kyle the Cat states plainly that Bloodraven made Aerys I king, and questions how long that arrangement can hold.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> Aerys is weak. A bookish man, and no warrior. The commons hardly know him, and what they know they do not like. His lords love him even less. His father was weak as well, that is true, but when his throne was threatened he had sons to take the field for him. Baelor and Maekar, the hammer and the anvil ... but Baelor Breakspear is no more, and Prince Maekar sulks at Summerhall, at odds with king and Hand.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1461 · Lord Peake lays out Aerys I's succession weakness now that Baelor Breakspear, one of his two strong sons, is dead.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> He will not even bestir himself to sire an heir. Queen Aelinor prays daily at the Great Sept, beseeching the Mother Above to bless her with a child, yet she remains a maid.
+>
+> — sources/chapters/tss/tss-dunk-01.md:941 · King Aerys I's neglect of siring an heir; Queen Aelinor's unconsummated marriage.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> As for Aerys, His Grace cares more for old scrolls and dusty prophecies than for lords and laws.
+>
+> — sources/chapters/tss/tss-dunk-01.md:941 · King Aerys I's preoccupation with prophecy over governance.  _(capture: chapter-quote sweep, prophecy)_
+
+> Aerys keeps his own apartments, and it is said that he would sooner take a book to bed than any woman.
+>
+> — sources/chapters/tss/tss-dunk-01.md:943 · King Aerys I's neglect of Queen Aelinor and refusal to sire an heir.  _(capture: chapter-quote sweep, targaryen-history)_
+

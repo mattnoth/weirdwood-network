@@ -176,6 +176,10 @@ Maegor wore his father's [Valyrian steel](wiki:Valyrian_steel)-and-ruby [crown](
 > Many to this day believe it was the Iron Throne itself that killed him.
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-sons-of-the-dragon-05-p03.md:243`)
 
+> 'Twas Aegon's son King Maegor who took Coldmoat from us, when Lord Ormond Osgrey spoke out against his supression of the Stars and Swords, as the Poor Fellows and the Warrior's Sons were called.
+>
+> — sources/chapters/tss/tss-dunk-01.md:547 · King Maegor I's seizure of Coldmoat from House Osgrey over Ormond Osgrey's opposition to his suppression of the Faith militant.  _(capture: chapter-quote sweep, targaryen-history)_
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-sons-of-the-dragon-05-p01-2026-07-07 -->

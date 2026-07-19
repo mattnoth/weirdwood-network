@@ -61,3 +61,8 @@ After the surrender of Highgarden, Aegon marched north to the [Red Fork](wiki:Re
 > It was the only time that [Vhagar](wiki:Vhagar), [Meraxes](wiki:Meraxes), and [Balerion](wiki:Balerion) were all unleashed at once. The singers called it the Field of Fire.(wiki:Field_of_Fire.cite_ref-Ragot13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
 >
 > —thoughts of [Tyrion Lannister](wiki:Tyrion_Lannister)
+
+> The last of the green kings perished on that field, with the finest flowers of the Reach around him. My father said the dragonfire burned so hot that their swords melted in their hands.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1437 · Eustace's account of the Field of Fire as the origin of House Osgrey's decline.  _(capture: chapter-quote sweep, targaryen-history)_
+

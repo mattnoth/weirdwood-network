@@ -52,3 +52,12 @@ Half a mile from Whitewalls was a spreading elm tree with cows grazing nearby.(w
 > I mean to pull it down stone by stone and sow the ground that it stands upon with salt. In twenty years, no one will remember it existed. Old fools and young malcontents still make pilgrimages to the [Redgrass Field](wiki:Redgrass_Field) to plant flowers on the spot where [Daemon Blackfyre](wiki:Daemon_I_Blackfyre) fell. I will not suffer Whitewalls to become another monument to the [Black Dragon](wiki:House_Blackfyre).(wiki:Whitewalls.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13)
 >
 > —[Brynden Rivers](wiki:Brynden_Rivers) to [Ambrose Butterwell](wiki:Ambrose_Butterwell)
+
+> Whitewalls was almost new as castles went, having been raised a mere forty years ago by the grandsire of its present lord. The smallfolk hereabouts called it the Milk house, for its walls and keeps and towers were made of finely dressed white stone, quarried in the Vale and brought over the mountains at great expense. Inside were floors and pillars of milky white marble veined with gold; the rafters overhead were carved from the bone-pale trunks of weirwoods.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:509 · Description of Whitewalls castle: white stone walls, the "Milk house" nickname, and weirwood rafters.  _(capture: chapter-quote sweep, description)_
+
+> "Forfeit to the Iron Throne. I mean to pull it down stone by stone and sow the ground that it stands upon with salt. In twenty years, no one will remember it existed.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1995 · Bloodraven condemns Whitewalls itself to be razed and salted for the treason hosted there.  _(capture: chapter-quote sweep, hospitality)_
+

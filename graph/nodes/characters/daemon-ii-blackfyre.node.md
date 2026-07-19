@@ -115,3 +115,56 @@ Mercurial in temperament,(wiki:Daemon_II_Blackfyre.cite_ref-Rawoiafdaemon_ii_bla
 > There have always been [Targaryens](wiki:House_Targaryen) who [dreamed](wiki:Dream) of things to come, since long before the [Conquest](wiki:War_of_Conquest), so we should not be surprised if from time to time a [Blackfyre](wiki:House_Blackfyre) displays the gift as well. Daemon dreamed that a [dragon](wiki:Dragon) would be born at [Whitewalls](wiki:Whitewalls), and it was. The fool just got [the color wrong](wiki:Aegon_V_Targaryen).(wiki:Daemon_II_Blackfyre.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-28)
 >
 > —[Brynden Rivers](wiki:Brynden_Rivers)
+
+> I am a vagabond hedge knight like yourself. Ser John the Fiddler, I am called.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:155 · The mystery hedge knight's cover introduction as "Ser John the Fiddler" -- later revealed as Daemon Blackfyre II.  _(capture: chapter-quote sweep, cross-identity)_
+
+> "Perchance we'll meet again someday. I hope so. I should love to try my lance on you."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:187 · The Fiddler's recurring, foreshadowing wish to joust Dunk.  _(capture: chapter-quote sweep, foreshadow-hook)_
+
+> I can make sweet song with either lance or resined bow, as it happens. Every wedding needs a singer, and every tourney needs a mystery knight. May I join you?
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:633 · The Fiddler frames himself as the tourney's mystery knight, hinting he already knows more than he lets on.  _(capture: chapter-quote sweep, cross-identity)_
+
+> "A dragon would. The prince insists the egg will hatch. He dreamed it, just as he once dreamed his brothers dead. A living dragon will win us all the swords that we would want."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:683 · A conspirator relays that "the prince" (Daemon II) insists his dragon-hatching dream is true, just as his earlier dream of his brothers' deaths came true.  _(capture: chapter-quote sweep, prophecy)_
+
+> I suppose that means I'll have to take the throne, then. I would much rather be teaching you to fiddle.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:775 · The Fiddler's rueful admission that he means to claim the Iron Throne.  _(capture: chapter-quote sweep, cross-identity)_
+
+> I dreamed it. This pale white castle, you, a dragon bursting from an egg, I dreamed it all, just as I once dreamed of my brothers lying dead. They were twelve and I was only seven, so they laughed at me, and died. I am two-and-twenty now, and I trust my dreams.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:787 · The Fiddler (Daemon II) links his boyhood dream of his brothers' deaths to his present dream of Whitewalls and the dragon's egg.  _(capture: chapter-quote sweep, cross-identity)_
+
+> He refuses to take ransoms. He wants no more than the dragon's egg, he says ... that, and the friendship of his fallen foes.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1095 · The Fiddler's chivalric refusal of ransoms as he pursues only the dragon's egg prize.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> The Fiddler had dismounted, to help his fallen foe back to his feet. He is one step closer to his dragon's egg, Dunk thought, and where am I?
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1073 · Dunk's envious tally of the Fiddler's advance toward the egg he dreamed would hatch.  _(capture: chapter-quote sweep, prophecy)_
+
+> No. He is Daemon of House Blackfyre, the Second of His Name. Or so he would style himself, if ever he achieves the Iron Throne. You would be surprised to know how many lords prefer their kings brave and stupid.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1601 · Alyn Cockshaw's in-text reveal that the hedge knight "Ser John the Fiddler" is the Blackfyre pretender Daemon II.  _(capture: chapter-quote sweep, cross-identity)_
+
+> And if the dream the prince has dreamed comes true, and a living dragon comes forth here at Whitewalls. . .
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1467 · Lord Peake's speculation that the whole rising pivots on Daemon II's prophetic dragon-hatching dream.  _(capture: chapter-quote sweep, prophecy)_
+
+> Your sword. I would make you mine own man, and raise you high. My dreams do not lie, Ser Duncan. You will have that white cloak, and I must have the dragon's egg. I must, my dreams have made that plain.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:803 · The Fiddler's (Daemon II's) recurring claim that his prophetic dreams do not lie.  _(capture: chapter-quote sweep, prophecy)_
+
+> "--is Daemon, aye. They told me. The Black Dragon." Ser Glendon laughed. "My father died for him. I would have been his man, and gladly. I would have fought for him, killed for him, died for him, but I could not lose for him."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1897 · Ser Glendon's reaction confirms the in-hall reveal that Ser John the Fiddler is Daemon Blackfyre, the pretender.  _(capture: chapter-quote sweep, cross-identity)_
+
+> He was a fiddler no more. In place of swords and fiddles, the trapping of his warhorse now displayed the three-headed dragon of House Blackfyre, black on a field of red. The prince had washed the black dye from his hair as well, so it flowed down to his collar in a cascade of silver and gold that glimmered like beaten metal in the torchlight.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1915 · Daemon II drops his Fiddler disguise entirely, riding out under the Blackfyre dragon with his hair undyed.  _(capture: chapter-quote sweep, cross-identity)_
+

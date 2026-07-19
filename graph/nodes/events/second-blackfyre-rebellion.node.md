@@ -85,3 +85,8 @@ Duncan found [Lord Frey](wiki:Lord_Frey) in the company of Lord [Brynden Rivers]
 > **Daemon**: They cannot cow us for [our cause](wiki:Blackfyre_Pretenders) is just. We'll slash through them and ride hell-bent for [King's Landing](wiki:King's_Landing)! Sound the trumpets! **Squire**: Piss on that, fiddle boy. I'd sooner live.(wiki:Second_Blackfyre_Rebellion.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-17)
 >
 > —[Daemon II Blackfyre](wiki:Daemon_II_Blackfyre) and a squire
+
+> The First Blackfyre Rebellion had perished on the Redgrass Field in blood and glory. The Second Blackfyre Rebellion ended with a whimper.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1949 · Narration frames the Whitewalls rising (the Second Blackfyre Rebellion) against the first, on the Redgrass Field.  _(capture: chapter-quote sweep, targaryen-history)_
+

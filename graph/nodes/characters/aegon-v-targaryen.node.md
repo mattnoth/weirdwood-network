@@ -173,3 +173,132 @@ Before departing [Castle Black](wiki:Castle_Black), Aemon told [Jon Snow](wiki:J
 > All three of the sons of the fifth Aegon had wed for love in defiance of their father's wishes. And because that unlikely monarch had followed his heart when he chose [his queen](wiki:Betha_Blackwood), he allowed his sons to have their way, making bitter enemies when he might have made fast friends. Treason and turmoil followed, as night follows day, ending at [Summerhall](wiki:Summerhall) in [sorcery, fire and grief](wiki:Tragedy_at_Summerhall).(wiki:Aegon_V_Targaryen.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-1)
 >
 > —thoughts of [Barristan Selmy](wiki:Barristan_Selmy)
+
+> "I cut it off, brother," said Egg. "I didn't want to look like you."
+>
+> — sources/chapters/thk/thk-dunk-01.md:911 · Egg's own confession that he cut his own hair to conceal his Targaryen coloring from Aerion.  _(capture: chapter-quote sweep, cross-identity)_
+
+> It's short for Aegon. My brother Aemon named me Egg. He's off at the Citadel now, learning to be a maester. And Daeron sometimes calls me Egg as well, and so do my sisters.
+>
+> — sources/chapters/thk/thk-dunk-01.md:947 · Squire 'Egg' reveals his true name is Prince Aegon Targaryen, naming his siblings.  _(capture: chapter-quote sweep, cross-identity)_
+
+> The boy hesitated. "Egg," he said.
+>
+> — sources/chapters/thk/thk-dunk-01.md:273 · The stableboy gives only his nickname 'Egg,' withholding his true identity as Prince Aegon Targaryen.  _(capture: chapter-quote sweep, cross-identity)_
+
+> He had blue eyes, Dunk saw, very dark, almost purple. His bald head made them seem huge, somehow.
+>
+> — sources/chapters/thk/thk-dunk-01.md:305 · Egg's eyes described as almost-purple — the Targaryen coloring hint left unconnected in this unit.  _(capture: chapter-quote sweep, cross-identity)_
+
+> "No they won't." Egg moved closer. "If they do, they'll answer to my father. And my uncle as well. Let go of him, I said. Wate, Yorkel, you know me. Do as I say."
+>
+> — sources/chapters/thk/thk-dunk-01.md:905 · Egg invokes his father (Maekar) and uncle (Baelor) to command Aerion's men-at-arms off Dunk — a princely-authority reveal.  _(capture: chapter-quote sweep, cross-identity)_
+
+> It was him shaved my head. He knew my father would send men hunting us.
+>
+> — sources/chapters/thk/thk-dunk-01.md:955 · Egg explains Daeron shaved his head to hide his silver-gold Targaryen hair while the brothers fled Summerhall.  _(capture: chapter-quote sweep, cross-identity)_
+
+> It was your squire who came to me. The boy, Aegon.
+>
+> — sources/chapters/thk/thk-dunk-01.md:1213 · Dunk's squire 'Egg' is named in-text as Aegon by Lyonel Baratheon.  _(capture: chapter-quote sweep, cross-identity)_
+
+> "Me?" Dunk's mouth opened and closed and opened again. "Egg . . . Aegon, I mean, he is a good lad, but, Your Grace, I know you honor me, but . . . I am only a hedge knight."
+>
+> — sources/chapters/thk/thk-dunk-01.md:1529 · Dunk stumbles over Egg's true name Aegon in front of Prince Maekar, confirming the identity to the reader in Dunk's own voice.  _(capture: chapter-quote sweep, cross-identity)_
+
+> "Aegon," he repeated. "Of course it would be Aegon. Like Aegon the Dragon. How many Aegons have been king?"
+>
+> — sources/chapters/thk/thk-dunk-01.md:949 · Dunk connects Egg's true name to the royal line of Aegons, setting up the count of four kings named Aegon.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> The youngest boy was with him as well. They left Summerhall together but never reached Ashford.
+>
+> — sources/chapters/thk/thk-dunk-01.md:865 · Raymun's report that Maekar's youngest son (Egg) is missing with Daeron — foreshadowing the boy's concealed identity as Aegon.  _(capture: chapter-quote sweep, foreshadow-hook)_
+
+> His squire was not bald by chance. Egg had the purple eyes of old Valyria, and hair that shone like beaten gold and strands of silver woven together.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:83 · Dunk's private thought naming the Targaryen features (purple eyes, gold/silver hair) Egg's shaved head is meant to hide.  _(capture: chapter-quote sweep, cross-identity)_
+
+> "Well," said Egg, "we could use my boot to get across."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:79 · Egg's concealed "boot" (a token of rank/means) offered as a shortcut, immediately shut down by Dunk as too dangerous.  _(capture: chapter-quote sweep, cross-identity)_
+
+> "A short one, ser." Egg knew better than to admit that Egg was short for Aegon. Not to men he did not know.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:305 · Narration confirming Egg's name is short for Aegon, and that he conceals this from strangers.  _(capture: chapter-quote sweep, cross-identity)_
+
+> Dunk was so used to Egg that sometimes he forgot Aegon was a prince. Of course they'd put a dragon egg inside his cradle.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:473 · Narration confirms Egg is a Targaryen prince who was cradled with a dragon's egg at birth.  _(capture: chapter-quote sweep, cross-identity)_
+
+> "To keep my hair shaved or dyed," the boy said with obvious reluctance, " and tell no man my true name."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:903 · Egg recites his father Prince Maekar's charge to conceal his identity.  _(capture: chapter-quote sweep, cross-identity)_
+
+> Aye, thought Dunk, and now some fool hedge knight has delivered his favorite son into the hands of his enemies. How better to ensure that the prince never stirs from Summerhall?
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1463 · Dunk's realization that he has unwittingly delivered Prince Maekar's son Egg into the conspiracy's reach.  _(capture: chapter-quote sweep, cross-identity)_
+
+> I knew I was in trouble when the maester showed Lord Butterwell my ring. I thought about saying that I'd stolen it, but I didn't think he would believe me. Then I remembered this one time I heard my father talking about something Lord Bloodraven said, about how it was better to be frightening than frightened, so I told them that my father had sent us here to spy for him, that he was on his way here with an army, that His Lordship had best release me and give up this treason, or it would mean his head.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1723 · Egg talks his way out of danger by invoking Bloodraven's maxim, exposed as Prince Maekar's son by his own ring.  _(capture: chapter-quote sweep, cross-identity)_
+
+> Egg did not flinch. "You know who I am, cousin."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:2029 · Egg confronts Bloodraven and names their kinship on the page -- Prince Aegon, the king's cousin.  _(capture: chapter-quote sweep, cross-identity)_
+
+> And then, well . . . might be a spotted spider's bite can kill a lion, but a dragon is a different sort of beast.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1561 · Dunk implies Targaryen backing for Egg via the hidden signet, revealing his dragon blood to Rohanne without naming him.  _(capture: chapter-quote sweep, cross-identity)_
+
+> He isn't, though. This egg had been hatched of dragons, not of chickens.
+>
+> — sources/chapters/tss/tss-dunk-01.md:441 · Narration undercuts Egg's stableboy cover, marking him as dragon-blooded.  _(capture: chapter-quote sweep, cross-identity)_
+
+> In the dimness of the lamplit cellar they looked black, but in better light their true color could be seen: deep and dark and purple. Valyrian eyes, thought Dunk. In Westeros, few but the blood of the dragon had eyes that color, or hair that shone like beaten gold and strands of silver woven all together.
+>
+> — sources/chapters/tss/tss-dunk-01.md:445 · Egg's shaved head conceals him, but his deep-purple Valyrian eyes betray dragon blood.  _(capture: chapter-quote sweep, description)_
+
+> He never sweated much. He liked the heat. In Dorne he went about bare-chested, and turned brown as a Dornishman. It is his dragon blood, Dunk told himself.
+>
+> — sources/chapters/tss/tss-dunk-01.md:59 · Dunk privately attributes Egg's heat tolerance to his hidden dragon blood.  _(capture: chapter-quote sweep, cross-identity)_
+
+> If he had an inkling who you were, he'd piss himself before he laid a finger on you.
+>
+> — sources/chapters/tss/tss-dunk-01.md:325 · Dunk's private thought guarding Egg's concealed highborn/dragon identity from Bennis.  _(capture: chapter-quote sweep, cross-identity)_
+
+> Aegon of House Targaryen was the fourth and youngest son of Maekar, Prince of Summerhall, himself the fourth son of the late King Daeron the Good, the Second of His Name, who'd sat the Iron Throne for five-and-twenty years until the Great Spring Sickness took him off.
+>
+> — sources/chapters/tss/tss-dunk-01.md:441 · Full in-text genealogical reveal of Egg's true identity as Prince Aegon Targaryen.  _(capture: chapter-quote sweep, cross-identity)_
+
+> "To keep my hair shaved or dyed, and tell no man my true name," the boy said, with obvious reluctance.
+>
+> — sources/chapters/tss/tss-dunk-01.md:437 · Maekar's standing order to Egg, the concealment mechanic running through the novellas.  _(capture: chapter-quote sweep, cross-identity)_
+
+> Eight for them and one for me and one for old Ser Useless, and one last one for your bald-head boy.
+>
+> — sources/chapters/tss/tss-dunk-01.md:503 · Dunk's nightmare names a grave for Egg among the doomed Standfast recruits.  _(capture: chapter-quote sweep, foreshadow-hook)_
+
+> I thought how you should speak to Lady Webber, ser. You should win her to your side with gallant compliments.
+>
+> — sources/chapters/tss/tss-dunk-01.md:727 · Egg coaches Dunk on gallantry before the meeting with Rohanne.  _(capture: chapter-quote sweep, description)_
+
+> "I call it being wroth," Egg declared loftily. "His Grace should have made my father Hand. He's his brother , and the finest battle commander in the realm since Uncle Baelor died.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1185 · Egg's royal identity is established through his father Prince Maekar, King Aerys's brother.  _(capture: chapter-quote sweep, cross-identity)_
+
+> "A signet. Gold and onyx." Her green eyes narrowed as she studied the seal. "Where did you find this, ser?" "In a boot. Wrapped in rags and stuffed up in the toe."
+>
+> — sources/chapters/tss/tss-dunk-01.md:1547 · Dunk shows Rohanne the hidden Targaryen signet ring, gesturing at Egg's concealed identity without naming him.  _(capture: chapter-quote sweep, cross-identity)_
+
+> "Please reconsider, ser. These are perilous times, even for dragons and their friends. Stay until you've healed."
+>
+> — sources/chapters/tss/tss-dunk-01.md:1743 · Rohanne obliquely acknowledges Egg's dragon nature while urging Dunk to stay.  _(capture: chapter-quote sweep, cross-identity)_
+
+> And Egg can join my other squires. No one need ever know who he is.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1739 · Rohanne offers to shelter Egg's concealed identity among her own squires.  _(capture: chapter-quote sweep, cross-identity)_
+
+> "The Wall is north."
+>
+> — sources/chapters/tss/tss-dunk-01.md:1801 · At the crossroads, Egg points Dunk north toward the Wall instead of south to Summerhall.  _(capture: chapter-quote sweep, foreshadow-hook)_
+

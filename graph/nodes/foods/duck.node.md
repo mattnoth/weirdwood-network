@@ -63,3 +63,16 @@ Ducks are served at the [Gates of the Moon](wiki:Gates_of_the_Moon).(wiki:Duck.c
 Alysanne: A hundred naked men would frighten [her](wiki:Daella_Targaryen). Jaehaerys: A hundred naked ducks would frighten her.(wiki:Duck.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
 Daenerys: What if I decide you're only worthy to be my [fool](wiki:Fool)? Or perhaps my cook? Barristan: I would be honored, Your Grace. I can bake apples and boil beef as well as any man, and I've roasted many a duck over a campfire. I hope you like them greasy, with charred skin and bloody bones.(wiki:Duck.cite_ref-Rasos71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
 Haldon: Tell [our little friend](wiki:Tyrion_Lannister) how you came by your name, why don't you? Rolly: A [knight](wiki:Knight) needs more than just the one name, and, well, we were in a field when [he](wiki:Jon_Connington) dubbed me, and I looked up and saw these ducks, so ... don't laugh, now.(wiki:Duck.cite_ref-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+> The lamb was as good as any he had ever eaten, and the duck was even better, cooked with cherries and lemons and not near as greasy as most.
+>
+> — sources/chapters/thk/thk-dunk-01.md:87 · Load-bearing inn-meal description marking Dunk's first taste of what he calls 'what it means to be a knight.'  _(capture: chapter-quote sweep, food)_
+
+> There's good lamb, roasted with a crust of herbs, and some ducks my son shot down. Which will you have?
+>
+> — sources/chapters/thk/thk-dunk-01.md:57 · The innkeep's offer of lamb and duck — the meal Dunk hasn't had in half a year.  _(capture: chapter-quote sweep, food)_
+
+> "A slice off the roast?" the boy said. "A bit of duck, a bowl of stew? Whatever they have, ser."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:55 · Egg's hungry wish-list of inn fare after days of hard salt beef on the road.  _(capture: chapter-quote sweep, food)_
+

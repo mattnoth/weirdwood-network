@@ -140,3 +140,16 @@ Daeron the Good was seen as wise, just, and kind-hearted.(wiki:Daeron_II_Targary
 
 > the Good, Queen Naerys’s son, by Aegon or Aemon [Daeron brought Dorne into the realm by wedding his sister to the Prince of Dorne.]
 > — Gyldayn's chronicle, F&B (`sources/chapters/fab/fab-lineages-and-family-tree-25.md:59`)
+
+> Good King Daeron had four grown sons, three with sons of their own.
+>
+> — sources/chapters/thk/thk-dunk-01.md:401 · Establishes Daeron II's four sons (Baelor, Aerys, Rhaegel, Maekar) and their own sons, the succession generation at Ashford.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> King Aerys was bearded on his coins, the same as old King Aegon. King Daeron, who'd come between them, had been clean-shaved, but this wasn't him.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1177 · Dunk works out the royal succession -- Aegon, then Daeron, then Aerys -- from the portraits on coinage.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> Daeron surrounded himself with maesters, septons, and singers. Always there were women whispering in his ear, and his court was full of Dornishmen. How not, when he had taken a Dornishwoman into his bed, and sold his own sweet sister to the prince of Dorne, though it was Daemon that she loved?
+>
+> — sources/chapters/tss/tss-dunk-01.md:1285 · Eustace's hostile portrait of King Daeron II's Dornish marriage-pact and court.  _(capture: chapter-quote sweep, targaryen-history)_
+

@@ -123,6 +123,38 @@ During the [second siege of Meereen](wiki:Second_siege_of_Meereen), when [House 
 >
 > —[Pylos](wiki:Pylos) to [Davos Seaworth](wiki:Davos_Seaworth)
 
+> "I did not think to enter the lists at Ashford, my lord, so I brought no armor. My son was good enough to lend me his."
+>
+> — sources/chapters/thk/thk-dunk-01.md:1309 · Baelor Breakspear reveals himself, fighting the trial of seven in his son Valarr's borrowed black armor, briefly mistaken for Valarr.  _(capture: chapter-quote sweep, cross-identity)_
+
+> I am speaking with Baelor Targaryen, Prince of Dragonstone, Hand of the King, and heir apparent to the Iron Throne of Aegon the Conqueror.
+>
+> — sources/chapters/thk/thk-dunk-01.md:605 · Baelor Breakspear's full titles and status as heir apparent, recognized by Dunk mid-conversation.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> I am the King's Hand and the heir to the throne, my word carries some weight. But so does my brother's. The risk is there.
+>
+> — sources/chapters/thk/thk-dunk-01.md:1023 · Baelor states his own authority as Hand of the King and heir, weighed against Maekar's, ahead of Dunk's trial.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> Baelor of House Targaryen, Prince of Dragonstone, Hand of the King, Protector of the Realm, and heir apparent to the Iron Throne of the Seven Kingdoms of Westeros, went to the fire in the yard of Ashford Castle on the north bank of River Cockleswent.
+>
+> — sources/chapters/thk/thk-dunk-01.md:1479 · Baelor Breakspear's full titles recited at his death and cremation.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> "Pour Ser Duncan a cup of the sweet Dornish red, Aegon," the prince commanded. "Try not to spill it on him, you've done him sufficient ill already."
+>
+> — sources/chapters/thk/thk-dunk-01.md:985 · Baelor's solar hospitality to Dunk before delivering the trial choice — wine poured by his own nephew Egg.  _(capture: chapter-quote sweep, hospitality)_
+
+> "Wine." The voice had a hollow metallic ring to it. "Not oil, that will kill him, boiling wine. I'll send Maester Yormwell to have a look at him when he's done tending my brother."
+>
+> — sources/chapters/thk/thk-dunk-01.md:1453 · Baelor prescribes boiling wine (not boiling oil) for Dunk's wound — maester's-craft treatment lore.  _(capture: chapter-quote sweep, description)_
+
+> The whole realm knew how Prince Maekar's mace had felled his brother Baelor Breakspear at Ashford Meadow. Talk of plots was only to be expected.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:887 · The realm's living memory of Baelor Breakspear's death, invoked amid talk of new plots.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> Ser Arlan had died of a chill, Prince Baelor of the blow his brother dealt him during Dunk's trial of seven, his son Valarr during the Great Spring Sickness.
+>
+> — sources/chapters/tss/tss-dunk-01.md:483 · Baelor Breakspear's death from Maekar's blow at Dunk's trial of seven.  _(capture: chapter-quote sweep, targaryen-history)_
+
 ## Edges
 
 - PARENT_OF: Baelor Targaryen ← Daeron II Targaryen (track_b: Father)

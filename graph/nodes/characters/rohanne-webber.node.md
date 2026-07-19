@@ -91,3 +91,40 @@ When she smiled, she looked a girl of five-and-ten, not a woman five-and-twenty.
 There has been a dearth of suitors. My good-sister is not hard to look upon, you will have noticed, and [a stout castle](wiki:Coldmoat) and broad lands add to her charms. You would think that younger sons and landless [knights](wiki:Knight) would swarm about her ladyship like flies. You would be wrong. The four dead husbands make them wary, and there are those who will say that she is barren, too... though never in her hearing, unless they yearn to see the inside of a [crow cage](wiki:Crow_cage). She has carried two children to term, a boy and a girl, but neither lived to see a [name day](wiki:Name_day). Those few who are not put off by talk of [poisonings](wiki:Poison) and [sorcery](wiki:Sorcery) want no part of the [the Longinch](wiki:Lucas_Inchfield).(wiki:Rohanne_Webber.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-37)
 She's not for the likes of you. She is too small, too clever, and much too dangerous.(wiki:Rohanne_Webber.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-38)
 Aegon: She said she wanted to give you [a new horse](wiki:Flame), ser. Duncan: Even [highborn](wiki:Highborn) ladies don’t get all they want. It wasn't a [horse](wiki:Horse) I wanted. I took something else to remember her by instead. A lock of that red hair.(wiki:Rohanne_Webber.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-39)
+
+> The Red Widow, she was called, for the husbands she had put into the ground. Old Sam Stoops said she was a witch, a poisoner, and worse.
+>
+> — sources/chapters/tss/tss-dunk-01.md:135 · Rohanne's fearsome local reputation as the Red Widow, witch and poisoner.  _(capture: chapter-quote sweep, description)_
+
+> The woman has a spider's heart. She murdered three of her husbands. And all her brothers died in swaddling clothes.
+>
+> — sources/chapters/tss/tss-dunk-01.md:297 · Eustace's account of Rohanne's reputation as a husband-killer.  _(capture: chapter-quote sweep, description)_
+
+> "You'd best not take any food or drink at Coldmoat, ser. The Red Widow poisoned all her husbands."
+>
+> — sources/chapters/tss/tss-dunk-01.md:609 · Egg's guest-right/poison warning before Dunk's embassy to Coldmoat.  _(capture: chapter-quote sweep, hospitality)_
+
+> It was the girl he had seen earlier at the archery butts. She had a quiver of arrows on one hip, and held a longbow that was just as tall as she was, which wasn't very tall.
+>
+> — sources/chapters/tss/tss-dunk-01.md:849 · Reveal that the young archer, not Lady Helicent, is the Red Widow herself.  _(capture: chapter-quote sweep, cross-identity)_
+
+> He wondered whether he and Egg would be offered hospitality at Coldmoat. A tankard of cool brown ale would go down well. Dunk was considering that prospect with pleasure when he remembered what Egg had said about the Red Widow poisoning her husbands. His thirst fled at once.
+>
+> — sources/chapters/tss/tss-dunk-01.md:711 · Poison-fear undercuts Dunk's hope for hospitality at Coldmoat.  _(capture: chapter-quote sweep, hospitality)_
+
+> "Don't drink the wine, ser," Egg whispered to him as they waited with the septon in her audience chamber.
+>
+> — sources/chapters/tss/tss-dunk-01.md:913 · Egg's poison warning as they wait to be received by the Red Widow.  _(capture: chapter-quote sweep, hospitality)_
+
+> "As the river is called the Mander, though the Manderlys were driven from its banks a thousand years ago. Highgarden is still Highgarden, though the last Gardener died on the Field of Fire. Casterly Rock teems with Lannisters, and nowhere a Casterly to be found. The world changes, ser.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1093 · Rohanne's argument that names outlast the bloodlines that gave them, justifying her claim to the Chequy Water.  _(capture: chapter-quote sweep, description)_
+
+> Only then did Lady Rohanne herself appear, astride a coal-black mare decked out in strands of silverly silk, like unto a spider's web. The Widow's cloak was made of the same stuff. It billowed from her shoulders and her wrists, as light as air.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1465 · Rohanne's spider-web-and-scale entrance at the stream for the trial by battle.  _(capture: chapter-quote sweep, description)_
+
+> "You are quite mad." The smoke had filled her eyes with tears. "If you were better born, I'd marry you."
+>
+> — sources/chapters/tss/tss-dunk-01.md:1585 · Rohanne's half-serious marriage line to Dunk after he cuts his own cheek.  _(capture: chapter-quote sweep, foreshadow-hook)_
+

@@ -66,6 +66,10 @@ Discussing both their fathers' objections to them becoming maesters, Maester Aem
 >
 > —[Kyle the Cat](wiki:Kyle_the_Cat) and [Aegon Targaryen](wiki:Aegon_V_Targaryen)
 
+> Prince Aerys was bookish and Prince Rhaegel mad, meek, and sickly.
+>
+> — sources/chapters/thk/thk-dunk-01.md:613 · Characterization of Daeron II's middle sons, who did not attend the tourney — Rhaegel described as mad, meek, and sickly.  _(capture: chapter-quote sweep, targaryen-history)_
+
 ## Edges
 
 - HOLDS_TITLE: Prince (track_b: Titles)

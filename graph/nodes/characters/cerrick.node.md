@@ -37,3 +37,8 @@ Cerrick was a young man in [211 AC](wiki:211_AC). His pinched face had dark bro
 > Count yourself fortunate that I am [ironborn](wiki:Ironborn). The [priests of the Drowned God](wiki:Priests_of_the_Drowned_God) know how to drown a man and bring him back, and I have made a study of their beliefs and customs.(wiki:Cerrick.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
 >
 > —Cerrick to [Duncan the Tall](wiki:Duncan_the_Tall)
+
+> Count yourself fortunate that I am ironborn. The priests of the Drowned God know how to drown a man and bring him back, and I have made a study of their beliefs and customs.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1677 · Maester Cerrick's ironborn Drowned God expertise, used to revive the drowned Dunk.  _(capture: chapter-quote sweep, description)_
+

@@ -58,3 +58,10 @@ Lord Beric has been reported as killed by Ser [Amory Lorch](wiki:Amory_Lorch) at
 ### A Feast for Crows[ ]
 
 [Brienne of Tarth](wiki:Brienne_of_Tarth) learns that when the brotherhood without banners encountered [Catelyn Stark](wiki:Catelyn_Stark)'s corpse by the riverside, Lord Beric gave her the "kiss of life" to bring her back, and died his final death. The brotherhood is now led by the revived Catelyn, Lady Stoneheart.(wiki:House_Dondarrion.cite_ref-Raffc42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-0) The heir to Blackhaven is unknown.
+
+## Quotes
+
+> He was the first Lord Dondarrion, so he took for his arms a forked purple lightning bolt, on a black field powdered with stars.
+>
+> — sources/chapters/thk/thk-dunk-01.md:537 · Origin tale of House Dondarrion's sigil, as Dunk recounts it to Ser Manfred Dondarrion.  _(capture: chapter-quote sweep, description)_
+

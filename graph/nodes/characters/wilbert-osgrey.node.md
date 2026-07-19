@@ -39,3 +39,8 @@ Ser Wilbert was the youngest of five brothers and so earned the name the Little 
 > **Eustace**: They fought for half a day, the gold lion and the chequy. The [Lannister](wiki:House_Lannister) was armed with a [Valyrian sword](wiki:Valyrian_steel) that no common steel can match, so the Little Lion was hard pressed, his shield in ruins. In the end, bleeding from a dozen grievous wounds with his own blade broken in his hand, he threw himself headlong at his foe. King [Lancel](wiki:Lancel_IV_Lannister) cut him near in half, the singers say, but as he died the Little Lion found the gap in the king's armor beneath his arm, and plunged his dagger home. When their king died, the [westermen](wiki:Westermen) turned back, and the [Reach](wiki:Reach) was saved. **Bennis**: Aye, m'lord, we could use a man like that today.(wiki:Wilbert_Osgrey.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
 >
 > —[Eustace Osgrey](wiki:Eustace_Osgrey) and [Bennis of the Brown Shield](wiki:Bennis_of_the_Brown_Shield)
+
+> "The Little Lion's shield." The old man rubbed at the rim, and some flakes of rust came off. "Ser Wilbert Osgrey bore this at the battle where he died. I am sure you know the tale."
+>
+> — sources/chapters/tss/tss-dunk-01.md:263 · Introduces the Little Lion's shield, relic of Ser Wilbert Osgrey's death in battle.  _(capture: chapter-quote sweep, description)_
+

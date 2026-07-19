@@ -129,6 +129,14 @@ Ser [Robert Strong](wiki:Robert_Strong) is named to the Kingsguard of King Tomme
 >
 > —[Visenya Targaryen](wiki:Visenya_Targaryen), advocating for better protection to [Aegon I Targaryen](wiki:Aegon_I_Targaryen) ahead of her creation of the Kingsguard
 
+> Their oath forbids them to harm a prince of the blood. Fortunately, I am such.
+>
+> — sources/chapters/thk/thk-dunk-01.md:1343 · Baelor exploits the Kingsguard oath forbidding harm to a prince of the blood, since he himself is one.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> It would not be fitting for us to ride against those we are sworn to protect," answered Ser Donnel, red of hair and beard.
+>
+> — sources/chapters/thk/thk-dunk-01.md:423 · The Kingsguard oath stated directly: sworn to protect the royal family, not to ride against those under their protection.  _(capture: chapter-quote sweep, other)_
+
 ## Fire & Blood
 
 <!-- fab-enriched: fab-reign-of-the-dragon-04-2026-07-10-recovery -->

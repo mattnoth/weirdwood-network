@@ -30,3 +30,8 @@ Beef is a common meat across Westeros, consumed in multiple forms: salt beef (cu
 > Maester Vyman returned at evenfall to minister to Lord Tully and bring Catelyn a modest supper of bread, cheese, and boiled beef with horseradish.
 
 — ASOS (Catelyn I), `sources/chapters/asos/asos-catelyn-01.md:81`
+
+> Daeron never slept in a ditch, I'll wager," Dunk said, very quietly, "and all the beef that Aerion ever ate was thick and rare and bloody, like as not.
+>
+> — sources/chapters/thk/thk-dunk-01.md:1545 · Dunk contrasts the princes' rich fare (thick, rare, bloody beef) with the hard salt beef of a hedge knight's road, refusing Summerhall.  _(capture: chapter-quote sweep, food)_
+

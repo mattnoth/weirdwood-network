@@ -48,3 +48,14 @@ The [maesters](wiki:Maesters) at the [Citadel](wiki:Citadel) have argued ever si
 Gormon was sour-mouthed, with a well-trimmed beard colored grey, black and white. He had [flinty](wiki:Flint) eyes.(wiki:Gormon_Peake.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
 
 An influential lord, Gormon was accounted a great [knight](wiki:Knight)(wiki:Gormon_Peake.cite_ref-Rawoiafgormon_peake.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) and considered one of the greatest warriors of his time.(wiki:Gormon_Peake.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
+
+## Quotes
+
+> "Only on his shield, ser. House Peake did hold three castles once, but two of them were lost."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:213 · Egg explains House Peake's reduced arms as the visible mark of Gormon Peake's Blackfyre attainder.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> "Just do your part as promised, and let me concern myself with that. Once we have Butterwell's gold and the swords of House Frey, Harrenhal will follow, then the Brackens. Otho knows he cannot hope to stand ..."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:687 · Lord Peake's plan to build the rebellion's muster house by house, starting with Butterwell and Frey.  _(capture: chapter-quote sweep, targaryen-history)_
+

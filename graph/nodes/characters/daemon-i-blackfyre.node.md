@@ -110,3 +110,16 @@ Daemon matured into a man of considerable charm and strength, mastering all weap
 > Daemon Blackfyre was a rebel and usurper.(wiki:Daemon_I_Blackfyre.cite_ref-22)
 >
 > —[Stannis Baratheon](wiki:Stannis_Baratheon), to [Justin Massey](wiki:Justin_Massey)
+
+> Rise up, I say, and remember our true king across the water. Seven gods there are, and seven kingdoms, and the Black Dragon sired seven sons!
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:27 · The septon's treasonous call to remember the Black Dragon (Daemon I Blackfyre) as the true king across the water.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> --the Pretender. Daemon Blackfyre struck his own coinage during his rebellion.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1181 · A Blackfyre gold coin, struck during Daemon I's rebellion, surfaces as "traitor's gold" at the tourney.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> Since the days of Aegon the Conquerer, the arms of House Targaryen had borne a three-headed dragon, red on black. Daemon the Pretender had reversed those colors on his own banners, as many bastards did.
+>
+> — sources/chapters/tss/tss-dunk-01.md:683 · Origin of the Blackfyre banner-color reversal.  _(capture: chapter-quote sweep, targaryen-history)_
+

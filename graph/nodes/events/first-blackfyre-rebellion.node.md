@@ -88,3 +88,16 @@ The [Great Spring Sickness](wiki:Great_Spring_Sickness), which began in [209 AC
 > Some [old dead king](wiki:Aegon_IV_Targaryen) gave [a sword](wiki:Blackfyre) to [one son](wiki:Daemon_I_Blackfyre) instead of [another](wiki:Daeron_II_Targaryen), that was the [start of it](wiki:Blackfyre_Pretenders).(wiki:First_Blackfyre_Rebellion.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-28)
 >
 > —thoughts of [Duncan the Tall](wiki:Duncan_the_Tall)
+
+> If Aegon the Unworthy had given his sword to his heir Daeron instead of his bastard Daemon, there might never have been a Blackfyre Rebellion, and Roger of Pennytree might be alive today.
+>
+> — sources/chapters/tss/tss-dunk-01.md:697 · Dunk's reflection that the sword-gift to Daemon was the rebellion's root cause.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> "If Daemon had ridden over Gwayne Corbray . . . if Fireball had not been slain on the eve of battle . . . if Hightower and Tarbeck and Oakheart and Butterwell had lent us their full strength instead of trying to keep one foot in each camp . . . if Manfred Lothston had proved true instead of treacherous . . . if storms had not delayed Lord Bracken's sailing with the Myrish crossbowmen . . . if Quickfinger had not been caught with the stolen dragon's eggs . . . so many if s, ser . . . had any one come out differently, it could all have turned t'other way.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1253 · Eustace's catalogue of near-misses that could have won the Blackfyre Rebellion for the black dragon.  _(capture: chapter-quote sweep, targaryen-history)_
+
+> Lord Wyman and Ser Eustace were fast friends, until the Blackfyre Rebellion.
+>
+> — sources/chapters/tss/tss-dunk-01.md:1699 · The Blackfyre Rebellion split a Webber-Osgrey friendship along the loyalist-rebel fault line.  _(capture: chapter-quote sweep, targaryen-history)_
+

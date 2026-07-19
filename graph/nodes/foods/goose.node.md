@@ -59,3 +59,8 @@ You fight like a goose. He pecks you and you peck him harder. Parry! Block the b
 Bronn: No taste for stuffed goose?
 Tyrion: Perhaps you should eat the goose and marry [the maid](wiki:Lollys_Stokeworth). Or better still, send [Shagga](wiki:Shagga).
 The [boar](wiki:Boar) can keep his tusks and the [bear](wiki:Bear) his claws. There's nothing half so mortal as a grey goose feather.(wiki:Goose.cite_ref-Rasos55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-0)
+
+> Dunk bought a sackful of foodstuffs, so they were able to break their fast on goose eggs; fried bread, and bacon, but when the food was cooked he found he had no appetite.
+>
+> — sources/chapters/thk/thk-dunk-01.md:699 · Tourney-morning breakfast of goose eggs, fried bread, and bacon — eaten without appetite before the first day's contests.  _(capture: chapter-quote sweep, food)_
+

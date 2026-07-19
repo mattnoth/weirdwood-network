@@ -80,3 +80,8 @@ The dungeons of [Riverrun](wiki:Riverrun) were not the cleanest place in the [Se
 > "And bring white cheese and a bowl of those cracked green olives we counted earlier!"
 >
 > — sources/chapters/asos/asos-davos-02.md:49 · Salladhor Saan's hospitality to the rescued, half-drowned Davos aboard the Pentoshi merchanter — white cheese and cracked green olives served alongside hot spiced wine; Lyseni guest-fare offered to a friend believed dead.  _(capture: harvest pass, food)_
+
+> We'll buy oats for the horses and fresh bread for ourselves. Maybe a bit of cheese as well, they were selling good cheese at one of the stalls.
+>
+> — sources/chapters/thk/thk-dunk-01.md:517 · Tourney-market fare Dunk plans to buy for himself and Egg.  _(capture: chapter-quote sweep, food)_
+

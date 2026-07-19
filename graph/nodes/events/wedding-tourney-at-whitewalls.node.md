@@ -23,3 +23,17 @@ sort_keys:
 
 ## Edges
 
+## Quotes
+
+> "Well met, ser. Come, ride with us to Whitewalls and break a few lances to help Lord Butterwell celebrate his new marriage. I'll wager you could give a good account of yourself."
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:159 · The Fiddler's invitation drawing Dunk and Egg toward the Whitewalls wedding tourney.  _(capture: chapter-quote sweep, hospitality)_
+
+> Before Dunk quite realized what was happening, John the Fiddler had dragged him to his feet. "Here!" he cried out. "Let the giant carry her!"
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:719 · The bedding-ceremony horseplay at the Whitewalls wedding feast, with Dunk dragooned into carrying the bride.  _(capture: chapter-quote sweep, hospitality)_
+
+> Lord Butterwell wanted a new young wife to warm his bed, and Lord Frey had a somewhat soiled daughter. Their nuptials provided a plausible pretext for some like-minded lords to gather. Most of those invited here fought for the Black Dragon once.
+>
+> — sources/chapters/tmk/tmk-dunk-01.md:1461 · The Butterwell-Frey wedding staged as a plausible pretext to gather former Blackfyre men.  _(capture: chapter-quote sweep, hospitality)_
+
