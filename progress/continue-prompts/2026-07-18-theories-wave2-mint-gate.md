@@ -1,7 +1,7 @@
-# SESSION 222 — Theories wave-2 MINT-GATE review with Matt (3 Jon Snow clusters)
+# SESSION 223 — Theories wave-2 MINT-GATE review with Matt (3 Jon Snow clusters)
 
-> **This is Session 222.** Stamp your worklog entry `### Session 222` at endsession.
-> **CHECK FIRST (rule 9):** grep `^### Session` in `worklog.md` — S220/S221 were claimed by the S219-era parallel windows (theory-toggle, and one more per Matt); if 222 is also taken, take the next free number and note it.
+> **This is Session 223** (S222 = the D&E integration+deploy session, 2026-07-19). Stamp your worklog entry `### Session 223` at endsession.
+> **CHECK FIRST (rule 9):** grep `^### Session` in `worklog.md` — S220/S221 were claimed by the S219-era parallel windows (theory-toggle, and one more per Matt); if 223 is also taken, take the next free number and note it.
 > **Recommended model: Fable** — mint-gate adjudication with Matt (wave-1 precedent, S218).
 > **This is a GRAPH-MUTATING session if Matt says go — never run alongside another graph-mutating window.**
 
