@@ -31,7 +31,7 @@ import {
 // ---- Locked config (S171). Swap the model via this ONE constant. ----
 // Deploy default stays Opus (committed → deploy-safe, no edit-and-revert risk).
 // Local dev overrides via WEIRWOOD_MODEL — web/scripts/dev.ts sets it to Sonnet. (S175)
-const MODEL = Deno.env.get("WEIRWOOD_MODEL") ?? "claude-opus-4-8"; // local: WEIRWOOD_MODEL=claude-sonnet-4-6
+const MODEL = Deno.env.get("WEIRWOOD_MODEL") ?? "claude-sonnet-5-5"; // switched from Opus 4.8 for cost (Nov 2026)
 const MAX_TOKENS = 4096; // a chat reply, not a document; bounds per-request cost
 const DAILY_SPEND_CAP_USD = 50; // global ceiling — the load-bearing cost control (raised 5→50 for Opus)
 const MAX_HISTORY_MESSAGES = 24; // cap conversation length the browser can replay

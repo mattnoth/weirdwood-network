@@ -60,6 +60,10 @@ export const MAX_TOOL_ITERATIONS = 10;
 export const PRICING: Record<string, { input: number; output: number }> = {
   "claude-opus-4-8": { input: 5, output: 25 },
   "claude-sonnet-4-6": { input: 3, output: 15 },
+  "claude-opus-5-5": { input: 4, output: 20 },
+  "claude-sonnet-5-5": { input: 2, output: 10 },
+  "claude-sonnet-5": { input: 2, output: 10 },
+  "claude-haiku-5-5": { input: 0.1, output: 0.5 },
 };
 
 // ---- Persona prompts (S185): two voices over ONE grounded engine ----
